@@ -1,0 +1,274 @@
+{
+  "name": "body06",
+  "children": [
+    {
+      "name": "body06_03.png",
+      "translation": [
+        62,
+        368.5,
+        0
+      ],
+      "anchor": [
+        64,
+        116.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/06/body06_03.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "body06_02.png",
+      "translation": [
+        615.5,
+        392.5,
+        0
+      ],
+      "anchor": [
+        92.5,
+        86.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/06/body06_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "body06_01.png",
+      "translation": [
+        324.5,
+        542.5,
+        0
+      ],
+      "anchor": [
+        199.5,
+        302.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/06/body06_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_invert_body_over_06",
+      "translation": [
+        398,
+        536,
+        0
+      ],
+      "anchor": [
+        61,
+        51,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/06/wf_invert_body_over_06.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_06_head_01",
+      "translation": [
+        264,
+        146,
+        0
+      ],
+      "anchor": [
+        103,
+        153,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/06/wf_pose_06_head_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_05_head_02",
+      "translation": [
+        271.75,
+        152.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.173,
+        0.984
+      ],
+      "anchor": [
+        103,
+        137,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/05/wf_pose_05_head_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wf_pose_05_head_02.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "wf_pose_06_head_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "wf_invert_body_over_06.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "body06_01.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "body06_02.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "body06_03.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "wf_pose_05_head_02",
+        "wf_pose_06_head_01",
+        "wf_invert_body_over_06",
+        "body06_01.png",
+        "body06_02.png",
+        "body06_03.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "willferris_opt.aep",
+  "version": 1
+}

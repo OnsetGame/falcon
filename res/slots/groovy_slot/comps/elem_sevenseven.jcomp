@@ -1,0 +1,327 @@
+{
+  "name": "elem_sevenseven",
+  "children": [
+    {
+      "name": "elem_sevenseven_jump",
+      "translation": [
+        0,
+        0.5,
+        0
+      ],
+      "anchor": [
+        256,
+        512,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "elem_sevenseven_jump",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "elem_sevenseven_win",
+      "translation": [
+        0,
+        0.5,
+        0
+      ],
+      "anchor": [
+        256,
+        512,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "elem_sevenseven_win",
+      "components": [
+        {
+          "inPoint": 1,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 1,
+          "duration": 1.5,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "elem_sevenseven_win.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.053,
+              1.053,
+              1
+            ],
+            [
+              1.08,
+              1.08,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.103,
+              1.103,
+              1
+            ],
+            [
+              1.107,
+              1.107,
+              1
+            ],
+            [
+              1.11,
+              1.11,
+              1
+            ],
+            [
+              1.113,
+              1.113,
+              1
+            ],
+            [
+              1.116,
+              1.116,
+              1
+            ],
+            [
+              1.118,
+              1.118,
+              1
+            ],
+            [
+              1.121,
+              1.121,
+              1
+            ],
+            [
+              1.123,
+              1.123,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.128,
+              1.128,
+              1
+            ],
+            [
+              1.13,
+              1.13,
+              1
+            ],
+            [
+              1.132,
+              1.132,
+              1
+            ],
+            [
+              1.134,
+              1.134,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.138,
+              1.138,
+              1
+            ],
+            [
+              1.14,
+              1.14,
+              1
+            ],
+            [
+              1.142,
+              1.142,
+              1
+            ],
+            [
+              1.144,
+              1.144,
+              1
+            ],
+            [
+              1.145,
+              1.145,
+              1
+            ],
+            [
+              1.147,
+              1.147,
+              1
+            ],
+            [
+              1.148,
+              1.148,
+              1
+            ],
+            [
+              1.149,
+              1.149,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.151,
+              1.151,
+              1
+            ],
+            [
+              1.152,
+              1.152,
+              1
+            ],
+            [
+              1.153,
+              1.153,
+              1
+            ],
+            [
+              1.153,
+              1.153,
+              1
+            ],
+            [
+              1.152,
+              1.152,
+              1
+            ],
+            [
+              1.152,
+              1.152,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2.5,
+          "len": 75,
+          "cutf": 30
+        },
+        "elem_sevenseven_win.alpha": {
+          "values": [
+            0,
+            0.2,
+            1
+          ],
+          "duration": 2.5,
+          "len": 75,
+          "cutf": 28
+        },
+        "elem_sevenseven_jump.alpha": {
+          "values": [
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2.5,
+          "len": 75,
+          "cutf": 0
+        },
+        "elem_sevenseven_win.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 75,
+          "cutf": 29
+        },
+        "elem_sevenseven_jump.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 75,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "onstop": {
+          "start": 0,
+          "duration": 1
+        },
+        "win": {
+          "start": 1,
+          "duration": 1.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.5
+        }
+      },
+      "layers": [
+        "elem_sevenseven_win",
+        "elem_sevenseven_jump"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev.aep",
+  "version": 1
+}

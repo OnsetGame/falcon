@@ -1,0 +1,232 @@
+{
+  "name": "x_numbers",
+  "children": [
+    {
+      "name": "nums_@noloc",
+      "translation": [
+        8.501,
+        4.407,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        9.153,
+        0.106,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "x5\n",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "bounds": [
+            9.16666984558105,
+            -1.33333015441895,
+            12.5416393280029,
+            8.86661005020142
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "nums_@noloc 2",
+      "translation": [
+        6.867,
+        40.407,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        9.141,
+        0.106,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "x4\n",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "bounds": [
+            9.16666984558105,
+            -1.33333015441895,
+            13.4999904632568,
+            8.86662006378174
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "nums_@noloc 3",
+      "translation": [
+        8.601,
+        76.021,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        9.255,
+        2.54,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "x3",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "bounds": [
+            9.16666984558105,
+            1.24999976158142,
+            12.7499904632568,
+            8.86662006378174
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "nums_@noloc 3.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "nums_@noloc 2.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "nums_@noloc.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "nums_@noloc 3",
+        "nums_@noloc 2",
+        "nums_@noloc"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "new_balloons_paytable.aep",
+  "version": 1
+}

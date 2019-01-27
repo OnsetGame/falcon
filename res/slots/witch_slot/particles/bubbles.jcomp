@@ -1,0 +1,140 @@
+{
+  "name": "Puzirki",
+  "translation": [
+    1181.230224609375,
+    548.5707397460938,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 70.0,
+      "isRandPos": true,
+      "isRandDir": true,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 1.0,
+      "isLooped": false,
+      "isPlayed": true,
+      "birthRate": 20.0,
+      "lifetime": 1.0,
+      "startVelocity": 65.0,
+      "randVelocityFrom": -15.0,
+      "randVelocityTo": 5.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        40.0,
+        40.0,
+        40.0
+      ],
+      "dstScale": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "randScaleFrom": -30.0,
+      "randScaleTo": 15.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        55.0,
+        0.0
+      ],
+      "airDensity": 5.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.1000000014901161,
+          1.0,
+          1.0,
+          1.0,
+          0.1000000014901161
+        ],
+        [
+          0.699999988079071,
+          1.0,
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "boom_bubble_sheet.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        60.0,
+        60.0
+      ],
+      "animColumns": 6,
+      "framesCount": 30,
+      "fps": 12.0,
+      "modifierNode": "",
+      "genShapeNode": "Puzirki",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    }
+  ]
+}

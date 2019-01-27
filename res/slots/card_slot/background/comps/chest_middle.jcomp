@@ -1,0 +1,153 @@
+{
+  "name": "chest_middle",
+  "children": [
+    {
+      "name": "ltp_chest_2_1.png",
+      "translation": [
+        933,
+        149,
+        0
+      ],
+      "anchor": [
+        933,
+        109,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_chest_2_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_chest_1.png",
+      "translation": [
+        631,
+        27,
+        0
+      ],
+      "anchor": [
+        125,
+        29,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_chest_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_chest.png",
+      "translation": [
+        1235,
+        27,
+        0
+      ],
+      "anchor": [
+        125,
+        29,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_chest.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_chest.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_chest_1.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_chest_2_1.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "ltp_chest.png",
+        "ltp_chest_1.png",
+        "ltp_chest_2_1.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "MAIN_bg_and_change%20(18).aep",
+  "export_time": "8 August 2018 17:18",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

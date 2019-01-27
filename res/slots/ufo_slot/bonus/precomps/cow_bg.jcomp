@@ -1,0 +1,455 @@
+{
+  "name": "cow_bg",
+  "children": [
+    {
+      "name": "cow_portal_intro",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "cow_portal_intro",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "cow_portal",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "cow_portal",
+      "components": [
+        {
+          "inWhite": 0.69411764705882,
+          "inBlack": 0.07450980392157,
+          "inGamma": 1.37304341061422,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "cow_head.png",
+      "translation": [
+        678.74,
+        622.765,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        30.5,
+        22.5,
+        0
+      ],
+      "alpha": 0.079,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.916,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0.916,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/cow_head.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cow_portal_glow",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        920,
+        -117,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "cow_portal_glow",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 4,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 4,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cow_portal_glow.alpha": {
+          "values": [
+            0,
+            0.343,
+            0.675,
+            0.923,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 120
+        },
+        "cow_head.png.alpha": {
+          "values": [
+            0.079,
+            0.144,
+            0.279,
+            0.414,
+            0.548,
+            0.678,
+            0.802,
+            0.915,
+            0.993,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.992,
+            0.983,
+            0.974,
+            0.964,
+            0.953,
+            0.942,
+            0.931,
+            0.92,
+            0.908,
+            0.897,
+            0.885,
+            0.873,
+            0.863,
+            0.853,
+            0.843,
+            0.831,
+            0.819,
+            0.811,
+            0.814,
+            0.82,
+            0.827,
+            0.835,
+            0.845,
+            0.864,
+            0.885,
+            0.907,
+            0.929,
+            0.95,
+            0.972,
+            0.992,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.997,
+            0.996,
+            0.995,
+            0.993,
+            0.992,
+            0.991,
+            0.991,
+            0.991,
+            0.992,
+            0.993,
+            0.993,
+            0.994,
+            0.995,
+            0.996,
+            0.997,
+            0.998,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            0.997,
+            0.986,
+            0.974,
+            0.961,
+            0.948,
+            0.936,
+            0.924,
+            0.914,
+            0.913,
+            0.919,
+            0.926,
+            0.935,
+            0.952,
+            0.97,
+            0.983,
+            0.993,
+            1,
+            1,
+            0.965,
+            0.907,
+            0.85,
+            0.811,
+            0.833,
+            0.867,
+            0.904,
+            0.941,
+            0.975,
+            0.999,
+            0.882,
+            0.609,
+            0.385,
+            0.291,
+            0.353,
+            0.488,
+            0.61,
+            0.653,
+            0.587,
+            0.454,
+            0.295,
+            0.143,
+            0.033,
+            0,
+            0.015,
+            0.029,
+            0.041,
+            0.051,
+            0.058,
+            0.064,
+            0.067,
+            0.069,
+            0.068,
+            0.065,
+            0.061,
+            0.055,
+            0.048,
+            0.039,
+            0.029,
+            0.019,
+            0.009,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.255,
+            0.679,
+            0.795,
+            0.666,
+            0.532,
+            0.559,
+            0.662,
+            0.794,
+            0.852
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 27
+        },
+        "cow_portal_glow.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 119
+        },
+        "cow_head.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 27
+        },
+        "cow_portal.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "cow_portal_intro.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 2
+        },
+        "idle": {
+          "start": 2,
+          "duration": 2
+        },
+        "milk_go": {
+          "start": 4,
+          "duration": 2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "cow_portal_glow",
+        "cow_head.png",
+        "cow_portal",
+        "cow_portal_intro"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

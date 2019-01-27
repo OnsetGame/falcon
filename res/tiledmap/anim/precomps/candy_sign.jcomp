@@ -1,0 +1,98 @@
+{
+  "name": "candy_sign",
+  "children": [
+    {
+      "name": "candy_1",
+      "translation": [
+        953.5,
+        848,
+        0
+      ],
+      "anchor": [
+        859,
+        856,
+        0
+      ],
+      "compositionRef": "candy_1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "candy_sign_comp",
+      "translation": [
+        960,
+        895,
+        0
+      ],
+      "anchor": [
+        865,
+        903,
+        0
+      ],
+      "compositionRef": "candy_sign_comp",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "candy_sign_comp.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "candy_1.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "candy_sign_comp",
+        "candy_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "candy_old_dev.aep",
+  "version": 1
+}

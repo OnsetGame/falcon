@@ -1,0 +1,62 @@
+{
+  "name": "tumbleweeed_idle",
+  "children": [
+    {
+      "name": "tumbleweeed",
+      "translation": [
+        0,
+        222,
+        0
+      ],
+      "anchor": [
+        0,
+        222,
+        0
+      ],
+      "compositionRef": "tumbleweeed.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.708,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6.70833333333333,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tumbleweeed.enabled": {
+          "duration": 6.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 202,
+          "cutf": 201
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6.70833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6.70833333333333
+        }
+      },
+      "layers": [
+        "tumbleweeed"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "tumbleweed_v2_try_2.aep",
+  "version": 1
+}

@@ -1,0 +1,165 @@
+{
+  "name": "PodElementom",
+  "translation": [
+    1035.0966796875,
+    712.364013671875,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 80.0,
+      "isRandPos": true,
+      "isRandDir": false,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 0.8,
+      "isLooped": false,
+      "isPlayed": true,
+      "birthRate": 15.0,
+      "lifetime": 0.8,
+      "startVelocity": 45.0,
+      "randVelocityFrom": -15.0,
+      "randVelocityTo": 5.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        40.0,
+        40.0,
+        40.0
+      ],
+      "dstScale": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "randScaleFrom": -20.0,
+      "randScaleTo": 5.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "airDensity": 20.0,
+      "scaleMode": 1,
+      "colorMode": 1,
+      "scaleSeq": [
+        [
+          0.0,
+          25.0,
+          25.0,
+          25.0
+        ],
+        [
+          0.2000000029802322,
+          40.0,
+          40.0,
+          40.0
+        ],
+        [
+          0.8999999761581421,
+          55.0,
+          55.0,
+          55.0
+        ],
+        [
+          1.0,
+          80.0,
+          80.0,
+          80.0
+        ]
+      ],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.2000000029802322,
+          1.0,
+          1.0,
+          1.0,
+          0.4000000059604645
+        ],
+        [
+          0.8999999761581421,
+          1.0,
+          1.0,
+          1.0,
+          0.800000011920929
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "boom_bubble.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        60.0,
+        60.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "",
+      "genShapeNode": "PodElementom",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    }
+  ]
+}

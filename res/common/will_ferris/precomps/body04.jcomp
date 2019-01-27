@@ -1,0 +1,391 @@
+{
+  "name": "body04",
+  "children": [
+    {
+      "name": "body04_01.png",
+      "translation": [
+        254,
+        504.5,
+        0
+      ],
+      "anchor": [
+        162,
+        339.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/04/body04_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "body04_02.png",
+      "translation": [
+        475.5,
+        480,
+        0
+      ],
+      "anchor": [
+        60.5,
+        133,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/04/body04_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "body04_03.png",
+      "translation": [
+        45.5,
+        495.5,
+        0
+      ],
+      "anchor": [
+        47.5,
+        188.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/04/body04_03.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_invert_body_over_04",
+      "translation": [
+        295,
+        507,
+        0
+      ],
+      "anchor": [
+        35,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/04/wf_invert_body_over_04.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_04_head_05",
+      "translation": [
+        199,
+        147,
+        0
+      ],
+      "anchor": [
+        103,
+        151,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/04/wf_pose_04_head_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_01_head_04",
+      "translation": [
+        204,
+        153,
+        0
+      ],
+      "anchor": [
+        105,
+        159,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/01/wf_pose_01_head_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_02_head_03",
+      "translation": [
+        209,
+        142,
+        0
+      ],
+      "anchor": [
+        101,
+        149,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/02/wf_pose_02_head_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_02_head_02",
+      "translation": [
+        210,
+        143,
+        0
+      ],
+      "anchor": [
+        101,
+        149,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/02/wf_pose_02_head_03.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wf_pose_02_head_01",
+      "translation": [
+        212,
+        149,
+        0
+      ],
+      "anchor": [
+        101,
+        149,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 32,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/02/wf_pose_02_head_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wf_pose_02_head_01.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "wf_pose_02_head_02.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "wf_pose_02_head_03.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "wf_pose_01_head_04.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "wf_pose_04_head_05.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "wf_invert_body_over_04.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "body04_03.png.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "body04_02.png.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        },
+        "body04_01.png.enabled": {
+          "duration": 32,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 960,
+          "cutf": 959
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 32
+        }
+      },
+      "layers": [
+        "wf_pose_02_head_01",
+        "wf_pose_02_head_02",
+        "wf_pose_02_head_03",
+        "wf_pose_01_head_04",
+        "wf_pose_04_head_05",
+        "wf_invert_body_over_04",
+        "body04_03.png",
+        "body04_02.png",
+        "body04_01.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "willferris_opt.aep",
+  "version": 1
+}

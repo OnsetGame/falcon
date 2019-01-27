@@ -1,0 +1,113 @@
+{
+  "name": "lightup_prt",
+  "translation": [
+    0.0,
+    427.2122802734375,
+    -100.0
+  ],
+  "scale": [
+    10.0,
+    10.0,
+    10.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 3.200000047683716,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 3.0,
+      "lifetime": 5.0,
+      "startVelocity": 400.0,
+      "randVelocityFrom": -60.0,
+      "randVelocityTo": 60.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        360.0,
+        360.0,
+        360.0
+      ],
+      "startScale": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "dstScale": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "randScaleFrom": -10.0,
+      "randScaleTo": 6.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        200.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [],
+      "texture": "../assets/ltp_prtcles.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        90.0,
+        78.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "",
+      "genShapeNode": "lightup_prt",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "dimension": [
+        40.0,
+        1.0,
+        1.0
+      ],
+      "is2D": false,
+      "_c": "BoxPSGenShape"
+    }
+  ]
+}

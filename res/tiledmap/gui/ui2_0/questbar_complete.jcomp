@@ -1,0 +1,300 @@
+{
+  "name": "questbar_complete",
+  "children": [
+    {
+      "name": "questbar_base",
+      "translation": [
+        215.5,
+        324,
+        0
+      ],
+      "anchor": [
+        215.5,
+        324,
+        0
+      ],
+      "compositionRef": "questbar_base",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.83333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "building_name_bg",
+      "translation": [
+        215.5,
+        539,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            336.25,
+            72
+          ],
+          "radius": 25,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "zone_progress",
+      "translation": [
+        134.282,
+        514.373,
+        0
+      ],
+      "anchor": [
+        -79.5,
+        -23.163,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 27.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Pizzeria 3/18",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "translation": [
+        216.687,
+        640,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "big_white_stroke_green_btn_complete",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "4color_holder",
+      "translation": [
+        214.5,
+        275.5,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "../../../common/gui/popups/precomps/4color_holder",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "QB_DONE",
+      "translation": [
+        218.252,
+        430.689,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        2.834,
+        -16.629,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Done!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "QB_DONE.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 56
+        },
+        "4color_holder.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 56
+        },
+        "button.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 56
+        },
+        "zone_progress.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 56
+        },
+        "building_name_bg.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 56
+        },
+        "questbar_base.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 57,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.875
+        }
+      },
+      "layers": [
+        "QB_DONE",
+        "4color_holder",
+        "button",
+        "zone_progress",
+        "building_name_bg",
+        "questbar_base"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

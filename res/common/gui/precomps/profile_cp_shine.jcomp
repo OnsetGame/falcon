@@ -1,0 +1,133 @@
+{
+  "name": "blesk",
+  "translation": [
+    203.2899932861328,
+    106.9899978637695,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 40.0,
+      "isRandPos": true,
+      "isRandDir": true,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 1.0,
+      "isLooped": false,
+      "isPlayed": true,
+      "birthRate": 10.0,
+      "lifetime": 1.5,
+      "startVelocity": 55.0,
+      "randVelocityFrom": -15.0,
+      "randVelocityTo": 5.0,
+      "is3dRotation": false,
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        40.0,
+        40.0,
+        40.0
+      ],
+      "dstScale": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "randScaleFrom": -30.0,
+      "randScaleTo": 15.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        -40.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.2000000029802322,
+          1.0,
+          1.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.699999988079071,
+          1.0,
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "../assets/profile_shine.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        50.0,
+        50.0
+      ],
+      "animColumns": 3,
+      "framesCount": 12,
+      "fps": 24.0,
+      "modifierNode": "",
+      "genShapeNode": "blesk",
+      "_c": "ParticleSystem"
+    }
+  ]
+}

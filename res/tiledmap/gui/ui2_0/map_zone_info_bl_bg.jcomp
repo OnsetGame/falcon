@@ -1,0 +1,196 @@
+{
+  "name": "map_zone_info_bl_bg",
+  "children": [
+    {
+      "name": "circle_component_shadow.png$17",
+      "translation": [
+        266.875,
+        554.5,
+        0
+      ],
+      "scale": [
+        7,
+        0.5,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "side_cloud_holder_01.png",
+      "translation": [
+        -2,
+        559,
+        0
+      ],
+      "anchor": [
+        -2,
+        528,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            0.87450987100601,
+            0.86274516582489,
+            0.95686280727386,
+            1
+          ],
+          "endColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "startPoint": [
+            240,
+            528
+          ],
+          "endPoint": [
+            240,
+            0
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/side_cloud_holder",
+          "size": [
+            480,
+            528
+          ]
+        }
+      ]
+    },
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        263.125,
+        534,
+        0
+      ],
+      "scale": [
+        6.4,
+        0.8,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bg_color_2",
+      "translation": [
+        264,
+        294,
+        0
+      ],
+      "anchor": [
+        192,
+        240,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            384,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_color",
+      "translation": [
+        264.5,
+        296.5,
+        0
+      ],
+      "scale": [
+        0.96,
+        0.965,
+        1
+      ],
+      "anchor": [
+        192,
+        240,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.49411764740944,
+            0.23446364700794,
+            0.23446364700794,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            384,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lastic.png",
+      "translation": [
+        106.25,
+        83.75,
+        0
+      ],
+      "anchor": [
+        33,
+        29.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/lastic.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_info_dev3.aep",
+  "version": 1
+}

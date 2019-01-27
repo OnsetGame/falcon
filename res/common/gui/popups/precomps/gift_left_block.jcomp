@@ -1,0 +1,1593 @@
+{
+  "name": "gift_left_block",
+  "children": [
+    {
+      "name": "left_block_anchor",
+      "translation": [
+        580,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "name": "window.png",
+          "translation": [
+            -777,
+            12,
+            0
+          ],
+          "anchor": [
+            183.5,
+            223,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/windowadd",
+              "size": [
+                367,
+                446
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            -779.5,
+            -14,
+            0
+          ],
+          "anchor": [
+            171,
+            121,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "rewards_glow",
+          "translation": [
+            -782,
+            -6,
+            0
+          ],
+          "anchor": [
+            200,
+            200,
+            0
+          ],
+          "compositionRef": "rewards_glow.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "ellipse_turnament.png$19",
+          "translation": [
+            -843,
+            17,
+            0
+          ],
+          "scale": [
+            0.69,
+            0.69,
+            1
+          ],
+          "anchor": [
+            117,
+            116.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ellipse_turnament.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ellipse_turnament.png",
+          "translation": [
+            -716,
+            17,
+            0
+          ],
+          "scale": [
+            0.69,
+            0.69,
+            1
+          ],
+          "anchor": [
+            117,
+            116.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ellipse_turnament.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "placeholder_bucks",
+          "translation": [
+            -835,
+            14,
+            0
+          ],
+          "scale": [
+            0.52,
+            0.52,
+            1
+          ],
+          "anchor": [
+            166,
+            136.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency_bucks",
+              "iconName": "bucks"
+            },
+            {
+              "color": [
+                0.49803900718689,
+                0.49803900718689,
+                0.49803900718689
+              ],
+              "size": [
+                332,
+                273
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "placeholder_energy",
+          "translation": [
+            -840,
+            12,
+            0
+          ],
+          "scale": [
+            0.52,
+            0.52,
+            1
+          ],
+          "anchor": [
+            154.5,
+            168.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency",
+              "iconName": "energy"
+            },
+            {
+              "color": [
+                0.49803900718689,
+                0.49803900718689,
+                0.49803900718689
+              ],
+              "size": [
+                309,
+                337
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "placeholder_chips",
+          "translation": [
+            -840,
+            12,
+            0
+          ],
+          "scale": [
+            0.48,
+            0.48,
+            1
+          ],
+          "anchor": [
+            166,
+            175.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency_chips",
+              "iconName": "chips"
+            },
+            {
+              "color": [
+                0.49803900718689,
+                0.49803900718689,
+                0.49803900718689
+              ],
+              "size": [
+                332,
+                351
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_friends.png",
+          "translation": [
+            -720.5,
+            26,
+            0
+          ],
+          "scale": [
+            1.18,
+            1.18,
+            1
+          ],
+          "anchor": [
+            71,
+            81,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_friends.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 545.png",
+          "translation": [
+            -788,
+            124,
+            0
+          ],
+          "scale": [
+            0.402,
+            0.402,
+            1
+          ],
+          "anchor": [
+            471.5,
+            136.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Rectangle 545.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "gift_amount",
+          "translation": [
+            -835.251,
+            132.799,
+            0
+          ],
+          "scale": [
+            3.003,
+            3,
+            1
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "100\n",
+              "font": "Exo2-Black",
+              "fontSize": 11.3333301544189,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "gift_currency",
+          "translation": [
+            -862.276,
+            148.799,
+            0
+          ],
+          "scale": [
+            3.003,
+            3,
+            1
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Bucks",
+              "font": "Exo2-Black",
+              "fontSize": 5.66666984558105,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "justification": "haLeft",
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "gift_per",
+          "translation": [
+            -728.251,
+            131.799,
+            0
+          ],
+          "scale": [
+            3.003,
+            3,
+            1
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Per",
+              "font": "Exo2-Black",
+              "fontSize": 11.3333301544189,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "gift_friend",
+          "translation": [
+            -758.276,
+            148.799,
+            0
+          ],
+          "scale": [
+            3.003,
+            3,
+            1
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "friend",
+              "font": "Exo2-Black",
+              "fontSize": 5.66666984558105,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "justification": "haLeft",
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "gift_more_gain",
+          "translation": [
+            -781.4,
+            -94.2,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "More friends - more gain",
+              "font": "Exo2-Bold",
+              "fontSize": 6.66666984558105,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "gift_invite_friends",
+          "translation": [
+            -782.4,
+            -116.2,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Invite friends",
+              "font": "Exo2-Black",
+              "fontSize": 12.6666698455811,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_bronze.png",
+          "translation": [
+            -784,
+            74,
+            0
+          ],
+          "scale": [
+            0.37,
+            1,
+            1
+          ],
+          "anchor": [
+            391,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_bronze.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_green_collect_left_block",
+          "translation": [
+            -783,
+            219,
+            0
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            1
+          ],
+          "anchor": [
+            150,
+            42,
+            0
+          ],
+          "compositionRef": "button_green_collect.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "tiny_arrows.png",
+          "translation": [
+            -784,
+            132,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.866,
+            0.5
+          ],
+          "anchor": [
+            18,
+            16,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/tiny_arrows.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "plus_friend",
+          "translation": [
+            -782.299,
+            -205.399,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.382,
+            0.923
+          ],
+          "anchor": [
+            40,
+            39,
+            0
+          ],
+          "compositionRef": "plus_friend.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 15,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 15,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "left_block_anchor.translation": {
+          "values": [
+            [
+              580,
+              540,
+              0
+            ],
+            [
+              620.247,
+              540,
+              0
+            ],
+            [
+              665.096,
+              540,
+              0
+            ],
+            [
+              710.442,
+              540,
+              0
+            ],
+            [
+              754.677,
+              540,
+              0
+            ],
+            [
+              796.966,
+              540,
+              0
+            ],
+            [
+              836.558,
+              540,
+              0
+            ],
+            [
+              872.708,
+              540,
+              0
+            ],
+            [
+              904.54,
+              540,
+              0
+            ],
+            [
+              930.826,
+              540,
+              0
+            ],
+            [
+              949.989,
+              540,
+              0
+            ],
+            [
+              959.551,
+              540,
+              0
+            ],
+            [
+              960,
+              540,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "plus_friend.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.132,
+              0.132,
+              1
+            ],
+            [
+              0.426,
+              0.426,
+              1
+            ],
+            [
+              0.7,
+              0.7,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              1.076,
+              1.076,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.085,
+              1.085,
+              1
+            ],
+            [
+              1.064,
+              1.064,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.019,
+              1.019,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "plus_friend.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.382,
+              0.923
+            ],
+            [
+              0,
+              0,
+              0.34,
+              0.94
+            ],
+            [
+              0,
+              0,
+              0.242,
+              0.97
+            ],
+            [
+              0,
+              0,
+              0.144,
+              0.989
+            ],
+            [
+              0,
+              0,
+              0.054,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.02,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.072,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.086,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.073,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.058,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.041,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.009,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "tiny_arrows.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.077,
+              0.077,
+              1
+            ],
+            [
+              0.253,
+              0.253,
+              1
+            ],
+            [
+              0.43,
+              0.43,
+              1
+            ],
+            [
+              0.597,
+              0.597,
+              1
+            ],
+            [
+              0.747,
+              0.747,
+              1
+            ],
+            [
+              0.872,
+              0.872,
+              1
+            ],
+            [
+              0.963,
+              0.963,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "tiny_arrows.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.866,
+              0.5
+            ],
+            [
+              0,
+              0,
+              0.796,
+              0.604
+            ],
+            [
+              0,
+              0,
+              0.704,
+              0.709
+            ],
+            [
+              0,
+              0,
+              0.598,
+              0.801
+            ],
+            [
+              0,
+              0,
+              0.485,
+              0.874
+            ],
+            [
+              0,
+              0,
+              0.37,
+              0.928
+            ],
+            [
+              0,
+              0,
+              0.261,
+              0.965
+            ],
+            [
+              0,
+              0,
+              0.162,
+              0.986
+            ],
+            [
+              0,
+              0,
+              0.08,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.022,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 10
+        },
+        "tiny_arrows.png.alpha": {
+          "values": [
+            0,
+            0.077,
+            0.253,
+            0.43,
+            0.597,
+            0.747,
+            0.872,
+            0.963,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "button_green_collect_left_block.scale": {
+          "values": [
+            [
+              0.35,
+              0.35,
+              1
+            ],
+            [
+              0.365,
+              0.365,
+              1
+            ],
+            [
+              0.408,
+              0.408,
+              1
+            ],
+            [
+              0.472,
+              0.472,
+              1
+            ],
+            [
+              0.552,
+              0.552,
+              1
+            ],
+            [
+              0.641,
+              0.641,
+              1
+            ],
+            [
+              0.734,
+              0.734,
+              1
+            ],
+            [
+              0.825,
+              0.825,
+              1
+            ],
+            [
+              0.908,
+              0.908,
+              1
+            ],
+            [
+              0.977,
+              0.977,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.034,
+              1.034,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              1.015,
+              1.015,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "gift_friend.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.387,
+            0.637,
+            0.844,
+            0.978,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "gift_per.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.387,
+            0.637,
+            0.844,
+            0.978,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "gift_currency.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.387,
+            0.637,
+            0.844,
+            0.978,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "gift_amount.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.387,
+            0.637,
+            0.844,
+            0.978,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "left_block_anchor.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "plus_friend.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "tiny_arrows.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_green_collect_left_block.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_line_bronze.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_invite_friends.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_more_gain.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_friend.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_per.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_currency.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_amount.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Rectangle 545.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_friends.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "placeholder_chips.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "placeholder_energy.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "placeholder_bucks.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ellipse_turnament.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ellipse_turnament.png$19.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "rewards_glow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "window.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.70833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "left_block_anchor",
+        "plus_friend",
+        "tiny_arrows.png",
+        "button_green_collect_left_block",
+        "ltp_line_bronze.png",
+        "gift_invite_friends",
+        "gift_more_gain",
+        "gift_friend",
+        "gift_per",
+        "gift_currency",
+        "gift_amount",
+        "Rectangle 545.png",
+        "ltp_friends.png",
+        "placeholder_chips",
+        "placeholder_energy",
+        "placeholder_bucks",
+        "ellipse_turnament.png",
+        "ellipse_turnament.png$19",
+        "rewards_glow",
+        "ltp_solidorange.png",
+        "window.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

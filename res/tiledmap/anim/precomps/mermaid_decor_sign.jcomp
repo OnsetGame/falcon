@@ -1,0 +1,64 @@
+{
+  "name": "mermaid_decor_sign",
+  "children": [
+    {
+      "name": "marmeid_1",
+      "translation": [
+        410.5,
+        836.5,
+        0
+      ],
+      "anchor": [
+        268,
+        363,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/marmeid_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "marmeid_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "marmeid_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,669 @@
+{
+  "name": "ufo_count",
+  "children": [
+    {
+      "name": "numbers_2",
+      "translation": [
+        452,
+        150.5,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        1
+      ],
+      "anchor": [
+        500,
+        150,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "line_numbers",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "numbers_1",
+      "translation": [
+        452,
+        150.5,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        1
+      ],
+      "anchor": [
+        500,
+        150,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "line_numbers",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Glitch_text_[00000-00015].png",
+      "translation": [
+        445,
+        152,
+        0
+      ],
+      "scale": [
+        3,
+        1.875,
+        1
+      ],
+      "anchor": [
+        100,
+        50,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.166,
+          "outPoint": 0.966,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 0.8,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Glitch_text_00000.png",
+            "../assets/Glitch_text_00001.png",
+            "../assets/Glitch_text_00002.png",
+            "../assets/Glitch_text_00003.png",
+            "../assets/Glitch_text_00004.png",
+            "../assets/Glitch_text_00005.png",
+            "../assets/Glitch_text_00006.png",
+            "../assets/Glitch_text_00007.png",
+            "../assets/Glitch_text_00008.png",
+            "../assets/Glitch_text_00009.png",
+            "../assets/Glitch_text_00010.png",
+            "../assets/Glitch_text_00011.png",
+            "../assets/Glitch_text_00012.png",
+            "../assets/Glitch_text_00013.png",
+            "../assets/Glitch_text_00014.png",
+            "../assets/Glitch_text_00015.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Glitch_text_[00000-00015].png.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.799,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "numbers_1.scale": {
+          "values": [
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.831,
+              0.831,
+              1
+            ],
+            [
+              0.863,
+              0.863,
+              1
+            ],
+            [
+              0.896,
+              0.896,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              0.96,
+              0.96,
+              1
+            ],
+            [
+              0.991,
+              0.991,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.014,
+              1.014,
+              1
+            ],
+            [
+              1.016,
+              1.016,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.019,
+              1.019,
+              1
+            ],
+            [
+              1.021,
+              1.021,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.032,
+              1.032,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.037,
+              1.037,
+              1
+            ],
+            [
+              1.038,
+              1.038,
+              1
+            ],
+            [
+              1.039,
+              1.039,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.042,
+              1.042,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.046,
+              1.046,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              0.937,
+              0.937,
+              1
+            ],
+            [
+              0.843,
+              0.843,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "numbers_1.alpha": {
+          "values": [
+            0,
+            0.159,
+            0.319,
+            0.48,
+            0.64,
+            0.8,
+            0.959,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.896,
+            0.549,
+            0.175,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "numbers_2.scale": {
+          "values": [
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.815,
+              0.815,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.896,
+              0.896,
+              1
+            ],
+            [
+              0.949,
+              0.949,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.039,
+              1.039,
+              1
+            ],
+            [
+              1.079,
+              1.079,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.16,
+              1.16,
+              1
+            ],
+            [
+              1.2,
+              1.199,
+              1
+            ],
+            [
+              1.239,
+              1.239,
+              1
+            ],
+            [
+              1.279,
+              1.279,
+              1
+            ],
+            [
+              1.32,
+              1.32,
+              1
+            ],
+            [
+              1.35,
+              1.349,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "numbers_2.alpha": {
+          "values": [
+            0,
+            0.164,
+            0.343,
+            0.516,
+            0.675,
+            0.813,
+            0.923,
+            0.989,
+            0.981,
+            0.854,
+            0.647,
+            0.41,
+            0.191,
+            0.039,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "Glitch_text_[00000-00015].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15
+          ],
+          "len": 60,
+          "cutf": 5
+        },
+        "Glitch_text_[00000-00015].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 4
+        },
+        "numbers_1.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "numbers_2.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "start": {
+          "start": 0,
+          "duration": 1.54166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "Glitch_text_[00000-00015].png",
+        "numbers_1",
+        "numbers_2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "UFO_count.aep",
+  "version": 1
+}

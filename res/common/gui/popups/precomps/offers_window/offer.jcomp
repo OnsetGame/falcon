@@ -1,0 +1,442 @@
+{
+  "name": "offer",
+  "children": [
+    {
+      "name": "zigzag_color.png",
+      "translation": [
+        1496,
+        555,
+        0
+      ],
+      "anchor": [
+        193,
+        159,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.13,
+        0.991
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/zigzag_color.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "x_number_controller",
+      "translation": [
+        1540.5,
+        582,
+        0
+      ],
+      "scale": [
+        1.249,
+        1.249,
+        1
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "children": [
+        {
+          "name": "line_1",
+          "translation": [
+            -48.402,
+            -28.757,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            -0.389,
+            -93.158,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.124,
+            0.992
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "    SAVE\n",
+              "font": "AlfaSlabOne-Regular",
+              "fontSize": 72.9000015258789,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                -199,
+                -123.5,
+                398,
+                68.7886352539063
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.5
+              ],
+              "shadowOff": [
+                6.5,
+                11.2583302491977
+              ],
+              "shadowRadius": 0,
+              "shadowSpread": 1,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "line_2",
+          "translation": [
+            -39.397,
+            40.436,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            -0.389,
+            -93.158,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.124,
+            0.992
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "    $49.99",
+              "font": "AlfaSlabOne-Regular",
+              "fontSize": 72.9000015258789,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                -199,
+                -123.5,
+                398,
+                247
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.5
+              ],
+              "shadowOff": [
+                6.5,
+                11.2583302491977
+              ],
+              "shadowRadius": 0,
+              "shadowSpread": 1,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "x_number_controller.scale": {
+          "values": [
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.833,
+              1.833,
+              1
+            ],
+            [
+              2.416,
+              2.416,
+              1
+            ],
+            [
+              2.999,
+              2.999,
+              1
+            ],
+            [
+              3.767,
+              3.767,
+              1
+            ],
+            [
+              4.534,
+              4.534,
+              1
+            ],
+            [
+              4.816,
+              4.816,
+              1
+            ],
+            [
+              3.642,
+              3.642,
+              1
+            ],
+            [
+              2.467,
+              2.467,
+              1
+            ],
+            [
+              1.293,
+              1.293,
+              1
+            ],
+            [
+              1.014,
+              1.014,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.055,
+              1.055,
+              1
+            ],
+            [
+              1.046,
+              1.046,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 5.16666666666667,
+          "len": 124,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "line_2.alpha": {
+          "values": [
+            0,
+            0.365,
+            0.73,
+            0.74,
+            0.75,
+            0.495,
+            0.24,
+            0.493,
+            0.746,
+            1
+          ],
+          "duration": 5.16666666666667,
+          "len": 124,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "line_1.alpha": {
+          "values": [
+            0,
+            0.365,
+            0.73,
+            0.74,
+            0.75,
+            0.495,
+            0.24,
+            0.493,
+            0.746,
+            1
+          ],
+          "duration": 5.16666666666667,
+          "len": 124,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "x_number_controller.enabled": {
+          "duration": 5.16666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 124,
+          "cutf": 123
+        },
+        "line_2.enabled": {
+          "duration": 5.16666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 124,
+          "cutf": 44
+        },
+        "line_1.enabled": {
+          "duration": 5.16666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 124,
+          "cutf": 44
+        },
+        "zigzag_color.png.enabled": {
+          "duration": 5.16666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 124,
+          "cutf": 123
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "idle": {
+          "start": 0.95833333333333,
+          "duration": 0.41666666666667
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.16666666666667
+        }
+      },
+      "layers": [
+        "x_number_controller",
+        "line_2",
+        "line_1",
+        "zigzag_color.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

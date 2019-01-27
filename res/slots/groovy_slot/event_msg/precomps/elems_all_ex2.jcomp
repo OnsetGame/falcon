@@ -1,0 +1,60 @@
+{
+  "name": "elems_all_ex2",
+  "children": [
+    {
+      "name": "elem_grape",
+      "translation": [
+        256,
+        512,
+        0
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "compositionRef": "../../comps/elem_grape",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "elem_grape.enabled": {
+          "duration": 24,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 720,
+          "cutf": 74
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 24
+        }
+      },
+      "layers": [
+        "elem_grape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev_branding.aep",
+  "version": 1
+}

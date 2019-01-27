@@ -1,0 +1,294 @@
+{
+  "name": "bar_full_list",
+  "children": [
+    {
+      "name": "sh_bg",
+      "translation": [
+        121,
+        324,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            333,
+            646
+          ],
+          "radius": 35,
+          "shapeType": 0,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "collapse_button",
+      "translation": [
+        279,
+        327,
+        0
+      ],
+      "anchor": [
+        49,
+        69,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/button_t.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "total_players",
+      "translation": [
+        131.5,
+        602.5,
+        0
+      ],
+      "anchor": [
+        95.5,
+        27.5,
+        0
+      ],
+      "compositionRef": "total_players_info"
+    },
+    {
+      "name": "player_1",
+      "translation": [
+        159.5,
+        150,
+        0
+      ],
+      "anchor": [
+        159.5,
+        324,
+        0
+      ],
+      "compositionRef": "player"
+    },
+    {
+      "name": "player_2",
+      "translation": [
+        159.5,
+        241,
+        0
+      ],
+      "anchor": [
+        159.5,
+        324,
+        0
+      ],
+      "compositionRef": "player"
+    },
+    {
+      "name": "player_3",
+      "translation": [
+        159.5,
+        324,
+        0
+      ],
+      "anchor": [
+        159.5,
+        324,
+        0
+      ],
+      "compositionRef": "player"
+    },
+    {
+      "name": "player_4",
+      "translation": [
+        159.5,
+        324,
+        0
+      ],
+      "anchor": [
+        159.5,
+        240,
+        0
+      ],
+      "compositionRef": "player"
+    },
+    {
+      "name": "player_5",
+      "translation": [
+        159.5,
+        409,
+        0
+      ],
+      "anchor": [
+        159.5,
+        240,
+        0
+      ],
+      "compositionRef": "player"
+    },
+    {
+      "name": "list_prizes_button",
+      "translation": [
+        144,
+        50,
+        0
+      ],
+      "anchor": [
+        125,
+        30,
+        0
+      ],
+      "compositionRef": "list_prizes_2slide"
+    },
+    {
+      "name": "separator_1",
+      "translation": [
+        119.625,
+        198,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            240,
+            2
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "separator_2",
+      "translation": [
+        119.625,
+        282,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            240,
+            2
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "separator_3",
+      "translation": [
+        119.625,
+        365,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            240,
+            2
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "separator_4",
+      "translation": [
+        119.625,
+        450,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            240,
+            2
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "down_button",
+      "translation": [
+        60,
+        546,
+        0
+      ],
+      "anchor": [
+        17,
+        12,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/down_tour.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "up_button",
+      "translation": [
+        60,
+        105,
+        0
+      ],
+      "anchor": [
+        17,
+        12.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/up_tour.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

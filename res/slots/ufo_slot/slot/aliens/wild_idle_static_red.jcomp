@@ -1,0 +1,199 @@
+{
+  "name": "wild_idle_static_red",
+  "children": [
+    {
+      "name": "WildIdleRings 2",
+      "translation": [
+        313.5,
+        382.5,
+        0
+      ],
+      "anchor": [
+        350,
+        350,
+        0
+      ],
+      "compositionRef": "screen_idle",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "WildTextIdleStatic",
+      "translation": [
+        313.5,
+        382.5,
+        0
+      ],
+      "anchor": [
+        350,
+        350,
+        0
+      ],
+      "compositionRef": "wild_idle_static_text",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "WildTextIdleStatic 2",
+      "translation": [
+        313.5,
+        382.5,
+        0
+      ],
+      "anchor": [
+        350,
+        350,
+        0
+      ],
+      "compositionRef": "wild_idle_static_text",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "WildTextIdleStatic 2.enabled": {
+          "duration": 0.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 29,
+          "cutf": 28
+        },
+        "WildTextIdleStatic.enabled": {
+          "duration": 0.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 29,
+          "cutf": 28
+        },
+        "WildIdleRings 2.enabled": {
+          "duration": 0.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 29,
+          "cutf": 28
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -14.4166666666667,
+          "duration": 1.5833333333334
+        },
+        "idle_1": {
+          "start": -12.8333333333333,
+          "duration": 1.9583333333333
+        },
+        "idle_2": {
+          "start": -10.875,
+          "duration": 2
+        },
+        "spin": {
+          "start": -8.875,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -6.875,
+          "duration": 0.66666666666667
+        },
+        "anticipation_loop": {
+          "start": -6.20833333333333,
+          "duration": 1.33333333333333
+        },
+        "anticipation_end": {
+          "start": -4.875,
+          "duration": 0.33333333333333
+        },
+        "win": {
+          "start": -4.54166666666667,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -3.54166666666667,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -1.54166666666667,
+          "duration": 1.04166666666667
+        },
+        "wild_appear": {
+          "start": -0.5,
+          "duration": 0.5
+        },
+        "wild_idle": {
+          "start": 0,
+          "duration": 1
+        },
+        "wild_move_right": {
+          "start": 1,
+          "duration": 1
+        },
+        "wild_win": {
+          "start": 2,
+          "duration": 1.54166666666667
+        },
+        "wild_to_portal": {
+          "start": 3.54166666666667,
+          "duration": 2.04166666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.95833333333333
+        }
+      },
+      "layers": [
+        "WildTextIdleStatic 2",
+        "WildTextIdleStatic",
+        "WildIdleRings 2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

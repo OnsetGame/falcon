@@ -1,0 +1,291 @@
+{
+  "name": "timer_wheel",
+  "children": [
+    {
+      "name": "time_shape",
+      "translation": [
+        164,
+        101,
+        0
+      ],
+      "anchor": [
+        127,
+        37,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/time_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "time_icon",
+      "translation": [
+        50,
+        95,
+        0
+      ],
+      "anchor": [
+        41,
+        47,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/time_icon.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_HOURS_@noloc",
+      "translation": [
+        118.1,
+        112.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "59",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_MINUTES_@noloc",
+      "translation": [
+        182.1,
+        112.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "59",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_SECONDS_@noloc",
+      "translation": [
+        234.6,
+        112.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "59",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_DIVISOR_2",
+      "translation": [
+        212.85,
+        112.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": ":",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_DIVISOR_1",
+      "translation": [
+        150.35,
+        112.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": ":",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_TIMER_NEXT_FREE_SPIN",
+      "translation": [
+        150.6,
+        33.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "Next Free Spin",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

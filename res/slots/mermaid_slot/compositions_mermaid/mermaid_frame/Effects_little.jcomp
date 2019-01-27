@@ -1,0 +1,574 @@
+{
+  "name": "Effects_little",
+  "children": [
+    {
+      "name": "ltp_white_solid_1.png",
+      "translation": [
+        839,
+        521,
+        0
+      ],
+      "scale": [
+        4,
+        4,
+        1
+      ],
+      "anchor": [
+        60,
+        87,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../../Layers/ltp_white_solid_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Frame_Background_Add.png",
+      "translation": [
+        848,
+        456.0625,
+        0
+      ],
+      "scale": [
+        4.63551401869159,
+        2.7979797979798,
+        1
+      ],
+      "anchor": [
+        53.5,
+        99,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "fileNames": [
+            "../../Layers/Frame_Background_Add.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "levels_effect",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    },
+    {
+      "name": "Circles",
+      "translation": [
+        864,
+        436,
+        0
+      ],
+      "scale": [
+        1.18301886792453,
+        0.89319171394643,
+        1
+      ],
+      "anchor": [
+        860,
+        572,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "Circles.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$4",
+      "translation": [
+        1031,
+        226.5,
+        0
+      ],
+      "scale": [
+        1.53,
+        1.53,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../comps/Shape_Animation.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$3",
+      "translation": [
+        642.5,
+        472.5,
+        0
+      ],
+      "scale": [
+        0.56,
+        0.56,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../comps/Shape_Animation.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$2",
+      "translation": [
+        1003,
+        588,
+        0
+      ],
+      "scale": [
+        1.02,
+        1.02,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../comps/Shape_Animation.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation",
+      "translation": [
+        697.127313411078,
+        589.181698250729,
+        0
+      ],
+      "scale": [
+        0.701,
+        0.701,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../comps/Shape_Animation.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "play": {
+      "Shape_Animation.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.7998046875,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.2001953125,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "Shape_Animation$2.alpha": {
+        "values": [
+          0,
+          0,
+          0.599609375,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.599609375,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "Shape_Animation$3.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0.2001953125,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.2001953125,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "Shape_Animation$4.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.599609375,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.599609375,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "Circles.alpha": {
+        "values": [
+          0,
+          0.199951171875,
+          0.39990234375,
+          0.60009765625,
+          0.800048828125,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.400390625,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "levels_effect.0.inWhite": {
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.599609375,
+          -0.00078507965686,
+          -0.00392156862745,
+          -0.00078507965686,
+          0.599609375,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "duration": 1.08333333333333
+      },
+      "Frame_Background_Add.png.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0.400390625,
+          0.9469482421875,
+          0.735,
+          0.5230517578125,
+          0.3380859375,
+          0.55029296875,
+          0.89990234375,
+          0.5,
+          0.10009765625,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      },
+      "ltp_white_solid_1.png.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0.18017578125,
+          0.452001953125,
+          0.46,
+          0.467998046875,
+          0.27212890625,
+          0.36421875,
+          0.629931640625,
+          0.35,
+          0.070068359375,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 1.08333333333333
+      }
+    }
+  },
+  "aep_name": "Mermaid_Wild%20(converted)2.aep",
+  "version": 1
+}

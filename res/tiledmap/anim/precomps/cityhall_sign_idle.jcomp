@@ -1,0 +1,62 @@
+{
+  "name": "cityhall_sign_idle",
+  "children": [
+    {
+      "name": "cityhall_sign",
+      "translation": [
+        0,
+        1477,
+        0
+      ],
+      "anchor": [
+        0,
+        1477,
+        0
+      ],
+      "compositionRef": "cityhall_sign",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cityhall_sign.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "cityhall_sign"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "cityhall_sign_opt_dev.aep",
+  "version": 1
+}

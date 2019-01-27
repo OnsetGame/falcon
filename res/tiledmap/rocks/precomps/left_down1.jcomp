@@ -1,0 +1,373 @@
+{
+  "name": "left_down1",
+  "children": [
+    {
+      "name": "A6.png",
+      "translation": [
+        3243,
+        7921.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        389.5,
+        564.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "A6_AO.png",
+          "translation": [
+            933.5,
+            878.5,
+            0
+          ],
+          "scale": [
+            2.99,
+            2.99,
+            1
+          ],
+          "anchor": [
+            418.5,
+            143,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 3.083,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/A6_AO.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.083,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/A6.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "A1.png",
+      "translation": [
+        3905,
+        9019.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        969,
+        875.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "A1_AO.png",
+          "translation": [
+            1489.361,
+            994.265,
+            0
+          ],
+          "scale": [
+            2.98,
+            2.98,
+            1
+          ],
+          "anchor": [
+            649.5,
+            333,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 3.083,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/A1_AO.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.083,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/A1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tree_3.png",
+      "translation": [
+        4587.999,
+        9854.999,
+        0
+      ],
+      "scale": [
+        2.55,
+        3.36,
+        1
+      ],
+      "anchor": [
+        356.5,
+        579,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.066,
+        0.997
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": -0.016,
+          "saturation": 0.1,
+          "lightness": -0.16,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/tree_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tree_1.png",
+      "translation": [
+        4251.999,
+        8938.999,
+        0
+      ],
+      "scale": [
+        2.7,
+        2.7,
+        1
+      ],
+      "anchor": [
+        300,
+        584,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/tree_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cloudA.png",
+      "translation": [
+        3952,
+        8208,
+        0
+      ],
+      "scale": [
+        6,
+        6,
+        1
+      ],
+      "anchor": [
+        668,
+        117.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/cloudA.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cloudA.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "tree_1.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "tree_3.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "A1_AO.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "A1.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "A6_AO.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "A6.png.enabled": {
+          "duration": 1.41666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.41666666666667
+        }
+      },
+      "layers": [
+        "cloudA.png",
+        "tree_1.png",
+        "tree_3.png",
+        "A1_AO.png",
+        "A1.png",
+        "A6_AO.png",
+        "A6.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

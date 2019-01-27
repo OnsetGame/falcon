@@ -1,0 +1,186 @@
+{
+  "name": "loading_screen_mermaidSlot",
+  "children": [
+    {
+      "name": "background_parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "image_parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "name": "mermaidSlot",
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "mermaid_Slot",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "nim_logo",
+      "translation": [
+        215,
+        905,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../real_valley_final/assets/nim_logo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "progressbar_parent",
+      "translation": [
+        576,
+        910,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "progressbar_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "nim_logo.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "image_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "background_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "mermaidSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "progressbar_parent",
+        "nim_logo",
+        "image_parent",
+        "background_parent",
+        "mermaidSlot"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "loading_screen_V3.aep",
+  "version": 1
+}

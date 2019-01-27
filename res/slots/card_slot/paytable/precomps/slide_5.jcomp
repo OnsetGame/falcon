@@ -1,0 +1,294 @@
+{
+  "name": "slide_6",
+  "children": [
+    {
+      "name": "card_paytable_allwins",
+      "translation": [
+        799.999969482466,
+        664.400097179413,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -160.000015258789,
+        -7.46663618087769,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.54166666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Allwins are multiplied by the per-line bet.\n\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "card_paytable_highest_win",
+      "translation": [
+        799.999969482466,
+        600.400097179413,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -160.000015258789,
+        -7.46663618087769,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.54166666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Only the highest win is paid on each payline.\n\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "card_paytable_symbols_payout",
+      "translation": [
+        799.999969482466,
+        472.400097179413,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -160.000015258789,
+        -7.46663618087769,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.54166666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "All symbols, except Bonus, pay left to right, when appear on\nconsecutive reels on each payline that’s starts with the far\nleft reel.\n\n\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "card_paytable_game_rules",
+      "translation": [
+        926.880180358887,
+        185.271987915039,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -33.0075836181641,
+        -7.50933837890625,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "game rules",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -111,
+            -26.3999004364014,
+            222,
+            42
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "card_paytable_game_rules.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "card_paytable_symbols_payout.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "card_paytable_highest_win.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "card_paytable_allwins.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "card_paytable_game_rules",
+        "card_paytable_symbols_payout",
+        "card_paytable_highest_win",
+        "card_paytable_allwins"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "matters_paytable.aep",
+  "export_time": "20 July 2018 16:03",
+  "rod_export_v": "Tue Jun 26 17:48:47 2018 +0300",
+  "version": 1
+}

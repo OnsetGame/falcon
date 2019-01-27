@@ -1,0 +1,268 @@
+{
+  "name": "slot_cards_icons",
+  "children": [
+    {
+      "name": "balloonSlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/WD_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "witchSlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/SF_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "candySlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/PP_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ufoSlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/MS_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "mermaidSlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/MJ_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "dreamTowerSlot",
+      "translation": [
+        138,
+        179.5,
+        0
+      ],
+      "anchor": [
+        138,
+        179.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/DT_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "dreamTowerSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "mermaidSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ufoSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candySlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "witchSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "balloonSlot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "dreamTowerSlot",
+        "mermaidSlot",
+        "ufoSlot",
+        "candySlot",
+        "witchSlot",
+        "balloonSlot"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "all_icons.aep",
+  "version": 1
+}

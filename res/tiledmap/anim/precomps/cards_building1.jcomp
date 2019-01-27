@@ -1,0 +1,114 @@
+{
+  "name": "cards_building1",
+  "children": [
+    {
+      "name": "magic_matters_build_01.png",
+      "translation": [
+        2022,
+        884,
+        0
+      ],
+      "anchor": [
+        848,
+        851,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_build_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "teleport",
+      "translation": [
+        1614,
+        1430,
+        0
+      ],
+      "scale": [
+        1.11347517730496,
+        2.22741114038776,
+        1
+      ],
+      "anchor": [
+        70.5,
+        72,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.12186934340515,
+        0.99254615164132
+      ],
+      "alpha": 0.9,
+      "compositionRef": "teleport",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "teleport.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 192,
+          "cutf": 191
+        },
+        "magic_matters_build_01.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 192,
+          "cutf": 191
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "teleport",
+        "magic_matters_build_01.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

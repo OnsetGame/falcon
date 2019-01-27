@@ -1,0 +1,374 @@
+{
+  "name": "full_screen_button",
+  "children": [
+    {
+      "name": "small_button_tpt.png",
+      "translation": [
+        70,
+        73,
+        0
+      ],
+      "anchor": [
+        55,
+        55,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.466,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/small_button_tpt.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Null 63",
+      "translation": [
+        71,
+        71,
+        0
+      ],
+      "children": [
+        {
+          "name": "Shape 794 copy 2.png",
+          "translation": [
+            -1.125,
+            2.062,
+            0
+          ],
+          "anchor": [
+            24,
+            24,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.466,
+              "scale": 1,
+              "startTime": -0.1,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Shape 794 copy 2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Shape 794 copy 9.png",
+          "translation": [
+            -0.75,
+            1.75,
+            0
+          ],
+          "anchor": [
+            22.5,
+            22.5,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.466,
+              "scale": 1,
+              "startTime": -0.1,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Shape 794 copy 9.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.466,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 63.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              0.629,
+              0.629,
+              1
+            ],
+            [
+              0.5,
+              0.499,
+              1
+            ],
+            [
+              0.629,
+              0.629,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              0.629,
+              0.629,
+              1
+            ],
+            [
+              0.5,
+              0.499,
+              1
+            ],
+            [
+              0.629,
+              0.629,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.46666666666667,
+          "len": 14,
+          "cutf": 0
+        },
+        "Shape 794 copy 9.png.alpha": {
+          "values": [
+            0,
+            0.333,
+            0.666,
+            1,
+            1,
+            1,
+            1,
+            0.666,
+            0.333,
+            0
+          ],
+          "duration": 0.46666666666667,
+          "len": 14,
+          "cutf": 2
+        },
+        "Shape 794 copy 2.png.alpha": {
+          "values": [
+            1,
+            0.666,
+            0.333,
+            0,
+            0,
+            0,
+            0,
+            0.333,
+            0.666,
+            1
+          ],
+          "duration": 0.46666666666667,
+          "len": 14,
+          "cutf": 2
+        },
+        "small_button_tpt.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.46666666666667,
+          "len": 14,
+          "cutf": 0
+        },
+        "Null 63.enabled": {
+          "duration": 0.46666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 14,
+          "cutf": 13
+        },
+        "Shape 794 copy 9.png.enabled": {
+          "duration": 0.46666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 14,
+          "cutf": 13
+        },
+        "Shape 794 copy 2.png.enabled": {
+          "duration": 0.46666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 14,
+          "cutf": 13
+        },
+        "small_button_tpt.png.enabled": {
+          "duration": 0.46666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 14,
+          "cutf": 13
+        }
+      },
+      "markers": {
+        "to_full_screen": {
+          "start": 0,
+          "duration": 0.2
+        },
+        "to_window_screen": {
+          "start": 0.23333333333333,
+          "duration": 0.2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.46666666666667
+        }
+      },
+      "layers": [
+        "Null 63",
+        "Shape 794 copy 9.png",
+        "Shape 794 copy 2.png",
+        "small_button_tpt.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

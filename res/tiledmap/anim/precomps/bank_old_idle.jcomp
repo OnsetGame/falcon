@@ -1,0 +1,63 @@
+{
+  "name": "bank_old_idle",
+  "children": [
+    {
+      "name": "bank_old",
+      "translation": [
+        0,
+        1152,
+        0
+      ],
+      "anchor": [
+        0,
+        1152,
+        0
+      ],
+      "compositionRef": "bank_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bank_old.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 143
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "bank_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

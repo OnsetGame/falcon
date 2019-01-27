@@ -1,0 +1,113 @@
+{
+  "name": "bucks",
+  "children": [
+    {
+      "name": "win_circle",
+      "translation": [
+        143,
+        61.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        25,
+        25,
+        0
+      ],
+      "alpha": 0.45,
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "fileNames": [
+            "../lrs/win_circle.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        137.5,
+        55,
+        0
+      ],
+      "scale": [
+        0.23,
+        0.23,
+        1
+      ],
+      "anchor": [
+        166,
+        136.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_bucks",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            332,
+            273
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_BUCKS_TEXT_@noloc",
+      "translation": [
+        56,
+        68,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "0",
+          "font": "AlfaSlabOne-Regular",
+          "fontSize": 31,
+          "color": [
+            0.10587999969721,
+            0.10587999969721,
+            0.10587999969721
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

@@ -1,0 +1,227 @@
+{
+  "name": "smoke_color",
+  "children": [
+    {
+      "name": "bigsmoke_[00000-00047].png",
+      "translation": [
+        967,
+        950,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        200,
+        75,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../bonus/assets/smoke/bigsmoke_00000.png",
+            "../../bonus/assets/smoke/bigsmoke_00001.png",
+            "../../bonus/assets/smoke/bigsmoke_00002.png",
+            "../../bonus/assets/smoke/bigsmoke_00003.png",
+            "../../bonus/assets/smoke/bigsmoke_00004.png",
+            "../../bonus/assets/smoke/bigsmoke_00005.png",
+            "../../bonus/assets/smoke/bigsmoke_00006.png",
+            "../../bonus/assets/smoke/bigsmoke_00007.png",
+            "../../bonus/assets/smoke/bigsmoke_00008.png",
+            "../../bonus/assets/smoke/bigsmoke_00009.png",
+            "../../bonus/assets/smoke/bigsmoke_00010.png",
+            "../../bonus/assets/smoke/bigsmoke_00011.png",
+            "../../bonus/assets/smoke/bigsmoke_00012.png",
+            "../../bonus/assets/smoke/bigsmoke_00013.png",
+            "../../bonus/assets/smoke/bigsmoke_00014.png",
+            "../../bonus/assets/smoke/bigsmoke_00015.png",
+            "../../bonus/assets/smoke/bigsmoke_00016.png",
+            "../../bonus/assets/smoke/bigsmoke_00017.png",
+            "../../bonus/assets/smoke/bigsmoke_00018.png",
+            "../../bonus/assets/smoke/bigsmoke_00019.png",
+            "../../bonus/assets/smoke/bigsmoke_00020.png",
+            "../../bonus/assets/smoke/bigsmoke_00021.png",
+            "../../bonus/assets/smoke/bigsmoke_00022.png",
+            "../../bonus/assets/smoke/bigsmoke_00023.png",
+            "../../bonus/assets/smoke/bigsmoke_00024.png",
+            "../../bonus/assets/smoke/bigsmoke_00025.png",
+            "../../bonus/assets/smoke/bigsmoke_00026.png",
+            "../../bonus/assets/smoke/bigsmoke_00027.png",
+            "../../bonus/assets/smoke/bigsmoke_00028.png",
+            "../../bonus/assets/smoke/bigsmoke_00029.png",
+            "../../bonus/assets/smoke/bigsmoke_00030.png",
+            "../../bonus/assets/smoke/bigsmoke_00031.png",
+            "../../bonus/assets/smoke/bigsmoke_00032.png",
+            "../../bonus/assets/smoke/bigsmoke_00033.png",
+            "../../bonus/assets/smoke/bigsmoke_00034.png",
+            "../../bonus/assets/smoke/bigsmoke_00035.png",
+            "../../bonus/assets/smoke/bigsmoke_00036.png",
+            "../../bonus/assets/smoke/bigsmoke_00037.png",
+            "../../bonus/assets/smoke/bigsmoke_00038.png",
+            "../../bonus/assets/smoke/bigsmoke_00039.png",
+            "../../bonus/assets/smoke/bigsmoke_00040.png",
+            "../../bonus/assets/smoke/bigsmoke_00041.png",
+            "../../bonus/assets/smoke/bigsmoke_00042.png",
+            "../../bonus/assets/smoke/bigsmoke_00043.png",
+            "../../bonus/assets/smoke/bigsmoke_00044.png",
+            "../../bonus/assets/smoke/bigsmoke_00045.png",
+            "../../bonus/assets/smoke/bigsmoke_00046.png",
+            "../../bonus/assets/smoke/bigsmoke_00047.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "mask.png",
+      "translation": [
+        959,
+        588,
+        0
+      ],
+      "scale": [
+        6,
+        6,
+        1
+      ],
+      "anchor": [
+        101.5,
+        103,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/mask.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bigsmoke_[00000-00047].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24,
+            25,
+            26,
+            26,
+            27,
+            28,
+            29,
+            30,
+            30,
+            31,
+            32,
+            33,
+            34,
+            34,
+            35,
+            36,
+            37,
+            38,
+            38,
+            39,
+            40,
+            41,
+            42,
+            42,
+            43,
+            44,
+            45,
+            46,
+            46,
+            47
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "bigsmoke_[00000-00047].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 1.95833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "mask.png",
+        "bigsmoke_[00000-00047].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Witch_BonusScene%20(converted).aep",
+  "version": 1
+}

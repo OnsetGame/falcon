@@ -1,0 +1,69 @@
+{
+  "name": "bonus_game_tips",
+  "children": [
+    {
+      "name": "mermaid_tips_bar.png",
+      "translation": [
+        408,
+        48,
+        0
+      ],
+      "anchor": [
+        408,
+        48,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/gui_black_simple",
+          "size": [
+            816,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mermaid_bonus_count_text",
+      "translation": [
+        218.699905395508,
+        34.5770034790039,
+        0
+      ],
+      "anchor": [
+        -188.675094604492,
+        -22.4229965209961,
+        0
+      ],
+      "components": [
+        {
+          "text": "Pick any 3 golden chests",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 1,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

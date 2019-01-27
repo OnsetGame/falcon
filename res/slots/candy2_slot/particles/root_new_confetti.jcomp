@@ -1,0 +1,595 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "confetti",
+  "components": [
+    {
+      "played": true,
+      "distance": 40.0,
+      "amplitude": 5.0,
+      "frequency": 0.4,
+      "isMove": false,
+      "speed": 9.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.001134463702328503,
+        0.9999993443489075
+      ],
+      "name": "conf_4",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 100.0,
+          "scaleSeq": [
+            [
+              0.0,
+              25.0,
+              25.0,
+              25.0
+            ],
+            [
+              1.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          ],
+          "lifetime": 3.0,
+          "isPlayed": false,
+          "randScaleFrom": -100.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.2,
+          "randVelocityFrom": -50.0,
+          "startScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "genShapeNode": "conf_4",
+          "gravity": [
+            0.0,
+            333.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            900.0,
+            900.0,
+            900.0
+          ],
+          "startVelocity": 300.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -900.0,
+            -900.0,
+            -90.0
+          ],
+          "birthRate": 90.0,
+          "texture": "bonus_part4.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 255.0,
+          "colorMode": 0,
+          "isLooped": false,
+          "texSize": [
+            59.0,
+            60.0
+          ],
+          "framesCount": 49,
+          "randVelocityTo": 50.0,
+          "scaleMode": 1,
+          "animColumns": 7,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": true,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -15.64769172668457,
+        4.998547077178955,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.001134463702328503,
+        0.9999993443489075
+      ],
+      "name": "conf_3",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 100.0,
+          "scaleSeq": [
+            [
+              0.0,
+              20.0,
+              40.0,
+              20.0
+            ],
+            [
+              1.0,
+              20.0,
+              40.0,
+              20.0
+            ]
+          ],
+          "lifetime": 3.0,
+          "isPlayed": false,
+          "randScaleFrom": -100.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.2,
+          "randVelocityFrom": -50.0,
+          "startScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "genShapeNode": "conf_3",
+          "gravity": [
+            0.0,
+            333.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            -600.0,
+            -600.0
+          ],
+          "startVelocity": 350.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            600.0,
+            600.0
+          ],
+          "birthRate": 90.0,
+          "texture": "bonus_part3.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 255.0,
+          "colorMode": 0,
+          "isLooped": false,
+          "texSize": [
+            40.0,
+            117.0
+          ],
+          "framesCount": 49,
+          "randVelocityTo": 50.0,
+          "scaleMode": 1,
+          "animColumns": 7,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": true,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -15.64769172668457,
+        4.998547077178955,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.001134463702328503,
+        0.9999993443489075
+      ],
+      "name": "conf_1",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 100.0,
+          "scaleSeq": [
+            [
+              0.0,
+              25.0,
+              25.0,
+              25.0
+            ],
+            [
+              1.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          ],
+          "lifetime": 3.0,
+          "isPlayed": false,
+          "randScaleFrom": -100.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.2,
+          "randVelocityFrom": -50.0,
+          "startScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "genShapeNode": "conf_1",
+          "gravity": [
+            0.0,
+            333.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            900.0,
+            900.0,
+            900.0
+          ],
+          "startVelocity": 375.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -900.0,
+            -900.0,
+            -90.0
+          ],
+          "birthRate": 90.0,
+          "texture": "bonus_part1.png",
+          "colorSeq": [],
+          "is3dRotation": true,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 255.0,
+          "colorMode": 0,
+          "isLooped": false,
+          "texSize": [
+            48.0,
+            47.0
+          ],
+          "framesCount": 49,
+          "randVelocityTo": 50.0,
+          "scaleMode": 1,
+          "animColumns": 7,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": true,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -15.64769172668457,
+        4.998547077178955,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.001134463702328503,
+        0.9999993443489075
+      ],
+      "name": "conf_2",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 100.0,
+          "scaleSeq": [
+            [
+              0.0,
+              25.0,
+              25.0,
+              25.0
+            ],
+            [
+              1.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          ],
+          "lifetime": 3.0,
+          "isPlayed": false,
+          "randScaleFrom": -100.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.2,
+          "randVelocityFrom": -50.0,
+          "startScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "genShapeNode": "conf_2",
+          "gravity": [
+            0.0,
+            333.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            600.0,
+            600.0,
+            600.0
+          ],
+          "startVelocity": 400.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -600.0,
+            -600.0,
+            -600.0
+          ],
+          "birthRate": 90.0,
+          "texture": "bonus_part2.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 255.0,
+          "colorMode": 0,
+          "isLooped": false,
+          "texSize": [
+            46.0,
+            44.0
+          ],
+          "framesCount": 49,
+          "randVelocityTo": 50.0,
+          "scaleMode": 1,
+          "animColumns": 7,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": true,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -15.64769172668457,
+        4.998547077178955,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -0.001134463702328503,
+        0.9999993443489075
+      ],
+      "name": "conf_5",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 100.0,
+          "scaleSeq": [
+            [
+              0.0,
+              25.0,
+              25.0,
+              25.0
+            ],
+            [
+              1.0,
+              20.0,
+              20.0,
+              20.0
+            ]
+          ],
+          "lifetime": 3.0,
+          "isPlayed": false,
+          "randScaleFrom": -100.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.2,
+          "randVelocityFrom": -50.0,
+          "startScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "genShapeNode": "conf_5",
+          "gravity": [
+            0.0,
+            333.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            600.0,
+            600.0,
+            600.0
+          ],
+          "startVelocity": 425.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -600.0,
+            -600.0,
+            -600.0
+          ],
+          "birthRate": 90.0,
+          "texture": "bonus_part1.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 255.0,
+          "colorMode": 0,
+          "isLooped": false,
+          "texSize": [
+            48.0,
+            47.0
+          ],
+          "framesCount": 49,
+          "randVelocityTo": 50.0,
+          "scaleMode": 1,
+          "animColumns": 7,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": true,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -15.64769172668457,
+        4.998547077178955,
+        0.0
+      ]
+    }
+  ],
+  "layer": 0,
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "version": 1
+}

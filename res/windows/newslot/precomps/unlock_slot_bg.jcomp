@@ -1,0 +1,975 @@
+{
+  "name": "unlock_slot_bg",
+  "children": [
+    {
+      "name": "Holder_Null",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "bg_slot",
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "bg_slot",
+          "components": [
+            {
+              "layerName": "Black_Solid",
+              "maskType": 1,
+              "_c": "Mask"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "Black_Solid",
+          "scale": [
+            2,
+            0.729,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "enabled": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -390,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$8",
+          "translation": [
+            7,
+            -387.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$7",
+          "translation": [
+            7,
+            395,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            7,
+            387.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "TAB_732px",
+          "translation": [
+            0,
+            -391,
+            0
+          ],
+          "anchor": [
+            366,
+            55,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/TAB_732px",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "rewards_glow",
+          "translation": [
+            167,
+            -74,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "anchor": [
+            200,
+            200,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/rewards_glow",
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            816,
+            -396,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/button_close",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_blue_wide_01",
+          "anchor": [
+            224,
+            -333,
+            0
+          ],
+          "compositionRef": "button_blue_wide_01",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "message_text",
+      "translation": [
+        960.838,
+        813.177,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        360.838,
+        12.176,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Build Restaurant and unlock Collecting!\nRestaurant allows you collect chips.",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            0.92156994342804,
+            0.92156994342804,
+            0.92156994342804
+          ],
+          "bounds": [
+            -30,
+            -25.1998901367188,
+            780,
+            86
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "message_text.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.218,
+              0.218,
+              1
+            ],
+            [
+              0.539,
+              0.539,
+              1
+            ],
+            [
+              0.847,
+              0.847,
+              1
+            ],
+            [
+              1.09,
+              1.09,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              1.185,
+              1.185,
+              1
+            ],
+            [
+              1.161,
+              1.161,
+              1
+            ],
+            [
+              1.105,
+              1.105,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.19,
+              1.19,
+              1
+            ],
+            [
+              1.155,
+              1.155,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              0.844,
+              0.844,
+              1
+            ],
+            [
+              0.16,
+              0.16,
+              1
+            ],
+            [
+              0.024,
+              0.024,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 15,
+          "frameLerp": true
+        },
+        "Holder_Null.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.002,
+              0.017,
+              1
+            ],
+            [
+              1.017,
+              0.103,
+              1
+            ],
+            [
+              1.098,
+              0.59,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.185,
+              1.11,
+              1
+            ],
+            [
+              1.194,
+              1.167,
+              1
+            ],
+            [
+              1.198,
+              1.192,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.099,
+              1.099,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.198,
+              1.192,
+              1
+            ],
+            [
+              1.194,
+              1.167,
+              1
+            ],
+            [
+              1.185,
+              1.11,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.098,
+              0.59,
+              1
+            ],
+            [
+              1.017,
+              0.103,
+              1
+            ],
+            [
+              1.002,
+              0.017,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "message_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "button_blue_wide_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "rewards_glow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "TAB_732px.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "ltp_bg_dow.png$7.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "ltp_bg_dow.png$8.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "bg_slot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "Holder_Null.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.41666666666667
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "message_text",
+        "button_blue_wide_01",
+        "button_close",
+        "rewards_glow",
+        "TAB_732px",
+        "ltp_bg_dow.png",
+        "ltp_bg_dow.png$7",
+        "ltp_bg_dow.png$8",
+        "ltp_bg_u.png",
+        "Black_Solid",
+        "bg_slot",
+        "Holder_Null"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

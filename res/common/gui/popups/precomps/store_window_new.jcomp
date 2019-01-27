@@ -1,0 +1,785 @@
+{
+  "name": "store_window_new",
+  "children": [
+    {
+      "name": "anchor2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "vip_progress_bar",
+          "translation": [
+            0,
+            468,
+            0
+          ],
+          "anchor": [
+            960,
+            72,
+            0
+          ],
+          "compositionRef": "vip_progress_bar",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "bg",
+          "translation": [
+            0,
+            10,
+            0
+          ],
+          "scale": [
+            1,
+            0.704,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0.75,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -365,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$15",
+          "translation": [
+            7,
+            -362.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$14",
+          "translation": [
+            7,
+            397,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            6.999,
+            389.499,
+            0
+          ],
+          "scale": [
+            11.999,
+            0.499,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "scale": [
+            3.326,
+            3.326,
+            1
+          ],
+          "anchor": [
+            171,
+            115.377,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            816,
+            -369.75,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_close",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "tabs_parent",
+          "translation": [
+            -960,
+            -540,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "tabs_title_parent",
+          "anchor": [
+            0,
+            424,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "in_out_controller",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0.001,
+        1
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "in_out_controller.scale": {
+          "values": [
+            [
+              1,
+              0.001,
+              1
+            ],
+            [
+              1.001,
+              0.017,
+              1
+            ],
+            [
+              1.008,
+              0.096,
+              1
+            ],
+            [
+              1.049,
+              0.542,
+              1
+            ],
+            [
+              1.082,
+              0.908,
+              1
+            ],
+            [
+              1.092,
+              1.018,
+              1
+            ],
+            [
+              1.097,
+              1.07,
+              1
+            ],
+            [
+              1.099,
+              1.093,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "anchor2.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.002,
+              0.017,
+              1
+            ],
+            [
+              1.017,
+              0.103,
+              1
+            ],
+            [
+              1.098,
+              0.59,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.185,
+              1.11,
+              1
+            ],
+            [
+              1.194,
+              1.167,
+              1
+            ],
+            [
+              1.198,
+              1.192,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.099,
+              1.099,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "tabs_title_parent.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "tabs_parent.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "button_close.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ltp_bg_dow.png$14.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ltp_bg_dow.png$15.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "in_out_controller.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "bg.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "vip_progress_bar.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "anchor2.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.54166666666667
+        },
+        "idle": {
+          "start": 1.25,
+          "duration": 0.125
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.625
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "tabs_title_parent",
+        "tabs_parent",
+        "button_close",
+        "ltp_solidorange.png",
+        "ltp_bg_dow.png",
+        "ltp_bg_dow.png$14",
+        "ltp_bg_dow.png$15",
+        "ltp_bg_u.png",
+        "in_out_controller",
+        "bg",
+        "vip_progress_bar",
+        "anchor2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_shop_dev.aep",
+  "export_time": "15 June 2018 12:45",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

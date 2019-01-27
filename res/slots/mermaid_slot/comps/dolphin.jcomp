@@ -1,0 +1,42 @@
+{
+  "name": "dolphin",
+  "children": [
+    {
+      "name": "dolphin_idle",
+      "translation": [
+        107.5,
+        140.0,
+        0
+      ],
+      "anchor": [
+        74.5,
+        79.0,
+        0
+      ],
+      "scale": [
+        1.33,
+        1.33,
+        1
+      ],
+      "compositionRef": "dolphin_idle.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "dolphin_win",
+      "translation": [
+        116.5,
+        126.5,
+        0
+      ],
+      "anchor": [
+        116.5,
+        126.5,
+        0
+      ],
+      "compositionRef": "dolphin_win.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "Characters_Optimization_and_Spin.aep",
+  "version": 1
+}

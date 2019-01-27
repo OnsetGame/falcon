@@ -1,0 +1,118 @@
+{
+  "name": "bg_blue_prtcl",
+  "translation": [
+    240.0,
+    1050.0,
+    0
+  ],
+  "scale": [
+    6.0,
+    6.0,
+    6.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    -0.9961947202682495,
+    -0.08715576678514481
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 0.5,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 1.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 30.0,
+      "lifetime": 14.0,
+      "startVelocity": 50.0,
+      "randVelocityFrom": 0.0,
+      "randVelocityTo": 0.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "dstScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randScaleFrom": 0.0,
+      "randScaleTo": 0.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [],
+      "texture": "particle_blue_n.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        50.0,
+        50.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "bg_blue_prtcl",
+      "genShapeNode": "bg_blue_prtcl",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "angle": 20.0,
+      "radius": 30.0,
+      "is2D": false,
+      "_c": "ConePSGenShape"
+    },
+    {
+      "force": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "_c": "PSModifierRandWind"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "cards_beams_alert",
+  "children": [
+    {
+      "name": "ltp_candy_card.png",
+      "translation": [
+        849,
+        495,
+        0
+      ],
+      "anchor": [
+        235,
+        177,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_candy_card.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_candy_card.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 12
+        }
+      },
+      "layers": [
+        "ltp_candy_card.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

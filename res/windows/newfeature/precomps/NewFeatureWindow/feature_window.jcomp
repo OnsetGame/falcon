@@ -1,0 +1,345 @@
+{
+  "name": "feature_window",
+  "children": [
+    {
+      "name": "restaurant",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_restaurant",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "stadium",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_stadium",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "wheel",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_wheel",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bank",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_bank",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gs_red",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_gs_red",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gs_purple",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_gs_purple",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "facebook",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_facebook",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gifts",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_gifts",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "barbershop",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "feature_barbershop",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "barbershop.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gifts.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "facebook.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gs_purple.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gs_red.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "bank.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "wheel.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "stadium.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "restaurant.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.41666666666667
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "barbershop",
+        "gifts",
+        "facebook",
+        "gs_purple",
+        "gs_red",
+        "bank",
+        "wheel",
+        "stadium",
+        "restaurant"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_features_window.aep",
+  "version": 1
+}

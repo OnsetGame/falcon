@@ -1,0 +1,177 @@
+{
+  "name": "button_black",
+  "children": [
+    {
+      "name": "button_black_big_on.png$AUX",
+      "translation": [
+        156,
+        50,
+        0
+      ],
+      "children": [
+        {
+          "name": "button_black_big_on.png",
+          "translation": [
+            -150,
+            -42,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/button_black_big_on.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_rectangle_black_button.png",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_rectangle_black_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title$AUX",
+      "translation": [
+        120.28874206543,
+        34.9219970703125,
+        0
+      ],
+      "children": [
+        {
+          "name": "title",
+          "translation": [
+            33.7112579345703,
+            23.3280029296875,
+            0
+          ],
+          "components": [
+            {
+              "text": "title",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                0.99607998132706,
+                0.99607998132706,
+                0.99607998132706
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "button_down": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            120.28874206543,
+            34.9219970703125,
+            0
+          ],
+          [
+            120.28874206543,
+            34.9219970703125,
+            0
+          ],
+          [
+            120.28874206543,
+            35.9619491770102,
+            0
+          ],
+          [
+            120.28874206543,
+            37,
+            0
+          ],
+          [
+            120.28874206543,
+            37,
+            0
+          ],
+          [
+            120.28874206543,
+            37,
+            0
+          ]
+        ],
+        "duration": 0.2
+      },
+      "ltp_rectangle_black_button.png.alpha": {
+        "values": [
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          0
+        ],
+        "duration": 0.2
+      }
+    },
+    "button_up": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            120.28874206543,
+            37,
+            0
+          ],
+          [
+            120.28874206543,
+            37,
+            0
+          ],
+          [
+            120.28874206543,
+            35.9600478933024,
+            0
+          ],
+          [
+            120.28874206543,
+            34.9219970703125,
+            0
+          ]
+        ],
+        "duration": 0.13333333333334
+      },
+      "ltp_rectangle_black_button.png.alpha": {
+        "values": [
+          0,
+          0,
+          0.5,
+          1
+        ],
+        "duration": 0.13333333333334
+      }
+    }
+  },
+  "version": 1
+}

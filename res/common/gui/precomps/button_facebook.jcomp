@@ -1,0 +1,311 @@
+{
+  "name": "button_facebook",
+  "children": [
+    {
+      "name": "blue_button_on",
+      "translation": [
+        138,
+        42,
+        0
+      ],
+      "anchor": [
+        138,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/facebookbutton_white_stroke_2color_on",
+          "size": [
+            276,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blue_button_off",
+      "translation": [
+        138,
+        42,
+        0
+      ],
+      "anchor": [
+        138,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/facebookbutton_white_stroke_2color_off",
+          "size": [
+            276,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        163.709,
+        38.759,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0.051,
+        -3.68,
+        0
+      ],
+      "children": [
+        {
+          "name": "f_logo",
+          "translation": [
+            -38.184,
+            -2.933,
+            0
+          ],
+          "scale": [
+            0.333,
+            0.333,
+            1
+          ],
+          "anchor": [
+            13,
+            19,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/f_logo.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Share",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              163.709,
+              38.759,
+              0
+            ],
+            [
+              163.709,
+              39.161,
+              0
+            ],
+            [
+              163.709,
+              39.959,
+              0
+            ],
+            [
+              163.709,
+              40.76,
+              0
+            ],
+            [
+              163.709,
+              40.76,
+              0
+            ],
+            [
+              163.709,
+              40.76,
+              0
+            ],
+            [
+              163.709,
+              40.76,
+              0
+            ],
+            [
+              163.709,
+              40.557,
+              0
+            ],
+            [
+              163.709,
+              39.76,
+              0
+            ],
+            [
+              163.709,
+              38.961,
+              0
+            ],
+            [
+              163.709,
+              38.759,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "blue_button_off.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0.5,
+            0.899,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "f_logo.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 48
+        },
+        "blue_button_off.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 48
+        },
+        "blue_button_on.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 48
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.20833333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.41666666666667,
+          "duration": 0.16666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "f_logo",
+        "title",
+        "blue_button_off",
+        "blue_button_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Share_button.aep",
+  "version": 1
+}

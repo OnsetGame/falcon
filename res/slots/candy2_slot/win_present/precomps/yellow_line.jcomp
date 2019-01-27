@@ -1,0 +1,52 @@
+{
+  "name": "yellow_line",
+  "children": [
+    {
+      "name": "yellow_line.png",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/yellow_line.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "yellow_line.png.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5
+        }
+      },
+      "layers": [
+        "yellow_line.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Candy2_Free_spin.aep",
+  "version": 1
+}

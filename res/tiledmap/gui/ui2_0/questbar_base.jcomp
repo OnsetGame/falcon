@@ -1,0 +1,844 @@
+{
+  "name": "questbar_base",
+  "children": [
+    {
+      "name": "holder_orange.png",
+      "translation": [
+        216,
+        324,
+        0
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4colors_back",
+      "translation": [
+        216,
+        324,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.975,
+        1
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.87450981140137,
+            0.54117649793625,
+            0.25098040699959,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_shadow",
+      "translation": [
+        222,
+        640,
+        0
+      ],
+      "scale": [
+        5.617,
+        1.457,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "circle_component_shadow.png$16",
+      "translation": [
+        183,
+        179,
+        0
+      ],
+      "scale": [
+        2.471,
+        2.349,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "building_placeholder",
+      "translation": [
+        215.5,
+        109.25,
+        0
+      ],
+      "children": [
+        {
+          "name": "big_circle_stroke",
+          "translation": [
+            0,
+            -1.749,
+            0
+          ],
+          "scale": [
+            1.07,
+            1.07,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                251,
+                251
+              ],
+              "shapeType": 1,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "big_circle",
+          "translation": [
+            0,
+            -1.75,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                251,
+                251
+              ],
+              "shapeType": 1,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                0.82745098039216,
+                0.70100103640089,
+                0.54838909074372,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "small_icon",
+          "translation": [
+            87.5,
+            63.75,
+            0
+          ],
+          "scale": [
+            2.314,
+            2.036,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "small_circle_stroke",
+              "translation": [
+                43.203,
+                21.118,
+                0
+              ],
+              "scale": [
+                0.475,
+                0.54,
+                1
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.833,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "VectorShape",
+                  "size": [
+                    155,
+                    155
+                  ],
+                  "shapeType": 1,
+                  "strokeColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "strokeWidth": 0,
+                  "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "small_circle",
+              "translation": [
+                43.203,
+                21.118,
+                0
+              ],
+              "scale": [
+                0.432,
+                0.491,
+                1
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.833,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "VectorShape",
+                  "size": [
+                    155,
+                    155
+                  ],
+                  "shapeType": 1,
+                  "strokeColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "strokeWidth": 0,
+                  "color": [
+                    0.70980392156863,
+                    0.59485988242953,
+                    0.45928491330614,
+                    1
+                  ]
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "corner",
+      "translation": [
+        368.25,
+        65,
+        0
+      ],
+      "anchor": [
+        69,
+        71.5,
+        0
+      ],
+      "compositionRef": "corner_placeholder",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rewards",
+      "translation": [
+        215.5,
+        270,
+        0
+      ],
+      "children": [
+        {
+          "name": "circle_component_shadow.png",
+          "translation": [
+            0,
+            -8,
+            0
+          ],
+          "scale": [
+            4.606,
+            0.469,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.27,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "threedot_holder.png",
+          "translation": [
+            1.5,
+            -30.375,
+            0
+          ],
+          "anchor": [
+            144,
+            24,
+            0
+          ],
+          "components": [
+            {
+              "black": [
+                1,
+                0.68235296010971,
+                0.1803921610117,
+                1
+              ],
+              "white": [
+                0.94901961088181,
+                0.38823530077934,
+                0.27450981736183,
+                1
+              ],
+              "amount": 1,
+              "_c": "Tint"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/threedot_placeholder",
+              "size": [
+                288,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "name": "REWARD_TEXT",
+          "translation": [
+            2.57,
+            -29.64,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            -0.018,
+            -11.703,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.833,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Reward",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lastic.png",
+      "translation": [
+        34,
+        30.125,
+        0
+      ],
+      "anchor": [
+        33,
+        29.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../popups/assets/lastic.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "center_anchor",
+      "translation": [
+        215.5,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "add_placeholder",
+      "translation": [
+        300.374,
+        131,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "add_placeholder.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "center_anchor.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "REWARD_TEXT.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "threedot_holder.png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "lastic.png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "rewards.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "corner.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "building_placeholder.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "small_circle.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "small_circle_stroke.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "small_icon.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "big_circle.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "big_circle_stroke.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "circle_component_shadow.png$16.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "button_shadow.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "4colors_back.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "holder_orange.png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.83333333333333
+        }
+      },
+      "layers": [
+        "add_placeholder",
+        "center_anchor",
+        "REWARD_TEXT",
+        "threedot_holder.png",
+        "circle_component_shadow.png",
+        "lastic.png",
+        "rewards",
+        "corner",
+        "building_placeholder",
+        "small_circle",
+        "small_circle_stroke",
+        "small_icon",
+        "big_circle",
+        "big_circle_stroke",
+        "circle_component_shadow.png$16",
+        "button_shadow",
+        "4colors_back",
+        "holder_orange.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

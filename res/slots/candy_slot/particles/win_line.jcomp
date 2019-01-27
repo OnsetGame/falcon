@@ -1,0 +1,539 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "line_fx",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "donut2",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 1150.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": false,
+          "frequency": 0.015,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": false,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "donut2",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 20.0,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 125.0,
+          "birthRate": 80.0,
+          "texture": "drop_brown_7.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 800.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            62.0,
+            45.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 8.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "candy_popcorn",
+      "components": [
+        {
+          "dstScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 1150.0,
+          "scaleSeq": [],
+          "lifetime": 1.5,
+          "isPlayed": false,
+          "frequency": 0.015,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            30.0,
+            30.0,
+            30.0
+          ],
+          "genShapeNode": "candy_popcorn",
+          "gravity": [
+            0.0,
+            50.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 50.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 125.0,
+          "birthRate": 40.0,
+          "texture": "small_candy_fx.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 800.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 100.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            50.0,
+            37.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 20.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "donut",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 1150.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": false,
+          "frequency": 0.015,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": false,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "donut",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 25.0,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 125.0,
+          "birthRate": 65.0,
+          "texture": "drop_brown_1.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 800.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            50.0,
+            40.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 14.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "circle",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 1150.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": false,
+          "frequency": 0.01,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": true,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "circle",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 25.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 125.0,
+          "birthRate": 90.0,
+          "texture": "white_circle_fx.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 800.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            100.0,
+            100.0
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 12.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 20.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "candy",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 1150.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": false,
+          "frequency": 0.015,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": false,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "candy",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 20.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 125.0,
+          "birthRate": 50.0,
+          "texture": "small_candy_fx.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 800.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            50.0,
+            37.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 10.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1000.0,
+    500.0,
+    0.0
+  ],
+  "version": 1
+}

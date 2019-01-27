@@ -1,0 +1,521 @@
+{
+  "name": "quest_button_big",
+  "children": [
+    {
+      "name": "GUI_QUESTS_BUTTON",
+      "translation": [
+        111.5,
+        120,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        1
+      ],
+      "anchor": [
+        111.5,
+        112,
+        0
+      ],
+      "children": [
+        {
+          "name": "alert_comp",
+          "translation": [
+            205.365,
+            44.333,
+            0
+          ],
+          "scale": [
+            1.436,
+            1.436,
+            1
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "compositionRef": "alert_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/quest_icon.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        112.743,
+        193.033,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Quests",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              0.859,
+              0.859,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.08,
+              1.08,
+              1
+            ],
+            [
+              1.176,
+              1.176,
+              1
+            ],
+            [
+              1.158,
+              1.137,
+              1
+            ],
+            [
+              1.06,
+              0.99,
+              1
+            ],
+            [
+              0.992,
+              0.907,
+              1
+            ],
+            [
+              0.92,
+              0.979,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "GUI_QUESTS_BUTTON.scale": {
+          "values": [
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.767,
+              0.767,
+              1
+            ],
+            [
+              0.713,
+              0.713,
+              1
+            ],
+            [
+              0.706,
+              0.706,
+              1
+            ],
+            [
+              0.752,
+              0.752,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.88,
+              0.88,
+              1
+            ],
+            [
+              0.976,
+              0.976,
+              1
+            ],
+            [
+              0.979,
+              0.96,
+              1
+            ],
+            [
+              0.93,
+              0.867,
+              1
+            ],
+            [
+              0.888,
+              0.811,
+              1
+            ],
+            [
+              0.781,
+              0.828,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "GUI_QUESTS_BUTTON.0.inWhite": {
+          "values": [
+            1,
+            0.91151564074412,
+            0.78216167559844,
+            0.79214235080239,
+            0.89906943420299,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "alert_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "GUI_QUESTS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.83333333333333,
+          "duration": 0.20833333333334
+        },
+        "cards_in": {
+          "start": 1.70833333333333,
+          "duration": 0.29166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "alert_comp",
+        "GUI_QUESTS_BUTTON"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_lower_part_minimize.aep",
+  "export_time": "8 August 2018 15:07",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

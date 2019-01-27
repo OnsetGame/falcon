@@ -1,0 +1,914 @@
+{
+  "name": "new_offers",
+  "children": [
+    {
+      "name": "in_out_controller",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "background",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "background",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "plus",
+          "translation": [
+            0,
+            -44,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "plus",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 15,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "name_of_pack",
+          "translation": [
+            1.069,
+            -274.036,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            1.792,
+            -21.952,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Easter Uber Pack",
+              "font": "Exo2-Black",
+              "fontSize": 64,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "currency_image_small",
+          "translation": [
+            -9.999,
+            66.5,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            386,
+            185.5,
+            0
+          ],
+          "compositionRef": "currency_image_small",
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "currency_image_big",
+          "translation": [
+            -0.999,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "currency_image_big",
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 15,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 15,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "currncy_default",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "currncy_default",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "center",
+          "translation": [
+            0,
+            50,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "offer",
+          "translation": [
+            -137.999,
+            -185.999,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            822,
+            354,
+            0
+          ],
+          "compositionRef": "offer",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5.16666666666667,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "timer",
+          "translation": [
+            527.5,
+            184,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            144.5,
+            88,
+            0
+          ],
+          "compositionRef": "timer",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "vip_points",
+          "translation": [
+            336,
+            386,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            96,
+            42,
+            0
+          ],
+          "compositionRef": "vip_points",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "currency_offer_2",
+          "translation": [
+            -31.5,
+            -197,
+            0
+          ],
+          "anchor": [
+            391.5,
+            172,
+            0
+          ],
+          "compositionRef": "currency_offer_2",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "currency_offer_1",
+          "translation": [
+            -31.5,
+            -192.5,
+            0
+          ],
+          "anchor": [
+            247.5,
+            61.5,
+            0
+          ],
+          "compositionRef": "currency_offer_1",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1.875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "in_out_controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.016,
+              0.016,
+              1
+            ],
+            [
+              0.095,
+              0.095,
+              1
+            ],
+            [
+              0.541,
+              0.541,
+              1
+            ],
+            [
+              0.908,
+              0.908,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.093,
+              1.093,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.093,
+              1.093,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              0.908,
+              0.908,
+              1
+            ],
+            [
+              0.541,
+              0.541,
+              1
+            ],
+            [
+              0.095,
+              0.095,
+              1
+            ],
+            [
+              0.016,
+              0.016,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.875,
+          "len": 45,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "currency_image_big.0.inWhite": {
+          "values": [
+            1,
+            0.85356799971124,
+            0.62726400038188,
+            0.62726400038308,
+            0.85356799971303,
+            1,
+            0.75784423443521,
+            0.584,
+            0.75784423443521,
+            1
+          ],
+          "duration": 1.875,
+          "len": 45,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "currency_image_small.0.inWhite": {
+          "values": [
+            1,
+            0.85356799971124,
+            0.62726400038188,
+            0.62726400038308,
+            0.85356799971303,
+            1,
+            0.75784423443521,
+            0.584,
+            0.75784423443521,
+            1
+          ],
+          "duration": 1.875,
+          "len": 45,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "currency_offer_1.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "currency_offer_2.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "vip_points.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "timer.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "offer.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "center.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "currncy_default.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "currency_image_big.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "currency_image_small.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "name_of_pack.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "plus.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "background.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "in_out_controller.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "idle": {
+          "start": 0.95833333333333,
+          "duration": 0.41666666666667
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.875
+        }
+      },
+      "layers": [
+        "currency_offer_1",
+        "currency_offer_2",
+        "vip_points",
+        "timer",
+        "offer",
+        "center",
+        "currncy_default",
+        "currency_image_big",
+        "currency_image_small",
+        "name_of_pack",
+        "plus",
+        "background",
+        "in_out_controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

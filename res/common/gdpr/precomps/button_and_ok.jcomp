@@ -1,0 +1,450 @@
+{
+  "name": "button_and_ok",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        660,
+        884,
+        0
+      ],
+      "scale": [
+        10.298,
+        1.061,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_on.png",
+      "translation": [
+        335,
+        783,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_on",
+          "size": [
+            624,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_off.png",
+      "translation": [
+        647,
+        839,
+        0
+      ],
+      "anchor": [
+        312,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_off",
+          "size": [
+            624,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "submit_title",
+      "translation": [
+        647.599,
+        854.8,
+        0
+      ],
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.1803921610117,
+            0.1803921610117,
+            0.1803921610117,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Get Reward and Play",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "translation": [
+        336,
+        732,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            44,
+            44
+          ],
+          "radius": 14,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.6
+          ],
+          "strokeWidth": 4,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "checkbox_ok",
+      "translation": [
+        319,
+        720,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ok.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tip_text",
+      "translation": [
+        714.599,
+        743.8,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Yes, I agree and want to play",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "checkbox_ok.alpha": {
+          "values": [
+            0,
+            0.599,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 11
+        },
+        "submit_title.tY": {
+          "values": [
+            854.8,
+            856.207437525661,
+            858.383249721734,
+            858.8,
+            858.8,
+            858.8,
+            858.8,
+            858.8,
+            858.383249721722,
+            856.207437525644,
+            854.8
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 20
+        },
+        "submit_title.0.amount": {
+          "values": [
+            1,
+            0.400390625,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 11
+        },
+        "button_off.png.alpha": {
+          "values": [
+            1,
+            0.648,
+            0.104,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.104,
+            0.648,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 20
+        },
+        "button_off.png.0.amount": {
+          "values": [
+            1,
+            0.35256259211605,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 11
+        },
+        "tip_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "checkbox_ok.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "checkbox.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "submit_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "off": {
+          "start": 0,
+          "duration": 0.41666666666667
+        },
+        "on": {
+          "start": 0.41666666666667,
+          "duration": 0.25
+        },
+        "press": {
+          "start": 0.66666666666667,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "tip_text",
+        "checkbox_ok",
+        "checkbox",
+        "submit_title",
+        "button_off.png",
+        "button_on.png",
+        "circle_component_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GDRP_dev.aep",
+  "version": 1
+}

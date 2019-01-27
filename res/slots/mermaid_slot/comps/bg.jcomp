@@ -1,0 +1,827 @@
+{
+  "name": "bg",
+  "children": [
+    {
+      "name": "ocean_bg_new.png",
+      "translation": [
+        960,
+        273,
+        0
+      ],
+      "scale": [
+        4,
+        4,
+        1
+      ],
+      "anchor": [
+        240,
+        68.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/ocean_bg_new.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "surface",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "surface.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "backfish_3",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "backfish_3.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "back_layer_bg",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "back_layer_bg.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "ltp_starfish_mask.png",
+      "translation": [
+        1175,
+        921,
+        0
+      ],
+      "anchor": [
+        61,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/ltp_starfish_mask.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Chest9",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest9.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "backfish_2",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "backfish_2.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "backfish_1",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "backfish_1.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "caustic_far",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "caustic_far.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Chest8",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest8.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "Chest7",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest7.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "Chest6",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest6.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "Chest4",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest4.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "bottom",
+      "translation": [
+        961,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "bottom.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "Chest3",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest3.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "ltp_over_chest3.png",
+      "translation": [
+        741,
+        901,
+        0
+      ],
+      "anchor": [
+        187,
+        119,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/ltp_over_chest3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Chest5",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest5.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "caustic_near",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "caustic_near.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Chest2",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest2.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "crab",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "crab.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "nearfish_far",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "nearfish_far.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 0.58823529411765,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0.07843137254902,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    },
+    {
+      "name": "bg_over3",
+      "translation": [
+        1317,
+        941,
+        0
+      ],
+      "anchor": [
+        51,
+        23,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/bg_over3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bg_over2",
+      "translation": [
+        1173,
+        919,
+        0
+      ],
+      "anchor": [
+        55,
+        29,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/bg_over2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bg_over1",
+      "translation": [
+        981,
+        903,
+        0
+      ],
+      "anchor": [
+        35,
+        29,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/bg_over1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Back",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "PRT_Back.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "nearfish_middle",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "nearfish_middle.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 0.7843137254902,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0.03137254901961,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    },
+    {
+      "name": "smallshine",
+      "translation": [
+        1184,
+        508,
+        0
+      ],
+      "scale": [
+        8,
+        8,
+        1
+      ],
+      "anchor": [
+        62,
+        60,
+        0
+      ],
+      "alpha": 0.75,
+      "compositionRef": "smallshine.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "shark",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "shark.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "nearfish_near",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "nearfish_near.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "middleshine",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "middleshine.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    },
+    {
+      "name": "Chest1",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Chest/Chest1.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "mermaid_bonus",
+      "translation": [
+        732,
+        509,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "mermaid_bonus.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "coins_from_chests",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "coins_from_chests.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "foreground",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "foreground.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "PRT_Bubble",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "PRT_Bubble.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "watergrass",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "watergrass.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "PRT_Bokeh$6",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.42392927408218,
+            0.59333378076553,
+            0.60392159223557
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Bokeh$5",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.42392927408218,
+            0.59333378076553,
+            0.60392159223557
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "reels",
+      "affectsChildren": false
+    },
+    {
+      "name": "blurred_fg_new.png",
+      "translation": [
+        960,
+        988,
+        0
+      ],
+      "anchor": [
+        960,
+        188,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/blurred_fg_new.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Bokeh",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.42392927408218,
+            0.59333378076553,
+            0.60392159223557
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "nearfish_blur",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "nearfish_blur.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt_with_numbers.aep",
+  "version": 1
+}

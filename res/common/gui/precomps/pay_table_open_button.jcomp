@@ -1,0 +1,192 @@
+{
+  "name": "pay_table_open_button",
+  "children": [
+    {
+      "name": "ellipse_pay_table",
+      "translation": [
+        86.25,
+        88.25,
+        0
+      ],
+      "anchor": [
+        85,
+        83,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_pay_table.png",
+          "translation": [
+            83,
+            79,
+            0
+          ],
+          "anchor": [
+            47,
+            43,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_pay_table.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ellipse_pay_table.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ellipse_pay_table.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 30
+        },
+        "ltp_pay_table.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 30
+        },
+        "ltp_pay_table.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ellipse_pay_table.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 1,
+          "duration": 0.2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "ltp_pay_table.png",
+        "ellipse_pay_table"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

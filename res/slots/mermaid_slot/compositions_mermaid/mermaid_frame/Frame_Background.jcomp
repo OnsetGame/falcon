@@ -1,0 +1,91 @@
+{
+  "name": "Frame_Background",
+  "children": [
+    {
+      "name": "Frame_Background_mult.png",
+      "translation": [
+        822.25,
+        242.00000000002,
+        0
+      ],
+      "scale": [
+        4.001,
+        4.02600000000001,
+        1
+      ],
+      "anchor": [
+        53.5,
+        9.41490138787947,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/Frame_Background_mult.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Frame_Background_Add.png",
+      "translation": [
+        818,
+        570.0625,
+        0
+      ],
+      "scale": [
+        4.237,
+        4.10700000000001,
+        1
+      ],
+      "anchor": [
+        53.5,
+        99,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../../Layers/Frame_Background_Add.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Light Rays",
+      "translation": [
+        1034,
+        453,
+        0
+      ],
+      "scale": [
+        0.44583333333333,
+        0.44583333333333,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "Light Rays.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Mermaid_Wild%20(converted)2.aep",
+  "version": 1
+}

@@ -1,0 +1,58 @@
+{
+  "name": "bank_1_comp",
+  "children": [
+    {
+      "name": "bank_1",
+      "translation": [
+        619.5,
+        460.5,
+        0
+      ],
+      "anchor": [
+        545.5,
+        449.5,
+        0
+      ],
+      "compositionRef": "bank_1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bank_1.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "bank_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "bank_old_dev.aep",
+  "version": 1
+}

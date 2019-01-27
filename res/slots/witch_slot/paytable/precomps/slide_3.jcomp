@@ -1,0 +1,311 @@
+{
+  "name": "slide_3",
+  "children": [
+    {
+      "name": "witch_paytable_wild",
+      "translation": [
+        959.599,
+        191.799,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "WILD",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ltp_group_5.png",
+      "translation": [
+        961,
+        533,
+        0
+      ],
+      "anchor": [
+        235,
+        275,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_group_5.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "witch_paytable_spiderweb_2",
+      "translation": [
+        1248,
+        385.4,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "All symbols that are near the Wild symbol, which did not participate in any winning combination, are converted into “Spiderweb”.",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0,
+            -1.33333015441895,
+            136.33332824707,
+            192.866624832153
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "witch_paytable_spiderweb_1",
+      "translation": [
+        312,
+        385.4,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Wild occurs only on reel 3. If Wild symbol appearing on reel 3, than the “Spideweb” feature is activated.",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0,
+            -1.33333015441895,
+            120.000007629395,
+            128.866617202759
+          ],
+          "justification": "haRight",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "witch_paytable_spider_wild",
+      "translation": [
+        959.599,
+        863.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Spider Wild",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "witch_paytable_spider_wild.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "witch_paytable_spiderweb_1.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "witch_paytable_spiderweb_2.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_group_5.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "witch_paytable_wild.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "witch_paytable_spider_wild",
+        "witch_paytable_spiderweb_1",
+        "witch_paytable_spiderweb_2",
+        "ltp_group_5.png",
+        "witch_paytable_wild"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "new_witch_paytable%20(converted).aep",
+  "version": 1
+}

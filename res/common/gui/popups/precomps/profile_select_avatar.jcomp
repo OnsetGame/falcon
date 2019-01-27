@@ -1,0 +1,794 @@
+{
+  "name": "profile_select_avatar",
+  "children": [
+    {
+      "name": "Black Solid 9",
+      "translation": [
+        960,
+        540.5,
+        0
+      ],
+      "scale": [
+        1,
+        1.108,
+        1
+      ],
+      "anchor": [
+        575,
+        252.5,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1150,
+            505
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "player_profile_up.png$19",
+      "translation": [
+        960,
+        849.937,
+        0
+      ],
+      "scale": [
+        1,
+        -1,
+        1
+      ],
+      "anchor": [
+        582,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1164,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "player_profile_up.png",
+      "translation": [
+        960,
+        230,
+        0
+      ],
+      "anchor": [
+        582,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1164,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        737,
+        133,
+        0
+      ],
+      "compositionRef": "popup_title.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1477,
+        209,
+        0
+      ],
+      "compositionRef": "button_close.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5.8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_template",
+      "translation": [
+        421,
+        305,
+        0
+      ],
+      "compositionRef": "ava_template.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_7",
+      "translation": [
+        1265,
+        473,
+        0
+      ],
+      "compositionRef": "ava_7.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_6",
+      "translation": [
+        1073,
+        473,
+        0
+      ],
+      "compositionRef": "ava_6.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_5",
+      "translation": [
+        881,
+        473,
+        0
+      ],
+      "compositionRef": "ava_5.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_4",
+      "translation": [
+        689,
+        473,
+        0
+      ],
+      "compositionRef": "ava_4.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_8",
+      "translation": [
+        689,
+        641,
+        0
+      ],
+      "compositionRef": "ava_8.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_9",
+      "translation": [
+        881,
+        641,
+        0
+      ],
+      "compositionRef": "ava_9.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_10",
+      "translation": [
+        1073,
+        641,
+        0
+      ],
+      "compositionRef": "ava_10.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_11",
+      "translation": [
+        1265,
+        641,
+        0
+      ],
+      "compositionRef": "ava_11.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_black_small",
+      "translation": [
+        421,
+        493,
+        0
+      ],
+      "compositionRef": "button_black_small.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_back",
+      "translation": [
+        325,
+        209,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_left_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "playerNameField",
+      "translation": [
+        1057.125,
+        372,
+        0
+      ],
+      "anchor": [
+        360,
+        36,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowBlackSolid30px",
+          "size": [
+            720,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Player_Name",
+      "translation": [
+        719.663,
+        361.6,
+        0
+      ],
+      "anchor": [
+        1.664,
+        -22.4,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Player_Name",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_enter_name",
+      "translation": [
+        721.943,
+        295.416,
+        0
+      ],
+      "anchor": [
+        1.944,
+        -16.583,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Enter your name",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            0.60000002384186,
+            0.45098000764847,
+            0.29412001371384
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_choose_avatar",
+      "translation": [
+        721.943,
+        439.416,
+        0
+      ],
+      "anchor": [
+        1.944,
+        -16.583,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Choose your avatar picture",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            0.60000002384186,
+            0.45098000764847,
+            0.29412001371384
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "gui_choose_avatar.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gui_enter_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Player_Name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "playerNameField.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_back.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_black_small.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_11.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_10.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_9.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_8.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_4.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_5.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_6.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_7.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_template.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "player_profile_up.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "player_profile_up.png$19.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Black Solid 9.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "gui_choose_avatar",
+        "gui_enter_name",
+        "Player_Name",
+        "playerNameField",
+        "button_back",
+        "button_black_small",
+        "ava_11",
+        "ava_10",
+        "ava_9",
+        "ava_8",
+        "ava_4",
+        "ava_5",
+        "ava_6",
+        "ava_7",
+        "ava_template",
+        "button_close",
+        "popup_title",
+        "player_profile_up.png",
+        "player_profile_up.png$19",
+        "Black Solid 9"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

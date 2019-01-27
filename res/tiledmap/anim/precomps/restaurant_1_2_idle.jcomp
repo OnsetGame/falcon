@@ -1,0 +1,63 @@
+{
+  "name": "restaurant_1_2_idle",
+  "children": [
+    {
+      "name": "restaurant_1_2",
+      "translation": [
+        0,
+        1114,
+        0
+      ],
+      "anchor": [
+        0,
+        1114,
+        0
+      ],
+      "compositionRef": "restaurant_1_2",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8.04166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "restaurant_1_2.enabled": {
+          "duration": 4.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 108,
+          "cutf": 107
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4.5
+        }
+      },
+      "layers": [
+        "restaurant_1_2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

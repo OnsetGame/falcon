@@ -1,0 +1,240 @@
+{
+  "name": "multiplyer_win_2",
+  "children": [
+    {
+      "name": "ltp_multiplyer_02.png",
+      "translation": [
+        144,
+        154.5,
+        0
+      ],
+      "scale": [
+        0.93,
+        0.93,
+        1
+      ],
+      "anchor": [
+        79,
+        69,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.416,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/ltp_multiplyer_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "multiplyer_02_win_[00-33].png",
+      "translation": [
+        157,
+        142.5,
+        0
+      ],
+      "anchor": [
+        213,
+        171,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/multiplyer_02_win_00.png",
+            "../assets/magic_matters_special/multiplyer_02_win_01.png",
+            "../assets/magic_matters_special/multiplyer_02_win_02.png",
+            "../assets/magic_matters_special/multiplyer_02_win_03.png",
+            "../assets/magic_matters_special/multiplyer_02_win_04.png",
+            "../assets/magic_matters_special/multiplyer_02_win_05.png",
+            "../assets/magic_matters_special/multiplyer_02_win_06.png",
+            "../assets/magic_matters_special/multiplyer_02_win_07.png",
+            "../assets/magic_matters_special/multiplyer_02_win_08.png",
+            "../assets/magic_matters_special/multiplyer_02_win_09.png",
+            "../assets/magic_matters_special/multiplyer_02_win_10.png",
+            "../assets/magic_matters_special/multiplyer_02_win_11.png",
+            "../assets/magic_matters_special/multiplyer_02_win_12.png",
+            "../assets/magic_matters_special/multiplyer_02_win_13.png",
+            "../assets/magic_matters_special/multiplyer_02_win_14.png",
+            "../assets/magic_matters_special/multiplyer_02_win_15.png",
+            "../assets/magic_matters_special/multiplyer_02_win_16.png",
+            "../assets/magic_matters_special/multiplyer_02_win_17.png",
+            "../assets/magic_matters_special/multiplyer_02_win_18.png",
+            "../assets/magic_matters_special/multiplyer_02_win_19.png",
+            "../assets/magic_matters_special/multiplyer_02_win_20.png",
+            "../assets/magic_matters_special/multiplyer_02_win_21.png",
+            "../assets/magic_matters_special/multiplyer_02_win_22.png",
+            "../assets/magic_matters_special/multiplyer_02_win_23.png",
+            "../assets/magic_matters_special/multiplyer_02_win_24.png",
+            "../assets/magic_matters_special/multiplyer_02_win_25.png",
+            "../assets/magic_matters_special/multiplyer_02_win_26.png",
+            "../assets/magic_matters_special/multiplyer_02_win_27.png",
+            "../assets/magic_matters_special/multiplyer_02_win_28.png",
+            "../assets/magic_matters_special/multiplyer_02_win_29.png",
+            "../assets/magic_matters_special/multiplyer_02_win_30.png",
+            "../assets/magic_matters_special/multiplyer_02_win_31.png",
+            "../assets/magic_matters_special/multiplyer_02_win_32.png",
+            "../assets/magic_matters_special/multiplyer_02_win_33.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_multiplyer_02.png.scale": {
+          "values": [
+            [
+              0.93,
+              0.93,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.05,
+              1.05,
+              1
+            ],
+            [
+              1.037,
+              1.037,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.83333333333333,
+          "len": 44,
+          "cutf": 34,
+          "frameLerp": true
+        },
+        "multiplyer_02_win_[00-33].png.curFrame": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "len": 44,
+          "cutf": 0
+        },
+        "multiplyer_02_win_[00-33].png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 44,
+          "cutf": 33
+        },
+        "ltp_multiplyer_02.png.enabled": {
+          "duration": 1.83333333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": true,
+          "len": 44,
+          "cutf": 33
+        }
+      },
+      "markers": {
+        "multiplyer_win": {
+          "start": 0,
+          "duration": 1.83333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.83333333333333
+        }
+      },
+      "layers": [
+        "multiplyer_02_win_[00-33].png",
+        "ltp_multiplyer_02.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018.aep",
+  "export_time": "25 June 2018 10:33",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

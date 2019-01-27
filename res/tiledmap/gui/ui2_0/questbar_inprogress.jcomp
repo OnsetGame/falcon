@@ -1,0 +1,386 @@
+{
+  "name": "questbar_inprogress",
+  "children": [
+    {
+      "name": "questbar_base",
+      "translation": [
+        215.5,
+        324,
+        0
+      ],
+      "anchor": [
+        215.5,
+        324,
+        0
+      ],
+      "compositionRef": "questbar_base",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.83333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "building_name_bg",
+      "translation": [
+        216,
+        239.5,
+        0
+      ],
+      "anchor": [
+        0,
+        -230,
+        0
+      ],
+      "alpha": 0.45,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            336.0625,
+            48.125
+          ],
+          "radius": 24.0625,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.12156862745098,
+            0.0432206621357,
+            0.01239523233152,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timer",
+      "translation": [
+        228.111,
+        467.466,
+        0
+      ],
+      "anchor": [
+        0.221,
+        -13.599,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "02:32:45",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "QB_BUILDING_TIME",
+      "translation": [
+        218.015,
+        408.683,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        56.009,
+        -1.14,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Building time",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -75,
+            -18.6666698455811,
+            261.25,
+            40.4166717529297
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "QB_SPEEDUP_FOR",
+      "translation": [
+        218.853,
+        538.043,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        0.367,
+        -4.319,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Speedup for",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "translation": [
+        216.687,
+        640,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "big_white_stroke_green_btn_bucks",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "icons_signs_placeholder",
+      "translation": [
+        70.921,
+        467.208,
+        0
+      ],
+      "anchor": [
+        40,
+        40,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            80,
+            80
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "icons_signs_placeholder.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "button.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "QB_SPEEDUP_FOR.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "QB_BUILDING_TIME.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "timer.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "building_name_bg.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        },
+        "questbar_base.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.91666666666667
+        }
+      },
+      "layers": [
+        "icons_signs_placeholder",
+        "button",
+        "QB_SPEEDUP_FOR",
+        "QB_BUILDING_TIME",
+        "timer",
+        "building_name_bg",
+        "questbar_base"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

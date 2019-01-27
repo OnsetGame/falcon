@@ -1,0 +1,611 @@
+{
+  "name": "wild_explosion",
+  "children": [
+    {
+      "name": "parent_element",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.01,
+        0.999
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "parent_wild",
+      "translation": [
+        256,
+        246,
+        0
+      ],
+      "scale": [
+        0.8,
+        1.1,
+        1
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 0.16,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0.19372549019608,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0.208,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0.208,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "explosion_cde_[01-13].png",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 0.54166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/explosion_cde/explosion_cde_01.png",
+            "../assets/explosion_cde/explosion_cde_02.png",
+            "../assets/explosion_cde/explosion_cde_03.png",
+            "../assets/explosion_cde/explosion_cde_04.png",
+            "../assets/explosion_cde/explosion_cde_05.png",
+            "../assets/explosion_cde/explosion_cde_06.png",
+            "../assets/explosion_cde/explosion_cde_07.png",
+            "../assets/explosion_cde/explosion_cde_08.png",
+            "../assets/explosion_cde/explosion_cde_09.png",
+            "../assets/explosion_cde/explosion_cde_10.png",
+            "../assets/explosion_cde/explosion_cde_11.png",
+            "../assets/explosion_cde/explosion_cde_12.png",
+            "../assets/explosion_cde/explosion_cde_13.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent_wild.translation": {
+          "values": [
+            [
+              256,
+              246,
+              0
+            ],
+            [
+              256,
+              251.481,
+              0
+            ],
+            [
+              256,
+              261.66,
+              0
+            ],
+            [
+              256,
+              267.142,
+              0
+            ],
+            [
+              256,
+              261.636,
+              0
+            ],
+            [
+              256,
+              256,
+              0
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "parent_wild.scale": {
+          "values": [
+            [
+              0.8,
+              1.1,
+              1
+            ],
+            [
+              0.866,
+              1.024,
+              1
+            ],
+            [
+              0.953,
+              0.925,
+              1
+            ],
+            [
+              1.02,
+              0.85,
+              1
+            ],
+            [
+              0.985,
+              0.935,
+              1
+            ],
+            [
+              0.95,
+              1.02,
+              1
+            ],
+            [
+              0.975,
+              1.01,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "parent_wild.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 17,
+          "frameLerp": false
+        },
+        "parent_wild.0.inWhite": {
+          "values": [
+            0.16,
+            0.44,
+            0.72,
+            1
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "parent_wild.0.outBlack": {
+          "values": [
+            0.19372549019608,
+            0.12915032679739,
+            0.06457516339869,
+            0
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "parent_element.translation": {
+          "values": [
+            [
+              256,
+              256,
+              0
+            ],
+            [
+              256,
+              260.742,
+              0
+            ],
+            [
+              257,
+              256.437,
+              0
+            ],
+            [
+              256.441,
+              250.802,
+              0
+            ],
+            [
+              256,
+              248,
+              0
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "parent_element.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.86,
+              1
+            ],
+            [
+              0.888,
+              0.979,
+              1
+            ],
+            [
+              0.8,
+              1.1,
+              1
+            ],
+            [
+              1,
+              0.9,
+              1
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "parent_element.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.01,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.015,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.01,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.01,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.014,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.017,
+              0.999
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "parent_element.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 4,
+          "frameLerp": false
+        },
+        "parent_element.0.inWhite": {
+          "values": [
+            1,
+            0.89687499929997,
+            0.66999999999852,
+            0.4431250006978,
+            0.34
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "parent_element.0.outBlack": {
+          "values": [
+            0,
+            0.04901960817589,
+            0.15686274509875,
+            0.26470588202125,
+            0.31372549019608
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "explosion_cde_[01-13].png.curFrame": {
+          "duration": 0.75,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "len": 18,
+          "cutf": 1
+        },
+        "explosion_cde_[01-13].png.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 0
+        },
+        "parent_wild.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 4
+        },
+        "parent_element.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 3
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.75
+        }
+      },
+      "layers": [
+        "explosion_cde_[01-13].png",
+        "parent_wild",
+        "parent_element"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

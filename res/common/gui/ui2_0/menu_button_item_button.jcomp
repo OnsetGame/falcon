@@ -1,0 +1,220 @@
+{
+  "name": "menu_button_item_button",
+  "children": [
+    {
+      "name": "circle_button",
+      "translation": [
+        77,
+        76,
+        0
+      ],
+      "anchor": [
+        76.5,
+        76,
+        0
+      ],
+      "children": [
+        {
+          "name": "icon_button_placeholder",
+          "translation": [
+            77,
+            97,
+            0
+          ],
+          "anchor": [
+            79,
+            78,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "icons_drop_menu"
+            },
+            {
+              "color": [
+                0.51372599601746,
+                0.51372599601746,
+                0.51372599601746
+              ],
+              "size": [
+                158,
+                156
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "compositionRef": "circle_button",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "circle_button.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 30
+        },
+        "icon_button_placeholder.0.inWhite": {
+          "values": [
+            1,
+            0.9103103537569,
+            0.77165565498753,
+            0.75750740798673,
+            0.83484742729687,
+            0.93391430621249,
+            0.99674616180954,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "icon_button_placeholder.0.outBlack": {
+          "values": [
+            0,
+            0.02759681422865,
+            0.07025979846537,
+            0.07461310523485,
+            0.05081617621635,
+            0.02033405962693,
+            0.00100118098168,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "icon_button_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "circle_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 1,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "icon_button_placeholder",
+        "circle_button"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_drop_menu_button_dev.aep",
+  "version": 1
+}

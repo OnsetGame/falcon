@@ -1,0 +1,142 @@
+{
+  "name": "final_choose",
+  "children": [
+    {
+      "name": "shuffle_choose",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "shuffle_choose",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.29166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "multiplier_choose",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "multiplier_choose",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.29166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "hidden_choose",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "hidden_choose",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.29166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "hidden_choose.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "multi_choose.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        },
+        "shuffle_choose.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "choose": {
+          "start": 0,
+          "duration": 2.29166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.29166666666667
+        }
+      },
+      "layers": [
+        "hidden_choose",
+        "multi_choose",
+        "shuffle_choose"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "2 August 2018 20:51",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

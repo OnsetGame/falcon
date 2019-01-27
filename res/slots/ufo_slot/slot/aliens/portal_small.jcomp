@@ -1,0 +1,249 @@
+{
+  "name": "portal_small",
+  "children": [
+    {
+      "name": "portal_small_[00000-00048].png",
+      "translation": [
+        346,
+        426,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.04166666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/portal_small_00000.png",
+            "resources/portal_small_00001.png",
+            "resources/portal_small_00002.png",
+            "resources/portal_small_00003.png",
+            "resources/portal_small_00004.png",
+            "resources/portal_small_00005.png",
+            "resources/portal_small_00006.png",
+            "resources/portal_small_00007.png",
+            "resources/portal_small_00008.png",
+            "resources/portal_small_00009.png",
+            "resources/portal_small_00010.png",
+            "resources/portal_small_00011.png",
+            "resources/portal_small_00012.png",
+            "resources/portal_small_00013.png",
+            "resources/portal_small_00014.png",
+            "resources/portal_small_00015.png",
+            "resources/portal_small_00016.png",
+            "resources/portal_small_00017.png",
+            "resources/portal_small_00018.png",
+            "resources/portal_small_00019.png",
+            "resources/portal_small_00020.png",
+            "resources/portal_small_00021.png",
+            "resources/portal_small_00022.png",
+            "resources/portal_small_00023.png",
+            "resources/portal_small_00024.png",
+            "resources/portal_small_00025.png",
+            "resources/portal_small_00026.png",
+            "resources/portal_small_00027.png",
+            "resources/portal_small_00028.png",
+            "resources/portal_small_00029.png",
+            "resources/portal_small_00030.png",
+            "resources/portal_small_00031.png",
+            "resources/portal_small_00032.png",
+            "resources/portal_small_00033.png",
+            "resources/portal_small_00034.png",
+            "resources/portal_small_00035.png",
+            "resources/portal_small_00036.png",
+            "resources/portal_small_00037.png",
+            "resources/portal_small_00038.png",
+            "resources/portal_small_00039.png",
+            "resources/portal_small_00040.png",
+            "resources/portal_small_00041.png",
+            "resources/portal_small_00042.png",
+            "resources/portal_small_00043.png",
+            "resources/portal_small_00044.png",
+            "resources/portal_small_00045.png",
+            "resources/portal_small_00046.png",
+            "resources/portal_small_00047.png",
+            "resources/portal_small_00048.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "portal_small_[00000-00048].png.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 2.04166666666667,
+          "len": 62,
+          "cutf": 61
+        },
+        "portal_small_[00000-00048].png.curFrame": {
+          "duration": 2.04166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24,
+            25,
+            26,
+            26,
+            27,
+            28,
+            29,
+            30,
+            30,
+            31,
+            32,
+            33,
+            34,
+            34,
+            35,
+            36,
+            37,
+            38,
+            38,
+            39,
+            40,
+            41,
+            42,
+            42,
+            43,
+            44,
+            45,
+            46,
+            46,
+            47,
+            48
+          ],
+          "len": 62,
+          "cutf": 0
+        },
+        "portal_small_[00000-00048].png.enabled": {
+          "duration": 2.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 62,
+          "cutf": 61
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -13.625,
+          "duration": 1.5833333333333
+        },
+        "idle_1": {
+          "start": -12.0416666666667,
+          "duration": 1.9583333333334
+        },
+        "idle_2": {
+          "start": -10.0833333333333,
+          "duration": 1.99999999999997
+        },
+        "spin": {
+          "start": -8.08333333333333,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -6.08333333333333,
+          "duration": 0.66666666666666
+        },
+        "anticipation_loop": {
+          "start": -5.41666666666667,
+          "duration": 1.33333333333334
+        },
+        "anticipation_end": {
+          "start": -4.08333333333333,
+          "duration": 0.33333333333333
+        },
+        "win": {
+          "start": -3.75,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -2.75,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -0.75,
+          "duration": 0.75
+        },
+        "play": {
+          "start": 0,
+          "duration": 1.91666666666667
+        },
+        "wild_win": {
+          "start": 2.79166666666667,
+          "duration": 1.54166666666666
+        },
+        "wild_to_portal": {
+          "start": 4.33333333333333,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.04166666666667
+        }
+      },
+      "layers": [
+        "portal_small_[00000-00048].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

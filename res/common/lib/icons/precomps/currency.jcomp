@@ -1,0 +1,63 @@
+{
+  "name": "currency",
+  "children": [
+    {
+      "name": "energy",
+      "translation": [
+        154.5,
+        168.5,
+        0
+      ],
+      "anchor": [
+        154.5,
+        168.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/energy_big.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "energy.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "energy"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "all_icons.aep",
+  "version": 1
+}

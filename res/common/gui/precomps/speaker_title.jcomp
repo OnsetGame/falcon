@@ -1,0 +1,189 @@
+{
+  "name": "speaker_title",
+  "children": [
+    {
+      "name": "threedot_holder_02.png",
+      "translation": [
+        168,
+        24,
+        0
+      ],
+      "anchor": [
+        168,
+        24,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            0.4078431725502,
+            0.22352942824364,
+            0.72156864404678,
+            1
+          ],
+          "endColor": [
+            0.66666668653488,
+            0,
+            1,
+            1
+          ],
+          "startPoint": [
+            0,
+            24
+          ],
+          "endPoint": [
+            336,
+            24
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "fileNames": [
+            "../../../Holders/threedot_holder_02.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Purple Solid 1",
+      "translation": [
+        168,
+        2,
+        0
+      ],
+      "anchor": [
+        168,
+        2,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.66666668653488,
+            0,
+            1
+          ],
+          "size": [
+            336,
+            4
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        168.5,
+        34,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Will Ferris",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Purple Solid 1.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "threedot_holder_02.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "Purple Solid 1",
+        "threedot_holder_02.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "tut_res.aep",
+  "version": 1
+}

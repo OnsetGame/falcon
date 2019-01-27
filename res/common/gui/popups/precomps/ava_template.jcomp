@@ -1,0 +1,39 @@
+{
+  "name": "ava_template",
+  "children": [
+    {
+      "name": "ltp_ava_template.png",
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_ava_template.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "customer_teplate",
+      "translation": [
+        13.5,
+        9.5,
+        0
+      ],
+      "scale": [
+        1.03,
+        1.03,
+        1
+      ],
+      "anchor": [
+        0,
+        0,
+        0
+      ],
+      "compositionRef": "customer_teplate.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

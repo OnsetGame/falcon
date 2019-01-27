@@ -1,0 +1,68 @@
+{
+  "name": "red_back_anchor",
+  "children": [
+    {
+      "name": "Deep Red Solid 1",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.74509805440903,
+            0.08235294371843,
+            0.10588235408068
+          ],
+          "size": [
+            1920,
+            1080
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Deep Red Solid 1.enabled": {
+          "duration": 1.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 53,
+          "cutf": 52
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.75
+        }
+      },
+      "layers": [
+        "Deep Red Solid 1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding7opt8%20(converted).aep",
+  "version": 1
+}

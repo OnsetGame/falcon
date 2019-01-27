@@ -1,0 +1,75 @@
+{
+  "name": "spin_4",
+  "children": [
+    {
+      "alpha": 0,
+      "name": "soufle_spin_[00000-00001].png",
+      "translation": [
+        60,
+        26,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/spin/spin_4/soufle_spin_00000.png",
+            "../assets/spin/spin_4/soufle_spin_00001.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "play":
+    {
+      "soufle_spin_[00000-00001].png.alpha":
+      {
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0
+        ]
+      },
+      "soufle_spin_[00000-00001].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "version": 1
+}

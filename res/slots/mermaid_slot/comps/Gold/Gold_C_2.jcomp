@@ -1,0 +1,145 @@
+{
+  "name": "Gold_C_2",
+  "children": [
+    {
+      "name": "1",
+      "translation": [
+        221.5,
+        134,
+        0
+      ],
+      "anchor": [
+        151,
+        63,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_gold_l1_c_2.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "translation": [
+        227.5,
+        142,
+        0
+      ],
+      "anchor": [
+        165,
+        95,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_gold_l2_c_2.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "translation": [
+        193.5,
+        128,
+        0
+      ],
+      "anchor": [
+        183,
+        121,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_gold_l3_c_2.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "3",
+        "2",
+        "1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%20108.aep",
+  "version": 1
+}

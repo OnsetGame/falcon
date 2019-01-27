@@ -1,0 +1,179 @@
+{
+  "name": "particles",
+  "translation": [
+    975.97705078125,
+    858.0858154296875,
+    2.390000104904175
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 1.0,
+      "isLooped": false,
+      "isPlayed": false,
+      "birthRate": 120.0,
+      "lifetime": 7.0,
+      "startVelocity": 900.0,
+      "randVelocityFrom": 5.0,
+      "randVelocityTo": 10.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dstScale": [
+        110.0,
+        110.0,
+        110.0
+      ],
+      "randScaleFrom": 0.0,
+      "randScaleTo": 60.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        600.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.75,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "/ltp_prt_paytbl2.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        37.0,
+        37.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "wind23",
+      "genShapeNode": "particles",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "dimension": [
+        1000.0,
+        0.0,
+        85.91000366210938
+      ],
+      "is2D": false,
+      "_c": "BoxPSGenShape"
+    },
+    {
+      "force": 0.300000011920929,
+      "_c": "PSModifierSpiral"
+    }
+  ],
+  "children": [
+    {
+      "name": "wind23",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            433.0,
+            150.0,
+            0.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    }
+  ]
+}

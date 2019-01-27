@@ -1,0 +1,169 @@
+{
+  "name": "progress_final_shape_01",
+  "children": [
+    {
+      "name": "energy_progress_shape_red_01",
+      "translation": [
+        99.625,
+        100.125,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.208,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            63,
+            63
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.38039216399193,
+            0.50196081399918,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "energy_progress_shape_red_02",
+      "translation": [
+        99.625,
+        100.125,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.208,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            39,
+            39
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.13725490868092,
+            0.25098040699959,
+            0.66274511814117,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "task_energy_particle_00001.png",
+      "translation": [
+        100.5,
+        100.75,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.208,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../popups/assets/task_energy_particle/task_energy_particle_00001.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "task_energy_particle_00001.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "energy_progress_shape_red_02.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "energy_progress_shape_red_01.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "task_energy_particle_00001.png",
+        "energy_progress_shape_red_02",
+        "energy_progress_shape_red_01"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,374 @@
+{
+  "name": "elements",
+  "children": [
+    {
+      "name": "sun_main",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        151.5,
+        151.5,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "sun_main",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7.83333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_low_nature",
+      "alpha": 0,
+      "compositionRef": "element_low_nature",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_low_water",
+      "alpha": 0,
+      "compositionRef": "element_low_water",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_low_air",
+      "alpha": 0,
+      "compositionRef": "element_low_air",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_low_fire",
+      "alpha": 0,
+      "compositionRef": "element_low_fire",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_high_nature",
+      "alpha": 0,
+      "compositionRef": "element_high_nature",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_high_water",
+      "alpha": 0,
+      "compositionRef": "element_high_water",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_high_air",
+      "alpha": 0,
+      "compositionRef": "element_high_air",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_high_fire",
+      "compositionRef": "element_high_fire",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_moon_wild",
+      "alpha": 0,
+      "compositionRef": "element_moon_wild",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "element_hidden",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "compositionRef": "element_hidden",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.29166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "element_hidden.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 30
+        },
+        "element_moon_wild.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_high_fire.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_high_air.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_high_water.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_high_nature.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_low_fire.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_low_air.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_low_water.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "element_low_nature.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        },
+        "sun_main.enabled": {
+          "duration": 7.83333333333333,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": true,
+          "len": 188,
+          "cutf": 187
+        }
+      },
+      "markers": {
+        "card_turn": {
+          "start": 0,
+          "duration": 1.25
+        },
+        "card_idle": {
+          "start": 1.25,
+          "duration": 4
+        },
+        "card_win": {
+          "start": 5.25,
+          "duration": 2.58333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 7.83333333333333
+        }
+      },
+      "layers": [
+        "element_hidden",
+        "element_moon_wild",
+        "element_high_fire",
+        "element_high_air",
+        "element_high_water",
+        "element_high_nature",
+        "element_low_fire",
+        "element_low_air",
+        "element_low_water",
+        "element_low_nature",
+        "sun_main"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018%20(hidden%20shattering).aep",
+  "export_time": "12 July 2018 17:09",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

@@ -1,0 +1,8122 @@
+{
+  "name": "brown_wild_drops",
+  "children": [
+    {
+      "name": "red",
+      "translation": [
+        335,
+        309,
+        0
+      ],
+      "children": [
+        {
+          "name": "drop_11",
+          "translation": [
+            132.662,
+            -21.772,
+            0
+          ],
+          "scale": [
+            2.599,
+            2.599,
+            1
+          ],
+          "anchor": [
+            30,
+            26.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.001,
+            0.999
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_6.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_14",
+          "translation": [
+            347.592,
+            -19.417,
+            0
+          ],
+          "scale": [
+            -3.2,
+            3.2,
+            1
+          ],
+          "anchor": [
+            12.5,
+            10,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.35,
+            0.936
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                0.58823529411765,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_3.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_15",
+          "translation": [
+            257.078,
+            184.67,
+            0
+          ],
+          "scale": [
+            -1.75,
+            1.75,
+            1
+          ],
+          "anchor": [
+            19.5,
+            19.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.155,
+            0.987
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.041,
+              "saturation": 0.9,
+              "lightness": 0.35,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            0.58823529411765,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rotate_particle",
+      "translation": [
+        594,
+        387,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "children": [
+        {
+          "name": "drop_8",
+          "translation": [
+            101.126,
+            170.555,
+            0
+          ],
+          "scale": [
+            -2.994,
+            2.994,
+            1
+          ],
+          "anchor": [
+            25,
+            20,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.234,
+            0.972
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_7",
+          "translation": [
+            -19.569,
+            125.911,
+            0
+          ],
+          "scale": [
+            2.4,
+            2.4,
+            1
+          ],
+          "anchor": [
+            19.5,
+            19.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.559,
+            0.829
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_6",
+          "translation": [
+            -94.217,
+            31.017,
+            0
+          ],
+          "scale": [
+            4.199,
+            4.199,
+            1
+          ],
+          "anchor": [
+            12.5,
+            10,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.001,
+            0.999
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.097,
+              "saturation": 0.9,
+              "lightness": 0.35,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_3.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_5",
+          "translation": [
+            -84.617,
+            47.667,
+            0
+          ],
+          "scale": [
+            2.8,
+            2.8,
+            1
+          ],
+          "anchor": [
+            10,
+            10,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.398,
+            0.917
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_4.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_4",
+          "translation": [
+            -207.42,
+            96.362,
+            0
+          ],
+          "scale": [
+            2.799,
+            2.799,
+            1
+          ],
+          "anchor": [
+            23,
+            20,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.343,
+            0.939
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_5.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_3",
+          "translation": [
+            48.592,
+            -37.417,
+            0
+          ],
+          "scale": [
+            -2,
+            2,
+            1
+          ],
+          "anchor": [
+            30,
+            26.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.35,
+            0.936
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_6.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_2",
+          "translation": [
+            39.8,
+            18.876,
+            0
+          ],
+          "scale": [
+            -1.75,
+            1.75,
+            1
+          ],
+          "anchor": [
+            31,
+            22.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.155,
+            0.987
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_7.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_1",
+          "translation": [
+            116.564,
+            7.274,
+            0
+          ],
+          "scale": [
+            -3.193,
+            3.193,
+            1
+          ],
+          "anchor": [
+            27.5,
+            26.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.105,
+            0.994
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.097,
+              "saturation": 0.9,
+              "lightness": 0.35,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_8.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "red 2",
+      "translation": [
+        335,
+        309,
+        0
+      ],
+      "children": [
+        {
+          "name": "drop_9",
+          "translation": [
+            273.153,
+            234.621,
+            0
+          ],
+          "scale": [
+            -2.495,
+            2.495,
+            1
+          ],
+          "anchor": [
+            27.5,
+            26.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.234,
+            0.972
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.05,
+              "saturation": 0.9,
+              "lightness": 0.25,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_8.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_10",
+          "translation": [
+            249.43,
+            243.911,
+            0
+          ],
+          "scale": [
+            2.4,
+            2.4,
+            1
+          ],
+          "anchor": [
+            31,
+            22.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.087,
+            0.996
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": -0.013,
+              "saturation": 0.75,
+              "lightness": 0.25,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_7.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_12",
+          "translation": [
+            228.382,
+            123.667,
+            0
+          ],
+          "scale": [
+            2.8,
+            2.8,
+            1
+          ],
+          "anchor": [
+            23,
+            20,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.398,
+            0.917
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": -0.013,
+              "saturation": 0.75,
+              "lightness": 0.25,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0.033,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0.033,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_5.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_13",
+          "translation": [
+            51.579,
+            174.362,
+            0
+          ],
+          "scale": [
+            2.799,
+            2.799,
+            1
+          ],
+          "anchor": [
+            10,
+            10,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.343,
+            0.939
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.047,
+              "saturation": 0.9,
+              "lightness": 0.43,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_4.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "drop_16",
+          "translation": [
+            344.785,
+            199.18,
+            0
+          ],
+          "scale": [
+            -2.994,
+            2.994,
+            1
+          ],
+          "anchor": [
+            25,
+            20,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.105,
+            0.994
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "hue": 0.03,
+              "saturation": 0.7,
+              "lightness": 0.25,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/elements/drop_brown/drop_brown_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            0.58823529411765,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "drop_caramel4.png$5",
+      "translation": [
+        532,
+        396,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        30.967,
+        1.44,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.719,
+        0.694
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": 0.102,
+          "saturation": 0.9,
+          "lightness": 0.43,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.433,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/elements/drop_caramel/drop_caramel4.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "drop_caramel2.png$4",
+      "translation": [
+        480,
+        492,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        30.967,
+        1.44,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.544,
+        0.838
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.033,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.4,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/elements/drop_caramel/drop_caramel2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "drop_caramel4.png",
+      "translation": [
+        570,
+        516,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        30.967,
+        1.44,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.336,
+        0.941
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": -0.013,
+          "saturation": 0.49,
+          "lightness": 0.12,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0.033,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.4,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/elements/drop_caramel/drop_caramel4.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "drop_caramel2.png",
+      "translation": [
+        588,
+        282,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        30.967,
+        1.44,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.544,
+        0.838
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.066,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.366,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/elements/drop_caramel/drop_caramel2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "drop_caramel.png",
+      "translation": [
+        504,
+        336,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        30.967,
+        1.44,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.874,
+        0.484
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.433,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/elements/drop_caramel/drop_caramel.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "drop_caramel.png.translation": {
+          "values": [
+            [
+              504,
+              336,
+              0
+            ],
+            [
+              514.44,
+              295.223,
+              0
+            ],
+            [
+              528.665,
+              253.739,
+              0
+            ],
+            [
+              545.692,
+              213.328,
+              0
+            ],
+            [
+              566.101,
+              174.514,
+              0
+            ],
+            [
+              591.008,
+              138.473,
+              0
+            ],
+            [
+              622.274,
+              107.871,
+              0
+            ],
+            [
+              661.515,
+              89.03,
+              0
+            ],
+            [
+              705.197,
+              85.681,
+              0
+            ],
+            [
+              749.026,
+              85.375,
+              0
+            ],
+            [
+              792.825,
+              87.142,
+              0
+            ],
+            [
+              836.472,
+              91.22,
+              0
+            ],
+            [
+              879.725,
+              98.367,
+              0
+            ],
+            [
+              899,
+              105,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              -1.151,
+              1.151,
+              1
+            ],
+            [
+              -2.68,
+              2.68,
+              1
+            ],
+            [
+              -3.957,
+              3.957,
+              1
+            ],
+            [
+              -3.982,
+              3.982,
+              1
+            ],
+            [
+              -3.918,
+              3.918,
+              1
+            ],
+            [
+              -3.797,
+              3.797,
+              1
+            ],
+            [
+              -3.61,
+              3.61,
+              1
+            ],
+            [
+              -3.341,
+              3.341,
+              1
+            ],
+            [
+              -2.972,
+              2.972,
+              1
+            ],
+            [
+              -2.478,
+              2.478,
+              1
+            ],
+            [
+              -1.833,
+              1.833,
+              1
+            ],
+            [
+              -1.037,
+              1.037,
+              1
+            ],
+            [
+              -0.251,
+              0.251,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_caramel.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.874,
+              0.484
+            ],
+            [
+              0,
+              0,
+              0.835,
+              0.548
+            ],
+            [
+              0,
+              0,
+              0.79,
+              0.612
+            ],
+            [
+              0,
+              0,
+              0.74,
+              0.671
+            ],
+            [
+              0,
+              0,
+              0.686,
+              0.727
+            ],
+            [
+              0,
+              0,
+              0.627,
+              0.778
+            ],
+            [
+              0,
+              0,
+              0.564,
+              0.825
+            ],
+            [
+              0,
+              0,
+              0.498,
+              0.866
+            ],
+            [
+              0,
+              0,
+              0.429,
+              0.902
+            ],
+            [
+              0,
+              0,
+              0.358,
+              0.933
+            ],
+            [
+              0,
+              0,
+              0.284,
+              0.958
+            ],
+            [
+              0,
+              0,
+              0.209,
+              0.977
+            ],
+            [
+              0,
+              0,
+              0.132,
+              0.991
+            ],
+            [
+              0,
+              0,
+              0.095,
+              0.995
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel.png.alpha": {
+          "values": [
+            1,
+            0.461,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 13,
+          "frameLerp": false
+        },
+        "drop_caramel2.png.translation": {
+          "values": [
+            [
+              588,
+              282,
+              0
+            ],
+            [
+              624.912,
+              264.004,
+              0
+            ],
+            [
+              667.866,
+              246.538,
+              0
+            ],
+            [
+              711.972,
+              232.237,
+              0
+            ],
+            [
+              757.094,
+              221.607,
+              0
+            ],
+            [
+              803.025,
+              215.454,
+              0
+            ],
+            [
+              848.953,
+              219.253,
+              0
+            ],
+            [
+              890.995,
+              238.404,
+              0
+            ],
+            [
+              927.211,
+              267.219,
+              0
+            ],
+            [
+              958.319,
+              301.545,
+              0
+            ],
+            [
+              985.314,
+              339.218,
+              0
+            ],
+            [
+              1008.841,
+              379.143,
+              0
+            ],
+            [
+              1028.975,
+              420.89,
+              0
+            ],
+            [
+              1037,
+              445,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 4,
+          "frameLerp": false
+        },
+        "drop_caramel2.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              -1.041,
+              1.041,
+              1
+            ],
+            [
+              -2.567,
+              2.567,
+              1
+            ],
+            [
+              -3.899,
+              3.899,
+              1
+            ],
+            [
+              -3.985,
+              3.985,
+              1
+            ],
+            [
+              -3.924,
+              3.924,
+              1
+            ],
+            [
+              -3.808,
+              3.808,
+              1
+            ],
+            [
+              -3.626,
+              3.626,
+              1
+            ],
+            [
+              -3.364,
+              3.364,
+              1
+            ],
+            [
+              -3.003,
+              3.003,
+              1
+            ],
+            [
+              -2.52,
+              2.52,
+              1
+            ],
+            [
+              -1.886,
+              1.886,
+              1
+            ],
+            [
+              -1.099,
+              1.099,
+              1
+            ],
+            [
+              -0.3,
+              0.3,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_caramel2.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.544,
+              0.838
+            ],
+            [
+              0,
+              0,
+              0.482,
+              0.875
+            ],
+            [
+              0,
+              0,
+              0.409,
+              0.912
+            ],
+            [
+              0,
+              0,
+              0.334,
+              0.942
+            ],
+            [
+              0,
+              0,
+              0.256,
+              0.966
+            ],
+            [
+              0,
+              0,
+              0.177,
+              0.984
+            ],
+            [
+              0,
+              0,
+              0.096,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.015,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.065,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.146,
+              0.989
+            ],
+            [
+              0,
+              0,
+              -0.226,
+              0.973
+            ],
+            [
+              0,
+              0,
+              -0.305,
+              0.952
+            ],
+            [
+              0,
+              0,
+              -0.381,
+              0.924
+            ],
+            [
+              0,
+              0,
+              -0.422,
+              0.906
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 4,
+          "frameLerp": false
+        },
+        "drop_caramel2.png.alpha": {
+          "values": [
+            1,
+            0.532,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 15,
+          "frameLerp": false
+        },
+        "drop_caramel4.png.translation": {
+          "values": [
+            [
+              570,
+              516,
+              0
+            ],
+            [
+              606.969,
+              512.043,
+              0
+            ],
+            [
+              647.045,
+              507.833,
+              0
+            ],
+            [
+              687.177,
+              504.368,
+              0
+            ],
+            [
+              727.384,
+              501.953,
+              0
+            ],
+            [
+              767.662,
+              501.151,
+              0
+            ],
+            [
+              807.861,
+              503.378,
+              0
+            ],
+            [
+              846.774,
+              513.331,
+              0
+            ],
+            [
+              882.056,
+              532.564,
+              0
+            ],
+            [
+              911.938,
+              559.45,
+              0
+            ],
+            [
+              935.678,
+              591.911,
+              0
+            ],
+            [
+              953.409,
+              628.026,
+              0
+            ],
+            [
+              965.131,
+              666.513,
+              0
+            ],
+            [
+              967,
+              687,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_caramel4.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              -1.095,
+              1.095,
+              1
+            ],
+            [
+              -2.623,
+              2.623,
+              1
+            ],
+            [
+              -3.93,
+              3.93,
+              1
+            ],
+            [
+              -3.984,
+              3.984,
+              1
+            ],
+            [
+              -3.921,
+              3.921,
+              1
+            ],
+            [
+              -3.803,
+              3.803,
+              1
+            ],
+            [
+              -3.618,
+              3.618,
+              1
+            ],
+            [
+              -3.353,
+              3.353,
+              1
+            ],
+            [
+              -2.988,
+              2.988,
+              1
+            ],
+            [
+              -2.499,
+              2.499,
+              1
+            ],
+            [
+              -1.86,
+              1.86,
+              1
+            ],
+            [
+              -1.069,
+              1.069,
+              1
+            ],
+            [
+              -0.275,
+              0.275,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel4.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.336,
+              0.941
+            ],
+            [
+              0,
+              0,
+              0.287,
+              0.957
+            ],
+            [
+              0,
+              0,
+              0.233,
+              0.972
+            ],
+            [
+              0,
+              0,
+              0.178,
+              0.983
+            ],
+            [
+              0,
+              0,
+              0.123,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.067,
+              0.997
+            ],
+            [
+              0,
+              0,
+              0.011,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.099,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.155,
+              0.987
+            ],
+            [
+              0,
+              0,
+              -0.21,
+              0.977
+            ],
+            [
+              0,
+              0,
+              -0.264,
+              0.964
+            ],
+            [
+              0,
+              0,
+              -0.317,
+              0.948
+            ],
+            [
+              0,
+              0,
+              -0.345,
+              0.938
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_caramel4.png.alpha": {
+          "values": [
+            1,
+            0.497,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 14,
+          "frameLerp": false
+        },
+        "drop_caramel2.png$4.translation": {
+          "values": [
+            [
+              480,
+              492,
+              0
+            ],
+            [
+              446.876,
+              475.479,
+              0
+            ],
+            [
+              409.557,
+              460.897,
+              0
+            ],
+            [
+              370.655,
+              451.368,
+              0
+            ],
+            [
+              330.757,
+              448.048,
+              0
+            ],
+            [
+              290.938,
+              452.054,
+              0
+            ],
+            [
+              252.948,
+              464.413,
+              0
+            ],
+            [
+              222.238,
+              489.872,
+              0
+            ],
+            [
+              198.276,
+              521.951,
+              0
+            ],
+            [
+              178.446,
+              556.764,
+              0
+            ],
+            [
+              161.344,
+              592.994,
+              0
+            ],
+            [
+              146.18,
+              630.099,
+              0
+            ],
+            [
+              132.394,
+              667.738,
+              0
+            ],
+            [
+              125,
+              687,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_caramel2.png$4.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1.095,
+              1.095,
+              1
+            ],
+            [
+              2.623,
+              2.623,
+              1
+            ],
+            [
+              3.93,
+              3.93,
+              1
+            ],
+            [
+              3.984,
+              3.984,
+              1
+            ],
+            [
+              3.921,
+              3.921,
+              1
+            ],
+            [
+              3.803,
+              3.803,
+              1
+            ],
+            [
+              3.618,
+              3.618,
+              1
+            ],
+            [
+              3.353,
+              3.353,
+              1
+            ],
+            [
+              2.988,
+              2.988,
+              1
+            ],
+            [
+              2.499,
+              2.499,
+              1
+            ],
+            [
+              1.86,
+              1.86,
+              1
+            ],
+            [
+              1.069,
+              1.069,
+              1
+            ],
+            [
+              0.275,
+              0.275,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel2.png$4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.544,
+              0.838
+            ],
+            [
+              0,
+              0,
+              -0.48,
+              0.877
+            ],
+            [
+              0,
+              0,
+              -0.407,
+              0.913
+            ],
+            [
+              0,
+              0,
+              -0.331,
+              0.943
+            ],
+            [
+              0,
+              0,
+              -0.253,
+              0.967
+            ],
+            [
+              0,
+              0,
+              -0.174,
+              0.984
+            ],
+            [
+              0,
+              0,
+              -0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.068,
+              0.997
+            ],
+            [
+              0,
+              0,
+              0.149,
+              0.988
+            ],
+            [
+              0,
+              0,
+              0.229,
+              0.973
+            ],
+            [
+              0,
+              0,
+              0.307,
+              0.951
+            ],
+            [
+              0,
+              0,
+              0.384,
+              0.923
+            ],
+            [
+              0,
+              0,
+              0.422,
+              0.906
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_caramel2.png$4.alpha": {
+          "values": [
+            1,
+            0.497,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 14,
+          "frameLerp": false
+        },
+        "drop_caramel4.png$5.translation": {
+          "values": [
+            [
+              532,
+              396,
+              0
+            ],
+            [
+              527.797,
+              350.973,
+              0
+            ],
+            [
+              519.585,
+              304.628,
+              0
+            ],
+            [
+              505.491,
+              259.749,
+              0
+            ],
+            [
+              482.893,
+              218.563,
+              0
+            ],
+            [
+              448.621,
+              186.733,
+              0
+            ],
+            [
+              404.142,
+              172.594,
+              0
+            ],
+            [
+              357.137,
+              173.74,
+              0
+            ],
+            [
+              310.559,
+              180.568,
+              0
+            ],
+            [
+              264.47,
+              190.177,
+              0
+            ],
+            [
+              218.784,
+              201.546,
+              0
+            ],
+            [
+              173.439,
+              214.206,
+              0
+            ],
+            [
+              128.404,
+              227.964,
+              0
+            ],
+            [
+              107,
+              235,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel4.png$5.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1.151,
+              1.151,
+              1
+            ],
+            [
+              2.68,
+              2.68,
+              1
+            ],
+            [
+              3.957,
+              3.957,
+              1
+            ],
+            [
+              3.982,
+              3.982,
+              1
+            ],
+            [
+              3.918,
+              3.918,
+              1
+            ],
+            [
+              3.797,
+              3.797,
+              1
+            ],
+            [
+              3.61,
+              3.61,
+              1
+            ],
+            [
+              3.341,
+              3.341,
+              1
+            ],
+            [
+              2.972,
+              2.972,
+              1
+            ],
+            [
+              2.478,
+              2.478,
+              1
+            ],
+            [
+              1.833,
+              1.833,
+              1
+            ],
+            [
+              1.037,
+              1.037,
+              1
+            ],
+            [
+              0.251,
+              0.251,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_caramel4.png$5.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.719,
+              0.694
+            ],
+            [
+              0,
+              0,
+              -0.685,
+              0.727
+            ],
+            [
+              0,
+              0,
+              -0.649,
+              0.76
+            ],
+            [
+              0,
+              0,
+              -0.611,
+              0.791
+            ],
+            [
+              0,
+              0,
+              -0.571,
+              0.82
+            ],
+            [
+              0,
+              0,
+              -0.53,
+              0.847
+            ],
+            [
+              0,
+              0,
+              -0.488,
+              0.872
+            ],
+            [
+              0,
+              0,
+              -0.444,
+              0.895
+            ],
+            [
+              0,
+              0,
+              -0.4,
+              0.916
+            ],
+            [
+              0,
+              0,
+              -0.354,
+              0.934
+            ],
+            [
+              0,
+              0,
+              -0.308,
+              0.951
+            ],
+            [
+              0,
+              0,
+              -0.261,
+              0.965
+            ],
+            [
+              0,
+              0,
+              -0.213,
+              0.976
+            ],
+            [
+              0,
+              0,
+              -0.19,
+              0.981
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "drop_caramel4.png$5.alpha": {
+          "values": [
+            1,
+            0.461,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 13,
+          "frameLerp": false
+        },
+        "red 2.alpha": {
+          "values": [
+            1,
+            0.947,
+            0.89,
+            0.834,
+            0.777,
+            0.72,
+            0.663,
+            0.607,
+            0.55,
+            0.493,
+            0.436,
+            0.38,
+            0.323,
+            0.266,
+            0.209,
+            0.153
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_16.translation": {
+          "values": [
+            [
+              344.785,
+              199.18,
+              0
+            ],
+            [
+              374.034,
+              186.703,
+              0
+            ],
+            [
+              403.279,
+              173.27,
+              0
+            ],
+            [
+              432.974,
+              161.207,
+              0
+            ],
+            [
+              463.13,
+              151.36,
+              0
+            ],
+            [
+              493.551,
+              144.774,
+              0
+            ],
+            [
+              523.427,
+              142.939,
+              0
+            ],
+            [
+              549.02,
+              146.842,
+              0
+            ],
+            [
+              570.229,
+              153.614,
+              0
+            ],
+            [
+              590.286,
+              162.138,
+              0
+            ],
+            [
+              608.984,
+              171.93,
+              0
+            ],
+            [
+              626.253,
+              182.549,
+              0
+            ],
+            [
+              642.067,
+              193.59,
+              0
+            ],
+            [
+              656.382,
+              204.646,
+              0
+            ],
+            [
+              669.132,
+              215.284,
+              0
+            ],
+            [
+              680.163,
+              224.964,
+              0
+            ],
+            [
+              689.175,
+              232.907,
+              0
+            ],
+            [
+              695.489,
+              237.769,
+              0
+            ],
+            [
+              696.98,
+              238.421,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_16.scale": {
+          "values": [
+            [
+              -2.994,
+              2.994,
+              1
+            ],
+            [
+              -2.805,
+              2.805,
+              1
+            ],
+            [
+              -2.594,
+              2.594,
+              1
+            ],
+            [
+              -2.375,
+              2.375,
+              1
+            ],
+            [
+              -2.155,
+              2.155,
+              1
+            ],
+            [
+              -1.936,
+              1.936,
+              1
+            ],
+            [
+              -1.72,
+              1.72,
+              1
+            ],
+            [
+              -1.509,
+              1.509,
+              1
+            ],
+            [
+              -1.305,
+              1.305,
+              1
+            ],
+            [
+              -1.109,
+              1.109,
+              1
+            ],
+            [
+              -0.923,
+              0.923,
+              1
+            ],
+            [
+              -0.747,
+              0.747,
+              1
+            ],
+            [
+              -0.583,
+              0.583,
+              1
+            ],
+            [
+              -0.433,
+              0.433,
+              1
+            ],
+            [
+              -0.3,
+              0.3,
+              1
+            ],
+            [
+              -0.187,
+              0.187,
+              1
+            ],
+            [
+              -0.095,
+              0.095,
+              1
+            ],
+            [
+              -0.031,
+              0.031,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_16.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.105,
+              0.994
+            ],
+            [
+              0,
+              0,
+              -0.136,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.167,
+              0.985
+            ],
+            [
+              0,
+              0,
+              -0.197,
+              0.98
+            ],
+            [
+              0,
+              0,
+              -0.227,
+              0.973
+            ],
+            [
+              0,
+              0,
+              -0.257,
+              0.966
+            ],
+            [
+              0,
+              0,
+              -0.287,
+              0.957
+            ],
+            [
+              0,
+              0,
+              -0.317,
+              0.948
+            ],
+            [
+              0,
+              0,
+              -0.346,
+              0.938
+            ],
+            [
+              0,
+              0,
+              -0.375,
+              0.926
+            ],
+            [
+              0,
+              0,
+              -0.404,
+              0.914
+            ],
+            [
+              0,
+              0,
+              -0.432,
+              0.901
+            ],
+            [
+              0,
+              0,
+              -0.459,
+              0.887
+            ],
+            [
+              0,
+              0,
+              -0.487,
+              0.873
+            ],
+            [
+              0,
+              0,
+              -0.514,
+              0.857
+            ],
+            [
+              0,
+              0,
+              -0.54,
+              0.841
+            ],
+            [
+              0,
+              0,
+              -0.566,
+              0.824
+            ],
+            [
+              0,
+              0,
+              -0.591,
+              0.806
+            ],
+            [
+              0,
+              0,
+              -0.616,
+              0.787
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_16.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_13.translation": {
+          "values": [
+            [
+              51.579,
+              174.362,
+              0
+            ],
+            [
+              33.683,
+              178.491,
+              0
+            ],
+            [
+              15.551,
+              182.232,
+              0
+            ],
+            [
+              -2.315,
+              186.903,
+              0
+            ],
+            [
+              -19.678,
+              192.839,
+              0
+            ],
+            [
+              -36.213,
+              200.297,
+              0
+            ],
+            [
+              -51.401,
+              209.423,
+              0
+            ],
+            [
+              -64.123,
+              219.691,
+              0
+            ],
+            [
+              -75.406,
+              231.453,
+              0
+            ],
+            [
+              -85.68,
+              244.547,
+              0
+            ],
+            [
+              -94.741,
+              258.236,
+              0
+            ],
+            [
+              -102.667,
+              272.069,
+              0
+            ],
+            [
+              -109.572,
+              285.703,
+              0
+            ],
+            [
+              -115.556,
+              298.816,
+              0
+            ],
+            [
+              -120.698,
+              311.074,
+              0
+            ],
+            [
+              -125.044,
+              322.036,
+              0
+            ],
+            [
+              -128.601,
+              331.043,
+              0
+            ],
+            [
+              -131.285,
+              336.902,
+              0
+            ],
+            [
+              -132.08,
+              337.954,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_13.scale": {
+          "values": [
+            [
+              2.799,
+              2.799,
+              1
+            ],
+            [
+              2.774,
+              2.774,
+              1
+            ],
+            [
+              2.703,
+              2.703,
+              1
+            ],
+            [
+              2.594,
+              2.594,
+              1
+            ],
+            [
+              2.451,
+              2.451,
+              1
+            ],
+            [
+              2.28,
+              2.28,
+              1
+            ],
+            [
+              2.086,
+              2.086,
+              1
+            ],
+            [
+              1.875,
+              1.875,
+              1
+            ],
+            [
+              1.653,
+              1.653,
+              1
+            ],
+            [
+              1.425,
+              1.425,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              0.972,
+              0.972,
+              1
+            ],
+            [
+              0.758,
+              0.758,
+              1
+            ],
+            [
+              0.56,
+              0.56,
+              1
+            ],
+            [
+              0.384,
+              0.384,
+              1
+            ],
+            [
+              0.234,
+              0.234,
+              1
+            ],
+            [
+              0.117,
+              0.117,
+              1
+            ],
+            [
+              0.037,
+              0.037,
+              1
+            ],
+            [
+              0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_13.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.343,
+              0.939
+            ],
+            [
+              0,
+              0,
+              0.372,
+              0.928
+            ],
+            [
+              0,
+              0,
+              0.4,
+              0.916
+            ],
+            [
+              0,
+              0,
+              0.428,
+              0.903
+            ],
+            [
+              0,
+              0,
+              0.456,
+              0.889
+            ],
+            [
+              0,
+              0,
+              0.483,
+              0.875
+            ],
+            [
+              0,
+              0,
+              0.51,
+              0.859
+            ],
+            [
+              0,
+              0,
+              0.537,
+              0.843
+            ],
+            [
+              0,
+              0,
+              0.563,
+              0.826
+            ],
+            [
+              0,
+              0,
+              0.588,
+              0.808
+            ],
+            [
+              0,
+              0,
+              0.613,
+              0.789
+            ],
+            [
+              0,
+              0,
+              0.637,
+              0.77
+            ],
+            [
+              0,
+              0,
+              0.661,
+              0.75
+            ],
+            [
+              0,
+              0,
+              0.684,
+              0.729
+            ],
+            [
+              0,
+              0,
+              0.706,
+              0.707
+            ],
+            [
+              0,
+              0,
+              0.727,
+              0.685
+            ],
+            [
+              0,
+              0,
+              0.748,
+              0.662
+            ],
+            [
+              0,
+              0,
+              0.769,
+              0.639
+            ],
+            [
+              0,
+              0,
+              0.788,
+              0.615
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_13.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_12.translation": {
+          "values": [
+            [
+              228.382,
+              123.667,
+              0
+            ],
+            [
+              223.352,
+              111.379,
+              0
+            ],
+            [
+              216.455,
+              91.295,
+              0
+            ],
+            [
+              209.112,
+              71.372,
+              0
+            ],
+            [
+              200.961,
+              51.765,
+              0
+            ],
+            [
+              191.698,
+              32.653,
+              0
+            ],
+            [
+              180.916,
+              14.348,
+              0
+            ],
+            [
+              167.986,
+              -2.541,
+              0
+            ],
+            [
+              149.694,
+              -17.119,
+              0
+            ],
+            [
+              125.472,
+              -27.883,
+              0
+            ],
+            [
+              99.629,
+              -35.659,
+              0
+            ],
+            [
+              73.613,
+              -41.514,
+              0
+            ],
+            [
+              48.131,
+              -46.045,
+              0
+            ],
+            [
+              23.677,
+              -49.616,
+              0
+            ],
+            [
+              0.721,
+              -52.465,
+              0
+            ],
+            [
+              -20.122,
+              -54.765,
+              0
+            ],
+            [
+              -37.98,
+              -56.66,
+              0
+            ],
+            [
+              -51.348,
+              -58.297,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_12.scale": {
+          "values": [
+            [
+              2.8,
+              2.8,
+              1
+            ],
+            [
+              2.79,
+              2.79,
+              1
+            ],
+            [
+              2.737,
+              2.737,
+              1
+            ],
+            [
+              2.643,
+              2.643,
+              1
+            ],
+            [
+              2.513,
+              2.513,
+              1
+            ],
+            [
+              2.353,
+              2.353,
+              1
+            ],
+            [
+              2.168,
+              2.168,
+              1
+            ],
+            [
+              1.963,
+              1.963,
+              1
+            ],
+            [
+              1.745,
+              1.745,
+              1
+            ],
+            [
+              1.518,
+              1.518,
+              1
+            ],
+            [
+              1.289,
+              1.289,
+              1
+            ],
+            [
+              1.062,
+              1.062,
+              1
+            ],
+            [
+              0.844,
+              0.844,
+              1
+            ],
+            [
+              0.639,
+              0.639,
+              1
+            ],
+            [
+              0.453,
+              0.453,
+              1
+            ],
+            [
+              0.291,
+              0.291,
+              1
+            ],
+            [
+              0.16,
+              0.16,
+              1
+            ],
+            [
+              0.065,
+              0.065,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_12.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.398,
+              0.917
+            ],
+            [
+              0,
+              0,
+              -0.38,
+              0.924
+            ],
+            [
+              0,
+              0,
+              -0.351,
+              0.936
+            ],
+            [
+              0,
+              0,
+              -0.322,
+              0.946
+            ],
+            [
+              0,
+              0,
+              -0.293,
+              0.956
+            ],
+            [
+              0,
+              0,
+              -0.263,
+              0.964
+            ],
+            [
+              0,
+              0,
+              -0.233,
+              0.972
+            ],
+            [
+              0,
+              0,
+              -0.203,
+              0.979
+            ],
+            [
+              0,
+              0,
+              -0.172,
+              0.984
+            ],
+            [
+              0,
+              0,
+              -0.142,
+              0.989
+            ],
+            [
+              0,
+              0,
+              -0.111,
+              0.993
+            ],
+            [
+              0,
+              0,
+              -0.08,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.049,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.074,
+              0.997
+            ],
+            [
+              0,
+              0,
+              0.105,
+              0.994
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_12.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_10.translation": {
+          "values": [
+            [
+              249.43,
+              243.911,
+              0
+            ],
+            [
+              236.535,
+              245.314,
+              0
+            ],
+            [
+              215.281,
+              245.344,
+              0
+            ],
+            [
+              194.086,
+              246.833,
+              0
+            ],
+            [
+              173.227,
+              250.449,
+              0
+            ],
+            [
+              153.125,
+              256.623,
+              0
+            ],
+            [
+              134.402,
+              265.608,
+              0
+            ],
+            [
+              117.935,
+              277.189,
+              0
+            ],
+            [
+              103.93,
+              291.037,
+              0
+            ],
+            [
+              90.611,
+              307.436,
+              0
+            ],
+            [
+              78.233,
+              324.641,
+              0
+            ],
+            [
+              66.724,
+              341.947,
+              0
+            ],
+            [
+              56.043,
+              358.949,
+              0
+            ],
+            [
+              46.203,
+              375.323,
+              0
+            ],
+            [
+              37.261,
+              390.759,
+              0
+            ],
+            [
+              29.367,
+              404.831,
+              0
+            ],
+            [
+              22.777,
+              416.947,
+              0
+            ],
+            [
+              17.976,
+              426.086,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_10.scale": {
+          "values": [
+            [
+              2.4,
+              2.4,
+              1
+            ],
+            [
+              2.391,
+              2.391,
+              1
+            ],
+            [
+              2.346,
+              2.346,
+              1
+            ],
+            [
+              2.265,
+              2.265,
+              1
+            ],
+            [
+              2.154,
+              2.154,
+              1
+            ],
+            [
+              2.016,
+              2.016,
+              1
+            ],
+            [
+              1.858,
+              1.858,
+              1
+            ],
+            [
+              1.683,
+              1.683,
+              1
+            ],
+            [
+              1.496,
+              1.496,
+              1
+            ],
+            [
+              1.301,
+              1.301,
+              1
+            ],
+            [
+              1.105,
+              1.105,
+              1
+            ],
+            [
+              0.91,
+              0.91,
+              1
+            ],
+            [
+              0.723,
+              0.723,
+              1
+            ],
+            [
+              0.547,
+              0.547,
+              1
+            ],
+            [
+              0.388,
+              0.388,
+              1
+            ],
+            [
+              0.25,
+              0.25,
+              1
+            ],
+            [
+              0.137,
+              0.137,
+              1
+            ],
+            [
+              0.055,
+              0.055,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_10.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.087,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.144,
+              0.989
+            ],
+            [
+              0,
+              0,
+              0.2,
+              0.979
+            ],
+            [
+              0,
+              0,
+              0.256,
+              0.966
+            ],
+            [
+              0,
+              0,
+              0.311,
+              0.95
+            ],
+            [
+              0,
+              0,
+              0.366,
+              0.93
+            ],
+            [
+              0,
+              0,
+              0.418,
+              0.908
+            ],
+            [
+              0,
+              0,
+              0.47,
+              0.882
+            ],
+            [
+              0,
+              0,
+              0.52,
+              0.853
+            ],
+            [
+              0,
+              0,
+              0.568,
+              0.822
+            ],
+            [
+              0,
+              0,
+              0.614,
+              0.788
+            ],
+            [
+              0,
+              0,
+              0.659,
+              0.751
+            ],
+            [
+              0,
+              0,
+              0.701,
+              0.712
+            ],
+            [
+              0,
+              0,
+              0.741,
+              0.671
+            ],
+            [
+              0,
+              0,
+              0.778,
+              0.627
+            ],
+            [
+              0,
+              0,
+              0.813,
+              0.581
+            ],
+            [
+              0,
+              0,
+              0.845,
+              0.533
+            ],
+            [
+              0,
+              0,
+              0.874,
+              0.484
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_10.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_9.translation": {
+          "values": [
+            [
+              273.153,
+              234.621,
+              0
+            ],
+            [
+              294.288,
+              240.148,
+              0
+            ],
+            [
+              315.597,
+              245.585,
+              0
+            ],
+            [
+              336.618,
+              251.868,
+              0
+            ],
+            [
+              357.189,
+              259.085,
+              0
+            ],
+            [
+              377.152,
+              267.218,
+              0
+            ],
+            [
+              396.209,
+              276.123,
+              0
+            ],
+            [
+              413.371,
+              285.225,
+              0
+            ],
+            [
+              429.183,
+              296.232,
+              0
+            ],
+            [
+              443.204,
+              310.02,
+              0
+            ],
+            [
+              454.547,
+              325.747,
+              0
+            ],
+            [
+              463.117,
+              342.517,
+              0
+            ],
+            [
+              469.217,
+              359.514,
+              0
+            ],
+            [
+              473.315,
+              376.046,
+              0
+            ],
+            [
+              475.926,
+              391.535,
+              0
+            ],
+            [
+              477.569,
+              405.374,
+              0
+            ],
+            [
+              478.829,
+              416.746,
+              0
+            ],
+            [
+              480.529,
+              424.148,
+              0
+            ],
+            [
+              481.536,
+              425.313,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_9.scale": {
+          "values": [
+            [
+              -2.495,
+              2.495,
+              1
+            ],
+            [
+              -2.337,
+              2.337,
+              1
+            ],
+            [
+              -2.162,
+              2.162,
+              1
+            ],
+            [
+              -1.979,
+              1.979,
+              1
+            ],
+            [
+              -1.796,
+              1.796,
+              1
+            ],
+            [
+              -1.613,
+              1.613,
+              1
+            ],
+            [
+              -1.433,
+              1.433,
+              1
+            ],
+            [
+              -1.258,
+              1.258,
+              1
+            ],
+            [
+              -1.088,
+              1.088,
+              1
+            ],
+            [
+              -0.924,
+              0.924,
+              1
+            ],
+            [
+              -0.769,
+              0.769,
+              1
+            ],
+            [
+              -0.622,
+              0.622,
+              1
+            ],
+            [
+              -0.486,
+              0.486,
+              1
+            ],
+            [
+              -0.361,
+              0.361,
+              1
+            ],
+            [
+              -0.25,
+              0.25,
+              1
+            ],
+            [
+              -0.155,
+              0.155,
+              1
+            ],
+            [
+              -0.079,
+              0.079,
+              1
+            ],
+            [
+              -0.026,
+              0.026,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_9.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.234,
+              0.972
+            ],
+            [
+              0,
+              0,
+              -0.264,
+              0.964
+            ],
+            [
+              0,
+              0,
+              -0.294,
+              0.955
+            ],
+            [
+              0,
+              0,
+              -0.323,
+              0.946
+            ],
+            [
+              0,
+              0,
+              -0.352,
+              0.935
+            ],
+            [
+              0,
+              0,
+              -0.381,
+              0.924
+            ],
+            [
+              0,
+              0,
+              -0.41,
+              0.911
+            ],
+            [
+              0,
+              0,
+              -0.438,
+              0.898
+            ],
+            [
+              0,
+              0,
+              -0.466,
+              0.884
+            ],
+            [
+              0,
+              0,
+              -0.493,
+              0.869
+            ],
+            [
+              0,
+              0,
+              -0.519,
+              0.854
+            ],
+            [
+              0,
+              0,
+              -0.546,
+              0.837
+            ],
+            [
+              0,
+              0,
+              -0.571,
+              0.82
+            ],
+            [
+              0,
+              0,
+              -0.597,
+              0.802
+            ],
+            [
+              0,
+              0,
+              -0.621,
+              0.783
+            ],
+            [
+              0,
+              0,
+              -0.645,
+              0.763
+            ],
+            [
+              0,
+              0,
+              -0.669,
+              0.743
+            ],
+            [
+              0,
+              0,
+              -0.691,
+              0.722
+            ],
+            [
+              0,
+              0,
+              -0.713,
+              0.7
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_9.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "rotate_particle.alpha": {
+          "values": [
+            1,
+            0.947,
+            0.89,
+            0.834,
+            0.777,
+            0.72,
+            0.663,
+            0.607,
+            0.55,
+            0.493,
+            0.436,
+            0.38,
+            0.323,
+            0.266,
+            0.209,
+            0.153
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_1.translation": {
+          "values": [
+            [
+              116.564,
+              7.274,
+              0
+            ],
+            [
+              141.266,
+              3.445,
+              0
+            ],
+            [
+              166.012,
+              -0.838,
+              0
+            ],
+            [
+              190.89,
+              -3.986,
+              0
+            ],
+            [
+              215.829,
+              -5.597,
+              0
+            ],
+            [
+              240.663,
+              -5.337,
+              0
+            ],
+            [
+              265.066,
+              -2.892,
+              0
+            ],
+            [
+              288.168,
+              1.929,
+              0
+            ],
+            [
+              311.686,
+              11.849,
+              0
+            ],
+            [
+              333.754,
+              26.728,
+              0
+            ],
+            [
+              353.431,
+              44.469,
+              0
+            ],
+            [
+              370.821,
+              63.604,
+              0
+            ],
+            [
+              386.187,
+              83.162,
+              0
+            ],
+            [
+              399.733,
+              102.393,
+              0
+            ],
+            [
+              411.582,
+              120.611,
+              0
+            ],
+            [
+              421.749,
+              137.03,
+              0
+            ],
+            [
+              430.111,
+              150.54,
+              0
+            ],
+            [
+              436.252,
+              159.145,
+              0
+            ],
+            [
+              437.98,
+              160.421,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_1.scale": {
+          "values": [
+            [
+              -3.193,
+              3.193,
+              1
+            ],
+            [
+              -2.992,
+              2.992,
+              1
+            ],
+            [
+              -2.767,
+              2.767,
+              1
+            ],
+            [
+              -2.534,
+              2.534,
+              1
+            ],
+            [
+              -2.298,
+              2.298,
+              1
+            ],
+            [
+              -2.065,
+              2.065,
+              1
+            ],
+            [
+              -1.835,
+              1.835,
+              1
+            ],
+            [
+              -1.61,
+              1.61,
+              1
+            ],
+            [
+              -1.392,
+              1.392,
+              1
+            ],
+            [
+              -1.183,
+              1.183,
+              1
+            ],
+            [
+              -0.984,
+              0.984,
+              1
+            ],
+            [
+              -0.796,
+              0.796,
+              1
+            ],
+            [
+              -0.622,
+              0.622,
+              1
+            ],
+            [
+              -0.462,
+              0.462,
+              1
+            ],
+            [
+              -0.32,
+              0.32,
+              1
+            ],
+            [
+              -0.199,
+              0.199,
+              1
+            ],
+            [
+              -0.102,
+              0.102,
+              1
+            ],
+            [
+              -0.034,
+              0.034,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_1.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.105,
+              0.994
+            ],
+            [
+              0,
+              0,
+              -0.136,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.167,
+              0.985
+            ],
+            [
+              0,
+              0,
+              -0.197,
+              0.98
+            ],
+            [
+              0,
+              0,
+              -0.227,
+              0.973
+            ],
+            [
+              0,
+              0,
+              -0.257,
+              0.966
+            ],
+            [
+              0,
+              0,
+              -0.287,
+              0.957
+            ],
+            [
+              0,
+              0,
+              -0.317,
+              0.948
+            ],
+            [
+              0,
+              0,
+              -0.346,
+              0.938
+            ],
+            [
+              0,
+              0,
+              -0.375,
+              0.926
+            ],
+            [
+              0,
+              0,
+              -0.404,
+              0.914
+            ],
+            [
+              0,
+              0,
+              -0.432,
+              0.901
+            ],
+            [
+              0,
+              0,
+              -0.459,
+              0.887
+            ],
+            [
+              0,
+              0,
+              -0.487,
+              0.873
+            ],
+            [
+              0,
+              0,
+              -0.514,
+              0.857
+            ],
+            [
+              0,
+              0,
+              -0.54,
+              0.841
+            ],
+            [
+              0,
+              0,
+              -0.566,
+              0.824
+            ],
+            [
+              0,
+              0,
+              -0.591,
+              0.806
+            ],
+            [
+              0,
+              0,
+              -0.616,
+              0.787
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_1.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_2.translation": {
+          "values": [
+            [
+              39.8,
+              18.876,
+              0
+            ],
+            [
+              51.019,
+              7.67,
+              0
+            ],
+            [
+              62.151,
+              -3.874,
+              0
+            ],
+            [
+              73.574,
+              -15.047,
+              0
+            ],
+            [
+              85.362,
+              -25.551,
+              0
+            ],
+            [
+              97.615,
+              -35.033,
+              0
+            ],
+            [
+              110.332,
+              -42.81,
+              0
+            ],
+            [
+              122.303,
+              -47.438,
+              0
+            ],
+            [
+              133.006,
+              -49.605,
+              0
+            ],
+            [
+              143.614,
+              -50.642,
+              0
+            ],
+            [
+              153.92,
+              -50.823,
+              0
+            ],
+            [
+              163.801,
+              -50.376,
+              0
+            ],
+            [
+              173.163,
+              -49.484,
+              0
+            ],
+            [
+              181.9,
+              -48.305,
+              0
+            ],
+            [
+              189.882,
+              -46.988,
+              0
+            ],
+            [
+              196.912,
+              -45.695,
+              0
+            ],
+            [
+              202.665,
+              -44.638,
+              0
+            ],
+            [
+              206.519,
+              -44.15,
+              0
+            ],
+            [
+              207.304,
+              -44.223,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_2.scale": {
+          "values": [
+            [
+              -1.75,
+              1.75,
+              1
+            ],
+            [
+              -1.734,
+              1.734,
+              1
+            ],
+            [
+              -1.69,
+              1.69,
+              1
+            ],
+            [
+              -1.622,
+              1.622,
+              1
+            ],
+            [
+              -1.532,
+              1.532,
+              1
+            ],
+            [
+              -1.425,
+              1.425,
+              1
+            ],
+            [
+              -1.304,
+              1.304,
+              1
+            ],
+            [
+              -1.173,
+              1.173,
+              1
+            ],
+            [
+              -1.034,
+              1.034,
+              1
+            ],
+            [
+              -0.891,
+              0.891,
+              1
+            ],
+            [
+              -0.748,
+              0.748,
+              1
+            ],
+            [
+              -0.608,
+              0.608,
+              1
+            ],
+            [
+              -0.474,
+              0.474,
+              1
+            ],
+            [
+              -0.35,
+              0.35,
+              1
+            ],
+            [
+              -0.24,
+              0.24,
+              1
+            ],
+            [
+              -0.146,
+              0.146,
+              1
+            ],
+            [
+              -0.073,
+              0.073,
+              1
+            ],
+            [
+              -0.023,
+              0.023,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.155,
+              0.987
+            ],
+            [
+              0,
+              0,
+              0.124,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.062,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.03,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.061,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.091,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.122,
+              0.992
+            ],
+            [
+              0,
+              0,
+              -0.153,
+              0.988
+            ],
+            [
+              0,
+              0,
+              -0.184,
+              0.982
+            ],
+            [
+              0,
+              0,
+              -0.214,
+              0.976
+            ],
+            [
+              0,
+              0,
+              -0.244,
+              0.969
+            ],
+            [
+              0,
+              0,
+              -0.274,
+              0.961
+            ],
+            [
+              0,
+              0,
+              -0.304,
+              0.952
+            ],
+            [
+              0,
+              0,
+              -0.333,
+              0.942
+            ],
+            [
+              0,
+              0,
+              -0.362,
+              0.931
+            ],
+            [
+              0,
+              0,
+              -0.391,
+              0.92
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_2.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_3.translation": {
+          "values": [
+            [
+              48.592,
+              -37.417,
+              0
+            ],
+            [
+              56.996,
+              -58.812,
+              0
+            ],
+            [
+              64.639,
+              -80.711,
+              0
+            ],
+            [
+              73.161,
+              -102.255,
+              0
+            ],
+            [
+              82.875,
+              -123.213,
+              0
+            ],
+            [
+              94.009,
+              -143.306,
+              0
+            ],
+            [
+              106.752,
+              -162.139,
+              0
+            ],
+            [
+              121.091,
+              -179.051,
+              0
+            ],
+            [
+              137.609,
+              -193.884,
+              0
+            ],
+            [
+              157.335,
+              -207.639,
+              0
+            ],
+            [
+              178.203,
+              -219.859,
+              0
+            ],
+            [
+              199.305,
+              -230.749,
+              0
+            ],
+            [
+              220.097,
+              -240.496,
+              0
+            ],
+            [
+              240.152,
+              -249.218,
+              0
+            ],
+            [
+              259.04,
+              -256.966,
+              0
+            ],
+            [
+              276.236,
+              -263.729,
+              0
+            ],
+            [
+              290.982,
+              -269.41,
+              0
+            ],
+            [
+              301.982,
+              -273.765,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_3.scale": {
+          "values": [
+            [
+              -2,
+              2,
+              1
+            ],
+            [
+              -1.983,
+              1.983,
+              1
+            ],
+            [
+              -1.936,
+              1.936,
+              1
+            ],
+            [
+              -1.861,
+              1.861,
+              1
+            ],
+            [
+              -1.763,
+              1.763,
+              1
+            ],
+            [
+              -1.646,
+              1.646,
+              1
+            ],
+            [
+              -1.512,
+              1.512,
+              1
+            ],
+            [
+              -1.367,
+              1.367,
+              1
+            ],
+            [
+              -1.212,
+              1.212,
+              1
+            ],
+            [
+              -1.053,
+              1.053,
+              1
+            ],
+            [
+              -0.892,
+              0.892,
+              1
+            ],
+            [
+              -0.734,
+              0.734,
+              1
+            ],
+            [
+              -0.582,
+              0.582,
+              1
+            ],
+            [
+              -0.44,
+              0.44,
+              1
+            ],
+            [
+              -0.312,
+              0.312,
+              1
+            ],
+            [
+              -0.2,
+              0.2,
+              1
+            ],
+            [
+              -0.11,
+              0.11,
+              1
+            ],
+            [
+              -0.044,
+              0.044,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_3.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.35,
+              0.936
+            ],
+            [
+              0,
+              0,
+              0.331,
+              0.943
+            ],
+            [
+              0,
+              0,
+              0.302,
+              0.953
+            ],
+            [
+              0,
+              0,
+              0.272,
+              0.962
+            ],
+            [
+              0,
+              0,
+              0.242,
+              0.97
+            ],
+            [
+              0,
+              0,
+              0.212,
+              0.977
+            ],
+            [
+              0,
+              0,
+              0.182,
+              0.983
+            ],
+            [
+              0,
+              0,
+              0.151,
+              0.988
+            ],
+            [
+              0,
+              0,
+              0.12,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.09,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.059,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.028,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.033,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.064,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.095,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.126,
+              0.991
+            ],
+            [
+              0,
+              0,
+              -0.157,
+              0.987
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_3.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_4.translation": {
+          "values": [
+            [
+              -207.42,
+              96.362,
+              0
+            ],
+            [
+              -225.316,
+              100.491,
+              0
+            ],
+            [
+              -243.448,
+              104.232,
+              0
+            ],
+            [
+              -261.315,
+              108.903,
+              0
+            ],
+            [
+              -278.678,
+              114.839,
+              0
+            ],
+            [
+              -295.213,
+              122.297,
+              0
+            ],
+            [
+              -310.401,
+              131.423,
+              0
+            ],
+            [
+              -323.123,
+              141.691,
+              0
+            ],
+            [
+              -334.406,
+              153.453,
+              0
+            ],
+            [
+              -344.68,
+              166.547,
+              0
+            ],
+            [
+              -353.741,
+              180.236,
+              0
+            ],
+            [
+              -361.667,
+              194.069,
+              0
+            ],
+            [
+              -368.572,
+              207.703,
+              0
+            ],
+            [
+              -374.556,
+              220.816,
+              0
+            ],
+            [
+              -379.698,
+              233.074,
+              0
+            ],
+            [
+              -384.044,
+              244.036,
+              0
+            ],
+            [
+              -387.601,
+              253.043,
+              0
+            ],
+            [
+              -390.285,
+              258.902,
+              0
+            ],
+            [
+              -391.08,
+              259.954,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_4.scale": {
+          "values": [
+            [
+              2.799,
+              2.799,
+              1
+            ],
+            [
+              2.774,
+              2.774,
+              1
+            ],
+            [
+              2.703,
+              2.703,
+              1
+            ],
+            [
+              2.594,
+              2.594,
+              1
+            ],
+            [
+              2.451,
+              2.451,
+              1
+            ],
+            [
+              2.28,
+              2.28,
+              1
+            ],
+            [
+              2.086,
+              2.086,
+              1
+            ],
+            [
+              1.875,
+              1.875,
+              1
+            ],
+            [
+              1.653,
+              1.653,
+              1
+            ],
+            [
+              1.425,
+              1.425,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              0.972,
+              0.972,
+              1
+            ],
+            [
+              0.758,
+              0.758,
+              1
+            ],
+            [
+              0.56,
+              0.56,
+              1
+            ],
+            [
+              0.384,
+              0.384,
+              1
+            ],
+            [
+              0.234,
+              0.234,
+              1
+            ],
+            [
+              0.117,
+              0.117,
+              1
+            ],
+            [
+              0.037,
+              0.037,
+              1
+            ],
+            [
+              0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.343,
+              0.939
+            ],
+            [
+              0,
+              0,
+              0.372,
+              0.928
+            ],
+            [
+              0,
+              0,
+              0.4,
+              0.916
+            ],
+            [
+              0,
+              0,
+              0.428,
+              0.903
+            ],
+            [
+              0,
+              0,
+              0.456,
+              0.889
+            ],
+            [
+              0,
+              0,
+              0.483,
+              0.875
+            ],
+            [
+              0,
+              0,
+              0.51,
+              0.859
+            ],
+            [
+              0,
+              0,
+              0.537,
+              0.843
+            ],
+            [
+              0,
+              0,
+              0.563,
+              0.826
+            ],
+            [
+              0,
+              0,
+              0.588,
+              0.808
+            ],
+            [
+              0,
+              0,
+              0.613,
+              0.789
+            ],
+            [
+              0,
+              0,
+              0.637,
+              0.77
+            ],
+            [
+              0,
+              0,
+              0.661,
+              0.75
+            ],
+            [
+              0,
+              0,
+              0.684,
+              0.729
+            ],
+            [
+              0,
+              0,
+              0.706,
+              0.707
+            ],
+            [
+              0,
+              0,
+              0.727,
+              0.685
+            ],
+            [
+              0,
+              0,
+              0.748,
+              0.662
+            ],
+            [
+              0,
+              0,
+              0.769,
+              0.639
+            ],
+            [
+              0,
+              0,
+              0.788,
+              0.615
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_4.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_5.translation": {
+          "values": [
+            [
+              -84.617,
+              47.667,
+              0
+            ],
+            [
+              -88.256,
+              36.828,
+              0
+            ],
+            [
+              -92.742,
+              18.874,
+              0
+            ],
+            [
+              -97.921,
+              1.114,
+              0
+            ],
+            [
+              -104.223,
+              -16.183,
+              0
+            ],
+            [
+              -111.91,
+              -32.726,
+              0
+            ],
+            [
+              -121.172,
+              -48.083,
+              0
+            ],
+            [
+              -131.881,
+              -61.495,
+              0
+            ],
+            [
+              -143.409,
+              -72.423,
+              0
+            ],
+            [
+              -156.629,
+              -82.496,
+              0
+            ],
+            [
+              -170.618,
+              -91.326,
+              0
+            ],
+            [
+              -184.859,
+              -98.966,
+              0
+            ],
+            [
+              -198.976,
+              -105.544,
+              0
+            ],
+            [
+              -212.651,
+              -111.183,
+              0
+            ],
+            [
+              -225.575,
+              -115.992,
+              0
+            ],
+            [
+              -237.355,
+              -120.047,
+              0
+            ],
+            [
+              -247.452,
+              -123.405,
+              0
+            ],
+            [
+              -254.95,
+              -126.079,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_5.scale": {
+          "values": [
+            [
+              2.8,
+              2.8,
+              1
+            ],
+            [
+              2.79,
+              2.79,
+              1
+            ],
+            [
+              2.737,
+              2.737,
+              1
+            ],
+            [
+              2.643,
+              2.643,
+              1
+            ],
+            [
+              2.513,
+              2.513,
+              1
+            ],
+            [
+              2.353,
+              2.353,
+              1
+            ],
+            [
+              2.168,
+              2.168,
+              1
+            ],
+            [
+              1.963,
+              1.963,
+              1
+            ],
+            [
+              1.745,
+              1.745,
+              1
+            ],
+            [
+              1.518,
+              1.518,
+              1
+            ],
+            [
+              1.289,
+              1.289,
+              1
+            ],
+            [
+              1.062,
+              1.062,
+              1
+            ],
+            [
+              0.844,
+              0.844,
+              1
+            ],
+            [
+              0.639,
+              0.639,
+              1
+            ],
+            [
+              0.453,
+              0.453,
+              1
+            ],
+            [
+              0.291,
+              0.291,
+              1
+            ],
+            [
+              0.16,
+              0.16,
+              1
+            ],
+            [
+              0.065,
+              0.065,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_5.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.398,
+              0.917
+            ],
+            [
+              0,
+              0,
+              -0.38,
+              0.924
+            ],
+            [
+              0,
+              0,
+              -0.351,
+              0.936
+            ],
+            [
+              0,
+              0,
+              -0.322,
+              0.946
+            ],
+            [
+              0,
+              0,
+              -0.293,
+              0.956
+            ],
+            [
+              0,
+              0,
+              -0.263,
+              0.964
+            ],
+            [
+              0,
+              0,
+              -0.233,
+              0.972
+            ],
+            [
+              0,
+              0,
+              -0.203,
+              0.979
+            ],
+            [
+              0,
+              0,
+              -0.172,
+              0.984
+            ],
+            [
+              0,
+              0,
+              -0.142,
+              0.989
+            ],
+            [
+              0,
+              0,
+              -0.111,
+              0.993
+            ],
+            [
+              0,
+              0,
+              -0.08,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.049,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.074,
+              0.997
+            ],
+            [
+              0,
+              0,
+              0.105,
+              0.994
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_5.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_6.translation": {
+          "values": [
+            [
+              -94.217,
+              31.017,
+              0
+            ],
+            [
+              -120.206,
+              11.868,
+              0
+            ],
+            [
+              -145.794,
+              -8.279,
+              0
+            ],
+            [
+              -172.141,
+              -27.294,
+              0
+            ],
+            [
+              -199.522,
+              -44.408,
+              0
+            ],
+            [
+              -228.096,
+              -58.635,
+              0
+            ],
+            [
+              -257.737,
+              -68.408,
+              0
+            ],
+            [
+              -286.692,
+              -71.469,
+              0
+            ],
+            [
+              -314.173,
+              -69.093,
+              0
+            ],
+            [
+              -342.092,
+              -64.175,
+              0
+            ],
+            [
+              -369.27,
+              -57.577,
+              0
+            ],
+            [
+              -395.326,
+              -49.933,
+              0
+            ],
+            [
+              -420.019,
+              -41.718,
+              0
+            ],
+            [
+              -443.086,
+              -33.335,
+              0
+            ],
+            [
+              -464.201,
+              -25.175,
+              0
+            ],
+            [
+              -482.851,
+              -17.697,
+              0
+            ],
+            [
+              -498.181,
+              -11.543,
+              0
+            ],
+            [
+              -508.545,
+              -7.809,
+              0
+            ],
+            [
+              -510.767,
+              -7.377,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_6.scale": {
+          "values": [
+            [
+              4.199,
+              4.199,
+              1
+            ],
+            [
+              4.161,
+              4.161,
+              1
+            ],
+            [
+              4.055,
+              4.055,
+              1
+            ],
+            [
+              3.891,
+              3.891,
+              1
+            ],
+            [
+              3.676,
+              3.676,
+              1
+            ],
+            [
+              3.42,
+              3.42,
+              1
+            ],
+            [
+              3.129,
+              3.129,
+              1
+            ],
+            [
+              2.813,
+              2.813,
+              1
+            ],
+            [
+              2.48,
+              2.48,
+              1
+            ],
+            [
+              2.138,
+              2.138,
+              1
+            ],
+            [
+              1.794,
+              1.794,
+              1
+            ],
+            [
+              1.458,
+              1.458,
+              1
+            ],
+            [
+              1.137,
+              1.137,
+              1
+            ],
+            [
+              0.841,
+              0.841,
+              1
+            ],
+            [
+              0.576,
+              0.576,
+              1
+            ],
+            [
+              0.351,
+              0.351,
+              1
+            ],
+            [
+              0.175,
+              0.175,
+              1
+            ],
+            [
+              0.056,
+              0.056,
+              1
+            ],
+            [
+              0.002,
+              0.002,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_6.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.032,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.063,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.124,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.155,
+              0.987
+            ],
+            [
+              0,
+              0,
+              0.186,
+              0.982
+            ],
+            [
+              0,
+              0,
+              0.216,
+              0.976
+            ],
+            [
+              0,
+              0,
+              0.246,
+              0.969
+            ],
+            [
+              0,
+              0,
+              0.276,
+              0.961
+            ],
+            [
+              0,
+              0,
+              0.306,
+              0.951
+            ],
+            [
+              0,
+              0,
+              0.335,
+              0.942
+            ],
+            [
+              0,
+              0,
+              0.364,
+              0.931
+            ],
+            [
+              0,
+              0,
+              0.393,
+              0.919
+            ],
+            [
+              0,
+              0,
+              0.421,
+              0.906
+            ],
+            [
+              0,
+              0,
+              0.449,
+              0.893
+            ],
+            [
+              0,
+              0,
+              0.477,
+              0.878
+            ],
+            [
+              0,
+              0,
+              0.504,
+              0.863
+            ],
+            [
+              0,
+              0,
+              0.53,
+              0.847
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_6.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_7.translation": {
+          "values": [
+            [
+              -19.569,
+              125.911,
+              0
+            ],
+            [
+              -26.671,
+              132.665,
+              0
+            ],
+            [
+              -38.994,
+              142.653,
+              0
+            ],
+            [
+              -50.914,
+              153.11,
+              0
+            ],
+            [
+              -62.069,
+              164.271,
+              0
+            ],
+            [
+              -72.135,
+              176.236,
+              0
+            ],
+            [
+              -80.71,
+              188.993,
+              0
+            ],
+            [
+              -87.249,
+              202.171,
+              0
+            ],
+            [
+              -91.563,
+              215.085,
+              0
+            ],
+            [
+              -94.599,
+              229.003,
+              0
+            ],
+            [
+              -96.391,
+              243.069,
+              0
+            ],
+            [
+              -97.167,
+              256.9,
+              0
+            ],
+            [
+              -97.163,
+              270.249,
+              0
+            ],
+            [
+              -96.59,
+              282.915,
+              0
+            ],
+            [
+              -95.644,
+              294.697,
+              0
+            ],
+            [
+              -94.528,
+              305.318,
+              0
+            ],
+            [
+              -93.478,
+              314.377,
+              0
+            ],
+            [
+              -92.84,
+              321.17,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_7.scale": {
+          "values": [
+            [
+              2.4,
+              2.4,
+              1
+            ],
+            [
+              2.391,
+              2.391,
+              1
+            ],
+            [
+              2.346,
+              2.346,
+              1
+            ],
+            [
+              2.265,
+              2.265,
+              1
+            ],
+            [
+              2.154,
+              2.154,
+              1
+            ],
+            [
+              2.016,
+              2.016,
+              1
+            ],
+            [
+              1.858,
+              1.858,
+              1
+            ],
+            [
+              1.683,
+              1.683,
+              1
+            ],
+            [
+              1.496,
+              1.496,
+              1
+            ],
+            [
+              1.301,
+              1.301,
+              1
+            ],
+            [
+              1.105,
+              1.105,
+              1
+            ],
+            [
+              0.91,
+              0.91,
+              1
+            ],
+            [
+              0.723,
+              0.723,
+              1
+            ],
+            [
+              0.547,
+              0.547,
+              1
+            ],
+            [
+              0.388,
+              0.388,
+              1
+            ],
+            [
+              0.25,
+              0.25,
+              1
+            ],
+            [
+              0.137,
+              0.137,
+              1
+            ],
+            [
+              0.055,
+              0.055,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_7.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.559,
+              0.829
+            ],
+            [
+              0,
+              0,
+              0.575,
+              0.818
+            ],
+            [
+              0,
+              0,
+              0.6,
+              0.799
+            ],
+            [
+              0,
+              0,
+              0.624,
+              0.78
+            ],
+            [
+              0,
+              0,
+              0.648,
+              0.761
+            ],
+            [
+              0,
+              0,
+              0.672,
+              0.74
+            ],
+            [
+              0,
+              0,
+              0.694,
+              0.719
+            ],
+            [
+              0,
+              0,
+              0.716,
+              0.697
+            ],
+            [
+              0,
+              0,
+              0.737,
+              0.674
+            ],
+            [
+              0,
+              0,
+              0.758,
+              0.651
+            ],
+            [
+              0,
+              0,
+              0.778,
+              0.627
+            ],
+            [
+              0,
+              0,
+              0.797,
+              0.603
+            ],
+            [
+              0,
+              0,
+              0.815,
+              0.578
+            ],
+            [
+              0,
+              0,
+              0.833,
+              0.552
+            ],
+            [
+              0,
+              0,
+              0.85,
+              0.526
+            ],
+            [
+              0,
+              0,
+              0.865,
+              0.5
+            ],
+            [
+              0,
+              0,
+              0.881,
+              0.473
+            ],
+            [
+              0,
+              0,
+              0.895,
+              0.445
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_7.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_8.translation": {
+          "values": [
+            [
+              101.126,
+              170.555,
+              0
+            ],
+            [
+              120.752,
+              166.418,
+              0
+            ],
+            [
+              140.338,
+              161.512,
+              0
+            ],
+            [
+              160.339,
+              158.812,
+              0
+            ],
+            [
+              180.516,
+              158.961,
+              0
+            ],
+            [
+              200.428,
+              162.208,
+              0
+            ],
+            [
+              219.596,
+              168.467,
+              0
+            ],
+            [
+              237.796,
+              177.48,
+              0
+            ],
+            [
+              257.02,
+              191.483,
+              0
+            ],
+            [
+              274.703,
+              209.47,
+              0
+            ],
+            [
+              289.995,
+              229.601,
+              0
+            ],
+            [
+              303.044,
+              250.656,
+              0
+            ],
+            [
+              314.163,
+              271.809,
+              0
+            ],
+            [
+              323.621,
+              292.379,
+              0
+            ],
+            [
+              331.637,
+              311.741,
+              0
+            ],
+            [
+              338.359,
+              329.132,
+              0
+            ],
+            [
+              343.872,
+              343.465,
+              0
+            ],
+            [
+              348.148,
+              352.756,
+              0
+            ],
+            [
+              349.536,
+              354.313,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_8.scale": {
+          "values": [
+            [
+              -2.994,
+              2.994,
+              1
+            ],
+            [
+              -2.805,
+              2.805,
+              1
+            ],
+            [
+              -2.594,
+              2.594,
+              1
+            ],
+            [
+              -2.375,
+              2.375,
+              1
+            ],
+            [
+              -2.155,
+              2.155,
+              1
+            ],
+            [
+              -1.936,
+              1.936,
+              1
+            ],
+            [
+              -1.72,
+              1.72,
+              1
+            ],
+            [
+              -1.509,
+              1.509,
+              1
+            ],
+            [
+              -1.305,
+              1.305,
+              1
+            ],
+            [
+              -1.109,
+              1.109,
+              1
+            ],
+            [
+              -0.923,
+              0.923,
+              1
+            ],
+            [
+              -0.747,
+              0.747,
+              1
+            ],
+            [
+              -0.583,
+              0.583,
+              1
+            ],
+            [
+              -0.433,
+              0.433,
+              1
+            ],
+            [
+              -0.3,
+              0.3,
+              1
+            ],
+            [
+              -0.187,
+              0.187,
+              1
+            ],
+            [
+              -0.095,
+              0.095,
+              1
+            ],
+            [
+              -0.031,
+              0.031,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_8.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.234,
+              0.972
+            ],
+            [
+              0,
+              0,
+              -0.264,
+              0.964
+            ],
+            [
+              0,
+              0,
+              -0.294,
+              0.955
+            ],
+            [
+              0,
+              0,
+              -0.323,
+              0.946
+            ],
+            [
+              0,
+              0,
+              -0.352,
+              0.935
+            ],
+            [
+              0,
+              0,
+              -0.381,
+              0.924
+            ],
+            [
+              0,
+              0,
+              -0.41,
+              0.911
+            ],
+            [
+              0,
+              0,
+              -0.438,
+              0.898
+            ],
+            [
+              0,
+              0,
+              -0.466,
+              0.884
+            ],
+            [
+              0,
+              0,
+              -0.493,
+              0.869
+            ],
+            [
+              0,
+              0,
+              -0.519,
+              0.854
+            ],
+            [
+              0,
+              0,
+              -0.546,
+              0.837
+            ],
+            [
+              0,
+              0,
+              -0.571,
+              0.82
+            ],
+            [
+              0,
+              0,
+              -0.597,
+              0.802
+            ],
+            [
+              0,
+              0,
+              -0.621,
+              0.783
+            ],
+            [
+              0,
+              0,
+              -0.645,
+              0.763
+            ],
+            [
+              0,
+              0,
+              -0.669,
+              0.743
+            ],
+            [
+              0,
+              0,
+              -0.691,
+              0.722
+            ],
+            [
+              0,
+              0,
+              -0.713,
+              0.7
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_8.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "red.alpha": {
+          "values": [
+            1,
+            0.947,
+            0.89,
+            0.834,
+            0.777,
+            0.72,
+            0.663,
+            0.607,
+            0.55,
+            0.493,
+            0.436,
+            0.38,
+            0.323,
+            0.266,
+            0.209,
+            0.153
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "drop_15.translation": {
+          "values": [
+            [
+              257.078,
+              184.67,
+              0
+            ],
+            [
+              276.484,
+              167.365,
+              0
+            ],
+            [
+              295.951,
+              149.683,
+              0
+            ],
+            [
+              315.566,
+              132.34,
+              0
+            ],
+            [
+              335.339,
+              115.626,
+              0
+            ],
+            [
+              355.29,
+              99.971,
+              0
+            ],
+            [
+              375.413,
+              86.346,
+              0
+            ],
+            [
+              394.419,
+              78.45,
+              0
+            ],
+            [
+              411.325,
+              77.522,
+              0
+            ],
+            [
+              427.518,
+              79.76,
+              0
+            ],
+            [
+              442.714,
+              83.844,
+              0
+            ],
+            [
+              456.863,
+              88.982,
+              0
+            ],
+            [
+              469.958,
+              94.67,
+              0
+            ],
+            [
+              481.964,
+              100.545,
+              0
+            ],
+            [
+              492.78,
+              106.287,
+              0
+            ],
+            [
+              502.217,
+              111.555,
+              0
+            ],
+            [
+              509.913,
+              115.895,
+              0
+            ],
+            [
+              515.144,
+              118.538,
+              0
+            ],
+            [
+              516.304,
+              118.776,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_15.scale": {
+          "values": [
+            [
+              -1.75,
+              1.75,
+              1
+            ],
+            [
+              -1.734,
+              1.734,
+              1
+            ],
+            [
+              -1.69,
+              1.69,
+              1
+            ],
+            [
+              -1.622,
+              1.622,
+              1
+            ],
+            [
+              -1.532,
+              1.532,
+              1
+            ],
+            [
+              -1.425,
+              1.425,
+              1
+            ],
+            [
+              -1.304,
+              1.304,
+              1
+            ],
+            [
+              -1.173,
+              1.173,
+              1
+            ],
+            [
+              -1.034,
+              1.034,
+              1
+            ],
+            [
+              -0.891,
+              0.891,
+              1
+            ],
+            [
+              -0.748,
+              0.748,
+              1
+            ],
+            [
+              -0.608,
+              0.608,
+              1
+            ],
+            [
+              -0.474,
+              0.474,
+              1
+            ],
+            [
+              -0.35,
+              0.35,
+              1
+            ],
+            [
+              -0.24,
+              0.24,
+              1
+            ],
+            [
+              -0.146,
+              0.146,
+              1
+            ],
+            [
+              -0.073,
+              0.073,
+              1
+            ],
+            [
+              -0.023,
+              0.023,
+              1
+            ],
+            [
+              -0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_15.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.155,
+              0.987
+            ],
+            [
+              0,
+              0,
+              0.124,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.062,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.03,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.061,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.091,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.122,
+              0.992
+            ],
+            [
+              0,
+              0,
+              -0.153,
+              0.988
+            ],
+            [
+              0,
+              0,
+              -0.184,
+              0.982
+            ],
+            [
+              0,
+              0,
+              -0.214,
+              0.976
+            ],
+            [
+              0,
+              0,
+              -0.244,
+              0.969
+            ],
+            [
+              0,
+              0,
+              -0.274,
+              0.961
+            ],
+            [
+              0,
+              0,
+              -0.304,
+              0.952
+            ],
+            [
+              0,
+              0,
+              -0.333,
+              0.942
+            ],
+            [
+              0,
+              0,
+              -0.362,
+              0.931
+            ],
+            [
+              0,
+              0,
+              -0.391,
+              0.92
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_15.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_14.translation": {
+          "values": [
+            [
+              347.592,
+              -19.417,
+              0
+            ],
+            [
+              353.024,
+              -31.302,
+              0
+            ],
+            [
+              360.267,
+              -51.173,
+              0
+            ],
+            [
+              368.275,
+              -70.74,
+              0
+            ],
+            [
+              377.504,
+              -89.648,
+              0
+            ],
+            [
+              388.218,
+              -107.533,
+              0
+            ],
+            [
+              400.579,
+              -123.88,
+              0
+            ],
+            [
+              414.353,
+              -137.845,
+              0
+            ],
+            [
+              428.762,
+              -148.889,
+              0
+            ],
+            [
+              444.99,
+              -158.758,
+              0
+            ],
+            [
+              461.946,
+              -167.123,
+              0
+            ],
+            [
+              479.045,
+              -174.106,
+              0
+            ],
+            [
+              495.876,
+              -179.895,
+              0
+            ],
+            [
+              512.093,
+              -184.671,
+              0
+            ],
+            [
+              527.357,
+              -188.593,
+              0
+            ],
+            [
+              541.23,
+              -191.795,
+              0
+            ],
+            [
+              553.107,
+              -194.405,
+              0
+            ],
+            [
+              561.948,
+              -196.55,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_14.scale": {
+          "values": [
+            [
+              -3.2,
+              3.2,
+              1
+            ],
+            [
+              -3.188,
+              3.188,
+              1
+            ],
+            [
+              -3.128,
+              3.128,
+              1
+            ],
+            [
+              -3.02,
+              3.02,
+              1
+            ],
+            [
+              -2.872,
+              2.872,
+              1
+            ],
+            [
+              -2.689,
+              2.689,
+              1
+            ],
+            [
+              -2.477,
+              2.477,
+              1
+            ],
+            [
+              -2.244,
+              2.244,
+              1
+            ],
+            [
+              -1.994,
+              1.994,
+              1
+            ],
+            [
+              -1.735,
+              1.735,
+              1
+            ],
+            [
+              -1.473,
+              1.473,
+              1
+            ],
+            [
+              -1.214,
+              1.214,
+              1
+            ],
+            [
+              -0.964,
+              0.964,
+              1
+            ],
+            [
+              -0.73,
+              0.73,
+              1
+            ],
+            [
+              -0.517,
+              0.517,
+              1
+            ],
+            [
+              -0.333,
+              0.333,
+              1
+            ],
+            [
+              -0.183,
+              0.183,
+              1
+            ],
+            [
+              -0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_14.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.35,
+              0.936
+            ],
+            [
+              0,
+              0,
+              0.331,
+              0.943
+            ],
+            [
+              0,
+              0,
+              0.302,
+              0.953
+            ],
+            [
+              0,
+              0,
+              0.272,
+              0.962
+            ],
+            [
+              0,
+              0,
+              0.242,
+              0.97
+            ],
+            [
+              0,
+              0,
+              0.212,
+              0.977
+            ],
+            [
+              0,
+              0,
+              0.182,
+              0.983
+            ],
+            [
+              0,
+              0,
+              0.151,
+              0.988
+            ],
+            [
+              0,
+              0,
+              0.12,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.09,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.059,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.028,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.033,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.064,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.095,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.126,
+              0.991
+            ],
+            [
+              0,
+              0,
+              -0.157,
+              0.987
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "drop_14.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_11.translation": {
+          "values": [
+            [
+              132.662,
+              -21.772,
+              0
+            ],
+            [
+              97.206,
+              -22.698,
+              0
+            ],
+            [
+              61.347,
+              -23.6,
+              0
+            ],
+            [
+              25.618,
+              -24.348,
+              0
+            ],
+            [
+              -9.747,
+              -24.888,
+              0
+            ],
+            [
+              -44.466,
+              -25.154,
+              0
+            ],
+            [
+              -77.933,
+              -25.049,
+              0
+            ],
+            [
+              -107.692,
+              -24.469,
+              0
+            ],
+            [
+              -130.849,
+              -21.744,
+              0
+            ],
+            [
+              -152.329,
+              -15.367,
+              0
+            ],
+            [
+              -171.737,
+              -6.061,
+              0
+            ],
+            [
+              -188.904,
+              5.284,
+              0
+            ],
+            [
+              -203.879,
+              17.807,
+              0
+            ],
+            [
+              -216.796,
+              30.727,
+              0
+            ],
+            [
+              -227.821,
+              43.333,
+              0
+            ],
+            [
+              -237.076,
+              54.87,
+              0
+            ],
+            [
+              -244.601,
+              64.347,
+              0
+            ],
+            [
+              -250.237,
+              70.057,
+              0
+            ],
+            [
+              -251.767,
+              70.622,
+              0
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_11.scale": {
+          "values": [
+            [
+              2.599,
+              2.599,
+              1
+            ],
+            [
+              2.575,
+              2.575,
+              1
+            ],
+            [
+              2.51,
+              2.51,
+              1
+            ],
+            [
+              2.408,
+              2.408,
+              1
+            ],
+            [
+              2.276,
+              2.276,
+              1
+            ],
+            [
+              2.117,
+              2.117,
+              1
+            ],
+            [
+              1.937,
+              1.937,
+              1
+            ],
+            [
+              1.741,
+              1.741,
+              1
+            ],
+            [
+              1.535,
+              1.535,
+              1
+            ],
+            [
+              1.323,
+              1.323,
+              1
+            ],
+            [
+              1.11,
+              1.11,
+              1
+            ],
+            [
+              0.902,
+              0.902,
+              1
+            ],
+            [
+              0.704,
+              0.704,
+              1
+            ],
+            [
+              0.52,
+              0.52,
+              1
+            ],
+            [
+              0.356,
+              0.356,
+              1
+            ],
+            [
+              0.217,
+              0.217,
+              1
+            ],
+            [
+              0.108,
+              0.108,
+              1
+            ],
+            [
+              0.035,
+              0.035,
+              1
+            ],
+            [
+              0.001,
+              0.001,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_11.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.032,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.063,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.124,
+              0.992
+            ],
+            [
+              0,
+              0,
+              0.155,
+              0.987
+            ],
+            [
+              0,
+              0,
+              0.186,
+              0.982
+            ],
+            [
+              0,
+              0,
+              0.216,
+              0.976
+            ],
+            [
+              0,
+              0,
+              0.246,
+              0.969
+            ],
+            [
+              0,
+              0,
+              0.276,
+              0.961
+            ],
+            [
+              0,
+              0,
+              0.306,
+              0.951
+            ],
+            [
+              0,
+              0,
+              0.335,
+              0.942
+            ],
+            [
+              0,
+              0,
+              0.364,
+              0.931
+            ],
+            [
+              0,
+              0,
+              0.393,
+              0.919
+            ],
+            [
+              0,
+              0,
+              0.421,
+              0.906
+            ],
+            [
+              0,
+              0,
+              0.449,
+              0.893
+            ],
+            [
+              0,
+              0,
+              0.477,
+              0.878
+            ],
+            [
+              0,
+              0,
+              0.504,
+              0.863
+            ],
+            [
+              0,
+              0,
+              0.53,
+              0.847
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "drop_11.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 19,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "drop_caramel.png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_caramel2.png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 1
+        },
+        "drop_caramel4.png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_caramel2.png$4.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_caramel4.png$5.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "red 2.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_16.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_13.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_12.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_10.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "rotate_particle.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_1.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_2.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_3.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_4.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_5.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_6.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_7.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_8.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "red.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_15.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_14.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 0
+        },
+        "drop_11.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        },
+        "drop_9.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 19,
+          "cutf": 18
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.79166666666667
+        }
+      },
+      "layers": [
+        "drop_caramel.png",
+        "drop_caramel2.png",
+        "drop_caramel4.png",
+        "drop_caramel2.png$4",
+        "drop_caramel4.png$5",
+        "red 2",
+        "drop_16",
+        "drop_13",
+        "drop_12",
+        "drop_10",
+        "rotate_particle",
+        "drop_1",
+        "drop_2",
+        "drop_3",
+        "drop_4",
+        "drop_5",
+        "drop_6",
+        "drop_7",
+        "drop_8",
+        "red",
+        "drop_15",
+        "drop_14",
+        "drop_11",
+        "drop_9"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

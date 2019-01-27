@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-09-07T14:27:59Z</created><keywords></keywords><modified>2016-09-07T14:27:59Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_animations>
+    <animation id="shake-anim" name="shake"><animation><source id="shake-Matrix-animation-input"><float_array id="shake-Matrix-animation-input-array" count="10">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000</float_array><technique_common><accessor source="#shake-Matrix-animation-input-array" count="10"><param name="TIME" type="float"/></accessor></technique_common></source><source id="shake-Matrix-animation-output-transform"><float_array id="shake-Matrix-animation-output-transform-array" count="160">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -1.563240 0.000000 1.000000 0.000000 -0.243269 0.000000 0.000000 1.000000 2.767310 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -2.985710 0.000000 1.000000 0.000000 -3.315950 0.000000 0.000000 1.000000 3.215480 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.179697 0.000000 1.000000 0.000000 0.182952 0.000000 0.000000 1.000000 3.135280 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -1.482330 0.000000 1.000000 0.000000 5.893660 0.000000 0.000000 1.000000 1.724480 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 2.773260 0.000000 1.000000 0.000000 4.862670 0.000000 0.000000 1.000000 -1.610620 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.255993 0.000000 1.000000 0.000000 -2.915650 0.000000 0.000000 1.000000 -0.546789 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 3.025360 0.000000 1.000000 0.000000 -0.510076 0.000000 0.000000 1.000000 1.862230 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#shake-Matrix-animation-output-transform-array" count="10" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="shake-Interpolations"><Name_array id="shake-Interpolations-array" count="10">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#shake-Interpolations-array" count="10"><param type="name"/></accessor></technique_common></source><sampler id="shake-Matrix-animation-transform"><input semantic="INPUT" source="#shake-Matrix-animation-input"/><input semantic="OUTPUT" source="#shake-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#shake-Interpolations"/></sampler><channel source="#shake-Matrix-animation-transform" target="shake/matrix"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="camshake" name="camshake">
+      <node name="shake" id="shake" sid="shake"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#camshake"></instance_visual_scene>
+  </scene>
+</COLLADA>

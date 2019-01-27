@@ -1,0 +1,285 @@
+{
+  "name": "wild_outro",
+  "children": [
+    {
+      "name": "screen_outro_[00327-00339].png",
+      "translation": [
+        311.5,
+        462,
+        0
+      ],
+      "anchor": [
+        182,
+        128,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.54166666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/screen_outro_00327.png",
+            "resources/screen_outro_00328.png",
+            "resources/screen_outro_00329.png",
+            "resources/screen_outro_00330.png",
+            "resources/screen_outro_00331.png",
+            "resources/screen_outro_00332.png",
+            "resources/screen_outro_00333.png",
+            "resources/screen_outro_00334.png",
+            "resources/screen_outro_00335.png",
+            "resources/screen_outro_00336.png",
+            "resources/screen_outro_00337.png",
+            "resources/screen_outro_00338.png",
+            "resources/screen_outro_00339.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wild_idle_static_[001-021].png",
+      "translation": [
+        311.5,
+        462,
+        0
+      ],
+      "anchor": [
+        182,
+        128,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/wild_idle_static_001.png",
+            "resources/wild_idle_static_002.png",
+            "resources/wild_idle_static_003.png",
+            "resources/wild_idle_static_004.png",
+            "resources/wild_idle_static_005.png",
+            "resources/wild_idle_static_006.png",
+            "resources/wild_idle_static_007.png",
+            "resources/wild_idle_static_008.png",
+            "resources/wild_idle_static_009.png",
+            "resources/wild_idle_static_010.png",
+            "resources/wild_idle_static_011.png",
+            "resources/wild_idle_static_012.png",
+            "resources/wild_idle_static_013.png",
+            "resources/wild_idle_static_014.png",
+            "resources/wild_idle_static_015.png",
+            "resources/wild_idle_static_016.png",
+            "resources/wild_idle_static_017.png",
+            "resources/wild_idle_static_018.png",
+            "resources/wild_idle_static_019.png",
+            "resources/wild_idle_static_020.png",
+            "resources/wild_idle_static_021.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wild_idle_static_[001-021].png.alpha": {
+          "values": [
+            1,
+            0.938,
+            0.876,
+            0.815,
+            0.753,
+            0.692,
+            0.63,
+            0.569,
+            0.507,
+            0.446,
+            0.384,
+            0.323,
+            0.261,
+            0.199,
+            0.138,
+            0.076,
+            0.015
+          ],
+          "duration": 0.54166666666667,
+          "len": 17,
+          "cutf": 0
+        },
+        "screen_outro_[00327-00339].png.alpha": {
+          "values": [
+            1,
+            0.2
+          ],
+          "duration": 0.54166666666667,
+          "len": 17,
+          "cutf": 15
+        },
+        "wild_idle_static_[001-021].png.curFrame": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9,
+            10,
+            11
+          ],
+          "len": 17,
+          "cutf": 0
+        },
+        "wild_idle_static_[001-021].png.enabled": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 17,
+          "cutf": 16
+        },
+        "screen_outro_[00327-00339].png.curFrame": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12
+          ],
+          "len": 17,
+          "cutf": 0
+        },
+        "screen_outro_[00327-00339].png.enabled": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 17,
+          "cutf": 16
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -17.9583333333333,
+          "duration": 1.5833333333333
+        },
+        "idle_1": {
+          "start": -16.375,
+          "duration": 1.9583333333333
+        },
+        "idle_2": {
+          "start": -14.4166666666667,
+          "duration": 2
+        },
+        "spin": {
+          "start": -12.4166666666667,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -10.4166666666667,
+          "duration": 0.6666666666667
+        },
+        "anticipation_loop": {
+          "start": -9.75,
+          "duration": 1.33333333333333
+        },
+        "anticipation_end": {
+          "start": -8.41666666666667,
+          "duration": 0.33333333333334
+        },
+        "win": {
+          "start": -8.08333333333333,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -7.08333333333333,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -5.08333333333333,
+          "duration": 1.04166666666666
+        },
+        "wild_appear": {
+          "start": -4.04166666666667,
+          "duration": 0.5
+        },
+        "wild_idle": {
+          "start": -3.54166666666667,
+          "duration": 1
+        },
+        "wild_move_right": {
+          "start": -2.54166666666667,
+          "duration": 1
+        },
+        "wild_win": {
+          "start": -1.54166666666667,
+          "duration": 1.54166666666667
+        },
+        "play": {
+          "start": 0,
+          "duration": 0.54166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.54166666666667
+        }
+      },
+      "layers": [
+        "wild_idle_static_[001-021].png",
+        "screen_outro_[00327-00339].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

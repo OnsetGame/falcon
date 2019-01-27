@@ -1,0 +1,104 @@
+{
+  "name": "candy_candies_top",
+  "children": [
+    {
+      "name": "can1.png$9",
+      "translation": [
+        144.5,
+        1159,
+        0
+      ],
+      "anchor": [
+        112.5,
+        135,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/can1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "can1.png",
+      "translation": [
+        592.5,
+        936,
+        0
+      ],
+      "anchor": [
+        112.5,
+        135,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/can1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "can1.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "can1.png$9.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "can1.png",
+        "can1.png$9"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "candy_old_dev.aep",
+  "version": 1
+}

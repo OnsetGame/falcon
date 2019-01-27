@@ -1,0 +1,62 @@
+{
+  "name": "sodared_idle",
+  "children": [
+    {
+      "name": "sodared",
+      "translation": [
+        0,
+        274,
+        0
+      ],
+      "anchor": [
+        0,
+        274,
+        0
+      ],
+      "compositionRef": "sodared.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "sodared.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "sodared"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "soda_dev.aep",
+  "version": 1
+}

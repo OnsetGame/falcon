@@ -1,0 +1,163 @@
+{
+  "name": "lines_shadow",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "name": "lines",
+          "translation": [
+            -954,
+            -526,
+            0
+          ],
+          "alpha": 0.4,
+          "compositionRef": "lines",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 0,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 0,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 0,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 0,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        },
+        "lines.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        }
+      },
+      "markers": {
+        "start": {
+          "start": 0,
+          "duration": 0.66666666666667
+        },
+        "move": {
+          "start": 0.66666666666667,
+          "duration": 2.33333333333333
+        },
+        "end": {
+          "start": 3,
+          "duration": 0.66666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5
+        }
+      },
+      "layers": [
+        "parent",
+        "lines"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

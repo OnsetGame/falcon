@@ -1,0 +1,488 @@
+{
+  "name": "boom",
+  "children": [
+    {
+      "name": "shock.png$2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shock.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shock.png",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.766,
+        0.642
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shock.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "shock.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.676,
+              0.676,
+              1
+            ],
+            [
+              1.436,
+              1.436,
+              1
+            ],
+            [
+              2.222,
+              2.222,
+              1
+            ],
+            [
+              3.012,
+              3.012,
+              1
+            ],
+            [
+              3.795,
+              3.795,
+              1
+            ],
+            [
+              4.562,
+              4.562,
+              1
+            ],
+            [
+              5.307,
+              5.307,
+              1
+            ],
+            [
+              6.024,
+              6.024,
+              1
+            ],
+            [
+              6.707,
+              6.707,
+              1
+            ],
+            [
+              7.351,
+              7.351,
+              1
+            ],
+            [
+              7.949,
+              7.949,
+              1
+            ],
+            [
+              8.494,
+              8.494,
+              1
+            ],
+            [
+              8.977,
+              8.977,
+              1
+            ],
+            [
+              9.386,
+              9.386,
+              1
+            ],
+            [
+              9.707,
+              9.707,
+              1
+            ],
+            [
+              9.92,
+              9.92,
+              1
+            ],
+            [
+              10,
+              9.999,
+              1
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "shock.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.766,
+              0.642
+            ],
+            [
+              0,
+              0,
+              -0.799,
+              0.601
+            ],
+            [
+              0,
+              0,
+              -0.833,
+              0.552
+            ],
+            [
+              0,
+              0,
+              -0.866,
+              0.499
+            ],
+            [
+              0,
+              0,
+              -0.895,
+              0.445
+            ],
+            [
+              0,
+              0,
+              -0.921,
+              0.389
+            ],
+            [
+              0,
+              0,
+              -0.942,
+              0.333
+            ],
+            [
+              0,
+              0,
+              -0.96,
+              0.277
+            ],
+            [
+              0,
+              0,
+              -0.974,
+              0.223
+            ],
+            [
+              0,
+              0,
+              -0.985,
+              0.17
+            ],
+            [
+              0,
+              0,
+              -0.992,
+              0.12
+            ],
+            [
+              0,
+              0,
+              -0.997,
+              0.073
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              0.03
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              -0.006
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              -0.039
+            ],
+            [
+              0,
+              0,
+              -0.997,
+              -0.064
+            ],
+            [
+              0,
+              0,
+              -0.996,
+              -0.08
+            ],
+            [
+              0,
+              0,
+              -0.996,
+              -0.087
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "shock.png.alpha": {
+          "values": [
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 11,
+          "frameLerp": true
+        },
+        "shock.png$2.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.635,
+              0.635,
+              1
+            ],
+            [
+              1.349,
+              1.349,
+              1
+            ],
+            [
+              2.09,
+              2.09,
+              1
+            ],
+            [
+              2.837,
+              2.837,
+              1
+            ],
+            [
+              3.579,
+              3.579,
+              1
+            ],
+            [
+              4.309,
+              4.309,
+              1
+            ],
+            [
+              5.021,
+              5.021,
+              1
+            ],
+            [
+              5.709,
+              5.709,
+              1
+            ],
+            [
+              6.37,
+              6.37,
+              1
+            ],
+            [
+              6.999,
+              6.999,
+              1
+            ],
+            [
+              7.59,
+              7.59,
+              1
+            ],
+            [
+              8.137,
+              8.137,
+              1
+            ],
+            [
+              8.635,
+              8.635,
+              1
+            ],
+            [
+              9.074,
+              9.074,
+              1
+            ],
+            [
+              9.446,
+              9.446,
+              1
+            ],
+            [
+              9.736,
+              9.736,
+              1
+            ],
+            [
+              9.929,
+              9.929,
+              1
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "shock.png$2.alpha": {
+          "values": [
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 11,
+          "frameLerp": true
+        },
+        "shock.png.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 18,
+          "cutf": 17
+        },
+        "shock.png$2.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 18,
+          "cutf": 17
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -5.25,
+          "duration": 2.66666666666667
+        },
+        "idle": {
+          "start": -2.58333333333333,
+          "duration": 1
+        },
+        "choose": {
+          "start": -1.58333333333333,
+          "duration": 2.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.75
+        }
+      },
+      "layers": [
+        "shock.png",
+        "shock.png$2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "2 August 2018 13:44",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

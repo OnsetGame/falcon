@@ -1,0 +1,699 @@
+{
+  "name": "narrative_buble",
+  "children": [
+    {
+      "name": "anchor",
+      "translation": [
+        960,
+        310,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.037,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "tutorial_holder_01",
+          "translation": [
+            4.75,
+            2,
+            0
+          ],
+          "anchor": [
+            742.749,
+            297,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/tutorial_placeholder",
+              "size": [
+                1481,
+                342
+              ]
+            }
+          ]
+        },
+        {
+          "name": "speaker_title",
+          "translation": [
+            -297.999,
+            -45.999,
+            0
+          ],
+          "anchor": [
+            168,
+            24,
+            0
+          ],
+          "compositionRef": "speaker_title",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "text",
+          "translation": [
+            -13.999,
+            -158.499,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "To start playing press the “Spin” button",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                0.20392000675201,
+                0.20392000675201,
+                0.20392000675201
+              ],
+              "justification": "haCenter",
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "skip_button",
+          "translation": [
+            580.499,
+            -87.499,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            62.5,
+            15.5,
+            0
+          ],
+          "compositionRef": "skip_button",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "ButtonComponent",
+              "bounds": [
+                0,
+                0,
+                120,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "anchor.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.107,
+              0.107,
+              1
+            ],
+            [
+              0.465,
+              0.465,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.192,
+              1.192,
+              1
+            ],
+            [
+              1.17,
+              1.17,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.094,
+              1.094,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.005,
+              1.005,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.067,
+              1.067,
+              1
+            ],
+            [
+              1.105,
+              1.105,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              0.812,
+              0.812,
+              1
+            ],
+            [
+              0.516,
+              0.516,
+              1
+            ],
+            [
+              0.209,
+              0.209,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "anchor.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.037,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.017,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.02,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "skip_button.scale": {
+          "values": [
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.997,
+              0.997,
+              1
+            ],
+            [
+              0.978,
+              0.978,
+              1
+            ],
+            [
+              0.949,
+              0.949,
+              1
+            ],
+            [
+              0.921,
+              0.921,
+              1
+            ],
+            [
+              0.902,
+              0.902,
+              1
+            ],
+            [
+              0.902,
+              0.902,
+              1
+            ],
+            [
+              0.921,
+              0.921,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.978,
+              0.978,
+              1
+            ],
+            [
+              0.997,
+              0.997,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "skip_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "speaker_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "tutorial_holder_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "anchor.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "idle": {
+          "start": 0.5,
+          "duration": 1
+        },
+        "hide": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "skip_button",
+        "text",
+        "speaker_title",
+        "tutorial_holder_01",
+        "anchor"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "tut_res.aep",
+  "version": 1
+}

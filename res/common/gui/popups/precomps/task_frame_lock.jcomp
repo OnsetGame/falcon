@@ -1,0 +1,352 @@
+{
+  "name": "task_frame_lock",
+  "children": [
+    {
+      "name": "color_cards",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "color_cards",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lock_cards",
+      "translation": [
+        217,
+        365,
+        0
+      ],
+      "anchor": [
+        211,
+        334,
+        0
+      ],
+      "compositionRef": "lock_cards",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "slot_icons",
+      "translation": [
+        216,
+        162,
+        0
+      ],
+      "anchor": [
+        184.5,
+        150,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.33074200153351,
+            0.33074200153351,
+            0.33074200153351
+          ],
+          "size": [
+            369,
+            300
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "holder_orange.png",
+      "translation": [
+        216,
+        346,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        1
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "alpha": 0.5,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shape_layer",
+      "translation": [
+        216.25,
+        452.25,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            332,
+            94
+          ],
+          "radius": 24,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.08235294117647,
+            0.39607843137255,
+            0.75294117647059,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lock_comp",
+      "translation": [
+        216.5,
+        376,
+        0
+      ],
+      "anchor": [
+        52,
+        52,
+        0
+      ],
+      "compositionRef": "../../ui2_0/lock_comp",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "tw_not_available_desc",
+      "translation": [
+        216.93,
+        434.163,
+        0
+      ],
+      "anchor": [
+        1.122,
+        -11.319,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Build Stadium\nto unlock",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -147.999984741211,
+            -28.39990234375,
+            290,
+            76
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tw_not_available_desc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "lock_comp.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 59
+        },
+        "shape_layer.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "holder_orange.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "slot_icons.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "lock_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "color_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "tw_not_available_desc",
+        "lock_comp",
+        "shape_layer",
+        "holder_orange.png",
+        "slot_icons",
+        "lock_cards",
+        "color_cards"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

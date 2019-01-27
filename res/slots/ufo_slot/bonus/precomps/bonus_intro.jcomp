@@ -1,0 +1,1074 @@
+{
+  "name": "bonus_intro",
+  "children": [
+    {
+      "name": "black_solid",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "scale": [
+        1.312,
+        1.224,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "alpha": 0.35,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "ray_milk_[00000-00023].png",
+      "translation": [
+        1366,
+        882,
+        0
+      ],
+      "scale": [
+        2,
+        4.5,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.707,
+        0.707
+      ],
+      "anchor": [
+        75,
+        90,
+        0
+      ],
+      "alpha": 0.85,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/ray_milk/ray_milk_00000.png",
+            "../sources/ray_milk/ray_milk_00001.png",
+            "../sources/ray_milk/ray_milk_00002.png",
+            "../sources/ray_milk/ray_milk_00003.png",
+            "../sources/ray_milk/ray_milk_00004.png",
+            "../sources/ray_milk/ray_milk_00005.png",
+            "../sources/ray_milk/ray_milk_00006.png",
+            "../sources/ray_milk/ray_milk_00007.png",
+            "../sources/ray_milk/ray_milk_00008.png",
+            "../sources/ray_milk/ray_milk_00009.png",
+            "../sources/ray_milk/ray_milk_00010.png",
+            "../sources/ray_milk/ray_milk_00011.png",
+            "../sources/ray_milk/ray_milk_00012.png",
+            "../sources/ray_milk/ray_milk_00013.png",
+            "../sources/ray_milk/ray_milk_00014.png",
+            "../sources/ray_milk/ray_milk_00015.png",
+            "../sources/ray_milk/ray_milk_00016.png",
+            "../sources/ray_milk/ray_milk_00017.png",
+            "../sources/ray_milk/ray_milk_00018.png",
+            "../sources/ray_milk/ray_milk_00019.png",
+            "../sources/ray_milk/ray_milk_00020.png",
+            "../sources/ray_milk/ray_milk_00021.png",
+            "../sources/ray_milk/ray_milk_00022.png",
+            "../sources/ray_milk/ray_milk_00023.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "play_button.png",
+      "translation": [
+        1300,
+        880,
+        0
+      ],
+      "anchor": [
+        70,
+        70,
+        0
+      ],
+      "children": [
+        {
+          "name": "play_glow.png",
+          "translation": [
+            70,
+            70,
+            0
+          ],
+          "scale": [
+            4,
+            4,
+            1
+          ],
+          "anchor": [
+            31.5,
+            31,
+            0
+          ],
+          "alpha": 0.5,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 3.2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../sources/play_glow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/play_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ufo_bonus_description",
+      "translation": [
+        1274.608,
+        572,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Create a random\npipeline to pump\nmilk to the right\nside.",
+          "font": "Exo2-Black",
+          "fontSize": 54,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -231.59486791864,
+            -37.9080049991608,
+            464,
+            258
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0.52549022436142,
+            0.79607844352722,
+            1
+          ],
+          "shadowOff": [
+            0,
+            0
+          ],
+          "shadowRadius": 12,
+          "shadowSpread": 0.65,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ufo_bonus_game",
+      "translation": [
+        1121.747,
+        480,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "GAME\n",
+          "font": "Tokyo2097",
+          "fontSize": 125,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0.52549022436142,
+            0.79607844352722,
+            1
+          ],
+          "shadowOff": [
+            0,
+            0
+          ],
+          "shadowRadius": 12,
+          "shadowSpread": 0.65,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ufo_bonus_bonus",
+      "translation": [
+        1088.643,
+        370,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "BONUS",
+          "font": "Tokyo2097",
+          "fontSize": 125,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0.52549022436142,
+            0.79607844352722,
+            1
+          ],
+          "shadowOff": [
+            0,
+            0
+          ],
+          "shadowRadius": 12,
+          "shadowSpread": 0.5,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ufo_bonus_bonus.alpha": {
+          "values": [
+            1,
+            0.944,
+            0.813,
+            0.636,
+            0.43,
+            0.209,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 60
+        },
+        "ufo_bonus_game.alpha": {
+          "values": [
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 61
+        },
+        "ufo_bonus_description.alpha": {
+          "values": [
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 63
+        },
+        "play_button.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.034,
+              1.034,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.061,
+              1.061,
+              1
+            ],
+            [
+              1.075,
+              1.075,
+              1
+            ],
+            [
+              1.088,
+              1.088,
+              1
+            ],
+            [
+              1.102,
+              1.102,
+              1
+            ],
+            [
+              1.115,
+              1.115,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.143,
+              1.143,
+              1
+            ],
+            [
+              1.148,
+              1.148,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.147,
+              1.147,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              1.132,
+              1.132,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.106,
+              1.106,
+              1
+            ],
+            [
+              1.09,
+              1.09,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.059,
+              1.059,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.029,
+              1.029,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.034,
+              1.034,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.061,
+              1.061,
+              1
+            ],
+            [
+              1.075,
+              1.075,
+              1
+            ],
+            [
+              1.088,
+              1.088,
+              1
+            ],
+            [
+              1.102,
+              1.102,
+              1
+            ],
+            [
+              1.115,
+              1.115,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.143,
+              1.143,
+              1
+            ],
+            [
+              1.148,
+              1.148,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.147,
+              1.147,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              1.132,
+              1.132,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.106,
+              1.106,
+              1
+            ],
+            [
+              1.09,
+              1.09,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.059,
+              1.059,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.029,
+              1.029,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.984,
+              0.984,
+              1
+            ],
+            [
+              0.968,
+              0.968,
+              1
+            ],
+            [
+              0.949,
+              0.949,
+              1
+            ],
+            [
+              0.927,
+              0.927,
+              1
+            ],
+            [
+              0.903,
+              0.903,
+              1
+            ],
+            [
+              0.877,
+              0.877,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.824,
+              0.824,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ]
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 0
+        },
+        "play_button.png.alpha": {
+          "values": [
+            1,
+            0.978,
+            0.923,
+            0.844,
+            0.747,
+            0.637,
+            0.516,
+            0.387,
+            0.253,
+            0.12,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 60
+        },
+        "play_glow.png.alpha": {
+          "values": [
+            0.5,
+            0.513,
+            0.551,
+            0.608,
+            0.676,
+            0.75,
+            0.823,
+            0.891,
+            0.948,
+            0.986,
+            1,
+            0.986,
+            0.948,
+            0.891,
+            0.823,
+            0.749,
+            0.676,
+            0.608,
+            0.551,
+            0.513,
+            0.5,
+            0.513,
+            0.551,
+            0.608,
+            0.676,
+            0.75,
+            0.823,
+            0.891,
+            0.948,
+            0.986,
+            1,
+            0.986,
+            0.948,
+            0.891,
+            0.823,
+            0.749,
+            0.676,
+            0.608,
+            0.551,
+            0.513,
+            0.5,
+            0.513,
+            0.551,
+            0.608,
+            0.676,
+            0.75,
+            0.823,
+            0.891,
+            0.948,
+            0.986,
+            1,
+            0.986,
+            0.948,
+            0.891,
+            0.823,
+            0.749,
+            0.676,
+            0.608,
+            0.551,
+            0.513,
+            0.5,
+            0.489,
+            0.461,
+            0.422,
+            0.373,
+            0.318,
+            0.258,
+            0.193,
+            0.126,
+            0.06,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 0
+        },
+        "ray_milk_[00000-00023].png.alpha": {
+          "values": [
+            0.85,
+            0.787,
+            0.663,
+            0.55,
+            0.576,
+            0.716,
+            0.8,
+            0.753,
+            0.642,
+            0.491,
+            0.318,
+            0.143,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 60
+        },
+        "black_solid.alpha": {
+          "values": [
+            0.35,
+            0.345,
+            0.335,
+            0.319,
+            0.299,
+            0.276,
+            0.251,
+            0.222,
+            0.193,
+            0.161,
+            0.128,
+            0.095,
+            0.062,
+            0.029,
+            0
+          ],
+          "duration": 3.25,
+          "len": 98,
+          "cutf": 60
+        },
+        "ufo_bonus_bonus.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 96
+        },
+        "ufo_bonus_game.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 96
+        },
+        "ufo_bonus_description.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 96
+        },
+        "play_glow.png.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 96
+        },
+        "play_button.png.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 96
+        },
+        "ray_milk_[00000-00023].png.curFrame": {
+          "duration": 3.25,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            23,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "len": 98,
+          "cutf": 0
+        },
+        "ray_milk_[00000-00023].png.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 97
+        },
+        "black_solid.enabled": {
+          "duration": 3.25,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 98,
+          "cutf": 97
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 2
+        },
+        "play": {
+          "start": 2,
+          "duration": 1.125
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3.25
+        }
+      },
+      "layers": [
+        "ufo_bonus_bonus",
+        "ufo_bonus_game",
+        "ufo_bonus_description",
+        "play_glow.png",
+        "play_button.png",
+        "ray_milk_[00000-00023].png",
+        "black_solid"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

@@ -1,0 +1,291 @@
+{
+  "name": "map_zone_info_bm_bg",
+  "children": [
+    {
+      "name": "circle_component_shadow.png$9",
+      "translation": [
+        265,
+        561,
+        0
+      ],
+      "scale": [
+        7,
+        0.499,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cloud_triangle.png",
+      "translation": [
+        264.875,
+        579,
+        0
+      ],
+      "anchor": [
+        24,
+        28,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/cloud_triangle.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "holder_shape",
+      "translation": [
+        264,
+        295,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            432,
+            528
+          ],
+          "radius": 40,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_cloud_triangle_color.png",
+      "translation": [
+        265,
+        572,
+        0
+      ],
+      "anchor": [
+        27,
+        27,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.87450981140137,
+            0.86274510622025,
+            0.95686274766922,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_cloud_triangle_color.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "holder_shape_gradient",
+      "translation": [
+        264,
+        295,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            0.87450987100601,
+            0.86274516582489,
+            0.95686280727386,
+            1
+          ],
+          "endColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "startPoint": [
+            35.1818181818181,
+            351
+          ],
+          "endPoint": [
+            35.1818181818182,
+            -256
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            415.636363636364,
+            512
+          ],
+          "radius": 31,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        263.125,
+        535,
+        0
+      ],
+      "scale": [
+        6.4,
+        0.8,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "taskshape_holder.png",
+      "translation": [
+        264,
+        295,
+        0
+      ],
+      "anchor": [
+        192,
+        240,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            384,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_color",
+      "translation": [
+        264,
+        295,
+        0
+      ],
+      "scale": [
+        0.96,
+        0.965,
+        1
+      ],
+      "anchor": [
+        192,
+        240,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.49411764740944,
+            0.23446364700794,
+            0.23446364700794,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            384,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lastic.png",
+      "translation": [
+        106.25,
+        84.75,
+        0
+      ],
+      "anchor": [
+        33,
+        29.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/lastic.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_info_dev3.aep",
+  "version": 1
+}

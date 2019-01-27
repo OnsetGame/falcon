@@ -1,0 +1,247 @@
+{
+  "name": "reels_anchor",
+  "translation": [
+    382.0,
+    262.0,
+    0.0
+  ],
+  "scale": [
+    0.949999988079071,
+    0.949999988079071,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "children": [
+    {
+      "name": "anticipators",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "pathToComp": "slots/groovy_slot/comps/editor_anticipator",
+          "mRows": 3,
+          "mCols": 5,
+          "mStepX": 242.0,
+          "mStepY": 242.0,
+          "_c": "AnticipatorComponent"
+        }
+      ]
+    },
+    {
+      "name": "anticipation_arrows",
+      "translation": [
+        125.5,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "pathToComp": "slots/groovy_slot/comps/editor_anticipation_arrows",
+          "mRows": 1,
+          "mCols": 5,
+          "mStepX": 242.0,
+          "mStepY": 0.0,
+          "_c": "AnticipatorComponent"
+        }
+      ]
+    },
+    {
+      "name": "reelset",
+      "translation": [
+        122.0,
+        122.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "cols": 5,
+          "rows": 3,
+          "rowsOffset": 2,
+          "stepX": 242.0,
+          "stepY": 242.0,
+          "shiftSpeed": 3000.0,
+          "startTimings": [
+            0.0,
+            0.1000000014901161,
+            0.2000000029802322,
+            0.300000011920929,
+            0.4000000059604645
+          ],
+          "stopTimings": [
+            1.0,
+            1.200000047683716,
+            1.399999976158142,
+            1.600000023841858,
+            1.799999952316284
+          ],
+          "pathToCellComp": "slots/groovy_slot/comps/cell",
+          "textureOffset": [
+            -128.0,
+            -256.0,
+            0.0
+          ],
+          "inDuration": 0.550000011920929,
+          "outDuration": 0.6000000238418579,
+          "inTimingFunction": [
+            0.5299999713897705,
+            -0.1431625932455063,
+            0.4259999990463257,
+            0.2208373993635178
+          ],
+          "outTimingFunction": [
+            0.1299999952316284,
+            1.404000043869019,
+            0.6420000195503235,
+            0.9240000247955322
+          ],
+          "reelPos0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "reelPos1": [
+            245.3099975585938,
+            0.0,
+            0.0
+          ],
+          "reelPos2": [
+            490.1600036621094,
+            0.0,
+            0.0
+          ],
+          "reelPos3": [
+            728.5700073242188,
+            0.0,
+            0.0
+          ],
+          "reelPos4": [
+            970.6599731445312,
+            0.0,
+            0.0
+          ],
+          "reelsAnchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_c": "ReelsetComponent"
+        }
+      ]
+    },
+    {
+      "name": "wilds_anticipators",
+      "translation": [
+        -133.0,
+        -147.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "pathToComp": "slots/groovy_slot/comps/editor_wild_anticipator",
+          "mRows": 1,
+          "mCols": 5,
+          "mStepX": 242.0,
+          "mStepY": 0.0,
+          "_c": "AnticipatorComponent"
+        }
+      ]
+    }
+  ]
+}

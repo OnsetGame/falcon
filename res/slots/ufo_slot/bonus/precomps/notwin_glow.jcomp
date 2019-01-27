@@ -1,0 +1,348 @@
+{
+  "name": "notwin_glow",
+  "children": [
+    {
+      "name": "ltp_big_glo.png$3",
+      "translation": [
+        1331,
+        636.5,
+        0
+      ],
+      "scale": [
+        4.05,
+        4.05,
+        1
+      ],
+      "anchor": [
+        118,
+        141,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/ltp_big_glo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_big_glo.png",
+      "translation": [
+        1718,
+        637.5,
+        0
+      ],
+      "scale": [
+        -4.05,
+        4.05,
+        1
+      ],
+      "anchor": [
+        0,
+        141,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/ltp_big_glo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_pre_comp_1_9.png",
+      "translation": [
+        1261,
+        711,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        323,
+        201,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/ltp_pre_comp_1_9.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_pre_comp_1_9.png.alpha": {
+          "values": [
+            0,
+            0.073,
+            0.246,
+            0.464,
+            0.685,
+            0.871,
+            0.986,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.959,
+            0.914,
+            0.865,
+            0.812,
+            0.755,
+            0.694,
+            0.631,
+            0.565,
+            0.498,
+            0.428,
+            0.358,
+            0.288,
+            0.219,
+            0.153,
+            0.092,
+            0.04,
+            0.005,
+            0
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 0
+        },
+        "ltp_big_glo.png.alpha": {
+          "values": [
+            0,
+            0.037,
+            0.133,
+            0.265,
+            0.418,
+            0.576,
+            0.726,
+            0.856,
+            0.954,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.967,
+            0.924,
+            0.876,
+            0.825,
+            0.773,
+            0.723,
+            0.686,
+            0.685,
+            0.715,
+            0.754,
+            0.796,
+            0.838,
+            0.879,
+            0.918,
+            0.953,
+            0.984,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.979,
+            0.928,
+            0.866,
+            0.794,
+            0.712,
+            0.622,
+            0.525,
+            0.424,
+            0.321,
+            0.218,
+            0.121,
+            0.04,
+            0
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 0
+        },
+        "ltp_big_glo.png$3.alpha": {
+          "values": [
+            0,
+            0.037,
+            0.133,
+            0.265,
+            0.418,
+            0.576,
+            0.726,
+            0.856,
+            0.954,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.967,
+            0.924,
+            0.876,
+            0.825,
+            0.773,
+            0.723,
+            0.686,
+            0.685,
+            0.715,
+            0.754,
+            0.796,
+            0.838,
+            0.879,
+            0.918,
+            0.953,
+            0.984,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.979,
+            0.928,
+            0.866,
+            0.794,
+            0.712,
+            0.622,
+            0.525,
+            0.424,
+            0.321,
+            0.218,
+            0.121,
+            0.04,
+            0
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 0
+        },
+        "ltp_pre_comp_1_9.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_big_glo.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_big_glo.png$3.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 9.9666748046875
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "ltp_pre_comp_1_9.png",
+        "ltp_big_glo.png",
+        "ltp_big_glo.png$3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

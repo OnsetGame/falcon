@@ -1,0 +1,62 @@
+{
+  "name": "ratings_1_idle",
+  "children": [
+    {
+      "name": "ratings_1",
+      "translation": [
+        0,
+        1990,
+        0
+      ],
+      "anchor": [
+        0,
+        1990,
+        0
+      ],
+      "compositionRef": "ratings_1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ratings_1.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "ratings_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ratings_old_dev.aep",
+  "version": 1
+}

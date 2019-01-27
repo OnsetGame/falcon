@@ -1,0 +1,52 @@
+{
+  "name": "spins",
+  "children": [
+    {
+      "name": "spin_elem",
+      "translation": [
+        133,
+        47,
+        0
+      ],
+      "anchor": [
+        47,
+        49,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/spin_elem.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_SPINS_TEXT_@noloc",
+      "translation": [
+        44,
+        57,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "0",
+          "font": "AlfaSlabOne-Regular",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

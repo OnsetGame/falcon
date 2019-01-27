@@ -1,0 +1,236 @@
+{
+  "name": "out_of_currency",
+  "children": [
+    {
+      "name": "ltp_bg_1.png",
+      "translation": [
+        421,
+        229,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_bg_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1429,
+        257,
+        0
+      ],
+      "compositionRef": "button_close.json"
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        737,
+        181,
+        0
+      ],
+      "compositionRef": "popup_title.json"
+    },
+    {
+      "name": "button_black",
+      "translation": [
+        637,
+        721,
+        0
+      ],
+      "compositionRef": "button_black.json"
+    },
+    {
+      "name": "button_green",
+      "translation": [
+        973,
+        721,
+        0
+      ],
+      "compositionRef": "button_green.json"
+    },
+    {
+      "name": "parts",
+      "translation": [
+        857,
+        345,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_parts_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bucks",
+      "translation": [
+        865,
+        353,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_backs_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "chips",
+      "translation": [
+        869,
+        353,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_chips_2_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "oom_description_1$AUX",
+      "translation": [
+        772.285400390625,
+        633.216003417969,
+        0
+      ],
+      "children": [
+        {
+          "name": "oom_description_1",
+          "translation": [
+            186.510437011719,
+            22.7839965820312,
+            0
+          ],
+          "components": [
+            {
+              "text": "Do you want to exchange?",
+              "font": "Exo2-Regular",
+              "fontSize": 32,
+              "color": [
+                0.99607998132706,
+                0.99607998132706,
+                0.99607998132706
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oom_alert_title$AUX",
+      "translation": [
+        749.45556640625,
+        541.007995605469,
+        0
+      ],
+      "children": [
+        {
+          "name": "oom_alert_title",
+          "translation": [
+            216.044403076172,
+            34.9920043945312,
+            0
+          ],
+          "components": [
+            {
+              "text": "Not enough ",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oom_description_0$AUX",
+      "translation": [
+        812.402526855469,
+        602.055969238281,
+        0
+      ],
+      "children": [
+        {
+          "name": "oom_description_0",
+          "translation": [
+            147.597457885742,
+            22.9440002441406,
+            0
+          ],
+          "components": [
+            {
+              "text": "You run out of ",
+              "font": "Exo2-Regular",
+              "fontSize": 32,
+              "color": [
+                0.99607998132706,
+                0.99607998132706,
+                0.99607998132706
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "aep_name": "gui0109.aep",
+  "version": 1
+}

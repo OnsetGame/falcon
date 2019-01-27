@@ -1,0 +1,118 @@
+{
+  "name": "fg_prtcl",
+  "translation": [
+    1000.0,
+    880.0,
+    0
+  ],
+  "scale": [
+    6.0,
+    6.0,
+    6.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    -1.0,
+    -4.371138828673793e-008
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 0.4000000059604645,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 30.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 2.0,
+      "lifetime": 15.0,
+      "startVelocity": 20.0,
+      "randVelocityFrom": 0.0,
+      "randVelocityTo": 0.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "dstScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randScaleFrom": 3.0,
+      "randScaleTo": 0.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [],
+      "texture": "particle_blue_n.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        50.0,
+        50.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "fg_prtcl",
+      "genShapeNode": "fg_prtcl",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "angle": 20.0,
+      "radius": 300.0,
+      "is2D": true,
+      "_c": "ConePSGenShape"
+    },
+    {
+      "force": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "_c": "PSModifierRandWind"
+    }
+  ]
+}

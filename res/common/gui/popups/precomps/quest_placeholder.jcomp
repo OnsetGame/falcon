@@ -1,0 +1,1109 @@
+{
+  "name": "quest_placeholder",
+  "children": [
+    {
+      "name": "animation_parent",
+      "translation": [
+        749.5,
+        156.5,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "window_back",
+          "translation": [
+            -17.5,
+            2,
+            0
+          ],
+          "anchor": [
+            643.5,
+            127,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/WindowInactive",
+              "size": [
+                1287,
+                254
+              ]
+            }
+          ]
+        },
+        {
+          "name": "window_back_main",
+          "translation": [
+            -17.5,
+            2,
+            0
+          ],
+          "anchor": [
+            643.5,
+            127,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/WindowActive",
+              "size": [
+                1287,
+                254
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ellipse_paper_inactive",
+          "translation": [
+            -604,
+            3,
+            0
+          ],
+          "anchor": [
+            131,
+            129,
+            0
+          ],
+          "children": [
+            {
+              "name": "ellipse_paper_big",
+              "translation": [
+                131,
+                128.5,
+                0
+              ],
+              "anchor": [
+                131,
+                129,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ellipse_paper_big.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            },
+            {
+              "name": "ellipse_paper_small",
+              "translation": [
+                203,
+                129,
+                0
+              ],
+              "anchor": [
+                83,
+                81,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ellipse_paper_small.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ellipse_paper_inactive.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "reward_anchor",
+          "translation": [
+            -15,
+            329.166,
+            0
+          ],
+          "scale": [
+            1,
+            8.333,
+            1
+          ],
+          "children": [
+            {
+              "name": "reward_back",
+              "translation": [
+                -172,
+                -45.44,
+                0
+              ],
+              "scale": [
+                1,
+                0.12,
+                1
+              ],
+              "anchor": [
+                826,
+                238.5,
+                0
+              ],
+              "compositionRef": "reward_quest.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 5.95833333333333,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "reward_icon",
+              "translation": [
+                442,
+                -43.49,
+                0
+              ],
+              "scale": [
+                1,
+                0.12,
+                1
+              ],
+              "anchor": [
+                67,
+                73,
+                0
+              ],
+              "compositionRef": "story_rewards.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.75,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2.75,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "bttn_get_reward",
+              "translation": [
+                442.5,
+                -32.029,
+                0
+              ],
+              "scale": [
+                1,
+                0.12,
+                1
+              ],
+              "anchor": [
+                155,
+                49,
+                0
+              ],
+              "compositionRef": "Yellow_middle_button_tournaments.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 8.541,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 8.54166666666667,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    96
+                  ]
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "complete_anchor",
+          "translation": [
+            -15,
+            39.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "complete_back",
+              "translation": [
+                -172,
+                -91,
+                0
+              ],
+              "anchor": [
+                826,
+                238.5,
+                0
+              ],
+              "compositionRef": "reward_quest.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 5.95833333333333,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "bttn_complete",
+              "translation": [
+                444,
+                23.5,
+                0
+              ],
+              "anchor": [
+                156,
+                50,
+                0
+              ],
+              "compositionRef": "button_green.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 3.033,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 3.03333333333333,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    96
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "complete_sign",
+              "translation": [
+                456,
+                -85,
+                0
+              ],
+              "scale": [
+                0.574,
+                0.574,
+                1
+              ],
+              "anchor": [
+                147,
+                147,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/green_sign.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "timer_holder",
+          "translation": [
+            -187,
+            -49.5,
+            0
+          ],
+          "anchor": [
+            826,
+            238.5,
+            0
+          ],
+          "compositionRef": "quest_timer.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5.95833333333333,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "bttn_green",
+          "translation": [
+            427.208,
+            44.488,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            150,
+            48,
+            0
+          ],
+          "compositionRef": "green_button_bicolor_quest.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8.541,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 8.54166666666667,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "ButtonComponent",
+              "bounds": [
+                0,
+                0,
+                300,
+                96
+              ]
+            }
+          ]
+        },
+        {
+          "name": "txt_speed_up",
+          "translation": [
+            427.599,
+            7.799,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "children": [
+            {
+              "name": "bttn_orange",
+              "translation": [
+                0.008,
+                18.441,
+                0
+              ],
+              "scale": [
+                0.333,
+                0.333,
+                1
+              ],
+              "anchor": [
+                150,
+                48,
+                0
+              ],
+              "compositionRef": "orange_button_bicolor_quest.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 8.541,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 8.54166666666667,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    96
+                  ]
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Speed up!",
+              "font": "Exo2-Black",
+              "fontSize": 10.6666698455811,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_description",
+          "translation": [
+            -436.5,
+            32,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Chief, you need to solve routine problems for the construction of the city lacks funds. ",
+              "font": "Exo2-Black",
+              "fontSize": 8,
+              "color": [
+                0.85489004850388,
+                0.80783003568649,
+                0.7686200141906701
+              ],
+              "bounds": [
+                0.20800000429153,
+                -0.23202466964722,
+                224,
+                29.6666393280029
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_title",
+          "translation": [
+            -437,
+            -57.799,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Build Salem Forest Slot",
+              "font": "Exo2-Black",
+              "fontSize": 16,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                0.83200001716614,
+                -0.46404933929443,
+                224,
+                27.2666206359863
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "main_back",
+          "translation": [
+            -386,
+            -103,
+            0
+          ],
+          "anchor": [
+            105,
+            35,
+            0
+          ],
+          "children": [
+            {
+              "name": "txt_main_@noloc",
+              "translation": [
+                69.625,
+                38.75,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.958,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "MAIN",
+                  "font": "Exo2-Black",
+                  "fontSize": 24,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "justification": "haLeft",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text",
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ]
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/small_paper.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "animation_parent.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.08400000000000001,
+              1
+            ],
+            [
+              1,
+              0.214,
+              1
+            ],
+            [
+              1.005,
+              0.266,
+              1
+            ],
+            [
+              1.043,
+              0.447,
+              1
+            ],
+            [
+              1.1,
+              0.72,
+              1
+            ],
+            [
+              1.156,
+              0.992,
+              1
+            ],
+            [
+              1.194,
+              1.173,
+              1
+            ],
+            [
+              1.194,
+              1.194,
+              1
+            ],
+            [
+              1.156,
+              1.156,
+              1
+            ],
+            [
+              1.099,
+              1.099,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.005,
+              1.005,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 5.95833333333333,
+          "len": 179,
+          "cutf": 0
+        },
+        "txt_main_@noloc.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "main_back.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "text_title.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "text_description.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "bttn_orange.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "txt_speed_up.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "bttn_green.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "timer_holder.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "complete_sign.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "bttn_complete.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 91
+        },
+        "complete_back.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "complete_anchor.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "bttn_get_reward.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "reward_icon.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 82
+        },
+        "reward_back.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "reward_anchor.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "ellipse_paper_small.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "ellipse_paper_big.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "ellipse_paper_inactive.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "window_back_main.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "window_back.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "animation_parent.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "idle": {
+          "start": 0.5,
+          "duration": 5.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.95833333333333
+        }
+      },
+      "layers": [
+        "txt_main_@noloc",
+        "main_back",
+        "text_title",
+        "text_description",
+        "bttn_orange",
+        "txt_speed_up",
+        "bttn_green",
+        "timer_holder",
+        "complete_sign",
+        "bttn_complete",
+        "complete_back",
+        "complete_anchor",
+        "bttn_get_reward",
+        "reward_icon",
+        "reward_back",
+        "reward_anchor",
+        "ellipse_paper_small",
+        "ellipse_paper_big",
+        "ellipse_paper_inactive",
+        "window_back_main",
+        "window_back",
+        "animation_parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

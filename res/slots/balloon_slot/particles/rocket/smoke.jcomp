@@ -1,0 +1,298 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "smoke_flame",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "smoke",
+      "components": [
+        {
+          "dstScale": [
+            30.0,
+            30.0,
+            30.0
+          ],
+          "randScaleTo": 20.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": true,
+          "randScaleFrom": 0.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": 0.0,
+          "startScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "genShapeNode": "smoke",
+          "gravity": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            2.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            90.0
+          ],
+          "startVelocity": 3.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -90.0
+          ],
+          "birthRate": 160.0,
+          "texture": "pyrosmoke_00.png",
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              2.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 2.5,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "framesCount": 1,
+          "randVelocityTo": 2.0,
+          "scaleMode": 0,
+          "animColumns": 1,
+          "fps": 0.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 0.0,
+          "isRandDir": false,
+          "isRandPos": false,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "flame",
+      "components": [
+        {
+          "quadsToDraw": 150,
+          "bStretch": false,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "imagePercent": 1.0,
+          "matcapPercent": 1.0,
+          "widthOffset": 50.0,
+          "bDepth": true,
+          "heightOffset": 8.0,
+          "angleThreshold": 0.0,
+          "isWireframe": false,
+          "directRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_c": "Trail"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        -4.371138828673793e-08
+      ],
+      "name": "sparcles",
+      "components": [
+        {
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleTo": 0.5,
+          "scaleSeq": [],
+          "lifetime": 1.0,
+          "isPlayed": true,
+          "randScaleFrom": 0.0,
+          "modifierNode": "",
+          "isBlendAdd": true,
+          "duration": 4.0,
+          "randVelocityFrom": 0.0,
+          "startScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "genShapeNode": "sparcles",
+          "gravity": [
+            0.0,
+            -9.800000190734863,
+            0.0
+          ],
+          "startColor": [
+            0.9100000262260437,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startVelocity": 20.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 20.0,
+          "texture": "explosion_sheet.png",
+          "colorSeq": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            38.0,
+            40.0
+          ],
+          "framesCount": 8,
+          "randVelocityTo": 2.0,
+          "scaleMode": 0,
+          "animColumns": 2,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 2.0,
+          "angle": 20.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layer": 0,
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "version": 1
+}

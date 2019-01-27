@@ -1,0 +1,155 @@
+{
+  "name": "4color_holder",
+  "children": [
+    {
+      "name": "shape_shadow_offer.png",
+      "translation": [
+        793.125,
+        727.75,
+        0
+      ],
+      "scale": [
+        1.309,
+        1.309,
+        1
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/shape_shadow_offer.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "4color_holder_b.png",
+      "translation": [
+        955.125,
+        696,
+        0
+      ],
+      "anchor": [
+        164,
+        36,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.87058824300766,
+            0.93333333730698,
+            0.2392156869173,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            328,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4color_comp",
+      "translation": [
+        963.625,
+        696,
+        0
+      ],
+      "anchor": [
+        164,
+        36,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            328,
+            72
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "4color_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "4color_holder_b.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "shape_shadow_offer.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "4color_comp",
+        "4color_holder_b.png",
+        "shape_shadow_offer.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

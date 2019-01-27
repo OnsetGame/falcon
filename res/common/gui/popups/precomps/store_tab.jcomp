@@ -1,0 +1,200 @@
+{
+  "name": "store_tab",
+  "children": [
+    {
+      "name": "small_tab_inactive.png",
+      "translation": [
+        223,
+        62,
+        0
+      ],
+      "anchor": [
+        222,
+        54,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabInactive",
+          "size": [
+            444,
+            108
+          ]
+        }
+      ]
+    },
+    {
+      "name": "small_tab_active.png",
+      "translation": [
+        223,
+        62,
+        0
+      ],
+      "anchor": [
+        222,
+        54,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            444,
+            108
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title_unactive",
+      "translation": [
+        178.026,
+        36.606,
+        0
+      ],
+      "anchor": [
+        -51.08,
+        -38.393,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 13.266,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "title",
+          "font": "Exo2-Bold",
+          "fontSize": 54,
+          "color": [
+            0.60000002384186,
+            0.44705998897552,
+            0.29020002484322
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "title_active",
+      "translation": [
+        178.026,
+        36.606,
+        0
+      ],
+      "anchor": [
+        -51.08,
+        -38.393,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 13.266,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "title",
+          "font": "Exo2-Bold",
+          "fontSize": 54,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title_active.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "title_unactive.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "small_tab_active.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 119
+        },
+        "small_tab_inactive.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 12
+        }
+      },
+      "layers": [
+        "title_active",
+        "title_unactive",
+        "small_tab_active.png",
+        "small_tab_inactive.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

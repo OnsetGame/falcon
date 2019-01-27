@@ -1,0 +1,127 @@
+{
+  "name": "sun_spin_end",
+  "children": [
+    {
+      "name": "element_sun_sign.png",
+      "translation": [
+        141.5,
+        141.5,
+        0
+      ],
+      "anchor": [
+        141.5,
+        141.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.087,
+        -0.996
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/element_sun_sign.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "element_sun_sign.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.087,
+              -0.996
+            ],
+            [
+              0,
+              0,
+              0.022,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0.076,
+              -0.997
+            ],
+            [
+              0,
+              0,
+              0.089,
+              -0.996
+            ],
+            [
+              0,
+              0,
+              0.07,
+              -0.997
+            ],
+            [
+              0,
+              0,
+              0.032,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "duration": 0.29166666666667,
+          "len": 7,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "element_sun_sign.png.enabled": {
+          "duration": 0.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 7,
+          "cutf": 6
+        }
+      },
+      "markers": {
+        "spin_end": {
+          "start": 0,
+          "duration": 0.29166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.29166666666667
+        }
+      },
+      "layers": [
+        "element_sun_sign.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018%20copy%20(CC%20(13))%20(converted)%20(converted)_temp.aep",
+  "export_time": "10 July 2018 11:04",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

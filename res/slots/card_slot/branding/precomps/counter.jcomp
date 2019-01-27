@@ -1,0 +1,507 @@
+{
+  "name": "counter",
+  "children": [
+    {
+      "name": "counter_3_@noloc",
+      "translation": [
+        964.255901198655,
+        199.795227098335,
+        0
+      ],
+      "scale": [
+        1,
+        0.7,
+        1
+      ],
+      "anchor": [
+        0.31036376953125,
+        -73.5148315429688,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "endColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "startPoint": [
+            960,
+            0
+          ],
+          "endPoint": [
+            960,
+            400
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "text": "0",
+          "font": "TannenbergFett",
+          "fontSize": 226,
+          "color": [
+            1,
+            0.35687005519867,
+            0.84705007076263
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "counter_2_@noloc",
+      "translation": [
+        960.310485839844,
+        199.688674926758,
+        0
+      ],
+      "scale": [
+        1,
+        0.75,
+        1
+      ],
+      "anchor": [
+        0.31036376953125,
+        -73.5148315429688,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.00392156885937,
+            0.36078432202339,
+            1
+          ],
+          "endColor": [
+            1,
+            0.5137255191803,
+            0.49803924560547,
+            1
+          ],
+          "startPoint": [
+            960,
+            0
+          ],
+          "endPoint": [
+            960,
+            400
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "text": "0",
+          "font": "TannenbergFett",
+          "fontSize": 226,
+          "color": [
+            1,
+            0.35687005519867,
+            0.84705007076263
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "counter_1_@noloc",
+      "translation": [
+        960.310546875,
+        201.743103027344,
+        0
+      ],
+      "scale": [
+        1,
+        0.8,
+        1
+      ],
+      "anchor": [
+        0.31036376953125,
+        -73.5148315429688,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.00392156885937,
+            0.36078432202339,
+            1
+          ],
+          "endColor": [
+            1,
+            0.5137255191803,
+            0.49803924560547,
+            1
+          ],
+          "startPoint": [
+            960,
+            0
+          ],
+          "endPoint": [
+            960,
+            400
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "text": "0",
+          "font": "TannenbergFett",
+          "fontSize": 226,
+          "color": [
+            1,
+            0.35687005519867,
+            0.84705007076263
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "counter_1_@noloc.scale": {
+          "values": [
+            [
+              1,
+              0.8,
+              1
+            ],
+            [
+              1,
+              0.88888588903621,
+              1
+            ],
+            [
+              1,
+              0.98815536719734,
+              1
+            ],
+            [
+              1,
+              1.08887651018635,
+              1
+            ],
+            [
+              1,
+              1.18784167807899,
+              1
+            ],
+            [
+              1,
+              1.28316553109448,
+              1
+            ],
+            [
+              1,
+              1.37335700415487,
+              1
+            ],
+            [
+              1,
+              1.4569705345304,
+              1
+            ],
+            [
+              1,
+              1.53239668593175,
+              1
+            ],
+            [
+              1,
+              1.59766174972714,
+              1
+            ],
+            [
+              1,
+              1.65015504934108,
+              1
+            ],
+            [
+              1,
+              1.68616944689084,
+              1
+            ],
+            [
+              1,
+              1.7,
+              1
+            ]
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "counter_1_@noloc.alpha": {
+          "values": [
+            0,
+            0.50965067035988,
+            0.8,
+            0.72389925553484,
+            0.60223862339107,
+            0.46845106592626,
+            0.33154893407374,
+            0.19776137660893,
+            0.07610074446516,
+            0
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 5,
+          "frameLerp": true
+        },
+        "counter_2_@noloc.scale": {
+          "values": [
+            [
+              1,
+              0.75,
+              1
+            ],
+            [
+              1,
+              0.81347180332949,
+              1
+            ],
+            [
+              1,
+              0.87901828651444,
+              1
+            ],
+            [
+              1,
+              0.93687979636346,
+              1
+            ],
+            [
+              1,
+              0.98080432164144,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "counter_2_@noloc.alpha": {
+          "values": [
+            0,
+            0.25388721331794,
+            0.51607314605775,
+            0.74751918545383,
+            0.92321728656575,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.82322330470479,
+            0.56250000000125,
+            0.28033008589039,
+            0
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "counter_3_@noloc.scale": {
+          "values": [
+            [
+              1,
+              0.7,
+              1
+            ],
+            [
+              1,
+              0.80917150172671,
+              1
+            ],
+            [
+              1,
+              0.92191145280483,
+              1
+            ],
+            [
+              1,
+              1.02143324974515,
+              1
+            ],
+            [
+              1,
+              1.09698343322327,
+              1
+            ],
+            [
+              1,
+              1.13,
+              1
+            ]
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "counter_3_@noloc.alpha": {
+          "values": [
+            0,
+            0.32097390020706,
+            0.63706333794985,
+            0.88629083303016,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.88629083303016,
+            0.63706333794985,
+            0.32097390020705,
+            0
+          ],
+          "duration": 3,
+          "len": 72,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "counter_1_@noloc.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 72,
+          "cutf": 71
+        },
+        "counter_2_@noloc.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 72,
+          "cutf": 71
+        },
+        "counter_3_@noloc.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 72,
+          "cutf": 71
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3
+        }
+      },
+      "layers": [
+        "counter_1_@noloc",
+        "counter_2_@noloc",
+        "counter_3_@noloc"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "25 July 2018 18:17",
+  "rod_export_v": "Tue Jun 26 17:48:47 2018 +0300",
+  "version": 1
+}

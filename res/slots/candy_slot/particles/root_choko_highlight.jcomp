@@ -1,0 +1,267 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "choko_highlight",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "choko",
+      "components": [
+        {
+          "dstScale": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "randScaleTo": 15.0,
+          "scaleSeq": [],
+          "lifetime": 2.0,
+          "isPlayed": true,
+          "randScaleFrom": -15.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "genShapeNode": "choko",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 150.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "birthRate": 30.0,
+          "texture": "drop_brown_2.png",
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            0.699999988079071,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "airDensity": 100.0,
+          "colorMode": 1,
+          "isLooped": true,
+          "texSize": [
+            39.0,
+            39.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 40.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "circle",
+      "components": [
+        {
+          "dstScale": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "randScaleTo": 15.0,
+          "scaleSeq": [],
+          "lifetime": 1.0,
+          "isPlayed": true,
+          "randScaleFrom": -15.0,
+          "modifierNode": "",
+          "isBlendAdd": true,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "genShapeNode": "circle",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.75
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 150.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "birthRate": 60.0,
+          "texture": "white_circle_fx.png",
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.8999999761581421,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "airDensity": 100.0,
+          "colorMode": 1,
+          "isLooped": true,
+          "texSize": [
+            100.0,
+            100.0
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 12.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 40.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layer": 0,
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1000.0,
+    500.0,
+    0.0
+  ],
+  "version": 1
+}

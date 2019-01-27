@@ -1,0 +1,131 @@
+{
+  "name": "multiplyer_stop_1",
+  "children": [
+    {
+      "name": "multiplyer_03_stop_[0001-0002].png",
+      "translation": [
+        155,
+        153,
+        0
+      ],
+      "scale": [
+        1.562,
+        1.562,
+        1
+      ],
+      "anchor": [
+        63,
+        53,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.08333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": true,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/multiplyer_03_stop_0001.png",
+            "../assets/magic_matters_special/multiplyer_03_stop_0002.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "multiplyer_03_stop_[0001-0002].png.scale": {
+          "values": [
+            [
+              1.562,
+              1.562,
+              1
+            ],
+            [
+              1.503,
+              1.503,
+              1
+            ],
+            [
+              1.374,
+              1.374,
+              1
+            ],
+            [
+              1.246,
+              1.246,
+              1
+            ],
+            [
+              1.187,
+              1.187,
+              1
+            ],
+            [
+              1.218,
+              1.218,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ]
+          ],
+          "duration": 0.58333333333333,
+          "len": 14,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "multiplyer_03_stop_[0001-0002].png.curFrame": {
+          "duration": 0.58333333333333,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1
+          ],
+          "len": 14,
+          "cutf": 0
+        },
+        "multiplyer_03_stop_[0001-0002].png.enabled": {
+          "duration": 0.58333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 14,
+          "cutf": 13
+        }
+      },
+      "markers": {
+        "multiplyer_stop": {
+          "start": 0,
+          "duration": 0.58333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.58333333333333
+        }
+      },
+      "layers": [
+        "multiplyer_03_stop_[0001-0002].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018.aep",
+  "export_time": "25 June 2018 10:30",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

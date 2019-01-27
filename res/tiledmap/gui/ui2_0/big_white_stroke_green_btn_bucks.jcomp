@@ -1,0 +1,249 @@
+{
+  "name": "big_white_stroke_green_btn_bucks",
+  "children": [
+    {
+      "name": "big_white_stroke_green_btn_on.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_off.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        168.75,
+        54.259,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        -0.079,
+        -5.52,
+        0
+      ],
+      "children": [
+        {
+          "name": "currency_bucks_placeholder",
+          "translation": [
+            -48.184,
+            -5.161,
+            0
+          ],
+          "scale": [
+            0.333,
+            0.333,
+            1
+          ],
+          "anchor": [
+            50,
+            41,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.51764702796936,
+                0.51764702796936,
+                0.51764702796936
+              ],
+              "size": [
+                100,
+                82
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "500",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.tY": {
+          "values": [
+            54.2599945068359,
+            54.7928401989014,
+            55.7472033277018,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            55.7472033277018,
+            54.7928401989014,
+            54.2599945068359
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "currency_bucks_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "big_white_stroke_green_btn_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "big_white_stroke_green_btn_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.70833333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.91666666666667,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "currency_bucks_placeholder",
+        "title",
+        "big_white_stroke_green_btn_off.png",
+        "big_white_stroke_green_btn_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

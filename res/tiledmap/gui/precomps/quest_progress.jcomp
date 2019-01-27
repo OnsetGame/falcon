@@ -1,0 +1,741 @@
+{
+  "name": "quest_progress",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        9.75,
+        145.25,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.043,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "small_info_time.png",
+          "translation": [
+            0,
+            -1.125,
+            0
+          ],
+          "anchor": [
+            7.75,
+            99.125,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/smallInfo",
+              "size": [
+                326,
+                110
+              ]
+            }
+          ]
+        },
+        {
+          "name": "black_elliplse_taskbar.png",
+          "translation": [
+            314.125,
+            -42.5,
+            0
+          ],
+          "anchor": [
+            61,
+            59,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/black_elliplse_taskbar.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "time",
+          "translation": [
+            157.849,
+            -33.45,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "5h 46m",
+              "font": "Exo2-Black",
+              "fontSize": 13.3333301544189,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 1,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ltp_lightning_medium.png",
+          "translation": [
+            312.389,
+            -51.074,
+            0
+          ],
+          "scale": [
+            0.87,
+            0.87,
+            1
+          ],
+          "anchor": [
+            45,
+            67,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 0.98,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_lightning_medium.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.125,
+              0.125,
+              1
+            ],
+            [
+              0.541,
+              0.541,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.185,
+              1.185,
+              1
+            ],
+            [
+              1.156,
+              1.156,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.067,
+              1.067,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1.037,
+              1.037,
+              1
+            ],
+            [
+              1.077,
+              1.077,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              1.142,
+              1.142,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.742,
+              0.742,
+              1
+            ],
+            [
+              0.439,
+              0.439,
+              1
+            ],
+            [
+              0.138,
+              0.138,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "parent.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.04,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.027,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008999999999999999,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008999999999999999,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_lightning_medium.png.scale": {
+          "values": [
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.248,
+              1.248,
+              1
+            ],
+            [
+              1.376,
+              1.376,
+              1
+            ],
+            [
+              1.407,
+              1.407,
+              1
+            ],
+            [
+              1.362,
+              1.362,
+              1
+            ],
+            [
+              1.174,
+              1.174,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.13,
+              1.13,
+              1
+            ],
+            [
+              1.256,
+              1.256,
+              1
+            ],
+            [
+              1.347,
+              1.347,
+              1
+            ],
+            [
+              1.396,
+              1.396,
+              1
+            ],
+            [
+              1.405,
+              1.405,
+              1
+            ],
+            [
+              1.33,
+              1.33,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_lightning_medium.png.0.inWhite": {
+          "values": [
+            0.98,
+            0.93431675884511,
+            0.79415549447905,
+            0.67740962444782,
+            0.69767215715291,
+            0.83186201325384,
+            0.95834203544953,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.97426190222505,
+            0.86908548997736,
+            0.72520873493629,
+            0.66636277655422,
+            0.75807771811276,
+            0.90388428505066,
+            0.98
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 6
+        },
+        "ltp_lightning_medium.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "time.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "black_elliplse_taskbar.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "small_info_time.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "parent.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.625
+        },
+        "hide": {
+          "start": 0.625,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "ltp_lightning_medium.png",
+        "time",
+        "black_elliplse_taskbar.png",
+        "small_info_time.png",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_6.aep",
+  "version": 1
+}

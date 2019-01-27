@@ -1,0 +1,67 @@
+{
+  "name": "body_01_le_chef",
+  "children": [
+    {
+      "name": "ltp_le_chef_body_01.png",
+      "translation": [
+        155,
+        659,
+        0
+      ],
+      "anchor": [
+        389,
+        429,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.83333333333333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_le_chef_body_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_le_chef_body_01.png.enabled": {
+          "duration": 0.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 20,
+          "cutf": 19
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.83333333333333
+        }
+      },
+      "layers": [
+        "ltp_le_chef_body_01.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "willferris_opt.aep",
+  "export_time": "8 August 2018 17:08",
+  "rod_export_v": "Mon Jul 2 15:49:46 2018 +0300",
+  "version": 1
+}

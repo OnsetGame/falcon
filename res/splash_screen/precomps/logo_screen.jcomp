@@ -1,0 +1,62 @@
+{
+  "name": "logo_screen",
+  "children": [
+    {
+      "name": "ltp_logo.png",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        577,
+        373,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_logo.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_logo.png.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 23,
+          "cutf": 22
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.75
+        }
+      },
+      "layers": [
+        "ltp_logo.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Win%20Line.aep",
+  "version": 1
+}

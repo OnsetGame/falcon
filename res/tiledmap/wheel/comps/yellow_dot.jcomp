@@ -1,0 +1,74 @@
+{
+  "name": "yellow_dot",
+  "children": [
+    {
+      "name": "dot_shadow",
+      "translation": [
+        21.5,
+        28,
+        0
+      ],
+      "anchor": [
+        19,
+        23,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/dot_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp",
+      "translation": [
+        10,
+        12,
+        0
+      ],
+      "anchor": [
+        13,
+        13.25,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/lamp.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "light",
+      "translation": [
+        10.25,
+        12.25,
+        0
+      ],
+      "anchor": [
+        15.5,
+        16,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/compound_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

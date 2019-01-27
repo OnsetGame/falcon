@@ -1,0 +1,828 @@
+{
+  "name": "collect_button",
+  "children": [
+    {
+      "name": "collect_shape",
+      "translation": [
+        236.5,
+        204,
+        0
+      ],
+      "anchor": [
+        236.5,
+        88,
+        0
+      ],
+      "alpha": 0.65,
+      "compositionRef": "collect_shape",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_anim_controller",
+      "translation": [
+        90,
+        211,
+        0
+      ],
+      "children": [
+        {
+          "name": "collect_arrow.png",
+          "anchor": [
+            63,
+            87.5,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/collect_arrow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "income_shape_01",
+      "translation": [
+        327.937,
+        282.031,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            288,
+            36.0625
+          ],
+          "radius": 18.03125,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "income_shape_02",
+      "translation": [
+        328.051,
+        266.353,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.382,
+        0.923
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            12,
+            12
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chips_prog",
+      "translation": [
+        313.75,
+        176,
+        0
+      ],
+      "anchor": [
+        150,
+        17,
+        0
+      ],
+      "compositionRef": "level_progress_bar",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bucks_prog",
+      "translation": [
+        313.75,
+        232,
+        0
+      ],
+      "anchor": [
+        150,
+        17,
+        0
+      ],
+      "compositionRef": "level_progress_bar",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "chips_placeholder",
+      "translation": [
+        183.5,
+        176,
+        0
+      ],
+      "anchor": [
+        29,
+        30.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            58,
+            61
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        184,
+        231.25,
+        0
+      ],
+      "anchor": [
+        37.5,
+        31,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            75,
+            62
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "income_chips",
+      "translation": [
+        231.243,
+        187.783,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "2,250,255",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "income_bucks",
+      "translation": [
+        231.243,
+        244.033,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "2,250,255",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "GUI_COLLECT",
+      "translation": [
+        87.243,
+        300.033,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Collect",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "GUI_CITY_INCOME",
+      "translation": [
+        403.25,
+        291,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "CITY INCOME",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            0.4313699901104,
+            0.4313699901104,
+            0.4313699901104
+          ],
+          "justification": "haRight",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "GUI_COLLECT.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.963,
+              0.963,
+              1
+            ],
+            [
+              0.894,
+              0.894,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.884,
+              0.884,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "GUI_COLLECT.0.inWhite": {
+          "values": [
+            1,
+            0.96021328797267,
+            0.88399822654652,
+            0.83605758812883,
+            0.87321871599089,
+            0.95729844428219,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "button_anim_controller.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_arrow.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.963,
+              0.963,
+              1
+            ],
+            [
+              0.894,
+              0.894,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.884,
+              0.884,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_arrow.png.0.inWhite": {
+          "values": [
+            1,
+            0.96021328797267,
+            0.88399822654652,
+            0.83605758812883,
+            0.87321871599089,
+            0.95729844428219,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "GUI_CITY_INCOME.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_COLLECT.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "income_bucks.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "income_chips.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "bucks_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "chips_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "bucks_prog.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "chips_prog.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "income_shape_02.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "income_shape_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "collect_arrow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_anim_controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "collect_shape.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.125,
+          "duration": 0.29166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "GUI_CITY_INCOME",
+        "GUI_COLLECT",
+        "income_bucks",
+        "income_chips",
+        "bucks_placeholder",
+        "chips_placeholder",
+        "bucks_prog",
+        "chips_prog",
+        "income_shape_02",
+        "income_shape_01",
+        "collect_arrow.png",
+        "button_anim_controller",
+        "collect_shape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_lower_part_dev.aep",
+  "version": 1
+}

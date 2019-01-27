@@ -1,0 +1,144 @@
+{
+  "name": "space_back",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "lines2",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.0,
+        3.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.2000000029802322,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 5.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 2.0,
+          "lifetime": 20.0,
+          "startVelocity": 10.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 1000.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleFrom": 15.0,
+          "randScaleTo": 25.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            35.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "particle3.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            40.0,
+            148.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "",
+          "genShapeNode": "lines2",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "dimension": [
+            90.08000183105469,
+            50.0,
+            100.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        }
+      ]
+    }
+  ]
+}

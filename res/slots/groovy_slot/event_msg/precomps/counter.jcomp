@@ -1,0 +1,96 @@
+{
+  "name": "counter",
+  "children": [
+    {
+      "name": "numbers_0",
+      "translation": [
+        897.25,
+        101,
+        0
+      ],
+      "anchor": [
+        75,
+        90,
+        0
+      ],
+      "compositionRef": "numbers",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 24,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "numbers_1",
+      "translation": [
+        1028.25,
+        101,
+        0
+      ],
+      "anchor": [
+        75,
+        90,
+        0
+      ],
+      "compositionRef": "numbers",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 24,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "numbers_1.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 90,
+          "cutf": 89
+        },
+        "numbers_0.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 90,
+          "cutf": 89
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3
+        }
+      },
+      "layers": [
+        "numbers_1",
+        "numbers_0"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev_branding.aep",
+  "version": 1
+}

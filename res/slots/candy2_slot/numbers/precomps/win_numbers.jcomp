@@ -1,0 +1,176 @@
+{
+  "name": "win_numbers",
+  "children": [
+    {
+      "name": "win_number_5",
+      "translation": [
+        41.394,
+        58.239,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.963,
+        1
+      ],
+      "anchor": [
+        43,
+        60.5,
+        0
+      ],
+      "compositionRef": "win_number",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0.05,
+          "inGamma": 0.98229799826654,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1.51862000589246,
+            1,
+            1.2129937233342
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            -0.04,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "win_number_7",
+      "translation": [
+        110.873,
+        39.22,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.963,
+        1
+      ],
+      "anchor": [
+        43,
+        60.5,
+        0
+      ],
+      "compositionRef": "win_number",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0.05,
+          "inGamma": 0.98229799826654,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1.51862000589246,
+            1,
+            1.2129937233342
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            -0.04,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "win_number_7.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        },
+        "win_number_5.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.03333333333333
+        }
+      },
+      "layers": [
+        "win_number_7",
+        "win_number_5"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Numbers_small_last_candy2_YELLOW.aep",
+  "export_time": "6 July 2018 11:50",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

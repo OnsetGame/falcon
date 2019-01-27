@@ -1,0 +1,267 @@
+{
+  "name": "controller_7",
+  "children": [
+    {
+      "name": "Controller_7",
+      "translation": [
+        668,
+        531,
+        0
+      ],
+      "children": [
+        {
+          "name": "coin_comp",
+          "translation": [
+            173.249,
+            -99.299,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.333,
+            0.942
+          ],
+          "anchor": [
+            447,
+            225,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "coin_comp.json",
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0.041,
+              "outPoint": 1.375,
+              "scale": 1,
+              "startTime": 0.041,
+              "duration": 1.33333333333333,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": -0.625,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Controller_7.translation": {
+          "values": [
+            [
+              668,
+              531,
+              0
+            ],
+            [
+              430.772,
+              583.614,
+              0
+            ],
+            [
+              411,
+              588,
+              0
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_7.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 46
+        },
+        "Controller_7.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.088,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.11,
+              0.993
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_7.anchor": {
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 46
+        },
+        "coin_comp.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_7.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        },
+        "coin_comp.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 1
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.54166666666667
+        }
+      },
+      "layers": [
+        "Controller_7",
+        "coin_comp"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%2088.aep",
+  "version": 1
+}

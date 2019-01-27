@@ -1,0 +1,778 @@
+{
+  "name": "boost_city_table",
+  "children": [
+    {
+      "name": "reward_icons",
+      "translation": [
+        176,
+        210,
+        0
+      ],
+      "anchor": [
+        167.5,
+        171.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.13,
+        0.991
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "boosterIncome"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            335,
+            343
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "blue_star_shape.png",
+      "translation": [
+        299,
+        231,
+        0
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "boost",
+      "translation": [
+        298.599,
+        235.299,
+        0
+      ],
+      "components": [
+        {
+          "text": "x2",
+          "font": "Exo2-Black",
+          "fontSize": 38,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "reward_bottom 3",
+      "translation": [
+        318,
+        399,
+        0
+      ],
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            0.09411765635014,
+            1,
+            1,
+            1
+          ],
+          "endColor": [
+            0.09411765635014,
+            1,
+            1,
+            1
+          ],
+          "startPoint": [
+            -113.5,
+            177
+          ],
+          "endPoint": [
+            318.5,
+            177
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            227,
+            166
+          ],
+          "radius": 25,
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reward_bottom 4",
+      "translation": [
+        317.5,
+        401.25,
+        0
+      ],
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            0.01176470704377,
+            0.66274511814117,
+            0.95686280727386,
+            1
+          ],
+          "endColor": [
+            0.01176470704377,
+            0.66274511814117,
+            0.95686280727386,
+            1
+          ],
+          "startPoint": [
+            -113.5,
+            177.5
+          ],
+          "endPoint": [
+            318.5,
+            177.5
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            227,
+            165
+          ],
+          "radius": 25,
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reward_bottom",
+      "translation": [
+        114,
+        399,
+        0
+      ],
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            0.98431378602982,
+            0.85490202903748,
+            0.55294120311737,
+            1
+          ],
+          "endColor": [
+            1,
+            0.87450987100601,
+            0.56470590829849,
+            1
+          ],
+          "startPoint": [
+            -112.5,
+            177
+          ],
+          "endPoint": [
+            319.5,
+            177
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            225,
+            166
+          ],
+          "radius": 25,
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reward_bottom 2",
+      "translation": [
+        115,
+        401.25,
+        0
+      ],
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.87450987100601,
+            0.56470590829849,
+            1
+          ],
+          "endColor": [
+            0.92549026012421,
+            0.69803923368454,
+            0.47843140363693,
+            1
+          ],
+          "startPoint": [
+            -115,
+            177.5
+          ],
+          "endPoint": [
+            317,
+            177.5
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            230,
+            165
+          ],
+          "radius": 25,
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "table_plashka.png",
+      "translation": [
+        216.5,
+        399.5,
+        0
+      ],
+      "anchor": [
+        17.5,
+        86.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/table_plashka.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_small$12",
+      "translation": [
+        238,
+        449,
+        0
+      ],
+      "anchor": [
+        22,
+        22.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            44,
+            45
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_small$11",
+      "translation": [
+        238,
+        403,
+        0
+      ],
+      "anchor": [
+        22,
+        22.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            44,
+            45
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_small$10",
+      "translation": [
+        30,
+        449,
+        0
+      ],
+      "anchor": [
+        22,
+        22.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            44,
+            45
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_small",
+      "translation": [
+        30,
+        403,
+        0
+      ],
+      "anchor": [
+        22,
+        22.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            44,
+            45
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 1",
+      "translation": [
+        216.25,
+        364,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            432,
+            2
+          ],
+          "radius": 0,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.23529411764706,
+            0.2,
+            0.16078431372549,
+            0.3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "income_bucks",
+      "translation": [
+        65.271,
+        459.248,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        10.223,
+        0.149,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "text": "200",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            0.23529000580311,
+            0.20001000165939,
+            0.16079999506474
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "income_chips",
+      "translation": [
+        122.038,
+        416.44,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        68.063,
+        5.184,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "text": "2,250,00",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            0.23529000580311,
+            0.20001000165939,
+            0.16079999506474
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "boosted_income_bucks",
+      "translation": [
+        275.839,
+        459.248,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        10.079,
+        0.149,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "text": "300",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "boosted_income_chips",
+      "translation": [
+        291.719,
+        412.984,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        26.373,
+        1.727,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "text": "3,500,000",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "boosted_txt",
+      "translation": [
+        323.924,
+        353.847,
+        0
+      ],
+      "scale": [
+        3,
+        2.999,
+        1
+      ],
+      "anchor": [
+        24.66,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "Boosted",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "boosted_txt2",
+      "translation": [
+        273.924,
+        353.847,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        24.66,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "Boosted",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "current_txt",
+      "translation": [
+        53.565,
+        353.847,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        20.207,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "Current",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            0.23529000580311,
+            0.20001000165939,
+            0.16079999506474
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "7 August 2018 13:51",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

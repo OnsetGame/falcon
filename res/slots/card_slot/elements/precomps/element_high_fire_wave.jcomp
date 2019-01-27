@@ -1,0 +1,391 @@
+{
+  "name": "element_high_fire_wave",
+  "children": [
+    {
+      "name": "wave_[001-014].png$4",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        181,
+        201.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.58333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/wave_001.png",
+            "../assets/wave_002.png",
+            "../assets/wave_003.png",
+            "../assets/wave_004.png",
+            "../assets/wave_005.png",
+            "../assets/wave_006.png",
+            "../assets/wave_007.png",
+            "../assets/wave_008.png",
+            "../assets/wave_009.png",
+            "../assets/wave_010.png",
+            "../assets/wave_011.png",
+            "../assets/wave_012.png",
+            "../assets/wave_013.png",
+            "../assets/wave_014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wave_[001-014].png$3",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        181,
+        201.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.58333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/wave_001.png",
+            "../assets/wave_002.png",
+            "../assets/wave_003.png",
+            "../assets/wave_004.png",
+            "../assets/wave_005.png",
+            "../assets/wave_006.png",
+            "../assets/wave_007.png",
+            "../assets/wave_008.png",
+            "../assets/wave_009.png",
+            "../assets/wave_010.png",
+            "../assets/wave_011.png",
+            "../assets/wave_012.png",
+            "../assets/wave_013.png",
+            "../assets/wave_014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wave_[001-014].png$2",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1
+      ],
+      "anchor": [
+        181,
+        201.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": -0.161,
+          "saturation": 1,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0.083,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0.083,
+          "duration": 0.58333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/wave_001.png",
+            "../assets/wave_002.png",
+            "../assets/wave_003.png",
+            "../assets/wave_004.png",
+            "../assets/wave_005.png",
+            "../assets/wave_006.png",
+            "../assets/wave_007.png",
+            "../assets/wave_008.png",
+            "../assets/wave_009.png",
+            "../assets/wave_010.png",
+            "../assets/wave_011.png",
+            "../assets/wave_012.png",
+            "../assets/wave_013.png",
+            "../assets/wave_014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wave_[001-014].png",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "scale": [
+        1.25,
+        1.25,
+        1
+      ],
+      "anchor": [
+        181,
+        201.5,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": -0.161,
+          "saturation": 1,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0.083,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0.083,
+          "duration": 0.58333333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/wave_001.png",
+            "../assets/wave_002.png",
+            "../assets/wave_003.png",
+            "../assets/wave_004.png",
+            "../assets/wave_005.png",
+            "../assets/wave_006.png",
+            "../assets/wave_007.png",
+            "../assets/wave_008.png",
+            "../assets/wave_009.png",
+            "../assets/wave_010.png",
+            "../assets/wave_011.png",
+            "../assets/wave_012.png",
+            "../assets/wave_013.png",
+            "../assets/wave_014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wave_[001-014].png.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "len": 16,
+          "cutf": 2
+        },
+        "wave_[001-014].png.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": true,
+          "len": 16,
+          "cutf": 1
+        },
+        "wave_[001-014].png$2.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "len": 16,
+          "cutf": 2
+        },
+        "wave_[001-014].png$2.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": true,
+          "len": 16,
+          "cutf": 1
+        },
+        "wave_[001-014].png$3.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "len": 16,
+          "cutf": 0
+        },
+        "wave_[001-014].png$3.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 16,
+          "cutf": 13
+        },
+        "wave_[001-014].png$4.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "len": 16,
+          "cutf": 0
+        },
+        "wave_[001-014].png$4.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 16,
+          "cutf": 13
+        }
+      },
+      "markers": {
+        "win": {
+          "start": 0,
+          "duration": 0.66666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.66666666666667
+        }
+      },
+      "layers": [
+        "wave_[001-014].png",
+        "wave_[001-014].png$2",
+        "wave_[001-014].png$3",
+        "wave_[001-014].png$4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018.aep",
+  "export_time": "25 June 2018 10:28",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

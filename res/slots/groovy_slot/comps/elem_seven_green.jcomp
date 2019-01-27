@@ -1,0 +1,335 @@
+{
+  "name": "elem_seven_green",
+  "children": [
+    {
+      "name": "elem_seven_green_jump",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "compositionRef": "elem_seven_green_jump",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "scale_parent",
+      "translation": [
+        245,
+        251,
+        0
+      ],
+      "children": [
+        {
+          "name": "elem_seven_green_win",
+          "translation": [
+            11,
+            5,
+            0
+          ],
+          "anchor": [
+            256,
+            256,
+            0
+          ],
+          "compositionRef": "elem_seven_green_win",
+          "components": [
+            {
+              "inPoint": 1,
+              "outPoint": 2.5,
+              "scale": 1,
+              "startTime": 1,
+              "duration": 1.5,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "scale_parent.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.057,
+              1.057,
+              1
+            ],
+            [
+              1.107,
+              1.107,
+              1
+            ],
+            [
+              1.161,
+              1.161,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.206,
+              1.206,
+              1
+            ],
+            [
+              1.211,
+              1.211,
+              1
+            ],
+            [
+              1.215,
+              1.215,
+              1
+            ],
+            [
+              1.219,
+              1.219,
+              1
+            ],
+            [
+              1.223,
+              1.223,
+              1
+            ],
+            [
+              1.226,
+              1.226,
+              1
+            ],
+            [
+              1.23,
+              1.23,
+              1
+            ],
+            [
+              1.233,
+              1.233,
+              1
+            ],
+            [
+              1.235,
+              1.235,
+              1
+            ],
+            [
+              1.238,
+              1.238,
+              1
+            ],
+            [
+              1.241,
+              1.241,
+              1
+            ],
+            [
+              1.243,
+              1.243,
+              1
+            ],
+            [
+              1.245,
+              1.245,
+              1
+            ],
+            [
+              1.247,
+              1.247,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.251,
+              1.251,
+              1
+            ],
+            [
+              1.253,
+              1.253,
+              1
+            ],
+            [
+              1.254,
+              1.254,
+              1
+            ],
+            [
+              1.256,
+              1.256,
+              1
+            ],
+            [
+              1.257,
+              1.257,
+              1
+            ],
+            [
+              1.258,
+              1.258,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.26,
+              1.26,
+              1
+            ],
+            [
+              1.26,
+              1.26,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.258,
+              1.258,
+              1
+            ],
+            [
+              1.257,
+              1.257,
+              1
+            ],
+            [
+              1.254,
+              1.254,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.022,
+              1.022,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2.5,
+          "len": 75,
+          "cutf": 30
+        },
+        "scale_parent.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 75,
+          "cutf": 74
+        },
+        "elem_seven_green_win.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 75,
+          "cutf": 29
+        },
+        "elem_seven_green_jump.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 75,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "onstop": {
+          "start": 0,
+          "duration": 1
+        },
+        "win": {
+          "start": 1,
+          "duration": 1.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.5
+        }
+      },
+      "layers": [
+        "scale_parent",
+        "elem_seven_green_win",
+        "elem_seven_green_jump"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev.aep",
+  "version": 1
+}

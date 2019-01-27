@@ -1,0 +1,64 @@
+{
+  "name": "cards_building3",
+  "children": [
+    {
+      "name": "mm_new_3.png",
+      "translation": [
+        1376,
+        1312,
+        0
+      ],
+      "anchor": [
+        455,
+        457,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/mm_new_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "mm_new_3.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 192,
+          "cutf": 191
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "mm_new_3.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

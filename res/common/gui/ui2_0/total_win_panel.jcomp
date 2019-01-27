@@ -1,0 +1,189 @@
+{
+  "name": "total_win_panel",
+  "children": [
+    {
+      "name": "totalwin_shape",
+      "translation": [
+        149,
+        20,
+        0
+      ],
+      "alpha": 0.6,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            284,
+            36
+          ],
+          "radius": 18,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.05098039284348,
+            0.05098039284348,
+            0.05098039284348,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gui_win",
+      "translation": [
+        149,
+        28,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "TOTAL WIN",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "count_text",
+      "translation": [
+        150.323532104492,
+        83.7138671875,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "1,000,000,000",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "count_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "gui_win.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "totalwin_shape.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "count_text",
+        "gui_win",
+        "totalwin_shape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

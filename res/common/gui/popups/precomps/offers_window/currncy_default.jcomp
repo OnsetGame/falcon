@@ -1,0 +1,76 @@
+{
+  "name": "currncy_default",
+  "children": [
+    {
+      "name": "offer_box.png",
+      "translation": [
+        948,
+        599,
+        0
+      ],
+      "anchor": [
+        232.5,
+        263.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/offer_box.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "offer_box.png.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "idle": {
+          "start": 0.95833333333333,
+          "duration": 0.41666666666667
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.875
+        }
+      },
+      "layers": [
+        "offer_box.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

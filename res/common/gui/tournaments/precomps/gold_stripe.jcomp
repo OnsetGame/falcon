@@ -1,0 +1,83 @@
+{
+  "name": "gold_stripe",
+  "children": [
+    {
+      "name": "gold",
+      "translation": [
+        105,
+        27,
+        0
+      ],
+      "anchor": [
+        15,
+        31,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/gold.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "stripe",
+      "translation": [
+        47.75,
+        26,
+        0
+      ],
+      "scale": [
+        1.01,
+        0.98,
+        1
+      ],
+      "components": [
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.60000002384186,
+            0.00392156885937,
+            1
+          ],
+          "endColor": [
+            1,
+            0.89803928136826,
+            0.21568629145622,
+            1
+          ],
+          "startPoint": [
+            -47.25,
+            3.65
+          ],
+          "endPoint": [
+            64.75,
+            3.65
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            94.5,
+            48.7
+          ],
+          "radius": 0,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

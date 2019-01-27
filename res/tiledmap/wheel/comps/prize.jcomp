@@ -1,0 +1,319 @@
+{
+  "name": "prize",
+  "children": [
+    {
+      "name": "prize_menu.png",
+      "translation": [
+        218.5,
+        286,
+        0
+      ],
+      "anchor": [
+        163,
+        139,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowBezel",
+          "size": [
+            326,
+            278
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rewards_glow",
+      "translation": [
+        220,
+        200,
+        0
+      ],
+      "anchor": [
+        200,
+        200,
+        0
+      ],
+      "compositionRef": "rewards_glow.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "WHEEL_UI_2_PRIZE_WIN_TYPE_@noloc",
+      "translation": [
+        218.1,
+        379.3,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "Energy",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_2_PRIZE_WIN_AMOUNT_@noloc",
+      "translation": [
+        217.1,
+        319.3,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "25",
+          "font": "Exo2-Black",
+          "fontSize": 18.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ltp_line_bronze.png",
+      "translation": [
+        214,
+        342,
+        0
+      ],
+      "scale": [
+        0.27,
+        1,
+        1
+      ],
+      "anchor": [
+        391,
+        11,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/ltp_line_bronze.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "prize_wheel_icon",
+      "translation": [
+        218,
+        176,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        100,
+        101,
+        0
+      ],
+      "compositionRef": "prize_wheel_icon.json",
+      "affectsChildren": false
+    }
+  ],
+  "animations": {
+    "in": {
+      "prize_wheel_icon.scale": {
+        "values": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0.03092141029449,
+            0.03092141029449,
+            1
+          ],
+          [
+            0.11527580319226,
+            0.11527580319226,
+            1
+          ],
+          [
+            0.24062106422777,
+            0.24062106422777,
+            1
+          ],
+          [
+            0.39402387816479,
+            0.39402387816479,
+            1
+          ],
+          [
+            0.5630000026507,
+            0.5630000026507,
+            1
+          ],
+          [
+            0.73493468156991,
+            0.73493468156991,
+            1
+          ],
+          [
+            0.89721315896651,
+            0.89721315896651,
+            1
+          ],
+          [
+            1.03737287159744,
+            1.03737287159744,
+            1
+          ],
+          [
+            1.14244437185851,
+            1.14244437185851,
+            1
+          ],
+          [
+            1.2,
+            1.2,
+            1
+          ],
+          [
+            1.19815106135064,
+            1.19815106135064,
+            1
+          ],
+          [
+            1.1509418576428,
+            1.1509418576428,
+            1
+          ],
+          [
+            1.08457525146347,
+            1.08457525146347,
+            1
+          ],
+          [
+            1.02552460285305,
+            1.02552460285305,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1.00032987888462,
+            1.00032987888462,
+            1
+          ],
+          [
+            1.00179095758762,
+            1.00179095758762,
+            1
+          ],
+          [
+            1.00477613650541,
+            1.00477613650541,
+            1
+          ],
+          [
+            1.0084241615347,
+            1.0084241615347,
+            1
+          ],
+          [
+            1.01,
+            1.01,
+            1
+          ],
+          [
+            1.00874452975136,
+            1.00874452975136,
+            1
+          ],
+          [
+            1.00582914960002,
+            1.00582914960002,
+            1
+          ],
+          [
+            1.00323218601017,
+            1.00323218601017,
+            1
+          ],
+          [
+            1.00151162803156,
+            1.00151162803156,
+            1
+          ],
+          [
+            1.00051189185894,
+            1.00051189185894,
+            1
+          ],
+          [
+            1.00004854068134,
+            1.00004854068134,
+            1
+          ]
+        ],
+        "duration": 0.875
+      }
+    }
+  },
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

@@ -1,0 +1,686 @@
+{
+  "name": "quest_complete_balloon",
+  "children": [
+    {
+      "name": "controller",
+      "translation": [
+        0,
+        144,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.043,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "circle_component_shadow.png$4",
+          "translation": [
+            91.425,
+            -0.949,
+            0
+          ],
+          "scale": [
+            2.2,
+            0.3,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.4,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "map_back_cloud_01.png",
+          "translation": [
+            79.8,
+            -67.199,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            1
+          ],
+          "anchor": [
+            114,
+            96,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../Holders/map_back_cloud_01.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "circle_component_shadow.png",
+          "translation": [
+            88.925,
+            -52.949,
+            0
+          ],
+          "scale": [
+            1.197,
+            1.05,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.4,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "icon_placeholder",
+          "translation": [
+            93.675,
+            -66.949,
+            0
+          ],
+          "anchor": [
+            47.5,
+            47.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "icons_signs",
+              "iconName": "green_sign"
+            },
+            {
+              "color": [
+                0.49019598960876,
+                0.49019598960876,
+                0.49019598960876
+              ],
+              "size": [
+                95,
+                95
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.21,
+              0.21,
+              1
+            ],
+            [
+              0.659,
+              0.659,
+              1
+            ],
+            [
+              1.075,
+              1.075,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.182,
+              1.182,
+              1
+            ],
+            [
+              1.149,
+              1.149,
+              1
+            ],
+            [
+              1.108,
+              1.108,
+              1
+            ],
+            [
+              1.065,
+              1.065,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.015,
+              1.015,
+              1
+            ],
+            [
+              1.052,
+              1.052,
+              1
+            ],
+            [
+              1.097,
+              1.097,
+              1
+            ],
+            [
+              1.134,
+              1.134,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              0.948,
+              0.948,
+              1
+            ],
+            [
+              0.517,
+              0.517,
+              1
+            ],
+            [
+              0.119,
+              0.119,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "controller.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.037,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.023,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.009,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "icon_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "map_back_cloud_01.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "circle_component_shadow.png$4.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.83333333333333
+        },
+        "idle": {
+          "start": 0.83333333333333,
+          "duration": 0.83333333333334
+        },
+        "hide": {
+          "start": 1.66666666666667,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "icon_placeholder",
+        "circle_component_shadow.png",
+        "map_back_cloud_01.png",
+        "circle_component_shadow.png$4",
+        "controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "questinfo_speedup_reward_dev.aep",
+  "version": 1
+}

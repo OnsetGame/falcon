@@ -1,0 +1,109 @@
+{
+  "name": "button_close",
+  "children": [
+    {
+      "name": "new_close.png",
+      "translation": [
+        60,
+        58,
+        0
+      ],
+      "anchor": [
+        62,
+        62,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/new_close.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "new_close.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "new_close.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0,
+          "duration": 0.2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "new_close.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

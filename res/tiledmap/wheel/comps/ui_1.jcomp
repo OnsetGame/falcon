@@ -1,0 +1,98 @@
+{
+  "name": "ui_1",
+  "children": [
+    {
+      "name": "spin_counter",
+      "translation": [
+        320,
+        441,
+        0
+      ],
+      "anchor": [
+        158,
+        152,
+        0
+      ],
+      "compositionRef": "spin_counter",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lets_spin_prize_box",
+      "translation": [
+        1595,
+        502,
+        0
+      ],
+      "anchor": [
+        168,
+        223,
+        0
+      ],
+      "compositionRef": "lets_spin_prize_box",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "lets_spin_prize_box.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "spin_counter.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "lets_spin_prize_box",
+        "spin_counter"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "export_time": "29 June 2018 16:27",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

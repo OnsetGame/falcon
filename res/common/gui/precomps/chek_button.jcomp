@@ -1,0 +1,318 @@
+{
+  "name": "chek_button",
+  "children": [
+    {
+      "name": "rect_small_pick",
+      "translation": [
+        25,
+        25,
+        0
+      ],
+      "anchor": [
+        31,
+        31,
+        0
+      ],
+      "children": [
+        {
+          "name": "pick",
+          "translation": [
+            28.062,
+            37.625,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            16.062,
+            21.625,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.625,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_rectangle_2_copy_13_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/rect_small_pick.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rect_small_pick.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "pick.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.347,
+              0.347,
+              1
+            ],
+            [
+              0.992,
+              0.992,
+              1
+            ],
+            [
+              1.34,
+              1.34,
+              1
+            ],
+            [
+              1.251,
+              1.251,
+              1
+            ],
+            [
+              1.088,
+              1.088,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.088,
+              1.088,
+              1
+            ],
+            [
+              1.251,
+              1.251,
+              1
+            ],
+            [
+              1.34,
+              1.34,
+              1
+            ],
+            [
+              0.992,
+              0.992,
+              1
+            ],
+            [
+              0.347,
+              0.347,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "pick.alpha": {
+          "values": [
+            1,
+            0.87,
+            0.629,
+            0.5,
+            0.629,
+            0.87,
+            1,
+            1,
+            1,
+            1,
+            0.87,
+            0.629,
+            0.5,
+            0.629,
+            0.87,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "pick.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 48
+        },
+        "rect_small_pick.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 48
+        }
+      },
+      "markers": {
+        "press1": {
+          "start": 0,
+          "duration": 0.2
+        },
+        "press2": {
+          "start": 0.3,
+          "duration": 0.2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "pick",
+        "rect_small_pick"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Share_button.aep",
+  "version": 1
+}

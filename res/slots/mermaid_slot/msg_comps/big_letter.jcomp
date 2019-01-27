@@ -1,0 +1,104 @@
+{
+  "name": "big_letter",
+  "children": [
+    {
+      "name": "ltp_b.png",
+      "translation": [
+        395,
+        273,
+        0
+      ],
+      "anchor": [
+        393,
+        273,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../msg_layers/ltp_b.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "F.png",
+      "translation": [
+        391,
+        268.5,
+        0
+      ],
+      "anchor": [
+        385,
+        263.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../msg_layers/F.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "F.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        },
+        "ltp_b.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.75
+        }
+      },
+      "layers": [
+        "F.png",
+        "ltp_b.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding7opt8%20(converted).aep",
+  "version": 1
+}

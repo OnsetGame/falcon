@@ -1,0 +1,230 @@
+{
+  "name": "button_black_small",
+  "children": [
+    {
+      "name": "button_on_black.png$AUX",
+      "translation": [
+        100,
+        50,
+        0
+      ],
+      "children": [
+        {
+          "name": "button_on_black.png",
+          "translation": [
+            -94,
+            -42,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/button_on_black.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "unactive",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_unactive_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "active",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title$AUX",
+      "translation": [
+        57.0583038330078,
+        35.2919921875,
+        0
+      ],
+      "children": [
+        {
+          "name": "title",
+          "translation": [
+            42.9416961669922,
+            22.2080078125,
+            0
+          ],
+          "components": [
+            {
+              "text": "TITLE",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "unactive_title$AUX",
+      "translation": [
+        57.0583038330078,
+        35.2919921875,
+        0
+      ],
+      "children": [
+        {
+          "name": "unactive_title",
+          "translation": [
+            42.9416961669922,
+            22.2080078125,
+            0
+          ],
+          "components": [
+            {
+              "text": "TITLE",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                0.34509998559952,
+                0.34509998559952,
+                0.34509998559952
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "button_down": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            57.0583038330078,
+            35.2919921875,
+            0
+          ],
+          [
+            57.0583038330078,
+            35.2919921875,
+            0
+          ],
+          [
+            57.0583038330078,
+            36.1467774707588,
+            0
+          ],
+          [
+            57.0583038330078,
+            37,
+            0
+          ],
+          [
+            57.0583038330078,
+            37,
+            0
+          ]
+        ],
+        "duration": 0.16666666666667
+      },
+      "active.alpha": {
+        "values": [
+          1,
+          1,
+          0.5,
+          0,
+          0
+        ],
+        "duration": 0.16666666666667
+      }
+    },
+    "button_up": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            57.0583038330078,
+            37,
+            0
+          ],
+          [
+            57.0583038330078,
+            37,
+            0
+          ],
+          [
+            57.0583038330078,
+            36.1467774707587,
+            0
+          ],
+          [
+            57.0583038330078,
+            35.2919921875,
+            0
+          ]
+        ],
+        "duration": 0.13333333333333
+      },
+      "active.alpha": {
+        "values": [
+          0,
+          0,
+          0.5,
+          1
+        ],
+        "duration": 0.13333333333333
+      }
+    }
+  },
+  "version": 1
+}

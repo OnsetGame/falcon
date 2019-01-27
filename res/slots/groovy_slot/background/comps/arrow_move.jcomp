@@ -1,0 +1,626 @@
+{
+  "name": "arrow_move",
+  "children": [
+    {
+      "name": "pixel_arrow.png$5",
+      "translation": [
+        122,
+        493,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        60,
+        20,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            0.86666667461395,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/pixel_arrow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "pixel_arrow.png$4",
+      "translation": [
+        122,
+        493,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        60,
+        20,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            0.86666667461395,
+            0,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.416,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/pixel_arrow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "pixel_arrow.png$3",
+      "translation": [
+        122,
+        251,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "anchor": [
+        60,
+        20,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            0.86666667461395,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/pixel_arrow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "pixel_arrow.png",
+      "translation": [
+        122,
+        251,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "anchor": [
+        60,
+        20,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            0.86666667461395,
+            0,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.416,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/pixel_arrow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "pixel_arrow.png.translation": {
+          "values": [
+            [
+              122,
+              251,
+              0
+            ],
+            [
+              122,
+              221,
+              0
+            ],
+            [
+              122,
+              191.5,
+              0
+            ],
+            [
+              122,
+              191.5,
+              0
+            ],
+            [
+              122,
+              161.5,
+              0
+            ],
+            [
+              122,
+              71.5,
+              0
+            ],
+            [
+              122,
+              41.5,
+              0
+            ],
+            [
+              122,
+              12.5,
+              0
+            ],
+            [
+              122,
+              -17.5,
+              0
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "pixel_arrow.png.alpha": {
+          "values": [
+            1,
+            0.02,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "pixel_arrow.png.0.amount": {
+          "values": [
+            0,
+            1
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$3.translation": {
+          "values": [
+            [
+              122,
+              251,
+              0
+            ],
+            [
+              122,
+              221,
+              0
+            ],
+            [
+              122,
+              191.5,
+              0
+            ],
+            [
+              122,
+              191.5,
+              0
+            ],
+            [
+              122,
+              161.5,
+              0
+            ],
+            [
+              122,
+              131.5,
+              0
+            ],
+            [
+              122,
+              101.5,
+              0
+            ],
+            [
+              122,
+              71.5,
+              0
+            ],
+            [
+              122,
+              41.5,
+              0
+            ],
+            [
+              122,
+              13,
+              0
+            ],
+            [
+              122,
+              -17,
+              0
+            ],
+            [
+              122,
+              -42,
+              0
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$3.0.amount": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$4.translation": {
+          "values": [
+            [
+              122,
+              493,
+              0
+            ],
+            [
+              122,
+              523,
+              0
+            ],
+            [
+              122,
+              552.5,
+              0
+            ],
+            [
+              122,
+              552.5,
+              0
+            ],
+            [
+              122,
+              582.5,
+              0
+            ],
+            [
+              122,
+              672.5,
+              0
+            ],
+            [
+              122,
+              702.5,
+              0
+            ],
+            [
+              122,
+              731.5,
+              0
+            ],
+            [
+              122,
+              761.5,
+              0
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$4.alpha": {
+          "values": [
+            1,
+            0.02,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$4.0.amount": {
+          "values": [
+            0,
+            1
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$5.translation": {
+          "values": [
+            [
+              122,
+              493,
+              0
+            ],
+            [
+              122,
+              523,
+              0
+            ],
+            [
+              122,
+              552.5,
+              0
+            ],
+            [
+              122,
+              552.5,
+              0
+            ],
+            [
+              122,
+              582.5,
+              0
+            ],
+            [
+              122,
+              612.5,
+              0
+            ],
+            [
+              122,
+              642.5,
+              0
+            ],
+            [
+              122,
+              672.5,
+              0
+            ],
+            [
+              122,
+              702.5,
+              0
+            ],
+            [
+              122,
+              731,
+              0
+            ],
+            [
+              122,
+              761,
+              0
+            ],
+            [
+              122,
+              786,
+              0
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "pixel_arrow.png$5.0.amount": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "pixel_arrow.png.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 0
+        },
+        "pixel_arrow.png$3.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 10
+        },
+        "pixel_arrow.png$4.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 0
+        },
+        "pixel_arrow.png$5.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 10
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.5
+        }
+      },
+      "layers": [
+        "pixel_arrow.png",
+        "pixel_arrow.png$3",
+        "pixel_arrow.png$4",
+        "pixel_arrow.png$5"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev%20(CC%202018)v2.aep",
+  "version": 1
+}

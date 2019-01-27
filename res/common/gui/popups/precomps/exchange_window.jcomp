@@ -1,0 +1,7008 @@
+{
+  "name": "exchange_window",
+  "children": [
+    {
+      "name": "parent_2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "bg",
+          "translation": [
+            0,
+            35,
+            0
+          ],
+          "scale": [
+            1,
+            0.68881481481482,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0.75,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -342,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$56",
+          "translation": [
+            7,
+            -339.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$55",
+          "translation": [
+            7,
+            419,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            7,
+            411.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "ltp_shape_66_copy.png",
+          "translation": [
+            3,
+            -113,
+            0
+          ],
+          "anchor": [
+            437,
+            169,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_shape_66_copy.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_lightsweep_1.png$52",
+          "translation": [
+            -73.0000000000002,
+            140,
+            0
+          ],
+          "scale": [
+            1.92132777421343,
+            6.75510204081633,
+            1
+          ],
+          "anchor": [
+            233.184385382059,
+            24.2039274924471,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.05880246673898,
+            0.99826963787617
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "layerName": "arrow_2",
+              "maskType": 1,
+              "_c": "Mask"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.29166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_lightsweep_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "arrow_2",
+          "translation": [
+            3,
+            -113,
+            0
+          ],
+          "anchor": [
+            437,
+            169,
+            0
+          ],
+          "enabled": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.29166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_shape_66_copy.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_lightsweep_1.png$50",
+          "translation": [
+            -73.0000000000002,
+            140,
+            0
+          ],
+          "scale": [
+            1.92132777421343,
+            6.75510204081633,
+            1
+          ],
+          "anchor": [
+            233.184385382059,
+            24.2039274924471,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.05880246673898,
+            0.99826963787617
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "layerName": "arrow_3",
+              "maskType": 1,
+              "_c": "Mask"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.29166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_lightsweep_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "arrow_3",
+          "translation": [
+            3,
+            -113,
+            0
+          ],
+          "anchor": [
+            437,
+            169,
+            0
+          ],
+          "enabled": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.29166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_shape_66_copy.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            6,
+            48,
+            0
+          ],
+          "scale": [
+            3.32163742690059,
+            3.32163742690059,
+            1
+          ],
+          "anchor": [
+            171,
+            121,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_over_text.png",
+          "translation": [
+            -2,
+            74,
+            0
+          ],
+          "scale": [
+            1.45283018867925,
+            2.6697247706422,
+            1
+          ],
+          "anchor": [
+            477,
+            109,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_over_text.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_bronze.png$46",
+          "translation": [
+            0,
+            338,
+            0
+          ],
+          "anchor": [
+            391,
+            11,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_bronze.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_bronze.png",
+          "translation": [
+            0,
+            -199,
+            0
+          ],
+          "anchor": [
+            391,
+            11,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_bronze.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "EXCHANGE_DESC",
+          "translation": [
+            -0.40000000000009,
+            -228.2,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Need more Chips? Exchange again!",
+              "font": "Exo2-Black",
+              "fontSize": 16,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "ltp_layer_1226.png",
+          "translation": [
+            33,
+            89,
+            0
+          ],
+          "scale": [
+            5.33893557422969,
+            5.33893557422969,
+            1
+          ],
+          "anchor": [
+            51,
+            63,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_layer_1226.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "EXCHANGE_BONUS",
+          "translation": [
+            418.6,
+            -113.336001586914,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -57.5416666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Bonus Total",
+              "font": "Exo2-Black",
+              "fontSize": 8,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "exchange_rates",
+          "translation": [
+            -645.5,
+            -104.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "text_above_rates",
+              "translation": [
+                645.5,
+                104.5,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "text_above_rates",
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 7.25,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 16.3333333333333,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "compositionRef": "exchange_rates",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 16,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "Ellipse_compensation.png",
+          "translation": [
+            420,
+            25.5,
+            0
+          ],
+          "scale": [
+            1.06086956521739,
+            1.06086956521739,
+            1
+          ],
+          "anchor": [
+            115,
+            115,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.04166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Ellipse_compensation.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "chips_controller",
+          "translation": [
+            422.5,
+            17.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "chips_icon",
+              "translation": [
+                -1.5,
+                -6.5,
+                0
+              ],
+              "anchor": [
+                107,
+                109,
+                0
+              ],
+              "components": [
+                {
+                  "inWhite": 1,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 7.25,
+                  "scale": 1,
+                  "startTime": -0.04166666666667,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_win_n_chips_2.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            },
+            {
+              "name": "particles_parent",
+              "translation": [
+                -230,
+                -85,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4.41666666666667,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "chips_icon_2",
+              "translation": [
+                -1.5,
+                -6.5,
+                0
+              ],
+              "anchor": [
+                107,
+                109,
+                0
+              ],
+              "alpha": 0,
+              "components": [
+                {
+                  "_c": "VisualModifier",
+                  "blendMode": "ADD"
+                },
+                {
+                  "inWhite": 1,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "_c": "ColorFill"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 7.25,
+                  "scale": 1,
+                  "startTime": -0.04166666666667,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_win_n_chips_2.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": 0.875,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "total_number_controller",
+          "translation": [
+            422,
+            233,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 2.83333333333333,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": 0.79166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "Baraban",
+          "translation": [
+            1,
+            49,
+            0
+          ],
+          "anchor": [
+            163,
+            235,
+            0
+          ],
+          "children": [
+            {
+              "name": "Baraban_active",
+              "translation": [
+                165,
+                239,
+                0
+              ],
+              "anchor": [
+                137,
+                183,
+                0
+              ],
+              "alpha": 0,
+              "components": [
+                {
+                  "inWhite": 1,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 7.25,
+                  "scale": 1,
+                  "startTime": 0.16666666666667,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_baraban_gre.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            },
+            {
+              "name": "spin_controller",
+              "translation": [
+                52.6784701007646,
+                141,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 7.25,
+                  "scale": 1,
+                  "startTime": 0.75,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": -0.04166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_baraba.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_caustics_texture_0_comp_.png",
+          "translation": [
+            9,
+            37,
+            0
+          ],
+          "scale": [
+            3.83471074380165,
+            4,
+            1
+          ],
+          "anchor": [
+            121,
+            135,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0.83333333333333,
+              "outPoint": 2.41666666666667,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_caustics_texture_0_comp_.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_lightsweep_1.png",
+          "translation": [
+            0,
+            180.5,
+            0
+          ],
+          "scale": [
+            1.12227074235808,
+            4.38775510204083,
+            1
+          ],
+          "anchor": [
+            114.5,
+            24.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -1,
+            6.12323399573677e-17
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_lightsweep_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "exchange_tab",
+          "translation": [
+            0,
+            -346,
+            0
+          ],
+          "anchor": [
+            270,
+            54,
+            0
+          ],
+          "compositionRef": "exchange_tab",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 15.8333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            797.750000000003,
+            -394.000000000001,
+            0
+          ],
+          "scale": [
+            0.99572913610123,
+            0.99572913610123,
+            1
+          ],
+          "anchor": [
+            89.5462328767153,
+            10.8253424657527,
+            0
+          ],
+          "compositionRef": "button_close",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8.33333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 15.8,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$23",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 2.94166666666667,
+              "outPoint": 3.25,
+              "scale": 1,
+              "startTime": 2.94166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$22",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 2.975,
+              "outPoint": 3.29166666666667,
+              "scale": 1,
+              "startTime": 2.975,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$21",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 3.075,
+              "outPoint": 3.375,
+              "scale": 1,
+              "startTime": 3.075,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$20",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 3.075,
+              "outPoint": 3.375,
+              "scale": 1,
+              "startTime": 3.075,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$19",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 3.04166666666667,
+              "outPoint": 3.33333333333333,
+              "scale": 1,
+              "startTime": 3.04166666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$18",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 3.00833333333333,
+              "outPoint": 3.29166666666667,
+              "scale": 1,
+              "startTime": 3.00833333333333,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png$17",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 2.90833333333333,
+              "outPoint": 3.20833333333333,
+              "scale": 1,
+              "startTime": 2.86666666666667,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_prt_lq.png",
+          "translation": [
+            425.916666666667,
+            11.3333333333334,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            18.875,
+            18.625,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 2.90833333333333,
+              "outPoint": 3.20833333333333,
+              "scale": 1,
+              "startTime": 2.90833333333333,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_prt_lq.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_yellow_long",
+          "translation": [
+            0,
+            340,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            192,
+            56,
+            0
+          ],
+          "compositionRef": "button_exhange_new",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.25,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 12,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "vip_bonus_panel",
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "vip_bonus_panel",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 7.95833333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 7.95833333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "saber_string.png$9",
+      "translation": [
+        1076.5,
+        683.250000000002,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        129.414870084755,
+        88.5759441798828,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.97965235487005,
+        -0.20070192723927
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": -0.06111111111111,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 1.20833333333333,
+          "outPoint": 1.375,
+          "scale": 1,
+          "startTime": -0.20833333333333,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/saber_string.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "saber_string.png$8",
+      "translation": [
+        1073,
+        773.250000000002,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        129.414870084755,
+        88.5759441798828,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.98136648520285,
+        -0.19214531407402
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": -0.06111111111111,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 1.45833333333333,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0.04166666666667,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/saber_string.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "saber_string.png$7",
+      "translation": [
+        1073,
+        677.250000000002,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        129.414870084755,
+        88.5759441798828,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.89554103505858,
+        -0.44497893717142
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": -0.06111111111111,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 1.75,
+          "outPoint": 1.91666666666667,
+          "scale": 1,
+          "startTime": 0.33333333333333,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/saber_string.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "saber_string.png",
+      "translation": [
+        1073,
+        677.250000000002,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        129.414870084755,
+        88.5759441798828,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.99855735322416,
+        -0.05369555216187
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": -0.06111111111111,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 1.08333333333333,
+          "outPoint": 1.25,
+          "scale": 1,
+          "startTime": -0.33333333333333,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/saber_string.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sparks_[00000-00009].png$5",
+      "translation": [
+        1083.25,
+        733.25,
+        0
+      ],
+      "anchor": [
+        11,
+        13.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.04166666666667,
+          "outPoint": 1.45833333333333,
+          "scale": 1,
+          "startTime": 1.04166666666667,
+          "duration": 0.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/sparks_00000.png",
+            "../assets/sparks_00001.png",
+            "../assets/sparks_00002.png",
+            "../assets/sparks_00003.png",
+            "../assets/sparks_00004.png",
+            "../assets/sparks_00005.png",
+            "../assets/sparks_00006.png",
+            "../assets/sparks_00007.png",
+            "../assets/sparks_00008.png",
+            "../assets/sparks_00009.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sparks_[00000-00009].png$4",
+      "translation": [
+        1091,
+        658.5,
+        0
+      ],
+      "anchor": [
+        11,
+        13.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.33333333333333,
+          "outPoint": 1.75,
+          "scale": 1,
+          "startTime": 1.33333333333333,
+          "duration": 0.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/sparks_00000.png",
+            "../assets/sparks_00001.png",
+            "../assets/sparks_00002.png",
+            "../assets/sparks_00003.png",
+            "../assets/sparks_00004.png",
+            "../assets/sparks_00005.png",
+            "../assets/sparks_00006.png",
+            "../assets/sparks_00007.png",
+            "../assets/sparks_00008.png",
+            "../assets/sparks_00009.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sparks_[00000-00009].png",
+      "translation": [
+        1076.75,
+        754.5,
+        0
+      ],
+      "anchor": [
+        11,
+        13.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.54166666666667,
+          "outPoint": 1.95833333333333,
+          "scale": 1,
+          "startTime": 1.54166666666667,
+          "duration": 0.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/sparks_00000.png",
+            "../assets/sparks_00001.png",
+            "../assets/sparks_00002.png",
+            "../assets/sparks_00003.png",
+            "../assets/sparks_00004.png",
+            "../assets/sparks_00005.png",
+            "../assets/sparks_00006.png",
+            "../assets/sparks_00007.png",
+            "../assets/sparks_00008.png",
+            "../assets/sparks_00009.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "sparks_[00000-00009].png.translation": {
+          "values": [
+            [
+              1076.75,
+              754.5,
+              0
+            ],
+            [
+              1078.15010702458,
+              748.449537500915,
+              0
+            ],
+            [
+              1079.55056420953,
+              742.397561808816,
+              0
+            ],
+            [
+              1080.95107776516,
+              736.345342514863,
+              0
+            ],
+            [
+              1082.35300508258,
+              730.287013750266,
+              0
+            ],
+            [
+              1083.75112530012,
+              724.245137095908,
+              0
+            ],
+            [
+              1085.14886276541,
+              718.20491447806,
+              0
+            ],
+            [
+              1086.54965270716,
+              712.151500801213,
+              0
+            ],
+            [
+              1087.94918254651,
+              706.103532566876,
+              0
+            ],
+            [
+              1089.34972830992,
+              700.051174089266,
+              0
+            ],
+            [
+              1090.75,
+              694,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 37,
+          "frameLerp": false
+        },
+        "sparks_[00000-00009].png$4.translation": {
+          "values": [
+            [
+              1091,
+              658.5,
+              0
+            ],
+            [
+              1090.84998853308,
+              652.649552790141,
+              0
+            ],
+            [
+              1090.69993954898,
+              646.797642410177,
+              0
+            ],
+            [
+              1090.54988452516,
+              640.945496481314,
+              0
+            ],
+            [
+              1090.39967802687,
+              635.087443047778,
+              0
+            ],
+            [
+              1090.24987943213,
+              629.245297853068,
+              0
+            ],
+            [
+              1090.10012184656,
+              623.404752015975,
+              0
+            ],
+            [
+              1089.95003720995,
+              617.551451187949,
+              0
+            ],
+            [
+              1089.8000875843,
+              611.703415787806,
+              0
+            ],
+            [
+              1089.65002910965,
+              605.851135276397,
+              0
+            ],
+            [
+              1089.5,
+              600,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 32,
+          "frameLerp": false
+        },
+        "sparks_[00000-00009].png$5.translation": {
+          "values": [
+            [
+              1083.25,
+              733.25,
+              0
+            ],
+            [
+              1083.84999165606,
+              728.400067446854,
+              0
+            ],
+            [
+              1084.45024180408,
+              723.548045416985,
+              0
+            ],
+            [
+              1085.05046189935,
+              718.696266313568,
+              0
+            ],
+            [
+              1085.65128789254,
+              713.839589535337,
+              0
+            ],
+            [
+              1086.25048227148,
+              708.996101638869,
+              0
+            ],
+            [
+              1086.84951261375,
+              704.153939705552,
+              0
+            ],
+            [
+              1087.44985116021,
+              699.301203121633,
+              0
+            ],
+            [
+              1088.04964966279,
+              694.452831892455,
+              0
+            ],
+            [
+              1088.64999638071,
+              689.600029255911,
+              0
+            ],
+            [
+              1089.25,
+              684.75,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 25,
+          "frameLerp": false
+        },
+        "saber_string.png.translation": {
+          "values": [
+            [
+              1073,
+              677.250000000002,
+              0
+            ],
+            [
+              1139.74988586071,
+              709.749856842248,
+              0
+            ],
+            [
+              1167.45268809199,
+              726.034966060888,
+              0
+            ],
+            [
+              1197.5,
+              734.250000000002,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 26,
+          "frameLerp": false
+        },
+        "saber_string.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.07222568240951,
+              0.07222568240951,
+              1
+            ],
+            [
+              0.14445136481901,
+              0.14445136481901,
+              1
+            ],
+            [
+              0.21667704722852,
+              0.21667704722852,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 26,
+          "frameLerp": false
+        },
+        "saber_string.png$7.translation": {
+          "values": [
+            [
+              1073,
+              677.250000000002,
+              0
+            ],
+            [
+              1134.11458932105,
+              691.286294854884,
+              0
+            ],
+            [
+              1185.68892693204,
+              676.050537181438,
+              0
+            ],
+            [
+              1216.5,
+              645.250000000002,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 42,
+          "frameLerp": false
+        },
+        "saber_string.png$7.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.07222568240951,
+              0.07222568240951,
+              1
+            ],
+            [
+              0.14445136481901,
+              0.14445136481901,
+              1
+            ],
+            [
+              0.21667704722852,
+              0.21667704722852,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 42,
+          "frameLerp": false
+        },
+        "saber_string.png$8.translation": {
+          "values": [
+            [
+              1073,
+              773.250000000002,
+              0
+            ],
+            [
+              1102.39720807219,
+              790.39398823951,
+              0
+            ],
+            [
+              1143.24190315378,
+              799.57224907262,
+              0
+            ],
+            [
+              1188.5,
+              818.250000000002,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 35,
+          "frameLerp": false
+        },
+        "saber_string.png$8.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.07222568240951,
+              0.07222568240951,
+              1
+            ],
+            [
+              0.14445136481901,
+              0.14445136481901,
+              1
+            ],
+            [
+              0.21667704722852,
+              0.21667704722852,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 35,
+          "frameLerp": false
+        },
+        "saber_string.png$9.translation": {
+          "values": [
+            [
+              1076.5,
+              683.250000000002,
+              0
+            ],
+            [
+              1120.80993866288,
+              724.614475103484,
+              0
+            ],
+            [
+              1153.07004156781,
+              769.776018366166,
+              0
+            ],
+            [
+              1180,
+              812.250000000002,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 29,
+          "frameLerp": false
+        },
+        "saber_string.png$9.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.07222568240951,
+              0.07222568240951,
+              1
+            ],
+            [
+              0.14445136481901,
+              0.14445136481901,
+              1
+            ],
+            [
+              0.21667704722852,
+              0.21667704722852,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 29,
+          "frameLerp": false
+        },
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.01628492028457,
+              0.01628492028457,
+              1
+            ],
+            [
+              0.09511268733867,
+              0.09511268733867,
+              1
+            ],
+            [
+              0.54158372305987,
+              0.54158372305987,
+              1
+            ],
+            [
+              0.90812840982761,
+              0.90812840982761,
+              1
+            ],
+            [
+              1.01838416778657,
+              1.01838416778657,
+              1
+            ],
+            [
+              1.07002034088154,
+              1.07002034088154,
+              1
+            ],
+            [
+              1.09353221009234,
+              1.09353221009234,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.07407407397527,
+              1.07407407397527,
+              1
+            ],
+            [
+              1.02592592602433,
+              1.02592592602433,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.02592592602473,
+              1.02592592602473,
+              1
+            ],
+            [
+              1.07407407397567,
+              1.07407407397567,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.09353221009234,
+              1.09353221009234,
+              1
+            ],
+            [
+              1.07002034088154,
+              1.07002034088154,
+              1
+            ],
+            [
+              1.01838416778657,
+              1.01838416778657,
+              1
+            ],
+            [
+              0.90812840982761,
+              0.90812840982761,
+              1
+            ],
+            [
+              0.54158372305987,
+              0.54158372305987,
+              1
+            ],
+            [
+              0.09511268733867,
+              0.09511268733867,
+              1
+            ],
+            [
+              0.01628492028457,
+              0.01628492028457,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "button_yellow_long.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.0641203712941,
+              0.0641203712941,
+              1
+            ],
+            [
+              0.2296296318741,
+              0.2296296318741,
+              1
+            ],
+            [
+              0.45625000275413,
+              0.45625000275413,
+              1
+            ],
+            [
+              0.70370370587531,
+              0.70370370587531,
+              1
+            ],
+            [
+              0.93171296395657,
+              0.93171296395657,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.17939814796456,
+              1.17939814796456,
+              1
+            ],
+            [
+              1.18518518538346,
+              1.18518518538346,
+              1
+            ],
+            [
+              1.1437500006294,
+              1.1437500006294,
+              1
+            ],
+            [
+              1.08148148219383,
+              1.08148148219383,
+              1
+            ],
+            [
+              1.02476851886198,
+              1.02476851886198,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              415.659210625976,
+              15.6327693995275,
+              0
+            ],
+            [
+              320.955890734827,
+              51.4013569880224,
+              0
+            ],
+            [
+              244.25973696992,
+              79.9727456835602,
+              0
+            ],
+            [
+              198.320547290534,
+              97.0332221146577,
+              0
+            ],
+            [
+              170.987979047261,
+              107.173214507542,
+              0
+            ],
+            [
+              155.651339794938,
+              112.863357492258,
+              0
+            ],
+            [
+              148.755787547746,
+              115.427372458684,
+              0
+            ],
+            [
+              147.744185139777,
+              115.809445675784,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 69,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.06526720208194,
+              0.06526720208194,
+              1
+            ],
+            [
+              0.39128483589612,
+              0.39128483589612,
+              1
+            ],
+            [
+              0.83020459393797,
+              0.83020459393797,
+              1
+            ],
+            [
+              0.86668639053255,
+              0.86668639053255,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 69,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png.alpha": {
+          "values": [
+            1,
+            0.66666666666667,
+            0.24989824989825,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 74,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$17.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              432.8530687822,
+              8.30139290446967,
+              0
+            ],
+            [
+              493.561136194069,
+              -22.9321573196676,
+              0
+            ],
+            [
+              542.388339179762,
+              -48.6657358200482,
+              0
+            ],
+            [
+              571.597304644005,
+              -64.1432326590264,
+              0
+            ],
+            [
+              588.965772081726,
+              -73.363511212479,
+              0
+            ],
+            [
+              598.704517576887,
+              -78.5332149273792,
+              0
+            ],
+            [
+              603.096189211658,
+              -80.8562501067757,
+              0
+            ],
+            [
+              603.744185139777,
+              -81.1905543242158,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 69,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$17.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.06526720208194,
+              0.06526720208194,
+              1
+            ],
+            [
+              0.39128483589612,
+              0.39128483589612,
+              1
+            ],
+            [
+              0.83020459393797,
+              0.83020459393797,
+              1
+            ],
+            [
+              0.86668639053255,
+              0.86668639053255,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 69,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$17.alpha": {
+          "values": [
+            1,
+            0.66666666666667,
+            0.24989824989825,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 74,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$18.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              389.254113334814,
+              -20.7667798766578,
+              0
+            ],
+            [
+              337.090524623887,
+              -65.6429442469636,
+              0
+            ],
+            [
+              304.775738142896,
+              -93.3561351747975,
+              0
+            ],
+            [
+              285.473001290883,
+              -109.894365064287,
+              0
+            ],
+            [
+              274.264190893727,
+              -119.496356336325,
+              0
+            ],
+            [
+              268.567872675129,
+              -124.379902019093,
+              0
+            ],
+            [
+              266.900689101147,
+              -125.816958630302,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 72,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$18.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.29359621924125,
+              0.29359621924125,
+              1
+            ],
+            [
+              1.03749497063262,
+              1.03749497063262,
+              1
+            ],
+            [
+              1.215,
+              1.215,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 72,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$18.alpha": {
+          "values": [
+            1,
+            0.83353683353683,
+            0.41676841676842,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 76,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$19.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              422.220981673506,
+              -48.1577966755788,
+              0
+            ],
+            [
+              418.733595098061,
+              -106.803636879533,
+              0
+            ],
+            [
+              416.64041645499,
+              -142.256065525232,
+              0
+            ],
+            [
+              415.394861452665,
+              -163.403000994183,
+              0
+            ],
+            [
+              414.682709208321,
+              -175.498256203887,
+              0
+            ],
+            [
+              414.338214671106,
+              -181.334568677066,
+              0
+            ],
+            [
+              414.261499835824,
+              -182.612394612596,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$19.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.20665518926959,
+              0.20665518926959,
+              1
+            ],
+            [
+              0.53216685232473,
+              0.53216685232473,
+              1
+            ],
+            [
+              0.57,
+              0.57,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$19.alpha": {
+          "values": [
+            1,
+            0.75010175010175,
+            0.33333333333333,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 77,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$20.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              419.138443297983,
+              14.5679846498555,
+              0
+            ],
+            [
+              362.607216777405,
+              52.8427932445504,
+              0
+            ],
+            [
+              317.589197726918,
+              84.7804554471807,
+              0
+            ],
+            [
+              290.703895915906,
+              104.017075359996,
+              0
+            ],
+            [
+              274.711699335033,
+              115.461791911942,
+              0
+            ],
+            [
+              265.725116968399,
+              121.850470546587,
+              0
+            ],
+            [
+              261.641410032066,
+              124.681225908051,
+              0
+            ],
+            [
+              261.016576600125,
+              125.05389594079,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$20.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.01941310449736,
+              0.01941310449736,
+              1
+            ],
+            [
+              0.60025597857807,
+              0.60025597857807,
+              1
+            ],
+            [
+              1.19459375990816,
+              1.19459375990816,
+              1
+            ],
+            [
+              1.10970740429953,
+              1.10970740429953,
+              1
+            ],
+            [
+              0.92948545377759,
+              0.92948545377759,
+              1
+            ],
+            [
+              0.78896449704142,
+              0.78896449704142,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$20.alpha": {
+          "values": [
+            1,
+            0.66666666666667,
+            0.24989824989825,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 78,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$21.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              424.977653713761,
+              20.4687368737839,
+              0
+            ],
+            [
+              418.338772924132,
+              102.954257481771,
+              0
+            ],
+            [
+              413.211946034932,
+              169.653708996942,
+              0
+            ],
+            [
+              410.171340911244,
+              209.602741517536,
+              0
+            ],
+            [
+              408.366327090654,
+              233.367643029989,
+              0
+            ],
+            [
+              407.351055943682,
+              246.692242350785,
+              0
+            ],
+            [
+              406.886430892956,
+              252.69590127098,
+              0
+            ],
+            [
+              406.812124110295,
+              253.576544092783,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$21.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.01342140557842,
+              0.01342140557842,
+              1
+            ],
+            [
+              0.41499178765891,
+              0.41499178765891,
+              1
+            ],
+            [
+              0.82589198215873,
+              0.82589198215873,
+              1
+            ],
+            [
+              0.84,
+              0.84,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 73,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$21.alpha": {
+          "values": [
+            1,
+            0.66666666666667,
+            0.24989824989825,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 78,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$22.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              458.943796912514,
+              21.0719319418487,
+              0
+            ],
+            [
+              532.737765705348,
+              39.3541754991878,
+              0
+            ],
+            [
+              580.665776743754,
+              50.9201467377001,
+              0
+            ],
+            [
+              609.297844311475,
+              57.8051523683791,
+              0
+            ],
+            [
+              626.101840617601,
+              61.8705435909839,
+              0
+            ],
+            [
+              634.99005384362,
+              64.0660189396519,
+              0
+            ],
+            [
+              638.163179675196,
+              64.9197001386923,
+              0
+            ],
+            [
+              638.236188930292,
+              64.9619283846368,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 71,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$22.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.17672991368343,
+              0.17672991368343,
+              1
+            ],
+            [
+              0.94734137842335,
+              0.94734137842335,
+              1
+            ],
+            [
+              1.265,
+              1.265,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 71,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$22.alpha": {
+          "values": [
+            1,
+            0.91697191697192,
+            0.5002035002035,
+            0.08343508343508,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 75,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$23.translation": {
+          "values": [
+            [
+              425.916666666667,
+              11.3333333333334,
+              0
+            ],
+            [
+              435.290309442637,
+              22.586263735874,
+              0
+            ],
+            [
+              470.815588570574,
+              66.267652607823,
+              0
+            ],
+            [
+              495.809630719644,
+              97.1473247674189,
+              0
+            ],
+            [
+              510.73310967385,
+              115.603862194561,
+              0
+            ],
+            [
+              519.565146399288,
+              126.526436478184,
+              0
+            ],
+            [
+              524.392505523106,
+              132.489914788411,
+              0
+            ],
+            [
+              526.381982033989,
+              134.936448331436,
+              0
+            ],
+            [
+              526.544168456801,
+              135.130845016257,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$23.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.0516550495647,
+              0.0516550495647,
+              1
+            ],
+            [
+              0.51046364362977,
+              0.51046364362977,
+              1
+            ],
+            [
+              0.815,
+              0.815,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "ltp_prt_lq.png$23.alpha": {
+          "values": [
+            1,
+            0.58323158323158,
+            0.16646316646317,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 75,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png.translation": {
+          "values": [
+            [
+              0,
+              180.5,
+              0
+            ],
+            [
+              -0.0600060153021,
+              169.798927271125,
+              0
+            ],
+            [
+              -0.12000412664638,
+              159.099264081396,
+              0
+            ],
+            [
+              -0.1800000986486,
+              148.399982407666,
+              0
+            ],
+            [
+              -0.24000607091502,
+              137.698917353489,
+              0
+            ],
+            [
+              -0.30000189439265,
+              126.999662166645,
+              0
+            ],
+            [
+              -0.36000326254445,
+              116.299418179574,
+              0
+            ],
+            [
+              -0.42000357878771,
+              105.599361782858,
+              0
+            ],
+            [
+              -0.48001846598005,
+              94.8967069002249,
+              0
+            ],
+            [
+              -0.5400137855724,
+              84.1975415729223,
+              0
+            ],
+            [
+              -0.60000014901157,
+              73.4999734262709,
+              0
+            ],
+            [
+              -0.66000224451863,
+              62.7995997275103,
+              0
+            ],
+            [
+              -0.7200008916282,
+              52.0998409929716,
+              0
+            ],
+            [
+              -0.77999685251434,
+              41.4005613016091,
+              0
+            ],
+            [
+              -0.83999602391595,
+              30.7007090683229,
+              0
+            ],
+            [
+              -0.89999977249899,
+              20.0000405710142,
+              0
+            ],
+            [
+              -0.95998664050952,
+              9.30238244246932,
+              0
+            ],
+            [
+              -1.01997226006723,
+              -1.39505304532256,
+              0
+            ],
+            [
+              -1.07998534229841,
+              -12.0973860432162,
+              0
+            ],
+            [
+              -1.13999712214386,
+              -22.7994867823224,
+              0
+            ],
+            [
+              -1.19993954897891,
+              -33.4892195679052,
+              0
+            ],
+            [
+              -1.25993107155735,
+              -44.1877077610614,
+              0
+            ],
+            [
+              -1.31999481415518,
+              -54.8990751910076,
+              0
+            ],
+            [
+              -1.37994703992372,
+              -65.5905554530636,
+              0
+            ],
+            [
+              -1.43996409578378,
+              -76.2935970814403,
+              0
+            ],
+            [
+              -1.5,
+              -87,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 27,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png.alpha": {
+          "values": [
+            0,
+            0.01056644888421,
+            0.03832734249588,
+            0.07909148372662,
+            0.1300745975975,
+            0.18929161660782,
+            0.25523847801955,
+            0.32670366789952,
+            0.40263817751773,
+            0.48204137326969,
+            0.56381809002652,
+            0.64651200762325,
+            0.72757441116406,
+            0.8,
+            0.7209903208567,
+            0.63275078471348,
+            0.54322087983436,
+            0.45525184170756,
+            0.37051952791602,
+            0.29034932964012,
+            0.21602619152854,
+            0.14898072361622,
+            0.09096733357588,
+            0.04430662280793,
+            0.01229382498592,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 27,
+          "frameLerp": false
+        },
+        "ltp_caustics_texture_0_comp_.png.alpha": {
+          "values": [
+            0,
+            0.12185185231623,
+            0.34814814768565,
+            0.47,
+            0.44396501427455,
+            0.37682215693031,
+            0.28501457701544,
+            0.18498542298249,
+            0.09317784306797,
+            0.02603498572441,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.12185185231623,
+            0.34814814768565,
+            0.47,
+            0.44618075774055,
+            0.38475218612773,
+            0.30075801726944,
+            0.20924198272866,
+            0.12524781387069,
+            0.06381924225851,
+            0.04
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "spin_controller.translation": {
+          "values": [
+            [
+              52.6784701007646,
+              141,
+              0
+            ],
+            [
+              52.6784701007646,
+              137.724995863058,
+              0
+            ],
+            [
+              52.6784701007646,
+              123.880662416501,
+              0
+            ],
+            [
+              52.6784701007646,
+              81.9944015886891,
+              0
+            ],
+            [
+              52.6784701007646,
+              45,
+              0
+            ],
+            [
+              52.6784701007646,
+              57.3580964868299,
+              0
+            ],
+            [
+              52.6784701007646,
+              90.9278611706547,
+              0
+            ],
+            [
+              52.6784701007646,
+              141.639683648905,
+              0
+            ],
+            [
+              52.6784701007646,
+              206.482141384081,
+              0
+            ],
+            [
+              52.6784701007646,
+              283.189009647006,
+              0
+            ],
+            [
+              52.6784701007646,
+              369.965249286961,
+              0
+            ],
+            [
+              52.6784701007646,
+              465.357295853026,
+              0
+            ],
+            [
+              52.6784701007646,
+              568.158790066464,
+              0
+            ],
+            [
+              52.6784701007646,
+              677.350207620017,
+              0
+            ],
+            [
+              52.6784701007646,
+              792.042606679963,
+              0
+            ],
+            [
+              52.6784701007646,
+              911.460710786904,
+              0
+            ],
+            [
+              52.6784701007646,
+              1034.84045774755,
+              0
+            ],
+            [
+              52.6784701007646,
+              1161.56544063413,
+              0
+            ],
+            [
+              52.6784701007646,
+              1290.9477402999,
+              0
+            ],
+            [
+              52.6784701007646,
+              1422.34414246364,
+              0
+            ],
+            [
+              52.6784701007646,
+              1555.11897839997,
+              0
+            ],
+            [
+              52.6784701007646,
+              1688.55136012621,
+              0
+            ],
+            [
+              52.6784701007646,
+              1821.84297296637,
+              0
+            ],
+            [
+              52.6784701007646,
+              1954.1251229955,
+              0
+            ],
+            [
+              52.6784701007646,
+              2084.24261956872,
+              0
+            ],
+            [
+              52.6784701007646,
+              2210.77603676213,
+              0
+            ],
+            [
+              52.6784701007646,
+              2331.78305302283,
+              0
+            ],
+            [
+              52.6784701007646,
+              2444.38845854134,
+              0
+            ],
+            [
+              52.6784701007646,
+              2543.99967879834,
+              0
+            ],
+            [
+              52.6784701007646,
+              2621.99069150559,
+              0
+            ],
+            [
+              52.6784701007646,
+              2658,
+              0
+            ],
+            [
+              52.6784701007646,
+              2641.75169167359,
+              0
+            ],
+            [
+              52.6784701007646,
+              2619.04621127974,
+              0
+            ],
+            [
+              52.6784701007646,
+              2599.7028048616,
+              0
+            ],
+            [
+              52.6784701007646,
+              2586.71740895465,
+              0
+            ],
+            [
+              52.6784701007646,
+              2582,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "Baraban_active.translation": {
+          "values": [
+            [
+              165,
+              239,
+              0
+            ],
+            [
+              164.852261030603,
+              239,
+              0
+            ],
+            [
+              165.678470100765,
+              239,
+              0
+            ],
+            [
+              164.816353168187,
+              239,
+              0
+            ],
+            [
+              164.258958131277,
+              239,
+              0
+            ],
+            [
+              165.502977574181,
+              239,
+              0
+            ],
+            [
+              165.630033530409,
+              239,
+              0
+            ],
+            [
+              165,
+              239,
+              0
+            ],
+            [
+              166.012017019648,
+              239,
+              0
+            ],
+            [
+              164.242877214496,
+              239,
+              0
+            ],
+            [
+              165,
+              239,
+              0
+            ],
+            [
+              164.6010343176,
+              239,
+              0
+            ],
+            [
+              164.852261030603,
+              239,
+              0
+            ],
+            [
+              165.678470100765,
+              239,
+              0
+            ],
+            [
+              164.816353168187,
+              239,
+              0
+            ],
+            [
+              164.258958131277,
+              239,
+              0
+            ],
+            [
+              165.502977574181,
+              239,
+              0
+            ],
+            [
+              165.630033530409,
+              239,
+              0
+            ],
+            [
+              165,
+              239,
+              0
+            ],
+            [
+              166.012017019648,
+              239,
+              0
+            ],
+            [
+              164.242877214496,
+              239,
+              0
+            ],
+            [
+              165,
+              239,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 30,
+          "frameLerp": false
+        },
+        "Baraban_active.alpha": {
+          "values": [
+            0,
+            0.28124141719308,
+            0.56248283438616,
+            0.84372425157924,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.75,
+            0.5,
+            0.25,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 19,
+          "frameLerp": false
+        },
+        "Baraban_active.0.inWhite": {
+          "values": [
+            1,
+            0.97551444448134,
+            0.92465898074606,
+            0.88133541163165,
+            0.87655449327502,
+            0.90452102657338,
+            0.94599117793227,
+            0.98360436370116,
+            1
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 19,
+          "frameLerp": false
+        },
+        "total_number_controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.38662781154673,
+              0.38662781154673,
+              1
+            ],
+            [
+              1.05260235438165,
+              1.05260235438165,
+              1
+            ],
+            [
+              1.19701244198104,
+              1.19701244198104,
+              1
+            ],
+            [
+              1.18770817694189,
+              1.18770817694189,
+              1
+            ],
+            [
+              1.08370173974486,
+              1.08370173974486,
+              1
+            ],
+            [
+              1.0034843682657,
+              1.0034843682657,
+              1
+            ],
+            [
+              1.00170192036188,
+              1.00170192036188,
+              1
+            ],
+            [
+              1.0339535318961,
+              1.0339535318961,
+              1
+            ],
+            [
+              1.05842373012621,
+              1.05842373012621,
+              1
+            ],
+            [
+              1.05938912918953,
+              1.05938912918953,
+              1
+            ],
+            [
+              1.04788404723461,
+              1.04788404723461,
+              1
+            ],
+            [
+              1.00688919353964,
+              1.00688919353964,
+              1
+            ],
+            [
+              1.00029522646732,
+              1.00029522646732,
+              1
+            ],
+            [
+              1.01216288976589,
+              1.01216288976589,
+              1
+            ],
+            [
+              1.02623892421926,
+              1.02623892421926,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.02689238772143,
+              1.02689238772143,
+              1
+            ],
+            [
+              1.01616798336579,
+              1.01616798336579,
+              1
+            ],
+            [
+              1.00113248164348,
+              1.00113248164348,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 68,
+          "frameLerp": false
+        },
+        "chips_controller.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.10987067613432,
+              1.10987067613432,
+              1
+            ],
+            [
+              1.4410160429809,
+              1.4410160429809,
+              1
+            ],
+            [
+              1.57169596195865,
+              1.57169596195865,
+              1
+            ],
+            [
+              1.6,
+              1.6,
+              1
+            ],
+            [
+              1.54509114283904,
+              1.54509114283904,
+              1
+            ],
+            [
+              1.21045908113758,
+              1.21045908113758,
+              1
+            ],
+            [
+              1.00920444628046,
+              1.00920444628046,
+              1
+            ],
+            [
+              1.00170192036188,
+              1.00170192036188,
+              1
+            ],
+            [
+              1.0339535318961,
+              1.0339535318961,
+              1
+            ],
+            [
+              1.05842373012621,
+              1.05842373012621,
+              1
+            ],
+            [
+              1.05938912918953,
+              1.05938912918953,
+              1
+            ],
+            [
+              1.04788404723461,
+              1.04788404723461,
+              1
+            ],
+            [
+              1.00688919353964,
+              1.00688919353964,
+              1
+            ],
+            [
+              1.00029522646732,
+              1.00029522646732,
+              1
+            ],
+            [
+              1.01216288976589,
+              1.01216288976589,
+              1
+            ],
+            [
+              1.02623892421926,
+              1.02623892421926,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.02689238772143,
+              1.02689238772143,
+              1
+            ],
+            [
+              1.01616798336579,
+              1.01616798336579,
+              1
+            ],
+            [
+              1.00113248164348,
+              1.00113248164348,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "chips_icon_2.alpha": {
+          "values": [
+            0,
+            0.10625000072124,
+            0.34000000000153,
+            0.57374999928106,
+            0.68,
+            0.64233236107807,
+            0.54518950364385,
+            0.41236151568191,
+            0.26763848431509,
+            0.13481049635365,
+            0.03766763892043,
+            0
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "chips_icon_2.1.inWhite": {
+          "values": [
+            1,
+            0.93269318648375,
+            0.7775948786126,
+            0.60493827213034,
+            0.48495656174188,
+            0.47564861187959,
+            0.53876498309691,
+            0.64266423953154,
+            0.76404187513697,
+            0.8795933843599,
+            0.96601426149774,
+            1
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "chips_icon.0.inWhite": {
+          "values": [
+            1,
+            0.93269318648375,
+            0.7775948786126,
+            0.60493827213034,
+            0.48495656174188,
+            0.47564861187959,
+            0.53876498309691,
+            0.64266423953154,
+            0.76404187513697,
+            0.8795933843599,
+            0.96601426149774,
+            1
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 70,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png$50.translation": {
+          "values": [
+            [
+              -73.0000000000002,
+              140,
+              0
+            ],
+            [
+              -70.7362583432579,
+              139.497461326042,
+              0
+            ],
+            [
+              -64.4977158406095,
+              137.484495046335,
+              0
+            ],
+            [
+              -55.0007228721338,
+              133.788556352145,
+              0
+            ],
+            [
+              -42.8178373618088,
+              128.646938170313,
+              0
+            ],
+            [
+              -28.4738098461584,
+              122.383499285429,
+              0
+            ],
+            [
+              -12.4775498164695,
+              115.343206300495,
+              0
+            ],
+            [
+              4.6657037153558,
+              107.881534894259,
+              0
+            ],
+            [
+              22.4559931371966,
+              100.361561101582,
+              0
+            ],
+            [
+              40.4013522683384,
+              93.1567605023547,
+              0
+            ],
+            [
+              57.9904664360575,
+              86.6726000619985,
+              0
+            ],
+            [
+              74.7213456767258,
+              81.3612324584731,
+              0
+            ],
+            [
+              90.0778578950803,
+              77.810527665312,
+              0
+            ],
+            [
+              117.67454707147,
+              101.218162791332,
+              0
+            ],
+            [
+              153.646073213806,
+              158.689267223982,
+              0
+            ],
+            [
+              189.160112427821,
+              225.926673822569,
+              0
+            ],
+            [
+              216.278627958168,
+              281.656974209352,
+              0
+            ],
+            [
+              227,
+              304.915466308594,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 58,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png$50.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.05880246673898,
+              0.99826963787617
+            ],
+            [
+              0,
+              0,
+              -0.07088453992864,
+              0.99748452719784
+            ],
+            [
+              0,
+              0,
+              -0.1056781234319,
+              0.99440038929393
+            ],
+            [
+              0,
+              0,
+              -0.16084337825463,
+              0.98697994289228
+            ],
+            [
+              0,
+              0,
+              -0.23368433338864,
+              0.97231251782989
+            ],
+            [
+              0,
+              0,
+              -0.32096622786724,
+              0.94709064010193
+            ],
+            [
+              0,
+              0,
+              -0.41878901182388,
+              0.90808356640541
+            ],
+            [
+              0,
+              0,
+              -0.52257131559113,
+              0.85259557829099
+            ],
+            [
+              0,
+              0,
+              -0.62717505308199,
+              0.77887832990243
+            ],
+            [
+              0,
+              0,
+              -0.72717352240706,
+              0.68645368985104
+            ],
+            [
+              0,
+              0,
+              -0.81723731623648,
+              0.57630128314155
+            ],
+            [
+              0,
+              0,
+              -0.89258685233497,
+              0.45087549394346
+            ],
+            [
+              0,
+              0,
+              -0.94944321560063,
+              0.31393881625236
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 58,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png$52.translation": {
+          "values": [
+            [
+              -73.0000000000002,
+              140,
+              0
+            ],
+            [
+              -70.7362583432579,
+              139.497461326042,
+              0
+            ],
+            [
+              -64.4977158406095,
+              137.484495046335,
+              0
+            ],
+            [
+              -55.0007228721338,
+              133.788556352145,
+              0
+            ],
+            [
+              -42.8178373618088,
+              128.646938170313,
+              0
+            ],
+            [
+              -28.4738098461584,
+              122.383499285429,
+              0
+            ],
+            [
+              -12.4775498164695,
+              115.343206300495,
+              0
+            ],
+            [
+              4.6657037153558,
+              107.881534894259,
+              0
+            ],
+            [
+              22.4559931371966,
+              100.361561101582,
+              0
+            ],
+            [
+              40.4013522683384,
+              93.1567605023547,
+              0
+            ],
+            [
+              57.9904664360575,
+              86.6726000619985,
+              0
+            ],
+            [
+              74.7213456767258,
+              81.3612324584731,
+              0
+            ],
+            [
+              90.0778578950803,
+              77.810527665312,
+              0
+            ],
+            [
+              117.67454707147,
+              101.218162791332,
+              0
+            ],
+            [
+              153.646073213806,
+              158.689267223982,
+              0
+            ],
+            [
+              189.160112427821,
+              225.926673822569,
+              0
+            ],
+            [
+              216.278627958168,
+              281.656974209352,
+              0
+            ],
+            [
+              227,
+              304.915466308594,
+              0
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 58,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png$52.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.05880246673898,
+              0.99826963787617
+            ],
+            [
+              0,
+              0,
+              -0.07088453992864,
+              0.99748452719784
+            ],
+            [
+              0,
+              0,
+              -0.1056781234319,
+              0.99440038929393
+            ],
+            [
+              0,
+              0,
+              -0.16084337825463,
+              0.98697994289228
+            ],
+            [
+              0,
+              0,
+              -0.23368433338864,
+              0.97231251782989
+            ],
+            [
+              0,
+              0,
+              -0.32096622786724,
+              0.94709064010193
+            ],
+            [
+              0,
+              0,
+              -0.41878901182388,
+              0.90808356640541
+            ],
+            [
+              0,
+              0,
+              -0.52257131559113,
+              0.85259557829099
+            ],
+            [
+              0,
+              0,
+              -0.62717505308199,
+              0.77887832990243
+            ],
+            [
+              0,
+              0,
+              -0.72717352240706,
+              0.68645368985104
+            ],
+            [
+              0,
+              0,
+              -0.81723731623648,
+              0.57630128314155
+            ],
+            [
+              0,
+              0,
+              -0.89258685233497,
+              0.45087549394346
+            ],
+            [
+              0,
+              0,
+              -0.94944321560063,
+              0.31393881625236
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 58,
+          "frameLerp": false
+        },
+        "parent_2.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.00148044607497,
+              0.01628492028457,
+              1
+            ],
+            [
+              1.0086466011116,
+              0.09511268733867,
+              1
+            ],
+            [
+              1.04923485244595,
+              0.54158372305987,
+              1
+            ],
+            [
+              1.08255709171899,
+              0.90812840982761,
+              1
+            ],
+            [
+              1.09258034943321,
+              1.01838416778657,
+              1
+            ],
+            [
+              1.09727455606335,
+              1.07002034088154,
+              1
+            ],
+            [
+              1.09941200867024,
+              1.09353221009234,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.07407407397527,
+              1.07407407397527,
+              1
+            ],
+            [
+              1.02592592602433,
+              1.02592592602433,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.02592592602473,
+              1.02592592602473,
+              1
+            ],
+            [
+              1.07407407397567,
+              1.07407407397567,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.09941200867024,
+              1.09353221009234,
+              1
+            ],
+            [
+              1.09727455606335,
+              1.07002034088154,
+              1
+            ],
+            [
+              1.09258034943321,
+              1.01838416778657,
+              1
+            ],
+            [
+              1.08255709171899,
+              0.90812840982761,
+              1
+            ],
+            [
+              1.04923485244595,
+              0.54158372305987,
+              1
+            ],
+            [
+              1.0086466011116,
+              0.09511268733867,
+              1
+            ],
+            [
+              1.00148044607497,
+              0.01628492028457,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 7.95833333333333,
+          "len": 191,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "vip_bonus_panel.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "button_yellow_long.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "sparks_[00000-00009].png.curFrame": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "len": 191,
+          "cutf": 37
+        },
+        "sparks_[00000-00009].png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 36
+        },
+        "sparks_[00000-00009].png$4.curFrame": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "len": 191,
+          "cutf": 32
+        },
+        "sparks_[00000-00009].png$4.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 31
+        },
+        "sparks_[00000-00009].png$5.curFrame": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "len": 191,
+          "cutf": 25
+        },
+        "sparks_[00000-00009].png$5.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 24
+        },
+        "saber_string.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 25
+        },
+        "saber_string.png$7.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 41
+        },
+        "saber_string.png$8.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 34
+        },
+        "saber_string.png$9.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 28
+        },
+        "ltp_prt_lq.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 69
+        },
+        "ltp_prt_lq.png$17.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 69
+        },
+        "ltp_prt_lq.png$18.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 72
+        },
+        "ltp_prt_lq.png$19.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 72
+        },
+        "ltp_prt_lq.png$20.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 73
+        },
+        "ltp_prt_lq.png$21.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 73
+        },
+        "ltp_prt_lq.png$22.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 71
+        },
+        "ltp_prt_lq.png$23.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 70
+        },
+        "button_close.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "exchange_tab.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "text_above_rates.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "spin_controller.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_lightsweep_1.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_caustics_texture_0_comp_.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 19
+        },
+        "Baraban_active.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "Baraban.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "total_number_controller.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 67
+        },
+        "chips_controller.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "chips_icon_2.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "particles_parent.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 105
+        },
+        "chips_icon.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "Ellipse_compensation.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "exchange_rates.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "EXCHANGE_BONUS.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_layer_1226.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "EXCHANGE_DESC.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_line_bronze.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_line_bronze.png$46.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_over_text.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_lightsweep_1.png$50.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_lightsweep_1.png$52.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_shape_66_copy.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 173
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "ltp_bg_dow.png$55.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "ltp_bg_dow.png$56.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "bg.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "parent.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        },
+        "parent_2.enabled": {
+          "duration": 7.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 191,
+          "cutf": 190
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "spin": {
+          "start": 0.75,
+          "duration": 1.5
+        },
+        "exchange": {
+          "start": 2.25,
+          "duration": 1.5
+        },
+        "fail": {
+          "start": 3.75,
+          "duration": 1.41666666666667
+        },
+        "out": {
+          "start": 5.16666666666667,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 7.95833333333333
+        }
+      },
+      "layers": [
+        "vip_bonus_panel",
+        "button_yellow_long",
+        "sparks_[00000-00009].png",
+        "sparks_[00000-00009].png$4",
+        "sparks_[00000-00009].png$5",
+        "saber_string.png",
+        "saber_string.png$7",
+        "saber_string.png$8",
+        "saber_string.png$9",
+        "ltp_prt_lq.png",
+        "ltp_prt_lq.png$17",
+        "ltp_prt_lq.png$18",
+        "ltp_prt_lq.png$19",
+        "ltp_prt_lq.png$20",
+        "ltp_prt_lq.png$21",
+        "ltp_prt_lq.png$22",
+        "ltp_prt_lq.png$23",
+        "button_close",
+        "exchange_tab",
+        "text_above_rates",
+        "spin_controller",
+        "ltp_lightsweep_1.png",
+        "ltp_caustics_texture_0_comp_.png",
+        "Baraban_active",
+        "Baraban",
+        "total_number_controller",
+        "chips_controller",
+        "chips_icon_2",
+        "particles_parent",
+        "chips_icon",
+        "Ellipse_compensation.png",
+        "exchange_rates",
+        "EXCHANGE_BONUS",
+        "ltp_layer_1226.png",
+        "EXCHANGE_DESC",
+        "ltp_line_bronze.png",
+        "ltp_line_bronze.png$46",
+        "ltp_over_text.png",
+        "ltp_solidorange.png",
+        "arrow_3",
+        "ltp_lightsweep_1.png$50",
+        "arrow_2",
+        "ltp_lightsweep_1.png$52",
+        "ltp_shape_66_copy.png",
+        "ltp_bg_dow.png",
+        "ltp_bg_dow.png$55",
+        "ltp_bg_dow.png$56",
+        "ltp_bg_u.png",
+        "bg",
+        "parent",
+        "parent_2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "export_time": "11 July 2018 20:30",
+  "rod_export_v": "Wed Jul 4 12:07:31 2018 +0300\n",
+  "version": 1
+}

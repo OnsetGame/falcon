@@ -1,0 +1,310 @@
+{
+  "name": "arrow_win",
+  "children": [
+    {
+      "name": "pixel_arrow_big.png",
+      "translation": [
+        372,
+        372,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        61,
+        186,
+        0
+      ],
+      "children": [
+        {
+          "name": "pixel_arrow_big.png$2",
+          "translation": [
+            136,
+            186,
+            0
+          ],
+          "anchor": [
+            61,
+            186,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "black": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "white": [
+                1,
+                0.86666667461395,
+                0,
+                1
+              ],
+              "amount": 1,
+              "_c": "Tint"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.796,
+              "scale": 1,
+              "startTime": -5.041,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/pixel_arrow_big.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "pixel_arrow_big.png$1",
+          "translation": [
+            260,
+            186,
+            0
+          ],
+          "anchor": [
+            61,
+            186,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.796,
+              "scale": 1,
+              "startTime": -5.041,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/pixel_arrow_big.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.796,
+          "scale": 1,
+          "startTime": -5.041,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/pixel_arrow_big.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "pixel_arrow_big.png.translation": {
+          "values": [
+            [
+              372,
+              372,
+              0
+            ],
+            [
+              321.997,
+              372,
+              0
+            ],
+            [
+              271.998,
+              371.999,
+              0
+            ],
+            [
+              221.999,
+              372,
+              0
+            ],
+            [
+              171.998,
+              372,
+              0
+            ],
+            [
+              121.999,
+              372,
+              0
+            ],
+            [
+              72,
+              372,
+              0
+            ],
+            [
+              22.001,
+              372,
+              0
+            ],
+            [
+              -27.99,
+              372,
+              0
+            ],
+            [
+              -77.999,
+              372,
+              0
+            ],
+            [
+              -128,
+              372,
+              0
+            ],
+            [
+              -174.333,
+              372,
+              0
+            ],
+            [
+              -225.067,
+              372,
+              0
+            ],
+            [
+              -250.801,
+              372,
+              0
+            ],
+            [
+              -276.533,
+              372,
+              0
+            ],
+            [
+              -302.266,
+              372,
+              0
+            ],
+            [
+              -328,
+              372,
+              0
+            ],
+            [
+              -377.998,
+              372,
+              0
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "pixel_arrow_big.png$1.translation": {
+          "values": [
+            [
+              260,
+              186,
+              0
+            ],
+            [
+              259.325,
+              186,
+              0
+            ],
+            [
+              258.66,
+              186,
+              0
+            ],
+            [
+              258,
+              186,
+              0
+            ],
+            [
+              247,
+              186,
+              0
+            ],
+            [
+              211,
+              186,
+              0
+            ]
+          ],
+          "duration": 0.75,
+          "len": 18,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        "pixel_arrow_big.png$1.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 17
+        },
+        "pixel_arrow_big.png$2.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 17
+        },
+        "pixel_arrow_big.png.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 18,
+          "cutf": 17
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.75
+        }
+      },
+      "layers": [
+        "pixel_arrow_big.png$1",
+        "pixel_arrow_big.png$2",
+        "pixel_arrow_big.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev%20(CC%202018)v3.aep",
+  "version": 1
+}

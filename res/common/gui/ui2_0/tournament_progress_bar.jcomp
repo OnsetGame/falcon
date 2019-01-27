@@ -1,0 +1,520 @@
+{
+  "name": "tournament_progress_bar",
+  "children": [
+    {
+      "name": "progress_bar_shadow_2",
+      "translation": [
+        676.875,
+        36,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "ltp_energy_progress_mask_2",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            1312.75,
+            48
+          ],
+          "radius": 20,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.8
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0,
+            0,
+            0,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_energy_progress_mask_2",
+      "translation": [
+        1340,
+        29,
+        0
+      ],
+      "anchor": [
+        43,
+        43,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_energy_progress_mask.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "progress_bar_shape_2",
+      "translation": [
+        676.875,
+        34,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "ltp_energy_progress_mask_1",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            1312.75,
+            28
+          ],
+          "radius": 14,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.8
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_energy_progress_mask_1",
+      "translation": [
+        1340,
+        29,
+        0
+      ],
+      "anchor": [
+        43,
+        43,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_energy_progress_mask.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "progress_parent",
+      "children": [
+        {
+          "name": "progress_shape_04",
+          "translation": [
+            -42,
+            34,
+            0
+          ],
+          "anchor": [
+            -712,
+            0,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "shape": 0,
+              "startColor": [
+                0.54117649793625,
+                0.7607843875885,
+                0.29019609093666,
+                1
+              ],
+              "endColor": [
+                0.1803921610117,
+                0.49019610881805,
+                0.21960785984993,
+                1
+              ],
+              "startPoint": [
+                32,
+                -10
+              ],
+              "endPoint": [
+                32,
+                58
+              ],
+              "localCoords": true,
+              "_c": "GradientFill"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                1290,
+                20
+              ],
+              "radius": 10,
+              "shapeType": 0,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progress_shape_05",
+          "translation": [
+            -43.375,
+            34,
+            0
+          ],
+          "anchor": [
+            -712,
+            0,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "shape": 0,
+              "startColor": [
+                0.54901963472366,
+                0.76470595598221,
+                0.29019609093666,
+                1
+              ],
+              "endColor": [
+                0.8705883026123,
+                0.93333339691162,
+                0.23921570181847,
+                1
+              ],
+              "startPoint": [
+                -640,
+                28
+              ],
+              "endPoint": [
+                714,
+                28
+              ],
+              "localCoords": true,
+              "_c": "GradientFill"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                1280,
+                12
+              ],
+              "radius": 6,
+              "shapeType": 0,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progress_shape_06",
+          "translation": [
+            -42,
+            34,
+            0
+          ],
+          "anchor": [
+            -712,
+            0,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                1290,
+                20
+              ],
+              "radius": 10,
+              "shapeType": 0,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progress_particle",
+          "translation": [
+            -18.5,
+            10,
+            0
+          ],
+          "anchor": [
+            -18,
+            5,
+            0
+          ],
+          "compositionRef": "../precomps/progress_particle",
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.666,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0.66666666666667,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "progress_shape_06.alpha": {
+          "values": [
+            0,
+            0.002,
+            0.005,
+            0.009,
+            0.016,
+            0.025,
+            0.036,
+            0.05,
+            0.068,
+            0.088,
+            0.109,
+            0.127,
+            0.14,
+            0.147,
+            0.15,
+            0.147,
+            0.14,
+            0.127,
+            0.109,
+            0.089,
+            0.069,
+            0.051,
+            0.037,
+            0.025,
+            0.016,
+            0.01,
+            0.005,
+            0.002,
+            0
+          ],
+          "duration": 8,
+          "len": 240,
+          "cutf": 1
+        },
+        "progress_parent.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_particle.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 19
+        },
+        "progress_shape_06.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_shape_05.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_shape_04.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_bar_shape_2.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_bar_shadow_2.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "highlight": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "progress_parent",
+        "progress_particle",
+        "progress_shape_06",
+        "progress_shape_05",
+        "progress_shape_04",
+        "ltp_energy_progress_mask_1",
+        "progress_bar_shape_2",
+        "ltp_energy_progress_mask_2",
+        "progress_bar_shadow_2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

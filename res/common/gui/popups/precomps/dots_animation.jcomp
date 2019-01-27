@@ -1,0 +1,268 @@
+{
+  "name": "dots_animation",
+  "children": [
+    {
+      "name": ".",
+      "translation": [
+        834.25,
+        89.75,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": ".",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": ". 2",
+      "translation": [
+        821.75,
+        89.75,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": ".",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": ". 3",
+      "translation": [
+        809,
+        89.75,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": ".",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        ". 3.alpha": {
+          "values": [
+            0,
+            0.055,
+            0.198,
+            0.393,
+            0.606,
+            0.801,
+            0.944,
+            1,
+            1,
+            1,
+            1,
+            0.895,
+            0.647,
+            0.352,
+            0.104,
+            0
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        ". 2.alpha": {
+          "values": [
+            0,
+            0.014,
+            0.118,
+            0.291,
+            0.5,
+            0.708,
+            0.881,
+            0.985,
+            0.999,
+            1,
+            1,
+            0.971,
+            0.783,
+            0.499,
+            0.216,
+            0.028,
+            0
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 4,
+          "frameLerp": false
+        },
+        "..alpha": {
+          "values": [
+            0,
+            0.055,
+            0.198,
+            0.393,
+            0.606,
+            0.801,
+            0.944,
+            1,
+            1,
+            1,
+            1,
+            0.895,
+            0.647,
+            0.352,
+            0.104
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        ". 3.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        ". 2.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "..enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        }
+      },
+      "markers": {
+        "crystal": {
+          "start": 0,
+          "duration": 0.16666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        ". 3",
+        ". 2",
+        "."
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "16 May 2018 19:54",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

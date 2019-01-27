@@ -1,0 +1,109 @@
+{
+  "name": "green_scene",
+  "children": [
+    {
+      "name": "bg_green_o.png",
+      "translation": [
+        960,
+        293.625,
+        0
+      ],
+      "scale": [
+        1.255,
+        1.255,
+        1
+      ],
+      "anchor": [
+        767.5,
+        235,
+        0
+      ],
+      "children": [
+        {
+          "name": "bg_green_o.png$5",
+          "translation": [
+            767.5,
+            704.6,
+            0
+          ],
+          "scale": [
+            1,
+            -1,
+            1
+          ],
+          "anchor": [
+            767.5,
+            235,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/bg_green_o.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/bg_green_o.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "light_bulbs",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "light_bulbs",
+      "components": [
+        {
+          "hue": 0.563,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        }
+      ]
+    },
+    {
+      "name": "info_panel",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "info_panel",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": 0.919,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev%20(CC%202018)v3.aep",
+  "version": 1
+}

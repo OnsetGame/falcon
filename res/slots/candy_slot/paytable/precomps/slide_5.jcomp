@@ -1,0 +1,276 @@
+{
+  "name": "slide_5",
+  "children": [
+    {
+      "name": "candy_paytable_text_9",
+      "translation": [
+        503.999,
+        671.4,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "All wins are multiplied by the per-line bet.\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0,
+            -1.33333015441895,
+            304,
+            128.866632461548
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "candy_paytable_text_8",
+      "translation": [
+        503.999,
+        571.4,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Only the highest win is paid on\neach payline.\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "bounds": [
+            0,
+            -1.33333015441895,
+            304,
+            128.866632461548
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "candy_paytable_text_7",
+      "translation": [
+        503.999,
+        441.4,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "All of the symbols, exept Bonus and Scatter, pay left to right when appearing on consecutive reels, on an payline, starting with the far left reel.\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0,
+            -1.33333015441895,
+            304,
+            128.866632461548
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "candy_paytable_game_rules",
+      "translation": [
+        959.599,
+        191.799,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "game rules",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "candy_paytable_game_rules.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candy_paytable_text_7.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candy_paytable_text_8.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candy_paytable_text_9.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "candy_paytable_game_rules",
+        "candy_paytable_text_7",
+        "candy_paytable_text_8",
+        "candy_paytable_text_9"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "new_candy_paytable%20(converted).aep",
+  "version": 1
+}

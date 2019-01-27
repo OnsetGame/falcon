@@ -1,0 +1,110 @@
+{
+  "name": "win_numbers_Y",
+  "children": [
+    {
+      "name": "win_number_Y$2",
+      "translation": [
+        41.394,
+        58.239,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.963,
+        1
+      ],
+      "anchor": [
+        43,
+        60.5,
+        0
+      ],
+      "compositionRef": "win_number_Y",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "win_number_Y",
+      "translation": [
+        110.873,
+        39.22,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.963,
+        1
+      ],
+      "anchor": [
+        43,
+        60.5,
+        0
+      ],
+      "compositionRef": "win_number_Y",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "win_number_Y.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        },
+        "win_number_Y$2.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.03333333333333
+        }
+      },
+      "layers": [
+        "win_number_Y",
+        "win_number_Y$2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Numbers_small_last_candy2_YELLOW.aep",
+  "export_time": "9 July 2018 10:47",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

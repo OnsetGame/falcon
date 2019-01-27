@@ -1,0 +1,68 @@
+{
+  "name": "ratings_old_comp",
+  "children": [
+    {
+      "name": "rating_old.png",
+      "translation": [
+        930.5,
+        992,
+        0
+      ],
+      "scale": [
+        1.045,
+        1.045,
+        1
+      ],
+      "anchor": [
+        768,
+        807.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/rating_old.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rating_old.png.enabled": {
+          "duration": 8.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 242,
+          "cutf": 241
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8.04166666666667
+        }
+      },
+      "layers": [
+        "rating_old.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ratings_old_dev.aep",
+  "version": 1
+}

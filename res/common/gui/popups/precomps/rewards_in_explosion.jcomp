@@ -1,0 +1,162 @@
+{
+  "name": "rewards_in_explosion",
+  "children": [
+    {
+      "name": "saber_string.png",
+      "translation": [
+        395,
+        172,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        102.5,
+        89.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.25,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/saber_string.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "saber_string.png.translation": {
+          "values": [
+            [
+              395,
+              172,
+              0
+            ],
+            [
+              380.516,
+              172,
+              0
+            ],
+            [
+              351.037,
+              172,
+              0
+            ],
+            [
+              314.175,
+              172,
+              0
+            ],
+            [
+              272.688,
+              171.999,
+              0
+            ],
+            [
+              227.796,
+              172,
+              0
+            ],
+            [
+              180.17,
+              172,
+              0
+            ],
+            [
+              130.097,
+              172,
+              0
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 0
+        },
+        "saber_string.png.scale": {
+          "values": [
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2.42,
+              1.999,
+              1
+            ],
+            [
+              3.319,
+              2,
+              1
+            ],
+            [
+              4.15,
+              2,
+              1
+            ],
+            [
+              4.356,
+              1.999,
+              1
+            ],
+            [
+              3.518,
+              2,
+              1
+            ],
+            [
+              2.197,
+              2,
+              1
+            ],
+            [
+              1.165,
+              1.999,
+              1
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 0
+        },
+        "saber_string.png.enabled": {
+          "duration": 0.25,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 8,
+          "cutf": 7
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.25
+        }
+      },
+      "layers": [
+        "saber_string.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "task_complete_3rd_step_opt_V2_dev.aep",
+  "version": 1
+}

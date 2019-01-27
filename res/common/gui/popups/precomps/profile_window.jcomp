@@ -1,0 +1,839 @@
+{
+  "name": "profile_window",
+  "children": [
+    {
+      "name": "Black Solid 9",
+      "translation": [
+        960,
+        540.5,
+        0
+      ],
+      "scale": [
+        1,
+        1.108,
+        1
+      ],
+      "anchor": [
+        575,
+        252.5,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1150,
+            505
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "player_profile_up.png$20",
+      "translation": [
+        960,
+        230,
+        0
+      ],
+      "anchor": [
+        582,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1164,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "player_profile_up.png",
+      "translation": [
+        960,
+        849.937,
+        0
+      ],
+      "scale": [
+        1,
+        -1,
+        1
+      ],
+      "anchor": [
+        582,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1164,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        737,
+        133,
+        0
+      ],
+      "compositionRef": "popup_title.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1477,
+        209,
+        0
+      ],
+      "compositionRef": "button_close.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5.8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ava_template",
+      "translation": [
+        421,
+        305,
+        0
+      ],
+      "compositionRef": "ava_template.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_cartel",
+      "translation": [
+        421,
+        588.5,
+        0
+      ],
+      "compositionRef": "button_black_small.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_edit",
+      "translation": [
+        421,
+        493,
+        0
+      ],
+      "compositionRef": "button_black_small.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "level_prog",
+      "translation": [
+        541.5,
+        413.75,
+        0
+      ],
+      "compositionRef": "profile_progress.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "vip_prog",
+      "translation": [
+        541.5,
+        580.25,
+        0
+      ],
+      "compositionRef": "profile_progress.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "chips_resource",
+      "translation": [
+        976,
+        401,
+        0
+      ],
+      "compositionRef": "profile_resources.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rate_resource",
+      "translation": [
+        976,
+        497.25,
+        0
+      ],
+      "compositionRef": "profile_resources.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pvp_resource",
+      "translation": [
+        976,
+        593.75,
+        0
+      ],
+      "compositionRef": "profile_resources.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "citypoints_resource",
+      "translation": [
+        976,
+        688.75,
+        0
+      ],
+      "compositionRef": "profile_resources.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gui_text_rank",
+      "translation": [
+        1405.963,
+        367.223,
+        0
+      ],
+      "anchor": [
+        2.087,
+        -16.776,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "RANK",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            0.60001003742218,
+            0.44705000519753,
+            0.29019001126289
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_text_amount",
+      "translation": [
+        1104.739,
+        367.127,
+        0
+      ],
+      "anchor": [
+        0.24,
+        -16.871,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "AMOUNT",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            0.60001003742218,
+            0.44705000519753,
+            0.29019001126289
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "text_playerTitle",
+      "translation": [
+        650.164,
+        409.6,
+        0
+      ],
+      "anchor": [
+        1.664,
+        -22.4,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "PLAYER_TITLE",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            0.60000002384186,
+            0.44705998897552,
+            0.29020002484322
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "text_playerName",
+      "translation": [
+        648.495,
+        349.399,
+        0
+      ],
+      "anchor": [
+        2.496,
+        -33.6,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Player_Name",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_text_res",
+      "translation": [
+        1000.588,
+        367.151,
+        0
+      ],
+      "anchor": [
+        2.087,
+        -16.848,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "RES",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "button_facebook",
+      "translation": [
+        767.5,
+        686,
+        0
+      ],
+      "anchor": [
+        125.5,
+        42,
+        0
+      ],
+      "compositionRef": "button_facebook.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "button_facebook.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 29
+        },
+        "gui_text_res.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "text_playerName.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "text_playerTitle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gui_text_amount.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gui_text_rank.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "citypoints_resource.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "pvp_resource.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "rate_resource.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "chips_resource.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "vip_prog.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "level_prog.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_edit.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_cartel.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ava_template.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "player_profile_up.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "player_profile_up.png$20.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Black Solid 9.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "button_facebook",
+        "gui_text_res",
+        "text_playerName",
+        "text_playerTitle",
+        "gui_text_amount",
+        "gui_text_rank",
+        "citypoints_resource",
+        "pvp_resource",
+        "rate_resource",
+        "chips_resource",
+        "vip_prog",
+        "level_prog",
+        "button_edit",
+        "button_cartel",
+        "ava_template",
+        "button_close",
+        "popup_title",
+        "player_profile_up.png",
+        "player_profile_up.png$20",
+        "Black Solid 9"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

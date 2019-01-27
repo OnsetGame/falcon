@@ -1,0 +1,102 @@
+{
+  "name": "mermaid_prepare",
+  "children": [
+    {
+      "name": "mermaid_prepare_idle",
+      "translation": [
+        0,
+        1495,
+        0
+      ],
+      "anchor": [
+        0,
+        1495,
+        0
+      ],
+      "compositionRef": "mermaid_prepare_idle.json",
+      "components": [
+        {
+          "inPoint": 4,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 4,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "mermaid_prepare_in",
+      "translation": [
+        0,
+        1495,
+        0
+      ],
+      "anchor": [
+        0,
+        1495,
+        0
+      ],
+      "compositionRef": "mermaid_prepare_in.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "mermaid_prepare_in.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 119
+        },
+        "mermaid_prepare_idle.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 4
+        },
+        "idle": {
+          "start": 4,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "mermaid_prepare_in",
+        "mermaid_prepare_idle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "marmaid_prepare_v2_dev.aep",
+  "version": 1
+}

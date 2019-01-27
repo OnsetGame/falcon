@@ -1,0 +1,320 @@
+{
+  "name": "task_window_progress_bar",
+  "children": [
+    {
+      "name": "progress_bar_shadow",
+      "translation": [
+        189.375,
+        36,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            342,
+            46
+          ],
+          "radius": 20,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.8
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0,
+            0,
+            0,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "progress_bar_shape",
+      "translation": [
+        189.875,
+        34,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            326,
+            28
+          ],
+          "radius": 14,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.8
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "progress_task_parent",
+      "children": [
+        {
+          "name": "progress_shape_02",
+          "translation": [
+            30,
+            34,
+            0
+          ],
+          "anchor": [
+            -160,
+            0,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "shape": 0,
+              "startColor": [
+                0.05490196496248,
+                0.82745105028152,
+                0.98039221763611,
+                1
+              ],
+              "endColor": [
+                0.04705882817507,
+                0.52941179275513,
+                0.85490202903748,
+                1
+              ],
+              "startPoint": [
+                28,
+                -10
+              ],
+              "endPoint": [
+                28,
+                58
+              ],
+              "localCoords": true,
+              "_c": "GradientFill"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                320,
+                20
+              ],
+              "radius": 10,
+              "shapeType": 0,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "progress_shape_01",
+          "translation": [
+            30,
+            33.75,
+            0
+          ],
+          "anchor": [
+            -160,
+            0,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "shape": 0,
+              "startColor": [
+                0.01176470704377,
+                0.66666668653488,
+                0.85490202903748,
+                1
+              ],
+              "endColor": [
+                0.09411765635014,
+                1,
+                1,
+                1
+              ],
+              "startPoint": [
+                -155,
+                28
+              ],
+              "endPoint": [
+                221,
+                28
+              ],
+              "localCoords": true,
+              "_c": "GradientFill"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                310,
+                12
+              ],
+              "radius": 6,
+              "shapeType": 0,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "progress_task_parent.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_shape_01.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_shape_02.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_bar_shape.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "progress_bar_shadow.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "highlight": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "progress_task_parent",
+        "progress_shape_01",
+        "progress_shape_02",
+        "progress_bar_shape",
+        "progress_bar_shadow"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

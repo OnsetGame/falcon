@@ -1,0 +1,121 @@
+{
+  "name": "tab_middle",
+  "children": [
+    {
+      "name": "ltp_tab_middle_new.png",
+      "translation": [
+        269.5,
+        54,
+        0
+      ],
+      "anchor": [
+        269.5,
+        54,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_tab_middle_new.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        269.5,
+        65.5,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Speed Up",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 122,
+          "cutf": 121
+        },
+        "ltp_tab_middle_new.png.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 122,
+          "cutf": 121
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4.04166666666667
+        }
+      },
+      "layers": [
+        "title",
+        "ltp_tab_middle_new.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

@@ -1,0 +1,192 @@
+{
+  "name": "screen_idle",
+  "children": [
+    {
+      "name": "screen_idle_[00327-00347].png",
+      "translation": [
+        351,
+        430,
+        0
+      ],
+      "anchor": [
+        182,
+        128,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/screen_idle_00327.png",
+            "resources/screen_idle_00328.png",
+            "resources/screen_idle_00329.png",
+            "resources/screen_idle_00330.png",
+            "resources/screen_idle_00331.png",
+            "resources/screen_idle_00332.png",
+            "resources/screen_idle_00333.png",
+            "resources/screen_idle_00334.png",
+            "resources/screen_idle_00335.png",
+            "resources/screen_idle_00336.png",
+            "resources/screen_idle_00337.png",
+            "resources/screen_idle_00338.png",
+            "resources/screen_idle_00339.png",
+            "resources/screen_idle_00340.png",
+            "resources/screen_idle_00341.png",
+            "resources/screen_idle_00342.png",
+            "resources/screen_idle_00343.png",
+            "resources/screen_idle_00344.png",
+            "resources/screen_idle_00345.png",
+            "resources/screen_idle_00346.png",
+            "resources/screen_idle_00347.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "screen_idle_[00327-00347].png.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 29
+        },
+        "screen_idle_[00327-00347].png.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20
+          ],
+          "len": 30,
+          "cutf": 0
+        },
+        "screen_idle_[00327-00347].png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -14.4166666666667,
+          "duration": 1.5833333333334
+        },
+        "idle_1": {
+          "start": -12.8333333333333,
+          "duration": 1.9583333333333
+        },
+        "idle_2": {
+          "start": -10.875,
+          "duration": 2
+        },
+        "spin": {
+          "start": -8.875,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -6.875,
+          "duration": 0.66666666666667
+        },
+        "anticipation_loop": {
+          "start": -6.20833333333333,
+          "duration": 1.33333333333333
+        },
+        "anticipation_end": {
+          "start": -4.875,
+          "duration": 0.33333333333333
+        },
+        "win": {
+          "start": -4.54166666666667,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -3.54166666666667,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -1.54166666666667,
+          "duration": 1.04166666666667
+        },
+        "wild_appear": {
+          "start": -0.5,
+          "duration": 0.5
+        },
+        "play": {
+          "start": 0,
+          "duration": 1
+        },
+        "wild_move_right": {
+          "start": 1,
+          "duration": 1
+        },
+        "wild_win": {
+          "start": 2,
+          "duration": 1.54166666666667
+        },
+        "wild_to_portal": {
+          "start": 3.54166666666667,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "screen_idle_[00327-00347].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

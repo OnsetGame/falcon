@@ -1,0 +1,211 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "sky",
+  "components": [
+    {
+      "vertex_coords": [
+        -1800.0,
+        540.0,
+        0.0,
+        -1800.0,
+        -540.0,
+        0.0,
+        1800.0,
+        -540.0,
+        0.0,
+        1800.0,
+        540.0,
+        0.0
+      ],
+      "blend": false,
+      "rimColor": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matcapPercentB": 1.0,
+      "shininess": 0.0,
+      "light": false,
+      "RIM": false,
+      "tex_coords": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "matcapPercentR": 1.0,
+      "albedoTexture": "intro_textures/Sky.png",
+      "reflectionPercent": 1.0,
+      "normalPercent": 1.0,
+      "falloffPercent": 1.0,
+      "culling": true,
+      "matcapPercentA": 1.0,
+      "matcapMaskPercent": 1.0,
+      "wireframe": false,
+      "maskPercent": 1.0,
+      "indices": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        0
+      ],
+      "depth_test": true,
+      "matcapPercentG": 1.0,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "glossPercent": 1.0,
+      "specularPercent": 1.0,
+      "sRGB_normal": false,
+      "bumpPercent": 1.0,
+      "rim_density": 0.0,
+      "albedoPercent": 1.0,
+      "_c": "MeshComponent"
+    }
+  ],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "sun_anchor",
+      "components": [],
+      "children": [
+        {
+          "rotation": [
+            0.0,
+            0.0,
+            -0.1305261999368668,
+            0.9914448857307434
+          ],
+          "name": "sun_white",
+          "components": [
+            {
+              "vertex_coords": [
+                -256.0,
+                256.0,
+                0.0,
+                -256.0,
+                -256.0,
+                0.0,
+                256.0,
+                -256.0,
+                0.0,
+                256.0,
+                256.0,
+                0.0
+              ],
+              "blend": true,
+              "rimColor": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "matcapPercentB": 1.0,
+              "shininess": 0.0,
+              "light": false,
+              "RIM": false,
+              "tex_coords": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "matcapPercentR": 1.0,
+              "albedoTexture": "intro_textures/sun.png",
+              "reflectionPercent": 1.0,
+              "normalPercent": 1.0,
+              "falloffPercent": 1.0,
+              "culling": true,
+              "matcapPercentA": 1.0,
+              "matcapMaskPercent": 1.0,
+              "wireframe": false,
+              "maskPercent": 1.0,
+              "indices": [
+                0,
+                1,
+                2,
+                2,
+                3,
+                0
+              ],
+              "depth_test": true,
+              "matcapPercentG": 1.0,
+              "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "glossPercent": 1.0,
+              "specularPercent": 1.0,
+              "sRGB_normal": false,
+              "bumpPercent": 1.0,
+              "rim_density": 0.0,
+              "albedoPercent": 1.0,
+              "_c": "MeshComponent"
+            }
+          ],
+          "children": [],
+          "alpha": 1.0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "alpha": 1.0,
+      "scale": [
+        1.5,
+        1.5,
+        500.0
+      ],
+      "translation": [
+        -500.0,
+        300.0,
+        5.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    2.5,
+    2.5,
+    2.5
+  ],
+  "translation": [
+    0.0,
+    0.0,
+    -5000.0
+  ],
+  "version": 1
+}

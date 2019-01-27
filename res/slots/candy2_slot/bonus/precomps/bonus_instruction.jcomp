@@ -1,0 +1,119 @@
+{
+  "name": "bonus_instruction",
+  "children": [
+    {
+      "name": "shape",
+      "translation": [
+        817,
+        1021.5,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            764,
+            71
+          ],
+          "radius": 20,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "candy2_bonus_rules",
+      "translation": [
+        606,
+        1031.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Pick boxes until you fail",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "candy2_bonus_rules.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "shape.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "candy2_bonus_rules",
+        "shape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

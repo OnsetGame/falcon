@@ -1,0 +1,166 @@
+{
+  "name": "bg",
+  "children": [
+    {
+      "name": "bonus_paddings_vertical",
+      "compositionRef": "../../paddings/bonus_paddings_vertical",
+      "affectsChildren": false
+    },
+    {
+      "name": "bonus_paddings_horizontal",
+      "compositionRef": "../../paddings/bonus_paddings_horizontal",
+      "affectsChildren": false
+    },
+    {
+      "name": "bonus_bg.png",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../sources/bonus_bg.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "dron2",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "dron2",
+      "affectsChildren": false
+    },
+    {
+      "name": "dron1",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "dron1",
+      "affectsChildren": false
+    },
+    {
+      "name": "bg_down_part",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "bg_down_part",
+      "affectsChildren": false
+    },
+    {
+      "name": "part_server",
+      "translation": [
+        295,
+        259,
+        0
+      ],
+      "anchor": [
+        25,
+        261,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../sources/part_server.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cow_bg",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "cow_bg",
+      "affectsChildren": false
+    },
+    {
+      "name": "blue_glow",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "blue_glow",
+      "affectsChildren": false
+    },
+    {
+      "name": "flask_with_milk",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "flask_with_milk",
+      "affectsChildren": false
+    },
+    {
+      "name": "bg_upper_part",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "bg_upper_part",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

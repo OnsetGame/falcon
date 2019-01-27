@@ -1,0 +1,63 @@
+{
+  "name": "candy_walkway",
+  "children": [
+    {
+      "name": "can2.png",
+      "translation": [
+        724.5,
+        1297.5,
+        0
+      ],
+      "anchor": [
+        425.5,
+        219.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/can2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "can2.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "can2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "candy_old_dev.aep",
+  "version": 1
+}

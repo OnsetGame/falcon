@@ -1,0 +1,83 @@
+{
+  "name": "boom",
+  "children": [
+    {
+      "name": "boom_[00000-00013].png$AUX",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "name": "boom_[00000-00013].png",
+          "translation": [
+            -11,
+            12,
+            0
+          ],
+          "scale": [
+            0.18,
+            -0.18,
+            -0.18
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../boom/boom_00000.png",
+                "../boom/boom_00001.png",
+                "../boom/boom_00002.png",
+                "../boom/boom_00003.png",
+                "../boom/boom_00004.png",
+                "../boom/boom_00005.png",
+                "../boom/boom_00006.png",
+                "../boom/boom_00007.png",
+                "../boom/boom_00008.png",
+                "../boom/boom_00009.png",
+                "../boom/boom_00010.png",
+                "../boom/boom_00011.png",
+                "../boom/boom_00012.png",
+                "../boom/boom_00013.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "blendMode": "ADD",
+          "_c": "VisualModifier"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "play":
+    {
+      "boom_[00000-00013].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.46666666666667,
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    }
+  },
+  "version": 1
+}

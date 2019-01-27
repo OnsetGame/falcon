@@ -1,0 +1,170 @@
+{
+  "name": "rewards_box",
+  "children": [
+    {
+      "name": "rewards_box_grey",
+      "translation": [
+        216,
+        219,
+        0
+      ],
+      "anchor": [
+        216,
+        219,
+        0
+      ],
+      "compositionRef": "rewards_box_grey.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rewards_box_blue",
+      "translation": [
+        216,
+        219,
+        0
+      ],
+      "anchor": [
+        219,
+        222,
+        0
+      ],
+      "compositionRef": "rewards_box_blue.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rewards_box_red",
+      "translation": [
+        216,
+        219,
+        0
+      ],
+      "anchor": [
+        216,
+        219,
+        0
+      ],
+      "compositionRef": "rewards_box_red.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rewards_box_gold",
+      "translation": [
+        216,
+        219,
+        0
+      ],
+      "anchor": [
+        223,
+        226,
+        0
+      ],
+      "compositionRef": "rewards_box_gold.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rewards_box_gold.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "rewards_box_red.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "rewards_box_blue.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "rewards_box_grey.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "rewards_box_gold",
+        "rewards_box_red",
+        "rewards_box_blue",
+        "rewards_box_grey"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "task_complete_3rd_step_opt_V2_dev.aep",
+  "version": 1
+}

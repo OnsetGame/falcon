@@ -1,0 +1,295 @@
+{
+  "name": "green_button_friends",
+  "children": [
+    {
+      "name": "green_button_on.png",
+      "translation": [
+        240,
+        42,
+        0
+      ],
+      "anchor": [
+        240,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButtonWhiteStrokeOff",
+          "size": [
+            480,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "green_button_off.png",
+      "translation": [
+        240,
+        42,
+        0
+      ],
+      "anchor": [
+        240,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButtonWhiteStrokeOff",
+          "size": [
+            480,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "facebook_invite_more_friends",
+      "translation": [
+        273.5,
+        49.274,
+        0
+      ],
+      "children": [
+        {
+          "name": "tiny_plus.png",
+          "translation": [
+            -216.5,
+            -8.274,
+            0
+          ],
+          "anchor": [
+            16,
+            16,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/tiny_plus.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "INVITE MORE FRIENDS",
+          "font": "Exo2-Black",
+          "fontSize": 30,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "facebook_invite_more_friends.translation": {
+          "values": [
+            [
+              273.5,
+              49.274,
+              0
+            ],
+            [
+              273.5,
+              49.575,
+              0
+            ],
+            [
+              273.5,
+              50.174,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.5,
+              50.774,
+              0
+            ],
+            [
+              273.499,
+              50.174,
+              0
+            ],
+            [
+              273.5,
+              49.575,
+              0
+            ],
+            [
+              273.5,
+              49.274,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "green_button_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "tiny_plus.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "facebook_invite_more_friends.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "green_button_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "green_button_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "tiny_plus.png",
+        "facebook_invite_more_friends",
+        "green_button_off.png",
+        "green_button_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

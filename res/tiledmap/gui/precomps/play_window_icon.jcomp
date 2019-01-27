@@ -1,0 +1,62 @@
+{
+  "name": "play_window_icon",
+  "children": [
+    {
+      "name": "ltp_windy_day_icon.png",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.208,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_windy_day_icon.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_windy_day_icon.png.enabled": {
+          "duration": 5.20833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 157,
+          "cutf": 156
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.20833333333333
+        }
+      },
+      "layers": [
+        "ltp_windy_day_icon.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_6.aep",
+  "version": 1
+}

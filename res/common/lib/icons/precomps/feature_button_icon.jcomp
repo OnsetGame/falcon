@@ -1,0 +1,190 @@
+{
+  "name": "feature_button_icon",
+  "children": [
+    {
+      "name": "Wheel",
+      "translation": [
+        83,
+        75,
+        0
+      ],
+      "anchor": [
+        81,
+        74,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/GUI_WHEEL_BUTTON.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Exchange",
+      "translation": [
+        83,
+        75,
+        0
+      ],
+      "anchor": [
+        83,
+        68,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/GUI_EXCHANGE_BUTTON.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Gift",
+      "translation": [
+        83,
+        75,
+        0
+      ],
+      "anchor": [
+        76,
+        76,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/GUI_GIFTS_BUTTON.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Friends",
+      "translation": [
+        83,
+        75,
+        0
+      ],
+      "anchor": [
+        80,
+        76,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/GUI_FRIENDS_BUTTON.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Friends.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Gift.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Exchange.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Wheel.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "Friends",
+        "Gift",
+        "Exchange",
+        "Wheel"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_lower_part_dev.aep",
+  "version": 1
+}

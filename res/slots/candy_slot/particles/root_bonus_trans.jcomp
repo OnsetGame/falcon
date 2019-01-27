@@ -1,0 +1,539 @@
+{
+  "rotation": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "name": "jelly_fx",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "name": "circle",
+      "components": [
+        {
+          "dstScale": [
+            1,
+            1,
+            1
+          ],
+          "randScaleTo": 15,
+          "distance": 40,
+          "scaleSeq": [],
+          "lifetime": 1.5,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -15,
+          "isBlendAdd": false,
+          "duration": 2,
+          "randVelocityFrom": -10,
+          "startScale": [
+            25,
+            25,
+            25
+          ],
+          "genShapeNode": "circle",
+          "gravity": [
+            0,
+            -1,
+            0
+          ],
+          "startColor": [
+            1,
+            1,
+            1,
+            0.75
+          ],
+          "randRotVelocityTo": [
+            90,
+            90,
+            180
+          ],
+          "startVelocity": 25,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90,
+            -90,
+            -180
+          ],
+          "amplitude": 5,
+          "birthRate": 300,
+          "texture": "drop_brown_2.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9,
+          "is3dRotation": false,
+          "dstColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "airDensity": 0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            64,
+            64
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 12,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1,
+      "scale": [
+        1,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "rotation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "name": "jelly2",
+      "components": [
+        {
+          "dstScale": [
+            5,
+            5,
+            5
+          ],
+          "randScaleTo": 15,
+          "distance": 40,
+          "scaleSeq": [],
+          "lifetime": 1,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -15,
+          "isBlendAdd": false,
+          "duration": 2,
+          "randVelocityFrom": -10,
+          "startScale": [
+            20,
+            20,
+            20
+          ],
+          "genShapeNode": "jelly2",
+          "gravity": [
+            0,
+            -1,
+            0
+          ],
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "randRotVelocityTo": [
+            90,
+            90,
+            180
+          ],
+          "startVelocity": 25,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90,
+            -90,
+            -180
+          ],
+          "amplitude": 5,
+          "birthRate": 180,
+          "texture": "c11.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9,
+          "is3dRotation": false,
+          "dstColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "airDensity": 0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            64,
+            64
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 10,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1,
+      "scale": [
+        1,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "rotation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "name": "circle",
+      "components": [
+        {
+          "dstScale": [
+            1,
+            1,
+            1
+          ],
+          "randScaleTo": 15,
+          "distance": 40,
+          "scaleSeq": [],
+          "lifetime": 1.5,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -15,
+          "isBlendAdd": false,
+          "duration": 2,
+          "randVelocityFrom": -10,
+          "startScale": [
+            25,
+            25,
+            25
+          ],
+          "genShapeNode": "circle",
+          "gravity": [
+            0,
+            -1,
+            0
+          ],
+          "startColor": [
+            1,
+            1,
+            1,
+            0.75
+          ],
+          "randRotVelocityTo": [
+            90,
+            90,
+            180
+          ],
+          "startVelocity": 25,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90,
+            -90,
+            -180
+          ],
+          "amplitude": 5,
+          "birthRate": 300,
+          "texture": "white_circle_fx.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9,
+          "is3dRotation": false,
+          "dstColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "airDensity": 0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            100,
+            100
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 12,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1,
+      "scale": [
+        1,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "rotation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "name": "jelly",
+      "components": [
+        {
+          "dstScale": [
+            1,
+            1,
+            1
+          ],
+          "randScaleTo": 15,
+          "distance": 40,
+          "scaleSeq": [],
+          "lifetime": 0.75,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -15,
+          "isBlendAdd": false,
+          "duration": 2,
+          "randVelocityFrom": -10,
+          "startScale": [
+            15,
+            15,
+            35
+          ],
+          "genShapeNode": "jelly",
+          "gravity": [
+            0,
+            -1,
+            0
+          ],
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "randRotVelocityTo": [
+            90,
+            90,
+            180
+          ],
+          "startVelocity": 25,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90,
+            -90,
+            -180
+          ],
+          "amplitude": 5,
+          "birthRate": 180,
+          "texture": "Circle0.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9,
+          "is3dRotation": false,
+          "dstColor": [
+            0.699999988079071,
+            0,
+            0,
+            1
+          ],
+          "airDensity": 0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            67,
+            67
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 15,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1,
+      "scale": [
+        1,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "rotation": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "name": "jelly2",
+      "components": [
+        {
+          "dstScale": [
+            5,
+            5,
+            5
+          ],
+          "randScaleTo": 15,
+          "distance": 40,
+          "scaleSeq": [],
+          "lifetime": 1,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -15,
+          "isBlendAdd": false,
+          "duration": 2,
+          "randVelocityFrom": -10,
+          "startScale": [
+            20,
+            20,
+            20
+          ],
+          "genShapeNode": "jelly2",
+          "gravity": [
+            0,
+            -1,
+            0
+          ],
+          "startColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "randRotVelocityTo": [
+            90,
+            90,
+            180
+          ],
+          "startVelocity": 25,
+          "isTextureAnimated": false,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90,
+            -90,
+            -180
+          ],
+          "amplitude": 5,
+          "birthRate": 180,
+          "texture": "drop_brown_1.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9,
+          "is3dRotation": false,
+          "dstColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "airDensity": 0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            64,
+            64
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 10,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1,
+      "scale": [
+        1,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "alpha": 1,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "translation": [
+    1000,
+    500,
+    0
+  ],
+  "version": 1
+}

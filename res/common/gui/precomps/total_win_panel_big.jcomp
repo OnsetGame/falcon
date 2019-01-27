@@ -1,0 +1,128 @@
+{
+  "name": "total_win_panel_big",
+  "children": [
+    {
+      "name": "totalwin_bar_(0-00-00-00).png",
+      "translation": [
+        320,
+        50,
+        0
+      ],
+      "anchor": [
+        312,
+        48,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/gui_black_simple",
+          "size": [
+            624,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gui_total_win",
+      "translation": [
+        259.75,
+        31.875,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "TOTAL WIN",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            0.80000001192093,
+            0.80000001192093,
+            0.80000001192093
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "win",
+      "translation": [
+        318.75,
+        84,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": " ",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white_lines",
+      "translation": [
+        80.125,
+        49.687,
+        0
+      ],
+      "scale": [
+        1.133,
+        0.931,
+        1
+      ],
+      "anchor": [
+        7.125,
+        11.812,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/white_lines.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

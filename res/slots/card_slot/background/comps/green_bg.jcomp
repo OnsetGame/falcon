@@ -1,0 +1,116 @@
+{
+  "name": "green_bg",
+  "children": [
+    {
+      "name": "MediumGray-GreenSolid",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.17254902422428,
+            0.47843137383461,
+            0.16078431904316
+          ],
+          "size": [
+            2520,
+            1440
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "teleports_green",
+      "translation": [
+        1006,
+        600,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "teleports_green",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "teleports_green.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 192,
+          "cutf": 191
+        },
+        "MediumGray-GreenSolid.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 192,
+          "cutf": 191
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "teleports_green",
+        "MediumGray-GreenSolid"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "MM_4bg_dif_colors_DEV(CC15).aep",
+  "export_time": "26 June 2018 17:55",
+  "rod_export_v": "Mon Jun 18 16:10:59 2018 +0300\n",
+  "version": 1
+}

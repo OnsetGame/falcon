@@ -1,0 +1,62 @@
+{
+  "name": "candy_walkway_idle",
+  "children": [
+    {
+      "name": "candy_walkway",
+      "translation": [
+        0,
+        1712,
+        0
+      ],
+      "anchor": [
+        0,
+        1712,
+        0
+      ],
+      "compositionRef": "candy_walkway",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "candy_walkway.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "candy_walkway"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "candy_old_dev.aep",
+  "version": 1
+}

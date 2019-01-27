@@ -1,0 +1,874 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "leafs",
+  "components": [
+    {
+      "played": true,
+      "distance": 1000.0,
+      "amplitude": 255.0,
+      "frequency": 0.4,
+      "isMove": false,
+      "speed": 15.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "name": "rose_middle_red2",
+      "components": [
+        {
+          "force": [
+            150.0,
+            50.0,
+            -1.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 25.0,
+          "isPlayed": true,
+          "randScaleFrom": -1.0,
+          "modifierNode": "rose_middle_red2",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -3.0,
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "genShapeNode": "rose_middle_red2",
+          "gravity": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            300.0,
+            300.0,
+            300.0
+          ],
+          "startVelocity": 12.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 1.0,
+          "texture": "flower_1.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            256.0,
+            256.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 4.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 5.0,
+          "angle": 5.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "translation": [
+        -200.0,
+        -40.0,
+        -130.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "name": "rose_middle_white2",
+      "components": [
+        {
+          "force": [
+            90.0,
+            60.0,
+            1.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 25.0,
+          "isPlayed": true,
+          "randScaleFrom": -1.0,
+          "modifierNode": "rose_middle_white2",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -4.0,
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "genShapeNode": "rose_middle_white2",
+          "gravity": [
+            5.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            300.0,
+            300.0,
+            300.0
+          ],
+          "startVelocity": 11.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 1.0,
+          "texture": "white_rose_rot.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            128.0,
+            64.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 4.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 5.0,
+          "angle": 5.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "translation": [
+        -200.0,
+        -40.0,
+        -120.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7372773289680481,
+        0.6755902171134949
+      ],
+      "name": "leaf_middle",
+      "components": [
+        {
+          "force": [
+            10.0,
+            35.0,
+            2.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 20.0,
+          "isPlayed": true,
+          "randScaleFrom": -4.0,
+          "modifierNode": "leaf_middle",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -4.0,
+          "startScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "genShapeNode": "leaf_middle",
+          "gravity": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            500.0
+          ],
+          "startVelocity": 22.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 0.5,
+          "texture": "leaf_rot.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            150.0,
+            82.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 4.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 100.0,
+          "angle": 15.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -200.0,
+        0.0,
+        -50.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "name": "rose_middle_red",
+      "components": [
+        {
+          "force": [
+            150.0,
+            20.0,
+            0.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 25.0,
+          "isPlayed": true,
+          "randScaleFrom": -1.0,
+          "modifierNode": "rose_middle_red",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -3.0,
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "genShapeNode": "rose_middle_red",
+          "gravity": [
+            3.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            300.0,
+            300.0,
+            300.0
+          ],
+          "startVelocity": 10.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 0.5,
+          "texture": "red_rose_rot.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            128.0,
+            32.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 4.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 5.0,
+          "angle": 5.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "translation": [
+        -200.0,
+        -40.0,
+        -80.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7372773289680481,
+        0.6755902171134949
+      ],
+      "name": "leaf_middle2",
+      "components": [
+        {
+          "force": [
+            30.0,
+            40.0,
+            5.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 20.0,
+          "isPlayed": true,
+          "randScaleFrom": -4.0,
+          "modifierNode": "leaf_middle2",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -2.0,
+          "startScale": [
+            3.0,
+            3.0,
+            3.0
+          ],
+          "genShapeNode": "leaf_middle2",
+          "gravity": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            200.0
+          ],
+          "startVelocity": 22.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 1.0,
+          "texture": "leaf_1.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            146.0,
+            218.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 7.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 100.0,
+          "angle": 15.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -200.0,
+        0.0,
+        -30.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "name": "rose_middle_white",
+      "components": [
+        {
+          "force": [
+            90.0,
+            45.0,
+            5.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            2.0,
+            2.0,
+            1.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 25.0,
+          "isPlayed": true,
+          "randScaleFrom": -1.0,
+          "modifierNode": "rose_middle_white",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -4.0,
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "genShapeNode": "rose_middle_white",
+          "gravity": [
+            5.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            500.0,
+            500.0,
+            500.0
+          ],
+          "startVelocity": 8.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 1.0,
+          "texture": "white_rose_rot.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            142.0,
+            106.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 4.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 15.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 5.0,
+          "angle": 5.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "translation": [
+        -200.0,
+        -40.0,
+        -90.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7372773289680481,
+        0.6755902171134949
+      ],
+      "name": "rose_front_red",
+      "components": [
+        {
+          "force": [
+            55.0,
+            55.0,
+            55.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 10.0,
+          "isPlayed": true,
+          "randScaleFrom": 0.0,
+          "modifierNode": "rose_front_red",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -2.0,
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "genShapeNode": "rose_front_red",
+          "gravity": [
+            8.0,
+            2.0,
+            5.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startVelocity": 9.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -180.0
+          ],
+          "birthRate": 0.25,
+          "texture": "red_rose_vfx.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "framesCount": 40,
+          "randVelocityTo": 2.0,
+          "scaleMode": 0,
+          "animColumns": 8,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 15.0,
+          "angle": 1.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -50.0,
+        0.0,
+        35.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.7372773289680481,
+        0.6755902171134949
+      ],
+      "name": "leaf_front",
+      "components": [
+        {
+          "force": [
+            55.0,
+            55.0,
+            55.0
+          ],
+          "_c": "PSModifierRandWind"
+        },
+        {
+          "dstScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "randScaleTo": 1.0,
+          "scaleSeq": [],
+          "lifetime": 15.14,
+          "isPlayed": true,
+          "randScaleFrom": -1.0,
+          "modifierNode": "leaf_front",
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -2.0,
+          "startScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "genShapeNode": "leaf_front",
+          "gravity": [
+            8.0,
+            2.0,
+            5.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startVelocity": 9.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -180.0
+          ],
+          "birthRate": 0.35,
+          "texture": "leaf_vfx.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            55.0,
+            60.0
+          ],
+          "framesCount": 60,
+          "randVelocityTo": 2.0,
+          "scaleMode": 0,
+          "animColumns": 10,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 50.0,
+          "angle": 1.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        -50.0,
+        0.0,
+        40.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    0.0,
+    0.0,
+    -130.0
+  ],
+  "version": 1
+}

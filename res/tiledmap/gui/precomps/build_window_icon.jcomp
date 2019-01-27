@@ -1,0 +1,62 @@
+{
+  "name": "build_window_icon",
+  "children": [
+    {
+      "name": "ltp_barbershop.png",
+      "translation": [
+        127,
+        143,
+        0
+      ],
+      "anchor": [
+        127,
+        143,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_barbershop.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_barbershop.png.enabled": {
+          "duration": 5.20833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 157,
+          "cutf": 156
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.20833333333333
+        }
+      },
+      "layers": [
+        "ltp_barbershop.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_6.aep",
+  "version": 1
+}

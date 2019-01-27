@@ -1,0 +1,152 @@
+{
+  "name": "store_card_special",
+  "children": [
+    {
+      "name": "store_card_special_double_content",
+      "translation": [
+        143.5,
+        350,
+        0
+      ],
+      "anchor": [
+        143.5,
+        350,
+        0
+      ],
+      "compositionRef": "store_card_special_double_content"
+    },
+    {
+      "name": "store_card_special_single_content",
+      "translation": [
+        143.5,
+        350,
+        0
+      ],
+      "anchor": [
+        143.5,
+        350,
+        0
+      ],
+      "compositionRef": "store_card_special_single_content"
+    },
+    {
+      "name": "save_money_txt",
+      "translation": [
+        142.472,
+        547.248,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "Save 49.99",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_parent",
+      "translation": [
+        140.5,
+        155,
+        0
+      ],
+      "children": [
+        {
+          "name": "bucks_3",
+          "translation": [
+            52,
+            9.5,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            1
+          ],
+          "anchor": [
+            206,
+            190,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/bucks_small.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "chips_2",
+          "translation": [
+            -69,
+            0.5,
+            0
+          ],
+          "scale": [
+            0.43,
+            0.43,
+            1
+          ],
+          "anchor": [
+            186.5,
+            190,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/chips_small.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "store_card_special_middle_label",
+      "translation": [
+        142.5,
+        292,
+        0
+      ],
+      "anchor": [
+        119.5,
+        38,
+        0
+      ],
+      "compositionRef": "store_card_special_middle_label"
+    }
+  ],
+  "aep_name": "GUI_boost_shop_chips_bucks_dev4.aep",
+  "export_time": "11 June 2018 15:58",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

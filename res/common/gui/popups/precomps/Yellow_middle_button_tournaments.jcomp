@@ -1,0 +1,246 @@
+{
+  "name": "Yellow_middle_button_tournaments",
+  "children": [
+    {
+      "name": "button_yellow_medium_off.png",
+      "translation": [
+        155,
+        49,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/button_yellow_medium_off.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_yellow_medium_on.png",
+      "translation": [
+        155,
+        49,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/button_yellow_medium_on.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        155.175,
+        57,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Get Reward",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              155.175,
+              57,
+              0
+            ],
+            [
+              155.175,
+              57.777,
+              0
+            ],
+            [
+              155.175,
+              58.544,
+              0
+            ],
+            [
+              155.175,
+              59.096,
+              0
+            ],
+            [
+              155.175,
+              59.328,
+              0
+            ],
+            [
+              155.175,
+              59.328,
+              0
+            ],
+            [
+              155.175,
+              59.328,
+              0
+            ],
+            [
+              155.175,
+              59.096,
+              0
+            ],
+            [
+              155.175,
+              58.544,
+              0
+            ],
+            [
+              155.175,
+              57.777,
+              0
+            ],
+            [
+              155.175,
+              57,
+              0
+            ]
+          ],
+          "duration": 8.54166666666667,
+          "len": 257,
+          "cutf": 5
+        },
+        "button_yellow_medium_on.png.alpha": {
+          "values": [
+            1,
+            0.666,
+            0.333,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.333,
+            0.666,
+            1
+          ],
+          "duration": 8.54166666666667,
+          "len": 257,
+          "cutf": 5
+        },
+        "title.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        },
+        "button_yellow_medium_on.png.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        },
+        "button_yellow_medium_off.png.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.16666666666667,
+          "duration": 0.16666666666666
+        },
+        "button_up": {
+          "start": 0.33333333333333,
+          "duration": 0.20833333333334
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8.54166666666667
+        }
+      },
+      "layers": [
+        "title",
+        "button_yellow_medium_on.png",
+        "button_yellow_medium_off.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

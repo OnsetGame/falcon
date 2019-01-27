@@ -1,0 +1,456 @@
+{
+  "name": "coins_from_chests",
+  "children": [
+    {
+      "name": "gold_1_idle",
+      "translation": [
+        395.5,
+        576,
+        0
+      ],
+      "anchor": [
+        83,
+        43,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/01.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": -0.541,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gold_2_idle",
+      "translation": [
+        399,
+        570,
+        0
+      ],
+      "anchor": [
+        83,
+        50,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/02.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": -0.083,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gold_3_idle",
+      "translation": [
+        404.5,
+        584,
+        0
+      ],
+      "anchor": [
+        88,
+        82,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../Layers/03.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": -0.083,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Optical_flayer_b.png$3",
+      "translation": [
+        402,
+        562,
+        0
+      ],
+      "scale": [
+        12.332,
+        12.332,
+        1
+      ],
+      "anchor": [
+        85,
+        80,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../Layers/Optical_flayer_b.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.5,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": -0.791,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Optical_flayer_b.png",
+      "translation": [
+        402,
+        562,
+        0
+      ],
+      "scale": [
+        12.332,
+        12.332,
+        1
+      ],
+      "anchor": [
+        85,
+        80,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../Layers/Optical_flayer_b.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.791,
+          "outPoint": 1.083,
+          "scale": 1,
+          "startTime": -0.5,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ellips.png",
+      "translation": [
+        400,
+        578,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        59,
+        77.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../Layers/ltp_ellips.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.541,
+          "outPoint": 0.958,
+          "scale": 1,
+          "startTime": -1.125,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_ellips.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.004,
+              0.003,
+              1
+            ],
+            [
+              0.044,
+              0.032,
+              1
+            ],
+            [
+              0.143,
+              0.102,
+              1
+            ],
+            [
+              0.335,
+              0.241,
+              1
+            ],
+            [
+              0.697,
+              0.501,
+              1
+            ],
+            [
+              1.36,
+              0.977,
+              1
+            ],
+            [
+              2.091,
+              1.502,
+              1
+            ],
+            [
+              2.516,
+              1.808,
+              1
+            ],
+            [
+              2.741,
+              1.97,
+              1
+            ],
+            [
+              2.859,
+              2.054,
+              1
+            ],
+            [
+              2.912,
+              2.092,
+              1
+            ],
+            [
+              2.922,
+              2.1,
+              1
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 17
+        },
+        "ltp_ellips.png.alpha": {
+          "values": [
+            0,
+            0.599,
+            0.968,
+            0.906,
+            0.844,
+            0.782,
+            0.72,
+            0.658,
+            0.581,
+            0.459,
+            0.336,
+            0.214,
+            0.091,
+            0
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 16
+        },
+        "Optical_flayer_b.png.alpha": {
+          "values": [
+            0,
+            0.011,
+            0.241,
+            0.602,
+            0.884,
+            0.903,
+            0.729,
+            0.464,
+            0.2,
+            0.026,
+            0
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 23
+        },
+        "Optical_flayer_b.png$3.alpha": {
+          "values": [
+            0,
+            0.163,
+            0.511,
+            0.833,
+            0.923,
+            0.784,
+            0.534,
+            0.262,
+            0.056,
+            0
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 15
+        },
+        "ltp_ellips.png.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 16
+        },
+        "Optical_flayer_b.png.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 23
+        },
+        "Optical_flayer_b.png$3.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 14
+        },
+        "gold_3_idle.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        },
+        "gold_2_idle.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        },
+        "gold_1_idle.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.54166666666667
+        }
+      },
+      "layers": [
+        "ltp_ellips.png",
+        "Optical_flayer_b.png",
+        "Optical_flayer_b.png$3",
+        "gold_3_idle",
+        "gold_2_idle",
+        "gold_1_idle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%2088.aep",
+  "version": 1
+}

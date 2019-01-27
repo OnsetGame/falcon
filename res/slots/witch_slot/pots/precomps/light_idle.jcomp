@@ -1,0 +1,37 @@
+{
+  "name": "light_idle",
+  "children": [
+    {
+      "name": "ltp_light1.png",
+      "translation": [
+        150,
+        135,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        73,
+        67,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_light_new.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "witch_effects13%20(converted).aep",
+  "version": 1
+}

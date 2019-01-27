@@ -1,0 +1,228 @@
+{
+  "name": "caustics_rune_crystal",
+  "children": [
+    {
+      "name": "caustics_[00000-00047].png",
+      "translation": [
+        600,
+        600,
+        0
+      ],
+      "scale": [
+        8,
+        8,
+        1
+      ],
+      "anchor": [
+        75,
+        75,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "luma_for_caustics 2",
+          "maskType": 3,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/caustics/caustics_00000.png",
+            "../assets/caustics/caustics_00001.png",
+            "../assets/caustics/caustics_00002.png",
+            "../assets/caustics/caustics_00003.png",
+            "../assets/caustics/caustics_00004.png",
+            "../assets/caustics/caustics_00005.png",
+            "../assets/caustics/caustics_00006.png",
+            "../assets/caustics/caustics_00007.png",
+            "../assets/caustics/caustics_00008.png",
+            "../assets/caustics/caustics_00009.png",
+            "../assets/caustics/caustics_00010.png",
+            "../assets/caustics/caustics_00011.png",
+            "../assets/caustics/caustics_00012.png",
+            "../assets/caustics/caustics_00013.png",
+            "../assets/caustics/caustics_00014.png",
+            "../assets/caustics/caustics_00015.png",
+            "../assets/caustics/caustics_00016.png",
+            "../assets/caustics/caustics_00017.png",
+            "../assets/caustics/caustics_00018.png",
+            "../assets/caustics/caustics_00019.png",
+            "../assets/caustics/caustics_00020.png",
+            "../assets/caustics/caustics_00021.png",
+            "../assets/caustics/caustics_00022.png",
+            "../assets/caustics/caustics_00023.png",
+            "../assets/caustics/caustics_00024.png",
+            "../assets/caustics/caustics_00025.png",
+            "../assets/caustics/caustics_00026.png",
+            "../assets/caustics/caustics_00027.png",
+            "../assets/caustics/caustics_00028.png",
+            "../assets/caustics/caustics_00029.png",
+            "../assets/caustics/caustics_00030.png",
+            "../assets/caustics/caustics_00031.png",
+            "../assets/caustics/caustics_00032.png",
+            "../assets/caustics/caustics_00033.png",
+            "../assets/caustics/caustics_00034.png",
+            "../assets/caustics/caustics_00035.png",
+            "../assets/caustics/caustics_00036.png",
+            "../assets/caustics/caustics_00037.png",
+            "../assets/caustics/caustics_00038.png",
+            "../assets/caustics/caustics_00039.png",
+            "../assets/caustics/caustics_00040.png",
+            "../assets/caustics/caustics_00041.png",
+            "../assets/caustics/caustics_00042.png",
+            "../assets/caustics/caustics_00043.png",
+            "../assets/caustics/caustics_00044.png",
+            "../assets/caustics/caustics_00045.png",
+            "../assets/caustics/caustics_00046.png",
+            "../assets/caustics/caustics_00047.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "luma_for_caustics 2",
+      "translation": [
+        610,
+        584,
+        0
+      ],
+      "scale": [
+        4,
+        4.055,
+        1
+      ],
+      "anchor": [
+        147,
+        145,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_rune_crystal_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "caustics_[00000-00047].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24,
+            25,
+            26,
+            26,
+            27,
+            28,
+            29,
+            30,
+            30,
+            31,
+            32,
+            33,
+            34,
+            34,
+            35,
+            36,
+            37,
+            38,
+            38,
+            39,
+            40,
+            41,
+            42,
+            42,
+            43,
+            44,
+            45,
+            46,
+            46,
+            47
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "caustics_[00000-00047].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 1.95833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "luma_for_caustics 2",
+        "caustics_[00000-00047].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Witch_branding.aep",
+  "version": 1
+}

@@ -1,0 +1,62 @@
+{
+  "name": "cityhall_4_idle",
+  "children": [
+    {
+      "name": "cityhall_4",
+      "translation": [
+        0,
+        1728,
+        0
+      ],
+      "anchor": [
+        0,
+        1728,
+        0
+      ],
+      "compositionRef": "cityhall_4",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cityhall_4.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "cityhall_4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "cityhall_lvl4_dev.aep",
+  "version": 1
+}

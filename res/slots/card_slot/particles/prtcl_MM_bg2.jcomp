@@ -1,0 +1,502 @@
+{
+  "name": "prtcl_MM_bg2",
+  "translation": [
+    -272.8066101074219,
+    20.20789337158203,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "children": [
+    {
+      "name": "bg_white_prtcl",
+      "translation": [
+        1274.449951171875,
+        540.0,
+        -1000.0
+      ],
+      "scale": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "rotation": [
+        0.4330127239227295,
+        -0.4330126643180847,
+        -0.75,
+        -0.2500000298023224
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.5,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 5.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 15.0,
+          "lifetime": 12.0,
+          "startVelocity": 10.0,
+          "randVelocityFrom": 20.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 0.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "particle_white_n.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            50.0,
+            50.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "bg_white_prtcl",
+          "genShapeNode": "bg_white_prtcl",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 100.0,
+          "radius": 100.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        },
+        {
+          "force": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "bg_blue_prtcl",
+      "translation": [
+        631.4500122070312,
+        1182.43994140625,
+        -1000.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.9848077297210693,
+        -0.1736481934785843
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.5,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 1.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 40.0,
+          "lifetime": 14.0,
+          "startVelocity": 50.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 0.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "particle_blue_n.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            50.0,
+            50.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "bg_blue_prtcl",
+          "genShapeNode": "bg_blue_prtcl",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 30.0,
+          "radius": 9.999999974752427e-007,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        },
+        {
+          "force": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "bg_blue_prtcl",
+      "translation": [
+        1947.140014648438,
+        1183.300048828125,
+        -1000.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.9961947202682495,
+        -0.08715576678514481
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.5,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 1.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 40.0,
+          "lifetime": 14.0,
+          "startVelocity": 50.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 0.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "particle_blue_n.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            50.0,
+            50.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "bg_blue_prtcl",
+          "genShapeNode": "bg_blue_prtcl",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 20.0,
+          "radius": 30.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        },
+        {
+          "force": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "fg_prtcl",
+      "translation": [
+        1266.18994140625,
+        1183.469970703125,
+        -1000.0
+      ],
+      "scale": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        -4.371138828673793e-008
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.4000000059604645,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 30.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 3.0,
+          "lifetime": 15.0,
+          "startVelocity": 20.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            6.0,
+            6.0,
+            6.0
+          ],
+          "dstScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randScaleFrom": 3.0,
+          "randScaleTo": 0.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "particle_blue_n.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            50.0,
+            50.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "fg_prtcl",
+          "genShapeNode": "fg_prtcl",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 20.0,
+          "radius": 300.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        },
+        {
+          "force": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    }
+  ]
+}

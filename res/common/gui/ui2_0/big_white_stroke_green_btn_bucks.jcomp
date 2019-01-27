@@ -1,0 +1,224 @@
+{
+  "name": "big_white_stroke_green_btn_bucks",
+  "children": [
+    {
+      "name": "big_white_stroke_green_btn_on.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_off.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        168.75,
+        54.259,
+        0
+      ],
+      "anchor": [
+        -0.239,
+        -16.56,
+        0
+      ],
+      "children": [
+        {
+          "name": "currency_bucks_placeholder",
+          "translation": [
+            -144.552,
+            -15.484,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            50,
+            41,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency_bucks",
+              "iconName": "bucks"
+            },
+            {
+              "color": [
+                0.51764702796936,
+                0.51764702796936,
+                0.51764702796936
+              ],
+              "size": [
+                100,
+                82
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "500",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "press": {
+      "title.tY": {
+        "values": [
+          54.2599945068359,
+          55.2727856859701,
+          56.2271488147705,
+          56.7599945068359,
+          56.7599945068359,
+          56.7599945068359,
+          56.7599945068359,
+          56.7599945068359,
+          56.2271488147705,
+          55.2727856859701
+        ],
+        "duration": 0.33333333333333
+      },
+      "title.anchor": {
+        "values": [
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ],
+          [
+            -0.239,
+            -16.56,
+            0
+          ]
+        ],
+        "duration": 0.33333333333333
+      },
+      "big_white_stroke_green_btn_off.png.alpha": {
+        "values": [
+          1,
+          0.6,
+          0.2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.2,
+          0.6
+        ],
+        "duration": 0.33333333333333
+      }
+    }
+  },
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

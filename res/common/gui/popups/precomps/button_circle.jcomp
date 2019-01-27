@@ -1,0 +1,191 @@
+{
+  "name": "button_circle",
+  "children": [
+    {
+      "name": "ltp_ellipse_3.png",
+      "translation": [
+        60,
+        58,
+        0
+      ],
+      "anchor": [
+        48,
+        46,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ellipse_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Null 15",
+      "translation": [
+        60,
+        58,
+        0
+      ],
+      "children": [
+        {
+          "name": "info_@noloc",
+          "translation": [
+            -0.25,
+            8.75,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 3.033,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "i",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 15.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 3.03333333333333,
+          "len": 91,
+          "cutf": 0
+        },
+        "Null 15.enabled": {
+          "duration": 3.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 91,
+          "cutf": 90
+        },
+        "info_@noloc.enabled": {
+          "duration": 3.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 91,
+          "cutf": 90
+        },
+        "ltp_ellipse_3.png.enabled": {
+          "duration": 3.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 91,
+          "cutf": 90
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3.03333333333333
+        }
+      },
+      "layers": [
+        "Null 15",
+        "info_@noloc",
+        "ltp_ellipse_3.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

@@ -1,0 +1,94 @@
+{
+  "name": "store_window_title",
+  "children": [
+    {
+      "name": "inactive_bg",
+      "translation": [
+        222.5,
+        54,
+        0
+      ],
+      "anchor": [
+        222,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabInactive",
+          "size": [
+            444,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "active_bg",
+      "translation": [
+        222.5,
+        54,
+        0
+      ],
+      "anchor": [
+        222,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            444,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text_content",
+      "translation": [
+        222.5,
+        66,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "components": [
+        {
+          "text": "Boosters",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "17 May 2018 13:54",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

@@ -1,0 +1,159 @@
+{
+  "name": "corner_placeholder",
+  "children": [
+    {
+      "name": "corner_sprite",
+      "translation": [
+        69,
+        71.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "corner_placeholder.png",
+          "anchor": [
+            69,
+            71.5,
+            0
+          ],
+          "components": [
+            {
+              "hue": 0,
+              "saturation": 0,
+              "lightness": 0,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "hue": 0,
+              "saturation": 0,
+              "lightness": 0,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/corner_placeholder.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "corner_text",
+      "translation": [
+        81.743,
+        52.783,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.382,
+        0.923
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": " MAIN",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "corner_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "corner_sprite.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "corner_placeholder.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "corner_text",
+        "corner_sprite",
+        "corner_placeholder.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

@@ -1,0 +1,327 @@
+{
+  "name": "questbar_getreward",
+  "children": [
+    {
+      "name": "questbar_base",
+      "translation": [
+        215.5,
+        324,
+        0
+      ],
+      "anchor": [
+        215.5,
+        324,
+        0
+      ],
+      "compositionRef": "questbar_base",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.83333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "building_name_bg",
+      "translation": [
+        215.5,
+        539,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            336.25,
+            72
+          ],
+          "radius": 25,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "zone_progress",
+      "translation": [
+        216.032,
+        523.373,
+        0
+      ],
+      "anchor": [
+        0.416,
+        -11.195,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 27.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Pizzeria 3/18",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "translation": [
+        216.687,
+        640,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "big_white_stroke_yellow_btn_reward",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "4color_holder",
+      "translation": [
+        214.5,
+        275.5,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "../../../common/gui/popups/precomps/4color_holder",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "rewards_glow",
+      "translation": [
+        215,
+        424,
+        0
+      ],
+      "scale": [
+        0.765,
+        0.765,
+        1
+      ],
+      "anchor": [
+        200,
+        200,
+        0
+      ],
+      "compositionRef": "../../../common/gui/popups/precomps/rewards_glow",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "icons_signs_placeholder 2",
+      "translation": [
+        216,
+        429,
+        0
+      ],
+      "anchor": [
+        86.5,
+        86.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            173,
+            173
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "icons_signs_placeholder 2.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "rewards_glow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "4color_holder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "zone_progress.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "building_name_bg.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "questbar_base.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "icons_signs_placeholder 2",
+        "rewards_glow",
+        "4color_holder",
+        "button",
+        "zone_progress",
+        "building_name_bg",
+        "questbar_base"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

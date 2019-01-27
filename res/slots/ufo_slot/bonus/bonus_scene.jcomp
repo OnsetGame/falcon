@@ -1,0 +1,200 @@
+{
+  "name": "bonus_scene",
+  "children": [
+    {
+      "name": "bg",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "precomps/bg",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lines",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "precomps/lines",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.79166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bg_up",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "precomps/bg_up",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus_intro",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "precomps/bonus_intro",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.25,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.25,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ufo_bonus_count",
+      "translation": [
+        990,
+        501,
+        0
+      ],
+      "compositionRef": "precomps/ufo_bonus_count",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ufo_bonus_count.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 59
+        },
+        "bonus_intro.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 97
+        },
+        "bg_up.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "lines.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 83
+        },
+        "bg.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "ufo_bonus_count",
+        "bonus_intro",
+        "bg_up",
+        "lines",
+        "bg"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

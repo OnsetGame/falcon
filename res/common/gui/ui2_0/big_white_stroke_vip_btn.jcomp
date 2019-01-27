@@ -1,0 +1,193 @@
+{
+  "name": "big_white_stroke_vip_btn",
+  "children": [
+    {
+      "name": "big_white_stroke_violet_btn_on.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.41666666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_purple_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_violet_btn_off.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.41666666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_purple_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        169.1,
+        70.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 11,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Go VIP",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "big_white_stroke_violet_btn_off.png.alpha": {
+          "values": [
+            1,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 18,
+          "frameLerp": true
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "big_white_stroke_violet_btn_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "big_white_stroke_violet_btn_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "title",
+        "big_white_stroke_violet_btn_off.png",
+        "big_white_stroke_violet_btn_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,266 @@
+{
+  "name": "2FreeSpins_title",
+  "children": [
+    {
+      "name": "freespins_title.png",
+      "translation": [
+        1257,
+        719,
+        0
+      ],
+      "anchor": [
+        431,
+        141,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/freespins_title.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "fs_blue3_@noloc",
+      "translation": [
+        980.902,
+        708.454,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        9.228,
+        -64.761,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "+9",
+          "font": "Tokyo2097",
+          "fontSize": 135,
+          "color": [
+            0,
+            0.58822995424271,
+            1
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "fs_blue2_@noloc",
+      "translation": [
+        966.902,
+        691.454,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        9.228,
+        -64.761,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "+9",
+          "font": "Tokyo2097",
+          "fontSize": 135,
+          "color": [
+            0.38038998842239,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "fs_blue1_@noloc",
+      "translation": [
+        970.902,
+        694.454,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        9.228,
+        -64.761,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "+9",
+          "font": "Tokyo2097",
+          "fontSize": 135,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "fs_white_@noloc",
+      "translation": [
+        974.902,
+        698.454,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        9.228,
+        -64.761,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "+9",
+          "font": "Tokyo2097",
+          "fontSize": 135,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "fs_white_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "fs_blue1_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "fs_blue2_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "fs_blue3_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "freespins_title.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "fs_white_@noloc",
+        "fs_blue1_@noloc",
+        "fs_blue2_@noloc",
+        "fs_blue3_@noloc",
+        "freespins_title.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_final_V.aep",
+  "version": 1
+}

@@ -1,0 +1,125 @@
+{
+  "name": "button_red_circle",
+  "children": [
+    {
+      "name": "big_white_stroke_yellow_btn_on",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        53,
+        53,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/big_white_stroke_red_circle_btn_on.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_yellow_btn_off",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        53,
+        53,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/big_white_stroke_red_circle_btn_off.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "big_white_stroke_yellow_btn_off.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 7,
+          "len": 210,
+          "cutf": 22
+        },
+        "big_white_stroke_yellow_btn_off.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 209
+        },
+        "big_white_stroke_yellow_btn_on.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 209
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 7
+        }
+      },
+      "layers": [
+        "big_white_stroke_yellow_btn_off",
+        "big_white_stroke_yellow_btn_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

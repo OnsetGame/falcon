@@ -1,0 +1,5161 @@
+{
+  "name": "branding_not_bonus",
+  "children": [
+    {
+      "name": "scale_scene",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Black Solid 1",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "scale": [
+        1.312,
+        1.224,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "back_sprite_3",
+      "translation": [
+        558.848,
+        905.055,
+        0
+      ],
+      "scale": [
+        6,
+        3.5,
+        1
+      ],
+      "anchor": [
+        95.5,
+        269.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/back_sprite.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "back_sprite_4",
+      "translation": [
+        1966.848,
+        507.694,
+        0
+      ],
+      "scale": [
+        -6,
+        -3.5,
+        1
+      ],
+      "anchor": [
+        95.5,
+        269.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/back_sprite.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "block_move",
+      "translation": [
+        -498,
+        724,
+        0
+      ],
+      "children": [
+        {
+          "name": "2FreeSpins_title",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "2FreeSpins_title",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 4.625,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "respins",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "respins",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 4.625,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "five_of_a_kind",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "five_of_a_kind",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 4.625,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "free_title",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "free_title",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 4.625,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "free_and_bonus_results",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "free_and_bonus_results",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 6.875,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 9,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "win_title",
+          "translation": [
+            2,
+            -4,
+            0
+          ],
+          "anchor": [
+            1260,
+            720,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "win_title",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.625,
+              "outPoint": 4.625,
+              "scale": 1,
+              "startTime": 0.625,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Info_noise_[01-24].png$20",
+      "translation": [
+        625.999,
+        1091.41,
+        0
+      ],
+      "scale": [
+        3.05,
+        2.882,
+        1
+      ],
+      "anchor": [
+        209,
+        128,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/Info_noise_01.png",
+            "../Sources/Info_noise_02.png",
+            "../Sources/Info_noise_03.png",
+            "../Sources/Info_noise_04.png",
+            "../Sources/Info_noise_05.png",
+            "../Sources/Info_noise_06.png",
+            "../Sources/Info_noise_07.png",
+            "../Sources/Info_noise_08.png",
+            "../Sources/Info_noise_09.png",
+            "../Sources/Info_noise_10.png",
+            "../Sources/Info_noise_11.png",
+            "../Sources/Info_noise_12.png",
+            "../Sources/Info_noise_13.png",
+            "../Sources/Info_noise_14.png",
+            "../Sources/Info_noise_15.png",
+            "../Sources/Info_noise_16.png",
+            "../Sources/Info_noise_17.png",
+            "../Sources/Info_noise_18.png",
+            "../Sources/Info_noise_19.png",
+            "../Sources/Info_noise_20.png",
+            "../Sources/Info_noise_21.png",
+            "../Sources/Info_noise_22.png",
+            "../Sources/Info_noise_23.png",
+            "../Sources/Info_noise_24.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Info_noise_[01-24].png$19",
+      "translation": [
+        1900.899,
+        1091.41,
+        0
+      ],
+      "scale": [
+        -3.05,
+        2.882,
+        1
+      ],
+      "anchor": [
+        209,
+        128,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/Info_noise_01.png",
+            "../Sources/Info_noise_02.png",
+            "../Sources/Info_noise_03.png",
+            "../Sources/Info_noise_04.png",
+            "../Sources/Info_noise_05.png",
+            "../Sources/Info_noise_06.png",
+            "../Sources/Info_noise_07.png",
+            "../Sources/Info_noise_08.png",
+            "../Sources/Info_noise_09.png",
+            "../Sources/Info_noise_10.png",
+            "../Sources/Info_noise_11.png",
+            "../Sources/Info_noise_12.png",
+            "../Sources/Info_noise_13.png",
+            "../Sources/Info_noise_14.png",
+            "../Sources/Info_noise_15.png",
+            "../Sources/Info_noise_16.png",
+            "../Sources/Info_noise_17.png",
+            "../Sources/Info_noise_18.png",
+            "../Sources/Info_noise_19.png",
+            "../Sources/Info_noise_20.png",
+            "../Sources/Info_noise_21.png",
+            "../Sources/Info_noise_22.png",
+            "../Sources/Info_noise_23.png",
+            "../Sources/Info_noise_24.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Info_noise_[01-24].png$18",
+      "translation": [
+        625.999,
+        353.601,
+        0
+      ],
+      "scale": [
+        3.05,
+        -2.882,
+        1
+      ],
+      "anchor": [
+        209,
+        128,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/Info_noise_01.png",
+            "../Sources/Info_noise_02.png",
+            "../Sources/Info_noise_03.png",
+            "../Sources/Info_noise_04.png",
+            "../Sources/Info_noise_05.png",
+            "../Sources/Info_noise_06.png",
+            "../Sources/Info_noise_07.png",
+            "../Sources/Info_noise_08.png",
+            "../Sources/Info_noise_09.png",
+            "../Sources/Info_noise_10.png",
+            "../Sources/Info_noise_11.png",
+            "../Sources/Info_noise_12.png",
+            "../Sources/Info_noise_13.png",
+            "../Sources/Info_noise_14.png",
+            "../Sources/Info_noise_15.png",
+            "../Sources/Info_noise_16.png",
+            "../Sources/Info_noise_17.png",
+            "../Sources/Info_noise_18.png",
+            "../Sources/Info_noise_19.png",
+            "../Sources/Info_noise_20.png",
+            "../Sources/Info_noise_21.png",
+            "../Sources/Info_noise_22.png",
+            "../Sources/Info_noise_23.png",
+            "../Sources/Info_noise_24.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Info_noise_[01-24].png",
+      "translation": [
+        1900.899,
+        353.601,
+        0
+      ],
+      "scale": [
+        3.05,
+        -2.882,
+        1
+      ],
+      "anchor": [
+        209,
+        128,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/Info_noise_01.png",
+            "../Sources/Info_noise_02.png",
+            "../Sources/Info_noise_03.png",
+            "../Sources/Info_noise_04.png",
+            "../Sources/Info_noise_05.png",
+            "../Sources/Info_noise_06.png",
+            "../Sources/Info_noise_07.png",
+            "../Sources/Info_noise_08.png",
+            "../Sources/Info_noise_09.png",
+            "../Sources/Info_noise_10.png",
+            "../Sources/Info_noise_11.png",
+            "../Sources/Info_noise_12.png",
+            "../Sources/Info_noise_13.png",
+            "../Sources/Info_noise_14.png",
+            "../Sources/Info_noise_15.png",
+            "../Sources/Info_noise_16.png",
+            "../Sources/Info_noise_17.png",
+            "../Sources/Info_noise_18.png",
+            "../Sources/Info_noise_19.png",
+            "../Sources/Info_noise_20.png",
+            "../Sources/Info_noise_21.png",
+            "../Sources/Info_noise_22.png",
+            "../Sources/Info_noise_23.png",
+            "../Sources/Info_noise_24.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "chips",
+      "translation": [
+        1264,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "chips",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "displace_right",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "displace_texture",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "energy_wave_2",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "scale": [
+        1.312,
+        1.224,
+        1
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "energy_wave",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "glitch_moment_2",
+      "translation": [
+        1264,
+        376,
+        0
+      ],
+      "scale": [
+        10.356,
+        5.438,
+        1
+      ],
+      "anchor": [
+        125,
+        75,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.333,
+          "outPoint": 1.333,
+          "scale": 1,
+          "startTime": 0.333,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/glitch_moment_00013.png",
+            "../Sources/glitch_moment_00014.png",
+            "../Sources/glitch_moment_00015.png",
+            "../Sources/glitch_moment_00016.png",
+            "../Sources/glitch_moment_00017.png",
+            "../Sources/glitch_moment_00018.png",
+            "../Sources/glitch_moment_00019.png",
+            "../Sources/glitch_moment_00020.png",
+            "../Sources/glitch_moment_00021.png",
+            "../Sources/glitch_moment_00022.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "glitch_moment_3",
+      "translation": [
+        1264,
+        1191.75,
+        0
+      ],
+      "scale": [
+        -10.356,
+        -5.438,
+        1
+      ],
+      "anchor": [
+        125,
+        75,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.416,
+          "outPoint": 1.416,
+          "scale": 1,
+          "startTime": 0.416,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/glitch_moment_00013.png",
+            "../Sources/glitch_moment_00014.png",
+            "../Sources/glitch_moment_00015.png",
+            "../Sources/glitch_moment_00016.png",
+            "../Sources/glitch_moment_00017.png",
+            "../Sources/glitch_moment_00018.png",
+            "../Sources/glitch_moment_00019.png",
+            "../Sources/glitch_moment_00020.png",
+            "../Sources/glitch_moment_00021.png",
+            "../Sources/glitch_moment_00022.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "energy_wave_1",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "scale": [
+        1.312,
+        1.224,
+        1
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "energy_wave",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 3.583,
+          "outPoint": 4.583,
+          "scale": 1,
+          "startTime": 3.583,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "glitch_moment_4",
+      "translation": [
+        1264,
+        376,
+        0
+      ],
+      "scale": [
+        10.356,
+        5.438,
+        1
+      ],
+      "anchor": [
+        125,
+        75,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 3.541,
+          "outPoint": 4.541,
+          "scale": 1,
+          "startTime": 3.541,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/glitch_moment_00013.png",
+            "../Sources/glitch_moment_00014.png",
+            "../Sources/glitch_moment_00015.png",
+            "../Sources/glitch_moment_00016.png",
+            "../Sources/glitch_moment_00017.png",
+            "../Sources/glitch_moment_00018.png",
+            "../Sources/glitch_moment_00019.png",
+            "../Sources/glitch_moment_00020.png",
+            "../Sources/glitch_moment_00021.png",
+            "../Sources/glitch_moment_00022.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "glitch_moment_5",
+      "translation": [
+        1264,
+        1191.75,
+        0
+      ],
+      "scale": [
+        -10.356,
+        -5.438,
+        1
+      ],
+      "anchor": [
+        125,
+        75,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 3.625,
+          "outPoint": 4.625,
+          "scale": 1,
+          "startTime": 3.625,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/glitch_moment_00013.png",
+            "../Sources/glitch_moment_00014.png",
+            "../Sources/glitch_moment_00015.png",
+            "../Sources/glitch_moment_00016.png",
+            "../Sources/glitch_moment_00017.png",
+            "../Sources/glitch_moment_00018.png",
+            "../Sources/glitch_moment_00019.png",
+            "../Sources/glitch_moment_00020.png",
+            "../Sources/glitch_moment_00021.png",
+            "../Sources/glitch_moment_00022.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "dron_standard",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "dron_standard",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4.54166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "optical_flares",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "optical_flares",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.25,
+          "outPoint": 1.708,
+          "scale": 1,
+          "startTime": 0.25,
+          "duration": 1.45833333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "blue_light_2",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "blue_light",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.58333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "blue_light_1",
+      "translation": [
+        1260,
+        720,
+        0
+      ],
+      "anchor": [
+        1260,
+        720,
+        0
+      ],
+      "compositionRef": "blue_light",
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 3.5,
+          "outPoint": 5.083,
+          "scale": 1,
+          "startTime": 3.5,
+          "duration": 1.58333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "particle_anchor",
+      "translation": [
+        -412,
+        720,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Info_noise_[01-24].png.alpha": {
+          "values": [
+            0,
+            0.057,
+            0.114,
+            0.171,
+            0.228,
+            0.285,
+            0.342,
+            0.399,
+            0.457,
+            0.514,
+            0.571,
+            0.628,
+            0.685,
+            0.742,
+            0.8,
+            0.857,
+            0.914,
+            0.971,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.96,
+            0.906,
+            0.853,
+            0.8,
+            0.746,
+            0.693,
+            0.639,
+            0.586,
+            0.533,
+            0.48,
+            0.426,
+            0.373,
+            0.319,
+            0.266,
+            0.213,
+            0.16,
+            0.106,
+            0.053,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 0
+        },
+        "Info_noise_[01-24].png$18.alpha": {
+          "values": [
+            0,
+            0.057,
+            0.114,
+            0.171,
+            0.228,
+            0.285,
+            0.342,
+            0.399,
+            0.457,
+            0.514,
+            0.571,
+            0.628,
+            0.685,
+            0.742,
+            0.8,
+            0.857,
+            0.914,
+            0.971,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.96,
+            0.906,
+            0.853,
+            0.8,
+            0.746,
+            0.693,
+            0.639,
+            0.586,
+            0.533,
+            0.48,
+            0.426,
+            0.373,
+            0.319,
+            0.266,
+            0.213,
+            0.16,
+            0.106,
+            0.053,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 0
+        },
+        "Info_noise_[01-24].png$19.alpha": {
+          "values": [
+            0,
+            0.057,
+            0.114,
+            0.171,
+            0.228,
+            0.285,
+            0.342,
+            0.399,
+            0.457,
+            0.514,
+            0.571,
+            0.628,
+            0.685,
+            0.742,
+            0.8,
+            0.857,
+            0.914,
+            0.971,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.96,
+            0.906,
+            0.853,
+            0.8,
+            0.746,
+            0.693,
+            0.639,
+            0.586,
+            0.533,
+            0.48,
+            0.426,
+            0.373,
+            0.319,
+            0.266,
+            0.213,
+            0.16,
+            0.106,
+            0.053,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 0
+        },
+        "Info_noise_[01-24].png$20.alpha": {
+          "values": [
+            0,
+            0.057,
+            0.114,
+            0.171,
+            0.228,
+            0.285,
+            0.342,
+            0.399,
+            0.457,
+            0.514,
+            0.571,
+            0.628,
+            0.685,
+            0.742,
+            0.8,
+            0.857,
+            0.914,
+            0.971,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.96,
+            0.906,
+            0.853,
+            0.8,
+            0.746,
+            0.693,
+            0.639,
+            0.586,
+            0.533,
+            0.48,
+            0.426,
+            0.373,
+            0.319,
+            0.266,
+            0.213,
+            0.16,
+            0.106,
+            0.053,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 0
+        },
+        "block_move.translation": {
+          "values": [
+            [
+              -498,
+              724,
+              0
+            ],
+            [
+              -465.699,
+              723.999,
+              0
+            ],
+            [
+              -302.444,
+              724,
+              0
+            ],
+            [
+              -146.034,
+              724,
+              0
+            ],
+            [
+              10.37,
+              724,
+              0
+            ],
+            [
+              166.967,
+              724,
+              0
+            ],
+            [
+              323.375,
+              724,
+              0
+            ],
+            [
+              479.775,
+              724,
+              0
+            ],
+            [
+              636.183,
+              724,
+              0
+            ],
+            [
+              792.586,
+              724,
+              0
+            ],
+            [
+              949.183,
+              724,
+              0
+            ],
+            [
+              1107.39,
+              723.999,
+              0
+            ],
+            [
+              1262,
+              724,
+              0
+            ],
+            [
+              1295.945,
+              724,
+              0
+            ],
+            [
+              1315.805,
+              724,
+              0
+            ],
+            [
+              1328.205,
+              724,
+              0
+            ],
+            [
+              1333.657,
+              724,
+              0
+            ],
+            [
+              1332.659,
+              724,
+              0
+            ],
+            [
+              1327.497,
+              724,
+              0
+            ],
+            [
+              1320.011,
+              724,
+              0
+            ],
+            [
+              1311.185,
+              724,
+              0
+            ],
+            [
+              1301.789,
+              724,
+              0
+            ],
+            [
+              1292.708,
+              724,
+              0
+            ],
+            [
+              1286.726,
+              724,
+              0
+            ],
+            [
+              1280.907,
+              724,
+              0
+            ],
+            [
+              1275.357,
+              724,
+              0
+            ],
+            [
+              1270.331,
+              724,
+              0
+            ],
+            [
+              1266.912,
+              724,
+              0
+            ],
+            [
+              1266.578,
+              724,
+              0
+            ],
+            [
+              1266.358,
+              724,
+              0
+            ],
+            [
+              1266.191,
+              724,
+              0
+            ],
+            [
+              1266.058,
+              724,
+              0
+            ],
+            [
+              1265.952,
+              724,
+              0
+            ],
+            [
+              1265.862,
+              724,
+              0
+            ],
+            [
+              1265.785,
+              724,
+              0
+            ],
+            [
+              1265.719,
+              724,
+              0
+            ],
+            [
+              1265.662,
+              724,
+              0
+            ],
+            [
+              1265.613,
+              724,
+              0
+            ],
+            [
+              1265.596,
+              724,
+              0
+            ],
+            [
+              1265.634,
+              724,
+              0
+            ],
+            [
+              1265.666,
+              724,
+              0
+            ],
+            [
+              1265.694,
+              724,
+              0
+            ],
+            [
+              1265.718,
+              724,
+              0
+            ],
+            [
+              1265.738,
+              724,
+              0
+            ],
+            [
+              1265.756,
+              724,
+              0
+            ],
+            [
+              1265.771,
+              724,
+              0
+            ],
+            [
+              1265.783,
+              724,
+              0
+            ],
+            [
+              1265.794,
+              724,
+              0
+            ],
+            [
+              1265.803,
+              724,
+              0
+            ],
+            [
+              1265.81,
+              724,
+              0
+            ],
+            [
+              1265.815,
+              724,
+              0
+            ],
+            [
+              1265.82,
+              724,
+              0
+            ],
+            [
+              1265.823,
+              724,
+              0
+            ],
+            [
+              1265.826,
+              724,
+              0
+            ],
+            [
+              1265.828,
+              724,
+              0
+            ],
+            [
+              1265.829,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.83,
+              724,
+              0
+            ],
+            [
+              1265.831,
+              724,
+              0
+            ],
+            [
+              1265.832,
+              724,
+              0
+            ],
+            [
+              1265.833,
+              724,
+              0
+            ],
+            [
+              1265.836,
+              724,
+              0
+            ],
+            [
+              1265.839,
+              724,
+              0
+            ],
+            [
+              1265.844,
+              724,
+              0
+            ],
+            [
+              1265.849,
+              724,
+              0
+            ],
+            [
+              1265.857,
+              724,
+              0
+            ],
+            [
+              1265.866,
+              724,
+              0
+            ],
+            [
+              1265.877,
+              724,
+              0
+            ],
+            [
+              1265.89,
+              724,
+              0
+            ],
+            [
+              1265.906,
+              724,
+              0
+            ],
+            [
+              1265.926,
+              724,
+              0
+            ],
+            [
+              1265.949,
+              724,
+              0
+            ],
+            [
+              1265.976,
+              724,
+              0
+            ],
+            [
+              1266.008,
+              724,
+              0
+            ],
+            [
+              1266.045,
+              724,
+              0
+            ],
+            [
+              1266.089,
+              724,
+              0
+            ],
+            [
+              1266.142,
+              724,
+              0
+            ],
+            [
+              1266.204,
+              724,
+              0
+            ],
+            [
+              1266.279,
+              724,
+              0
+            ],
+            [
+              1266.371,
+              724,
+              0
+            ],
+            [
+              1266.489,
+              724,
+              0
+            ],
+            [
+              1266.647,
+              724,
+              0
+            ],
+            [
+              1266.888,
+              724,
+              0
+            ],
+            [
+              1266.912,
+              724,
+              0
+            ],
+            [
+              1257.433,
+              724,
+              0
+            ],
+            [
+              1243.814,
+              724,
+              0
+            ],
+            [
+              1258.164,
+              724,
+              0
+            ],
+            [
+              1279.181,
+              724,
+              0
+            ],
+            [
+              1321.337,
+              723.999,
+              0
+            ],
+            [
+              1385.363,
+              724,
+              0
+            ],
+            [
+              1477.178,
+              724,
+              0
+            ],
+            [
+              1576.571,
+              724,
+              0
+            ],
+            [
+              1678.929,
+              724,
+              0
+            ],
+            [
+              1790.116,
+              723.999,
+              0
+            ],
+            [
+              1936.785,
+              724,
+              0
+            ],
+            [
+              2093.629,
+              723.999,
+              0
+            ],
+            [
+              2252.058,
+              723.999,
+              0
+            ],
+            [
+              2408.949,
+              724,
+              0
+            ],
+            [
+              2562.506,
+              724,
+              0
+            ],
+            [
+              2710.36,
+              723.999,
+              0
+            ],
+            [
+              2848.554,
+              724,
+              0
+            ],
+            [
+              2967.809,
+              724,
+              0
+            ],
+            [
+              3022,
+              724,
+              0
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 18
+        },
+        "back_sprite_4.alpha": {
+          "values": [
+            0,
+            0.333,
+            0.666,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 4
+        },
+        "back_sprite_3.alpha": {
+          "values": [
+            0,
+            0.333,
+            0.666,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.958,
+            0.856,
+            0.717,
+            0.551,
+            0.368,
+            0.177,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 4
+        },
+        "Black Solid 1.alpha": {
+          "values": [
+            0,
+            0.001,
+            0.008,
+            0.022,
+            0.04,
+            0.062,
+            0.087,
+            0.115,
+            0.145,
+            0.177,
+            0.21,
+            0.245,
+            0.28,
+            0.316,
+            0.351,
+            0.385,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.399,
+            0.4,
+            0.399,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.379,
+            0.33,
+            0.264,
+            0.186,
+            0.101,
+            0.017,
+            0
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 12
+        },
+        "scale_scene.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1.011,
+              1.011,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.066,
+              1.066,
+              1
+            ],
+            [
+              1.091,
+              1.091,
+              1
+            ],
+            [
+              1.117,
+              1.117,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              1.163,
+              1.163,
+              1
+            ],
+            [
+              1.183,
+              1.183,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.213,
+              1.213,
+              1
+            ],
+            [
+              1.225,
+              1.225,
+              1
+            ],
+            [
+              1.233,
+              1.233,
+              1
+            ],
+            [
+              1.24,
+              1.24,
+              1
+            ],
+            [
+              1.245,
+              1.245,
+              1
+            ],
+            [
+              1.248,
+              1.248,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.243,
+              1.243,
+              1
+            ],
+            [
+              1.226,
+              1.226,
+              1
+            ],
+            [
+              1.206,
+              1.206,
+              1
+            ],
+            [
+              1.184,
+              1.184,
+              1
+            ],
+            [
+              1.16,
+              1.16,
+              1
+            ],
+            [
+              1.137,
+              1.137,
+              1
+            ],
+            [
+              1.112,
+              1.112,
+              1
+            ],
+            [
+              1.089,
+              1.089,
+              1
+            ],
+            [
+              1.065,
+              1.065,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 9
+        },
+        "particle_anchor.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "blue_light_1.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 104
+        },
+        "blue_light_2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 47
+        },
+        "optical_flares.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 7
+        },
+        "dron_standard.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 136
+        },
+        "glitch_moment_5.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9
+          ],
+          "len": 180,
+          "cutf": 110
+        },
+        "glitch_moment_5.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 108
+        },
+        "glitch_moment_4.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9
+          ],
+          "len": 180,
+          "cutf": 107
+        },
+        "glitch_moment_4.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 106
+        },
+        "energy_wave_1.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 107
+        },
+        "glitch_moment_3.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9
+          ],
+          "len": 180,
+          "cutf": 14
+        },
+        "glitch_moment_3.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 12
+        },
+        "glitch_moment_2.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9
+          ],
+          "len": 180,
+          "cutf": 11
+        },
+        "glitch_moment_2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 9
+        },
+        "energy_wave_2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 29
+        },
+        "displace_right.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "chips.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "Info_noise_[01-24].png.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            22,
+            22,
+            22,
+            21,
+            21,
+            20,
+            20,
+            20,
+            19,
+            19,
+            18,
+            18,
+            18,
+            17,
+            17,
+            16,
+            16,
+            16,
+            15,
+            15,
+            14,
+            14,
+            14,
+            13,
+            13,
+            12,
+            12,
+            12,
+            11,
+            11,
+            10,
+            10,
+            10,
+            9,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            6,
+            6,
+            6,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 180,
+          "cutf": 1
+        },
+        "Info_noise_[01-24].png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "Info_noise_[01-24].png$18.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            22,
+            22,
+            22,
+            21,
+            21,
+            20,
+            20,
+            20,
+            19,
+            19,
+            18,
+            18,
+            18,
+            17,
+            17,
+            16,
+            16,
+            16,
+            15,
+            15,
+            14,
+            14,
+            14,
+            13,
+            13,
+            12,
+            12,
+            12,
+            11,
+            11,
+            10,
+            10,
+            10,
+            9,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            6,
+            6,
+            6,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 180,
+          "cutf": 1
+        },
+        "Info_noise_[01-24].png$18.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "Info_noise_[01-24].png$19.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            22,
+            22,
+            22,
+            21,
+            21,
+            20,
+            20,
+            20,
+            19,
+            19,
+            18,
+            18,
+            18,
+            17,
+            17,
+            16,
+            16,
+            16,
+            15,
+            15,
+            14,
+            14,
+            14,
+            13,
+            13,
+            12,
+            12,
+            12,
+            11,
+            11,
+            10,
+            10,
+            10,
+            9,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            6,
+            6,
+            6,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 180,
+          "cutf": 1
+        },
+        "Info_noise_[01-24].png$19.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "Info_noise_[01-24].png$20.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            23,
+            22,
+            22,
+            22,
+            21,
+            21,
+            20,
+            20,
+            20,
+            19,
+            19,
+            18,
+            18,
+            18,
+            17,
+            17,
+            16,
+            16,
+            16,
+            15,
+            15,
+            14,
+            14,
+            14,
+            13,
+            13,
+            12,
+            12,
+            12,
+            11,
+            11,
+            10,
+            10,
+            10,
+            9,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            6,
+            6,
+            6,
+            5,
+            5,
+            4,
+            4,
+            4,
+            3,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 180,
+          "cutf": 1
+        },
+        "Info_noise_[01-24].png$20.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "win_title.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "free_and_bonus_results.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "free_title.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "five_of_a_kind.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "respins.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "2FreeSpins_title.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 18
+        },
+        "block_move.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "back_sprite_4.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "back_sprite_3.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "Black Solid 1.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "scale_scene.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.5
+        },
+        "idle": {
+          "start": 1.5,
+          "duration": 2
+        },
+        "out": {
+          "start": 3.5,
+          "duration": 1.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "particle_anchor",
+        "blue_light_1",
+        "blue_light_2",
+        "optical_flares",
+        "dron_standard",
+        "glitch_moment_5",
+        "glitch_moment_4",
+        "energy_wave_1",
+        "glitch_moment_3",
+        "glitch_moment_2",
+        "energy_wave_2",
+        "displace_right",
+        "chips",
+        "Info_noise_[01-24].png",
+        "Info_noise_[01-24].png$18",
+        "Info_noise_[01-24].png$19",
+        "Info_noise_[01-24].png$20",
+        "win_title",
+        "free_and_bonus_results",
+        "free_title",
+        "five_of_a_kind",
+        "respins",
+        "2FreeSpins_title",
+        "block_move",
+        "back_sprite_4",
+        "back_sprite_3",
+        "Black Solid 1",
+        "scale_scene"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_final_V.aep",
+  "version": 1
+}

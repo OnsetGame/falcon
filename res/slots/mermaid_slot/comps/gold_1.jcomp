@@ -1,0 +1,156 @@
+{
+  "name": "gold_1",
+  "children": [
+    {
+      "name": "gold_1_anchor",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "children": [
+        {
+          "name": "gold_1_win",
+          "translation": [
+            -564.5,
+            -12,
+            0
+          ],
+          "anchor": [
+            83,
+            43,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inWhite": 0.75,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "fileNames": [
+                "../Layers/01.png"
+              ],
+              "_c": "Sprite"
+            },
+            {
+              "inPoint": 0.833,
+              "outPoint": 1.541,
+              "scale": 1,
+              "startTime": -0.541,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "gold_1_win.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 25
+        },
+        "gold_1_win.0.inWhite": {
+          "values": [
+            0.75,
+            0.78665794013686,
+            0.84025343060976,
+            0.89140011495241,
+            0.93687979636346,
+            0.97351908523483,
+            0.99643684925502,
+            1
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 31
+        },
+        "gold_1_anchor.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        },
+        "gold_1_win.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 24
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.54166666666667
+        }
+      },
+      "layers": [
+        "gold_1_anchor",
+        "gold_1_win"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%2088.aep",
+  "version": 1
+}

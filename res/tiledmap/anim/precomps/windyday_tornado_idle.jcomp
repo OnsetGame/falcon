@@ -1,0 +1,62 @@
+{
+  "name": "windyday_tornado_idle",
+  "children": [
+    {
+      "name": "windyday_tornado",
+      "translation": [
+        0,
+        864,
+        0
+      ],
+      "anchor": [
+        0,
+        864,
+        0
+      ],
+      "compositionRef": "windyday_tornado",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "windyday_tornado.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "windyday_tornado"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "windyday_stage0_opt_dev.aep",
+  "version": 1
+}

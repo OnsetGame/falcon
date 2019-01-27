@@ -1,0 +1,365 @@
+{
+  "name": "sun_spin",
+  "children": [
+    {
+      "name": "rotate_sun_controller",
+      "translation": [
+        151.5,
+        151.5,
+        0
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.508,
+        0.861
+      ],
+      "children": [
+        {
+          "name": "ltp_blur_sun_trail_2.png$3",
+          "translation": [
+            49.904,
+            43.813,
+            0
+          ],
+          "scale": [
+            2.5,
+            2.5,
+            1
+          ],
+          "anchor": [
+            57,
+            57,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.983,
+            0.183
+          ],
+          "alpha": 0.25,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.833,
+              "scale": 1,
+              "startTime": -0.583,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/magic_matters_special/ltp_blur_sun_trail_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_blur_sun_trail_2.png",
+          "translation": [
+            49.904,
+            43.813,
+            0
+          ],
+          "scale": [
+            2.5,
+            2.5,
+            1
+          ],
+          "anchor": [
+            57,
+            57,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.948,
+            0.318
+          ],
+          "alpha": 0.5,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.833,
+              "scale": 1,
+              "startTime": -0.583,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/magic_matters_special/ltp_blur_sun_trail_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_blurred_sun_2.png",
+          "translation": [
+            49.958,
+            47.348,
+            0
+          ],
+          "scale": [
+            1.562,
+            1.562,
+            1
+          ],
+          "anchor": [
+            87,
+            87,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.916,
+            0.399
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.833,
+              "scale": 1,
+              "startTime": -0.583,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/magic_matters_special/ltp_blurred_sun_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.833,
+          "scale": 1,
+          "startTime": -0.583,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rotate_sun_controller.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.508,
+              0.861
+            ],
+            [
+              0,
+              0,
+              -0.62,
+              0.784
+            ],
+            [
+              0,
+              0,
+              -0.719,
+              0.694
+            ],
+            [
+              0,
+              0,
+              -0.803,
+              0.595
+            ],
+            [
+              0,
+              0,
+              -0.872,
+              0.488
+            ],
+            [
+              0,
+              0,
+              -0.926,
+              0.375
+            ],
+            [
+              0,
+              0,
+              -0.966,
+              0.257
+            ],
+            [
+              0,
+              0,
+              -0.99,
+              0.137
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              0.016
+            ],
+            [
+              0,
+              0,
+              -0.994,
+              -0.104
+            ],
+            [
+              0,
+              0,
+              -0.974,
+              -0.223
+            ],
+            [
+              0,
+              0,
+              -0.94,
+              -0.339
+            ],
+            [
+              0,
+              0,
+              -0.893,
+              -0.449
+            ],
+            [
+              0,
+              0,
+              -0.832,
+              -0.553
+            ],
+            [
+              0,
+              0,
+              -0.759,
+              -0.65
+            ],
+            [
+              0,
+              0,
+              -0.674,
+              -0.738
+            ],
+            [
+              0,
+              0,
+              -0.577,
+              -0.816
+            ],
+            [
+              0,
+              0,
+              -0.47,
+              -0.882
+            ],
+            [
+              0,
+              0,
+              -0.353,
+              -0.935
+            ],
+            [
+              0,
+              0,
+              -0.225,
+              -0.974
+            ]
+          ],
+          "duration": 0.83333333333333,
+          "len": 20,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "ltp_blurred_sun_2.png.enabled": {
+          "duration": 0.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 20,
+          "cutf": 19
+        },
+        "ltp_blur_sun_trail_2.png.enabled": {
+          "duration": 0.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 20,
+          "cutf": 19
+        },
+        "ltp_blur_sun_trail_2.png$3.enabled": {
+          "duration": 0.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 20,
+          "cutf": 19
+        },
+        "rotate_sun_controller.enabled": {
+          "duration": 0.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 20,
+          "cutf": 19
+        }
+      },
+      "markers": {
+        "spin": {
+          "start": 0,
+          "duration": 0.83333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.83333333333333
+        }
+      },
+      "layers": [
+        "ltp_blurred_sun_2.png",
+        "ltp_blur_sun_trail_2.png",
+        "ltp_blur_sun_trail_2.png$3",
+        "rotate_sun_controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018%20copy%20(CC%20(13))%20(converted)%20(converted)_temp.aep",
+  "export_time": "10 July 2018 11:04",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

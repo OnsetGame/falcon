@@ -1,0 +1,742 @@
+{
+  "name": "lets_spin_prize_box",
+  "children": [
+    {
+      "name": "WHEEL_UI_1_TEXT_LETS_WIN_PRIZE",
+      "translation": [
+        167.099,
+        392.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Lets Win your\nFirst Prize!",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ramk_3.png",
+      "translation": [
+        55,
+        143,
+        0
+      ],
+      "anchor": [
+        49,
+        141,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ltp_ramk_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ramk_2.png",
+      "translation": [
+        295,
+        139,
+        0
+      ],
+      "anchor": [
+        41,
+        137,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ltp_ramk_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ramk_1.png",
+      "translation": [
+        179,
+        17,
+        0
+      ],
+      "anchor": [
+        69,
+        15,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ltp_ramk_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ramk.png",
+      "translation": [
+        187,
+        269,
+        0
+      ],
+      "anchor": [
+        93,
+        15,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ltp_ramk.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "spin_prize_box",
+      "translation": [
+        -6.5,
+        350.5,
+        0
+      ],
+      "anchor": [
+        123,
+        121,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "layerName": "mask_prize_box",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/spin_prize_box.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "mask_prize_box",
+      "translation": [
+        170.5,
+        145.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        81,
+        69,
+        0
+      ],
+      "affectsChildren": false,
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/mask_prize_box.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_LETS",
+      "translation": [
+        170.5,
+        225,
+        0
+      ],
+      "rotation": [
+        -0.249,
+        0.249,
+        0.066,
+        0.933
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Lets",
+          "font": "Exo2-Black",
+          "fontSize": 69.5,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.46
+          ],
+          "shadowOff": [
+            1,
+            1.73205080756888
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_SPIN",
+      "translation": [
+        172.5,
+        276,
+        0
+      ],
+      "rotation": [
+        -0.249,
+        0.249,
+        0.066,
+        0.933
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Spin!",
+          "font": "Exo2-Black",
+          "fontSize": 69.5,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.46
+          ],
+          "shadowOff": [
+            1,
+            1.73205080756888
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "spin_prize_box.translation": {
+          "values": [
+            [
+              -6.5,
+              350.5,
+              0
+            ],
+            [
+              3.925,
+              339.376,
+              0
+            ],
+            [
+              30.182,
+              311.333,
+              0
+            ],
+            [
+              64.887,
+              274.27,
+              0
+            ],
+            [
+              100.5,
+              236.275,
+              0
+            ],
+            [
+              129.622,
+              205.282,
+              0
+            ],
+            [
+              144.782,
+              189.252,
+              0
+            ],
+            [
+              146.092,
+              187.88,
+              0
+            ],
+            [
+              148.473,
+              185.41,
+              0
+            ],
+            [
+              150.975,
+              183.255,
+              0
+            ],
+            [
+              146.466,
+              188.509,
+              0
+            ],
+            [
+              141.364,
+              194.293,
+              0
+            ],
+            [
+              136.141,
+              200.167,
+              0
+            ],
+            [
+              131.205,
+              205.701,
+              0
+            ],
+            [
+              127.025,
+              210.385,
+              0
+            ],
+            [
+              123.997,
+              213.79,
+              0
+            ],
+            [
+              122.559,
+              215.429,
+              0
+            ],
+            [
+              122.371,
+              215.653,
+              0
+            ],
+            [
+              122.111,
+              215.99,
+              0
+            ],
+            [
+              122.956,
+              215.03,
+              0
+            ],
+            [
+              124.012,
+              213.82,
+              0
+            ],
+            [
+              125.183,
+              212.472,
+              0
+            ],
+            [
+              126.379,
+              211.094,
+              0
+            ],
+            [
+              127.506,
+              209.795,
+              0
+            ],
+            [
+              128.461,
+              208.694,
+              0
+            ],
+            [
+              129.154,
+              207.895,
+              0
+            ],
+            [
+              129.485,
+              207.516,
+              0
+            ],
+            [
+              129.5,
+              207.5,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "spin_prize_box.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.144,
+              1.144,
+              1
+            ],
+            [
+              1.282,
+              1.282,
+              1
+            ],
+            [
+              1.422,
+              1.422,
+              1
+            ],
+            [
+              1.537,
+              1.537,
+              1
+            ],
+            [
+              1.597,
+              1.597,
+              1
+            ],
+            [
+              1.597,
+              1.597,
+              1
+            ],
+            [
+              1.587,
+              1.587,
+              1
+            ],
+            [
+              1.572,
+              1.572,
+              1
+            ],
+            [
+              1.552,
+              1.552,
+              1
+            ],
+            [
+              1.53,
+              1.53,
+              1
+            ],
+            [
+              1.508,
+              1.508,
+              1
+            ],
+            [
+              1.487,
+              1.487,
+              1
+            ],
+            [
+              1.469,
+              1.469,
+              1
+            ],
+            [
+              1.456,
+              1.456,
+              1
+            ],
+            [
+              1.45,
+              1.45,
+              1
+            ],
+            [
+              1.45,
+              1.45,
+              1
+            ],
+            [
+              1.454,
+              1.454,
+              1
+            ],
+            [
+              1.459,
+              1.459,
+              1
+            ],
+            [
+              1.465,
+              1.465,
+              1
+            ],
+            [
+              1.473,
+              1.473,
+              1
+            ],
+            [
+              1.48,
+              1.48,
+              1
+            ],
+            [
+              1.487,
+              1.487,
+              1
+            ],
+            [
+              1.493,
+              1.493,
+              1
+            ],
+            [
+              1.497,
+              1.497,
+              1
+            ],
+            [
+              1.499,
+              1.499,
+              1
+            ],
+            [
+              1.5,
+              1.5,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "WHEEL_SPIN.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_LETS.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spin_prize_box.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_ramk.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_ramk_1.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_ramk_2.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_ramk_3.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_1_TEXT_LETS_WIN_PRIZE.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "WHEEL_SPIN",
+        "WHEEL_LETS",
+        "mask_prize_box",
+        "spin_prize_box",
+        "ltp_ramk.png",
+        "ltp_ramk_1.png",
+        "ltp_ramk_2.png",
+        "ltp_ramk_3.png",
+        "WHEEL_UI_1_TEXT_LETS_WIN_PRIZE"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

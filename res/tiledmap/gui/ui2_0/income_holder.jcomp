@@ -1,0 +1,174 @@
+{
+  "name": "income_holder",
+  "children": [
+    {
+      "name": "income_holder_green",
+      "translation": [
+        163.75,
+        32,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            280,
+            48
+          ],
+          "radius": 24,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.54509806632996,
+            0.76470589637756,
+            0.29019609093666,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "income_holder_red",
+      "translation": [
+        163.75,
+        32,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            280,
+            48
+          ],
+          "radius": 24,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.81568628549576,
+            0.11372549086809,
+            0.35294118523598,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        38,
+        31.25,
+        0
+      ],
+      "anchor": [
+        37.5,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.49019598960876,
+            0.49019598960876,
+            0.49019598960876
+          ],
+          "size": [
+            75,
+            62
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "chips_placeholder",
+      "translation": [
+        38,
+        31.5,
+        0
+      ],
+      "anchor": [
+        29,
+        30.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.49019598960876,
+            0.49019598960876,
+            0.49019598960876
+          ],
+          "size": [
+            58,
+            61
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "slot_income_value",
+      "translation": [
+        194.993,
+        41.533,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "1,000",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haRight",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_info%20(CC%202018).aep",
+  "version": 1
+}

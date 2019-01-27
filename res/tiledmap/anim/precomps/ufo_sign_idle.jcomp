@@ -1,0 +1,62 @@
+{
+  "name": "ufo_sign_idle",
+  "children": [
+    {
+      "name": "ufo_sign",
+      "translation": [
+        0,
+        2070,
+        0
+      ],
+      "anchor": [
+        0,
+        2070,
+        0
+      ],
+      "compositionRef": "ufo_sign",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ufo_sign.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "ufo_sign"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_new_dev.aep",
+  "version": 1
+}

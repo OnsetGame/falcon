@@ -1,0 +1,1052 @@
+{
+  "name": "tournament_reward_info",
+  "children": [
+    {
+      "name": "Placeholder_over",
+      "translation": [
+        957,
+        718,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "box_your_score_great_rest",
+          "translation": [
+            2.999,
+            -3,
+            0
+          ],
+          "scale": [
+            0.999,
+            0,
+            1
+          ],
+          "anchor": [
+            223,
+            0,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.166,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/WindowLight40px",
+              "size": [
+                446,
+                158
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TR_RW_SCORE",
+          "translation": [
+            112.499,
+            49.999,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            0,
+            -0.239,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "YOUR SCORE",
+              "font": "Exo2-Black",
+              "fontSize": 24,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "TR_RW_TOTAL",
+          "translation": [
+            -104.5,
+            49.999,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            0,
+            -0.239,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "YOU ARE",
+              "font": "Exo2-Black",
+              "fontSize": 24,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "txt_place",
+          "translation": [
+            -105.379,
+            88.387,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            0.12,
+            -16.091,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0.166,
+              "outPoint": 4.208,
+              "scale": 1,
+              "startTime": 0.166,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "#2/160",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "txt_score",
+          "translation": [
+            112.036,
+            84.959,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            -0.463,
+            -11.359,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0.291,
+              "outPoint": 4.333,
+              "scale": 1,
+              "startTime": 0.291,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "450",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_1.png",
+          "translation": [
+            0.999,
+            74.999,
+            0
+          ],
+          "scale": [
+            0.119,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "anchor": [
+            391,
+            11,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.166,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0.166,
+          "outPoint": 12.458,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Placeholder_over.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.092,
+              1
+            ],
+            [
+              1,
+              0.417,
+              1
+            ],
+            [
+              1,
+              0.811,
+              1
+            ],
+            [
+              1,
+              1.1,
+              1
+            ],
+            [
+              1,
+              1.203,
+              1
+            ],
+            [
+              1,
+              1.192,
+              1
+            ],
+            [
+              1,
+              1.12,
+              1
+            ],
+            [
+              1,
+              1.038,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1.026,
+              1
+            ],
+            [
+              1,
+              1.062,
+              1
+            ],
+            [
+              1,
+              1.09,
+              1
+            ],
+            [
+              1,
+              1.092,
+              1
+            ],
+            [
+              1,
+              0.928,
+              1
+            ],
+            [
+              1,
+              0.632,
+              1
+            ],
+            [
+              1,
+              0.31,
+              1
+            ],
+            [
+              1,
+              0.066,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 6
+        },
+        "txt_score.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.008,
+              0.006,
+              1
+            ],
+            [
+              0.187,
+              0.145,
+              1
+            ],
+            [
+              0.51,
+              0.411,
+              1
+            ],
+            [
+              0.861,
+              0.73,
+              1
+            ],
+            [
+              1.127,
+              1.03,
+              1
+            ],
+            [
+              1.197,
+              1.236,
+              1
+            ],
+            [
+              1.148,
+              1.246,
+              1
+            ],
+            [
+              1.07,
+              1.134,
+              1
+            ],
+            [
+              1.009,
+              1.02,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 8
+        },
+        "txt_place.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.124,
+              0.096,
+              1
+            ],
+            [
+              0.422,
+              0.336,
+              1
+            ],
+            [
+              0.777,
+              0.649,
+              1
+            ],
+            [
+              1.075,
+              0.961,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.164,
+              1.26,
+              1
+            ],
+            [
+              1.09,
+              1.167,
+              1
+            ],
+            [
+              1.02,
+              1.042,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 5
+        },
+        "box_your_score_great_rest.scale": {
+          "values": [
+            [
+              0.999,
+              0,
+              1
+            ],
+            [
+              0.999,
+              0.253,
+              1
+            ],
+            [
+              0.999,
+              0.515,
+              1
+            ],
+            [
+              0.999,
+              0.747,
+              1
+            ],
+            [
+              0.999,
+              0.923,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_line_1.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "txt_score.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 8
+        },
+        "txt_place.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 4
+        },
+        "TR_RW_TOTAL.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "TR_RW_SCORE.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "box_your_score_great_rest.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "Placeholder_over.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 4
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.875
+        },
+        "idle": {
+          "start": 0.875,
+          "duration": 3.125
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "ltp_line_1.png",
+        "txt_score",
+        "txt_place",
+        "TR_RW_TOTAL",
+        "TR_RW_SCORE",
+        "box_your_score_great_rest",
+        "Placeholder_over"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

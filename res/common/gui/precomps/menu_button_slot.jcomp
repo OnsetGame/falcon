@@ -1,0 +1,656 @@
+{
+  "name": "menu_button_slot",
+  "children": [
+    {
+      "name": "controller",
+      "translation": [
+        70,
+        74.5,
+        0
+      ],
+      "anchor": [
+        60,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "name": "button_background",
+          "translation": [
+            61,
+            8.312,
+            0
+          ],
+          "scale": [
+            1,
+            0,
+            1
+          ],
+          "anchor": [
+            49,
+            0.105,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/gui_black_simple",
+              "size": [
+                96,
+                528
+              ]
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "main_button",
+      "translation": [
+        70,
+        74.5,
+        0
+      ],
+      "anchor": [
+        55,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/small_button_tpt.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cross",
+      "translation": [
+        70.25,
+        72,
+        0
+      ],
+      "scale": [
+        0.37,
+        0.369,
+        1
+      ],
+      "anchor": [
+        22.5,
+        22.125,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_rounded_rectangle_4_copy_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "burger_lines.png",
+      "translation": [
+        69.75,
+        74,
+        0
+      ],
+      "anchor": [
+        26,
+        19,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/burger_lines.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "burger_lines.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.901,
+              0.901,
+              1
+            ],
+            [
+              0.684,
+              0.684,
+              1
+            ],
+            [
+              0.468,
+              0.468,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.533,
+              0.533,
+              1
+            ],
+            [
+              0.836,
+              0.836,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "burger_lines.png.alpha": {
+          "values": [
+            1,
+            0.75,
+            0.5,
+            0.25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.333,
+            0.666,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "cross.scale": {
+          "values": [
+            [
+              0.37,
+              0.369,
+              1
+            ],
+            [
+              0.468,
+              0.468,
+              1
+            ],
+            [
+              0.685,
+              0.685,
+              1
+            ],
+            [
+              0.901,
+              0.901,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.836,
+              0.836,
+              1
+            ],
+            [
+              0.533,
+              0.533,
+              1
+            ],
+            [
+              0.37,
+              0.369,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "cross.alpha": {
+          "values": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            1,
+            1,
+            0.666,
+            0.333,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "main_button.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "controller.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "button_background.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0.999,
+              0.104,
+              1
+            ],
+            [
+              1,
+              0.352,
+              1
+            ],
+            [
+              1,
+              0.647,
+              1
+            ],
+            [
+              1,
+              0.895,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.843,
+              1
+            ],
+            [
+              1,
+              0.499,
+              1
+            ],
+            [
+              1,
+              0.156,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "button_background.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.843,
+            0.499,
+            0.156,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "burger_lines.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 54
+        },
+        "cross.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 54
+        },
+        "main_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 54
+        },
+        "button_background.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 54
+        }
+      },
+      "markers": {
+        "drop_down": {
+          "start": 0,
+          "duration": 0.2
+        },
+        "drop_up": {
+          "start": 0.23333333333333,
+          "duration": 0.2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "burger_lines.png",
+        "cross",
+        "main_button",
+        "button_background",
+        "controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

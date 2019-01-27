@@ -1,0 +1,139 @@
+{
+  "name": "tournament_results_tab",
+  "children": [
+    {
+      "name": "tournament_result_tab.png",
+      "translation": [
+        342,
+        55,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        342,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.25,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            684,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tournament_results_title",
+      "translation": [
+        342.36,
+        52.835,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        -0.079,
+        -5.488,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.25,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Tournament results",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            0.870590031147,
+            0.54510003328323
+          ],
+          "bounds": [
+            -88.5799497738481,
+            -11.1999998092651,
+            177,
+            11.3333301544189
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Tournament_results_title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "tournament_result_tab.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "Tournament_results_title",
+        "tournament_result_tab.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

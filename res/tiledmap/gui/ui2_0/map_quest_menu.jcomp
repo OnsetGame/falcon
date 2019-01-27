@@ -1,0 +1,1042 @@
+{
+  "name": "map_quest_menu",
+  "children": [
+    {
+      "name": "in_out_controller",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0.001,
+        1
+      ],
+      "children": [
+        {
+          "name": "bg",
+          "translation": [
+            0,
+            28.999,
+            0
+          ],
+          "scale": [
+            1,
+            0.744,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            1,
+            28.999,
+            0
+          ],
+          "scale": [
+            3.539,
+            3.539,
+            1
+          ],
+          "anchor": [
+            171,
+            115.377,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$20",
+          "translation": [
+            7,
+            443,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$19",
+          "translation": [
+            7,
+            435.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -365,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            7,
+            -362.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "quest_bar_parent",
+          "translation": [
+            -959,
+            -275,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "tab",
+          "translation": [
+            0,
+            -370,
+            0
+          ],
+          "anchor": [
+            206.5,
+            55,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/TAB_413px",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "grad_l",
+          "translation": [
+            -964,
+            33,
+            0
+          ],
+          "scale": [
+            15.96,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "anchor": [
+            24.937,
+            264,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/lower_black_bg.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "grad_r",
+          "translation": [
+            962,
+            33,
+            0
+          ],
+          "scale": [
+            -15.96,
+            -1.136,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "anchor": [
+            24.937,
+            264,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../../common/gui/popups/assets/lower_black_bg.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            816,
+            -369.75,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/button_close",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5.8,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_right",
+          "translation": [
+            818,
+            2.625,
+            0
+          ],
+          "scale": [
+            1.15,
+            1.15,
+            1
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/button_right",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_left",
+          "translation": [
+            -816.25,
+            2.875,
+            0
+          ],
+          "scale": [
+            1.15,
+            1.15,
+            1
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "../../../common/gui/popups/precomps/button_left",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.866,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "back_light",
+      "scale": [
+        1.082,
+        0.908,
+        1
+      ],
+      "compositionRef": "../../../common/gui/popups/precomps/task_lightup_bg",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "front_light",
+      "scale": [
+        1,
+        0.839,
+        1
+      ],
+      "compositionRef": "../../../common/gui/popups/precomps/task_lightup_fg",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "in_out_controller.scale": {
+          "values": [
+            [
+              1,
+              0.001,
+              1
+            ],
+            [
+              1,
+              0.01,
+              1
+            ],
+            [
+              1.004,
+              0.051,
+              1
+            ],
+            [
+              1.015,
+              0.176,
+              1
+            ],
+            [
+              1.061,
+              0.678,
+              1
+            ],
+            [
+              1.082,
+              0.908,
+              1
+            ],
+            [
+              1.091,
+              1.002,
+              1
+            ],
+            [
+              1.095,
+              1.053,
+              1
+            ],
+            [
+              1.098,
+              1.081,
+              1
+            ],
+            [
+              1.099,
+              1.095,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.099,
+              1.095,
+              1
+            ],
+            [
+              1.098,
+              1.081,
+              1
+            ],
+            [
+              1.095,
+              1.053,
+              1
+            ],
+            [
+              1.091,
+              1.002,
+              1
+            ],
+            [
+              1.082,
+              0.908,
+              1
+            ],
+            [
+              1.061,
+              0.677,
+              1
+            ],
+            [
+              1.015,
+              0.175,
+              1
+            ],
+            [
+              1.004,
+              0.05,
+              1
+            ],
+            [
+              1,
+              0.009,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.86666666666667,
+          "len": 56,
+          "cutf": 0
+        },
+        "bg.alpha": {
+          "values": [
+            0,
+            0.09,
+            0.19,
+            0.29,
+            0.387,
+            0.477,
+            0.56,
+            0.633,
+            0.692,
+            0.733,
+            0.75,
+            0.749,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.749,
+            0.75,
+            0.749,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.749,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.749,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.733,
+            0.692,
+            0.633,
+            0.56,
+            0.477,
+            0.387,
+            0.29,
+            0.19,
+            0.09,
+            0
+          ],
+          "duration": 1.86666666666667,
+          "len": 56,
+          "cutf": 0
+        },
+        "button_left.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "button_right.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "button_close.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "grad_r.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "grad_l.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "front_light.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "tab.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "quest_bar_parent.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "back_light.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "ltp_bg_dow.png$19.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "ltp_bg_dow.png$20.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "bg.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        },
+        "in_out_controller.enabled": {
+          "duration": 1.86666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 56,
+          "cutf": 55
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.26666666666667
+        },
+        "idle": {
+          "start": 1.26666666666667,
+          "duration": 0.1
+        },
+        "out": {
+          "start": 1.36666666666667,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.86666666666667
+        }
+      },
+      "layers": [
+        "button_left",
+        "button_right",
+        "button_close",
+        "grad_r",
+        "grad_l",
+        "front_light",
+        "tab",
+        "quest_bar_parent",
+        "back_light",
+        "ltp_bg_dow.png",
+        "ltp_bg_u.png",
+        "ltp_bg_dow.png$19",
+        "ltp_bg_dow.png$20",
+        "ltp_solidorange.png",
+        "bg",
+        "in_out_controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

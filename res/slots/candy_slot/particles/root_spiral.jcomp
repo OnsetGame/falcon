@@ -1,0 +1,480 @@
+{
+  "name": "ps_attr",
+  "translation": [
+    1079.9560546875,
+    726.8658447265625,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "components": [
+    {
+      "played": true,
+      "isMove": false,
+      "amplitude": 5.0,
+      "frequency": 0.4,
+      "distance": 40.0,
+      "speed": 9.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "name": "attr_all",
+      "translation": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "components": [
+        {
+          "force": 35000004.0,
+          "_c": "PSModifierSpiral"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "ps3",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        -0.3352855741977692,
+        0.5517252087593079,
+        0.719022274017334,
+        0.2572736740112305
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "components": [
+        {
+          "duration": 2.0,
+          "isLooped": true,
+          "isPlayed": false,
+          "birthRate": 25.0,
+          "lifetime": 2.0,
+          "startVelocity": 700.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            21.0,
+            21.0,
+            21.0
+          ],
+          "dstScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "randScaleFrom": -10.0,
+          "randScaleTo": 10.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            -99.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 1,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              25.0,
+              25.0,
+              25.0
+            ],
+            [
+              0.8500000238418579,
+              27.0,
+              27.0,
+              27.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "Circle0.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            67.0,
+            67.0
+          ],
+          "animColumns": 5,
+          "framesCount": 30,
+          "fps": 30.0,
+          "modifierNode": "attr_all",
+          "genShapeNode": "ps3",
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 5.0,
+          "radius": 15.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "ps2",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        -0.3352855741977692,
+        0.5517252087593079,
+        0.719022274017334,
+        0.2572736740112305
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "components": [
+        {
+          "duration": 2.0,
+          "isLooped": true,
+          "isPlayed": false,
+          "birthRate": 25.0,
+          "lifetime": 2.0,
+          "startVelocity": 700.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            21.0,
+            21.0,
+            21.0
+          ],
+          "dstScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "randScaleFrom": -10.0,
+          "randScaleTo": 10.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            -99.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 1,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              31.0,
+              31.0,
+              31.0
+            ],
+            [
+              0.8500000238418579,
+              35.0,
+              35.0,
+              35.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "Circle3.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            128.0,
+            128.0
+          ],
+          "animColumns": 5,
+          "framesCount": 30,
+          "fps": 30.0,
+          "modifierNode": "attr_all",
+          "genShapeNode": "ps2",
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 2.0,
+          "radius": 15.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "ps1",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        -0.3352855741977692,
+        0.5517252087593079,
+        0.719022274017334,
+        0.2572736740112305
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "components": [
+        {
+          "duration": 2.0,
+          "isLooped": true,
+          "isPlayed": false,
+          "birthRate": 15.0,
+          "lifetime": 2.0,
+          "startVelocity": 700.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            21.0,
+            21.0,
+            21.0
+          ],
+          "dstScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "randScaleFrom": -10.0,
+          "randScaleTo": 10.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            -99.0,
+            -0.1400000005960465
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 1,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              31.0,
+              31.0,
+              31.0
+            ],
+            [
+              0.8500000238418579,
+              35.0,
+              35.0,
+              35.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "small_candy_fx.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            50.0,
+            37.5
+          ],
+          "animColumns": 5,
+          "framesCount": 30,
+          "fps": 30.0,
+          "modifierNode": "attr_all",
+          "genShapeNode": "ps1",
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 2.0,
+          "radius": 15.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "version": 1
+}

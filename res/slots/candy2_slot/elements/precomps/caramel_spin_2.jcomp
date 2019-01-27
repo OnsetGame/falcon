@@ -1,0 +1,137 @@
+{
+  "name": "caramel_spin_2",
+  "children": [
+    {
+      "name": "caramel_spin_[00000-00020].png",
+      "translation": [
+        146.473,
+        36,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "anchor": [
+        98.5,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": 0,
+          "saturation": 0.5,
+          "lightness": 0.25,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.7,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00000.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00001.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00002.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00003.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00004.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00005.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00006.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00007.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00008.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00009.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00010.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00011.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00012.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00013.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00014.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00015.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00016.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00017.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00018.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00019.png",
+            "../assets/caramel_spin/caramel_spin_2/caramel_spin_second_00020.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "caramel_spin_[00000-00020].png.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 0.875,
+          "len": 27,
+          "cutf": 19
+        },
+        "caramel_spin_[00000-00020].png.curFrame": {
+          "duration": 0.875,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "len": 27,
+          "cutf": 0
+        },
+        "caramel_spin_[00000-00020].png.enabled": {
+          "duration": 0.875,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 27,
+          "cutf": 21
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.70833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.875
+        }
+      },
+      "layers": [
+        "caramel_spin_[00000-00020].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

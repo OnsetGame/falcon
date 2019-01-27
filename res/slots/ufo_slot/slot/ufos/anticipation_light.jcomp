@@ -1,0 +1,140 @@
+{
+  "name": "anticipation_light",
+  "children": [
+    {
+      "name": "luchi_anticipation.png$2",
+      "translation": [
+        963,
+        640,
+        0
+      ],
+      "scale": [
+        4,
+        4.5,
+        1
+      ],
+      "anchor": [
+        38.5,
+        135,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/luchi_anticipation.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "luchi_anticipation.png",
+      "translation": [
+        963,
+        640,
+        0
+      ],
+      "scale": [
+        4,
+        4.5,
+        1
+      ],
+      "anchor": [
+        38.5,
+        135,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/luchi_anticipation.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "luchi_anticipation.png.enabled": {
+          "duration": 6.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 182,
+          "cutf": 181
+        },
+        "luchi_anticipation.png$2.enabled": {
+          "duration": 6.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 182,
+          "cutf": 181
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6.04166666666667
+        }
+      },
+      "layers": [
+        "luchi_anticipation.png",
+        "luchi_anticipation.png$2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements%20(converted).aep",
+  "version": 1
+}

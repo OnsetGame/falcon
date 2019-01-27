@@ -1,0 +1,317 @@
+{
+  "name": "task_frame_soon",
+  "children": [
+    {
+      "name": "task_card.png",
+      "translation": [
+        216,
+        346,
+        0
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/task_card.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "soon_slot_desc",
+      "translation": [
+        216.496,
+        515.039,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        -0.167,
+        9.146,
+        0
+      ],
+      "alpha": 0.6,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Alchemy Slot\nwith classic\nmechanics",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -204,
+            -31.599853515625,
+            398.000061035156,
+            147
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "shape_layer",
+      "translation": [
+        216.25,
+        420.25,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            333.522123893805,
+            56
+          ],
+          "radius": 28,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.18039215686275,
+            0.49019607843137,
+            0.19607843137255,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tw_coming_soon",
+      "translation": [
+        216.084,
+        419.055,
+        0
+      ],
+      "anchor": [
+        -0.313,
+        -11.385,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Coming Soon",
+          "font": "Exo2-Black",
+          "fontSize": 33,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "progress_timer_shape",
+      "translation": [
+        217.5,
+        365,
+        0
+      ],
+      "anchor": [
+        100.5,
+        100.5,
+        0
+      ],
+      "compositionRef": "../../ui2_0/progress_timer_shape",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.708,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.70833333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "soon_cards",
+      "translation": [
+        218.187,
+        162.12,
+        0
+      ],
+      "anchor": [
+        140,
+        160,
+        0
+      ],
+      "compositionRef": "soon_cards",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "soon_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "progress_timer_shape.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 51
+        },
+        "tw_coming_soon.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "shape_layer.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "soon_slot_desc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "task_card.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "soon_cards",
+        "progress_timer_shape",
+        "tw_coming_soon",
+        "shape_layer",
+        "soon_slot_desc",
+        "task_card.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,1157 @@
+{
+  "name": "map_feature_buttons",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        151.25,
+        286.9375,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.0348994967025,
+        0.9993908270191
+      ],
+      "children": [
+        {
+          "name": "map_feature_back",
+          "translation": [
+            -0.24999137591954,
+            0.00107742772025,
+            0
+          ],
+          "scale": [
+            0.99997479075959,
+            0.99997479075959,
+            1
+          ],
+          "anchor": [
+            128,
+            238.9375,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.00215491476741,
+            0.99999767816848
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/map_collect_holder.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "shadow_red",
+          "translation": [
+            -9,
+            -119.9375,
+            0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "components": [
+            {
+              "color": [
+                0.96862745285034,
+                0,
+                0.15294118225574,
+                1
+              ],
+              "_c": "ColorFill"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "shadow_black",
+          "translation": [
+            -0.25,
+            -125.4375,
+            0
+          ],
+          "scale": [
+            2.04494382022472,
+            2.04494382022472,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "currency_chips_placeholder",
+          "translation": [
+            -1.75,
+            -135.875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            59.5,
+            63,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconCompositionPrefix": "common/lib/icons/precomps",
+              "iconComposition": "currency_chips",
+              "iconName": "chips"
+            },
+            {
+              "color": [
+                0.60392200946808,
+                0.60392200946808,
+                0.60392200946808
+              ],
+              "size": [
+                119,
+                126
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "feature_icon_placeholder",
+          "translation": [
+            9.75,
+            -127.4375,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            83,
+            75,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "feature_button_icon"
+            },
+            {
+              "color": [
+                0.66274499893188,
+                0.66274499893188,
+                0.66274499893188
+              ],
+              "size": [
+                166,
+                150
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "shadow_green",
+          "translation": [
+            -6.5,
+            -124.9375,
+            0
+          ],
+          "scale": [
+            1.41573033707865,
+            1.43468255042642,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "components": [
+            {
+              "color": [
+                0.14117647707462,
+                0.53725492954254,
+                0.1803921610117,
+                1
+              ],
+              "_c": "ColorFill"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "currency_bucks_placeholder",
+          "translation": [
+            -0.75,
+            -136.4375,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            74,
+            61,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconCompositionPrefix": "common/lib/icons/precomps",
+              "iconComposition": "currency_bucks",
+              "iconName": "bucks"
+            },
+            {
+              "color": [
+                0.60392159223557,
+                0.60392159223557,
+                0.60392159223557
+              ],
+              "size": [
+                148,
+                122
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "play_button",
+          "translation": [
+            9.5,
+            -129.125,
+            0
+          ],
+          "scale": [
+            0.75879310344828,
+            0.75879310344828,
+            1
+          ],
+          "anchor": [
+            116,
+            112,
+            0
+          ],
+          "compositionRef": "play_button",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "boosters_all",
+          "translation": [
+            7.25,
+            -133.4375,
+            0
+          ],
+          "anchor": [
+            158.5,
+            153.5,
+            0
+          ],
+          "compositionRef": "boosters_all",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "alert_comp",
+          "translation": [
+            82.9061785974425,
+            -195.479207191519,
+            0
+          ],
+          "scale": [
+            0.99997479075959,
+            0.99997479075959,
+            1
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.00215491476741,
+            0.99999767816848
+          ],
+          "compositionRef": "alert_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "alert_big_comp",
+          "translation": [
+            82.9069866682328,
+            -195.291713659579,
+            0
+          ],
+          "scale": [
+            0.99997479075959,
+            0.99997479075959,
+            1
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0.00215491476741,
+            0.99999767816848
+          ],
+          "compositionRef": "alert_big_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "free_shadow",
+          "translation": [
+            2.74057841598409,
+            -106.995599768098,
+            0
+          ],
+          "scale": [
+            2.04494382022472,
+            2.04494382022472,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "free_round_freecup_placeholder",
+              "translation": [
+                39.3699918735023,
+                30.0366531833009,
+                0
+              ],
+              "scale": [
+                0.48901098901099,
+                0.48901098901099,
+                1
+              ],
+              "anchor": [
+                119,
+                122,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.08333333333333,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "IconComponent",
+                  "iconCompositionPrefix": "common/lib/icons/precomps",
+                  "iconComposition": "reward_icons",
+                  "iconName": "freeRounds"
+                },
+                {
+                  "color": [
+                    0.48627451062202,
+                    0.47673970460892,
+                    0.47673970460892
+                  ],
+                  "size": [
+                    238,
+                    244
+                  ],
+                  "_c": "Solid"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.08333333333333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.08333333333333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.17195283849959,
+              0.17195283849959,
+              1
+            ],
+            [
+              0.72068454947782,
+              0.72068454947782,
+              1
+            ],
+            [
+              1.17487420151612,
+              1.17487420151612,
+              1
+            ],
+            [
+              1.19259802003109,
+              1.19259802003109,
+              1
+            ],
+            [
+              1.16335902380002,
+              1.16335902380002,
+              1
+            ],
+            [
+              1.11623697452381,
+              1.11623697452381,
+              1
+            ],
+            [
+              1.06220391341221,
+              1.06220391341221,
+              1
+            ],
+            [
+              1.0181063019366,
+              1.0181063019366,
+              1
+            ],
+            [
+              1.00002520987594,
+              1.00002520987594,
+              1
+            ],
+            [
+              1.00260357192714,
+              1.00260357192714,
+              1
+            ],
+            [
+              1.00869059099469,
+              1.00869059099469,
+              1
+            ],
+            [
+              1.00898808763424,
+              1.00898808763424,
+              1
+            ],
+            [
+              1.00315042199382,
+              1.00315042199382,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.00994435860688,
+              1.00994435860688,
+              1
+            ],
+            [
+              1.04379964732954,
+              1.04379964732954,
+              1
+            ],
+            [
+              1.11004862091086,
+              1.11004862091086,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              0.92319697483513,
+              0.92319697483513,
+              1
+            ],
+            [
+              0.36199694943271,
+              0.36199694943271,
+              1
+            ],
+            [
+              0.07303679052003,
+              0.07303679052003,
+              1
+            ]
+          ],
+          "duration": 1.08333333333333,
+          "len": 26,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "parent.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.0348994967025,
+              0.9993908270191
+            ],
+            [
+              0,
+              0,
+              -0.02180979046382,
+              0.99976213823085
+            ],
+            [
+              0,
+              0,
+              0.02192547317244,
+              0.99975960791891
+            ],
+            [
+              0,
+              0,
+              0.0348994967025,
+              0.9993908270191
+            ],
+            [
+              0,
+              0,
+              0.03167103622572,
+              0.99949834690428
+            ],
+            [
+              0,
+              0,
+              0.02204930408315,
+              0.99975688454216
+            ],
+            [
+              0,
+              0,
+              0.00751752886298,
+              0.99997174298067
+            ],
+            [
+              0,
+              0,
+              -0.00436330928475,
+              0.99999048072073
+            ],
+            [
+              0,
+              0,
+              -0.00344071853997,
+              0.99999408071045
+            ],
+            [
+              0,
+              0,
+              -0.00215491476741,
+              0.99999767816848
+            ],
+            [
+              0,
+              0,
+              -0.00088174048647,
+              0.99999961126678
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.08333333333333,
+          "len": 26,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "currency_bucks_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.17195283849959,
+              0.17195283849959,
+              1
+            ],
+            [
+              0.72068454947782,
+              0.72068454947782,
+              1
+            ],
+            [
+              1.17487420151612,
+              1.17487420151612,
+              1
+            ],
+            [
+              1.19259802003109,
+              1.19259802003109,
+              1
+            ],
+            [
+              1.16335902380002,
+              1.16335902380002,
+              1
+            ],
+            [
+              1.11623697452381,
+              1.11623697452381,
+              1
+            ],
+            [
+              1.06220391341221,
+              1.06220391341221,
+              1
+            ],
+            [
+              1.0181063019366,
+              1.0181063019366,
+              1
+            ],
+            [
+              1.00002520987594,
+              1.00002520987594,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.08333333333333,
+          "len": 26,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "feature_icon_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.17195283849959,
+              0.17195283849959,
+              1
+            ],
+            [
+              0.72068454947782,
+              0.72068454947782,
+              1
+            ],
+            [
+              1.17487420151612,
+              1.17487420151612,
+              1
+            ],
+            [
+              1.19259802003109,
+              1.19259802003109,
+              1
+            ],
+            [
+              1.16335902380002,
+              1.16335902380002,
+              1
+            ],
+            [
+              1.11623697452381,
+              1.11623697452381,
+              1
+            ],
+            [
+              1.06220391341221,
+              1.06220391341221,
+              1
+            ],
+            [
+              1.0181063019366,
+              1.0181063019366,
+              1
+            ],
+            [
+              1.00002520987594,
+              1.00002520987594,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.08333333333333,
+          "len": 26,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "currency_chips_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.17195283849959,
+              0.17195283849959,
+              1
+            ],
+            [
+              0.72068454947782,
+              0.72068454947782,
+              1
+            ],
+            [
+              1.17487420151612,
+              1.17487420151612,
+              1
+            ],
+            [
+              1.19259802003109,
+              1.19259802003109,
+              1
+            ],
+            [
+              1.16335902380002,
+              1.16335902380002,
+              1
+            ],
+            [
+              1.11623697452381,
+              1.11623697452381,
+              1
+            ],
+            [
+              1.06220391341221,
+              1.06220391341221,
+              1
+            ],
+            [
+              1.0181063019366,
+              1.0181063019366,
+              1
+            ],
+            [
+              1.00002520987594,
+              1.00002520987594,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.08333333333333,
+          "len": 26,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "free_round_freecup_placeholder.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "free_shadow.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "alert_big_comp.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "alert_comp.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "boosters_all.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "play_button.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "currency_bucks_placeholder.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "shadow_green.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "feature_icon_placeholder.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "currency_chips_placeholder.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "shadow_black.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "shadow_red.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "map_feature_back.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        },
+        "parent.enabled": {
+          "duration": 1.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 26,
+          "cutf": 25
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.58333333333333
+        },
+        "end": {
+          "start": 0.58333333333333,
+          "duration": 0.16666666666667
+        },
+        "out": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.08333333333333
+        }
+      },
+      "layers": [
+        "free_round_freecup_placeholder",
+        "free_shadow",
+        "alert_big_comp",
+        "alert_comp",
+        "boosters_all",
+        "play_button",
+        "currency_bucks_placeholder",
+        "shadow_green",
+        "feature_icon_placeholder",
+        "currency_chips_placeholder",
+        "shadow_black",
+        "shadow_red",
+        "map_feature_back",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_collect_button.aep",
+  "export_time": "26 July 2018 20:21",
+  "rod_export_v": "Wed Jul 4 12:07:31 2018 +0300\n",
+  "version": 1
+}

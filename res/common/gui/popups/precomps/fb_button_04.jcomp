@@ -1,0 +1,247 @@
+{
+  "name": "fb_button_04",
+  "children": [
+    {
+      "name": "fb_button_4_on.png",
+      "translation": [
+        151,
+        42,
+        0
+      ],
+      "anchor": [
+        151,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/facebookbutton_white_stroke_2color_on",
+          "size": [
+            302,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fb_button_4_off.png",
+      "translation": [
+        151,
+        42,
+        0
+      ],
+      "anchor": [
+        151,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/facebookbutton_white_stroke_2color_off",
+          "size": [
+            302,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "facebook_share",
+      "translation": [
+        178.75,
+        49.024,
+        0
+      ],
+      "children": [
+        {
+          "name": "Fsign.png",
+          "translation": [
+            -130.75,
+            -9.024,
+            0
+          ],
+          "anchor": [
+            6,
+            12,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Fsign.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Connect",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "facebook_share.tY": {
+          "values": [
+            49.0249938964844,
+            49.3252868652344,
+            49.9251403808594,
+            50.5249938964844,
+            50.5249938964844,
+            50.5249938964844,
+            50.5249938964844,
+            50.5249938964844,
+            50.5249938964844,
+            49.9251403808594,
+            49.3252868652344,
+            49.0249938964844
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "fb_button_4_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "Fsign.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "facebook_share.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "fb_button_4_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "fb_button_4_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "Fsign.png",
+        "facebook_share",
+        "fb_button_4_off.png",
+        "fb_button_4_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "settings_temp.aep",
+  "version": 1
+}

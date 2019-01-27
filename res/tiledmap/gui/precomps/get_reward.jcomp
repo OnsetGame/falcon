@@ -1,0 +1,1045 @@
+{
+  "name": "get_reward",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        12.75,
+        112.875,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.043,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "small_info_complete.png",
+          "translation": [
+            -0.25,
+            0.25,
+            0
+          ],
+          "anchor": [
+            7.499,
+            99.375,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/smallInfo",
+              "size": [
+                398,
+                110
+              ]
+            }
+          ]
+        },
+        {
+          "name": "black_elliplse_taskbar.png",
+          "translation": [
+            386.25,
+            -40.875,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            61,
+            59,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/black_elliplse_taskbar.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_grey_02_safe.png",
+          "translation": [
+            389.25,
+            -49.875,
+            0
+          ],
+          "scale": [
+            0.26,
+            0.26,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.08699999999999999,
+            0.996
+          ],
+          "anchor": [
+            218,
+            189.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "ltp_grey_02_doo.png",
+              "translation": [
+                155.845,
+                193.991,
+                0
+              ],
+              "anchor": [
+                149.5,
+                142,
+                0
+              ],
+              "components": [
+                {
+                  "inWhite": 0.98,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 1,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_grey_02_doo.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inWhite": 0.98,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_grey_02_safe.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "get_reward_title",
+          "translation": [
+            193.849,
+            -32.075,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Get Reward!",
+              "font": "Exo2-Black",
+              "fontSize": 13.3333301544189,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-016,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "ltp_exclamation_mark_small.png",
+          "translation": [
+            430.249,
+            -4.124,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.121,
+            0.992
+          ],
+          "anchor": [
+            16.5,
+            80,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 0.98,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_exclamation_mark_small.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.125,
+              0.125,
+              1
+            ],
+            [
+              0.541,
+              0.541,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.185,
+              1.185,
+              1
+            ],
+            [
+              1.156,
+              1.156,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.067,
+              1.067,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1.037,
+              1.037,
+              1
+            ],
+            [
+              1.077,
+              1.077,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              0.899,
+              0.899,
+              1
+            ],
+            [
+              0.517,
+              0.517,
+              1
+            ],
+            [
+              0.116,
+              0.116,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "parent.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.04,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.027,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008999999999999999,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008999999999999999,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_exclamation_mark_small.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.14,
+              1.14,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.358,
+              1.358,
+              1
+            ],
+            [
+              1.4,
+              1.399,
+              1
+            ],
+            [
+              1.358,
+              1.358,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.14,
+              1.14,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1.062,
+              1.062,
+              1
+            ],
+            [
+              1.17,
+              1.17,
+              1
+            ],
+            [
+              1.287,
+              1.287,
+              1
+            ],
+            [
+              1.375,
+              1.375,
+              1
+            ],
+            [
+              1.394,
+              1.394,
+              1
+            ],
+            [
+              1.296,
+              1.296,
+              1
+            ],
+            [
+              1.14,
+              1.14,
+              1
+            ],
+            [
+              1.019,
+              1.019,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_exclamation_mark_small.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.121,
+              0.992
+            ],
+            [
+              0,
+              0,
+              -0.134,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.167,
+              0.985
+            ],
+            [
+              0,
+              0,
+              -0.207,
+              0.978
+            ],
+            [
+              0,
+              0,
+              -0.239,
+              0.97
+            ],
+            [
+              0,
+              0,
+              -0.253,
+              0.967
+            ],
+            [
+              0,
+              0,
+              -0.239,
+              0.97
+            ],
+            [
+              0,
+              0,
+              -0.207,
+              0.978
+            ],
+            [
+              0,
+              0,
+              -0.167,
+              0.985
+            ],
+            [
+              0,
+              0,
+              -0.134,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.121,
+              0.992
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_exclamation_mark_small.png.0.inWhite": {
+          "values": [
+            0.98,
+            0.9711606310695799,
+            0.91191943637787,
+            0.82245098039145,
+            0.73298252440526,
+            0.67374132971423,
+            0.6802418497189801,
+            0.77584601205082,
+            0.89830791544883,
+            0.97597775540609,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.97426190222505,
+            0.86908548997736,
+            0.72520873493629,
+            0.66636277655422,
+            0.75807771811276,
+            0.90388428505066,
+            0.98
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 2
+        },
+        "ltp_grey_02_doo.png.0.inWhite": {
+          "values": [
+            0.98,
+            0.94724457249865,
+            0.86912979883641,
+            0.77577216194654,
+            0.69765738828475,
+            0.66490196078431,
+            0.72014842314084,
+            0.83812127154808,
+            0.94726918126854,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.93431675884511,
+            0.79415549447905,
+            0.67740962444782,
+            0.69767215715291,
+            0.83186201325384,
+            0.95834203544953,
+            0.98
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_grey_02_safe.png.0.inWhite": {
+          "values": [
+            0.98,
+            0.94724457249865,
+            0.86912979883641,
+            0.77577216194654,
+            0.69765738828475,
+            0.66490196078431,
+            0.72014842314084,
+            0.83812127154808,
+            0.94726918126854,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.98,
+            0.93431675884511,
+            0.79415549447905,
+            0.67740962444782,
+            0.69767215715291,
+            0.83186201325384,
+            0.95834203544953,
+            0.98
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_exclamation_mark_small.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "get_reward_title.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "ltp_grey_02_doo.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "ltp_grey_02_safe.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "black_elliplse_taskbar.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "small_info_complete.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "parent.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.54166666666667
+        },
+        "idle": {
+          "start": 0.54166666666667,
+          "duration": 0.08333333333333
+        },
+        "hide": {
+          "start": 0.625,
+          "duration": 0.375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "ltp_exclamation_mark_small.png",
+        "get_reward_title",
+        "ltp_grey_02_doo.png",
+        "ltp_grey_02_safe.png",
+        "black_elliplse_taskbar.png",
+        "small_info_complete.png",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_7.aep",
+  "version": 1
+}

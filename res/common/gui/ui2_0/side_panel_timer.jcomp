@@ -1,0 +1,128 @@
+{
+  "name": "side_panel_timer",
+  "children": [
+    {
+      "name": "bank_upper_third_shadow.png",
+      "translation": [
+        1798,
+        566,
+        0
+      ],
+      "scale": [
+        1.2,
+        1.55,
+        1
+      ],
+      "anchor": [
+        96,
+        6,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../store/assets/bank_upper_third_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "timer_back_outline",
+      "translation": [
+        1822.25,
+        533,
+        0
+      ],
+      "anchor": [
+        137,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            1,
+            0.92156863212585,
+            0.23137255012989,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            274,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timer_back",
+      "translation": [
+        1830.5,
+        533,
+        0
+      ],
+      "anchor": [
+        137,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            274,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timer_text",
+      "translation": [
+        1810,
+        543,
+        0
+      ],
+      "components": [
+        {
+          "text": "23:21:04",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -117,
+            -37.5,
+            234,
+            75
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "offersidebar.aep",
+  "version": 1
+}

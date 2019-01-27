@@ -1,0 +1,3109 @@
+{
+  "name": "wheel",
+  "children": [
+    {
+      "name": "base_top",
+      "translation": [
+        961,
+        621,
+        0
+      ],
+      "anchor": [
+        63,
+        95,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/base_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "base_down",
+      "translation": [
+        961,
+        923,
+        0
+      ],
+      "anchor": [
+        71,
+        61,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/base_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "rotation_anchor",
+      "translation": [
+        960.5,
+        550.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "stick_1",
+          "translation": [
+            0.5,
+            2.5,
+            0
+          ],
+          "anchor": [
+            151,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../lrs/stick.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "stick_2",
+          "translation": [
+            0.5,
+            2.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.309,
+            0.951
+          ],
+          "anchor": [
+            151,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../lrs/stick.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "stick_3",
+          "translation": [
+            0.5,
+            2.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.587,
+            0.809
+          ],
+          "anchor": [
+            151,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../lrs/stick.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "stick_4",
+          "translation": [
+            0.5,
+            2.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.809,
+            0.587
+          ],
+          "anchor": [
+            151,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../lrs/stick.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "stick_5",
+          "translation": [
+            0.5,
+            2.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.951,
+            0.309
+          ],
+          "anchor": [
+            151,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../lrs/stick.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "cabs_ancor",
+          "scale": [
+            0.85,
+            0.85,
+            1
+          ],
+          "children": [
+            {
+              "name": "cab_1",
+              "translation": [
+                344.295,
+                -115.371,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_2",
+              "translation": [
+                346.354,
+                109.034,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_3",
+              "translation": [
+                216.118,
+                291.793,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_4",
+              "translation": [
+                3.331,
+                363.096,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_5",
+              "translation": [
+                -210.727,
+                295.709,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_6",
+              "translation": [
+                -344.295,
+                115.371,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_7",
+              "translation": [
+                -346.354,
+                -109.034,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_8",
+              "translation": [
+                -216.118,
+                -291.793,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_9",
+              "translation": [
+                -3.331,
+                -363.096,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "cab_10",
+              "translation": [
+                210.727,
+                -295.709,
+                0
+              ],
+              "anchor": [
+                63,
+                63,
+                0
+              ],
+              "compositionRef": "cabin.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "sectors_anchor",
+          "children": [
+            {
+              "name": "win_part_1",
+              "translation": [
+                -3.249,
+                -10.5,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_2",
+              "translation": [
+                3.542,
+                -10.404,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.309,
+                0.951
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_3",
+              "translation": [
+                8.981,
+                -6.335,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.587,
+                0.809
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_4",
+              "translation": [
+                10.99,
+                0.153,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.809,
+                0.587
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_5",
+              "translation": [
+                8.801,
+                6.584,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.951,
+                0.309
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_6",
+              "translation": [
+                3.249,
+                10.5,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                0
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_7",
+              "translation": [
+                -3.542,
+                10.404,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0.951,
+                0.309
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_8",
+              "translation": [
+                -8.981,
+                6.335,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.809,
+                0.587
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_9",
+              "translation": [
+                -10.99,
+                -0.153,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.587,
+                0.809
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "win_part_10",
+              "translation": [
+                -8.801,
+                -6.584,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                0.309,
+                0.951
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "sector.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "sector_dots_anchor",
+          "children": [
+            {
+              "name": "sector_dot_1",
+              "translation": [
+                359.162,
+                -1.587,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_2",
+              "translation": [
+                291.501,
+                209.825,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_3",
+              "translation": [
+                112.497,
+                341.092,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_4",
+              "translation": [
+                -109.477,
+                342.074,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_5",
+              "translation": [
+                -289.635,
+                212.394,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_6",
+              "translation": [
+                -359.162,
+                1.587,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_7",
+              "translation": [
+                -291.501,
+                -209.825,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_8",
+              "translation": [
+                -112.497,
+                -341.092,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_9",
+              "translation": [
+                97.472,
+                -345.686,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "sector_dot_10",
+              "translation": [
+                282.046,
+                -222.373,
+                0
+              ],
+              "anchor": [
+                10.919,
+                12.121,
+                0
+              ],
+              "compositionRef": "sector_dot.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "spokes_anchor",
+          "children": [
+            {
+              "name": "spoke_part_1",
+              "translation": [
+                -14.957,
+                -20.904,
+                0
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_2",
+              "translation": [
+                0.186,
+                -25.704,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.309,
+                0.951
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_3",
+              "translation": [
+                15.259,
+                -20.685,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.587,
+                0.809
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_4",
+              "translation": [
+                24.503,
+                -7.765,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.809,
+                0.587
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_5",
+              "translation": [
+                24.388,
+                8.12,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                -0.951,
+                0.309
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_6",
+              "translation": [
+                14.957,
+                20.904,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                -1,
+                0
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_7",
+              "translation": [
+                -0.186,
+                25.704,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0.951,
+                0.309
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_8",
+              "translation": [
+                -15.259,
+                20.685,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0.809,
+                0.587
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_9",
+              "translation": [
+                -24.503,
+                7.765,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0.587,
+                0.809
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "spoke_part_10",
+              "translation": [
+                -24.388,
+                -8.12,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0.309,
+                0.951
+              ],
+              "anchor": [
+                960,
+                540,
+                0
+              ],
+              "compositionRef": "spoke.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 4,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 4,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12.333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "all_shadow",
+      "translation": [
+        961,
+        560,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        193,
+        191,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 16.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/all_shadowren_undefined.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "yellow_anchor",
+      "translation": [
+        960.5,
+        550.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "yellow_1",
+          "translation": [
+            140.662,
+            -0.587,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_2",
+          "translation": [
+            114.837,
+            81.44,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_3",
+          "translation": [
+            44.552,
+            133.955,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_4",
+          "translation": [
+            -40.48,
+            134.542,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_5",
+          "translation": [
+            -111.607,
+            84.616,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_6",
+          "translation": [
+            -140.412,
+            0.587,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_7",
+          "translation": [
+            -115.337,
+            -82.94,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_8",
+          "translation": [
+            -44.052,
+            -135.205,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_9",
+          "translation": [
+            44.602,
+            -134.618,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "yellow_10",
+          "translation": [
+            115.162,
+            -81.587,
+            0
+          ],
+          "anchor": [
+            10.919,
+            12.121,
+            0
+          ],
+          "compositionRef": "yellow_dot.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12.333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ring",
+      "translation": [
+        963,
+        555,
+        0
+      ],
+      "anchor": [
+        101,
+        101,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ring.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "arrow_frame",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "arrow_frame.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 11.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 16.6666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "yellow_10.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_9.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_8.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_7.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_6.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_5.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_3.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_1.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_10.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_9.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_8.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_7.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_6.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_5.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_3.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_1.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cabs_ancor.scale": {
+          "values": [
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.855,
+              0.855,
+              1
+            ],
+            [
+              0.877,
+              0.877,
+              1
+            ],
+            [
+              0.91,
+              0.91,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.989,
+              0.989,
+              1
+            ],
+            [
+              1.022,
+              1.022,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 1
+        },
+        "cab_10.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_9.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_8.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_7.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_6.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_5.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_3.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_1.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "arrow_frame.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ring.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_anchor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "yellow_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "all_shadow.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "rotation_anchor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spokes_anchor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spoke_part_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dots_anchor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sector_dot_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sectors_anchor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "win_part_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cabs_ancor.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cab_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "stick_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "stick_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "stick_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "stick_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "stick_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "base_down.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "base_top.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "arrow_frame",
+        "ring",
+        "yellow_anchor",
+        "yellow_10",
+        "yellow_9",
+        "yellow_8",
+        "yellow_7",
+        "yellow_6",
+        "yellow_5",
+        "yellow_4",
+        "yellow_3",
+        "yellow_2",
+        "yellow_1",
+        "all_shadow",
+        "rotation_anchor",
+        "spokes_anchor",
+        "spoke_part_10",
+        "spoke_part_9",
+        "spoke_part_8",
+        "spoke_part_7",
+        "spoke_part_6",
+        "spoke_part_5",
+        "spoke_part_4",
+        "spoke_part_3",
+        "spoke_part_2",
+        "spoke_part_1",
+        "sector_dots_anchor",
+        "sector_dot_10",
+        "sector_dot_9",
+        "sector_dot_8",
+        "sector_dot_7",
+        "sector_dot_6",
+        "sector_dot_5",
+        "sector_dot_4",
+        "sector_dot_3",
+        "sector_dot_2",
+        "sector_dot_1",
+        "sectors_anchor",
+        "win_part_10",
+        "win_part_9",
+        "win_part_8",
+        "win_part_7",
+        "win_part_6",
+        "win_part_5",
+        "win_part_4",
+        "win_part_3",
+        "win_part_2",
+        "win_part_1",
+        "cabs_ancor",
+        "cab_10",
+        "cab_9",
+        "cab_8",
+        "cab_7",
+        "cab_6",
+        "cab_5",
+        "cab_4",
+        "cab_3",
+        "cab_2",
+        "cab_1",
+        "stick_5",
+        "stick_4",
+        "stick_3",
+        "stick_2",
+        "stick_1",
+        "base_down",
+        "base_top"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

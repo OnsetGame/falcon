@@ -1,0 +1,182 @@
+{
+  "name": "bubble_prt_child",
+  "translation": [
+    125.7300033569336,
+    145.6000061035156,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "windnode",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            200.0,
+            200.0,
+            200.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Bubble",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            113.4800033569336,
+            110.1900024414063,
+            0.0
+          ],
+          "is2D": true,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 0.5,
+          "isLooped": false,
+          "isPlayed": true,
+          "birthRate": 100.0,
+          "lifetime": 3.0,
+          "startVelocity": 40.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 40.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "dstScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 25.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            80.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/bubble_prt.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            100.0,
+            100.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "windnode",
+          "genShapeNode": "PRT_Bubble",
+          "hasDepthTest": false,
+          "_c": "ParticleSystem"
+        }
+      ]
+    }
+  ]
+}

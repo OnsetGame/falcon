@@ -1,0 +1,259 @@
+{
+  "name": "get_reward_orange_button",
+  "children": [
+    {
+      "name": "button_orange_get_reward_on.png",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOn",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_orange_get_reward_off.png",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOff",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        173.538,
+        49.421,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0,
+        -0.106,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "trere",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              173.538,
+              49.421,
+              0
+            ],
+            [
+              173.538,
+              50.461,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              51.5,
+              0
+            ],
+            [
+              173.538,
+              50.979,
+              0
+            ],
+            [
+              173.538,
+              49.942,
+              0
+            ],
+            [
+              173.538,
+              49.421,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 10
+        },
+        "button_orange_get_reward_off.png.alpha": {
+          "values": [
+            1,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.25,
+            0.749,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 10
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_orange_get_reward_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_orange_get_reward_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.29166666666667,
+          "duration": 0.25
+        },
+        "button_up": {
+          "start": 0.54166666666667,
+          "duration": 0.16666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "title",
+        "button_orange_get_reward_off.png",
+        "button_orange_get_reward_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

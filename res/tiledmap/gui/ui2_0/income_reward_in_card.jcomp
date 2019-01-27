@@ -1,0 +1,156 @@
+{
+  "name": "income_reward_in_card",
+  "children": [
+    {
+      "name": "plus@noloc",
+      "translation": [
+        20,
+        43.5,
+        0
+      ],
+      "scale": [
+        3,
+        2.99999999999998,
+        1
+      ],
+      "anchor": [
+        63.5000368754068,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "text": "+",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0,
+            0,
+            126.666656494141,
+            48
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "income_icon_placeholder",
+      "translation": [
+        14.5,
+        15,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "income"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            117,
+            120
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "blue_star_shape.png",
+      "translation": [
+        113.5,
+        117.5,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../../common/gui/assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "1.6",
+      "translation": [
+        112.92658996582,
+        119.955993652344,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        -0.24893951416016,
+        0.20399475097656,
+        0
+      ],
+      "components": [
+        {
+          "text": "x1.5",
+          "font": "Exo2-Black",
+          "fontSize": 38,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_info_dev3.aep",
+  "export_time": "15 August 2018 18:18",
+  "rod_export_v": "Wed Jul 4 12:07:31 2018 +0300\n",
+  "version": 1
+}

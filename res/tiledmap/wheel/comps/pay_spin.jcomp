@@ -1,0 +1,142 @@
+{
+  "name": "pay_spin",
+  "children": [
+    {
+      "name": "spin_wheel_but",
+      "translation": [
+        960,
+        551.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        56,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/spin_wheel_but.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        923.5,
+        581.5,
+        0
+      ],
+      "scale": [
+        0.17,
+        0.17,
+        1
+      ],
+      "anchor": [
+        166,
+        136.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_bucks",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            332,
+            273
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_SPIN_BUTTON_SPIN_COST_@noloc",
+      "translation": [
+        979.5,
+        587.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "250",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            0.77254998683929,
+            0.88234996795654,
+            0.64314007759094
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_SPIN_BUTTON_SPIN!",
+      "translation": [
+        960,
+        552,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "Spin!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

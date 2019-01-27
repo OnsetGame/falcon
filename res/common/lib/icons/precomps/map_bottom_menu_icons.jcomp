@@ -1,0 +1,350 @@
+{
+  "name": "map_bottom_menu_icons",
+  "children": [
+    {
+      "name": "GUI_SLOTS_BUTTON",
+      "translation": [
+        79,
+        70.5,
+        0
+      ],
+      "anchor": [
+        70.5,
+        58,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/slots.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_RANKINGS_BUTTON",
+      "translation": [
+        68.5,
+        72,
+        0
+      ],
+      "anchor": [
+        63,
+        50,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/rankings.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_COLLECTIONS_BUTTON",
+      "translation": [
+        76.5,
+        71,
+        0
+      ],
+      "anchor": [
+        68,
+        64,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/collections.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_TOURNAMENTS_BUTTON",
+      "translation": [
+        73.5,
+        70.5,
+        0
+      ],
+      "anchor": [
+        60,
+        64,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/tournaments.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_FRIENDS_BUTTON",
+      "translation": [
+        63.5,
+        71,
+        0
+      ],
+      "anchor": [
+        61,
+        63,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_friends_1_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_WHEEL_BUTTON",
+      "translation": [
+        73.5,
+        70.5,
+        0
+      ],
+      "anchor": [
+        61.5,
+        61,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/WoF2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_GIFTS_BUTTON",
+      "translation": [
+        71.25,
+        65.5,
+        0
+      ],
+      "anchor": [
+        56.5,
+        63,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/hernia.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "GUI_EXCHANGE_BUTTON",
+      "translation": [
+        71,
+        69,
+        0
+      ],
+      "anchor": [
+        63,
+        55,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Exchange2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "GUI_EXCHANGE_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_GIFTS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_WHEEL_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_FRIENDS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_TOURNAMENTS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_COLLECTIONS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_RANKINGS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "GUI_SLOTS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "GUI_EXCHANGE_BUTTON",
+        "GUI_GIFTS_BUTTON",
+        "GUI_WHEEL_BUTTON",
+        "GUI_FRIENDS_BUTTON",
+        "GUI_TOURNAMENTS_BUTTON",
+        "GUI_COLLECTIONS_BUTTON",
+        "GUI_RANKINGS_BUTTON",
+        "GUI_SLOTS_BUTTON"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Template.aep",
+  "version": 1
+}

@@ -1,0 +1,164 @@
+{
+  "name": "progress_timer_shape",
+  "children": [
+    {
+      "name": "energy_progress_shape_red_03",
+      "translation": [
+        99.625,
+        100.125,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            63,
+            63
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.54509806632996,
+            0.76470589637756,
+            0.29019609093666,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "energy_progress_shape_red_04",
+      "translation": [
+        99.625,
+        100.125,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            39,
+            39
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.1803921610117,
+            0.49019607901573,
+            0.19607843458652,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timer_icon.png",
+      "translation": [
+        100.25,
+        107.5,
+        0
+      ],
+      "anchor": [
+        35.5,
+        38.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/timer_icon.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "timer_icon.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "energy_progress_shape_red_04.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "energy_progress_shape_red_03.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "timer_icon.png",
+        "energy_progress_shape_red_04",
+        "energy_progress_shape_red_03"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

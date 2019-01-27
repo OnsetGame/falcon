@@ -1,0 +1,69 @@
+{
+  "name": "boost_shape",
+  "children": [
+    {
+      "name": "blue_star_shape.png",
+      "translation": [
+        95.75,
+        95.5,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        1
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "boost_txt",
+      "translation": [
+        97.243,
+        97.033,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "x2",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "task_complete_3rd_step_opt_V2_dev.aep",
+  "version": 1
+}

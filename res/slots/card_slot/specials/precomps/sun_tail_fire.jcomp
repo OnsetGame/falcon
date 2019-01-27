@@ -1,0 +1,374 @@
+{
+  "name": "sun_tail_fire",
+  "children": [
+    {
+      "name": "sun_tale_[00009-00020].png$5",
+      "translation": [
+        237,
+        258.5,
+        0
+      ],
+      "anchor": [
+        173,
+        234,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/sun_tale_00009.png",
+            "../assets/sun_tale_00010.png",
+            "../assets/sun_tale_00011.png",
+            "../assets/sun_tale_00012.png",
+            "../assets/sun_tale_00013.png",
+            "../assets/sun_tale_00014.png",
+            "../assets/sun_tale_00015.png",
+            "../assets/sun_tale_00016.png",
+            "../assets/sun_tale_00017.png",
+            "../assets/sun_tale_00018.png",
+            "../assets/sun_tale_00019.png",
+            "../assets/sun_tale_00020.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sun_tale_[00009-00020].png",
+      "translation": [
+        237,
+        258.5,
+        0
+      ],
+      "anchor": [
+        173,
+        234,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/sun_tale_00009.png",
+            "../assets/sun_tale_00010.png",
+            "../assets/sun_tale_00011.png",
+            "../assets/sun_tale_00012.png",
+            "../assets/sun_tale_00013.png",
+            "../assets/sun_tale_00014.png",
+            "../assets/sun_tale_00015.png",
+            "../assets/sun_tale_00016.png",
+            "../assets/sun_tale_00017.png",
+            "../assets/sun_tale_00018.png",
+            "../assets/sun_tale_00019.png",
+            "../assets/sun_tale_00020.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "blur.png$3",
+      "translation": [
+        265,
+        384.5,
+        0
+      ],
+      "scale": [
+        2.1,
+        1.07,
+        1
+      ],
+      "anchor": [
+        71,
+        219,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/blur.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "blur.png",
+      "translation": [
+        194,
+        349.5,
+        0
+      ],
+      "scale": [
+        -2.41,
+        1.07,
+        1
+      ],
+      "anchor": [
+        71,
+        219,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/blur.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "blur.png.alpha": {
+          "values": [
+            1,
+            0.97,
+            0.94,
+            0.91,
+            0.88,
+            0.85,
+            0.82,
+            0.79,
+            0.76,
+            0.73,
+            0.7,
+            0.723,
+            0.746,
+            0.769,
+            0.792,
+            0.815,
+            0.838,
+            0.861,
+            0.884,
+            0.907,
+            0.93,
+            0.953,
+            0.976,
+            1
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "blur.png$3.alpha": {
+          "values": [
+            1,
+            0.975,
+            0.95,
+            0.925,
+            0.9,
+            0.875,
+            0.85,
+            0.825,
+            0.8,
+            0.775,
+            0.75,
+            0.725,
+            0.7,
+            0.727,
+            0.754,
+            0.781,
+            0.809,
+            0.836,
+            0.863,
+            0.89,
+            0.918,
+            0.945,
+            0.972,
+            1
+          ],
+          "duration": 1,
+          "len": 24,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "blur.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 24,
+          "cutf": 23
+        },
+        "blur.png$3.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 24,
+          "cutf": 23
+        },
+        "sun_tale_[00009-00020].png.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "len": 24,
+          "cutf": 0
+        },
+        "sun_tale_[00009-00020].png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 24,
+          "cutf": 23
+        },
+        "sun_tale_[00009-00020].png$5.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "len": 24,
+          "cutf": 0
+        },
+        "sun_tale_[00009-00020].png$5.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 24,
+          "cutf": 23
+        }
+      },
+      "markers": {
+        "suntail_anticipate": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "blur.png",
+        "blur.png$3",
+        "sun_tale_[00009-00020].png",
+        "sun_tale_[00009-00020].png$5"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "WinLine_Anticip_LightEl%20(18).aep",
+  "export_time": "18 July 2018 18:16",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

@@ -1,0 +1,122 @@
+{
+  "name": "motion_1",
+  "children": [
+    {
+      "name": "spin_bonus_[00000-00001].png",
+      "translation": [
+        403,
+        144,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        201.5,
+        72,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.58333333333333,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/spin/spin_bonus_00000.png",
+            "../assets/spin/spin_bonus_00001.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "spin_bonus_[00000-00001].png.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.8,
+            0.6,
+            0.399,
+            0.199,
+            0
+          ],
+          "duration": 0.54166666666667,
+          "len": 17,
+          "cutf": 0
+        },
+        "spin_bonus_[00000-00001].png.curFrame": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "len": 17,
+          "cutf": 0
+        },
+        "spin_bonus_[00000-00001].png.enabled": {
+          "duration": 0.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 17,
+          "cutf": 16
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.54166666666667
+        }
+      },
+      "layers": [
+        "spin_bonus_[00000-00001].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

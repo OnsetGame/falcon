@@ -1,0 +1,77 @@
+{
+  "name": "shining",
+  "children": [
+    {
+      "name": "shine.png",
+      "translation": [
+        242,
+        361.5,
+        0
+      ],
+      "scale": [
+        4.5,
+        4.5,
+        1
+      ],
+      "anchor": [
+        81,
+        77,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shine.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "shine.png.enabled": {
+          "duration": 0.04166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            true
+          ],
+          "frameLerp": true,
+          "len": 1,
+          "cutf": 0
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.04166666666667
+        }
+      },
+      "layers": [
+        "shine.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "WinLine_Anticip_LightEl_fix%2018.aep",
+  "export_time": "24 July 2018 16:08",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

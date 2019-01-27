@@ -1,0 +1,152 @@
+{
+  "name": "pipeCross",
+  "children": [
+    {
+      "name": "pipe4.png",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/pipe4.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "milk_1",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        81,
+        80.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.033,
+          "outPoint": 0.658,
+          "scale": 1,
+          "startTime": 0.033,
+          "duration": 0.625,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/milk_cross/milk_cross_1.png",
+            "../sources/milk_cross/milk_cross_2.png",
+            "../sources/milk_cross/milk_cross_3.png",
+            "../sources/milk_cross/milk_cross_4.png",
+            "../sources/milk_cross/milk_cross_5.png",
+            "../sources/milk_cross/milk_cross_6.png",
+            "../sources/milk_cross/milk_cross_7.png",
+            "../sources/milk_cross/milk_cross_8.png",
+            "../sources/milk_cross/milk_cross_9.png",
+            "../sources/milk_cross/milk_cross_10.png",
+            "../sources/milk_cross/milk_cross_11.png",
+            "../sources/milk_cross/milk_cross_12.png",
+            "../sources/milk_cross/milk_cross_13.png",
+            "../sources/milk_cross/milk_cross_14.png",
+            "../sources/milk_cross/milk_cross_15.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "milk_1.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "len": 20,
+          "cutf": 1
+        },
+        "milk_1.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 20,
+          "cutf": 0
+        },
+        "pipe4.png.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 20,
+          "cutf": 19
+        }
+      },
+      "markers": {
+        "fill": {
+          "start": 0,
+          "duration": 0.66666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.66666666666667
+        }
+      },
+      "layers": [
+        "milk_1",
+        "pipe4.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

@@ -1,0 +1,110 @@
+{
+  "name": "reward_tournament",
+  "children": [
+    {
+      "name": "shape_light.png",
+      "translation": [
+        1190.5,
+        152.5,
+        0
+      ],
+      "anchor": [
+        192.5,
+        192.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/shape_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "rewards_circle",
+      "translation": [
+        1195,
+        147,
+        0
+      ],
+      "anchor": [
+        109,
+        107,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_circle_quest_men.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "rewards_shape",
+      "translation": [
+        1285,
+        140,
+        0
+      ],
+      "anchor": [
+        27,
+        61,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_shape_reward.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "reward_imagetext",
+      "translation": [
+        1285,
+        138,
+        0
+      ],
+      "anchor": [
+        15,
+        39,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_reward_copy.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon",
+      "translation": [
+        1194,
+        144,
+        0
+      ],
+      "anchor": [
+        67,
+        73,
+        0
+      ],
+      "compositionRef": "story_rewards.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

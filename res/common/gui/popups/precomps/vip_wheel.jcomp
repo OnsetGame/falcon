@@ -1,0 +1,1353 @@
+{
+  "name": "vip_wheel",
+  "children": [
+    {
+      "name": "amount_number_controller",
+      "translation": [
+        291,
+        648.5,
+        0
+      ],
+      "scale": [
+        -1.249,
+        1.249,
+        1
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.708,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "vip_bonus_parent",
+      "translation": [
+        544,
+        644,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "children": [
+        {
+          "name": "in_controller",
+          "translation": [
+            185,
+            5.875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.13,
+            0.991
+          ],
+          "children": [
+            {
+              "name": "layer_1",
+              "translation": [
+                422.875,
+                321.625,
+                0
+              ],
+              "anchor": [
+                427.937,
+                323.75,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "VectorShape",
+                  "shapeType": 0,
+                  "size": [
+                    375.875,
+                    96.5
+                  ],
+                  "radius": 25,
+                  "strokeColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "strokeWidth": 0,
+                  "color": [
+                    0.40392156862745,
+                    0.22745098039216,
+                    0.71764705882353,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "layer_2",
+              "translation": [
+                761.875,
+                322,
+                0
+              ],
+              "anchor": [
+                559.937,
+                323.937,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "VectorShape",
+                  "shapeType": 0,
+                  "size": [
+                    128.125,
+                    103.875
+                  ],
+                  "radius": 16,
+                  "strokeColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "strokeWidth": 0,
+                  "color": [
+                    0.53725490196078,
+                    0.11372549019608,
+                    0.85882352941176,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "layer_3",
+              "translation": [
+                762,
+                322.25,
+                0
+              ],
+              "anchor": [
+                560,
+                324.062,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "VectorShape",
+                  "shapeType": 0,
+                  "size": [
+                    111.75,
+                    88.125
+                  ],
+                  "radius": 8,
+                  "strokeColor": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "strokeWidth": 0,
+                  "color": [
+                    0.66666666666667,
+                    0,
+                    1,
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BONUS_CAPS",
+              "translation": [
+                202.823,
+                20.369,
+                0
+              ],
+              "scale": [
+                -1,
+                0.999,
+                1
+              ],
+              "anchor": [
+                0.324,
+                -8.28,
+                0
+              ],
+              "alpha": 0,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "BONUS",
+                  "font": "Exo2-Black",
+                  "fontSize": 24,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "bounds": [
+                    -52,
+                    -16.7999305725098,
+                    104,
+                    29
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            },
+            {
+              "name": "VIP_CAPS",
+              "translation": [
+                202.999,
+                -13.525,
+                0
+              ],
+              "scale": [
+                -1,
+                0.999,
+                1
+              ],
+              "anchor": [
+                0,
+                -16.8,
+                0
+              ],
+              "alpha": 0,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "VIP",
+                  "font": "Exo2-Black",
+                  "fontSize": 48,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "bounds": [
+                    -49.5,
+                    -33.5998497009277,
+                    99,
+                    39.5
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.708,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "NEXT_VIP_LEVEL_GAIN",
+          "translation": [
+            278.043,
+            48.619,
+            0
+          ],
+          "scale": [
+            -1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            -0.455,
+            -8.28,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.708,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "+20 Free Spins",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                -107.5,
+                -16.7999305725098,
+                329.5,
+                37
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "NEXT_VIP_LEVEL",
+          "translation": [
+            265.543,
+            67.119,
+            0
+          ],
+          "scale": [
+            -1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            -0.455,
+            -8.28,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.708,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "NEXT VIP BONUS:",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                0.83921998739243,
+                0.72548997402191,
+                0.95686000585556
+              ],
+              "bounds": [
+                -107.5,
+                -16.7999305725098,
+                304,
+                37
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "reward_icons_placeholder",
+          "translation": [
+            464.125,
+            4,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            31.5,
+            32.5,
+            0
+          ],
+          "children": [
+            {
+              "name": "circle_component_shadow.png",
+              "translation": [
+                27.125,
+                35.5,
+                0
+              ],
+              "scale": [
+                0.904,
+                0.904,
+                1
+              ],
+              "anchor": [
+                44.5,
+                41.5,
+                0
+              ],
+              "alpha": 0.4,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2.708,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/circle_component_shadow.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0.125,
+              "outPoint": 2.708,
+              "scale": 1,
+              "startTime": 0.125,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.49411800503731,
+                0.49411800503731,
+                0.49411800503731
+              ],
+              "size": [
+                63,
+                65
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.708,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "reward_icons_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              -0.926,
+              0.926,
+              1
+            ],
+            [
+              -2.62,
+              2.62,
+              1
+            ],
+            [
+              -3.464,
+              3.464,
+              1
+            ],
+            [
+              -3.226,
+              3.226,
+              1
+            ],
+            [
+              -2.622,
+              2.622,
+              1
+            ],
+            [
+              -1.866,
+              1.866,
+              1
+            ],
+            [
+              -1.221,
+              1.221,
+              1
+            ],
+            [
+              -0.954,
+              0.954,
+              1
+            ],
+            [
+              -0.957,
+              0.957,
+              1
+            ],
+            [
+              -0.966,
+              0.966,
+              1
+            ],
+            [
+              -0.977,
+              0.977,
+              1
+            ],
+            [
+              -0.988,
+              0.988,
+              1
+            ],
+            [
+              -0.996,
+              0.996,
+              1
+            ],
+            [
+              -1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 4,
+          "frameLerp": false
+        },
+        "reward_icons_placeholder.0.inWhite": {
+          "values": [
+            1,
+            0.83407407344173,
+            0.52592592655571,
+            0.36,
+            0.39545189545593,
+            0.48688046715873,
+            0.61189504406409,
+            0.74810495593873,
+            0.87311953284362,
+            0.96454810454548,
+            1
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "NEXT_VIP_LEVEL.translation": {
+          "values": [
+            [
+              265.543,
+              67.119,
+              0
+            ],
+            [
+              245.022,
+              40.27,
+              0
+            ],
+            [
+              224.932,
+              13.743,
+              0
+            ],
+            [
+              209.719,
+              -7.633,
+              0
+            ],
+            [
+              203.543,
+              -17.88,
+              0
+            ],
+            [
+              203.161,
+              -18.692,
+              0
+            ],
+            [
+              202.299,
+              -20.912,
+              0
+            ],
+            [
+              201.767,
+              -24.284,
+              0
+            ],
+            [
+              203.708,
+              -27.684,
+              0
+            ],
+            [
+              207.813,
+              -28.819,
+              0
+            ],
+            [
+              211.889,
+              -28.849,
+              0
+            ],
+            [
+              215.331,
+              -28.667,
+              0
+            ],
+            [
+              217.71,
+              -28.716,
+              0
+            ],
+            [
+              218.543,
+              -29,
+              0
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        "NEXT_VIP_LEVEL.alpha": {
+          "values": [
+            0,
+            0.156,
+            0.5,
+            0.843,
+            1
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        "NEXT_VIP_LEVEL_GAIN.translation": {
+          "values": [
+            [
+              278.043,
+              48.619,
+              0
+            ],
+            [
+              258.079,
+              37.485,
+              0
+            ],
+            [
+              238.446,
+              26.515,
+              0
+            ],
+            [
+              223.004,
+              17.754,
+              0
+            ],
+            [
+              216.043,
+              13.619,
+              0
+            ],
+            [
+              215.583,
+              13.301,
+              0
+            ],
+            [
+              214.571,
+              12.204,
+              0
+            ],
+            [
+              215.062,
+              10.191,
+              0
+            ],
+            [
+              217.446,
+              8.821,
+              0
+            ],
+            [
+              220.377,
+              7.956,
+              0
+            ],
+            [
+              223.467,
+              7.458,
+              0
+            ],
+            [
+              226.444,
+              7.303,
+              0
+            ],
+            [
+              229.049,
+              7.492,
+              0
+            ],
+            [
+              231,
+              8,
+              0
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        "NEXT_VIP_LEVEL_GAIN.alpha": {
+          "values": [
+            0,
+            0.156,
+            0.5,
+            0.843,
+            1
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 9,
+          "frameLerp": false
+        },
+        "in_controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.216,
+              0.216,
+              1
+            ],
+            [
+              0.695,
+              0.695,
+              1
+            ],
+            [
+              1.155,
+              1.155,
+              1
+            ],
+            [
+              1.35,
+              1.35,
+              1
+            ],
+            [
+              1.312,
+              1.312,
+              1
+            ],
+            [
+              1.215,
+              1.215,
+              1
+            ],
+            [
+              1.095,
+              1.095,
+              1
+            ],
+            [
+              0.992,
+              0.992,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.96,
+              0.96,
+              1
+            ],
+            [
+              0.975,
+              0.975,
+              1
+            ],
+            [
+              0.989,
+              0.989,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "in_controller.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.13,
+              0.991
+            ],
+            [
+              0,
+              0,
+              0.107,
+              0.994
+            ],
+            [
+              0,
+              0,
+              0.056,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.011,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "VIP_CAPS.alpha": {
+          "values": [
+            0,
+            0.156,
+            0.5,
+            0.843,
+            1
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "BONUS_CAPS.alpha": {
+          "values": [
+            0,
+            0.156,
+            0.5,
+            0.843,
+            1
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "amount_number_controller.scale": {
+          "values": [
+            [
+              -1.249,
+              1.249,
+              1
+            ],
+            [
+              -1.833,
+              1.833,
+              1
+            ],
+            [
+              -2.416,
+              2.416,
+              1
+            ],
+            [
+              -2.999,
+              2.999,
+              1
+            ],
+            [
+              -3.767,
+              3.767,
+              1
+            ],
+            [
+              -4.534,
+              4.534,
+              1
+            ],
+            [
+              -4.816,
+              4.816,
+              1
+            ],
+            [
+              -3.642,
+              3.642,
+              1
+            ],
+            [
+              -2.467,
+              2.467,
+              1
+            ],
+            [
+              -1.293,
+              1.293,
+              1
+            ],
+            [
+              -1.014,
+              1.014,
+              1
+            ],
+            [
+              -1.035,
+              1.035,
+              1
+            ],
+            [
+              -1.055,
+              1.055,
+              1
+            ],
+            [
+              -1.046,
+              1.046,
+              1
+            ],
+            [
+              -1.027,
+              1.027,
+              1
+            ],
+            [
+              -1.009,
+              1.009,
+              1
+            ],
+            [
+              -1.004,
+              1.004,
+              1
+            ],
+            [
+              -1.013,
+              1.013,
+              1
+            ],
+            [
+              -1.023,
+              1.023,
+              1
+            ],
+            [
+              -1.027,
+              1.027,
+              1
+            ],
+            [
+              -1.018,
+              1.018,
+              1
+            ],
+            [
+              -1.009,
+              1.009,
+              1
+            ],
+            [
+              -0.999,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 2.70833333333333,
+          "len": 65,
+          "cutf": 1,
+          "frameLerp": false
+        },
+        "vip_bonus_parent.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "amount_number_controller.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "VIP_CAPS.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "BONUS_CAPS.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "reward_icons_placeholder.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 2
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "NEXT_VIP_LEVEL.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "NEXT_VIP_LEVEL_GAIN.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "layer_3.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "layer_2.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "layer_1.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        },
+        "in_controller.enabled": {
+          "duration": 2.70833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 65,
+          "cutf": 64
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.91666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.70833333333333
+        }
+      },
+      "layers": [
+        "vip_bonus_parent",
+        "amount_number_controller",
+        "VIP_CAPS",
+        "BONUS_CAPS",
+        "reward_icons_placeholder",
+        "circle_component_shadow.png",
+        "NEXT_VIP_LEVEL",
+        "NEXT_VIP_LEVEL_GAIN",
+        "layer_3",
+        "layer_2",
+        "layer_1",
+        "in_controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Vip_exchange+gifts+ava.aep",
+  "export_time": "5 July 2018 13:34",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

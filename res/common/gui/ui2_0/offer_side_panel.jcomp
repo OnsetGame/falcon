@@ -1,0 +1,1273 @@
+{
+  "name": "offer_side_panel",
+  "children": [
+    {
+      "name": "controller_placeholder",
+      "translation": [
+        646,
+        98,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.719,
+        0.694
+      ],
+      "children": [
+        {
+          "name": "offer_ph_out",
+          "translation": [
+            -98.536,
+            2.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "shapeType": 0,
+              "size": [
+                297.927734375,
+                109.021808378794
+              ],
+              "radius": 39,
+              "strokeColor": [
+                1,
+                0.32156863808632,
+                0.32156863808632,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                0.99
+              ]
+            }
+          ]
+        },
+        {
+          "name": "offer_ph_in",
+          "translation": [
+            -98.536,
+            2.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "shapeType": 0,
+              "size": [
+                273.927734375,
+                85.0218083787945
+              ],
+              "radius": 28,
+              "strokeColor": [
+                1,
+                0.32156863808632,
+                0.32156863808632,
+                1
+              ],
+              "strokeWidth": 8,
+              "color": [
+                0.85098040103912,
+                0.1294117718935,
+                0.35686275362968,
+                0.99
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mask_old_price",
+          "translation": [
+            -14,
+            1.5,
+            0
+          ],
+          "anchor": [
+            125,
+            128,
+            0
+          ],
+          "enabled": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.17647099494934,
+                0.17647099494934,
+                0.17647099494934
+              ],
+              "size": [
+                250,
+                256
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "controller_text",
+          "translation": [
+            122.937,
+            10.937,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            1
+          ],
+          "children": [
+            {
+              "name": "promo_text",
+              "translation": [
+                0.062,
+                13,
+                0
+              ],
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "50% OFF",
+                  "font": "Exo2-Black",
+                  "fontSize": 40,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "bounds": [
+                    -117,
+                    -37.5,
+                    234,
+                    75
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "side_panel_timer",
+          "translation": [
+            1,
+            -47,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            1922,
+            533,
+            0
+          ],
+          "compositionRef": "side_panel_timer",
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "reward_icon_placeholder",
+          "translation": [
+            -251.8,
+            3.734,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            1
+          ],
+          "anchor": [
+            60.5,
+            62,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.33394607901573,
+                0.10307925194502,
+                0.10307925194502
+              ],
+              "size": [
+                121,
+                124
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape0",
+      "translation": [
+        246.5,
+        127.5,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../popups/precomps/questbar_story_completed_shape",
+      "components": [
+        {
+          "inPoint": 1.5,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 1.5,
+          "duration": 0.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape2",
+      "translation": [
+        298,
+        123.5,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../popups/precomps/questbar_story_completed_shape",
+      "components": [
+        {
+          "inPoint": 1.583,
+          "outPoint": 2.083,
+          "scale": 1,
+          "startTime": 1.583,
+          "duration": 0.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape3",
+      "translation": [
+        306,
+        81.5,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../popups/precomps/questbar_story_completed_shape",
+      "components": [
+        {
+          "inPoint": 1.75,
+          "outPoint": 2.25,
+          "scale": 1,
+          "startTime": 1.75,
+          "duration": 0.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "shape3.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 41,
+          "frameLerp": false
+        },
+        "shape2.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 37,
+          "frameLerp": false
+        },
+        "shape0.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 35,
+          "frameLerp": false
+        },
+        "controller_placeholder.translation": {
+          "values": [
+            [
+              646,
+              98,
+              0
+            ],
+            [
+              597.249,
+              98,
+              0
+            ],
+            [
+              489.999,
+              98,
+              0
+            ],
+            [
+              382.751,
+              97.999,
+              0
+            ],
+            [
+              334,
+              98,
+              0
+            ],
+            [
+              311.089,
+              97.999,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              333,
+              98,
+              0
+            ],
+            [
+              365.664,
+              98,
+              0
+            ],
+            [
+              437.499,
+              97.999,
+              0
+            ],
+            [
+              509.343,
+              97.999,
+              0
+            ],
+            [
+              542,
+              98,
+              0
+            ],
+            [
+              550.789,
+              98,
+              0
+            ],
+            [
+              546.882,
+              98,
+              0
+            ],
+            [
+              536.777,
+              98,
+              0
+            ],
+            [
+              532,
+              98,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "controller_placeholder.scale": {
+          "values": [
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.57,
+              0.57,
+              1
+            ],
+            [
+              0.679,
+              0.679,
+              1
+            ],
+            [
+              0.791,
+              0.791,
+              1
+            ],
+            [
+              0.891,
+              0.891,
+              1
+            ],
+            [
+              0.967,
+              0.967,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "controller_placeholder.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.719,
+              0.694
+            ],
+            [
+              0,
+              0,
+              0.634,
+              0.772
+            ],
+            [
+              0,
+              0,
+              0.345,
+              0.938
+            ],
+            [
+              0,
+              0,
+              0.055,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.034,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.017,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "controller_placeholder.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 95,
+          "frameLerp": false
+        },
+        "reward_icon_placeholder.scale": {
+          "values": [
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.549,
+              0.549,
+              1
+            ],
+            [
+              0.671,
+              0.671,
+              1
+            ],
+            [
+              0.829,
+              0.829,
+              1
+            ],
+            [
+              0.984,
+              0.984,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.13,
+              1.13,
+              1
+            ],
+            [
+              1.091,
+              1.091,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "side_panel_timer.translation": {
+          "values": [
+            [
+              1,
+              -47,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 95,
+          "frameLerp": false
+        },
+        "side_panel_timer.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.101,
+              0.101,
+              1
+            ],
+            [
+              0.347,
+              0.347,
+              1
+            ],
+            [
+              0.653,
+              0.653,
+              1
+            ],
+            [
+              0.932,
+              0.932,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.13,
+              1.13,
+              1
+            ],
+            [
+              1.091,
+              1.091,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "side_panel_timer.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 95,
+          "frameLerp": false
+        },
+        "side_panel_timer.0.inWhite": {
+          "values": [
+            1,
+            0.9635999996777,
+            0.87679999975705,
+            0.77320000024144,
+            0.68640000032129,
+            0.65,
+            0.70468750037123,
+            0.82500000000079,
+            0.94531249962996,
+            1
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "side_panel_timer.0.outBlack": {
+          "values": [
+            0,
+            0.03848000034072,
+            0.13024000025683,
+            0.23975999974477,
+            0.33151999966035,
+            0.37,
+            0.31218749960756,
+            0.18499999999917,
+            0.05781250039119,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "controller_text.translation": {
+          "values": [
+            [
+              122.937,
+              10.937,
+              0
+            ],
+            [
+              105.89,
+              10.937,
+              0
+            ],
+            [
+              63.307,
+              10.937,
+              0
+            ],
+            [
+              7.937,
+              10.937,
+              0
+            ],
+            [
+              -47.432,
+              10.937,
+              0
+            ],
+            [
+              -90.025,
+              10.937,
+              0
+            ],
+            [
+              -107.062,
+              10.937,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "controller_text.scale": {
+          "values": [
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.549,
+              0.549,
+              1
+            ],
+            [
+              0.671,
+              0.671,
+              1
+            ],
+            [
+              0.829,
+              0.829,
+              1
+            ],
+            [
+              0.984,
+              0.984,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.13,
+              1.13,
+              1
+            ],
+            [
+              1.091,
+              1.091,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 3,
+          "frameLerp": false
+        },
+        "controller_text.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 95,
+          "frameLerp": false
+        },
+        "shape3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 41
+        },
+        "shape2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 37
+        },
+        "shape0.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 35
+        },
+        "reward_icon_placeholder.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "side_panel_timer.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "promo_text.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 47
+        },
+        "controller_text.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "offer_ph_in.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "offer_ph_out.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "controller_placeholder.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "minimize": {
+          "start": 1,
+          "duration": 0.375
+        },
+        "shine": {
+          "start": 1.375,
+          "duration": 0.91666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "shape3",
+        "shape2",
+        "shape0",
+        "reward_icon_placeholder",
+        "side_panel_timer",
+        "promo_text",
+        "controller_text",
+        "mask_old_price",
+        "offer_ph_in",
+        "offer_ph_out",
+        "controller_placeholder"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "offersidebar_V2.aep",
+  "export_time": "15 June 2018 15:59",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

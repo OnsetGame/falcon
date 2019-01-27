@@ -1,0 +1,332 @@
+{
+  "name": "task_frame_skip",
+  "children": [
+    {
+      "name": "color_cards",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "color_cards",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_bucks",
+      "translation": [
+        214,
+        661,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "../../ui2_0/big_white_stroke_green_btn_bucks",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "card_buttons",
+      "translation": [
+        213,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "card_buttons",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "SKIP_TASK_DESC",
+      "translation": [
+        216.5,
+        487.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Skip Task\nfor 5,000\nBucks",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -153.5,
+            -90.5,
+            294,
+            203
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        216,
+        264,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 1",
+      "translation": [
+        216,
+        237,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            190,
+            190
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 8,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blue_sign",
+      "translation": [
+        222,
+        224,
+        0
+      ],
+      "anchor": [
+        90,
+        90,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "icons_signs",
+          "iconName": "blue_sign"
+        },
+        {
+          "color": [
+            0.47843137383461,
+            0.47843137383461,
+            0.47843137383461
+          ],
+          "size": [
+            180,
+            180
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "blue_sign.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "Shape Layer 1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "SKIP_TASK_DESC.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "card_buttons.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "big_white_stroke_green_btn_bucks.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "color_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "blue_sign",
+        "Shape Layer 1",
+        "circle_component_shadow.png",
+        "SKIP_TASK_DESC",
+        "card_buttons",
+        "big_white_stroke_green_btn_bucks",
+        "color_cards"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

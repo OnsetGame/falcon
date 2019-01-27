@@ -1,0 +1,178 @@
+{
+  "name": "profile_resources",
+  "children": [
+    {
+      "name": "profile_bg.png",
+      "translation": [
+        307.937,
+        43,
+        0
+      ],
+      "anchor": [
+        204,
+        36,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowBlackSolid30px",
+          "size": [
+            408,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text_amount",
+      "translation": [
+        128.895,
+        31.972,
+        0
+      ],
+      "anchor": [
+        0.895,
+        -22.527,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "305 250",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "res_ico_parent",
+      "translation": [
+        1,
+        0,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_ellipse_549.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "text_rank",
+      "translation": [
+        435.283,
+        32.919,
+        0
+      ],
+      "anchor": [
+        2.783,
+        -22.08,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "N/A",
+          "font": "Exo2-Regular",
+          "fontSize": 32,
+          "color": [
+            0.98823994398117,
+            0.87451004981995,
+            0.54510003328323
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "pvp_icon",
+      "translation": [
+        17.75,
+        11.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_layer_780.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "reward_icons_placeholder",
+      "translation": [
+        44.25,
+        45.75,
+        0
+      ],
+      "anchor": [
+        35.5,
+        36.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "tourPoints"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            71,
+            73
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version2%20(CC%202018).aep",
+  "version": 1
+}

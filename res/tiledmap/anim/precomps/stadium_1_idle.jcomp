@@ -1,0 +1,62 @@
+{
+  "name": "stadium_1_idle",
+  "children": [
+    {
+      "name": "stadium_1",
+      "translation": [
+        0,
+        1758,
+        0
+      ],
+      "anchor": [
+        0,
+        1758,
+        0
+      ],
+      "compositionRef": "stadium_1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "stadium_1.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 10
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "stadium_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "stadium_dev.aep",
+  "version": 1
+}

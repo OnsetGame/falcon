@@ -1,0 +1,42 @@
+{
+  "name": "necklace",
+  "children": [
+    {
+      "name": "necklace_idle",
+      "translation": [
+        104,
+        101,
+        0
+      ],
+      "anchor": [
+        78,
+        76,
+        0
+      ],
+      "scale": [
+        1.33,
+        1.33,
+        1
+      ],
+      "compositionRef": "necklace_idle.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "necklace_win",
+      "translation": [
+        104,
+        101,
+        0
+      ],
+      "anchor": [
+        104,
+        101,
+        0
+      ],
+      "compositionRef": "necklace_win.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "Characters_Optimization_and_Spin.aep",
+  "version": 1
+}

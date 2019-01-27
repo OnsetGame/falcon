@@ -1,0 +1,260 @@
+{
+  "name": "button_yellow_long",
+  "children": [
+    {
+      "name": "button_yellow_long_on.png",
+      "translation": [
+        6,
+        8,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.766,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/button_yellow_long_on.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_yellow_button_1.png",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.766,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_yellow_button_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        146.538,
+        34.905,
+        0
+      ],
+      "anchor": [
+        -33.711,
+        -23.094,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.766,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "title",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              146.538,
+              34.905,
+              0
+            ],
+            [
+              146.538,
+              35.429,
+              0
+            ],
+            [
+              146.538,
+              35.951,
+              0
+            ],
+            [
+              146.538,
+              36.475,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              37,
+              0
+            ],
+            [
+              146.538,
+              36.475,
+              0
+            ],
+            [
+              146.538,
+              35.953,
+              0
+            ],
+            [
+              146.538,
+              35.429,
+              0
+            ],
+            [
+              146.538,
+              34.905,
+              0
+            ]
+          ],
+          "duration": 5.76666666666667,
+          "len": 173,
+          "cutf": 5
+        },
+        "ltp_yellow_button_1.png.alpha": {
+          "values": [
+            1,
+            0.75,
+            0.5,
+            0.25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.25,
+            0.5,
+            0.75,
+            1
+          ],
+          "duration": 5.76666666666667,
+          "len": 173,
+          "cutf": 5
+        },
+        "title.enabled": {
+          "duration": 5.76666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 173,
+          "cutf": 172
+        },
+        "ltp_yellow_button_1.png.enabled": {
+          "duration": 5.76666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 173,
+          "cutf": 172
+        },
+        "button_yellow_long_on.png.enabled": {
+          "duration": 5.76666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 173,
+          "cutf": 172
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.1,
+          "duration": 0.3
+        },
+        "button_up": {
+          "start": 0.4,
+          "duration": 0.3
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.76666666666667
+        }
+      },
+      "layers": [
+        "title",
+        "ltp_yellow_button_1.png",
+        "button_yellow_long_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

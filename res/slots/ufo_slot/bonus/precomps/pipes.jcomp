@@ -1,0 +1,429 @@
+{
+  "name": "pipes",
+  "children": [
+    {
+      "name": "pipeCross",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeCross",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeTopRight",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeTopRight",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeTopLeft",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeTopLeft",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeHorizontal",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeHorizontal",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeVertical",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeVertical",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeBottomLeft",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeBottomLeft",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "pipeBottomRight",
+      "translation": [
+        107,
+        107,
+        0
+      ],
+      "anchor": [
+        107,
+        107,
+        0
+      ],
+      "compositionRef": "pipeBottomRight",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "green_0",
+      "translation": [
+        106,
+        107,
+        0
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "compositionRef": "green_left",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.033,
+          "outPoint": 10.033,
+          "scale": 1,
+          "startTime": 0.033,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "green_1",
+      "translation": [
+        106,
+        106,
+        0
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "compositionRef": "green_top",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.033,
+          "outPoint": 10.033,
+          "scale": 1,
+          "startTime": 0.033,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "green_2",
+      "translation": [
+        108,
+        105.5,
+        0
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "compositionRef": "green_right",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.033,
+          "outPoint": 10.033,
+          "scale": 1,
+          "startTime": 0.033,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "green_3",
+      "translation": [
+        108,
+        108,
+        0
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "compositionRef": "green_bottom",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.033,
+          "outPoint": 10.033,
+          "scale": 1,
+          "startTime": 0.033,
+          "duration": 10,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "green_3.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 0
+        },
+        "green_2.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 0
+        },
+        "green_1.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 0
+        },
+        "green_0.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 0
+        },
+        "pipeBottomRight.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeBottomLeft.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeVertical.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeHorizontal.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeTopLeft.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeTopRight.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        },
+        "pipeCross.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 19
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "green_3",
+        "green_2",
+        "green_1",
+        "green_0",
+        "pipeBottomRight",
+        "pipeBottomLeft",
+        "pipeVertical",
+        "pipeHorizontal",
+        "pipeTopLeft",
+        "pipeTopRight",
+        "pipeCross"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

@@ -1,0 +1,206 @@
+{
+  "name": "white_stroke_03_red_button",
+  "children": [
+    {
+      "name": "white_stroke_03_red_button_on.png",
+      "translation": [
+        168.5,
+        41,
+        0
+      ],
+      "anchor": [
+        168.5,
+        41,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/white_stroke_red_btn_on",
+          "size": [
+            337,
+            82
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white_stroke_03_red_button_off.png",
+      "translation": [
+        168.5,
+        41,
+        0
+      ],
+      "anchor": [
+        168.5,
+        41,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/white_stroke_red_btn_off",
+          "size": [
+            337,
+            82
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        168.5,
+        51.283,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "",
+          "iconName": ""
+        },
+        {
+          "text": "Complete quest",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.tY": {
+          "values": [
+            51.2839965820312,
+            51.4923720772798,
+            52.5802800345338,
+            53.284,
+            53.284,
+            53.284,
+            53.284,
+            53.284,
+            53.284,
+            52.5802800345251,
+            51.4923720772741,
+            51.2839965820312
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "white_stroke_03_red_button_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "white_stroke_03_red_button_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "white_stroke_03_red_button_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "white_stroke_03_red_button_off.png",
+        "white_stroke_03_red_button_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_info_dev3.aep",
+  "version": 1
+}

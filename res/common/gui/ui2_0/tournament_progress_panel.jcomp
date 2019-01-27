@@ -1,0 +1,589 @@
+{
+  "name": "tournament_progress_panel",
+  "children": [
+    {
+      "name": "task_button_shadow 2",
+      "translation": [
+        173,
+        173.5,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            156,
+            156
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.6
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0,
+            0,
+            0,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "task_button_shape 2",
+      "translation": [
+        173,
+        171,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            136,
+            136
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.75
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tournament_progress_bar",
+      "translation": [
+        819,
+        117,
+        0
+      ],
+      "anchor": [
+        677,
+        34,
+        0
+      ],
+      "compositionRef": "tournament_progress_bar",
+      "components": [
+        {
+          "layerName": "ltp_mask_progress_bar_1",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_mask_progress_bar_1",
+      "translation": [
+        198,
+        124,
+        0
+      ],
+      "anchor": [
+        47,
+        31,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_mask_progress_bar.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "termometer_holder.png",
+      "translation": [
+        412.5,
+        176.75,
+        0
+      ],
+      "anchor": [
+        120,
+        24,
+        0
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/termometer_black",
+          "size": [
+            240,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tournament_timer_@noloc",
+      "translation": [
+        1422,
+        122.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "1:18:46",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haRight",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "tournament_prize_pool_@noloc",
+      "translation": [
+        414,
+        242,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "1,250,000",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "tr_prize_pool_title",
+      "translation": [
+        431.5,
+        186,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "PRIZE POOL",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "slot_logos_icons_placeholder",
+      "translation": [
+        171,
+        170.5,
+        0
+      ],
+      "anchor": [
+        90.5,
+        73.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.17647099494934,
+            0.17647099494934,
+            0.17647099494934
+          ],
+          "size": [
+            181,
+            147
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "currency_placeholder",
+      "translation": [
+        316,
+        176.5,
+        0
+      ],
+      "anchor": [
+        23,
+        24.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.17647099494934,
+            0.17647099494934,
+            0.17647099494934
+          ],
+          "size": [
+            46,
+            49
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "progress_timer_shape",
+      "translation": [
+        1481.5,
+        111.5,
+        0
+      ],
+      "anchor": [
+        100.5,
+        100.5,
+        0
+      ],
+      "compositionRef": "progress_timer_shape",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "progress_timer_shape.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 59
+        },
+        "currency_placeholder.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "slot_logos_icons_placeholder.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "tr_prize_pool_title.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "tournament_prize_pool_@noloc.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "tournament_timer_@noloc.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "termometer_holder.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "tournament_progress_bar.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "task_button_shape 2.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "task_button_shadow 2.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "progress_timer_shape",
+        "currency_placeholder",
+        "slot_logos_icons_placeholder",
+        "tr_prize_pool_title",
+        "tournament_prize_pool_@noloc",
+        "tournament_timer_@noloc",
+        "termometer_holder.png",
+        "ltp_mask_progress_bar_1",
+        "tournament_progress_bar",
+        "task_button_shape 2",
+        "task_button_shadow 2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

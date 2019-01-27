@@ -1,0 +1,335 @@
+{
+  "name": "dreamTower_old",
+  "children": [
+    {
+      "name": "dreamTower_old_lights",
+      "translation": [
+        1081,
+        876.5,
+        0
+      ],
+      "anchor": [
+        589,
+        768.5,
+        0
+      ],
+      "compositionRef": "dreamTower_old_lights",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dreamTower_newspaper",
+      "translation": [
+        583,
+        1579,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "anchor": [
+        256,
+        208,
+        0
+      ],
+      "compositionRef": "dreamTower_newspaper",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dreamTower_old_bird1",
+      "translation": [
+        736,
+        960,
+        0
+      ],
+      "anchor": [
+        736,
+        960,
+        0
+      ],
+      "compositionRef": "dreamTower_old_bird1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_dt_old_over_3.png",
+      "translation": [
+        857,
+        763,
+        0
+      ],
+      "anchor": [
+        63,
+        65,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_dt_old_over_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_dt_old_over_2.png",
+      "translation": [
+        947,
+        901,
+        0
+      ],
+      "anchor": [
+        53,
+        99,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_dt_old_over_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "dreamTower_old_bird2",
+      "translation": [
+        736,
+        960,
+        0
+      ],
+      "anchor": [
+        736,
+        960,
+        0
+      ],
+      "compositionRef": "dreamTower_old_bird2",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_dt_old_over_1.png",
+      "translation": [
+        1195,
+        1035,
+        0
+      ],
+      "anchor": [
+        49,
+        77,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_dt_old_over_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_dt_old_over.png",
+      "translation": [
+        727,
+        1153,
+        0
+      ],
+      "anchor": [
+        49,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_dt_old_over.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_dt_old_over.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_dt_old_over_1.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "dreamTower_old_bird2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_dt_old_over_2.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_dt_old_over_3.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "dreamTower_old_bird1.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "dreamTower_newspaper.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "dreamTower_old_lights.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "ltp_dt_old_over.png",
+        "ltp_dt_old_over_1.png",
+        "dreamTower_old_bird2",
+        "ltp_dt_old_over_2.png",
+        "ltp_dt_old_over_3.png",
+        "dreamTower_old_bird1",
+        "dreamTower_newspaper",
+        "dreamTower_old_lights"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "dreamTower_old_opt_dev.aep",
+  "version": 1
+}

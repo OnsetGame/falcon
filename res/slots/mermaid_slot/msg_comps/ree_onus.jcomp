@@ -1,0 +1,104 @@
+{
+  "name": "ree_onus",
+  "children": [
+    {
+      "name": "ltp_onus_2.png",
+      "translation": [
+        301,
+        149,
+        0
+      ],
+      "anchor": [
+        301,
+        111,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../msg_layers/ltp_onus_2.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ree.png",
+      "translation": [
+        263.5,
+        106,
+        0
+      ],
+      "anchor": [
+        228.5,
+        102,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../msg_layers/ltp_ree.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_ree.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        },
+        "ltp_onus_2.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.75
+        }
+      },
+      "layers": [
+        "ltp_ree.png",
+        "ltp_onus_2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding7opt8%20(converted).aep",
+  "version": 1
+}

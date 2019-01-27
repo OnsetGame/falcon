@@ -1,0 +1,433 @@
+{
+  "name": "boosters_panel",
+  "children": [
+    {
+      "name": "Shape Layer 3",
+      "translation": [
+        -831.5,
+        104,
+        0
+      ],
+      "anchor": [
+        -896,
+        -13,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            230,
+            168
+          ],
+          "radius": 48,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reward_icon",
+      "translation": [
+        45,
+        77,
+        0
+      ],
+      "anchor": [
+        62,
+        63.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.13,
+        0.991
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.30196100473404,
+            0.2994529902935,
+            0.29722398519516
+          ],
+          "size": [
+            124,
+            127
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "blue_star_shape.png",
+      "translation": [
+        120,
+        100.5,
+        0
+      ],
+      "scale": [
+        0.66,
+        0.66,
+        1
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tittle",
+      "translation": [
+        119.853,
+        103.411,
+        0
+      ],
+      "anchor": [
+        -0.248,
+        0.203,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "x1.5",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "active_state",
+      "translation": [
+        84,
+        152.5,
+        0
+      ],
+      "anchor": [
+        84,
+        36.5,
+        0
+      ],
+      "compositionRef": "active_state",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "timer_state",
+      "translation": [
+        84,
+        152.5,
+        0
+      ],
+      "anchor": [
+        84,
+        36.5,
+        0
+      ],
+      "compositionRef": "timer_state",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "blue_bttn",
+      "translation": [
+        84,
+        152.5,
+        0
+      ],
+      "anchor": [
+        84,
+        36.5,
+        0
+      ],
+      "compositionRef": "blue_bttn",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "green_bttn",
+      "translation": [
+        84,
+        152.5,
+        0
+      ],
+      "anchor": [
+        84,
+        36.5,
+        0
+      ],
+      "compositionRef": "green_bttn",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "red_bttn",
+      "translation": [
+        84,
+        152.5,
+        0
+      ],
+      "anchor": [
+        84,
+        36.5,
+        0
+      ],
+      "compositionRef": "red_bttn",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "red_bttn.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "green_bttn.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "blue_bttn.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "timer_state.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "active_state.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "tittle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "blue_star_shape.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "reward_icon.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "Shape Layer 3.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "btn_on": {
+          "start": 0.83333333333333,
+          "duration": 1.16666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "red_bttn",
+        "green_bttn",
+        "blue_bttn",
+        "timer_state",
+        "active_state",
+        "tittle",
+        "blue_star_shape.png",
+        "reward_icon",
+        "Shape Layer 3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Boosters_side_popups_new.aep",
+  "export_time": "18 June 2018 12:52",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

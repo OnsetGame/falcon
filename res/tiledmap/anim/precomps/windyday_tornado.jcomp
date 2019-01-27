@@ -1,0 +1,355 @@
+{
+  "name": "windyday_tornado",
+  "children": [
+    {
+      "name": "windyday_barrens_opt.png",
+      "translation": [
+        864,
+        432,
+        0
+      ],
+      "anchor": [
+        864,
+        432,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/windyday_barrens_opt.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Null 1",
+      "translation": [
+        592.5,
+        332.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "tornado_[00000-00023].png",
+          "translation": [
+            124,
+            -27,
+            0
+          ],
+          "anchor": [
+            323.5,
+            329.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 1,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/tornado_seq/tornado_00000.png",
+                "../assets/tornado_seq/tornado_00001.png",
+                "../assets/tornado_seq/tornado_00002.png",
+                "../assets/tornado_seq/tornado_00003.png",
+                "../assets/tornado_seq/tornado_00004.png",
+                "../assets/tornado_seq/tornado_00005.png",
+                "../assets/tornado_seq/tornado_00006.png",
+                "../assets/tornado_seq/tornado_00007.png",
+                "../assets/tornado_seq/tornado_00008.png",
+                "../assets/tornado_seq/tornado_00009.png",
+                "../assets/tornado_seq/tornado_00010.png",
+                "../assets/tornado_seq/tornado_00011.png",
+                "../assets/tornado_seq/tornado_00012.png",
+                "../assets/tornado_seq/tornado_00013.png",
+                "../assets/tornado_seq/tornado_00014.png",
+                "../assets/tornado_seq/tornado_00015.png",
+                "../assets/tornado_seq/tornado_00016.png",
+                "../assets/tornado_seq/tornado_00017.png",
+                "../assets/tornado_seq/tornado_00018.png",
+                "../assets/tornado_seq/tornado_00019.png",
+                "../assets/tornado_seq/tornado_00020.png",
+                "../assets/tornado_seq/tornado_00021.png",
+                "../assets/tornado_seq/tornado_00022.png",
+                "../assets/tornado_seq/tornado_00023.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 1.translation": {
+          "values": [
+            [
+              592.5,
+              332.5,
+              0
+            ],
+            [
+              588.187,
+              345.422,
+              0
+            ],
+            [
+              586.151,
+              358.88,
+              0
+            ],
+            [
+              587.744,
+              372.374,
+              0
+            ],
+            [
+              594.147,
+              384.292,
+              0
+            ],
+            [
+              604.6,
+              392.951,
+              0
+            ],
+            [
+              617.118,
+              398.277,
+              0
+            ],
+            [
+              630.453,
+              401.039,
+              0
+            ],
+            [
+              644.072,
+              401.802,
+              0
+            ],
+            [
+              657.649,
+              400.701,
+              0
+            ],
+            [
+              670.5,
+              396.5,
+              0
+            ],
+            [
+              676.812,
+              393.835,
+              0
+            ],
+            [
+              682.312,
+              389.719,
+              0
+            ],
+            [
+              686.978,
+              384.664,
+              0
+            ],
+            [
+              690.865,
+              378.993,
+              0
+            ],
+            [
+              694.019,
+              372.885,
+              0
+            ],
+            [
+              696.426,
+              366.445,
+              0
+            ],
+            [
+              697.987,
+              359.752,
+              0
+            ],
+            [
+              698.459,
+              352.89,
+              0
+            ],
+            [
+              697.289,
+              346.139,
+              0
+            ],
+            [
+              693.5,
+              340.5,
+              0
+            ],
+            [
+              685.558,
+              332.143,
+              0
+            ],
+            [
+              676.549,
+              324.977,
+              0
+            ],
+            [
+              666.559,
+              319.218,
+              0
+            ],
+            [
+              655.796,
+              315.121,
+              0
+            ],
+            [
+              644.501,
+              312.897,
+              0
+            ],
+            [
+              632.982,
+              312.721,
+              0
+            ],
+            [
+              621.638,
+              314.688,
+              0
+            ],
+            [
+              610.874,
+              318.771,
+              0
+            ],
+            [
+              601.077,
+              324.798,
+              0
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "Null 1.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "tornado_[00000-00023].png.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 30,
+          "cutf": 0
+        },
+        "tornado_[00000-00023].png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "windyday_barrens_opt.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "Null 1",
+        "tornado_[00000-00023].png",
+        "windyday_barrens_opt.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "windyday_stage0_opt_dev.aep",
+  "version": 1
+}

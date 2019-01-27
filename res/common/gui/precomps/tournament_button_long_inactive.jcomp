@@ -1,0 +1,313 @@
+{
+  "name": "tournament_button_long_inactive",
+  "children": [
+    {
+      "name": "back_button_long.png",
+      "translation": [
+        200,
+        99.999,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        186,
+        53.5,
+        0
+      ],
+      "alpha": 0.5,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/back_button_long.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "TR_BUTTON_TITLE",
+      "translation": [
+        125.741,
+        75.401,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        -0.321,
+        -22.598,
+        0
+      ],
+      "alpha": 0.7,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Tournaments",
+          "font": "Exo2-Black",
+          "fontSize": 32.0999984741211,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.32100000746176,
+            -22.1490007839202,
+            208.037400579096,
+            22.5984007764294
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TR_BUTTON_TITLE_CLOSED",
+      "translation": [
+        156.741,
+        103.901,
+        0
+      ],
+      "scale": [
+        0.8139999999999999,
+        0.8139999999999999,
+        1
+      ],
+      "anchor": [
+        -0.321,
+        -22.598,
+        0
+      ],
+      "alpha": 0.7,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Opens on level 4",
+          "font": "Exo2-Black",
+          "fontSize": 22.2000007629395,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            0.71040005815625,
+            -15.6287989146233,
+            178.086037730902,
+            19.6248020717621
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tournament Points copy.png",
+      "translation": [
+        67.749,
+        100.499,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        48,
+        52,
+        0
+      ],
+      "alpha": 0.85,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Tournament Points copy.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_closed.png",
+      "translation": [
+        370.5,
+        99.749,
+        0
+      ],
+      "scale": [
+        0.851,
+        0.851,
+        1
+      ],
+      "anchor": [
+        37,
+        51,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_closed.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_closed.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Tournament Points copy.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "TR_BUTTON_TITLE_CLOSED.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "TR_BUTTON_TITLE.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "back_button_long.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "ltp_closed.png",
+        "Tournament Points copy.png",
+        "TR_BUTTON_TITLE_CLOSED",
+        "TR_BUTTON_TITLE",
+        "back_button_long.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP%20(converted).aep",
+  "version": 1
+}

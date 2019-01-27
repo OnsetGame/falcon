@@ -1,0 +1,225 @@
+{
+  "name": "rec_shape",
+  "children": [
+    {
+      "name": "ltp_rec_shap.png$4",
+      "translation": [
+        649,
+        685,
+        0
+      ],
+      "anchor": [
+        19,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 25.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_rec_shap.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_rec_shap.png",
+      "translation": [
+        442.875,
+        685,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "anchor": [
+        19,
+        31,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 25.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_rec_shap.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Medium Gray-Orange Solid 1",
+      "translation": [
+        545.875,
+        664.125,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        180.5,
+        8,
+        0
+      ],
+      "alpha": 0.2,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.60000002384186,
+            0.44705882668495,
+            0.29019609093666
+          ],
+          "size": [
+            361,
+            16
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "Medium Gray-Orange Solid 2",
+      "translation": [
+        545.875,
+        703.75,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        180.5,
+        8,
+        0
+      ],
+      "alpha": 0.2,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.60000002384186,
+            0.44705882668495,
+            0.29019609093666
+          ],
+          "size": [
+            361,
+            16
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Medium Gray-Orange Solid 2.enabled": {
+          "duration": 25.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 765,
+          "cutf": 239
+        },
+        "Medium Gray-Orange Solid 1.enabled": {
+          "duration": 25.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 765,
+          "cutf": 239
+        },
+        "ltp_rec_shap.png.enabled": {
+          "duration": 25.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 765,
+          "cutf": 764
+        },
+        "ltp_rec_shap.png$4.enabled": {
+          "duration": 25.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 765,
+          "cutf": 764
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.8
+        },
+        "idle": {
+          "start": 0.8,
+          "duration": 24.7
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 25.5
+        }
+      },
+      "layers": [
+        "Medium Gray-Orange Solid 2",
+        "Medium Gray-Orange Solid 1",
+        "ltp_rec_shap.png",
+        "ltp_rec_shap.png$4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

@@ -1,0 +1,69 @@
+{
+  "name": "free_spin",
+  "children": [
+    {
+      "name": "spin_wheel_but",
+      "translation": [
+        960,
+        551.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        56,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/spin_wheel_but.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_SPIN_BUTTON_SPIN!",
+      "translation": [
+        960,
+        568,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "Spin!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

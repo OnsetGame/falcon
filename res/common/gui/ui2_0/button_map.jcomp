@@ -1,0 +1,324 @@
+{
+  "name": "button_map",
+  "children": [
+    {
+      "name": "parent_on",
+      "translation": [
+        84,
+        112,
+        0
+      ],
+      "children": [
+        {
+          "name": "icon_placeholder",
+          "translation": [
+            0,
+            9,
+            0
+          ],
+          "anchor": [
+            83,
+            75,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "feature_button_icon"
+            },
+            {
+              "color": [
+                0.99607801437378,
+                0.66274499893188,
+                0.45490199327469
+              ],
+              "size": [
+                166,
+                150
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "alert_comp",
+          "translation": [
+            59.75,
+            -60,
+            0
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "compositionRef": "alert_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "lock_comp",
+          "translation": [
+            59.75,
+            -60,
+            0
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "compositionRef": "lock_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        83.493,
+        196.033,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Fortune",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              0.934,
+              0.934,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.929,
+              0.929,
+              1
+            ],
+            [
+              0.978,
+              0.978,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 25
+        },
+        "parent_on.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              0.934,
+              0.934,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.929,
+              0.929,
+              1
+            ],
+            [
+              0.978,
+              0.978,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 25
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "lock_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "alert_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "icon_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "parent_on.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.83333333333333,
+          "duration": 0.20833333333334
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "lock_comp",
+        "alert_comp",
+        "icon_placeholder",
+        "parent_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_lower_part_dev.aep",
+  "version": 1
+}

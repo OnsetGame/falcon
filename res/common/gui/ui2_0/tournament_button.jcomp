@@ -1,0 +1,393 @@
+{
+  "name": "tournament_button",
+  "children": [
+    {
+      "name": "parent_on",
+      "translation": [
+        99,
+        143,
+        0
+      ],
+      "children": [
+        {
+          "name": "GUI_TOURNAMENTS_BUTTON",
+          "translation": [
+            10.5,
+            -18,
+            0
+          ],
+          "anchor": [
+            121.5,
+            113,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/gui_cups_button.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "translation": [
+            11.2434387207031,
+            -12.4660034179688,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Cups",
+              "font": "Exo2-Black",
+              "fontSize": 40,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "alert_comp",
+          "translation": [
+            -73,
+            -93.25,
+            0
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "compositionRef": "alert_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "lock_comp",
+          "translation": [
+            -73,
+            -93.25,
+            0
+          ],
+          "anchor": [
+            52,
+            52,
+            0
+          ],
+          "compositionRef": "lock_comp",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent_on.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.97557499010522,
+              0.97557499010522,
+              1
+            ],
+            [
+              0.90892776837763,
+              0.90892776837763,
+              1
+            ],
+            [
+              0.91694332370415,
+              0.91694332370415,
+              1
+            ],
+            [
+              0.97894286755141,
+              0.97894286755141,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "title.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.97557499010522,
+              0.97557499010522,
+              1
+            ],
+            [
+              0.90892776837763,
+              0.90892776837763,
+              1
+            ],
+            [
+              0.91694332370415,
+              0.91694332370415,
+              1
+            ],
+            [
+              0.97894286755141,
+              0.97894286755141,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "GUI_TOURNAMENTS_BUTTON.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.95051914146269,
+              0.95051914146269,
+              1
+            ],
+            [
+              0.87030534818805,
+              0.87030534818805,
+              1
+            ],
+            [
+              0.85977041641551,
+              0.85977041641551,
+              1
+            ],
+            [
+              0.92841589189889,
+              0.92841589189889,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "GUI_TOURNAMENTS_BUTTON.0.inWhite": {
+          "values": [
+            1,
+            0.91151564074412,
+            0.78216167559844,
+            0.79214235080239,
+            0.89906943420299,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "lock_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "alert_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "GUI_TOURNAMENTS_BUTTON.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "parent_on.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.83333333333333,
+          "duration": 0.20833333333334
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "lock_comp",
+        "alert_comp",
+        "title",
+        "GUI_TOURNAMENTS_BUTTON",
+        "parent_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_lower_part_minimize.aep",
+  "export_time": "8 August 2018 15:54",
+  "rod_export_v": "Wed Jul 4 12:07:31 2018 +0300\n",
+  "version": 1
+}

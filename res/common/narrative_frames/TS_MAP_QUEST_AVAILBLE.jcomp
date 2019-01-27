@@ -1,0 +1,61 @@
+{
+  "name": "narr",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "frames": [
+        {
+          "right": true,
+          "bottom": true,
+          "needZoom": true,
+          "withoutAction": false,
+          "showDelay": 0.0,
+          "text": "TS_MAP_QUEST_AVAILBLE_1",
+          "secondText": "TS_QUEST_CONTINUE",
+          "characterBody": 9,
+          "characterHead": 6,
+          "targetName": "quest_ready_balloon_restaurant",
+          "arrowType": 1
+        },
+        {
+          "right": true,
+          "bottom": true,
+          "needZoom": false,
+          "withoutAction": false,
+          "showDelay": 0.0,
+          "text": "TS_MAP_QUEST_AVAILBLE_2",
+          "secondText": "TS_MAP_QUEST_GET_CONTINUE",
+          "characterBody": 7,
+          "characterHead": 1,
+          "targetName": "button_build",
+          "arrowType": 2
+        }
+      ],
+      "_c": "Narrative"
+    }
+  ]
+}

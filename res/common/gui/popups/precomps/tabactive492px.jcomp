@@ -1,0 +1,258 @@
+{
+  "name": "tabactive492px",
+  "children": [
+    {
+      "name": "tabinactive.png",
+      "translation": [
+        246,
+        55,
+        0
+      ],
+      "anchor": [
+        246,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabInactive",
+          "size": [
+            492,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tabactive.png",
+      "translation": [
+        246,
+        55,
+        0
+      ],
+      "anchor": [
+        246,
+        55,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            492,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title_unactive",
+      "translation": [
+        246,
+        72.332,
+        0
+      ],
+      "anchor": [
+        -0.248,
+        0.671,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "title",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            0.60000002384186,
+            0.44705998897552,
+            0.29020002484322
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "title_active",
+      "translation": [
+        246,
+        72.332,
+        0
+      ],
+      "anchor": [
+        -0.248,
+        0.671,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "title",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "Alert_comp",
+      "translation": [
+        415,
+        6.675,
+        0
+      ],
+      "anchor": [
+        42.5,
+        42.5,
+        0
+      ],
+      "compositionRef": "Alert_comp.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Alert_comp.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 59
+        },
+        "title_active.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "title_unactive.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "tabactive.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "tabinactive.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "Alert_comp",
+        "title_active",
+        "title_unactive",
+        "tabactive.png",
+        "tabinactive.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

@@ -1,0 +1,697 @@
+{
+  "name": "Bonus Choose",
+  "children": [
+    {
+      "name": "bonus3",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus3",
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0.09411764889956,
+            0,
+            0.08544892072678,
+            1
+          ],
+          "white": [
+            1,
+            0.10588236153126,
+            0.91764712333679,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus2",
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": 0,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "black": [
+            0.00114993355237,
+            0.15294118225574,
+            0,
+            1
+          ],
+          "white": [
+            0.12156862765551,
+            0.63921570777893,
+            0.1176470592618,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus1",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0.10765090584755,
+            0.10980392247438,
+            1
+          ],
+          "white": [
+            0,
+            0.98039221763611,
+            1,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "CARD_FREESPINS_HIDDEN",
+      "translation": [
+        318,
+        719,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "10 Free Spins with Hidden Spins",
+          "font": "TannenbergFett",
+          "fontSize": 56,
+          "color": [
+            0,
+            0.98037993907928,
+            1
+          ],
+          "bounds": [
+            0,
+            0,
+            392,
+            250
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "CARD_FREESPINS_MULTIPLIED",
+      "translation": [
+        765,
+        719,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "10 Free Spins with Multiplied Wins",
+          "font": "TannenbergFett",
+          "fontSize": 56,
+          "color": [
+            0.12157000601292,
+            0.63921999931335,
+            0.11765000224113
+          ],
+          "bounds": [
+            0,
+            0,
+            392,
+            250
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "CARD_FREESPINS_SHUFFLED",
+      "translation": [
+        1211,
+        719,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "10 Free Spins with Shuffled Spins",
+          "font": "TannenbergFett",
+          "fontSize": 56,
+          "color": [
+            1,
+            0.10590000450611,
+            0.9176299571991
+          ],
+          "bounds": [
+            0,
+            0,
+            392,
+            250
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "CARD_PAYTABLE_CHOOSE_GAME",
+      "translation": [
+        960,
+        168.999,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Choose your game",
+          "font": "TannenbergFett",
+          "fontSize": 56,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "CARD_PAYTABLE_CHOOSE_GAME.alpha": {
+          "values": [
+            0,
+            0.32,
+            0.637,
+            0.886,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.792,
+            0.499,
+            0.207,
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "CARD_FREESPINS_SHUFFLED.alpha": {
+          "values": [
+            0,
+            0.32,
+            0.637,
+            0.886,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.792,
+            0.499,
+            0.207,
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "CARD_FREESPINS_MULTIPLIED.alpha": {
+          "values": [
+            0,
+            0.32,
+            0.637,
+            0.886,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.792,
+            0.499,
+            0.207,
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 6,
+          "frameLerp": false
+        },
+        "CARD_FREESPINS_HIDDEN.alpha": {
+          "values": [
+            0,
+            0.32,
+            0.637,
+            0.886,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.792,
+            0.499,
+            0.207,
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "bonus1.0.amount": {
+          "values": [
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "bonus2.1.amount": {
+          "values": [
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "bonus3.0.amount": {
+          "values": [
+            0
+          ],
+          "duration": 2.54166666666667,
+          "len": 61,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "CARD_PAYTABLE_CHOOSE_GAME.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 60
+        },
+        "CARD_FREESPINS_SHUFFLED.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 60
+        },
+        "CARD_FREESPINS_MULTIPLIED.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 60
+        },
+        "CARD_FREESPINS_HIDDEN.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 60
+        },
+        "bonus1.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 47
+        },
+        "bonus2.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 47
+        },
+        "bonus3.enabled": {
+          "duration": 2.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 61,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.54166666666667
+        }
+      },
+      "layers": [
+        "CARD_PAYTABLE_CHOOSE_GAME",
+        "CARD_FREESPINS_SHUFFLED",
+        "CARD_FREESPINS_MULTIPLIED",
+        "CARD_FREESPINS_HIDDEN",
+        "bonus1",
+        "bonus2",
+        "bonus3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "7 August 2018 19:28",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

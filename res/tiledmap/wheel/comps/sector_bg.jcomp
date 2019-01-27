@@ -1,0 +1,117 @@
+{
+  "name": "sector_bg",
+  "children": [
+    {
+      "name": "purple",
+      "translation": [
+        138,
+        125,
+        0
+      ],
+      "anchor": [
+        129,
+        123,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0.16559495031834,
+            0.01932276785374,
+            0.23580561578274,
+            1
+          ],
+          "white": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "fileNames": [
+            "../lrs/part_violet.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "red",
+      "translation": [
+        138,
+        125,
+        0
+      ],
+      "anchor": [
+        129,
+        123,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "hue": 0.18583333333333,
+          "saturation": 0.64,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "fileNames": [
+            "../lrs/part_violet.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white",
+      "translation": [
+        138,
+        125,
+        0
+      ],
+      "anchor": [
+        129,
+        123,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/part_white.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "violet",
+      "translation": [
+        138,
+        125,
+        0
+      ],
+      "anchor": [
+        129,
+        123,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/part_violet.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

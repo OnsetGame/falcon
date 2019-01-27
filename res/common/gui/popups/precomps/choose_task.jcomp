@@ -1,0 +1,1658 @@
+{
+  "name": "choose_task",
+  "children": [
+    {
+      "name": "anchor",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "bg",
+          "translation": [
+            0,
+            34,
+            0
+          ],
+          "scale": [
+            1,
+            0.748,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0.75,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            -6.999,
+            12.999,
+            0
+          ],
+          "scale": [
+            3.866,
+            3.866,
+            1
+          ],
+          "anchor": [
+            171,
+            115.377,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.866,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -365,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$14",
+          "translation": [
+            7,
+            -362.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$13",
+          "translation": [
+            7,
+            443,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            6.999,
+            435.499,
+            0
+          ],
+          "scale": [
+            11.999,
+            0.499,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "in_out_controller",
+          "translation": [
+            960,
+            540,
+            0
+          ],
+          "scale": [
+            1,
+            0.001,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "task_lightup_bg",
+          "translation": [
+            960,
+            592.681,
+            0
+          ],
+          "scale": [
+            1.082,
+            0.908,
+            1
+          ],
+          "anchor": [
+            216,
+            370,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "task_lightup_bg",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "slots_frame",
+          "translation": [
+            0,
+            48,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.6,
+            1
+          ],
+          "anchor": [
+            50,
+            50,
+            0
+          ],
+          "alpha": 0.25,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "slots_parent",
+          "translation": [
+            -960,
+            -537.766,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "task_lightup_fg",
+          "translation": [
+            0.88,
+            19.489,
+            0
+          ],
+          "scale": [
+            1.001,
+            1.001,
+            1
+          ],
+          "anchor": [
+            216,
+            370,
+            0
+          ],
+          "compositionRef": "task_lightup_fg",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "grad_l",
+          "translation": [
+            -968.042,
+            35,
+            0
+          ],
+          "scale": [
+            15.944,
+            1.136,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "anchor": [
+            24.937,
+            264,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.625,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/lower_black_bg.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "grad_r",
+          "translation": [
+            1020.057,
+            35,
+            0
+          ],
+          "scale": [
+            -15.944,
+            -1.136,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "anchor": [
+            24.937,
+            264,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.625,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/lower_black_bg.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            816,
+            -369.75,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_close",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_left",
+          "translation": [
+            -816.25,
+            2.875,
+            0
+          ],
+          "scale": [
+            1.15,
+            1.15,
+            1
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_left",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_right",
+          "translation": [
+            818,
+            2.625,
+            0
+          ],
+          "scale": [
+            1.15,
+            1.15,
+            1
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_right",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "TAB_539px",
+          "translation": [
+            0,
+            -370,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            269.5,
+            54,
+            0
+          ],
+          "compositionRef": "TAB_539px",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4.04166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "anchor.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.001,
+              0.01,
+              1
+            ],
+            [
+              1.009,
+              0.055,
+              1
+            ],
+            [
+              1.031,
+              0.191,
+              1
+            ],
+            [
+              1.123,
+              0.739,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.182,
+              1.093,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.056,
+              1.056,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.198,
+              1.198,
+              1
+            ],
+            [
+              1.199,
+              1.196,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.19,
+              1.143,
+              1
+            ],
+            [
+              1.178,
+              1.07,
+              1
+            ],
+            [
+              1.152,
+              0.915,
+              1
+            ],
+            [
+              1.058,
+              0.353,
+              1
+            ],
+            [
+              1.013,
+              0.079,
+              1
+            ],
+            [
+              1.002,
+              0.014,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "slots_frame.scale": {
+          "values": [
+            [
+              0.6,
+              0.6,
+              1
+            ],
+            [
+              0.668,
+              0.668,
+              1
+            ],
+            [
+              0.814,
+              0.814,
+              1
+            ],
+            [
+              0.938,
+              0.938,
+              1
+            ],
+            [
+              1.011,
+              1.011,
+              1
+            ],
+            [
+              1.019,
+              1.019,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.026,
+              1.026,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1.015,
+              1.015,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.996,
+              0.996,
+              1
+            ],
+            [
+              0.994,
+              0.994,
+              1
+            ],
+            [
+              0.993,
+              0.993,
+              1
+            ],
+            [
+              0.993,
+              0.993,
+              1
+            ],
+            [
+              0.993,
+              0.993,
+              1
+            ],
+            [
+              0.994,
+              0.994,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.997,
+              0.997,
+              1
+            ],
+            [
+              0.998,
+              0.998,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "slots_frame.alpha": {
+          "values": [
+            0.25,
+            0.32,
+            0.48,
+            0.637,
+            0.778,
+            0.896,
+            0.977,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.961,
+            0.869,
+            0.745,
+            0.598,
+            0.44,
+            0.283,
+            0.25
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "task_lightup_bg.alpha": {
+          "values": [
+            0,
+            0.266,
+            0.533,
+            0.8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.8,
+            0.533,
+            0.266,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 10
+        },
+        "in_out_controller.scale": {
+          "values": [
+            [
+              1,
+              0.001,
+              1
+            ],
+            [
+              1,
+              0.01,
+              1
+            ],
+            [
+              1.004,
+              0.051,
+              1
+            ],
+            [
+              1.015,
+              0.176,
+              1
+            ],
+            [
+              1.061,
+              0.678,
+              1
+            ],
+            [
+              1.082,
+              0.908,
+              1
+            ],
+            [
+              1.091,
+              1.002,
+              1
+            ],
+            [
+              1.095,
+              1.053,
+              1
+            ],
+            [
+              1.098,
+              1.082,
+              1
+            ],
+            [
+              1.099,
+              1.095,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.099,
+              1.095,
+              1
+            ],
+            [
+              1.098,
+              1.081,
+              1
+            ],
+            [
+              1.095,
+              1.053,
+              1
+            ],
+            [
+              1.091,
+              1.002,
+              1
+            ],
+            [
+              1.082,
+              0.908,
+              1
+            ],
+            [
+              1.061,
+              0.677,
+              1
+            ],
+            [
+              1.015,
+              0.175,
+              1
+            ],
+            [
+              1.004,
+              0.05,
+              1
+            ],
+            [
+              1,
+              0.009,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "TAB_539px.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_right.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_left.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "grad_r.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "grad_l.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "task_lightup_fg.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "slots_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "slots_frame.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "task_lightup_bg.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "in_out_controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_bg_dow.png$13.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_bg_dow.png$14.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 56
+        },
+        "bg.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "anchor.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "idle": {
+          "start": 1.25,
+          "duration": 0.25
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "TAB_539px",
+        "button_right",
+        "button_left",
+        "button_close",
+        "grad_r",
+        "grad_l",
+        "task_lightup_fg",
+        "slots_parent",
+        "slots_frame",
+        "task_lightup_bg",
+        "in_out_controller",
+        "ltp_bg_dow.png",
+        "ltp_bg_dow.png$13",
+        "ltp_bg_dow.png$14",
+        "ltp_bg_u.png",
+        "ltp_solidorange.png",
+        "bg",
+        "anchor"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

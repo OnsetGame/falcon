@@ -1,0 +1,125 @@
+{
+  "name": "color_spin_6",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        195,
+        97.5,
+        0
+      ],
+      "children": [
+        {
+          "alpha": 0,
+          "name": "color_spin_[00000-00001].png",
+          "translation": [
+            -150.8203125,
+            -74.6484375,
+            0
+          ],
+          "scale": [
+            3.046875,
+            3.046875,
+            1
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/color_spin/color_spin_00000.png",
+                "../assets/color_spin/color_spin_00001.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inBlack": 0,
+          "outWhite": 1,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            0.96862745098039,
+            0.36078431372549,
+            0.16549019607843
+          ],
+          "inGamma": 1,
+          "inWhite": 1,
+          "outBlack": 0,
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "play":
+    {
+      "color_spin_[00000-00001].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "color_spin_[00000-00001].png.alpha":
+      {
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          0.11,
+          0.22,
+          0.33,
+          0.44,
+          0.55,
+          0.55,
+          0.55,
+          0.55,
+          0.55,
+          0.55,
+          0.44,
+          0.33,
+          0.22,
+          0.11,
+          0
+        ]
+      }
+    }
+  },
+  "version": 1
+}

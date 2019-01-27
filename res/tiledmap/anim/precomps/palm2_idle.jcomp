@@ -1,0 +1,62 @@
+{
+  "name": "palm2_idle",
+  "children": [
+    {
+      "name": "palm2",
+      "translation": [
+        0,
+        432,
+        0
+      ],
+      "anchor": [
+        0,
+        432,
+        0
+      ],
+      "compositionRef": "palm2.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "palm2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "palm2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "palms_opt_dev.aep",
+  "version": 1
+}

@@ -1,0 +1,62 @@
+{
+  "name": "barbershop_old_idle",
+  "children": [
+    {
+      "name": "barbershop_old",
+      "translation": [
+        0,
+        1086,
+        0
+      ],
+      "anchor": [
+        0,
+        1086,
+        0
+      ],
+      "compositionRef": "barbershop_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.125,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 9.125,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "barbershop_old.enabled": {
+          "duration": 9.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 274,
+          "cutf": 273
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 9.125
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 9.125
+        }
+      },
+      "layers": [
+        "barbershop_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "barbershop_old_dev.aep",
+  "version": 1
+}

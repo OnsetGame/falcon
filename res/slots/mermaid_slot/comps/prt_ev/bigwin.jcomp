@@ -1,0 +1,634 @@
+{
+  "name": "bigwin",
+  "translation": [
+    958.4600219726563,
+    1204.25,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "PRT_Coins_1",
+      "translation": [
+        -656.780029296875,
+        501.5,
+        1.0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            300.0,
+            500.0,
+            10.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 5.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 4.0,
+          "lifetime": 5.0,
+          "startVelocity": 80.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 100.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startScale": [
+            80.0,
+            80.0,
+            80.0
+          ],
+          "dstScale": [
+            80.0,
+            80.0,
+            80.0
+          ],
+          "randScaleFrom": 4.0,
+          "randScaleTo": 8.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            150.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/coin_sprite_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "windnode",
+          "genShapeNode": "PRT_Coins_1",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    },
+    {
+      "name": "windnode",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            200.0,
+            200.0,
+            200.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Ruby_1",
+      "translation": [
+        671.1599731445313,
+        417.3599853515625,
+        1.0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            200.0,
+            50.0,
+            10.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 5.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 4.0,
+          "lifetime": 10.0,
+          "startVelocity": 100.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 10.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -15.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            15.0
+          ],
+          "startScale": [
+            60.0,
+            60.0,
+            60.0
+          ],
+          "dstScale": [
+            60.0,
+            60.0,
+            60.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 25.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            100.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/ruby_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "windnode",
+          "genShapeNode": "PRT_Ruby_1",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Ruby_2",
+      "translation": [
+        -646.2999877929688,
+        417.3599853515625,
+        1.0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            200.0,
+            50.0,
+            10.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 3.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 5.0,
+          "lifetime": 10.0,
+          "startVelocity": 100.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 10.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -15.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            15.0
+          ],
+          "startScale": [
+            60.0,
+            60.0,
+            60.0
+          ],
+          "dstScale": [
+            60.0,
+            60.0,
+            60.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 25.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            100.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/ruby_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "windnode",
+          "genShapeNode": "PRT_Ruby_2",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Bubble",
+      "translation": [
+        0.0,
+        1176.0,
+        0.0
+      ],
+      "scale": [
+        2.0,
+        2.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            960.0,
+            588.0,
+            0.0
+          ],
+          "is2D": true,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 3.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 20.0,
+          "lifetime": 8.0,
+          "startVelocity": 40.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 40.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "dstScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 25.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            80.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/bubble_prt.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            100.0,
+            100.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "windnode",
+          "genShapeNode": "PRT_Bubble",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    },
+    {
+      "name": "PRT_Coins_2",
+      "translation": [
+        658.9400024414063,
+        501.5,
+        1.0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "dimension": [
+            300.0,
+            500.0,
+            10.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "duration": 6.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 4.0,
+          "lifetime": 6.0,
+          "startVelocity": 80.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 100.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startScale": [
+            80.0,
+            80.0,
+            80.0
+          ],
+          "dstScale": [
+            80.0,
+            80.0,
+            80.0
+          ],
+          "randScaleFrom": 4.0,
+          "randScaleTo": 8.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            150.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../../Layers/coin_sprite_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 5,
+          "framesCount": 25,
+          "fps": 24.0,
+          "modifierNode": "",
+          "genShapeNode": "PRT_Coins_2",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    }
+  ]
+}

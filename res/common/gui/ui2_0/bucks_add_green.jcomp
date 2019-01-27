@@ -1,0 +1,266 @@
+{
+  "name": "bucks_add_green",
+  "children": [
+    {
+      "name": "currency_buy_01_01",
+      "translation": [
+        54.937,
+        44.906,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            88,
+            68
+          ],
+          "radius": 34,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 4,
+          "color": [
+            0.14117647707462,
+            0.29803922772408,
+            0.14901961386204,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "currency_buy_01_02",
+      "translation": [
+        54.937,
+        44.906,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            0.8666667342186,
+            0.92941182851791,
+            0.23921570181847,
+            1
+          ],
+          "endColor": [
+            0.1803921610117,
+            0.49019610881805,
+            0.19607844948769,
+            1
+          ],
+          "startPoint": [
+            17,
+            -28
+          ],
+          "endPoint": [
+            17,
+            61
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            75,
+            56
+          ],
+          "radius": 28,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "currency_buy_01_03",
+      "translation": [
+        54.937,
+        44.906,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            67,
+            48
+          ],
+          "radius": 24,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.54509806632996,
+            0.76470589637756,
+            0.29019609093666,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "buy",
+      "translation": [
+        54.474,
+        51.987,
+        0
+      ],
+      "scale": [
+        1,
+        0.96,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "BUY",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "buy.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "currency_buy_01_03.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "currency_buy_01_02.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "currency_buy_01_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "buy",
+        "currency_buy_01_03",
+        "currency_buy_01_02",
+        "currency_buy_01_01"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_upper_part.aep",
+  "version": 1
+}

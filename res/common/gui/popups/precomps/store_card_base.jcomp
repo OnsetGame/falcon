@@ -1,0 +1,495 @@
+{
+  "name": "store_card_base",
+  "children": [
+    {
+      "name": "circle_component_shadow.png$22",
+      "translation": [
+        143.5,
+        347.5,
+        0
+      ],
+      "scale": [
+        3.595,
+        0.855,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bundle_amount_bg",
+      "translation": [
+        143.5,
+        332,
+        0
+      ],
+      "anchor": [
+        136,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.60000002384186,
+            0.44705882668495,
+            0.29019609093666
+          ],
+          "size": [
+            272,
+            48
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "vip_feature",
+      "translation": [
+        143.5,
+        350,
+        0
+      ],
+      "children": [
+        {
+          "name": "circle_component_shadow.png",
+          "translation": [
+            0,
+            87,
+            0
+          ],
+          "scale": [
+            3.595,
+            0.855,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.6,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Purple Solid 1",
+          "translation": [
+            0,
+            71,
+            0
+          ],
+          "anchor": [
+            136,
+            24,
+            0
+          ],
+          "components": [
+            {
+              "color": [
+                0.66666668653488,
+                0,
+                1
+              ],
+              "size": [
+                272,
+                48
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "vip_bonus_txt",
+          "translation": [
+            0.761,
+            36.731,
+            0
+          ],
+          "anchor": [
+            0.303,
+            1.643,
+            0
+          ],
+          "components": [
+            {
+              "text": "Bonus for VIP Lvl 1",
+              "font": "Exo2-Black",
+              "fontSize": 24,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "vip_points",
+          "translation": [
+            -8.027,
+            133.248,
+            0
+          ],
+          "anchor": [
+            -0.042,
+            0.149,
+            0
+          ],
+          "components": [
+            {
+              "text": "+100",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "vip_icon",
+          "translation": [
+            -42,
+            122,
+            0
+          ],
+          "anchor": [
+            23,
+            24,
+            0
+          ],
+          "components": [
+            {
+              "color": [
+                0.51764702796936,
+                0.51764702796936,
+                0.51764702796936
+              ],
+              "size": [
+                46,
+                48
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "bundle_amount_vip",
+          "translation": [
+            14.722,
+            80.748,
+            0
+          ],
+          "anchor": [
+            -0.042,
+            0.149,
+            0
+          ],
+          "components": [
+            {
+              "text": "1,000,000,000",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "bundle_icon_vip",
+          "translation": [
+            -118.5,
+            69,
+            0
+          ],
+          "anchor": [
+            17,
+            17.5,
+            0
+          ],
+          "components": [
+            {
+              "color": [
+                0.51764702796936,
+                0.51764702796936,
+                0.51764702796936
+              ],
+              "size": [
+                34,
+                35
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "old_price_feature",
+      "translation": [
+        143.5,
+        350,
+        0
+      ],
+      "children": [
+        {
+          "name": "old_price_bg",
+          "translation": [
+            0.463,
+            178.25,
+            0
+          ],
+          "components": [
+            {
+              "_c": "VectorShape",
+              "shapeType": 0,
+              "size": [
+                120,
+                48
+              ],
+              "radius": 24,
+              "strokeColor": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "color": [
+                0.60000002384186,
+                0.44705882668495,
+                0.29019609093666,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "old_price",
+          "translation": [
+            -0.723,
+            188.32,
+            0
+          ],
+          "anchor": [
+            0.058,
+            1.173,
+            0
+          ],
+          "components": [
+            {
+              "text": "$25",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "old_price_crossed_out",
+          "translation": [
+            0.517,
+            178.515,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.124,
+            0.992
+          ],
+          "components": [
+            {
+              "_c": "VectorShape",
+              "shapeType": 0,
+              "size": [
+                95,
+                5
+              ],
+              "radius": 0,
+              "strokeColor": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "color": [
+                1,
+                0.87450981140137,
+                0.56470590829849,
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "middle_label",
+      "translation": [
+        143.5,
+        350,
+        0
+      ],
+      "anchor": [
+        143.5,
+        350,
+        0
+      ],
+      "compositionRef": "store_card_middle_label"
+    },
+    {
+      "name": "bundle_amount",
+      "translation": [
+        158.222,
+        341.748,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "1,000,000,000",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "bundle_icon",
+      "translation": [
+        24,
+        331.5,
+        0
+      ],
+      "anchor": [
+        17,
+        17.5,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            34,
+            35
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_chips_bucks_dev6.aep",
+  "export_time": "11 July 2018 12:57",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

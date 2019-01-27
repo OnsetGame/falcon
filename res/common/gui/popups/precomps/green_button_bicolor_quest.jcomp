@@ -1,0 +1,299 @@
+{
+  "name": "green_button_bicolor_quest",
+  "children": [
+    {
+      "name": "grey_butt_2color_on.png",
+      "translation": [
+        150,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButton2colorOn",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grey_butt_2color_off.png",
+      "translation": [
+        150,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButton2colorOff",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        181.75,
+        56.75,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "number",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "icon_placeholder",
+      "translation": [
+        56.5,
+        43,
+        0
+      ],
+      "scale": [
+        0.224,
+        0.224,
+        1
+      ],
+      "anchor": [
+        167.5,
+        171.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "parts"
+        },
+        {
+          "color": [
+            0.55686277151108,
+            0.55686277151108,
+            0.55686277151108
+          ],
+          "size": [
+            335,
+            343
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              181.75,
+              56.75,
+              0
+            ],
+            [
+              181.75,
+              58.086,
+              0
+            ],
+            [
+              181.75,
+              59.416,
+              0
+            ],
+            [
+              181.75,
+              60.75,
+              0
+            ],
+            [
+              181.75,
+              61.75,
+              0
+            ],
+            [
+              181.75,
+              61.75,
+              0
+            ],
+            [
+              181.75,
+              61.75,
+              0
+            ],
+            [
+              181.749,
+              60.75,
+              0
+            ],
+            [
+              181.75,
+              59.416,
+              0
+            ],
+            [
+              181.75,
+              58.086,
+              0
+            ],
+            [
+              181.75,
+              56.75,
+              0
+            ]
+          ],
+          "duration": 8.54166666666667,
+          "len": 257,
+          "cutf": 60
+        },
+        "grey_butt_2color_off.png.alpha": {
+          "values": [
+            1,
+            0.733,
+            0.466,
+            0.199,
+            0,
+            0,
+            0,
+            0.199,
+            0.466,
+            0.733,
+            1
+          ],
+          "duration": 8.54166666666667,
+          "len": 257,
+          "cutf": 60
+        },
+        "icon_placeholder.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        },
+        "title.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        },
+        "grey_butt_2color_off.png.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        },
+        "grey_butt_2color_on.png.enabled": {
+          "duration": 8.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 257,
+          "cutf": 256
+        }
+      },
+      "markers": {
+        "appear": {
+          "start": 2,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8.54166666666667
+        }
+      },
+      "layers": [
+        "icon_placeholder",
+        "title",
+        "grey_butt_2color_off.png",
+        "grey_butt_2color_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

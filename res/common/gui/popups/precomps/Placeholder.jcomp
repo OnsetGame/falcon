@@ -1,0 +1,606 @@
+{
+  "name": "Placeholder",
+  "children": [
+    {
+      "name": "controller",
+      "translation": [
+        960.062,
+        576,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "Black_Solid",
+          "translation": [
+            -0.062,
+            0,
+            0
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0.75,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_bg_dow.png$4",
+      "translation": [
+        967,
+        577,
+        0
+      ],
+      "scale": [
+        12,
+        1,
+        1
+      ],
+      "anchor": [
+        91,
+        17,
+        0
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "ltp_bg_dow.png$3",
+          "translation": [
+            91,
+            9.5,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_bg_dow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_bg_u.png",
+      "translation": [
+        1059,
+        574,
+        0
+      ],
+      "scale": [
+        20,
+        1,
+        1
+      ],
+      "anchor": [
+        61,
+        17,
+        0
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            56.4,
+            19.5,
+            0
+          ],
+          "scale": [
+            0.6,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_bg_u.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_bg_u.png.translation": {
+          "values": [
+            [
+              1059,
+              574,
+              0
+            ],
+            [
+              1059,
+              563.335,
+              0
+            ],
+            [
+              1059,
+              534.394,
+              0
+            ],
+            [
+              1059,
+              491.678,
+              0
+            ],
+            [
+              1059,
+              439.87,
+              0
+            ],
+            [
+              1059,
+              383.501,
+              0
+            ],
+            [
+              1058.999,
+              327.13,
+              0
+            ],
+            [
+              1059,
+              275.335,
+              0
+            ],
+            [
+              1058.999,
+              232.611,
+              0
+            ],
+            [
+              1058.999,
+              203.667,
+              0
+            ],
+            [
+              1058.999,
+              193.004,
+              0
+            ],
+            [
+              1058.999,
+              196.801,
+              0
+            ],
+            [
+              1058.999,
+              215.423,
+              0
+            ],
+            [
+              1058.999,
+              233.535,
+              0
+            ],
+            [
+              1058.999,
+              247.284,
+              0
+            ],
+            [
+              1059,
+              247,
+              0
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_u.png.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_dow.png.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_dow.png$4.translation": {
+          "values": [
+            [
+              967,
+              577,
+              0
+            ],
+            [
+              967,
+              587.823,
+              0
+            ],
+            [
+              967,
+              617.194,
+              0
+            ],
+            [
+              967,
+              660.545,
+              0
+            ],
+            [
+              967,
+              713.123,
+              0
+            ],
+            [
+              967,
+              770.331,
+              0
+            ],
+            [
+              967,
+              827.54,
+              0
+            ],
+            [
+              967,
+              880.106,
+              0
+            ],
+            [
+              967,
+              923.464,
+              0
+            ],
+            [
+              967,
+              952.839,
+              0
+            ],
+            [
+              967,
+              963.66,
+              0
+            ],
+            [
+              967,
+              961.572,
+              0
+            ],
+            [
+              967,
+              943.096,
+              0
+            ],
+            [
+              966.999,
+              924.761,
+              0
+            ],
+            [
+              967,
+              910.744,
+              0
+            ],
+            [
+              967,
+              911,
+              0
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_dow.png$4.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_dow.png$3.alpha": {
+          "values": [
+            0,
+            0.199,
+            0.399,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "controller.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0.999,
+              0.019,
+              1
+            ],
+            [
+              0.999,
+              0.072,
+              1
+            ],
+            [
+              1,
+              0.151,
+              1
+            ],
+            [
+              1,
+              0.246,
+              1
+            ],
+            [
+              1,
+              0.35,
+              1
+            ],
+            [
+              0.999,
+              0.453,
+              1
+            ],
+            [
+              1,
+              0.548,
+              1
+            ],
+            [
+              1,
+              0.627,
+              1
+            ],
+            [
+              1,
+              0.68,
+              1
+            ],
+            [
+              1,
+              0.7,
+              1
+            ],
+            [
+              0.999,
+              0.689,
+              1
+            ],
+            [
+              1,
+              0.664,
+              1
+            ],
+            [
+              1,
+              0.635,
+              1
+            ],
+            [
+              1,
+              0.61,
+              1
+            ],
+            [
+              1,
+              0.6,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_bg_dow.png$3.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_bg_dow.png$4.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Black_Solid.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "controller.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 12
+        }
+      },
+      "layers": [
+        "ltp_bg_dow.png",
+        "ltp_bg_u.png",
+        "ltp_bg_dow.png$3",
+        "ltp_bg_dow.png$4",
+        "Black_Solid",
+        "controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

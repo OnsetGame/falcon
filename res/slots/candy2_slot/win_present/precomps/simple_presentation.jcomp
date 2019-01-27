@@ -1,0 +1,276 @@
+{
+  "name": "simple_presentation",
+  "children": [
+    {
+      "name": "black.png",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        250,
+        140.625,
+        1
+      ],
+      "anchor": [
+        5,
+        5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/black.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shadow",
+      "compositionRef": "shadow",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "free_spins_lines",
+      "compositionRef": "free_spins_lines",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "free_spin_intro",
+      "compositionRef": "free_spin_intro",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus_game_intro",
+      "compositionRef": "bonus_game_intro",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "five_in_a_row",
+      "compositionRef": "five_in_a_row",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "black.png.alpha": {
+          "values": [
+            0,
+            0.142,
+            0.285,
+            0.428,
+            0.571,
+            0.714,
+            0.857,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.857,
+            0.714,
+            0.571,
+            0.428,
+            0.285,
+            0.142,
+            0
+          ],
+          "duration": 3,
+          "len": 90,
+          "cutf": 7
+        },
+        "five_in_a_row.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "bonus_game_intro.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "free_spin_intro.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "free_spins_lines.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "shadow.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "black.png.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3
+        }
+      },
+      "layers": [
+        "five_in_a_row",
+        "bonus_game_intro",
+        "free_spin_intro",
+        "free_spins_lines",
+        "shadow",
+        "black.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Candy2_Free_spin.aep",
+  "version": 1
+}

@@ -1,0 +1,201 @@
+{
+  "name": "candy_bonus_rules",
+  "children": [
+    {
+      "name": "candy_bonus_rulesPre.png",
+      "translation": [
+        486.5,
+        55,
+        0
+      ],
+      "anchor": [
+        480,
+        48,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/gui_black_simple",
+          "size": [
+            960,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "name": "candy_rules_bonus",
+      "translation": [
+        487.5,
+        64,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "You can pick any boxes until one of the dishes  will be fully filled",
+          "font": "Exo2-Regular",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-016,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "white_lines_candy.png$2",
+      "translation": [
+        486.937,
+        28,
+        0
+      ],
+      "anchor": [
+        408,
+        3,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/white_lines",
+          "size": [
+            816,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white_lines_candy.png",
+      "translation": [
+        486.937,
+        82.062,
+        0
+      ],
+      "anchor": [
+        408,
+        3,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/white_lines",
+          "size": [
+            816,
+            6
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "white_lines_candy.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "white_lines_candy.png$2.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candy_rules_bonus.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "candy_bonus_rulesPre.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "white_lines_candy.png",
+        "white_lines_candy.png$2",
+        "candy_rules_bonus",
+        "candy_bonus_rulesPre.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

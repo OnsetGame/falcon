@@ -1,0 +1,241 @@
+{
+  "name": "player_info",
+  "children": [
+    {
+      "name": "curr_place",
+      "translation": [
+        43.5999984741211,
+        35.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haRight",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "player_name",
+      "translation": [
+        78.5999984741211,
+        23.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "Name",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "other_name",
+      "translation": [
+        78.5999984741211,
+        23.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "Name",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            0.7372499704361,
+            0.72940999269485,
+            0.73332995176315
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "score",
+      "translation": [
+        103.599998474121,
+        47.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "crown_s$2",
+      "translation": [
+        87,
+        42.5,
+        0
+      ],
+      "anchor": [
+        13,
+        13.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.65490198135376,
+            0.65490198135376,
+            0.65490198135376,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "fileNames": [
+            "../assets/crown_s.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "crown_s",
+      "translation": [
+        87,
+        42.5,
+        0
+      ],
+      "anchor": [
+        13,
+        13.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            1,
+            0.59607845544815,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "fileNames": [
+            "../assets/crown_s.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

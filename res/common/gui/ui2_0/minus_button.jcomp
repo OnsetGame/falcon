@@ -1,0 +1,141 @@
+{
+  "name": "minus_button",
+  "children": [
+    {
+      "name": "bet_button.png",
+      "translation": [
+        49,
+        49,
+        0
+      ],
+      "anchor": [
+        49,
+        49,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/bet_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tiny_minus.png",
+      "translation": [
+        51,
+        49,
+        0
+      ],
+      "anchor": [
+        18,
+        9,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../popups/assets/tiny_minus.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tiny_minus.png.alpha": {
+          "values": [
+            1,
+            0.879,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.879,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 33
+        },
+        "bet_button.png.alpha": {
+          "values": [
+            1,
+            0.879,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.879,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 33
+        },
+        "tiny_minus.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "bet_button.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "disable": {
+          "start": 1.125,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "tiny_minus.png",
+        "bet_button.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

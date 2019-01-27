@@ -1,0 +1,247 @@
+{
+  "name": "elements",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "idToNodeRelation": [
+        [
+          5,
+          "elem_seven_red"
+        ],
+        [
+          6,
+          "elem_seven_green"
+        ],
+        [
+          0,
+          "elem_wild"
+        ],
+        [
+          3,
+          "elem_watermelon"
+        ],
+        [
+          1,
+          "elem_lemon"
+        ],
+        [
+          2,
+          "elem_cherry"
+        ],
+        [
+          4,
+          "elem_grape"
+        ],
+        [
+          8,
+          "elem_bar_three"
+        ],
+        [
+          9,
+          "elem_bar_two"
+        ],
+        [
+          10,
+          "elem_bar_one"
+        ],
+        [
+          7,
+          "elem_seven_violet"
+        ]
+      ],
+      "animMarkers": [
+        {
+          "path": [
+            "elem_seven_red"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_seven_red"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_seven_green"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_seven_green"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_wild"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_wild"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_watermelon"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_watermelon"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_lemon"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_lemon"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_grape"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_grape"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_cherry"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_cherry"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_bar_three"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_bar_three"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_bar_two"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_bar_two"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_bar_one"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_bar_one"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "elem_seven_violet"
+          ],
+          "type": 4,
+          "name": "onstop"
+        },
+        {
+          "path": [
+            "elements",
+            "elem_seven_violet"
+          ],
+          "type": 6,
+          "name": "win"
+        }
+      ],
+      "pathToRootComp": "slots/groovy_slot/comps/elements",
+      "_c": "CellComponent"
+    }
+  ]
+}

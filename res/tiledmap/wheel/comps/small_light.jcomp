@@ -1,0 +1,57 @@
+{
+  "name": "small_light",
+  "children": [
+    {
+      "name": "lamp",
+      "translation": [
+        14.6833333333333,
+        15.2583333333333,
+        0
+      ],
+      "scale": [
+        1.03333333333333,
+        1.06666666666667,
+        1
+      ],
+      "anchor": [
+        13,
+        13.25,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/lamp.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "light",
+      "translation": [
+        15.125,
+        15.625,
+        0
+      ],
+      "anchor": [
+        15.5,
+        16,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/compound_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

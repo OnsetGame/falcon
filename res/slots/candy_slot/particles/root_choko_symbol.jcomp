@@ -1,0 +1,318 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "choko_fx",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "circle",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "scaleSeq": [],
+          "lifetime": 1.5,
+          "isPlayed": false,
+          "randScaleFrom": -15.0,
+          "modifierNode": "",
+          "isBlendAdd": true,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "genShapeNode": "circle",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.75
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 25.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "birthRate": 100.0,
+          "texture": "white_circle_fx.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            100.0,
+            100.0
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 12.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 25.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "choko",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 15.0,
+          "scaleSeq": [],
+          "lifetime": 0.75,
+          "isPlayed": false,
+          "randScaleFrom": -15.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            15.0,
+            15.0,
+            35.0
+          ],
+          "genShapeNode": "choko",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 25.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "birthRate": 60.0,
+          "texture": "c1.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            0.699999988079071,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            71.0,
+            71.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 15.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "choko2",
+      "components": [
+        {
+          "dstScale": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "randScaleTo": 15.0,
+          "scaleSeq": [],
+          "lifetime": 1.0,
+          "isPlayed": false,
+          "randScaleFrom": -15.0,
+          "modifierNode": "",
+          "isBlendAdd": true,
+          "duration": 2.0,
+          "randVelocityFrom": -10.0,
+          "startScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "genShapeNode": "choko2",
+          "gravity": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 25.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "birthRate": 60.0,
+          "texture": "c11.png",
+          "colorSeq": [],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            71.0,
+            71.0
+          ],
+          "framesCount": 25,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 10.0,
+          "isRandDir": false,
+          "isRandPos": true,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1000.0,
+    500.0,
+    0.0
+  ],
+  "version": 1
+}

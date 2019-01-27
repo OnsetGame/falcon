@@ -1,0 +1,1715 @@
+{
+  "name": "gift_bar",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        640,
+        86,
+        0
+      ],
+      "scale": [
+        0.999,
+        1.028,
+        1
+      ],
+      "children": [
+        {
+          "name": "plaha.png",
+          "translation": [
+            51.5,
+            0.5,
+            0
+          ],
+          "scale": [
+            1,
+            0,
+            1
+          ],
+          "anchor": [
+            575.5,
+            85,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/WindowBezel",
+              "size": [
+                1151,
+                170
+              ]
+            }
+          ]
+        },
+        {
+          "name": "plaha_black.png",
+          "translation": [
+            51.5,
+            -4.5,
+            0
+          ],
+          "scale": [
+            1,
+            0,
+            1
+          ],
+          "anchor": [
+            575.5,
+            80.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "startPoint": [
+                553.68,
+                81
+              ],
+              "endPoint": [
+                553.5,
+                82
+              ],
+              "startColor": [
+                0.10196078568697,
+                0.10196078568697,
+                0.10196078568697,
+                1
+              ],
+              "endColor": [
+                0.14117647707462,
+                0.14117647707462,
+                0.14117647707462,
+                1
+              ],
+              "shape": 0,
+              "_c": "GradientFill"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/windowadd",
+              "size": [
+                1151,
+                161
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ellipse_2.png",
+      "translation": [
+        609.5,
+        87.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        44,
+        44,
+        0
+      ],
+      "children": [
+        {
+          "name": "bucks_placeholder",
+          "translation": [
+            43.5,
+            41.5,
+            0
+          ],
+          "scale": [
+            0.19,
+            0.19,
+            1
+          ],
+          "anchor": [
+            166,
+            136.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency_bucks",
+              "iconName": "bucks"
+            },
+            {
+              "color": [
+                0.51734000444412,
+                0.51734000444412,
+                0.51734000444412
+              ],
+              "size": [
+                332,
+                273
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "chips_placeholder",
+          "translation": [
+            43.5,
+            41.5,
+            0
+          ],
+          "scale": [
+            0.15,
+            0.15,
+            1
+          ],
+          "anchor": [
+            166,
+            175.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency_chips",
+              "iconName": "chips"
+            },
+            {
+              "color": [
+                0.51734000444412,
+                0.51734000444412,
+                0.51734000444412
+              ],
+              "size": [
+                332,
+                351
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "energy_placeholder",
+          "translation": [
+            43.5,
+            41.5,
+            0
+          ],
+          "scale": [
+            0.15,
+            0.15,
+            1
+          ],
+          "anchor": [
+            154.5,
+            168.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "currency",
+              "iconName": "energy"
+            },
+            {
+              "color": [
+                0.51734000444412,
+                0.51734000444412,
+                0.51734000444412
+              ],
+              "size": [
+                309,
+                337
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ellipse_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_orange_collect",
+      "translation": [
+        1099.5,
+        86.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        126,
+        42,
+        0
+      ],
+      "compositionRef": "button_orange_collect.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "checkbox_parent",
+      "children": [
+        {
+          "name": "checkbox_ramka.png",
+          "translation": [
+            858,
+            88,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.707,
+            0.707
+          ],
+          "anchor": [
+            28.5,
+            28.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/checkbox_ramka.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "chek_mark.png",
+          "translation": [
+            861,
+            89.5,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.382,
+            0.923
+          ],
+          "anchor": [
+            23,
+            21,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/chek_mark.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "gift_back",
+          "translation": [
+            892.723,
+            84.049,
+            0
+          ],
+          "scale": [
+            3.003,
+            3,
+            1
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "GIFT\nBACK",
+              "font": "Exo2-Black",
+              "fontSize": 6.66666984558105,
+              "color": [
+                0.60001003742218,
+                0.44705000519753,
+                0.29019001126289
+              ],
+              "bounds": [
+                0.21333344519139,
+                -4.6933373737337,
+                39,
+                16
+              ],
+              "justification": "haLeft",
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gift_currency",
+      "translation": [
+        667.223,
+        112.3,
+        0
+      ],
+      "scale": [
+        3.003,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "BUCKS",
+          "font": "Exo2-Black",
+          "fontSize": 6,
+          "color": [
+            0.60001003742218,
+            0.44705000519753,
+            0.29019001126289
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gift_amount",
+      "translation": [
+        839.248,
+        77,
+        0
+      ],
+      "scale": [
+        3.003,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "3000\n",
+          "font": "Exo2-Black",
+          "fontSize": 14,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -56.6079999879003,
+            -9.85600364208221,
+            57,
+            34
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gift_last_name",
+      "translation": [
+        370,
+        112.3,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Wigham\n\n",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gift_first_name",
+      "translation": [
+        174,
+        112.3,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Joanne\n",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gift_from",
+      "translation": [
+        188.223,
+        71.3,
+        0
+      ],
+      "scale": [
+        3.003,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "FROM",
+          "font": "Exo2-Black",
+          "fontSize": 6,
+          "color": [
+            0.60001003742218,
+            0.44705000519753,
+            0.29019001126289
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ellipse_holder_small.png",
+      "translation": [
+        94,
+        91.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        85,
+        83,
+        0
+      ],
+      "children": [
+        {
+          "name": "customer_teplate",
+          "translation": [
+            15,
+            10.5,
+            0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            1
+          ],
+          "anchor": [
+            0,
+            0,
+            0
+          ],
+          "compositionRef": "customer_teplate.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ellipse_holder_small.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "line_simple.png",
+      "translation": [
+        808,
+        84.5,
+        0
+      ],
+      "scale": [
+        0,
+        1.55,
+        1
+      ],
+      "anchor": [
+        2,
+        24,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/line_simple.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "line_simple.png.scale": {
+          "values": [
+            [
+              0,
+              1.55,
+              1
+            ],
+            [
+              0.028,
+              1.549,
+              1
+            ],
+            [
+              0.131,
+              1.55,
+              1
+            ],
+            [
+              0.25,
+              1.55,
+              1
+            ],
+            [
+              0.368,
+              1.55,
+              1
+            ],
+            [
+              0.471,
+              1.549,
+              1
+            ],
+            [
+              0.5,
+              1.55,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "ltp_ellipse_holder_small.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.132,
+              0.132,
+              1
+            ],
+            [
+              0.426,
+              0.426,
+              1
+            ],
+            [
+              0.7,
+              0.7,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              1.076,
+              1.076,
+              1
+            ],
+            [
+              1.097,
+              1.097,
+              1
+            ],
+            [
+              1.081,
+              1.081,
+              1
+            ],
+            [
+              1.058,
+              1.058,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "gift_from.alpha": {
+          "values": [
+            0,
+            0.066,
+            0.333,
+            0.599,
+            0.866,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "gift_first_name.alpha": {
+          "values": [
+            0,
+            0.066,
+            0.333,
+            0.599,
+            0.866,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "gift_last_name.alpha": {
+          "values": [
+            0,
+            0.066,
+            0.333,
+            0.599,
+            0.866,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "gift_amount.alpha": {
+          "values": [
+            0,
+            0.066,
+            0.333,
+            0.599,
+            0.866,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "gift_currency.alpha": {
+          "values": [
+            0,
+            0.066,
+            0.333,
+            0.599,
+            0.866,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "gift_back.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.387,
+            0.637,
+            0.844,
+            0.978,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "chek_mark.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.062,
+              0.062,
+              1
+            ],
+            [
+              0.344,
+              0.344,
+              1
+            ],
+            [
+              0.597,
+              0.597,
+              1
+            ],
+            [
+              0.77,
+              0.77,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 8
+        },
+        "chek_mark.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.382,
+              0.923
+            ],
+            [
+              0,
+              0,
+              0.362,
+              0.931
+            ],
+            [
+              0,
+              0,
+              0.267,
+              0.963
+            ],
+            [
+              0,
+              0,
+              0.168,
+              0.985
+            ],
+            [
+              0,
+              0,
+              0.075,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.062,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.087,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.071,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.039,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.009,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 8
+        },
+        "checkbox_ramka.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.202,
+              0.202,
+              1
+            ],
+            [
+              0.478,
+              0.478,
+              1
+            ],
+            [
+              0.698,
+              0.698,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 6
+        },
+        "checkbox_ramka.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.707,
+              0.707
+            ],
+            [
+              0,
+              0,
+              0.611,
+              0.791
+            ],
+            [
+              0,
+              0,
+              0.453,
+              0.891
+            ],
+            [
+              0,
+              0,
+              0.287,
+              0.957
+            ],
+            [
+              0,
+              0,
+              0.132,
+              0.991
+            ],
+            [
+              0,
+              0,
+              0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.074,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.084,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.068,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 6
+        },
+        "button_orange_collect.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.013,
+              0.013,
+              1
+            ],
+            [
+              0.272,
+              0.272,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.998,
+              0.998,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              1.039,
+              1.039,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 3
+        },
+        "ltp_ellipse_2.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.03,
+              0.03,
+              1
+            ],
+            [
+              0.237,
+              0.237,
+              1
+            ],
+            [
+              0.55,
+              0.55,
+              1
+            ],
+            [
+              0.862,
+              0.862,
+              1
+            ],
+            [
+              1.069,
+              1.069,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.085,
+              1.085,
+              1
+            ],
+            [
+              1.064,
+              1.064,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.019,
+              1.019,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 2
+        },
+        "plaha_black.png.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.336,
+              1
+            ],
+            [
+              1,
+              0.668,
+              1
+            ],
+            [
+              1,
+              0.93,
+              1
+            ],
+            [
+              1,
+              1.049,
+              1
+            ],
+            [
+              1,
+              1.042,
+              1
+            ],
+            [
+              1,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1.019,
+              1
+            ],
+            [
+              1,
+              1.007,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "plaha.png.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.336,
+              1
+            ],
+            [
+              1,
+              0.668,
+              1
+            ],
+            [
+              1,
+              0.93,
+              1
+            ],
+            [
+              1,
+              1.049,
+              1
+            ],
+            [
+              1,
+              1.042,
+              1
+            ],
+            [
+              1,
+              1.031,
+              1
+            ],
+            [
+              1,
+              1.019,
+              1
+            ],
+            [
+              1,
+              1.007,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "customer_teplate.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "line_simple.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_ellipse_holder_small.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_from.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_first_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_last_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_amount.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_currency.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "checkbox_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gift_back.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "chek_mark.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "checkbox_ramka.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_orange_collect.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "energy_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "chips_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "bucks_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_ellipse_2.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "plaha_black.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "plaha.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.58333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "customer_teplate",
+        "line_simple.png",
+        "ltp_ellipse_holder_small.png",
+        "gift_from",
+        "gift_first_name",
+        "gift_last_name",
+        "gift_amount",
+        "gift_currency",
+        "checkbox_parent",
+        "gift_back",
+        "chek_mark.png",
+        "checkbox_ramka.png",
+        "button_orange_collect",
+        "energy_placeholder",
+        "chips_placeholder",
+        "bucks_placeholder",
+        "ltp_ellipse_2.png",
+        "parent",
+        "plaha_black.png",
+        "plaha.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

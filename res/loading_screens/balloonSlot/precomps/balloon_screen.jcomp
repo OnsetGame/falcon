@@ -1,0 +1,149 @@
+{
+  "name": "balloon_screen",
+  "children": [
+    {
+      "name": "baloons_screen",
+      "translation": [
+        1129.312,
+        463.062,
+        0
+      ],
+      "anchor": [
+        413,
+        409,
+        0
+      ],
+      "children": [
+        {
+          "name": "baloons_particles_5",
+          "translation": [
+            961,
+            237,
+            0
+          ],
+          "anchor": [
+            149,
+            133,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_pre_comp_2__2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_pre_comp_2__3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "baloons_particles_5.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "baloons_screen.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.41666666666667
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "baloons_particles_5",
+        "baloons_screen"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_unlock_window.aep",
+  "version": 1
+}

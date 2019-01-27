@@ -1,0 +1,778 @@
+{
+  "name": "questbar_story_completed_shape",
+  "children": [
+    {
+      "name": "shapefour",
+      "translation": [
+        24.687,
+        24.937,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.499,
+        0.866
+      ],
+      "anchor": [
+        30.687,
+        26.937,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shapefour.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shapethree",
+      "translation": [
+        25.187,
+        24.312,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        19.187,
+        18.312,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shapethree.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shapeone",
+      "translation": [
+        25.375,
+        24.875,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        15.375,
+        18.875,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shapeone.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shapezero",
+      "translation": [
+        25.437,
+        25.625,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        27.437,
+        27.625,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shapezero.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "shapedef",
+      "translation": [
+        24.562,
+        25.125,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.499,
+        0.866
+      ],
+      "anchor": [
+        18.562,
+        19.125,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shapedef.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "shapedef.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.499,
+              0.499,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapedef.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.499,
+              0.866
+            ],
+            [
+              0,
+              0,
+              -0.466,
+              0.884
+            ],
+            [
+              0,
+              0,
+              -0.378,
+              0.925
+            ],
+            [
+              0,
+              0,
+              -0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              -0.135,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.038,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.038,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.135,
+              0.99
+            ],
+            [
+              0,
+              0,
+              -0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              -0.378,
+              0.925
+            ],
+            [
+              0,
+              0,
+              -0.466,
+              0.884
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapezero.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.499,
+              0.499,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapeone.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.499,
+              0.499,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapethree.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.499,
+              0.499,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapefour.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.499,
+              0.499,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapefour.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.499,
+              0.866
+            ],
+            [
+              0,
+              0,
+              0.466,
+              0.884
+            ],
+            [
+              0,
+              0,
+              0.378,
+              0.925
+            ],
+            [
+              0,
+              0,
+              0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              0.135,
+              0.99
+            ],
+            [
+              0,
+              0,
+              0.038,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0.038,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.135,
+              0.99
+            ],
+            [
+              0,
+              0,
+              0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              0.378,
+              0.925
+            ],
+            [
+              0,
+              0,
+              0.466,
+              0.884
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "shapedef.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 11
+        },
+        "shapezero.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 11
+        },
+        "shapeone.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 11
+        },
+        "shapethree.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 11
+        },
+        "shapefour.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 12,
+          "cutf": 11
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.5
+        }
+      },
+      "layers": [
+        "shapedef",
+        "shapezero",
+        "shapeone",
+        "shapethree",
+        "shapefour"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_level_up_new.aep",
+  "version": 1
+}

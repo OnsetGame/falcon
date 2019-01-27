@@ -1,0 +1,835 @@
+{
+  "name": "friend_gift_background",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0.01,
+        1
+      ],
+      "children": [
+        {
+          "name": "black_solid",
+          "translation": [
+            0,
+            22,
+            0
+          ],
+          "scale": [
+            1,
+            0.76,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0.75,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                1080
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$11",
+          "translation": [
+            7,
+            443,
+            0
+          ],
+          "scale": [
+            12,
+            1,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$10",
+          "translation": [
+            7,
+            435.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            99,
+            -388,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png",
+          "translation": [
+            7,
+            -385.5,
+            0
+          ],
+          "scale": [
+            12,
+            0.5,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_close",
+          "translation": [
+            816,
+            -388.5,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_close",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.8,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5.8,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "parent_tabs",
+          "children": [
+            {
+              "name": "parent_gift",
+              "children": [
+                {
+                  "name": "gift_tab",
+                  "translation": [
+                    335.5,
+                    -388,
+                    0
+                  ],
+                  "anchor": [
+                    206.5,
+                    55,
+                    0
+                  ],
+                  "compositionRef": "gift_tab",
+                  "affectsChildren": false,
+                  "components": [
+                    {
+                      "inPoint": 0,
+                      "outPoint": 2,
+                      "scale": 1,
+                      "startTime": 0,
+                      "duration": 2,
+                      "_c": "AELayer"
+                    }
+                  ]
+                },
+                {
+                  "name": "alert_comp_small",
+                  "translation": [
+                    439.5,
+                    -392,
+                    0
+                  ],
+                  "anchor": [
+                    42.5,
+                    42.5,
+                    0
+                  ],
+                  "compositionRef": "alert_comp_small",
+                  "affectsChildren": false,
+                  "components": [
+                    {
+                      "inPoint": 0,
+                      "outPoint": 2,
+                      "scale": 1,
+                      "startTime": 0,
+                      "duration": 2,
+                      "_c": "AELayer"
+                    }
+                  ]
+                }
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 5.791,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "ranking_tab",
+              "translation": [
+                -376,
+                -388,
+                0
+              ],
+              "anchor": [
+                246,
+                55,
+                0
+              ],
+              "compositionRef": "ranking_tab",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "friend_tab",
+              "translation": [
+                2,
+                -388,
+                0
+              ],
+              "anchor": [
+                239,
+                55,
+                0
+              ],
+              "compositionRef": "friend_tab",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              1,
+              0.01,
+              1
+            ],
+            [
+              1.001,
+              0.02,
+              1
+            ],
+            [
+              1.009,
+              0.065,
+              1
+            ],
+            [
+              1.031,
+              0.2,
+              1
+            ],
+            [
+              1.123,
+              0.743,
+              1
+            ],
+            [
+              1.165,
+              0.992,
+              1
+            ],
+            [
+              1.182,
+              1.094,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.182,
+              1.093,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.123,
+              0.739,
+              1
+            ],
+            [
+              1.031,
+              0.191,
+              1
+            ],
+            [
+              1.009,
+              0.055,
+              1
+            ],
+            [
+              1.001,
+              0.01,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 5.79166666666667,
+          "len": 174,
+          "cutf": 0
+        },
+        "parent_tabs.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "friend_tab.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "ranking_tab.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "alert_comp_small.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "gift_tab.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "parent_gift.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "button_close.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "ltp_bg_dow.png$10.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "ltp_bg_dow.png$11.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "black_solid.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        },
+        "parent.enabled": {
+          "duration": 5.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.79166666666667
+        },
+        "out": {
+          "start": 1.33333333333333,
+          "duration": 0.54166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.79166666666667
+        }
+      },
+      "layers": [
+        "parent_tabs",
+        "friend_tab",
+        "ranking_tab",
+        "alert_comp_small",
+        "gift_tab",
+        "parent_gift",
+        "button_close",
+        "ltp_bg_dow.png",
+        "ltp_bg_u.png",
+        "ltp_bg_dow.png$10",
+        "ltp_bg_dow.png$11",
+        "black_solid",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

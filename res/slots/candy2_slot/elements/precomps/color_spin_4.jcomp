@@ -1,0 +1,162 @@
+{
+  "name": "color_spin_4",
+  "children": [
+    {
+      "name": "parent",
+      "children": [
+        {
+          "name": "color_spin_[00000-00001].png",
+          "translation": [
+            195,
+            97.5,
+            0
+          ],
+          "scale": [
+            3.8,
+            3.8,
+            1
+          ],
+          "anchor": [
+            49.5,
+            24.5,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "hue": 1.358,
+              "saturation": 0.84,
+              "lightness": -0.4,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.533,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0.53333333333333,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/color_spin/color_spin_00000.png",
+                "../assets/color_spin/color_spin_00001.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "hue": 1.358,
+          "saturation": 0.84,
+          "lightness": -0.4,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.533,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "color_spin_[00000-00001].png.alpha": {
+          "values": [
+            0,
+            0.109,
+            0.219,
+            0.33,
+            0.44,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.44,
+            0.33,
+            0.219,
+            0.109,
+            0
+          ],
+          "duration": 0.66666666666667,
+          "len": 20,
+          "cutf": 0
+        },
+        "parent.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 20,
+          "cutf": 16
+        },
+        "color_spin_[00000-00001].png.curFrame": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "len": 20,
+          "cutf": 0
+        },
+        "color_spin_[00000-00001].png.enabled": {
+          "duration": 0.66666666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 20,
+          "cutf": 16
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.54166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.66666666666667
+        }
+      },
+      "layers": [
+        "parent",
+        "color_spin_[00000-00001].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,64 @@
+{
+  "name": "soon_cards",
+  "children": [
+    {
+      "name": "goldmine",
+      "translation": [
+        140,
+        163.5,
+        0
+      ],
+      "anchor": [
+        129,
+        139,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../../lib/cards/soon_goldminer.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "goldmine.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "goldmine"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

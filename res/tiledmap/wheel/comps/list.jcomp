@@ -1,0 +1,148 @@
+{
+  "name": "list",
+  "children": [
+    {
+      "name": "ltp_line_menu_1",
+      "translation": [
+        110.5,
+        119,
+        0
+      ],
+      "scale": [
+        0.27,
+        1,
+        1
+      ],
+      "anchor": [
+        345,
+        9,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/ltp_line_menu.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_line_menu_2",
+      "translation": [
+        110.5,
+        191,
+        0
+      ],
+      "scale": [
+        0.27,
+        1,
+        1
+      ],
+      "anchor": [
+        345,
+        9,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/ltp_line_menu.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "winning_history_1",
+      "translation": [
+        166.5,
+        138,
+        0
+      ],
+      "anchor": [
+        165,
+        139,
+        0
+      ],
+      "compositionRef": "winning_history.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "winning_history_2",
+      "translation": [
+        166.5,
+        211,
+        0
+      ],
+      "anchor": [
+        165,
+        139,
+        0
+      ],
+      "compositionRef": "winning_history.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "winning_history_3",
+      "translation": [
+        166.5,
+        283,
+        0
+      ],
+      "anchor": [
+        165,
+        139,
+        0
+      ],
+      "compositionRef": "winning_history.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "WHEEL_UI_2_LIST_PREVIOUS",
+      "translation": [
+        64.5999999999999,
+        32.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "PREVIOUS",
+          "font": "Exo2-Black",
+          "fontSize": 6,
+          "color": [
+            0.60001003742218,
+            0.44705000519753,
+            0.29019001126289
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

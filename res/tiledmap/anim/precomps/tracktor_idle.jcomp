@@ -1,0 +1,4634 @@
+{
+  "name": "tracktor_idle",
+  "children": [
+    {
+      "name": "ltp_buldozer_body.png",
+      "translation": [
+        657.704,
+        322.712,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        0.999
+      ],
+      "anchor": [
+        99.499,
+        153,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_buldozer_light_1.png",
+          "translation": [
+            110.701,
+            67.274,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            15,
+            15,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": -1.958,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_buldozer_light_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_buldozer_light.png",
+          "translation": [
+            142.686,
+            53.239,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            15,
+            17,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": -1.958,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_buldozer_light.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "anthenna_[00047-00052].png",
+          "translation": [
+            48.194,
+            3.467,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            17.5,
+            26,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/anthenna_seq/anthenna_00047.png",
+                "../assets/anthenna_seq/anthenna_00048.png",
+                "../assets/anthenna_seq/anthenna_00049.png",
+                "../assets/anthenna_seq/anthenna_00050.png",
+                "../assets/anthenna_seq/anthenna_00051.png",
+                "../assets/anthenna_seq/anthenna_00052.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube$15",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube$14",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.791,
+              "outPoint": 1.583,
+              "scale": 1,
+              "startTime": 0.791,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube$13",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 1.583,
+              "outPoint": 2.375,
+              "scale": 1,
+              "startTime": 1.583,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube$12",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 2.375,
+              "outPoint": 3.166,
+              "scale": 1,
+              "startTime": 2.375,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube$11",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 3.166,
+              "outPoint": 3.958,
+              "scale": 1,
+              "startTime": 3.166,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "preparing_tractor_tube",
+          "translation": [
+            53.284,
+            146.319,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            -114.75,
+            154.25,
+            0
+          ],
+          "compositionRef": "preparing_tractor_tube.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 3.958,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 3.958,
+              "duration": 0.79166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "ltp_buldozer_bod.png",
+          "translation": [
+            162.773,
+            133.218,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            0.999
+          ],
+          "anchor": [
+            39,
+            33,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": -1.958,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_buldozer_bod.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": -1.958,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_buldozer_body.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_buldozer_track.png",
+      "translation": [
+        628.973,
+        382.526,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        0.999
+      ],
+      "anchor": [
+        79,
+        73,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": -1.958,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_buldozer_track.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_buldozer_shove.png",
+      "translation": [
+        678.529,
+        336.641,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        0.999
+      ],
+      "anchor": [
+        49,
+        39,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_buldozer_shove_1.png",
+          "translation": [
+            179,
+            97,
+            0
+          ],
+          "anchor": [
+            123,
+            117,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": -1.958,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_buldozer_shove_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": -1.958,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_buldozer_shove.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white_smoke_cartoon_idle_[0001-0016].png$5",
+      "translation": [
+        768.5,
+        136.5,
+        0
+      ],
+      "anchor": [
+        24.5,
+        56.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.708,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0001.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0002.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0003.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0004.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0005.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0006.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0007.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0008.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0009.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0010.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0011.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0012.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0013.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0014.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0015.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0016.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white_smoke_cartoon_idle_[0001-0016].png$4",
+      "translation": [
+        768.5,
+        136.5,
+        0
+      ],
+      "anchor": [
+        24.5,
+        56.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.833,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0.833,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0001.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0002.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0003.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0004.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0005.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0006.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0007.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0008.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0009.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0010.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0011.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0012.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0013.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0014.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0015.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0016.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white_smoke_cartoon_idle_[0001-0016].png$3",
+      "translation": [
+        768.5,
+        136.5,
+        0
+      ],
+      "anchor": [
+        24.5,
+        56.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.625,
+          "outPoint": 2.291,
+          "scale": 1,
+          "startTime": 1.625,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0001.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0002.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0003.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0004.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0005.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0006.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0007.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0008.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0009.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0010.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0011.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0012.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0013.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0014.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0015.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0016.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white_smoke_cartoon_idle_[0001-0016].png$2",
+      "translation": [
+        768.5,
+        136.5,
+        0
+      ],
+      "anchor": [
+        24.5,
+        56.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2.416,
+          "outPoint": 3.083,
+          "scale": 1,
+          "startTime": 2.416,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0001.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0002.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0003.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0004.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0005.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0006.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0007.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0008.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0009.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0010.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0011.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0012.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0013.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0014.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0015.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0016.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "white_smoke_cartoon_idle_[0001-0016].png",
+      "translation": [
+        768.5,
+        136.5,
+        0
+      ],
+      "anchor": [
+        24.5,
+        56.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 3.208,
+          "outPoint": 3.875,
+          "scale": 1,
+          "startTime": 3.208,
+          "duration": 0.66666666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0001.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0002.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0003.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0004.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0005.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0006.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0007.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0008.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0009.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0010.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0011.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0012.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0013.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0014.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0015.png",
+            "../assets/white_smoke_idle_seq/white_smoke_cartoon_idle_0016.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_buldozer_shove.png.translation": {
+          "values": [
+            [
+              678.529,
+              336.641,
+              0
+            ],
+            [
+              678.488,
+              337.123,
+              0
+            ],
+            [
+              678.272,
+              337.23,
+              0
+            ],
+            [
+              678.229,
+              337.088,
+              0
+            ],
+            [
+              678.361,
+              337.022,
+              0
+            ],
+            [
+              678.294,
+              337.07,
+              0
+            ],
+            [
+              678.424,
+              336.905,
+              0
+            ],
+            [
+              678.456,
+              336.721,
+              0
+            ],
+            [
+              678.405,
+              336.689,
+              0
+            ],
+            [
+              678.374,
+              336.809,
+              0
+            ],
+            [
+              678.408,
+              336.745,
+              0
+            ],
+            [
+              678.314,
+              336.889,
+              0
+            ],
+            [
+              678.288,
+              336.731,
+              0
+            ],
+            [
+              678.287,
+              336.727,
+              0
+            ],
+            [
+              678.313,
+              336.925,
+              0
+            ],
+            [
+              678.463,
+              336.992,
+              0
+            ],
+            [
+              678.517,
+              336.865,
+              0
+            ],
+            [
+              678.297,
+              336.916,
+              0
+            ],
+            [
+              678.127,
+              337.062,
+              0
+            ],
+            [
+              678.025,
+              337.072,
+              0
+            ],
+            [
+              677.996,
+              336.638,
+              0
+            ],
+            [
+              678.422,
+              336.57,
+              0
+            ],
+            [
+              678.502,
+              336.69,
+              0
+            ],
+            [
+              678.297,
+              336.744,
+              0
+            ],
+            [
+              678.131,
+              336.788,
+              0
+            ],
+            [
+              678.315,
+              336.934,
+              0
+            ],
+            [
+              678.264,
+              337.004,
+              0
+            ],
+            [
+              678.382,
+              336.965,
+              0
+            ],
+            [
+              678.483,
+              336.93,
+              0
+            ],
+            [
+              678.462,
+              336.946,
+              0
+            ],
+            [
+              678.392,
+              336.987,
+              0
+            ],
+            [
+              678.276,
+              337.267,
+              0
+            ],
+            [
+              678.375,
+              337.153,
+              0
+            ],
+            [
+              678.524,
+              336.961,
+              0
+            ],
+            [
+              678.582,
+              336.871,
+              0
+            ],
+            [
+              678.393,
+              336.94,
+              0
+            ],
+            [
+              678.453,
+              336.976,
+              0
+            ],
+            [
+              678.461,
+              336.736,
+              0
+            ],
+            [
+              678.289,
+              336.757,
+              0
+            ],
+            [
+              678.126,
+              337.007,
+              0
+            ],
+            [
+              678.18,
+              337.032,
+              0
+            ],
+            [
+              678.468,
+              337.07,
+              0
+            ],
+            [
+              678.228,
+              337.003,
+              0
+            ],
+            [
+              678.232,
+              337.043,
+              0
+            ],
+            [
+              678.531,
+              337.122,
+              0
+            ],
+            [
+              678.349,
+              337.022,
+              0
+            ],
+            [
+              678.048,
+              336.806,
+              0
+            ],
+            [
+              678.295,
+              336.671,
+              0
+            ],
+            [
+              678.439,
+              336.889,
+              0
+            ],
+            [
+              678.243,
+              337.166,
+              0
+            ],
+            [
+              678.151,
+              337.218,
+              0
+            ],
+            [
+              678.159,
+              336.847,
+              0
+            ],
+            [
+              678.384,
+              336.855,
+              0
+            ],
+            [
+              678.451,
+              336.958,
+              0
+            ],
+            [
+              678.375,
+              336.955,
+              0
+            ],
+            [
+              678.446,
+              336.973,
+              0
+            ],
+            [
+              678.609,
+              336.798,
+              0
+            ],
+            [
+              678.299,
+              336.774,
+              0
+            ],
+            [
+              678.201,
+              336.99,
+              0
+            ],
+            [
+              678.465,
+              337.171,
+              0
+            ],
+            [
+              678.569,
+              337.143,
+              0
+            ],
+            [
+              678.271,
+              336.905,
+              0
+            ],
+            [
+              678.219,
+              336.744,
+              0
+            ],
+            [
+              678.257,
+              336.838,
+              0
+            ],
+            [
+              678.321,
+              337.002,
+              0
+            ],
+            [
+              678.587,
+              336.869,
+              0
+            ],
+            [
+              678.428,
+              336.794,
+              0
+            ],
+            [
+              678.201,
+              336.82,
+              0
+            ],
+            [
+              678.064,
+              336.896,
+              0
+            ],
+            [
+              678.069,
+              336.966,
+              0
+            ],
+            [
+              678.013,
+              336.931,
+              0
+            ],
+            [
+              678.389,
+              336.758,
+              0
+            ],
+            [
+              678.36,
+              336.806,
+              0
+            ],
+            [
+              678.168,
+              337.009,
+              0
+            ],
+            [
+              678.021,
+              337.183,
+              0
+            ],
+            [
+              678.163,
+              337.032,
+              0
+            ],
+            [
+              678.513,
+              337.181,
+              0
+            ],
+            [
+              678.436,
+              337.211,
+              0
+            ],
+            [
+              678.391,
+              337.082,
+              0
+            ],
+            [
+              678.506,
+              336.937,
+              0
+            ],
+            [
+              678.426,
+              336.804,
+              0
+            ],
+            [
+              678.546,
+              336.721,
+              0
+            ],
+            [
+              678.577,
+              336.674,
+              0
+            ],
+            [
+              678.565,
+              336.779,
+              0
+            ],
+            [
+              678.355,
+              336.874,
+              0
+            ],
+            [
+              677.839,
+              336.885,
+              0
+            ],
+            [
+              678.324,
+              336.939,
+              0
+            ],
+            [
+              678.495,
+              337.116,
+              0
+            ],
+            [
+              678.343,
+              337,
+              0
+            ],
+            [
+              678.171,
+              336.735,
+              0
+            ],
+            [
+              678.115,
+              336.923,
+              0
+            ],
+            [
+              678.002,
+              336.77,
+              0
+            ],
+            [
+              678.234,
+              336.717,
+              0
+            ],
+            [
+              678.39,
+              336.722,
+              0
+            ],
+            [
+              678.394,
+              336.778,
+              0
+            ],
+            [
+              678.392,
+              336.987,
+              0
+            ],
+            [
+              678.282,
+              337.269,
+              0
+            ],
+            [
+              678.375,
+              337.153,
+              0
+            ],
+            [
+              678.524,
+              336.961,
+              0
+            ],
+            [
+              678.582,
+              336.871,
+              0
+            ],
+            [
+              678.393,
+              336.94,
+              0
+            ],
+            [
+              678.453,
+              336.976,
+              0
+            ],
+            [
+              678.461,
+              336.736,
+              0
+            ],
+            [
+              678.289,
+              336.757,
+              0
+            ],
+            [
+              678.126,
+              337.007,
+              0
+            ],
+            [
+              678.18,
+              337.032,
+              0
+            ],
+            [
+              678.468,
+              337.07,
+              0
+            ],
+            [
+              678.228,
+              337.003,
+              0
+            ],
+            [
+              678.232,
+              337.043,
+              0
+            ],
+            [
+              678.531,
+              337.122,
+              0
+            ],
+            [
+              678.349,
+              337.022,
+              0
+            ],
+            [
+              678.048,
+              336.806,
+              0
+            ],
+            [
+              678.295,
+              336.671,
+              0
+            ],
+            [
+              678.439,
+              336.889,
+              0
+            ],
+            [
+              678.239,
+              337.17,
+              0
+            ],
+            [
+              678.151,
+              337.218,
+              0
+            ],
+            [
+              678.249,
+              337.062,
+              0
+            ],
+            [
+              678.346,
+              336.916,
+              0
+            ],
+            [
+              678.447,
+              336.764,
+              0
+            ],
+            [
+              678.529,
+              336.641,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_buldozer_shove.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_buldozer_shove_1.png.translation": {
+          "values": [
+            [
+              179,
+              97,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_shove_1.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_track.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_body.png.translation": {
+          "values": [
+            [
+              657.704,
+              322.712,
+              0
+            ],
+            [
+              657.651,
+              323.221,
+              0
+            ],
+            [
+              657.418,
+              323.334,
+              0
+            ],
+            [
+              657.387,
+              323.189,
+              0
+            ],
+            [
+              657.52,
+              323.116,
+              0
+            ],
+            [
+              657.451,
+              323.168,
+              0
+            ],
+            [
+              657.589,
+              322.991,
+              0
+            ],
+            [
+              657.621,
+              322.807,
+              0
+            ],
+            [
+              657.562,
+              322.789,
+              0
+            ],
+            [
+              657.533,
+              322.904,
+              0
+            ],
+            [
+              657.566,
+              322.841,
+              0
+            ],
+            [
+              657.472,
+              322.987,
+              0
+            ],
+            [
+              657.448,
+              322.825,
+              0
+            ],
+            [
+              657.451,
+              322.817,
+              0
+            ],
+            [
+              657.477,
+              323.016,
+              0
+            ],
+            [
+              657.622,
+              323.087,
+              0
+            ],
+            [
+              657.69,
+              322.946,
+              0
+            ],
+            [
+              657.449,
+              323.023,
+              0
+            ],
+            [
+              657.27,
+              323.179,
+              0
+            ],
+            [
+              657.174,
+              323.197,
+              0
+            ],
+            [
+              657.134,
+              322.764,
+              0
+            ],
+            [
+              657.587,
+              322.673,
+              0
+            ],
+            [
+              657.654,
+              322.792,
+              0
+            ],
+            [
+              657.452,
+              322.849,
+              0
+            ],
+            [
+              657.282,
+              322.901,
+              0
+            ],
+            [
+              657.468,
+              323.038,
+              0
+            ],
+            [
+              657.416,
+              323.111,
+              0
+            ],
+            [
+              657.543,
+              323.061,
+              0
+            ],
+            [
+              657.651,
+              323.015,
+              0
+            ],
+            [
+              657.635,
+              323.027,
+              0
+            ],
+            [
+              657.554,
+              323.078,
+              0
+            ],
+            [
+              657.431,
+              323.367,
+              0
+            ],
+            [
+              657.534,
+              323.247,
+              0
+            ],
+            [
+              657.691,
+              323.047,
+              0
+            ],
+            [
+              657.748,
+              322.953,
+              0
+            ],
+            [
+              657.561,
+              323.02,
+              0
+            ],
+            [
+              657.606,
+              323.075,
+              0
+            ],
+            [
+              657.623,
+              322.849,
+              0
+            ],
+            [
+              657.444,
+              322.857,
+              0
+            ],
+            [
+              657.27,
+              323.126,
+              0
+            ],
+            [
+              657.335,
+              323.133,
+              0
+            ],
+            [
+              657.631,
+              323.143,
+              0
+            ],
+            [
+              657.388,
+              323.101,
+              0
+            ],
+            [
+              657.385,
+              323.162,
+              0
+            ],
+            [
+              657.686,
+              323.211,
+              0
+            ],
+            [
+              657.513,
+              323.11,
+              0
+            ],
+            [
+              657.195,
+              322.928,
+              0
+            ],
+            [
+              657.443,
+              322.776,
+              0
+            ],
+            [
+              657.602,
+              322.977,
+              0
+            ],
+            [
+              657.406,
+              323.255,
+              0
+            ],
+            [
+              657.289,
+              323.344,
+              0
+            ],
+            [
+              657.305,
+              322.958,
+              0
+            ],
+            [
+              657.555,
+              322.947,
+              0
+            ],
+            [
+              657.61,
+              323.039,
+              0
+            ],
+            [
+              657.537,
+              323.044,
+              0
+            ],
+            [
+              657.614,
+              323.054,
+              0
+            ],
+            [
+              657.772,
+              322.888,
+              0
+            ],
+            [
+              657.46,
+              322.87,
+              0
+            ],
+            [
+              657.364,
+              323.095,
+              0
+            ],
+            [
+              657.638,
+              323.257,
+              0
+            ],
+            [
+              657.738,
+              323.223,
+              0
+            ],
+            [
+              657.416,
+              323.01,
+              0
+            ],
+            [
+              657.371,
+              322.852,
+              0
+            ],
+            [
+              657.416,
+              322.93,
+              0
+            ],
+            [
+              657.486,
+              323.087,
+              0
+            ],
+            [
+              657.769,
+              322.93,
+              0
+            ],
+            [
+              657.601,
+              322.868,
+              0
+            ],
+            [
+              657.352,
+              322.919,
+              0
+            ],
+            [
+              657.21,
+              323.017,
+              0
+            ],
+            [
+              657.214,
+              323.088,
+              0
+            ],
+            [
+              657.163,
+              323.039,
+              0
+            ],
+            [
+              657.55,
+              322.854,
+              0
+            ],
+            [
+              657.517,
+              322.904,
+              0
+            ],
+            [
+              657.321,
+              323.113,
+              0
+            ],
+            [
+              657.174,
+              323.285,
+              0
+            ],
+            [
+              657.322,
+              323.127,
+              0
+            ],
+            [
+              657.691,
+              323.252,
+              0
+            ],
+            [
+              657.599,
+              323.296,
+              0
+            ],
+            [
+              657.554,
+              323.175,
+              0
+            ],
+            [
+              657.67,
+              323.021,
+              0
+            ],
+            [
+              657.599,
+              322.878,
+              0
+            ],
+            [
+              657.722,
+              322.796,
+              0
+            ],
+            [
+              657.755,
+              322.746,
+              0
+            ],
+            [
+              657.739,
+              322.835,
+              0
+            ],
+            [
+              657.533,
+              322.967,
+              0
+            ],
+            [
+              656.975,
+              323.015,
+              0
+            ],
+            [
+              657.503,
+              323.022,
+              0
+            ],
+            [
+              657.664,
+              323.197,
+              0
+            ],
+            [
+              657.503,
+              323.095,
+              0
+            ],
+            [
+              657.324,
+              322.842,
+              0
+            ],
+            [
+              657.263,
+              323.035,
+              0
+            ],
+            [
+              657.148,
+              322.89,
+              0
+            ],
+            [
+              657.394,
+              322.807,
+              0
+            ],
+            [
+              657.601,
+              322.889,
+              0
+            ],
+            [
+              657.634,
+              323.036,
+              0
+            ],
+            [
+              657.653,
+              323.025,
+              0
+            ],
+            [
+              657.575,
+              323.05,
+              0
+            ],
+            [
+              657.46,
+              323.291,
+              0
+            ],
+            [
+              657.495,
+              323.313,
+              0
+            ],
+            [
+              657.655,
+              323.08,
+              0
+            ],
+            [
+              657.808,
+              322.945,
+              0
+            ],
+            [
+              657.608,
+              323,
+              0
+            ],
+            [
+              657.587,
+              323.072,
+              0
+            ],
+            [
+              657.624,
+              322.922,
+              0
+            ],
+            [
+              657.505,
+              322.777,
+              0
+            ],
+            [
+              657.288,
+              323.093,
+              0
+            ],
+            [
+              657.302,
+              323.132,
+              0
+            ],
+            [
+              657.551,
+              323.142,
+              0
+            ],
+            [
+              657.499,
+              323.113,
+              0
+            ],
+            [
+              657.271,
+              323.129,
+              0
+            ],
+            [
+              657.712,
+              323.242,
+              0
+            ],
+            [
+              657.559,
+              323.139,
+              0
+            ],
+            [
+              657.279,
+              322.979,
+              0
+            ],
+            [
+              657.339,
+              322.791,
+              0
+            ],
+            [
+              657.653,
+              322.889,
+              0
+            ],
+            [
+              657.435,
+              323.213,
+              0
+            ],
+            [
+              657.293,
+              323.368,
+              0
+            ],
+            [
+              657.396,
+              323.175,
+              0
+            ],
+            [
+              657.564,
+              322.923,
+              0
+            ],
+            [
+              657.704,
+              322.712,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_buldozer_body.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.999,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 118
+        },
+        "preparing_tractor_tube.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube$11.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ],
+            [
+              53.285,
+              147.512,
+              0
+            ],
+            [
+              53.285,
+              150.029,
+              0
+            ],
+            [
+              53.285,
+              152.366,
+              0
+            ],
+            [
+              53.285,
+              152.986,
+              0
+            ],
+            [
+              53.285,
+              151.319,
+              0
+            ],
+            [
+              53.285,
+              148.697,
+              0
+            ],
+            [
+              53.284,
+              146.652,
+              0
+            ],
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 105
+        },
+        "preparing_tractor_tube$11.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.989,
+              1
+            ],
+            [
+              1,
+              0.956,
+              1
+            ],
+            [
+              1,
+              0.902,
+              1
+            ],
+            [
+              1,
+              0.85,
+              1
+            ],
+            [
+              1,
+              0.83,
+              1
+            ],
+            [
+              1,
+              0.842,
+              1
+            ],
+            [
+              1,
+              0.872,
+              1
+            ],
+            [
+              1,
+              0.915,
+              1
+            ],
+            [
+              1.001,
+              0.966,
+              1
+            ],
+            [
+              1.001,
+              1.021,
+              1
+            ],
+            [
+              1.001,
+              1.079,
+              1
+            ],
+            [
+              1,
+              1.135,
+              1
+            ],
+            [
+              1,
+              1.182,
+              1
+            ],
+            [
+              0.999,
+              1.194,
+              1
+            ],
+            [
+              1,
+              1.096,
+              1
+            ],
+            [
+              1,
+              0.94,
+              1
+            ],
+            [
+              0.999,
+              0.819,
+              1
+            ],
+            [
+              0.999,
+              0.815,
+              1
+            ],
+            [
+              0.999,
+              0.936,
+              1
+            ],
+            [
+              0.999,
+              0.986,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 95
+        },
+        "preparing_tractor_tube$11.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube$12.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ],
+            [
+              53.285,
+              147.032,
+              0
+            ],
+            [
+              53.285,
+              149.36,
+              0
+            ],
+            [
+              53.285,
+              151.883,
+              0
+            ],
+            [
+              53.285,
+              153.069,
+              0
+            ],
+            [
+              53.285,
+              151.882,
+              0
+            ],
+            [
+              53.285,
+              149.358,
+              0
+            ],
+            [
+              53.285,
+              147.031,
+              0
+            ],
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 81
+        },
+        "preparing_tractor_tube$12.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.994,
+              1
+            ],
+            [
+              1,
+              0.966,
+              1
+            ],
+            [
+              1,
+              0.917,
+              1
+            ],
+            [
+              1,
+              0.861,
+              1
+            ],
+            [
+              1,
+              0.831,
+              1
+            ],
+            [
+              1,
+              0.837,
+              1
+            ],
+            [
+              1,
+              0.863,
+              1
+            ],
+            [
+              1,
+              0.904,
+              1
+            ],
+            [
+              1.001,
+              0.953,
+              1
+            ],
+            [
+              1.001,
+              1.007,
+              1
+            ],
+            [
+              1.001,
+              1.065,
+              1
+            ],
+            [
+              1.001,
+              1.121,
+              1
+            ],
+            [
+              1,
+              1.172,
+              1
+            ],
+            [
+              1,
+              1.2,
+              1
+            ],
+            [
+              0.999,
+              1.129,
+              1
+            ],
+            [
+              1,
+              0.98,
+              1
+            ],
+            [
+              1,
+              0.841,
+              1
+            ],
+            [
+              0.999,
+              0.803,
+              1
+            ],
+            [
+              0.999,
+              0.911,
+              1
+            ],
+            [
+              0.999,
+              0.978,
+              1
+            ],
+            [
+              0.999,
+              0.998,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 71
+        },
+        "preparing_tractor_tube$12.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube$13.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ],
+            [
+              53.284,
+              146.653,
+              0
+            ],
+            [
+              53.285,
+              148.698,
+              0
+            ],
+            [
+              53.285,
+              151.32,
+              0
+            ],
+            [
+              53.285,
+              152.986,
+              0
+            ],
+            [
+              53.285,
+              152.366,
+              0
+            ],
+            [
+              53.285,
+              150.028,
+              0
+            ],
+            [
+              53.285,
+              147.51,
+              0
+            ],
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 57
+        },
+        "preparing_tractor_tube$13.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.997,
+              1
+            ],
+            [
+              1,
+              0.975,
+              1
+            ],
+            [
+              1,
+              0.931,
+              1
+            ],
+            [
+              1,
+              0.874,
+              1
+            ],
+            [
+              1,
+              0.835,
+              1
+            ],
+            [
+              1,
+              0.833,
+              1
+            ],
+            [
+              1,
+              0.855,
+              1
+            ],
+            [
+              1,
+              0.893,
+              1
+            ],
+            [
+              1,
+              0.94,
+              1
+            ],
+            [
+              1.001,
+              0.993,
+              1
+            ],
+            [
+              1.001,
+              1.05,
+              1
+            ],
+            [
+              1.001,
+              1.107,
+              1
+            ],
+            [
+              1,
+              1.16,
+              1
+            ],
+            [
+              1,
+              1.197,
+              1
+            ],
+            [
+              1,
+              1.158,
+              1
+            ],
+            [
+              1,
+              1.019,
+              1
+            ],
+            [
+              1,
+              0.87,
+              1
+            ],
+            [
+              1,
+              0.8,
+              1
+            ],
+            [
+              0.999,
+              0.878,
+              1
+            ],
+            [
+              0.999,
+              0.968,
+              1
+            ],
+            [
+              0.999,
+              0.995,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 47
+        },
+        "preparing_tractor_tube$13.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube$14.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ],
+            [
+              53.284,
+              146.405,
+              0
+            ],
+            [
+              53.285,
+              148.071,
+              0
+            ],
+            [
+              53.285,
+              150.692,
+              0
+            ],
+            [
+              53.285,
+              152.741,
+              0
+            ],
+            [
+              53.285,
+              152.741,
+              0
+            ],
+            [
+              53.285,
+              150.691,
+              0
+            ],
+            [
+              53.285,
+              148.069,
+              0
+            ],
+            [
+              53.284,
+              146.405,
+              0
+            ],
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 33
+        },
+        "preparing_tractor_tube$14.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.999,
+              1
+            ],
+            [
+              1,
+              0.983,
+              1
+            ],
+            [
+              1,
+              0.944,
+              1
+            ],
+            [
+              1,
+              0.888,
+              1
+            ],
+            [
+              1,
+              0.841,
+              1
+            ],
+            [
+              1,
+              0.83,
+              1
+            ],
+            [
+              1,
+              0.848,
+              1
+            ],
+            [
+              1,
+              0.882,
+              1
+            ],
+            [
+              1,
+              0.927,
+              1
+            ],
+            [
+              1.001,
+              0.979,
+              1
+            ],
+            [
+              1.001,
+              1.036,
+              1
+            ],
+            [
+              1.001,
+              1.093,
+              1
+            ],
+            [
+              1,
+              1.148,
+              1
+            ],
+            [
+              1,
+              1.191,
+              1
+            ],
+            [
+              0.999,
+              1.18,
+              1
+            ],
+            [
+              0.999,
+              1.059,
+              1
+            ],
+            [
+              1,
+              0.903,
+              1
+            ],
+            [
+              0.999,
+              0.805,
+              1
+            ],
+            [
+              0.999,
+              0.841,
+              1
+            ],
+            [
+              0.999,
+              0.955,
+              1
+            ],
+            [
+              0.999,
+              0.991,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 23
+        },
+        "preparing_tractor_tube$14.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube$15.translation": {
+          "values": [
+            [
+              53.284,
+              146.319,
+              0
+            ],
+            [
+              53.285,
+              147.512,
+              0
+            ],
+            [
+              53.285,
+              150.029,
+              0
+            ],
+            [
+              53.285,
+              152.366,
+              0
+            ],
+            [
+              53.285,
+              152.986,
+              0
+            ],
+            [
+              53.285,
+              151.319,
+              0
+            ],
+            [
+              53.285,
+              148.697,
+              0
+            ],
+            [
+              53.284,
+              146.652,
+              0
+            ],
+            [
+              53.284,
+              146.319,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 10
+        },
+        "preparing_tractor_tube$15.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0.989,
+              1
+            ],
+            [
+              1,
+              0.956,
+              1
+            ],
+            [
+              1,
+              0.902,
+              1
+            ],
+            [
+              1,
+              0.85,
+              1
+            ],
+            [
+              1,
+              0.83,
+              1
+            ],
+            [
+              1,
+              0.842,
+              1
+            ],
+            [
+              1,
+              0.872,
+              1
+            ],
+            [
+              1,
+              0.915,
+              1
+            ],
+            [
+              1.001,
+              0.966,
+              1
+            ],
+            [
+              1.001,
+              1.021,
+              1
+            ],
+            [
+              1.001,
+              1.079,
+              1
+            ],
+            [
+              1,
+              1.135,
+              1
+            ],
+            [
+              1,
+              1.182,
+              1
+            ],
+            [
+              0.999,
+              1.194,
+              1
+            ],
+            [
+              1,
+              1.096,
+              1
+            ],
+            [
+              1,
+              0.94,
+              1
+            ],
+            [
+              0.999,
+              0.819,
+              1
+            ],
+            [
+              0.999,
+              0.815,
+              1
+            ],
+            [
+              0.999,
+              0.936,
+              1
+            ],
+            [
+              0.999,
+              0.986,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "preparing_tractor_tube$15.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_light.png.alpha": {
+          "values": [
+            0,
+            0.114,
+            0.228,
+            0.342,
+            0.457,
+            0.571,
+            0.685,
+            0.799,
+            0.914,
+            0.974,
+            0.875,
+            0.775,
+            0.675,
+            0.574,
+            0.474,
+            0.375,
+            0.275,
+            0.175,
+            0.074,
+            0.028,
+            0.142,
+            0.257,
+            0.371,
+            0.485,
+            0.6,
+            0.714,
+            0.828,
+            0.942,
+            0.949,
+            0.849,
+            0.75,
+            0.65,
+            0.55,
+            0.449,
+            0.349,
+            0.25,
+            0.15,
+            0.05,
+            0.057,
+            0.171,
+            0.285,
+            0.399,
+            0.514,
+            0.628,
+            0.742,
+            0.857,
+            0.971,
+            0.925,
+            0.824,
+            0.724,
+            0.625,
+            0.525,
+            0.425,
+            0.324,
+            0.224,
+            0.125,
+            0.025,
+            0.085,
+            0.2,
+            0.314,
+            0.428,
+            0.542,
+            0.657,
+            0.771,
+            0.885,
+            1,
+            0.9,
+            0.8,
+            0.699,
+            0.599,
+            0.5,
+            0.4,
+            0.3,
+            0.199,
+            0.099,
+            0,
+            0.114,
+            0.228,
+            0.342,
+            0.457,
+            0.571,
+            0.685,
+            0.799,
+            0.914,
+            0.974,
+            0.875,
+            0.775,
+            0.675,
+            0.574,
+            0.474,
+            0.375,
+            0.275,
+            0.175,
+            0.074,
+            0.028,
+            0.142,
+            0.257,
+            0.371,
+            0.485,
+            0.6,
+            0.714,
+            0.828,
+            0.942,
+            0.949,
+            0.849,
+            0.75,
+            0.65,
+            0.55,
+            0.449,
+            0.349,
+            0.25,
+            0.15,
+            0.05,
+            0.057,
+            0.171,
+            0.285,
+            0.399,
+            0.514,
+            0.628,
+            0.742
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_buldozer_light_1.png.alpha": {
+          "values": [
+            0,
+            0.114,
+            0.228,
+            0.342,
+            0.457,
+            0.571,
+            0.685,
+            0.799,
+            0.914,
+            0.974,
+            0.875,
+            0.775,
+            0.675,
+            0.574,
+            0.474,
+            0.375,
+            0.275,
+            0.175,
+            0.074,
+            0.028,
+            0.142,
+            0.257,
+            0.371,
+            0.485,
+            0.6,
+            0.714,
+            0.828,
+            0.942,
+            0.949,
+            0.849,
+            0.75,
+            0.65,
+            0.55,
+            0.449,
+            0.349,
+            0.25,
+            0.15,
+            0.05,
+            0.057,
+            0.171,
+            0.285,
+            0.399,
+            0.514,
+            0.628,
+            0.742,
+            0.857,
+            0.971,
+            0.925,
+            0.824,
+            0.724,
+            0.625,
+            0.525,
+            0.425,
+            0.324,
+            0.224,
+            0.125,
+            0.025,
+            0.085,
+            0.2,
+            0.314,
+            0.428,
+            0.542,
+            0.657,
+            0.771,
+            0.885,
+            1,
+            0.9,
+            0.8,
+            0.699,
+            0.599,
+            0.5,
+            0.4,
+            0.3,
+            0.199,
+            0.099,
+            0,
+            0.114,
+            0.228,
+            0.342,
+            0.457,
+            0.571,
+            0.685,
+            0.799,
+            0.914,
+            0.974,
+            0.875,
+            0.775,
+            0.675,
+            0.574,
+            0.474,
+            0.375,
+            0.275,
+            0.175,
+            0.074,
+            0.028,
+            0.142,
+            0.257,
+            0.371,
+            0.485,
+            0.6,
+            0.714,
+            0.828,
+            0.942,
+            0.949,
+            0.849,
+            0.75,
+            0.65,
+            0.55,
+            0.449,
+            0.349,
+            0.25,
+            0.15,
+            0.05,
+            0.057,
+            0.171,
+            0.285,
+            0.399,
+            0.514,
+            0.628,
+            0.742
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15
+          ],
+          "len": 120,
+          "cutf": 96
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 96
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$2.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            6,
+            7,
+            8,
+            8,
+            9,
+            10,
+            11,
+            12,
+            12,
+            13,
+            14,
+            15
+          ],
+          "len": 120,
+          "cutf": 73
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 72
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$3.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "len": 120,
+          "cutf": 49
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 48
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$4.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15
+          ],
+          "len": 120,
+          "cutf": 25
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 24
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$5.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15
+          ],
+          "len": 120,
+          "cutf": 1
+        },
+        "white_smoke_cartoon_idle_[0001-0016].png$5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 1
+        },
+        "ltp_buldozer_shove_1.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_shove.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_track.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_bod.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "preparing_tractor_tube.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 118
+        },
+        "preparing_tractor_tube$11.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 94
+        },
+        "preparing_tractor_tube$12.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 71
+        },
+        "preparing_tractor_tube$13.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 47
+        },
+        "preparing_tractor_tube$14.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 23
+        },
+        "preparing_tractor_tube$15.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 23
+        },
+        "anthenna_[00047-00052].png.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            5,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            5,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "len": 120,
+          "cutf": 0
+        },
+        "anthenna_[00047-00052].png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_light.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_light_1.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_buldozer_body.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "white_smoke_cartoon_idle_[0001-0016].png",
+        "white_smoke_cartoon_idle_[0001-0016].png$2",
+        "white_smoke_cartoon_idle_[0001-0016].png$3",
+        "white_smoke_cartoon_idle_[0001-0016].png$4",
+        "white_smoke_cartoon_idle_[0001-0016].png$5",
+        "ltp_buldozer_shove_1.png",
+        "ltp_buldozer_shove.png",
+        "ltp_buldozer_track.png",
+        "ltp_buldozer_bod.png",
+        "preparing_tractor_tube",
+        "preparing_tractor_tube$11",
+        "preparing_tractor_tube$12",
+        "preparing_tractor_tube$13",
+        "preparing_tractor_tube$14",
+        "preparing_tractor_tube$15",
+        "anthenna_[00047-00052].png",
+        "ltp_buldozer_light.png",
+        "ltp_buldozer_light_1.png",
+        "ltp_buldozer_body.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "marmaid_prepare_dev.aep",
+  "version": 1
+}

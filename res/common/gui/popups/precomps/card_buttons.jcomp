@@ -1,0 +1,127 @@
+{
+  "name": "card_buttons",
+  "children": [
+    {
+      "name": "button_red_circle",
+      "translation": [
+        399,
+        62,
+        0
+      ],
+      "anchor": [
+        224.5,
+        65,
+        0
+      ],
+      "compositionRef": "button_red_circle",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_orange_circle",
+      "translation": [
+        399,
+        62,
+        0
+      ],
+      "anchor": [
+        224.5,
+        65,
+        0
+      ],
+      "compositionRef": "button_orange_circle",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_blue_circle",
+      "translation": [
+        399,
+        62,
+        0
+      ],
+      "anchor": [
+        224.5,
+        65,
+        0
+      ],
+      "compositionRef": "button_blue_circle",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 7,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "button_blue_circle.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_orange_circle.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_red_circle.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "button_blue_circle",
+        "button_orange_circle",
+        "button_red_circle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

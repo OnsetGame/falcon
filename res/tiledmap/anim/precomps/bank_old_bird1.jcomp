@@ -1,0 +1,1513 @@
+{
+  "name": "bank_old_bird1",
+  "children": [
+    {
+      "name": "bird",
+      "translation": [
+        675,
+        1035,
+        0
+      ],
+      "children": [
+        {
+          "name": "bird_small_front_[00000-00011].png",
+          "translation": [
+            200,
+            -270,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.3,
+            1
+          ],
+          "anchor": [
+            29.5,
+            32,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.25,
+            0.968
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 6,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/bird_small_front_seq/bird_small_front_00000.png",
+                "../assets/bird_small_front_seq/bird_small_front_00001.png",
+                "../assets/bird_small_front_seq/bird_small_front_00002.png",
+                "../assets/bird_small_front_seq/bird_small_front_00003.png",
+                "../assets/bird_small_front_seq/bird_small_front_00004.png",
+                "../assets/bird_small_front_seq/bird_small_front_00005.png",
+                "../assets/bird_small_front_seq/bird_small_front_00006.png",
+                "../assets/bird_small_front_seq/bird_small_front_00007.png",
+                "../assets/bird_small_front_seq/bird_small_front_00008.png",
+                "../assets/bird_small_front_seq/bird_small_front_00009.png",
+                "../assets/bird_small_front_seq/bird_small_front_00010.png",
+                "../assets/bird_small_front_seq/bird_small_front_00011.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "bird_small_front_00009.png",
+          "translation": [
+            200,
+            -270,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.3,
+            1
+          ],
+          "anchor": [
+            29.5,
+            32,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.875,
+              "outPoint": 1.333,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/bird_small_front_seq/bird_small_front_00009.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "bird_small_back_00009.png",
+          "translation": [
+            195.818,
+            -259.034,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.3,
+            1
+          ],
+          "anchor": [
+            29.5,
+            32,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.976,
+            0.216
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 1.333,
+              "outPoint": 2.166,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/bird_small_back_seq/bird_small_back_00009.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "bird_small_back_[00000-00011].png",
+          "translation": [
+            203.5,
+            -259.5,
+            0
+          ],
+          "scale": [
+            1.3,
+            1.3,
+            1
+          ],
+          "anchor": [
+            29.5,
+            32,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 2.166,
+              "outPoint": 3.333,
+              "scale": 1,
+              "startTime": 1.75,
+              "duration": 6,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/bird_small_back_seq/bird_small_back_00000.png",
+                "../assets/bird_small_back_seq/bird_small_back_00001.png",
+                "../assets/bird_small_back_seq/bird_small_back_00002.png",
+                "../assets/bird_small_back_seq/bird_small_back_00003.png",
+                "../assets/bird_small_back_seq/bird_small_back_00004.png",
+                "../assets/bird_small_back_seq/bird_small_back_00005.png",
+                "../assets/bird_small_back_seq/bird_small_back_00006.png",
+                "../assets/bird_small_back_seq/bird_small_back_00007.png",
+                "../assets/bird_small_back_seq/bird_small_back_00008.png",
+                "../assets/bird_small_back_seq/bird_small_back_00009.png",
+                "../assets/bird_small_back_seq/bird_small_back_00010.png",
+                "../assets/bird_small_back_seq/bird_small_back_00011.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bird.translation": {
+          "values": [
+            [
+              675,
+              1035,
+              0
+            ],
+            [
+              657.783,
+              1032.367,
+              0
+            ],
+            [
+              641.395,
+              1026.352,
+              0
+            ],
+            [
+              625.767,
+              1018.552,
+              0
+            ],
+            [
+              610.696,
+              1009.723,
+              0
+            ],
+            [
+              596.009,
+              1000.258,
+              0
+            ],
+            [
+              581.589,
+              990.399,
+              0
+            ],
+            [
+              567.335,
+              980.297,
+              0
+            ],
+            [
+              553.173,
+              970.068,
+              0
+            ],
+            [
+              539.037,
+              959.804,
+              0
+            ],
+            [
+              524.866,
+              949.586,
+              0
+            ],
+            [
+              510.605,
+              939.496,
+              0
+            ],
+            [
+              496.196,
+              929.618,
+              0
+            ],
+            [
+              481.579,
+              920.051,
+              0
+            ],
+            [
+              466.688,
+              910.918,
+              0
+            ],
+            [
+              451.446,
+              902.381,
+              0
+            ],
+            [
+              435.774,
+              894.663,
+              0
+            ],
+            [
+              419.591,
+              888.092,
+              0
+            ],
+            [
+              402.841,
+              883.156,
+              0
+            ],
+            [
+              385.578,
+              880.583,
+              0
+            ],
+            [
+              368.165,
+              881.343,
+              0
+            ],
+            [
+              351.477,
+              886.306,
+              0
+            ],
+            [
+              339.974,
+              898.994,
+              0
+            ],
+            [
+              329.964,
+              913.311,
+              0
+            ],
+            [
+              320.323,
+              927.88,
+              0
+            ],
+            [
+              311.104,
+              942.72,
+              0
+            ],
+            [
+              302.374,
+              957.851,
+              0
+            ],
+            [
+              294.215,
+              973.3,
+              0
+            ],
+            [
+              286.728,
+              989.084,
+              0
+            ],
+            [
+              280.042,
+              1005.22,
+              0
+            ],
+            [
+              274.313,
+              1021.726,
+              0
+            ],
+            [
+              269.741,
+              1038.584,
+              0
+            ],
+            [
+              266.565,
+              1055.754,
+              0
+            ],
+            [
+              265.06,
+              1073.163,
+              0
+            ],
+            [
+              265.522,
+              1090.611,
+              0
+            ],
+            [
+              268.199,
+              1107.854,
+              0
+            ],
+            [
+              273.233,
+              1124.562,
+              0
+            ],
+            [
+              280.588,
+              1140.397,
+              0
+            ],
+            [
+              290.039,
+              1155.083,
+              0
+            ],
+            [
+              301.237,
+              1168.472,
+              0
+            ],
+            [
+              313.833,
+              1180.577,
+              0
+            ],
+            [
+              327.485,
+              1191.467,
+              0
+            ],
+            [
+              341.938,
+              1201.275,
+              0
+            ],
+            [
+              356.993,
+              1210.14,
+              0
+            ],
+            [
+              372.491,
+              1218.19,
+              0
+            ],
+            [
+              388.331,
+              1225.553,
+              0
+            ],
+            [
+              404.433,
+              1232.338,
+              0
+            ],
+            [
+              420.73,
+              1238.638,
+              0
+            ],
+            [
+              437.17,
+              1244.541,
+              0
+            ],
+            [
+              453.721,
+              1250.127,
+              0
+            ],
+            [
+              470.355,
+              1255.475,
+              0
+            ],
+            [
+              487.041,
+              1260.658,
+              0
+            ],
+            [
+              503.747,
+              1265.754,
+              0
+            ],
+            [
+              520.457,
+              1270.853,
+              0
+            ],
+            [
+              537.137,
+              1276.06,
+              0
+            ],
+            [
+              553.734,
+              1281.504,
+              0
+            ],
+            [
+              570.19,
+              1287.374,
+              0
+            ],
+            [
+              586.373,
+              1293.952,
+              0
+            ],
+            [
+              602.637,
+              1300.241,
+              0
+            ],
+            [
+              619.599,
+              1304.383,
+              0
+            ],
+            [
+              636.919,
+              1306.649,
+              0
+            ],
+            [
+              654.364,
+              1306.489,
+              0
+            ],
+            [
+              671.525,
+              1303.311,
+              0
+            ],
+            [
+              687.667,
+              1296.73,
+              0
+            ],
+            [
+              702.026,
+              1286.849,
+              0
+            ],
+            [
+              714.13,
+              1274.282,
+              0
+            ],
+            [
+              723.922,
+              1259.843,
+              0
+            ],
+            [
+              731.65,
+              1244.179,
+              0
+            ],
+            [
+              737.615,
+              1227.774,
+              0
+            ],
+            [
+              742.111,
+              1210.89,
+              0
+            ],
+            [
+              745.359,
+              1193.727,
+              0
+            ],
+            [
+              747.529,
+              1176.395,
+              0
+            ],
+            [
+              749,
+              1159,
+              0
+            ],
+            [
+              755.135,
+              1148.562,
+              0
+            ],
+            [
+              762.705,
+              1139.098,
+              0
+            ],
+            [
+              771.357,
+              1130.619,
+              0
+            ],
+            [
+              780.821,
+              1123.045,
+              0
+            ],
+            [
+              790.883,
+              1116.29,
+              0
+            ],
+            [
+              801.397,
+              1110.259,
+              0
+            ],
+            [
+              812.258,
+              1104.876,
+              0
+            ],
+            [
+              823.39,
+              1100.08,
+              0
+            ],
+            [
+              834.746,
+              1095.826,
+              0
+            ],
+            [
+              846.276,
+              1092.107,
+              0
+            ],
+            [
+              858,
+              1089,
+              0
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "bird_small_back_[00000-00011].png.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.03
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 51,
+          "frameLerp": false
+        },
+        "bird_small_back_00009.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.976,
+              0.216
+            ],
+            [
+              0,
+              0,
+              -0.958,
+              0.284
+            ],
+            [
+              0,
+              0,
+              -0.936,
+              0.351
+            ],
+            [
+              0,
+              0,
+              -0.908,
+              0.417
+            ],
+            [
+              0,
+              0,
+              -0.877,
+              0.48
+            ],
+            [
+              0,
+              0,
+              -0.84,
+              0.541
+            ],
+            [
+              0,
+              0,
+              -0.8,
+              0.599
+            ],
+            [
+              0,
+              0,
+              -0.756,
+              0.654
+            ],
+            [
+              0,
+              0,
+              -0.708,
+              0.706
+            ],
+            [
+              0,
+              0,
+              -0.656,
+              0.754
+            ],
+            [
+              0,
+              0,
+              -0.601,
+              0.798
+            ],
+            [
+              0,
+              0,
+              -0.543,
+              0.839
+            ],
+            [
+              0,
+              0,
+              -0.502,
+              0.864
+            ],
+            [
+              0,
+              0,
+              -0.46,
+              0.887
+            ],
+            [
+              0,
+              0,
+              -0.417,
+              0.908
+            ],
+            [
+              0,
+              0,
+              -0.373,
+              0.927
+            ],
+            [
+              0,
+              0,
+              -0.329,
+              0.944
+            ],
+            [
+              0,
+              0,
+              -0.283,
+              0.958
+            ],
+            [
+              0,
+              0,
+              -0.237,
+              0.971
+            ],
+            [
+              0,
+              0,
+              -0.19,
+              0.981
+            ],
+            [
+              0,
+              0,
+              -0.143,
+              0.989
+            ],
+            [
+              0,
+              0,
+              -0.095,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.047,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 32,
+          "frameLerp": false
+        },
+        "bird_small_back_00009.png.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.03
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 31,
+          "frameLerp": false
+        },
+        "bird_small_front_00009.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0.028,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.057,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.085,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.113,
+              0.993
+            ],
+            [
+              0,
+              0,
+              0.142,
+              0.989
+            ],
+            [
+              0,
+              0,
+              0.17,
+              0.985
+            ],
+            [
+              0,
+              0,
+              0.198,
+              0.98
+            ],
+            [
+              0,
+              0,
+              0.226,
+              0.974
+            ],
+            [
+              0,
+              0,
+              0.254,
+              0.967
+            ],
+            [
+              0,
+              0,
+              0.281,
+              0.959
+            ],
+            [
+              0,
+              0,
+              0.309,
+              0.951
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "bird_small_front_00009.png.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.03
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 20,
+          "frameLerp": false
+        },
+        "bird_small_front_[00000-00011].png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.25,
+              0.968
+            ],
+            [
+              0,
+              0,
+              -0.238,
+              0.971
+            ],
+            [
+              0,
+              0,
+              -0.226,
+              0.973
+            ],
+            [
+              0,
+              0,
+              -0.215,
+              0.976
+            ],
+            [
+              0,
+              0,
+              -0.203,
+              0.979
+            ],
+            [
+              0,
+              0,
+              -0.191,
+              0.981
+            ],
+            [
+              0,
+              0,
+              -0.179,
+              0.983
+            ],
+            [
+              0,
+              0,
+              -0.167,
+              0.985
+            ],
+            [
+              0,
+              0,
+              -0.156,
+              0.987
+            ],
+            [
+              0,
+              0,
+              -0.144,
+              0.989
+            ],
+            [
+              0,
+              0,
+              -0.132,
+              0.991
+            ],
+            [
+              0,
+              0,
+              -0.12,
+              0.992
+            ],
+            [
+              0,
+              0,
+              -0.108,
+              0.994
+            ],
+            [
+              0,
+              0,
+              -0.096,
+              0.995
+            ],
+            [
+              0,
+              0,
+              -0.084,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.072,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.06,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.048,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.036,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "bird_small_front_[00000-00011].png.alpha": {
+          "values": [
+            1,
+            0.03
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "bird.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 143
+        },
+        "bird_small_back_[00000-00011].png.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "len": 144,
+          "cutf": 42
+        },
+        "bird_small_back_[00000-00011].png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 51
+        },
+        "bird_small_back_00009.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 31
+        },
+        "bird_small_front_00009.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 20
+        },
+        "bird_small_front_[00000-00011].png.curFrame": {
+          "duration": 6,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            11,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "len": 144,
+          "cutf": 0
+        },
+        "bird_small_front_[00000-00011].png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 20
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "bird",
+        "bird_small_back_[00000-00011].png",
+        "bird_small_back_00009.png",
+        "bird_small_front_00009.png",
+        "bird_small_front_[00000-00011].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

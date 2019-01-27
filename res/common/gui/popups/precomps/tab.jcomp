@@ -1,0 +1,133 @@
+{
+  "name": "tab",
+  "children": [
+    {
+      "name": "upperbanner.png",
+      "translation": [
+        318,
+        55,
+        0
+      ],
+      "anchor": [
+        318,
+        55,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            636,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        318.86,
+        51.085,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        -0.079,
+        -5.488,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.25,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Get compensation",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            0.870590031147,
+            0.54510003328323
+          ],
+          "bounds": [
+            -88.5638952553272,
+            -11.6639995574951,
+            177,
+            11.3333301544189
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "upperbanner.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "title",
+        "upperbanner.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "compensation_window.aep",
+  "version": 1
+}

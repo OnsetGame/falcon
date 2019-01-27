@@ -1,0 +1,131 @@
+{
+  "name": "store_card_special_middle_label",
+  "children": [
+    {
+      "name": "bg_colors_shadow",
+      "translation": [
+        119,
+        38.5,
+        0
+      ],
+      "scale": [
+        1.02,
+        1.02,
+        1
+      ],
+      "anchor": [
+        118.5,
+        38,
+        0
+      ],
+      "alpha": 0.25,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/fivedot_placeholder",
+          "size": [
+            237,
+            76
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_colors",
+      "translation": [
+        119,
+        38,
+        0
+      ],
+      "anchor": [
+        118.5,
+        38,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/fivedot_placeholder",
+          "size": [
+            237,
+            76
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        118.472,
+        35.248,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "HELLOWEEN\nPack",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "bg_outline",
+      "scale": [
+        0.831,
+        0.006,
+        1
+      ],
+      "components": [
+        {
+          "color": [
+            0.49019598960876,
+            0.49019598960876,
+            0.49019598960876
+          ],
+          "size": [
+            287,
+            700
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_chips_bucks_dev5.aep",
+  "export_time": "11 June 2018 17:28",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

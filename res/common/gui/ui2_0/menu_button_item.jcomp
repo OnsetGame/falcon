@@ -1,0 +1,432 @@
+{
+  "name": "menu_button_item",
+  "children": [
+    {
+      "name": "menu_button_item_button",
+      "translation": [
+        282,
+        76.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        76.5,
+        76.5,
+        0
+      ],
+      "compositionRef": "menu_button_item_button",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_name",
+      "translation": [
+        199.493,
+        87.283,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Settings",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haRight",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "button_name.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.192,
+              0.192,
+              1
+            ],
+            [
+              0.604,
+              0.604,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              1.097,
+              1.097,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "menu_button_item_button.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.192,
+              0.192,
+              1
+            ],
+            [
+              0.604,
+              0.604,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              1.097,
+              1.097,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "menu_button_item_button.0.inWhite": {
+          "values": [
+            1,
+            0.97593495728092,
+            0.92454665990377,
+            0.87700245529623,
+            0.86659547654033,
+            0.93137254901992,
+            0.9961496214991,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "menu_button_item_button.0.outBlack": {
+          "values": [
+            0,
+            0.00687572649117,
+            0.02155809717035,
+            0.03514215562965,
+            0.03811557813133,
+            0.01960784313717,
+            0.00110010814311,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "button_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "menu_button_item_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.20833333333333
+        },
+        "press": {
+          "start": 1,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "button_name",
+        "menu_button_item_button"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_drop_menu_button_dev.aep",
+  "version": 1
+}

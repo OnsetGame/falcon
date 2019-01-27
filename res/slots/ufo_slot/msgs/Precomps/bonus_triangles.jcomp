@@ -1,0 +1,144 @@
+{
+  "name": "horizontal",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "triangle",
+      "translation": [
+        0.0,
+        -257.0899963378906,
+        0.0
+      ],
+      "scale": [
+        3.0,
+        2.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 0.2000000029802322,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 2.0,
+          "isLooped": false,
+          "isPlayed": true,
+          "birthRate": 100.0,
+          "lifetime": 2.0,
+          "startVelocity": 100.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 100.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            -180.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startScale": [
+            30.0,
+            30.0,
+            0.0
+          ],
+          "dstScale": [
+            30.0,
+            30.0,
+            0.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 0.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            800.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "../Sources/poly_triangle.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            48.0,
+            52.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "",
+          "genShapeNode": "triangle",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "dimension": [
+            700.0,
+            150.0,
+            0.0
+          ],
+          "is2D": true,
+          "_c": "BoxPSGenShape"
+        }
+      ]
+    }
+  ]
+}

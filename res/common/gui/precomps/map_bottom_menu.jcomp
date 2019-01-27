@@ -1,0 +1,247 @@
+{
+  "name": "map_bottom_menu",
+  "children": [
+    {
+      "name": "button_0",
+      "translation": [
+        98.5,
+        98.5,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "compositionRef": "Button_map.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            39,
+            30,
+            167,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_1",
+      "translation": [
+        266.5,
+        98.5,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "compositionRef": "Button_map.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            39,
+            30,
+            167,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_2",
+      "translation": [
+        434.75,
+        98.5,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "compositionRef": "Button_map.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            39,
+            30,
+            167,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_3",
+      "translation": [
+        602.5,
+        98.5,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "compositionRef": "Button_map.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            39,
+            30,
+            167,
+            165
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_4",
+      "translation": [
+        770.5,
+        98.5,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "compositionRef": "Button_map.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            39,
+            30,
+            167,
+            165
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "button_4.enabled": {
+          "duration": 2.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 68,
+          "cutf": 59
+        },
+        "button_3.enabled": {
+          "duration": 2.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 68,
+          "cutf": 59
+        },
+        "button_2.enabled": {
+          "duration": 2.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 68,
+          "cutf": 59
+        },
+        "button_1.enabled": {
+          "duration": 2.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 68,
+          "cutf": 59
+        },
+        "button_0.enabled": {
+          "duration": 2.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 68,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.25
+        }
+      },
+      "layers": [
+        "button_4",
+        "button_3",
+        "button_2",
+        "button_1",
+        "button_0"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

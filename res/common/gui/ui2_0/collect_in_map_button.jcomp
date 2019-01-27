@@ -1,0 +1,747 @@
+{
+  "name": "collect_in_map_button",
+  "children": [
+    {
+      "name": "collect_in_slot_control",
+      "translation": [
+        100,
+        100.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "collect_in_slot_button_shadow",
+          "translation": [
+            0.25,
+            3,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                180,
+                180
+              ],
+              "shapeType": 1,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                0.6
+              ],
+              "strokeWidth": 0,
+              "color": [
+                0,
+                0,
+                0,
+                0.4
+              ]
+            }
+          ]
+        },
+        {
+          "name": "collect_in_slot_button_shape",
+          "alpha": 0,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "VectorShape",
+              "size": [
+                160,
+                160
+              ],
+              "shapeType": 1,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                0.6
+              ],
+              "strokeWidth": 8,
+              "color": [
+                0.10196078568697,
+                0.10196078568697,
+                0.10196078568697,
+                0.8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gui_collect_button.png",
+          "translation": [
+            -2,
+            12.5,
+            0
+          ],
+          "anchor": [
+            97,
+            94,
+            0
+          ],
+          "children": [
+            {
+              "name": "alert_comp",
+              "translation": [
+                170.75,
+                34,
+                0
+              ],
+              "anchor": [
+                52,
+                52,
+                0
+              ],
+              "compositionRef": "alert_comp",
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            },
+            {
+              "name": "lock_comp",
+              "translation": [
+                171,
+                33,
+                0
+              ],
+              "anchor": [
+                52,
+                52,
+                0
+              ],
+              "compositionRef": "lock_comp",
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/gui_collect_button.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "downsign_icon.png",
+          "translation": [
+            0,
+            5.5,
+            0
+          ],
+          "anchor": [
+            24,
+            15.5,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/downsign_icon.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "translation": [
+            -0.176,
+            83.713,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Bonus",
+              "font": "Exo2-Black",
+              "fontSize": 40,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "collect_in_slot_control.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.87,
+              0.87,
+              1
+            ],
+            [
+              0.859,
+              0.859,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "title.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.766,
+              0.766,
+              1
+            ],
+            [
+              0.333,
+              0.333,
+              1
+            ],
+            [
+              0.1,
+              0.1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "title.alpha": {
+          "values": [
+            1,
+            0.782,
+            0.359,
+            0
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "downsign_icon.png.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "downsign_icon.png.0.inWhite": {
+          "values": [
+            1,
+            0.91151564074412,
+            0.78216167559844,
+            0.79214235080239,
+            0.89906943420299,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "gui_collect_button.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.872,
+              0.872,
+              1
+            ],
+            [
+              0.637,
+              0.637,
+              1
+            ],
+            [
+              0.51,
+              0.51,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "gui_collect_button.png.alpha": {
+          "values": [
+            1,
+            0.895,
+            0.647,
+            0.352,
+            0.104,
+            0
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "gui_collect_button.png.0.inWhite": {
+          "values": [
+            1,
+            0.91151564074412,
+            0.78216167559844,
+            0.79214235080239,
+            0.89906943420299,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "collect_in_slot_button_shape.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "collect_in_slot_button_shape.0.inWhite": {
+          "values": [
+            1,
+            0.91151564074412,
+            0.78216167559844,
+            0.79214235080239,
+            0.89906943420299,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "collect_in_slot_button_shadow.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "lock_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "alert_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "downsign_icon.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "gui_collect_button.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "collect_in_slot_button_shape.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "collect_in_slot_button_shadow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "collect_in_slot_control.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "push": {
+          "start": 0,
+          "duration": 0.25
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "lock_comp",
+        "alert_comp",
+        "title",
+        "downsign_icon.png",
+        "gui_collect_button.png",
+        "collect_in_slot_button_shape",
+        "collect_in_slot_button_shadow",
+        "collect_in_slot_control"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_lower_part_minimize.aep",
+  "export_time": "8 August 2018 16:53",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

@@ -1,0 +1,1445 @@
+{
+  "name": "info_slot",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        202,
+        581.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.017,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "slot_window.png",
+          "translation": [
+            -1.249,
+            -0.374,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            199,
+            509.125,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/playWindow",
+              "size": [
+                398,
+                517
+              ]
+            }
+          ]
+        },
+        {
+          "name": "button_controller",
+          "translation": [
+            0.5,
+            -82.599,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            60,
+            60,
+            0
+          ],
+          "children": [
+            {
+              "name": "button_orange_play_popup",
+              "translation": [
+                58.5,
+                60.099,
+                0
+              ],
+              "anchor": [
+                150,
+                42,
+                0
+              ],
+              "compositionRef": "button_orange_play_popup",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.125,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 1.125,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    84
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button_building",
+              "translation": [
+                57.531,
+                59.099,
+                0
+              ],
+              "anchor": [
+                151,
+                42,
+                0
+              ],
+              "compositionRef": "../../../common/gui/precomps/Buttons/orange_button_07",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    84
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button_unlock",
+              "translation": [
+                57.499,
+                60.099,
+                0
+              ],
+              "anchor": [
+                174,
+                42,
+                0
+              ],
+              "compositionRef": "../../../common/gui/precomps/Buttons/red_button_05",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    84
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "button_collect",
+              "translation": [
+                57.542,
+                60.13,
+                0
+              ],
+              "scale": [
+                0.995,
+                0.995,
+                1
+              ],
+              "anchor": [
+                151,
+                42,
+                0
+              ],
+              "compositionRef": "../../../common/gui/precomps/Buttons/green_button_07",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 2,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    84
+                  ]
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "slot_description",
+          "translation": [
+            -0.891,
+            -227.28,
+            0
+          ],
+          "scale": [
+            3,
+            2.999,
+            1
+          ],
+          "anchor": [
+            56.036,
+            26.073,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Slot with classic spin mechanics and Wild symbol. ",
+              "font": "Exo2-Black",
+              "fontSize": 8,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                0,
+                null,
+                112.000007629395,
+                null
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "slot_name",
+          "translation": [
+            -0.12,
+            -346.97,
+            0
+          ],
+          "scale": [
+            3,
+            2.999,
+            1
+          ],
+          "anchor": [
+            56.293,
+            5.843,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Windy Day",
+              "font": "Exo2-Black",
+              "fontSize": 13.3333301544189,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "bounds": [
+                0,
+                null,
+                112.000007629395,
+                null
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "slot_icon_placeholder",
+          "translation": [
+            -3,
+            -480.5,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            123,
+            100,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.166,
+              "scale": 1,
+              "startTime": 0.333,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "slot_logos_icons",
+              "iconName": "ufoSlot"
+            },
+            {
+              "color": [
+                0.34901961684227,
+                0.34901961684227,
+                0.34901961684227
+              ],
+              "size": [
+                246,
+                200
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "income_holder",
+          "translation": [
+            -1.5,
+            -285,
+            0
+          ],
+          "children": [
+            {
+              "name": "slot_income",
+              "translation": [
+                2.494,
+                89.419,
+                0
+              ],
+              "scale": [
+                3,
+                2.999,
+                1
+              ],
+              "anchor": [
+                56.293,
+                5.843,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.125,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "INCOME",
+                  "font": "Exo2-Black",
+                  "fontSize": 8,
+                  "color": [
+                    1,
+                    0.87451004981995,
+                    0.56470000743866
+                  ],
+                  "bounds": [
+                    0,
+                    null,
+                    112.000007629395,
+                    null
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            },
+            {
+              "name": "slot_income_value",
+              "translation": [
+                -82.791,
+                132.937,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.125,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "500,000",
+                  "font": "Exo2-Black",
+                  "fontSize": 40,
+                  "color": [
+                    1,
+                    0.87451004981995,
+                    0.56470000743866
+                  ],
+                  "justification": "haLeft",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            },
+            {
+              "name": "bucks_placeholder",
+              "translation": [
+                -128.5,
+                116.915,
+                0
+              ],
+              "scale": [
+                0.19,
+                0.19,
+                1
+              ],
+              "anchor": [
+                166,
+                136.5,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "IconComponent",
+                  "iconComposition": "currency_bucks",
+                  "iconName": "bucks",
+                  "prefix": "common/lib/icons/precomps"
+                },
+                {
+                  "color": [
+                    0.51734000444412,
+                    0.51734000444412,
+                    0.51734000444412
+                  ],
+                  "size": [
+                    332,
+                    273
+                  ],
+                  "_c": "Solid"
+                }
+              ]
+            },
+            {
+              "name": "chips_placeholder",
+              "translation": [
+                -128.5,
+                116.915,
+                0
+              ],
+              "scale": [
+                0.15,
+                0.15,
+                1
+              ],
+              "anchor": [
+                166,
+                175.5,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 2,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "IconComponent",
+                  "iconComposition": "currency_chips",
+                  "iconName": "chips",
+                  "prefix": "common/lib/icons/precomps"
+                },
+                {
+                  "color": [
+                    0.51734000444412,
+                    0.51734000444412,
+                    0.51734000444412
+                  ],
+                  "size": [
+                    332,
+                    351
+                  ],
+                  "_c": "Solid"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.125,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.107,
+              0.107,
+              1
+            ],
+            [
+              0.465,
+              0.465,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.192,
+              1.192,
+              1
+            ],
+            [
+              1.17,
+              1.17,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.094,
+              1.094,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.005,
+              1.005,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.014,
+              1.014,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.093,
+              1.093,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.159,
+              1.159,
+              1
+            ],
+            [
+              0.805,
+              0.805,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.109,
+              0.109,
+              1
+            ],
+            [
+              0.01,
+              0.01,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "parent.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.017,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.02,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.014,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "slot_icon_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.061,
+              0.061,
+              1
+            ],
+            [
+              0.264,
+              0.264,
+              1
+            ],
+            [
+              0.614,
+              0.614,
+              1
+            ],
+            [
+              0.986,
+              0.986,
+              1
+            ],
+            [
+              1.184,
+              1.184,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              1.181,
+              1.181,
+              1
+            ],
+            [
+              1.154,
+              1.154,
+              1
+            ],
+            [
+              1.119,
+              1.119,
+              1
+            ],
+            [
+              1.079,
+              1.079,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.087,
+              1.087,
+              1
+            ],
+            [
+              1.122,
+              1.122,
+              1
+            ],
+            [
+              1.146,
+              1.146,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              0.939,
+              0.939,
+              1
+            ],
+            [
+              0.669,
+              0.669,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "button_controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.067,
+              0.067,
+              1
+            ],
+            [
+              0.292,
+              0.292,
+              1
+            ],
+            [
+              0.666,
+              0.666,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.133,
+              1.133,
+              1
+            ],
+            [
+              1.127,
+              1.127,
+              1
+            ],
+            [
+              1.115,
+              1.115,
+              1
+            ],
+            [
+              1.096,
+              1.096,
+              1
+            ],
+            [
+              1.073,
+              1.073,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              1.007,
+              1.007,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.087,
+              1.087,
+              1
+            ],
+            [
+              1.122,
+              1.122,
+              1
+            ],
+            [
+              1.146,
+              1.146,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              0.939,
+              0.939,
+              1
+            ],
+            [
+              0.669,
+              0.669,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "chips_placeholder.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "bucks_placeholder.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_income_value.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_income.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "income_holder.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_icon_placeholder.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_name.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_description.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_collect.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_unlock.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_building.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_orange_play_popup.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_controller.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "slot_window.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "parent.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "hide": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.125
+        }
+      },
+      "layers": [
+        "chips_placeholder",
+        "bucks_placeholder",
+        "slot_income_value",
+        "slot_income",
+        "income_holder",
+        "slot_icon_placeholder",
+        "slot_name",
+        "slot_description",
+        "button_collect",
+        "button_unlock",
+        "button_building",
+        "button_orange_play_popup",
+        "button_controller",
+        "slot_window.png",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_infoslot.aep",
+  "version": 1
+}

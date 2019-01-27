@@ -1,0 +1,252 @@
+{
+  "name": "blue_button_rate",
+  "children": [
+    {
+      "name": "blue_button_on.png",
+      "translation": [
+        137.5,
+        42,
+        0
+      ],
+      "anchor": [
+        137.5,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blueButtonWhiteStrokeOn",
+          "size": [
+            275,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blue_button_off.png",
+      "translation": [
+        137.5,
+        42,
+        0
+      ],
+      "anchor": [
+        137.5,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blueButtonWhiteStrokeOff",
+          "size": [
+            275,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "facebook_rate_game",
+      "translation": [
+        137.5,
+        49.024,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "RATE GAME",
+          "font": "Exo2-Black",
+          "fontSize": 30,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "facebook_rate_game.translation": {
+          "values": [
+            [
+              137.5,
+              49.024,
+              0
+            ],
+            [
+              137.5,
+              49.325,
+              0
+            ],
+            [
+              137.5,
+              49.924,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              50.524,
+              0
+            ],
+            [
+              137.5,
+              49.923,
+              0
+            ],
+            [
+              137.499,
+              49.325,
+              0
+            ],
+            [
+              137.5,
+              49.024,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "blue_button_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "facebook_rate_game.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "blue_button_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "blue_button_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "facebook_rate_game",
+        "blue_button_off.png",
+        "blue_button_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

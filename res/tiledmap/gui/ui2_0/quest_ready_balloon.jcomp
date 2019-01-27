@@ -1,0 +1,650 @@
+{
+  "name": "quest_ready_balloon",
+  "children": [
+    {
+      "name": "controller",
+      "translation": [
+        0,
+        168.062,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.043,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "circle_component_shadow.png",
+          "translation": [
+            91.425,
+            -1.012,
+            0
+          ],
+          "scale": [
+            2.2,
+            0.3,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.4,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "map_back_cloud_01.png",
+          "translation": [
+            79.8,
+            -67.262,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.7,
+            1
+          ],
+          "anchor": [
+            114,
+            96,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/side_cloud_holder",
+              "size": [
+                228,
+                192
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shape Layer 1",
+          "translation": [
+            92.5,
+            -67.562,
+            0
+          ],
+          "scale": [
+            0.585,
+            0.585,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "shape": 0,
+              "startColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "endColor": [
+                0.87450987100601,
+                0.86274516582489,
+                0.95686280727386,
+                1
+              ],
+              "startPoint": [
+                -9.50000000000003,
+                86.5
+              ],
+              "endPoint": [
+                -9.50000000000003,
+                -105.5
+              ],
+              "localCoords": true,
+              "_c": "GradientFill"
+            },
+            {
+              "_c": "VectorShape",
+              "shapeType": 0,
+              "size": [
+                211,
+                211
+              ],
+              "radius": 35,
+              "strokeColor": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "strokeWidth": 0,
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "character_icons",
+          "translation": [
+            96,
+            -72.062,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            96,
+            96,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "compositionRef": "character_icons",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.311,
+              0.311,
+              1
+            ],
+            [
+              0.888,
+              0.888,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.182,
+              1.182,
+              1
+            ],
+            [
+              1.139,
+              1.139,
+              1
+            ],
+            [
+              1.086,
+              1.086,
+              1
+            ],
+            [
+              1.036,
+              1.036,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.007,
+              1.007,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.023,
+              1.023,
+              1
+            ],
+            [
+              1.075,
+              1.075,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              0.851,
+              0.851,
+              1
+            ],
+            [
+              0.298,
+              0.298,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "controller.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.034,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.015,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.005,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "character_icons.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "Shape Layer 1.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "map_back_cloud_01.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.83333333333333
+        },
+        "hide": {
+          "start": 1.66666666666667,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "character_icons",
+        "Shape Layer 1",
+        "map_back_cloud_01.png",
+        "circle_component_shadow.png",
+        "controller"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "narrative_popups_small.aep",
+  "export_time": "17 August 2018 16:07",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

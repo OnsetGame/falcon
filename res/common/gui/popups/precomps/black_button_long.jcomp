@@ -1,0 +1,239 @@
+{
+  "name": "black_button_long",
+  "children": [
+    {
+      "name": "black_button_long_on.png",
+      "translation": [
+        222,
+        42,
+        0
+      ],
+      "anchor": [
+        222,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blackButtonOn",
+          "size": [
+            444,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "black_button_long_off.png",
+      "translation": [
+        222,
+        42,
+        0
+      ],
+      "anchor": [
+        222,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blackButtonOff",
+          "size": [
+            444,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TR_BACK_TO_TOURNAMENTS",
+      "translation": [
+        221,
+        51,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Back to Tournaments",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "TR_BACK_TO_TOURNAMENTS.translation": {
+          "values": [
+            [
+              221,
+              51,
+              0
+            ],
+            [
+              221,
+              51.999,
+              0
+            ],
+            [
+              220.999,
+              52.998,
+              0
+            ],
+            [
+              221,
+              53.5,
+              0
+            ],
+            [
+              221,
+              53.5,
+              0
+            ],
+            [
+              221,
+              53.5,
+              0
+            ],
+            [
+              221,
+              53.5,
+              0
+            ],
+            [
+              221,
+              53.5,
+              0
+            ],
+            [
+              220.999,
+              52.998,
+              0
+            ],
+            [
+              221,
+              51.999,
+              0
+            ],
+            [
+              221,
+              51,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 45
+        },
+        "black_button_long_off.png.alpha": {
+          "values": [
+            1,
+            0.6,
+            0.2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.2,
+            0.6,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 45
+        },
+        "TR_BACK_TO_TOURNAMENTS.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "black_button_long_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "black_button_long_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "TR_BACK_TO_TOURNAMENTS",
+        "black_button_long_off.png",
+        "black_button_long_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

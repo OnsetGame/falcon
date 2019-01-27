@@ -1,0 +1,263 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "SmokeOut",
+  "components": [
+    {
+      "played": true,
+      "distance": 40.0,
+      "amplitude": 5.0,
+      "frequency": 0.4,
+      "isMove": false,
+      "speed": 9.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "flares_smoke_out",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randScaleTo": 0.0,
+          "scaleSeq": [],
+          "lifetime": 1.0,
+          "isPlayed": true,
+          "randScaleFrom": 0.0,
+          "modifierNode": "",
+          "isBlendAdd": true,
+          "duration": 0.1,
+          "randVelocityFrom": 0.0,
+          "startScale": [
+            6.0,
+            6.0,
+            6.0
+          ],
+          "genShapeNode": "flares_smoke_out",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startVelocity": 60.0,
+          "isTextureAnimated": true,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 200.0,
+          "texture": "explosion_sheet.png",
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              1.5
+            ],
+            [
+              0.5,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 200.0,
+          "colorMode": 1,
+          "isLooped": false,
+          "texSize": [
+            38.0,
+            40.0
+          ],
+          "framesCount": 8,
+          "randVelocityTo": 0.0,
+          "scaleMode": 0,
+          "animColumns": 2,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 4.0,
+          "isRandDir": false,
+          "isRandPos": false,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "bigsmoketest",
+      "components": [
+        {
+          "dstScale": [
+            16.0,
+            16.0,
+            16.0
+          ],
+          "randScaleTo": 20.0,
+          "scaleSeq": [],
+          "lifetime": 1.0,
+          "isPlayed": true,
+          "randScaleFrom": 0.0,
+          "modifierNode": "",
+          "isBlendAdd": false,
+          "duration": 0.1,
+          "randVelocityFrom": 0.0,
+          "startScale": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "genShapeNode": "bigsmoketest",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startVelocity": 60.0,
+          "isTextureAnimated": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "birthRate": 200.0,
+          "texture": "pyrosmoke_00.png",
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              2.0
+            ],
+            [
+              0.5,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 200.0,
+          "colorMode": 1,
+          "isLooped": false,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 0.0,
+          "scaleMode": 0,
+          "animColumns": 5,
+          "fps": 30.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 4.0,
+          "isRandDir": false,
+          "isRandPos": false,
+          "_c": "SpherePSGenShape"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layer": 0,
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "version": 1
+}

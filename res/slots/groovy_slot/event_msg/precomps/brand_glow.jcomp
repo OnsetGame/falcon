@@ -1,0 +1,116 @@
+{
+  "name": "brand_glow",
+  "children": [
+    {
+      "name": "part_blur_bg$2",
+      "translation": [
+        972,
+        588,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "part_blur_bg",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "part_blur_bg",
+      "translation": [
+        948,
+        588,
+        0
+      ],
+      "scale": [
+        -1.1,
+        1.1,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "compositionRef": "part_blur_bg",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "part_blur_bg.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 72,
+          "cutf": 71
+        },
+        "part_blur_bg$2.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 72,
+          "cutf": 71
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3
+        }
+      },
+      "layers": [
+        "part_blur_bg",
+        "part_blur_bg$2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev_branding.aep",
+  "export_time": "16 May 2018 15:34",
+  "rod_export_v": "Tue May 1 12:26:57 2018 +0300\n",
+  "version": 1
+}

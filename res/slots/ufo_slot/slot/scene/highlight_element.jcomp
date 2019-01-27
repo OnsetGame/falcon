@@ -1,0 +1,136 @@
+{
+  "name": "highlight_element",
+  "children": [
+    {
+      "name": "highlight_[00000-00023].png",
+      "translation": [
+        255,
+        256,
+        0
+      ],
+      "scale": [
+        2.4,
+        2.4,
+        1
+      ],
+      "anchor": [
+        75,
+        75,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/effects/highlight/highlight_00000.png",
+            "resources/effects/highlight/highlight_00001.png",
+            "resources/effects/highlight/highlight_00002.png",
+            "resources/effects/highlight/highlight_00003.png",
+            "resources/effects/highlight/highlight_00004.png",
+            "resources/effects/highlight/highlight_00005.png",
+            "resources/effects/highlight/highlight_00006.png",
+            "resources/effects/highlight/highlight_00007.png",
+            "resources/effects/highlight/highlight_00008.png",
+            "resources/effects/highlight/highlight_00009.png",
+            "resources/effects/highlight/highlight_00010.png",
+            "resources/effects/highlight/highlight_00011.png",
+            "resources/effects/highlight/highlight_00012.png",
+            "resources/effects/highlight/highlight_00013.png",
+            "resources/effects/highlight/highlight_00014.png",
+            "resources/effects/highlight/highlight_00015.png",
+            "resources/effects/highlight/highlight_00016.png",
+            "resources/effects/highlight/highlight_00017.png",
+            "resources/effects/highlight/highlight_00018.png",
+            "resources/effects/highlight/highlight_00019.png",
+            "resources/effects/highlight/highlight_00020.png",
+            "resources/effects/highlight/highlight_00021.png",
+            "resources/effects/highlight/highlight_00022.png",
+            "resources/effects/highlight/highlight_00023.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "highlight_[00000-00023].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            0,
+            23
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "highlight_[00000-00023].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "start": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "highlight_[00000-00023].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

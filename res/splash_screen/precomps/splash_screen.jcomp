@@ -1,0 +1,56 @@
+{
+  "name": "splash_screen",
+  "children": [
+    {
+      "name": "bg",
+      "translation": [
+        965,
+        545,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        271,
+        271,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_light_logo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "translation": [
+        961,
+        541,
+        0
+      ],
+      "anchor": [
+        223,
+        103,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_logo_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "LoadingLogo%20(converted).aep",
+  "version": 1
+}

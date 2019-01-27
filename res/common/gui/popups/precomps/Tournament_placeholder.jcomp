@@ -1,0 +1,922 @@
+{
+  "name": "Tournament_placeholder",
+  "children": [
+    {
+      "name": "animation_parent",
+      "translation": [
+        700,
+        159,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "windows",
+          "translation": [
+            36,
+            -3,
+            0
+          ],
+          "anchor": [
+            655,
+            151,
+            0
+          ],
+          "compositionRef": "windows.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "ltp_light_in_menu.png",
+          "translation": [
+            -403,
+            -4,
+            0
+          ],
+          "anchor": [
+            211,
+            151,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_light_in_menu.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_menu.png",
+          "translation": [
+            -21,
+            -26,
+            0
+          ],
+          "anchor": [
+            345,
+            9,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_line_menu.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "time",
+          "translation": [
+            166.5,
+            42.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "23h 12m",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tr_time_ended",
+          "translation": [
+            166.5,
+            42.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "ENDED",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                0.60000002384186,
+                0.44705998897552,
+                0.29020002484322
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "players",
+          "translation": [
+            -73,
+            42.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "1248",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bet",
+          "translation": [
+            -312.5,
+            91,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "10000",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "prizepool",
+          "translation": [
+            -313,
+            42.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "150000",
+              "font": "Exo2-Black",
+              "fontSize": 40,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ltp_time.png",
+          "translation": [
+            127,
+            32,
+            0
+          ],
+          "anchor": [
+            25,
+            31,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_time.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "1_chips_icon.png",
+          "translation": [
+            -352,
+            32,
+            0
+          ],
+          "anchor": [
+            28,
+            28,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Layers/1_chips_icon.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "1_bucks_icon.png",
+          "translation": [
+            -352,
+            32,
+            0
+          ],
+          "anchor": [
+            28,
+            24,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/small_icon_bucks.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "players_icons",
+          "translation": [
+            -109,
+            34,
+            0
+          ],
+          "anchor": [
+            29,
+            33,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Layers/ltp_layer_1220_copy.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Score.png",
+          "translation": [
+            125.5,
+            34,
+            0
+          ],
+          "anchor": [
+            25.5,
+            27,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/panels/Score.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "tr_bet_title",
+          "translation": [
+            -373.5,
+            91,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "BET",
+              "font": "Exo2-Regular",
+              "fontSize": 24,
+              "color": [
+                0.54902005195618,
+                0.40784001350403,
+                0.26274999976158
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "time_label",
+          "translation": [
+            216.5,
+            -29,
+            0
+          ],
+          "anchor": [
+            108.5,
+            24,
+            0
+          ],
+          "compositionRef": "Black_placeholder.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "players_label",
+          "translation": [
+            -24.5,
+            -29,
+            0
+          ],
+          "anchor": [
+            108.5,
+            24,
+            0
+          ],
+          "compositionRef": "Black_placeholder.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "chips_label",
+          "translation": [
+            -264.5,
+            -29,
+            0
+          ],
+          "anchor": [
+            108.5,
+            24,
+            0
+          ],
+          "compositionRef": "Black_placeholder.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "small_progress_bar",
+          "anchor": [
+            700,
+            159,
+            0
+          ],
+          "compositionRef": "small_progress_bar.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "title_tournament",
+          "translation": [
+            -374,
+            -76.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "Asian Spades Cup",
+              "font": "Exo2-Black",
+              "fontSize": 56,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ellipse_turnament.png",
+          "translation": [
+            -541,
+            -3,
+            0
+          ],
+          "anchor": [
+            117,
+            116.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../assets/ellipse_turnament.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "card_tournament",
+          "translation": [
+            -544,
+            -5.5,
+            0
+          ],
+          "anchor": [
+            90,
+            101,
+            0
+          ],
+          "compositionRef": "card_tournament.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "Friends",
+          "anchor": [
+            700,
+            159,
+            0
+          ],
+          "compositionRef": "Freinds.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "reward_tournament",
+          "anchor": [
+            700,
+            159,
+            0
+          ],
+          "compositionRef": "reward_tournament.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "Yellow_middle_button_tournaments",
+          "translation": [
+            492,
+            69,
+            0
+          ],
+          "anchor": [
+            155,
+            49,
+            0
+          ],
+          "compositionRef": "Yellow_middle_button_tournaments.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "Button_blue",
+          "translation": [
+            493,
+            34,
+            0
+          ],
+          "anchor": [
+            155,
+            49,
+            0
+          ],
+          "compositionRef": "Button_blue.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "grey_button",
+          "translation": [
+            492,
+            33,
+            0
+          ],
+          "anchor": [
+            150,
+            48,
+            0
+          ],
+          "alpha": 0.5,
+          "compositionRef": "grey_button.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "orange_button_bicolor",
+          "translation": [
+            492,
+            33,
+            0
+          ],
+          "anchor": [
+            150,
+            48,
+            0
+          ],
+          "compositionRef": "orange_button_bicolor.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "grey_button_bicolor",
+          "translation": [
+            492,
+            33,
+            0
+          ],
+          "anchor": [
+            150,
+            48,
+            0
+          ],
+          "compositionRef": "grey_button_bicolor.json",
+          "affectsChildren": false
+        },
+        {
+          "name": "TR_JOIN!",
+          "translation": [
+            492.5,
+            -29.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "JOIN!",
+              "font": "Exo2-Black",
+              "fontSize": 64,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TR_COMING_SOON",
+          "translation": [
+            493,
+            -69.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "COMING\nSOON",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "locked_chips_title",
+          "translation": [
+            493,
+            -69,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "Available with 20K chips",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                -116.783790543675,
+                -15.8279991149902,
+                233,
+                75.5
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "score_value",
+          "translation": [
+            493,
+            -38,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "450",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                -116.463945306838,
+                -13.0279998779297,
+                233,
+                73.5
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TR_YOUR_SCORE",
+          "translation": [
+            493,
+            -69,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "YOUR SCORE",
+              "font": "Exo2-Regular",
+              "fontSize": 24,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "bounds": [
+                -116.46797009185,
+                -12.9719738960266,
+                233,
+                73.5
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false
+    }
+  ],
+  "animations": {
+    "appear": {
+      "animation_parent.scale": {
+        "values": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0.08400000000000001,
+            1
+          ],
+          [
+            1,
+            0.214,
+            1
+          ],
+          [
+            1.005,
+            0.266,
+            1
+          ],
+          [
+            1.043,
+            0.447,
+            1
+          ],
+          [
+            1.1,
+            0.72,
+            1
+          ],
+          [
+            1.156,
+            0.992,
+            1
+          ],
+          [
+            1.194,
+            1.173,
+            1
+          ],
+          [
+            1.194,
+            1.194,
+            1
+          ],
+          [
+            1.156,
+            1.156,
+            1
+          ],
+          [
+            1.099,
+            1.099,
+            1
+          ],
+          [
+            1.043,
+            1.043,
+            1
+          ],
+          [
+            1.005,
+            1.005,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "duration": 0.625
+      }
+    }
+  },
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

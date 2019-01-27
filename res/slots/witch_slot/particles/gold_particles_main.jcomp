@@ -1,0 +1,110 @@
+{
+  "name": "scene",
+  "translation": [
+    942.6702270507813,
+    471.074951171875,
+    -150.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 3.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 7.0,
+      "lifetime": 6.0,
+      "startVelocity": 350.0,
+      "randVelocityFrom": 0.0,
+      "randVelocityTo": 50.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        15.0,
+        15.0,
+        15.0
+      ],
+      "dstScale": [
+        300.0,
+        300.0,
+        300.0
+      ],
+      "randScaleFrom": 0.0,
+      "randScaleTo": 2.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [],
+      "texture": "witch_coin_vfx.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        150.0,
+        150.0
+      ],
+      "animColumns": 6,
+      "framesCount": 24,
+      "fps": 24.0,
+      "modifierNode": "",
+      "genShapeNode": "scene",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "angle": 180.0,
+      "radius": 2.0,
+      "is2D": true,
+      "_c": "ConePSGenShape"
+    }
+  ]
+}

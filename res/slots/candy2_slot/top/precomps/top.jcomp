@@ -1,0 +1,5708 @@
+{
+  "name": "top",
+  "children": [
+    {
+      "name": "transition",
+      "translation": [
+        1869.875,
+        490,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus_instruction$28",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../bonus/precomps/bonus_instruction",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "boy",
+      "translation": [
+        -200,
+        0,
+        0
+      ],
+      "compositionRef": "../../boy/precomps/boy",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 25.312,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 25.3125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "boxes_up_parent",
+      "children": [
+        {
+          "name": "boxes_up",
+          "translation": [
+            960,
+            540,
+            0
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "../../bonus/precomps/boxes_up",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 10,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "foreground_boxes",
+      "translation": [
+        2933.5,
+        805.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_foreground_box_4.png",
+          "translation": [
+            -77.75,
+            173.5,
+            0
+          ],
+          "anchor": [
+            765,
+            113,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_foreground_box_4.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_midground_tabl.png",
+      "translation": [
+        772,
+        975.25,
+        0
+      ],
+      "anchor": [
+        269,
+        67,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_midground_tabl.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_midground_tabl_1.png",
+      "translation": [
+        1130.25,
+        981.5,
+        0
+      ],
+      "anchor": [
+        83,
+        49,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_midground_tabl_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_midground_tabl_2.png",
+      "translation": [
+        1276.5,
+        999,
+        0
+      ],
+      "anchor": [
+        69,
+        39,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_midground_tabl_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_midground_tabl_3.png",
+      "translation": [
+        1688,
+        989,
+        0
+      ],
+      "anchor": [
+        113,
+        61,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_midground_tabl_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "foreground",
+      "translation": [
+        2674,
+        854,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_foreground_1",
+          "translation": [
+            -2541,
+            -58,
+            0
+          ],
+          "anchor": [
+            139,
+            293,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_1a.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_foreground_2",
+          "translation": [
+            -1963,
+            204,
+            0
+          ],
+          "anchor": [
+            453,
+            31,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_1b.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_foreground_3",
+          "translation": [
+            -1135,
+            66,
+            0
+          ],
+          "anchor": [
+            389,
+            169,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_1c.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "foreground_2a",
+          "translation": [
+            -303.804,
+            53,
+            0
+          ],
+          "anchor": [
+            457,
+            183,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_2a.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "foreground_2b",
+          "translation": [
+            655.695,
+            187,
+            0
+          ],
+          "anchor": [
+            517,
+            49,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_2b.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_foreground_box_5.png",
+          "translation": [
+            1277,
+            158.5,
+            0
+          ],
+          "anchor": [
+            129,
+            79,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_foreground_box_5.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "foreground_box_2.png",
+          "translation": [
+            1520.75,
+            -28,
+            0
+          ],
+          "anchor": [
+            124.5,
+            254.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 10,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/foreground_box_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "transition_train",
+      "translation": [
+        2674,
+        854,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "foreground_zaplatka",
+      "translation": [
+        2674,
+        854,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "svet",
+      "translation": [
+        940,
+        520,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "airplane_top",
+      "translation": [
+        960,
+        520,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "airplane_top",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "boom_light",
+      "translation": [
+        8,
+        -3,
+        0
+      ],
+      "scale": [
+        4.1,
+        4.1,
+        1
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/boom_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bonus_instruction",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../../bonus/precomps/bonus_instruction",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bonus_instruction.alpha": {
+          "values": [
+            0,
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 181,
+          "frameLerp": false
+        },
+        "svet.translation": {
+          "values": [
+            [
+              940,
+              520,
+              0
+            ],
+            [
+              939.287,
+              520,
+              0
+            ],
+            [
+              937.143,
+              519.999,
+              0
+            ],
+            [
+              933.565,
+              519.999,
+              0
+            ],
+            [
+              928.634,
+              520,
+              0
+            ],
+            [
+              922.375,
+              519.999,
+              0
+            ],
+            [
+              914.813,
+              520,
+              0
+            ],
+            [
+              905.98,
+              520,
+              0
+            ],
+            [
+              895.91,
+              519.999,
+              0
+            ],
+            [
+              884.63,
+              520,
+              0
+            ],
+            [
+              872.175,
+              520,
+              0
+            ],
+            [
+              858.58,
+              519.999,
+              0
+            ],
+            [
+              843.878,
+              520,
+              0
+            ],
+            [
+              828.101,
+              520,
+              0
+            ],
+            [
+              811.279,
+              519.999,
+              0
+            ],
+            [
+              793.437,
+              519.999,
+              0
+            ],
+            [
+              774.613,
+              520,
+              0
+            ],
+            [
+              754.842,
+              520,
+              0
+            ],
+            [
+              734.159,
+              520,
+              0
+            ],
+            [
+              712.593,
+              519.999,
+              0
+            ],
+            [
+              690.169,
+              520,
+              0
+            ],
+            [
+              666.921,
+              520,
+              0
+            ],
+            [
+              642.887,
+              520,
+              0
+            ],
+            [
+              618.1,
+              520,
+              0
+            ],
+            [
+              592.594,
+              520,
+              0
+            ],
+            [
+              566.395,
+              520,
+              0
+            ],
+            [
+              539.531,
+              519.999,
+              0
+            ],
+            [
+              512.038,
+              520,
+              0
+            ],
+            [
+              483.953,
+              520,
+              0
+            ],
+            [
+              455.308,
+              520,
+              0
+            ],
+            [
+              426.133,
+              520,
+              0
+            ],
+            [
+              396.457,
+              520,
+              0
+            ],
+            [
+              366.313,
+              520,
+              0
+            ],
+            [
+              335.736,
+              520,
+              0
+            ],
+            [
+              304.758,
+              520,
+              0
+            ],
+            [
+              273.409,
+              520,
+              0
+            ],
+            [
+              241.72,
+              519.999,
+              0
+            ],
+            [
+              209.727,
+              520,
+              0
+            ],
+            [
+              177.462,
+              520,
+              0
+            ],
+            [
+              144.956,
+              520,
+              0
+            ],
+            [
+              112.239,
+              520,
+              0
+            ],
+            [
+              79.344,
+              519.999,
+              0
+            ],
+            [
+              46.305,
+              519.999,
+              0
+            ],
+            [
+              13.154,
+              520,
+              0
+            ],
+            [
+              -20.074,
+              520,
+              0
+            ],
+            [
+              -53.351,
+              520,
+              0
+            ],
+            [
+              -86.644,
+              520,
+              0
+            ],
+            [
+              -119.922,
+              520,
+              0
+            ],
+            [
+              -153.152,
+              520,
+              0
+            ],
+            [
+              -186.303,
+              520,
+              0
+            ],
+            [
+              -219.342,
+              520,
+              0
+            ],
+            [
+              -252.238,
+              520,
+              0
+            ],
+            [
+              -284.956,
+              520,
+              0
+            ],
+            [
+              -317.463,
+              520,
+              0
+            ],
+            [
+              -349.727,
+              520,
+              0
+            ],
+            [
+              -381.72,
+              520,
+              0
+            ],
+            [
+              -413.408,
+              520,
+              0
+            ],
+            [
+              -444.758,
+              520,
+              0
+            ],
+            [
+              -475.736,
+              520,
+              0
+            ],
+            [
+              -506.312,
+              520,
+              0
+            ],
+            [
+              -536.455,
+              520,
+              0
+            ],
+            [
+              -566.133,
+              520,
+              0
+            ],
+            [
+              -595.312,
+              520,
+              0
+            ],
+            [
+              -623.955,
+              520,
+              0
+            ],
+            [
+              -652.037,
+              520,
+              0
+            ],
+            [
+              -679.526,
+              520,
+              0
+            ],
+            [
+              -706.392,
+              520,
+              0
+            ],
+            [
+              -732.598,
+              520,
+              0
+            ],
+            [
+              -758.107,
+              520,
+              0
+            ],
+            [
+              -782.89,
+              519.999,
+              0
+            ],
+            [
+              -806.921,
+              520,
+              0
+            ],
+            [
+              -830.167,
+              520,
+              0
+            ],
+            [
+              -852.593,
+              520,
+              0
+            ],
+            [
+              -874.162,
+              520,
+              0
+            ],
+            [
+              -894.844,
+              520,
+              0
+            ],
+            [
+              -914.611,
+              520,
+              0
+            ],
+            [
+              -933.434,
+              520,
+              0
+            ],
+            [
+              -951.277,
+              520,
+              0
+            ],
+            [
+              -968.104,
+              520,
+              0
+            ],
+            [
+              -983.882,
+              520,
+              0
+            ],
+            [
+              -998.583,
+              520,
+              0
+            ],
+            [
+              -1012.177,
+              520,
+              0
+            ],
+            [
+              -1024.63,
+              520,
+              0
+            ],
+            [
+              -1035.91,
+              519.999,
+              0
+            ],
+            [
+              -1045.98,
+              520,
+              0
+            ],
+            [
+              -1054.813,
+              520,
+              0
+            ],
+            [
+              -1062.375,
+              520,
+              0
+            ],
+            [
+              -1068.634,
+              520,
+              0
+            ],
+            [
+              -1073.565,
+              520,
+              0
+            ],
+            [
+              -1077.143,
+              520,
+              0
+            ],
+            [
+              -1079.287,
+              520,
+              0
+            ],
+            [
+              -1080,
+              520,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "foreground_zaplatka.translation": {
+          "values": [
+            [
+              2674,
+              854,
+              0
+            ],
+            [
+              2673.153,
+              854,
+              0
+            ],
+            [
+              2670.606,
+              853.999,
+              0
+            ],
+            [
+              2666.354,
+              854,
+              0
+            ],
+            [
+              2660.496,
+              853.999,
+              0
+            ],
+            [
+              2653.059,
+              853.999,
+              0
+            ],
+            [
+              2644.074,
+              853.999,
+              0
+            ],
+            [
+              2633.581,
+              854,
+              0
+            ],
+            [
+              2621.615,
+              853.999,
+              0
+            ],
+            [
+              2608.214,
+              854,
+              0
+            ],
+            [
+              2593.418,
+              854,
+              0
+            ],
+            [
+              2577.267,
+              853.999,
+              0
+            ],
+            [
+              2559.801,
+              854,
+              0
+            ],
+            [
+              2541.055,
+              853.999,
+              0
+            ],
+            [
+              2521.062,
+              853.999,
+              0
+            ],
+            [
+              2499.862,
+              854,
+              0
+            ],
+            [
+              2477.499,
+              853.999,
+              0
+            ],
+            [
+              2454.012,
+              854,
+              0
+            ],
+            [
+              2429.44,
+              854,
+              0
+            ],
+            [
+              2403.814,
+              854,
+              0
+            ],
+            [
+              2377.169,
+              853.999,
+              0
+            ],
+            [
+              2349.55,
+              854,
+              0
+            ],
+            [
+              2320.999,
+              854,
+              0
+            ],
+            [
+              2291.553,
+              853.999,
+              0
+            ],
+            [
+              2261.245,
+              853.999,
+              0
+            ],
+            [
+              2230.109,
+              853.999,
+              0
+            ],
+            [
+              2198.19,
+              854,
+              0
+            ],
+            [
+              2165.529,
+              853.999,
+              0
+            ],
+            [
+              2132.165,
+              853.999,
+              0
+            ],
+            [
+              2098.133,
+              853.999,
+              0
+            ],
+            [
+              2063.465,
+              853.999,
+              0
+            ],
+            [
+              2028.204,
+              854,
+              0
+            ],
+            [
+              1992.39,
+              853.999,
+              0
+            ],
+            [
+              1956.063,
+              854,
+              0
+            ],
+            [
+              1919.257,
+              854,
+              0
+            ],
+            [
+              1882.009,
+              854,
+              0
+            ],
+            [
+              1844.36,
+              854,
+              0
+            ],
+            [
+              1806.35,
+              854,
+              0
+            ],
+            [
+              1768.015,
+              854,
+              0
+            ],
+            [
+              1729.393,
+              854,
+              0
+            ],
+            [
+              1690.52,
+              854,
+              0
+            ],
+            [
+              1651.436,
+              853.999,
+              0
+            ],
+            [
+              1612.181,
+              853.999,
+              0
+            ],
+            [
+              1572.794,
+              854,
+              0
+            ],
+            [
+              1533.313,
+              854,
+              0
+            ],
+            [
+              1493.776,
+              853.999,
+              0
+            ],
+            [
+              1454.22,
+              854,
+              0
+            ],
+            [
+              1414.682,
+              854,
+              0
+            ],
+            [
+              1375.202,
+              854,
+              0
+            ],
+            [
+              1335.815,
+              854,
+              0
+            ],
+            [
+              1296.56,
+              853.999,
+              0
+            ],
+            [
+              1257.477,
+              854,
+              0
+            ],
+            [
+              1218.606,
+              853.999,
+              0
+            ],
+            [
+              1179.985,
+              854,
+              0
+            ],
+            [
+              1141.65,
+              854,
+              0
+            ],
+            [
+              1103.638,
+              854,
+              0
+            ],
+            [
+              1065.989,
+              853.999,
+              0
+            ],
+            [
+              1028.742,
+              854,
+              0
+            ],
+            [
+              991.937,
+              854,
+              0
+            ],
+            [
+              955.607,
+              854,
+              0
+            ],
+            [
+              919.792,
+              854,
+              0
+            ],
+            [
+              884.534,
+              854,
+              0
+            ],
+            [
+              849.871,
+              854,
+              0
+            ],
+            [
+              815.837,
+              854,
+              0
+            ],
+            [
+              782.468,
+              853.999,
+              0
+            ],
+            [
+              749.804,
+              854,
+              0
+            ],
+            [
+              717.886,
+              854,
+              0
+            ],
+            [
+              686.759,
+              854,
+              0
+            ],
+            [
+              656.454,
+              854,
+              0
+            ],
+            [
+              627.005,
+              854,
+              0
+            ],
+            [
+              598.449,
+              854,
+              0
+            ],
+            [
+              570.828,
+              854,
+              0
+            ],
+            [
+              544.186,
+              854,
+              0
+            ],
+            [
+              518.562,
+              854,
+              0
+            ],
+            [
+              493.988,
+              854,
+              0
+            ],
+            [
+              470.499,
+              854,
+              0
+            ],
+            [
+              448.133,
+              854,
+              0
+            ],
+            [
+              426.935,
+              854,
+              0
+            ],
+            [
+              406.948,
+              854,
+              0
+            ],
+            [
+              388.203,
+              853.999,
+              0
+            ],
+            [
+              370.736,
+              853.999,
+              0
+            ],
+            [
+              354.583,
+              854,
+              0
+            ],
+            [
+              339.785,
+              854,
+              0
+            ],
+            [
+              326.384,
+              854,
+              0
+            ],
+            [
+              314.418,
+              854,
+              0
+            ],
+            [
+              303.925,
+              854,
+              0
+            ],
+            [
+              294.94,
+              854,
+              0
+            ],
+            [
+              287.503,
+              854,
+              0
+            ],
+            [
+              281.645,
+              854,
+              0
+            ],
+            [
+              277.393,
+              854,
+              0
+            ],
+            [
+              274.846,
+              854,
+              0
+            ],
+            [
+              274,
+              854,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "transition_train.translation": {
+          "values": [
+            [
+              2674,
+              854,
+              0
+            ],
+            [
+              2673.153,
+              854,
+              0
+            ],
+            [
+              2670.606,
+              853.999,
+              0
+            ],
+            [
+              2666.354,
+              854,
+              0
+            ],
+            [
+              2660.496,
+              853.999,
+              0
+            ],
+            [
+              2653.059,
+              853.999,
+              0
+            ],
+            [
+              2644.074,
+              853.999,
+              0
+            ],
+            [
+              2633.581,
+              854,
+              0
+            ],
+            [
+              2621.615,
+              853.999,
+              0
+            ],
+            [
+              2608.214,
+              854,
+              0
+            ],
+            [
+              2593.418,
+              854,
+              0
+            ],
+            [
+              2577.267,
+              853.999,
+              0
+            ],
+            [
+              2559.801,
+              854,
+              0
+            ],
+            [
+              2541.055,
+              853.999,
+              0
+            ],
+            [
+              2521.062,
+              853.999,
+              0
+            ],
+            [
+              2499.862,
+              854,
+              0
+            ],
+            [
+              2477.499,
+              853.999,
+              0
+            ],
+            [
+              2454.012,
+              854,
+              0
+            ],
+            [
+              2429.44,
+              854,
+              0
+            ],
+            [
+              2403.814,
+              854,
+              0
+            ],
+            [
+              2377.169,
+              853.999,
+              0
+            ],
+            [
+              2349.55,
+              854,
+              0
+            ],
+            [
+              2320.999,
+              854,
+              0
+            ],
+            [
+              2291.553,
+              853.999,
+              0
+            ],
+            [
+              2261.245,
+              853.999,
+              0
+            ],
+            [
+              2230.109,
+              853.999,
+              0
+            ],
+            [
+              2198.19,
+              854,
+              0
+            ],
+            [
+              2165.529,
+              853.999,
+              0
+            ],
+            [
+              2132.165,
+              853.999,
+              0
+            ],
+            [
+              2098.133,
+              853.999,
+              0
+            ],
+            [
+              2063.465,
+              853.999,
+              0
+            ],
+            [
+              2028.204,
+              854,
+              0
+            ],
+            [
+              1992.39,
+              853.999,
+              0
+            ],
+            [
+              1956.063,
+              854,
+              0
+            ],
+            [
+              1919.257,
+              854,
+              0
+            ],
+            [
+              1882.009,
+              854,
+              0
+            ],
+            [
+              1844.36,
+              854,
+              0
+            ],
+            [
+              1806.35,
+              854,
+              0
+            ],
+            [
+              1768.015,
+              854,
+              0
+            ],
+            [
+              1729.393,
+              854,
+              0
+            ],
+            [
+              1690.52,
+              854,
+              0
+            ],
+            [
+              1651.436,
+              853.999,
+              0
+            ],
+            [
+              1612.181,
+              853.999,
+              0
+            ],
+            [
+              1572.794,
+              854,
+              0
+            ],
+            [
+              1533.313,
+              854,
+              0
+            ],
+            [
+              1493.776,
+              853.999,
+              0
+            ],
+            [
+              1454.22,
+              854,
+              0
+            ],
+            [
+              1414.682,
+              854,
+              0
+            ],
+            [
+              1375.202,
+              854,
+              0
+            ],
+            [
+              1335.815,
+              854,
+              0
+            ],
+            [
+              1296.56,
+              853.999,
+              0
+            ],
+            [
+              1257.477,
+              854,
+              0
+            ],
+            [
+              1218.606,
+              853.999,
+              0
+            ],
+            [
+              1179.985,
+              854,
+              0
+            ],
+            [
+              1141.65,
+              854,
+              0
+            ],
+            [
+              1103.638,
+              854,
+              0
+            ],
+            [
+              1065.989,
+              853.999,
+              0
+            ],
+            [
+              1028.742,
+              854,
+              0
+            ],
+            [
+              991.937,
+              854,
+              0
+            ],
+            [
+              955.607,
+              854,
+              0
+            ],
+            [
+              919.792,
+              854,
+              0
+            ],
+            [
+              884.534,
+              854,
+              0
+            ],
+            [
+              849.871,
+              854,
+              0
+            ],
+            [
+              815.837,
+              854,
+              0
+            ],
+            [
+              782.468,
+              853.999,
+              0
+            ],
+            [
+              749.804,
+              854,
+              0
+            ],
+            [
+              717.886,
+              854,
+              0
+            ],
+            [
+              686.759,
+              854,
+              0
+            ],
+            [
+              656.454,
+              854,
+              0
+            ],
+            [
+              627.005,
+              854,
+              0
+            ],
+            [
+              598.449,
+              854,
+              0
+            ],
+            [
+              570.828,
+              854,
+              0
+            ],
+            [
+              544.186,
+              854,
+              0
+            ],
+            [
+              518.562,
+              854,
+              0
+            ],
+            [
+              493.988,
+              854,
+              0
+            ],
+            [
+              470.499,
+              854,
+              0
+            ],
+            [
+              448.133,
+              854,
+              0
+            ],
+            [
+              426.935,
+              854,
+              0
+            ],
+            [
+              406.948,
+              854,
+              0
+            ],
+            [
+              388.203,
+              853.999,
+              0
+            ],
+            [
+              370.736,
+              853.999,
+              0
+            ],
+            [
+              354.583,
+              854,
+              0
+            ],
+            [
+              339.785,
+              854,
+              0
+            ],
+            [
+              326.384,
+              854,
+              0
+            ],
+            [
+              314.418,
+              854,
+              0
+            ],
+            [
+              303.925,
+              854,
+              0
+            ],
+            [
+              294.94,
+              854,
+              0
+            ],
+            [
+              287.503,
+              854,
+              0
+            ],
+            [
+              281.645,
+              854,
+              0
+            ],
+            [
+              277.393,
+              854,
+              0
+            ],
+            [
+              274.846,
+              854,
+              0
+            ],
+            [
+              274,
+              854,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "foreground.translation": {
+          "values": [
+            [
+              2674,
+              854,
+              0
+            ],
+            [
+              2673.153,
+              854,
+              0
+            ],
+            [
+              2670.606,
+              853.999,
+              0
+            ],
+            [
+              2666.354,
+              854,
+              0
+            ],
+            [
+              2660.496,
+              853.999,
+              0
+            ],
+            [
+              2653.059,
+              853.999,
+              0
+            ],
+            [
+              2644.074,
+              853.999,
+              0
+            ],
+            [
+              2633.581,
+              854,
+              0
+            ],
+            [
+              2621.615,
+              853.999,
+              0
+            ],
+            [
+              2608.214,
+              854,
+              0
+            ],
+            [
+              2593.418,
+              854,
+              0
+            ],
+            [
+              2577.267,
+              853.999,
+              0
+            ],
+            [
+              2559.801,
+              854,
+              0
+            ],
+            [
+              2541.055,
+              853.999,
+              0
+            ],
+            [
+              2521.062,
+              853.999,
+              0
+            ],
+            [
+              2499.862,
+              854,
+              0
+            ],
+            [
+              2477.499,
+              853.999,
+              0
+            ],
+            [
+              2454.012,
+              854,
+              0
+            ],
+            [
+              2429.44,
+              854,
+              0
+            ],
+            [
+              2403.814,
+              854,
+              0
+            ],
+            [
+              2377.169,
+              853.999,
+              0
+            ],
+            [
+              2349.55,
+              854,
+              0
+            ],
+            [
+              2320.999,
+              854,
+              0
+            ],
+            [
+              2291.553,
+              853.999,
+              0
+            ],
+            [
+              2261.245,
+              853.999,
+              0
+            ],
+            [
+              2230.109,
+              853.999,
+              0
+            ],
+            [
+              2198.19,
+              854,
+              0
+            ],
+            [
+              2165.529,
+              853.999,
+              0
+            ],
+            [
+              2132.165,
+              853.999,
+              0
+            ],
+            [
+              2098.133,
+              853.999,
+              0
+            ],
+            [
+              2063.465,
+              853.999,
+              0
+            ],
+            [
+              2028.204,
+              854,
+              0
+            ],
+            [
+              1992.39,
+              853.999,
+              0
+            ],
+            [
+              1956.063,
+              854,
+              0
+            ],
+            [
+              1919.257,
+              854,
+              0
+            ],
+            [
+              1882.009,
+              854,
+              0
+            ],
+            [
+              1844.36,
+              854,
+              0
+            ],
+            [
+              1806.35,
+              854,
+              0
+            ],
+            [
+              1768.015,
+              854,
+              0
+            ],
+            [
+              1729.393,
+              854,
+              0
+            ],
+            [
+              1690.52,
+              854,
+              0
+            ],
+            [
+              1651.436,
+              853.999,
+              0
+            ],
+            [
+              1612.181,
+              853.999,
+              0
+            ],
+            [
+              1572.794,
+              854,
+              0
+            ],
+            [
+              1533.313,
+              854,
+              0
+            ],
+            [
+              1493.776,
+              853.999,
+              0
+            ],
+            [
+              1454.22,
+              854,
+              0
+            ],
+            [
+              1414.682,
+              854,
+              0
+            ],
+            [
+              1375.202,
+              854,
+              0
+            ],
+            [
+              1335.815,
+              854,
+              0
+            ],
+            [
+              1296.56,
+              853.999,
+              0
+            ],
+            [
+              1257.477,
+              854,
+              0
+            ],
+            [
+              1218.606,
+              853.999,
+              0
+            ],
+            [
+              1179.985,
+              854,
+              0
+            ],
+            [
+              1141.65,
+              854,
+              0
+            ],
+            [
+              1103.638,
+              854,
+              0
+            ],
+            [
+              1065.989,
+              853.999,
+              0
+            ],
+            [
+              1028.742,
+              854,
+              0
+            ],
+            [
+              991.937,
+              854,
+              0
+            ],
+            [
+              955.607,
+              854,
+              0
+            ],
+            [
+              919.792,
+              854,
+              0
+            ],
+            [
+              884.534,
+              854,
+              0
+            ],
+            [
+              849.871,
+              854,
+              0
+            ],
+            [
+              815.837,
+              854,
+              0
+            ],
+            [
+              782.468,
+              853.999,
+              0
+            ],
+            [
+              749.804,
+              854,
+              0
+            ],
+            [
+              717.886,
+              854,
+              0
+            ],
+            [
+              686.759,
+              854,
+              0
+            ],
+            [
+              656.454,
+              854,
+              0
+            ],
+            [
+              627.005,
+              854,
+              0
+            ],
+            [
+              598.449,
+              854,
+              0
+            ],
+            [
+              570.828,
+              854,
+              0
+            ],
+            [
+              544.186,
+              854,
+              0
+            ],
+            [
+              518.562,
+              854,
+              0
+            ],
+            [
+              493.988,
+              854,
+              0
+            ],
+            [
+              470.499,
+              854,
+              0
+            ],
+            [
+              448.133,
+              854,
+              0
+            ],
+            [
+              426.935,
+              854,
+              0
+            ],
+            [
+              406.948,
+              854,
+              0
+            ],
+            [
+              388.203,
+              853.999,
+              0
+            ],
+            [
+              370.736,
+              853.999,
+              0
+            ],
+            [
+              354.583,
+              854,
+              0
+            ],
+            [
+              339.785,
+              854,
+              0
+            ],
+            [
+              326.384,
+              854,
+              0
+            ],
+            [
+              314.418,
+              854,
+              0
+            ],
+            [
+              303.925,
+              854,
+              0
+            ],
+            [
+              294.94,
+              854,
+              0
+            ],
+            [
+              287.503,
+              854,
+              0
+            ],
+            [
+              281.645,
+              854,
+              0
+            ],
+            [
+              277.393,
+              854,
+              0
+            ],
+            [
+              274.846,
+              854,
+              0
+            ],
+            [
+              274,
+              854,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "ltp_midground_tabl_3.png.translation": {
+          "values": [
+            [
+              1688,
+              989,
+              0
+            ],
+            [
+              1687.325,
+              988.999,
+              0
+            ],
+            [
+              1685.296,
+              989,
+              0
+            ],
+            [
+              1681.909,
+              989,
+              0
+            ],
+            [
+              1677.241,
+              988.999,
+              0
+            ],
+            [
+              1671.317,
+              988.999,
+              0
+            ],
+            [
+              1664.159,
+              989,
+              0
+            ],
+            [
+              1655.799,
+              989,
+              0
+            ],
+            [
+              1646.267,
+              989,
+              0
+            ],
+            [
+              1635.59,
+              989,
+              0
+            ],
+            [
+              1623.801,
+              988.999,
+              0
+            ],
+            [
+              1610.933,
+              989,
+              0
+            ],
+            [
+              1597.017,
+              989,
+              0
+            ],
+            [
+              1582.084,
+              989,
+              0
+            ],
+            [
+              1566.161,
+              988.999,
+              0
+            ],
+            [
+              1549.273,
+              989,
+              0
+            ],
+            [
+              1531.455,
+              989,
+              0
+            ],
+            [
+              1512.742,
+              989,
+              0
+            ],
+            [
+              1493.164,
+              988.999,
+              0
+            ],
+            [
+              1472.751,
+              989,
+              0
+            ],
+            [
+              1451.527,
+              988.999,
+              0
+            ],
+            [
+              1429.522,
+              988.999,
+              0
+            ],
+            [
+              1406.772,
+              988.999,
+              0
+            ],
+            [
+              1383.311,
+              989,
+              0
+            ],
+            [
+              1359.168,
+              988.999,
+              0
+            ],
+            [
+              1334.37,
+              989,
+              0
+            ],
+            [
+              1308.942,
+              989,
+              0
+            ],
+            [
+              1282.919,
+              989,
+              0
+            ],
+            [
+              1256.336,
+              989,
+              0
+            ],
+            [
+              1229.222,
+              989,
+              0
+            ],
+            [
+              1201.607,
+              989,
+              0
+            ],
+            [
+              1173.518,
+              988.999,
+              0
+            ],
+            [
+              1144.985,
+              989,
+              0
+            ],
+            [
+              1116.043,
+              988.999,
+              0
+            ],
+            [
+              1086.721,
+              989,
+              0
+            ],
+            [
+              1057.048,
+              989,
+              0
+            ],
+            [
+              1027.054,
+              989,
+              0
+            ],
+            [
+              996.771,
+              989,
+              0
+            ],
+            [
+              966.231,
+              989,
+              0
+            ],
+            [
+              935.463,
+              989,
+              0
+            ],
+            [
+              904.496,
+              988.999,
+              0
+            ],
+            [
+              873.359,
+              989,
+              0
+            ],
+            [
+              842.087,
+              989,
+              0
+            ],
+            [
+              810.709,
+              988.999,
+              0
+            ],
+            [
+              779.255,
+              989,
+              0
+            ],
+            [
+              747.757,
+              989,
+              0
+            ],
+            [
+              716.244,
+              989,
+              0
+            ],
+            [
+              684.746,
+              989,
+              0
+            ],
+            [
+              653.293,
+              989,
+              0
+            ],
+            [
+              621.915,
+              989,
+              0
+            ],
+            [
+              590.641,
+              988.999,
+              0
+            ],
+            [
+              559.505,
+              989,
+              0
+            ],
+            [
+              528.536,
+              989,
+              0
+            ],
+            [
+              497.767,
+              989,
+              0
+            ],
+            [
+              467.227,
+              989,
+              0
+            ],
+            [
+              436.946,
+              989,
+              0
+            ],
+            [
+              406.952,
+              989,
+              0
+            ],
+            [
+              377.277,
+              989,
+              0
+            ],
+            [
+              347.956,
+              989,
+              0
+            ],
+            [
+              319.015,
+              989,
+              0
+            ],
+            [
+              290.483,
+              988.999,
+              0
+            ],
+            [
+              262.392,
+              989,
+              0
+            ],
+            [
+              234.773,
+              989,
+              0
+            ],
+            [
+              207.661,
+              989,
+              0
+            ],
+            [
+              181.081,
+              989,
+              0
+            ],
+            [
+              155.061,
+              989,
+              0
+            ],
+            [
+              129.632,
+              989,
+              0
+            ],
+            [
+              104.827,
+              989,
+              0
+            ],
+            [
+              80.682,
+              989,
+              0
+            ],
+            [
+              57.224,
+              989,
+              0
+            ],
+            [
+              34.478,
+              989,
+              0
+            ],
+            [
+              12.475,
+              989,
+              0
+            ],
+            [
+              -8.752,
+              989,
+              0
+            ],
+            [
+              -29.167,
+              989,
+              0
+            ],
+            [
+              -48.743,
+              989,
+              0
+            ],
+            [
+              -67.454,
+              989,
+              0
+            ],
+            [
+              -85.27,
+              989,
+              0
+            ],
+            [
+              -102.16,
+              989,
+              0
+            ],
+            [
+              -118.087,
+              989,
+              0
+            ],
+            [
+              -133.021,
+              989,
+              0
+            ],
+            [
+              -146.936,
+              989,
+              0
+            ],
+            [
+              -159.803,
+              989,
+              0
+            ],
+            [
+              -171.591,
+              989,
+              0
+            ],
+            [
+              -182.267,
+              988.999,
+              0
+            ],
+            [
+              -191.799,
+              989,
+              0
+            ],
+            [
+              -200.159,
+              988.999,
+              0
+            ],
+            [
+              -207.317,
+              989,
+              0
+            ],
+            [
+              -213.241,
+              988.999,
+              0
+            ],
+            [
+              -217.909,
+              989,
+              0
+            ],
+            [
+              -221.296,
+              989,
+              0
+            ],
+            [
+              -223.325,
+              989,
+              0
+            ],
+            [
+              -224,
+              989,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "ltp_midground_tabl_2.png.translation": {
+          "values": [
+            [
+              1276.5,
+              999,
+              0
+            ],
+            [
+              1275.825,
+              999,
+              0
+            ],
+            [
+              1273.796,
+              999,
+              0
+            ],
+            [
+              1270.409,
+              999,
+              0
+            ],
+            [
+              1265.741,
+              999,
+              0
+            ],
+            [
+              1259.817,
+              999,
+              0
+            ],
+            [
+              1252.659,
+              998.999,
+              0
+            ],
+            [
+              1244.299,
+              999,
+              0
+            ],
+            [
+              1234.767,
+              999,
+              0
+            ],
+            [
+              1224.091,
+              998.999,
+              0
+            ],
+            [
+              1212.303,
+              999,
+              0
+            ],
+            [
+              1199.436,
+              999,
+              0
+            ],
+            [
+              1185.521,
+              998.999,
+              0
+            ],
+            [
+              1170.587,
+              999,
+              0
+            ],
+            [
+              1154.66,
+              999,
+              0
+            ],
+            [
+              1137.77,
+              999,
+              0
+            ],
+            [
+              1119.954,
+              998.999,
+              0
+            ],
+            [
+              1101.243,
+              999,
+              0
+            ],
+            [
+              1081.667,
+              999,
+              0
+            ],
+            [
+              1061.252,
+              998.999,
+              0
+            ],
+            [
+              1040.024,
+              998.999,
+              0
+            ],
+            [
+              1018.021,
+              998.999,
+              0
+            ],
+            [
+              995.275,
+              999,
+              0
+            ],
+            [
+              971.817,
+              999,
+              0
+            ],
+            [
+              947.672,
+              999,
+              0
+            ],
+            [
+              922.867,
+              998.999,
+              0
+            ],
+            [
+              897.438,
+              999,
+              0
+            ],
+            [
+              871.418,
+              998.999,
+              0
+            ],
+            [
+              844.838,
+              998.999,
+              0
+            ],
+            [
+              817.726,
+              999,
+              0
+            ],
+            [
+              790.107,
+              999,
+              0
+            ],
+            [
+              762.016,
+              998.999,
+              0
+            ],
+            [
+              733.484,
+              999,
+              0
+            ],
+            [
+              704.543,
+              998.999,
+              0
+            ],
+            [
+              675.222,
+              998.999,
+              0
+            ],
+            [
+              645.547,
+              998.999,
+              0
+            ],
+            [
+              615.553,
+              999,
+              0
+            ],
+            [
+              585.272,
+              999,
+              0
+            ],
+            [
+              554.732,
+              999,
+              0
+            ],
+            [
+              523.963,
+              999,
+              0
+            ],
+            [
+              492.994,
+              998.999,
+              0
+            ],
+            [
+              461.858,
+              999,
+              0
+            ],
+            [
+              430.584,
+              999,
+              0
+            ],
+            [
+              399.206,
+              999,
+              0
+            ],
+            [
+              367.753,
+              999,
+              0
+            ],
+            [
+              336.255,
+              998.999,
+              0
+            ],
+            [
+              304.742,
+              999,
+              0
+            ],
+            [
+              273.244,
+              999,
+              0
+            ],
+            [
+              241.79,
+              999,
+              0
+            ],
+            [
+              210.412,
+              999,
+              0
+            ],
+            [
+              179.14,
+              999,
+              0
+            ],
+            [
+              148.003,
+              999,
+              0
+            ],
+            [
+              117.036,
+              999,
+              0
+            ],
+            [
+              86.268,
+              998.999,
+              0
+            ],
+            [
+              55.728,
+              999,
+              0
+            ],
+            [
+              25.445,
+              998.999,
+              0
+            ],
+            [
+              -4.548,
+              999,
+              0
+            ],
+            [
+              -34.221,
+              999,
+              0
+            ],
+            [
+              -63.543,
+              999,
+              0
+            ],
+            [
+              -92.485,
+              999,
+              0
+            ],
+            [
+              -121.018,
+              999,
+              0
+            ],
+            [
+              -149.107,
+              999,
+              0
+            ],
+            [
+              -176.722,
+              999,
+              0
+            ],
+            [
+              -203.836,
+              999,
+              0
+            ],
+            [
+              -230.419,
+              999,
+              0
+            ],
+            [
+              -256.442,
+              998.999,
+              0
+            ],
+            [
+              -281.87,
+              999,
+              0
+            ],
+            [
+              -306.668,
+              999,
+              0
+            ],
+            [
+              -330.811,
+              999,
+              0
+            ],
+            [
+              -354.272,
+              999,
+              0
+            ],
+            [
+              -377.022,
+              999,
+              0
+            ],
+            [
+              -399.027,
+              999,
+              0
+            ],
+            [
+              -420.251,
+              999,
+              0
+            ],
+            [
+              -440.664,
+              999,
+              0
+            ],
+            [
+              -460.242,
+              999,
+              0
+            ],
+            [
+              -478.955,
+              999,
+              0
+            ],
+            [
+              -496.773,
+              999,
+              0
+            ],
+            [
+              -513.661,
+              999,
+              0
+            ],
+            [
+              -529.584,
+              999,
+              0
+            ],
+            [
+              -544.517,
+              998.999,
+              0
+            ],
+            [
+              -558.433,
+              999,
+              0
+            ],
+            [
+              -571.301,
+              999,
+              0
+            ],
+            [
+              -583.09,
+              999,
+              0
+            ],
+            [
+              -593.767,
+              998.999,
+              0
+            ],
+            [
+              -603.299,
+              999,
+              0
+            ],
+            [
+              -611.659,
+              998.999,
+              0
+            ],
+            [
+              -618.817,
+              999,
+              0
+            ],
+            [
+              -624.741,
+              999,
+              0
+            ],
+            [
+              -629.409,
+              999,
+              0
+            ],
+            [
+              -632.796,
+              999,
+              0
+            ],
+            [
+              -634.825,
+              999,
+              0
+            ],
+            [
+              -635.5,
+              999,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "ltp_midground_tabl_1.png.translation": {
+          "values": [
+            [
+              1130.25,
+              981.5,
+              0
+            ],
+            [
+              1129.575,
+              981.499,
+              0
+            ],
+            [
+              1127.546,
+              981.5,
+              0
+            ],
+            [
+              1124.159,
+              981.5,
+              0
+            ],
+            [
+              1119.491,
+              981.499,
+              0
+            ],
+            [
+              1113.567,
+              981.499,
+              0
+            ],
+            [
+              1106.409,
+              981.5,
+              0
+            ],
+            [
+              1098.049,
+              981.5,
+              0
+            ],
+            [
+              1088.517,
+              981.5,
+              0
+            ],
+            [
+              1077.84,
+              981.499,
+              0
+            ],
+            [
+              1066.051,
+              981.5,
+              0
+            ],
+            [
+              1053.183,
+              981.5,
+              0
+            ],
+            [
+              1039.267,
+              981.5,
+              0
+            ],
+            [
+              1024.334,
+              981.499,
+              0
+            ],
+            [
+              1008.411,
+              981.5,
+              0
+            ],
+            [
+              991.523,
+              981.5,
+              0
+            ],
+            [
+              973.705,
+              981.5,
+              0
+            ],
+            [
+              954.992,
+              981.5,
+              0
+            ],
+            [
+              935.414,
+              981.5,
+              0
+            ],
+            [
+              915.001,
+              981.499,
+              0
+            ],
+            [
+              893.777,
+              981.5,
+              0
+            ],
+            [
+              871.772,
+              981.499,
+              0
+            ],
+            [
+              849.022,
+              981.499,
+              0
+            ],
+            [
+              825.561,
+              981.5,
+              0
+            ],
+            [
+              801.418,
+              981.499,
+              0
+            ],
+            [
+              776.62,
+              981.5,
+              0
+            ],
+            [
+              751.192,
+              981.5,
+              0
+            ],
+            [
+              725.169,
+              981.5,
+              0
+            ],
+            [
+              698.586,
+              981.5,
+              0
+            ],
+            [
+              671.472,
+              981.5,
+              0
+            ],
+            [
+              643.857,
+              981.5,
+              0
+            ],
+            [
+              615.768,
+              981.5,
+              0
+            ],
+            [
+              587.235,
+              981.5,
+              0
+            ],
+            [
+              558.293,
+              981.5,
+              0
+            ],
+            [
+              528.971,
+              981.5,
+              0
+            ],
+            [
+              499.298,
+              981.5,
+              0
+            ],
+            [
+              469.304,
+              981.499,
+              0
+            ],
+            [
+              439.021,
+              981.5,
+              0
+            ],
+            [
+              408.481,
+              981.5,
+              0
+            ],
+            [
+              377.713,
+              981.5,
+              0
+            ],
+            [
+              346.746,
+              981.499,
+              0
+            ],
+            [
+              315.609,
+              981.5,
+              0
+            ],
+            [
+              284.337,
+              981.5,
+              0
+            ],
+            [
+              252.959,
+              981.499,
+              0
+            ],
+            [
+              221.505,
+              981.499,
+              0
+            ],
+            [
+              190.007,
+              981.5,
+              0
+            ],
+            [
+              158.494,
+              981.499,
+              0
+            ],
+            [
+              126.996,
+              981.5,
+              0
+            ],
+            [
+              95.543,
+              981.5,
+              0
+            ],
+            [
+              64.165,
+              981.5,
+              0
+            ],
+            [
+              32.891,
+              981.5,
+              0
+            ],
+            [
+              1.755,
+              981.5,
+              0
+            ],
+            [
+              -29.213,
+              981.5,
+              0
+            ],
+            [
+              -59.982,
+              981.5,
+              0
+            ],
+            [
+              -90.522,
+              981.499,
+              0
+            ],
+            [
+              -120.803,
+              981.5,
+              0
+            ],
+            [
+              -150.797,
+              981.5,
+              0
+            ],
+            [
+              -180.472,
+              981.5,
+              0
+            ],
+            [
+              -209.793,
+              981.5,
+              0
+            ],
+            [
+              -238.734,
+              981.5,
+              0
+            ],
+            [
+              -267.266,
+              981.5,
+              0
+            ],
+            [
+              -295.357,
+              981.499,
+              0
+            ],
+            [
+              -322.976,
+              981.5,
+              0
+            ],
+            [
+              -350.088,
+              981.5,
+              0
+            ],
+            [
+              -376.668,
+              981.5,
+              0
+            ],
+            [
+              -402.688,
+              981.5,
+              0
+            ],
+            [
+              -428.117,
+              981.5,
+              0
+            ],
+            [
+              -452.922,
+              981.5,
+              0
+            ],
+            [
+              -477.067,
+              981.5,
+              0
+            ],
+            [
+              -500.525,
+              981.5,
+              0
+            ],
+            [
+              -523.271,
+              981.5,
+              0
+            ],
+            [
+              -545.274,
+              981.5,
+              0
+            ],
+            [
+              -566.502,
+              981.5,
+              0
+            ],
+            [
+              -586.917,
+              981.499,
+              0
+            ],
+            [
+              -606.493,
+              981.5,
+              0
+            ],
+            [
+              -625.204,
+              981.5,
+              0
+            ],
+            [
+              -643.02,
+              981.5,
+              0
+            ],
+            [
+              -659.91,
+              981.5,
+              0
+            ],
+            [
+              -675.837,
+              981.5,
+              0
+            ],
+            [
+              -690.771,
+              981.5,
+              0
+            ],
+            [
+              -704.686,
+              981.5,
+              0
+            ],
+            [
+              -717.553,
+              981.5,
+              0
+            ],
+            [
+              -729.341,
+              981.499,
+              0
+            ],
+            [
+              -740.017,
+              981.5,
+              0
+            ],
+            [
+              -749.549,
+              981.5,
+              0
+            ],
+            [
+              -757.909,
+              981.499,
+              0
+            ],
+            [
+              -765.067,
+              981.5,
+              0
+            ],
+            [
+              -770.991,
+              981.5,
+              0
+            ],
+            [
+              -775.659,
+              981.5,
+              0
+            ],
+            [
+              -779.046,
+              981.5,
+              0
+            ],
+            [
+              -781.075,
+              981.5,
+              0
+            ],
+            [
+              -781.75,
+              981.5,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "ltp_midground_tabl.png.translation": {
+          "values": [
+            [
+              772,
+              975.25,
+              0
+            ],
+            [
+              771.325,
+              975.25,
+              0
+            ],
+            [
+              769.296,
+              975.25,
+              0
+            ],
+            [
+              765.909,
+              975.249,
+              0
+            ],
+            [
+              761.241,
+              975.25,
+              0
+            ],
+            [
+              755.317,
+              975.25,
+              0
+            ],
+            [
+              748.159,
+              975.25,
+              0
+            ],
+            [
+              739.799,
+              975.25,
+              0
+            ],
+            [
+              730.267,
+              975.25,
+              0
+            ],
+            [
+              719.591,
+              975.249,
+              0
+            ],
+            [
+              707.803,
+              975.249,
+              0
+            ],
+            [
+              694.936,
+              975.249,
+              0
+            ],
+            [
+              681.021,
+              975.25,
+              0
+            ],
+            [
+              666.087,
+              975.249,
+              0
+            ],
+            [
+              650.16,
+              975.25,
+              0
+            ],
+            [
+              633.27,
+              975.25,
+              0
+            ],
+            [
+              615.454,
+              975.249,
+              0
+            ],
+            [
+              596.743,
+              975.25,
+              0
+            ],
+            [
+              577.167,
+              975.25,
+              0
+            ],
+            [
+              556.752,
+              975.25,
+              0
+            ],
+            [
+              535.524,
+              975.25,
+              0
+            ],
+            [
+              513.521,
+              975.25,
+              0
+            ],
+            [
+              490.775,
+              975.249,
+              0
+            ],
+            [
+              467.317,
+              975.25,
+              0
+            ],
+            [
+              443.172,
+              975.249,
+              0
+            ],
+            [
+              418.367,
+              975.249,
+              0
+            ],
+            [
+              392.938,
+              975.249,
+              0
+            ],
+            [
+              366.918,
+              975.249,
+              0
+            ],
+            [
+              340.338,
+              975.25,
+              0
+            ],
+            [
+              313.226,
+              975.249,
+              0
+            ],
+            [
+              285.607,
+              975.249,
+              0
+            ],
+            [
+              257.516,
+              975.25,
+              0
+            ],
+            [
+              228.984,
+              975.25,
+              0
+            ],
+            [
+              200.043,
+              975.25,
+              0
+            ],
+            [
+              170.722,
+              975.249,
+              0
+            ],
+            [
+              141.047,
+              975.25,
+              0
+            ],
+            [
+              111.053,
+              975.249,
+              0
+            ],
+            [
+              80.772,
+              975.25,
+              0
+            ],
+            [
+              50.232,
+              975.249,
+              0
+            ],
+            [
+              19.463,
+              975.249,
+              0
+            ],
+            [
+              -11.505,
+              975.249,
+              0
+            ],
+            [
+              -42.641,
+              975.25,
+              0
+            ],
+            [
+              -73.915,
+              975.25,
+              0
+            ],
+            [
+              -105.293,
+              975.25,
+              0
+            ],
+            [
+              -136.746,
+              975.25,
+              0
+            ],
+            [
+              -168.244,
+              975.25,
+              0
+            ],
+            [
+              -199.757,
+              975.25,
+              0
+            ],
+            [
+              -231.255,
+              975.25,
+              0
+            ],
+            [
+              -262.709,
+              975.25,
+              0
+            ],
+            [
+              -294.087,
+              975.25,
+              0
+            ],
+            [
+              -325.359,
+              975.25,
+              0
+            ],
+            [
+              -356.496,
+              975.25,
+              0
+            ],
+            [
+              -387.463,
+              975.25,
+              0
+            ],
+            [
+              -418.231,
+              975.249,
+              0
+            ],
+            [
+              -448.771,
+              975.249,
+              0
+            ],
+            [
+              -479.054,
+              975.25,
+              0
+            ],
+            [
+              -509.048,
+              975.249,
+              0
+            ],
+            [
+              -538.721,
+              975.25,
+              0
+            ],
+            [
+              -568.043,
+              975.25,
+              0
+            ],
+            [
+              -596.985,
+              975.25,
+              0
+            ],
+            [
+              -625.518,
+              975.25,
+              0
+            ],
+            [
+              -653.607,
+              975.25,
+              0
+            ],
+            [
+              -681.222,
+              975.25,
+              0
+            ],
+            [
+              -708.336,
+              975.25,
+              0
+            ],
+            [
+              -734.919,
+              975.249,
+              0
+            ],
+            [
+              -760.942,
+              975.25,
+              0
+            ],
+            [
+              -786.37,
+              975.25,
+              0
+            ],
+            [
+              -811.168,
+              975.25,
+              0
+            ],
+            [
+              -835.311,
+              975.25,
+              0
+            ],
+            [
+              -858.772,
+              975.25,
+              0
+            ],
+            [
+              -881.522,
+              975.25,
+              0
+            ],
+            [
+              -903.527,
+              975.249,
+              0
+            ],
+            [
+              -924.751,
+              975.249,
+              0
+            ],
+            [
+              -945.164,
+              975.25,
+              0
+            ],
+            [
+              -964.742,
+              975.25,
+              0
+            ],
+            [
+              -983.455,
+              975.25,
+              0
+            ],
+            [
+              -1001.273,
+              975.25,
+              0
+            ],
+            [
+              -1018.161,
+              975.25,
+              0
+            ],
+            [
+              -1034.084,
+              975.25,
+              0
+            ],
+            [
+              -1049.017,
+              975.25,
+              0
+            ],
+            [
+              -1062.933,
+              975.25,
+              0
+            ],
+            [
+              -1075.801,
+              975.25,
+              0
+            ],
+            [
+              -1087.59,
+              975.25,
+              0
+            ],
+            [
+              -1098.267,
+              975.25,
+              0
+            ],
+            [
+              -1107.799,
+              975.25,
+              0
+            ],
+            [
+              -1116.159,
+              975.25,
+              0
+            ],
+            [
+              -1123.317,
+              975.25,
+              0
+            ],
+            [
+              -1129.241,
+              975.249,
+              0
+            ],
+            [
+              -1133.909,
+              975.25,
+              0
+            ],
+            [
+              -1137.296,
+              975.25,
+              0
+            ],
+            [
+              -1139.325,
+              975.25,
+              0
+            ],
+            [
+              -1140,
+              975.25,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "foreground_boxes.translation": {
+          "values": [
+            [
+              2933.5,
+              805.5,
+              0
+            ],
+            [
+              2932.759,
+              805.5,
+              0
+            ],
+            [
+              2930.533,
+              805.5,
+              0
+            ],
+            [
+              2926.816,
+              805.5,
+              0
+            ],
+            [
+              2921.695,
+              805.5,
+              0
+            ],
+            [
+              2915.194,
+              805.5,
+              0
+            ],
+            [
+              2907.34,
+              805.5,
+              0
+            ],
+            [
+              2898.167,
+              805.5,
+              0
+            ],
+            [
+              2887.707,
+              805.499,
+              0
+            ],
+            [
+              2875.992,
+              805.499,
+              0
+            ],
+            [
+              2863.058,
+              805.5,
+              0
+            ],
+            [
+              2848.939,
+              805.499,
+              0
+            ],
+            [
+              2833.671,
+              805.5,
+              0
+            ],
+            [
+              2817.284,
+              805.5,
+              0
+            ],
+            [
+              2799.807,
+              805.5,
+              0
+            ],
+            [
+              2781.275,
+              805.5,
+              0
+            ],
+            [
+              2761.725,
+              805.499,
+              0
+            ],
+            [
+              2741.194,
+              805.5,
+              0
+            ],
+            [
+              2719.714,
+              805.5,
+              0
+            ],
+            [
+              2697.312,
+              805.499,
+              0
+            ],
+            [
+              2674.02,
+              805.5,
+              0
+            ],
+            [
+              2649.876,
+              805.5,
+              0
+            ],
+            [
+              2624.918,
+              805.5,
+              0
+            ],
+            [
+              2599.177,
+              805.499,
+              0
+            ],
+            [
+              2572.683,
+              805.5,
+              0
+            ],
+            [
+              2545.465,
+              805.5,
+              0
+            ],
+            [
+              2517.563,
+              805.5,
+              0
+            ],
+            [
+              2489.012,
+              805.499,
+              0
+            ],
+            [
+              2459.846,
+              805.5,
+              0
+            ],
+            [
+              2430.096,
+              805.499,
+              0
+            ],
+            [
+              2399.791,
+              805.5,
+              0
+            ],
+            [
+              2368.966,
+              805.499,
+              0
+            ],
+            [
+              2337.659,
+              805.5,
+              0
+            ],
+            [
+              2305.903,
+              805.5,
+              0
+            ],
+            [
+              2273.729,
+              805.5,
+              0
+            ],
+            [
+              2241.168,
+              805.5,
+              0
+            ],
+            [
+              2208.256,
+              805.5,
+              0
+            ],
+            [
+              2175.029,
+              805.5,
+              0
+            ],
+            [
+              2141.518,
+              805.5,
+              0
+            ],
+            [
+              2107.756,
+              805.499,
+              0
+            ],
+            [
+              2073.775,
+              805.5,
+              0
+            ],
+            [
+              2039.609,
+              805.499,
+              0
+            ],
+            [
+              2005.294,
+              805.499,
+              0
+            ],
+            [
+              1970.863,
+              805.5,
+              0
+            ],
+            [
+              1936.349,
+              805.5,
+              0
+            ],
+            [
+              1901.787,
+              805.499,
+              0
+            ],
+            [
+              1867.209,
+              805.5,
+              0
+            ],
+            [
+              1832.646,
+              805.5,
+              0
+            ],
+            [
+              1798.134,
+              805.5,
+              0
+            ],
+            [
+              1763.703,
+              805.5,
+              0
+            ],
+            [
+              1729.388,
+              805.499,
+              0
+            ],
+            [
+              1695.223,
+              805.5,
+              0
+            ],
+            [
+              1661.243,
+              805.5,
+              0
+            ],
+            [
+              1627.481,
+              805.5,
+              0
+            ],
+            [
+              1593.97,
+              805.5,
+              0
+            ],
+            [
+              1560.742,
+              805.5,
+              0
+            ],
+            [
+              1527.83,
+              805.5,
+              0
+            ],
+            [
+              1495.27,
+              805.499,
+              0
+            ],
+            [
+              1463.096,
+              805.5,
+              0
+            ],
+            [
+              1431.338,
+              805.5,
+              0
+            ],
+            [
+              1400.03,
+              805.5,
+              0
+            ],
+            [
+              1369.208,
+              805.5,
+              0
+            ],
+            [
+              1338.907,
+              805.5,
+              0
+            ],
+            [
+              1309.156,
+              805.5,
+              0
+            ],
+            [
+              1279.986,
+              805.5,
+              0
+            ],
+            [
+              1251.432,
+              805.5,
+              0
+            ],
+            [
+              1223.53,
+              805.5,
+              0
+            ],
+            [
+              1196.32,
+              805.5,
+              0
+            ],
+            [
+              1169.829,
+              805.5,
+              0
+            ],
+            [
+              1144.085,
+              805.499,
+              0
+            ],
+            [
+              1119.122,
+              805.5,
+              0
+            ],
+            [
+              1094.977,
+              805.5,
+              0
+            ],
+            [
+              1071.687,
+              805.5,
+              0
+            ],
+            [
+              1049.288,
+              805.5,
+              0
+            ],
+            [
+              1027.806,
+              805.5,
+              0
+            ],
+            [
+              1007.272,
+              805.5,
+              0
+            ],
+            [
+              987.721,
+              805.5,
+              0
+            ],
+            [
+              969.191,
+              805.5,
+              0
+            ],
+            [
+              951.718,
+              805.5,
+              0
+            ],
+            [
+              935.333,
+              805.5,
+              0
+            ],
+            [
+              920.063,
+              805.499,
+              0
+            ],
+            [
+              905.943,
+              805.5,
+              0
+            ],
+            [
+              893.007,
+              805.5,
+              0
+            ],
+            [
+              881.292,
+              805.5,
+              0
+            ],
+            [
+              870.832,
+              805.5,
+              0
+            ],
+            [
+              861.659,
+              805.5,
+              0
+            ],
+            [
+              853.805,
+              805.5,
+              0
+            ],
+            [
+              847.304,
+              805.5,
+              0
+            ],
+            [
+              842.183,
+              805.5,
+              0
+            ],
+            [
+              838.466,
+              805.5,
+              0
+            ],
+            [
+              836.24,
+              805.5,
+              0
+            ],
+            [
+              835.5,
+              805.5,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "bonus_instruction$28.alpha": {
+          "values": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            1
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 179,
+          "frameLerp": false
+        },
+        "transition.translation": {
+          "values": [
+            [
+              1869.875,
+              490,
+              0
+            ],
+            [
+              1869.197,
+              489.999,
+              0
+            ],
+            [
+              1867.158,
+              489.999,
+              0
+            ],
+            [
+              1863.755,
+              489.999,
+              0
+            ],
+            [
+              1859.066,
+              489.999,
+              0
+            ],
+            [
+              1853.113,
+              489.999,
+              0
+            ],
+            [
+              1845.922,
+              490,
+              0
+            ],
+            [
+              1837.523,
+              490,
+              0
+            ],
+            [
+              1827.945,
+              490,
+              0
+            ],
+            [
+              1817.219,
+              490,
+              0
+            ],
+            [
+              1805.376,
+              490,
+              0
+            ],
+            [
+              1792.448,
+              489.999,
+              0
+            ],
+            [
+              1778.468,
+              489.999,
+              0
+            ],
+            [
+              1763.463,
+              489.999,
+              0
+            ],
+            [
+              1747.461,
+              489.999,
+              0
+            ],
+            [
+              1730.492,
+              490,
+              0
+            ],
+            [
+              1712.592,
+              490,
+              0
+            ],
+            [
+              1693.793,
+              490,
+              0
+            ],
+            [
+              1674.125,
+              490,
+              0
+            ],
+            [
+              1653.613,
+              490,
+              0
+            ],
+            [
+              1632.286,
+              489.999,
+              0
+            ],
+            [
+              1610.18,
+              490,
+              0
+            ],
+            [
+              1587.327,
+              490,
+              0
+            ],
+            [
+              1563.758,
+              490,
+              0
+            ],
+            [
+              1539.499,
+              489.999,
+              0
+            ],
+            [
+              1514.577,
+              490,
+              0
+            ],
+            [
+              1489.029,
+              489.999,
+              0
+            ],
+            [
+              1462.886,
+              490,
+              0
+            ],
+            [
+              1436.181,
+              490,
+              0
+            ],
+            [
+              1408.941,
+              490,
+              0
+            ],
+            [
+              1381.193,
+              490,
+              0
+            ],
+            [
+              1352.969,
+              489.999,
+              0
+            ],
+            [
+              1324.303,
+              490,
+              0
+            ],
+            [
+              1295.226,
+              490,
+              0
+            ],
+            [
+              1265.766,
+              490,
+              0
+            ],
+            [
+              1235.952,
+              490,
+              0
+            ],
+            [
+              1205.817,
+              490,
+              0
+            ],
+            [
+              1175.393,
+              490,
+              0
+            ],
+            [
+              1144.71,
+              490,
+              0
+            ],
+            [
+              1113.796,
+              490,
+              0
+            ],
+            [
+              1082.681,
+              490,
+              0
+            ],
+            [
+              1051.398,
+              489.999,
+              0
+            ],
+            [
+              1019.977,
+              489.999,
+              0
+            ],
+            [
+              988.451,
+              490,
+              0
+            ],
+            [
+              956.85,
+              490,
+              0
+            ],
+            [
+              925.203,
+              490,
+              0
+            ],
+            [
+              893.542,
+              490,
+              0
+            ],
+            [
+              861.896,
+              490,
+              0
+            ],
+            [
+              830.295,
+              490,
+              0
+            ],
+            [
+              798.769,
+              490,
+              0
+            ],
+            [
+              767.349,
+              490,
+              0
+            ],
+            [
+              736.066,
+              490,
+              0
+            ],
+            [
+              704.953,
+              490,
+              0
+            ],
+            [
+              674.04,
+              490,
+              0
+            ],
+            [
+              643.356,
+              489.999,
+              0
+            ],
+            [
+              612.931,
+              490,
+              0
+            ],
+            [
+              582.796,
+              490,
+              0
+            ],
+            [
+              552.983,
+              490,
+              0
+            ],
+            [
+              523.523,
+              490,
+              0
+            ],
+            [
+              494.445,
+              490,
+              0
+            ],
+            [
+              465.778,
+              490,
+              0
+            ],
+            [
+              437.556,
+              490,
+              0
+            ],
+            [
+              409.812,
+              490,
+              0
+            ],
+            [
+              382.57,
+              490,
+              0
+            ],
+            [
+              355.861,
+              490,
+              0
+            ],
+            [
+              329.716,
+              490,
+              0
+            ],
+            [
+              304.169,
+              489.999,
+              0
+            ],
+            [
+              279.254,
+              490,
+              0
+            ],
+            [
+              254.998,
+              490,
+              0
+            ],
+            [
+              231.426,
+              490,
+              0
+            ],
+            [
+              208.569,
+              489.999,
+              0
+            ],
+            [
+              186.461,
+              490,
+              0
+            ],
+            [
+              165.136,
+              490,
+              0
+            ],
+            [
+              144.627,
+              490,
+              0
+            ],
+            [
+              124.957,
+              490,
+              0
+            ],
+            [
+              106.156,
+              490,
+              0
+            ],
+            [
+              88.254,
+              490,
+              0
+            ],
+            [
+              71.287,
+              490,
+              0
+            ],
+            [
+              55.289,
+              490,
+              0
+            ],
+            [
+              40.285,
+              490,
+              0
+            ],
+            [
+              26.304,
+              490,
+              0
+            ],
+            [
+              13.375,
+              490,
+              0
+            ],
+            [
+              1.531,
+              490,
+              0
+            ],
+            [
+              -9.195,
+              490,
+              0
+            ],
+            [
+              -18.773,
+              490,
+              0
+            ],
+            [
+              -27.172,
+              490,
+              0
+            ],
+            [
+              -34.363,
+              490,
+              0
+            ],
+            [
+              -40.316,
+              490,
+              0
+            ],
+            [
+              -45.005,
+              490,
+              0
+            ],
+            [
+              -48.408,
+              490,
+              0
+            ],
+            [
+              -50.447,
+              490,
+              0
+            ],
+            [
+              -51.125,
+              490,
+              0
+            ]
+          ],
+          "duration": 10,
+          "len": 300,
+          "cutf": 60,
+          "frameLerp": false
+        },
+        "bonus_instruction.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "boom_light.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "airplane_top.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "svet.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground_zaplatka.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "transition_train.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground_box_2.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_foreground_box_5.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground_2b.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground_2a.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_foreground_3.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_foreground_2.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_foreground_1.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_midground_tabl_3.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_midground_tabl_2.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_midground_tabl_1.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_midground_tabl.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "foreground_boxes.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "ltp_foreground_box_4.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "boxes_up_parent.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "boxes_up.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "boy.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "bonus_instruction$28.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        },
+        "transition.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "move": {
+          "start": 2,
+          "duration": 4.23333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "bonus_instruction",
+        "boom_light",
+        "airplane_top",
+        "svet",
+        "foreground_zaplatka",
+        "transition_train",
+        "foreground",
+        "foreground_box_2.png",
+        "ltp_foreground_box_5.png",
+        "foreground_2b",
+        "foreground_2a",
+        "ltp_foreground_3",
+        "ltp_foreground_2",
+        "ltp_foreground_1",
+        "ltp_midground_tabl_3.png",
+        "ltp_midground_tabl_2.png",
+        "ltp_midground_tabl_1.png",
+        "ltp_midground_tabl.png",
+        "foreground_boxes",
+        "ltp_foreground_box_4.png",
+        "boxes_up_parent",
+        "boxes_up",
+        "boy",
+        "bonus_instruction$28",
+        "transition"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

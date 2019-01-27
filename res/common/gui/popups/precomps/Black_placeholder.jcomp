@@ -1,0 +1,97 @@
+{
+  "name": "Black_placeholder",
+  "children": [
+    {
+      "name": "black-placeholder.png",
+      "translation": [
+        108.5,
+        24,
+        0
+      ],
+      "anchor": [
+        108.5,
+        24,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/panels/black-placeholder.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "inactive",
+      "translation": [
+        108.5,
+        30,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "PLAYERS",
+          "font": "Exo2-Black",
+          "fontSize": 18,
+          "color": [
+            0.60000002384186,
+            0.44705998897552,
+            0.29020002484322
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "active",
+      "translation": [
+        108.5,
+        30,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "PLAYERS",
+          "font": "Exo2-Black",
+          "fontSize": 18,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

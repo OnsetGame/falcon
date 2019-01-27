@@ -1,0 +1,2589 @@
+{
+  "name": "ufo_1",
+  "children": [
+    {
+      "name": "UFO.png",
+      "translation": [
+        1255,
+        830.5,
+        0
+      ],
+      "anchor": [
+        690,
+        830.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_seq/UFO.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ufo_text_[001-012].png",
+      "translation": [
+        932.5,
+        783,
+        0
+      ],
+      "anchor": [
+        198,
+        141,
+        0
+      ],
+      "alpha": 0.932,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_text_seq/ufo_text_001.png",
+            "../assets/ufo_text_seq/ufo_text_002.png",
+            "../assets/ufo_text_seq/ufo_text_003.png",
+            "../assets/ufo_text_seq/ufo_text_004.png",
+            "../assets/ufo_text_seq/ufo_text_005.png",
+            "../assets/ufo_text_seq/ufo_text_006.png",
+            "../assets/ufo_text_seq/ufo_text_007.png",
+            "../assets/ufo_text_seq/ufo_text_008.png",
+            "../assets/ufo_text_seq/ufo_text_009.png",
+            "../assets/ufo_text_seq/ufo_text_010.png",
+            "../assets/ufo_text_seq/ufo_text_011.png",
+            "../assets/ufo_text_seq/ufo_text_012.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_4",
+      "translation": [
+        829.007,
+        250.543,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.61,
+        1
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.622,
+        0.782
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_4",
+      "translation": [
+        840.027,
+        249.268,
+        0
+      ],
+      "scale": [
+        -0.93,
+        0.37,
+        1
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.987,
+        0.156
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ufo_over.png",
+      "translation": [
+        925,
+        203,
+        0
+      ],
+      "anchor": [
+        103,
+        89,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ufo_over.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet 4",
+      "translation": [
+        834.107,
+        254.218,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.594,
+        0.803
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_1",
+      "translation": [
+        1003.007,
+        498.543,
+        0
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.499,
+        0.866
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet",
+      "translation": [
+        987.607,
+        486.718,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.594,
+        0.803
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_1",
+      "translation": [
+        988.527,
+        488.268,
+        0
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.529,
+        0.848
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.458,
+          "outPoint": 3.666,
+          "scale": 1,
+          "startTime": 2.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet 2",
+      "translation": [
+        1173.038,
+        395.229,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.814,
+        0.58
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 2.875,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_2",
+      "translation": [
+        1172.6,
+        402.202,
+        0
+      ],
+      "scale": [
+        1,
+        0.6,
+        1
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.852,
+        0.522
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 2.875,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_2",
+      "translation": [
+        1188.461,
+        400.103,
+        0
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.748,
+        0.662
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 3.208,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet 5",
+      "translation": [
+        664.538,
+        338.229,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.422,
+        0.906
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 2.875,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_5",
+      "translation": [
+        677.85,
+        340.452,
+        0
+      ],
+      "scale": [
+        -0.68,
+        0.407,
+        1
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.984,
+        0.173
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 2.875,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_5",
+      "translation": [
+        672.211,
+        348.103,
+        0
+      ],
+      "scale": [
+        -0.68,
+        0.68,
+        1
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.939,
+        0.341
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.666,
+          "outPoint": 3.208,
+          "scale": 1,
+          "startTime": 1.666,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet 6",
+      "translation": [
+        1103.109,
+        284.554,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.292,
+        0.956
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_6",
+      "translation": [
+        1105.368,
+        276.701,
+        0
+      ],
+      "scale": [
+        0.39,
+        -0.54,
+        1
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.636,
+        0.771
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_6",
+      "translation": [
+        1097.448,
+        276.074,
+        0
+      ],
+      "scale": [
+        1,
+        0.45,
+        1
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.017,
+        0.999
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "zasvet 3",
+      "translation": [
+        740.609,
+        450.054,
+        0
+      ],
+      "anchor": [
+        167,
+        195,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.292,
+        0.956
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_white_solid_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lamp_3",
+      "translation": [
+        751.868,
+        462.701,
+        0
+      ],
+      "scale": [
+        1,
+        -0.93,
+        1
+      ],
+      "anchor": [
+        245,
+        245,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.713,
+        0.7
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ufo_ltp_pre_comp_2_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "centre_for_lamp_3",
+      "translation": [
+        745.948,
+        467.574,
+        0
+      ],
+      "anchor": [
+        29,
+        33,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.087,
+        0.996
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_imagesjfif.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "centre_for_lamp_3.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "lamp_3.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "zasvet 3.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "centre_for_lamp_6.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "lamp_6.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "zasvet 6.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "centre_for_lamp_5.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "lamp_5.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "zasvet 5.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "centre_for_lamp_2.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "lamp_2.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "zasvet 2.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 40,
+          "frameLerp": false
+        },
+        "lamp_1.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "zasvet.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "centre_for_lamp_1.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "zasvet 4.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "lamp_4.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.109,
+            0.333,
+            0.47,
+            0.738,
+            1,
+            0.984,
+            0.953,
+            0.91,
+            0.855,
+            0.791,
+            0.72,
+            0.643,
+            0.564,
+            0.482,
+            0.401,
+            0.323,
+            0.249,
+            0.18,
+            0.12,
+            0.07,
+            0.032,
+            0.008,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "centre_for_lamp_4.alpha": {
+          "values": [
+            0,
+            0.105,
+            0.21,
+            0.19,
+            0.135,
+            0.047,
+            0.223,
+            0.659,
+            0.91,
+            0.914,
+            0.91,
+            0.9,
+            0.883,
+            0.86,
+            0.832,
+            0.799,
+            0.762,
+            0.721,
+            0.677,
+            0.631,
+            0.583,
+            0.533,
+            0.483,
+            0.432,
+            0.381,
+            0.332,
+            0.283,
+            0.237,
+            0.193,
+            0.152,
+            0.115,
+            0.082,
+            0.054,
+            0.031,
+            0.014,
+            0.003,
+            0
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 59,
+          "frameLerp": false
+        },
+        "ufo_text_[001-012].png.alpha": {
+          "values": [
+            0.932,
+            0.945,
+            0.855,
+            0.784,
+            0.967,
+            0.999,
+            0.946,
+            1,
+            1,
+            1,
+            0.958,
+            0.936,
+            0.968,
+            0.97,
+            0.981,
+            1,
+            1,
+            0.888,
+            0.977,
+            1,
+            1,
+            0.97,
+            0.791,
+            0.952,
+            1,
+            1,
+            0.915,
+            0.814,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.931,
+            0.863,
+            1,
+            1,
+            0.918,
+            0.985,
+            1,
+            1,
+            0.97,
+            0.928,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.891,
+            0.934,
+            0.922,
+            0.902,
+            1,
+            1,
+            1,
+            0.995,
+            1,
+            0.916,
+            0.773,
+            0.917,
+            1,
+            1,
+            0.945,
+            1,
+            1,
+            0.812,
+            0.924,
+            1,
+            1,
+            1,
+            0.98,
+            0.95,
+            1,
+            1,
+            0.979,
+            0.85,
+            1,
+            1,
+            0.961,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.877,
+            0.772,
+            1,
+            1,
+            0.927,
+            1,
+            1,
+            1,
+            1,
+            0.944
+          ],
+          "duration": 4,
+          "len": 96,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "centre_for_lamp_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "lamp_3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "zasvet 3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "centre_for_lamp_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "lamp_6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "zasvet 6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 10
+        },
+        "centre_for_lamp_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "lamp_5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "zasvet 5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "centre_for_lamp_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "lamp_2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "zasvet 2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 39
+        },
+        "lamp_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "zasvet.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "centre_for_lamp_1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "zasvet 4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "ltp_ufo_over.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "lamp_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "centre_for_lamp_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 58
+        },
+        "ufo_text_[001-012].png.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11
+          ],
+          "len": 96,
+          "cutf": 0
+        },
+        "ufo_text_[001-012].png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "UFO.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "centre_for_lamp_3",
+        "lamp_3",
+        "zasvet 3",
+        "centre_for_lamp_6",
+        "lamp_6",
+        "zasvet 6",
+        "centre_for_lamp_5",
+        "lamp_5",
+        "zasvet 5",
+        "centre_for_lamp_2",
+        "lamp_2",
+        "zasvet 2",
+        "lamp_1",
+        "zasvet",
+        "centre_for_lamp_1",
+        "zasvet 4",
+        "ltp_ufo_over.png",
+        "lamp_4",
+        "centre_for_lamp_4",
+        "ufo_text_[001-012].png",
+        "UFO.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

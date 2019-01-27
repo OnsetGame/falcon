@@ -1,0 +1,770 @@
+{
+  "name": "witch_main_scene",
+  "children": [
+    {
+      "name": "ltp_bg_witch_2.png",
+      "translation": [
+        961,
+        1119,
+        0
+      ],
+      "anchor": [
+        967,
+        65,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_bg_witch_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_bg_witch_1.png",
+      "translation": [
+        961,
+        539,
+        0
+      ],
+      "anchor": [
+        967,
+        365,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_bg_witch_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "fog_bg_plan",
+      "translation": [
+        0,
+        53,
+        0
+      ],
+      "compositionRef": "precomps/fog_bg_plan.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_mp_witch_4.png",
+      "translation": [
+        913,
+        225,
+        0
+      ],
+      "anchor": [
+        399,
+        227,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_mp_witch_4.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_mp_witch_3.png",
+      "translation": [
+        961,
+        1041,
+        0
+      ],
+      "anchor": [
+        967,
+        143,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_mp_witch_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_mp_witch_2.png",
+      "translation": [
+        1573,
+        457,
+        0
+      ],
+      "anchor": [
+        355,
+        459,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_mp_witch_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_mp_witch_1.png",
+      "translation": [
+        351,
+        457,
+        0
+      ],
+      "anchor": [
+        357,
+        459,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_mp_witch_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "middle_plan_animation",
+      "translation": [
+        0,
+        30,
+        0
+      ],
+      "compositionRef": "precomps/middle_plan_animation.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8.16666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_tree_ne_2.png",
+      "translation": [
+        895,
+        183,
+        0
+      ],
+      "anchor": [
+        901,
+        185,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_tree_ne_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_tree_ne_1.png",
+      "translation": [
+        989,
+        515,
+        0
+      ],
+      "anchor": [
+        463,
+        165,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_tree_ne_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_tree_ne.png",
+      "translation": [
+        933,
+        901,
+        0
+      ],
+      "anchor": [
+        939,
+        239,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_tree_ne.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "second_middle_plan_animation",
+      "compositionRef": "precomps/second_middle_plan_animation.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 9,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "fog_second_plan",
+      "translation": [
+        0,
+        -4,
+        0
+      ],
+      "compositionRef": "precomps/fog_second_plan.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "particles_bg_parent",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "parent_pots",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "leaffall",
+      "compositionRef": "precomps/leaffall.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_fg_witch_5.png",
+      "translation": [
+        1537,
+        245,
+        0
+      ],
+      "anchor": [
+        311,
+        247,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_fg_witch_5.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_fg_witch_4.png",
+      "translation": [
+        1881,
+        445,
+        0
+      ],
+      "anchor": [
+        47,
+        447,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_fg_witch_4.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_fg_witch_3.png",
+      "translation": [
+        1825,
+        863,
+        0
+      ],
+      "anchor": [
+        27,
+        57,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_fg_witch_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_fg_witch_2.png",
+      "translation": [
+        961,
+        1025,
+        0
+      ],
+      "anchor": [
+        967,
+        159,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_fg_witch_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_fg_witch_1.png",
+      "translation": [
+        309,
+        439,
+        0
+      ],
+      "anchor": [
+        315,
+        441,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 36,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "assets/ltp_fg_witch_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_fg_witch_1.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_fg_witch_2.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_fg_witch_3.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_fg_witch_4.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_fg_witch_5.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "leaffall.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "parent_pots.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "particles_bg_parent.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "fog_second_plan.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "second_middle_plan_animation.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_tree_ne.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_tree_ne_1.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_tree_ne_2.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "middle_plan_animation.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_mp_witch_1.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_mp_witch_2.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_mp_witch_3.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_mp_witch_4.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "fog_bg_plan.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_bg_witch_1.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "ltp_bg_witch_2.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "ltp_fg_witch_1.png",
+        "ltp_fg_witch_2.png",
+        "ltp_fg_witch_3.png",
+        "ltp_fg_witch_4.png",
+        "ltp_fg_witch_5.png",
+        "leaffall",
+        "parent_pots",
+        "particles_bg_parent",
+        "fog_second_plan",
+        "second_middle_plan_animation",
+        "ltp_tree_ne.png",
+        "ltp_tree_ne_1.png",
+        "ltp_tree_ne_2.png",
+        "middle_plan_animation",
+        "ltp_mp_witch_1.png",
+        "ltp_mp_witch_2.png",
+        "ltp_mp_witch_3.png",
+        "ltp_mp_witch_4.png",
+        "fog_bg_plan",
+        "ltp_bg_witch_1.png",
+        "ltp_bg_witch_2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "witch5opt7noPots%20(converted).aep",
+  "version": 1
+}

@@ -1,0 +1,747 @@
+{
+  "name": "hidden_choose",
+  "children": [
+    {
+      "name": "bonus3",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus3",
+      "components": [
+        {
+          "black": [
+            0.09411764889956,
+            0,
+            0.08544892072678,
+            1
+          ],
+          "white": [
+            1,
+            0.10588236153126,
+            0.91764712333679,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": -2,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus2",
+      "components": [
+        {
+          "hue": 0,
+          "saturation": 0,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "black": [
+            0.00114993355237,
+            0.15294118225574,
+            0,
+            1
+          ],
+          "white": [
+            0.12156862765551,
+            0.63921570777893,
+            0.1176470592618,
+            1
+          ],
+          "amount": 0,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": -2,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "bonus1",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "bonus1",
+      "components": [
+        {
+          "black": [
+            0,
+            0.10765090584755,
+            0.10980392247438,
+            1
+          ],
+          "white": [
+            0,
+            0.98039221763611,
+            1,
+            1
+          ],
+          "amount": 0.11370916696984,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": -0.041,
+          "outPoint": 0.541,
+          "scale": 1,
+          "startTime": -2.583,
+          "duration": 3.125,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "free_spins_hidden$4",
+      "translation": [
+        960,
+        630.048,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "free_spins_hidden",
+      "components": [
+        {
+          "inPoint": 0.208,
+          "outPoint": 1.791,
+          "scale": 1,
+          "startTime": 0.208,
+          "duration": 1.66666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "free_spins_hidden",
+      "translation": [
+        960,
+        800,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "name": "firetr.png",
+          "translation": [
+            1250,
+            1162.528,
+            0
+          ],
+          "scale": [
+            4,
+            4,
+            1
+          ],
+          "anchor": [
+            75,
+            200,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.707,
+            0.707
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "hue": 0.466,
+              "saturation": 0,
+              "lightness": 0,
+              "_c": "ColorBalanceHLS"
+            },
+            {
+              "layerName": "free_spins_hidden",
+              "maskType": 1,
+              "_c": "Mask"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 1.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/firetr.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "compositionRef": "free_spins_hidden",
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.66666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "boom",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "boom",
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.16078431904316,
+            0.85490202903748,
+            0.95294123888016,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 1.583,
+          "outPoint": 2.333,
+          "scale": 1,
+          "startTime": 1.583,
+          "duration": 0.75,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "free_spins_hidden.translation": {
+          "values": [
+            [
+              960,
+              800,
+              0
+            ],
+            [
+              959.999,
+              762.982,
+              0
+            ],
+            [
+              960,
+              711.076,
+              0
+            ],
+            [
+              960,
+              665.392,
+              0
+            ],
+            [
+              960,
+              630.048,
+              0
+            ],
+            [
+              960,
+              603.264,
+              0
+            ],
+            [
+              960,
+              583.056,
+              0
+            ],
+            [
+              960,
+              567.896,
+              0
+            ],
+            [
+              959.999,
+              556.78,
+              0
+            ],
+            [
+              960,
+              548.909,
+              0
+            ],
+            [
+              960,
+              543.753,
+              0
+            ],
+            [
+              959.999,
+              540.892,
+              0
+            ],
+            [
+              960,
+              540,
+              0
+            ]
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "firetr.png.translation": {
+          "values": [
+            [
+              1250,
+              1162.528,
+              0
+            ],
+            [
+              1250,
+              1156.389,
+              0
+            ],
+            [
+              1250,
+              1139.316,
+              0
+            ],
+            [
+              1250,
+              1113.067,
+              0
+            ],
+            [
+              1250,
+              1079.069,
+              0
+            ],
+            [
+              1249.999,
+              1038.531,
+              0
+            ],
+            [
+              1250,
+              992.508,
+              0
+            ],
+            [
+              1250,
+              941.934,
+              0
+            ],
+            [
+              1249.999,
+              887.655,
+              0
+            ],
+            [
+              1249.999,
+              830.479,
+              0
+            ],
+            [
+              1249.999,
+              771.182,
+              0
+            ],
+            [
+              1250,
+              710.54,
+              0
+            ],
+            [
+              1250,
+              649.367,
+              0
+            ],
+            [
+              1250,
+              588.541,
+              0
+            ],
+            [
+              1250,
+              529.024,
+              0
+            ],
+            [
+              1249.999,
+              471.967,
+              0
+            ],
+            [
+              1250,
+              418.761,
+              0
+            ],
+            [
+              1250,
+              371.164,
+              0
+            ],
+            [
+              1249.999,
+              331.595,
+              0
+            ],
+            [
+              1250,
+              303.519,
+              0
+            ],
+            [
+              1250,
+              292.39,
+              0
+            ]
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "firetr.png.alpha": {
+          "values": [
+            1,
+            0.944,
+            0.813,
+            0.637,
+            0.43,
+            0.209,
+            0
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 15,
+          "frameLerp": false
+        },
+        "free_spins_hidden$4.translation": {
+          "values": [
+            [
+              960,
+              630.048,
+              0
+            ],
+            [
+              960,
+              603.264,
+              0
+            ],
+            [
+              960,
+              583.056,
+              0
+            ],
+            [
+              960,
+              567.896,
+              0
+            ],
+            [
+              959.999,
+              556.78,
+              0
+            ],
+            [
+              960,
+              548.909,
+              0
+            ],
+            [
+              960,
+              543.753,
+              0
+            ],
+            [
+              959.999,
+              540.892,
+              0
+            ],
+            [
+              960,
+              540,
+              0
+            ]
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "bonus1.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "bonus1.0.amount": {
+          "values": [
+            0.11370916696984,
+            0.36293666205015,
+            0.67902609979295,
+            1
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "bonus2.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 12,
+          "frameLerp": false
+        },
+        "bonus2.1.amount": {
+          "values": [
+            0,
+            0.11370916696984,
+            0.36293666205015,
+            0.67902609979295,
+            1
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 13,
+          "frameLerp": false
+        },
+        "bonus3.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 12,
+          "frameLerp": false
+        },
+        "bonus3.0.amount": {
+          "values": [
+            0,
+            0.11370916696984,
+            0.36293666205015,
+            0.67902609979295,
+            1
+          ],
+          "duration": 2.29166666666667,
+          "len": 55,
+          "cutf": 13,
+          "frameLerp": false
+        },
+        "boom.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 37
+        },
+        "firetr.png.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 42
+        },
+        "free_spins_hidden$4.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 4
+        },
+        "bonus1.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 12
+        },
+        "bonus2.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 12
+        },
+        "bonus3.enabled": {
+          "duration": 2.29166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 55,
+          "cutf": 12
+        }
+      },
+      "markers": {
+        "choose": {
+          "start": 0,
+          "duration": 2.29166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.29166666666667
+        }
+      },
+      "layers": [
+        "boom",
+        "free_spins_hidden",
+        "firetr.png",
+        "free_spins_hidden$4",
+        "bonus1",
+        "bonus2",
+        "bonus3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "6 August 2018 22:45",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

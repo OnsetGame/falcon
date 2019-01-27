@@ -1,0 +1,122 @@
+{
+  "name": "tab_task_complete",
+  "children": [
+    {
+      "name": "ltp_tab_middle_new.png",
+      "translation": [
+        269.5,
+        54,
+        0
+      ],
+      "anchor": [
+        269.5,
+        54,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            539,
+            108
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        269.5,
+        65.5,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 14,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Task Completed",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-016,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.enabled": {
+          "duration": 6.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 182,
+          "cutf": 181
+        },
+        "ltp_tab_middle_new.png.enabled": {
+          "duration": 6.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 182,
+          "cutf": 181
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6.04166666666667
+        }
+      },
+      "layers": [
+        "title",
+        "ltp_tab_middle_new.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

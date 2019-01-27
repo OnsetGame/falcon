@@ -1,0 +1,429 @@
+{
+  "name": "dust_scene",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "played": true,
+      "isMove": false,
+      "amplitude": 0.0,
+      "frequency": 0.0,
+      "distance": 40.0,
+      "speed": 9.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "name": "dust2",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            500.0,
+            500.0,
+            500.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ],
+      "children": [
+        {
+          "name": "dust_shape2",
+          "translation": [
+            995.9330444335938,
+            530.1295166015625,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 1.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 50.0,
+              "lifetime": 5.0,
+              "startVelocity": 200.0,
+              "randVelocityFrom": -100.0,
+              "randVelocityTo": 100.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityTo": [
+                0.0,
+                0.0,
+                300.0
+              ],
+              "startScale": [
+                50.0,
+                50.0,
+                50.0
+              ],
+              "dstScale": [
+                50.0,
+                50.0,
+                50.0
+              ],
+              "randScaleFrom": -50.0,
+              "randScaleTo": 50.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 1,
+              "colorMode": 1,
+              "scaleSeq": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.3499999940395355,
+                  21.0,
+                  21.0,
+                  21.0
+                ],
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "colorSeq": [
+                [
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  0.8999999761581421,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ],
+              "texture": "spacedotB.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                41.0,
+                42.0
+              ],
+              "animColumns": 5,
+              "framesCount": 25,
+              "fps": 20.0,
+              "modifierNode": "dust2",
+              "genShapeNode": "dust_shape2",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "dimension": [
+                2000.0,
+                1000.0,
+                0.0
+              ],
+              "is2D": true,
+              "_c": "BoxPSGenShape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dust1",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            200.0,
+            200.0,
+            200.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ],
+      "children": [
+        {
+          "name": "dust_shape1",
+          "translation": [
+            995.9330444335938,
+            530.1295166015625,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 0.7,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 1.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 100.0,
+              "lifetime": 5.0,
+              "startVelocity": 200.0,
+              "randVelocityFrom": -100.0,
+              "randVelocityTo": 100.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityTo": [
+                0.0,
+                0.0,
+                300.0
+              ],
+              "startScale": [
+                50.0,
+                50.0,
+                50.0
+              ],
+              "dstScale": [
+                50.0,
+                50.0,
+                50.0
+              ],
+              "randScaleFrom": -50.0,
+              "randScaleTo": 50.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 1,
+              "colorMode": 1,
+              "scaleSeq": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.3499999940395355,
+                  12.0,
+                  12.0,
+                  12.0
+                ],
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "colorSeq": [
+                [
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  0.8999999761581421,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ],
+              "texture": "spacedotA.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                10.0,
+                9.0
+              ],
+              "animColumns": 5,
+              "framesCount": 25,
+              "fps": 20.0,
+              "modifierNode": "dust1",
+              "genShapeNode": "dust_shape1",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "dimension": [
+                2000.0,
+                1000.0,
+                0.0
+              ],
+              "is2D": true,
+              "_c": "BoxPSGenShape"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

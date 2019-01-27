@@ -1,0 +1,132 @@
+{
+  "name": "exchange_tab",
+  "children": [
+    {
+      "name": "exchange_tab.png",
+      "translation": [
+        270,
+        54,
+        0
+      ],
+      "anchor": [
+        270,
+        54,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.958,
+          "scale": 1,
+          "startTime": -0.041,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/tabActive",
+          "size": [
+            540,
+            108
+          ]
+        }
+      ]
+    },
+    {
+      "name": "exchange_title",
+      "translation": [
+        270.6,
+        65.8,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.958,
+          "scale": 1,
+          "startTime": -57.541,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Exchange",
+          "font": "Exo2-Black",
+          "fontSize": 16,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "exchange_title.enabled": {
+          "duration": 3.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 119,
+          "cutf": 118
+        },
+        "exchange_tab.png.enabled": {
+          "duration": 3.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 119,
+          "cutf": 118
+        }
+      },
+      "markers": {
+        "spin": {
+          "start": 0.75,
+          "duration": 1.5
+        },
+        "exchange": {
+          "start": 2.25,
+          "duration": 1.70833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3.95833333333333
+        }
+      },
+      "layers": [
+        "exchange_title",
+        "exchange_tab.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

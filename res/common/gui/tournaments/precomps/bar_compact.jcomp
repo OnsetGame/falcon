@@ -1,0 +1,519 @@
+{
+  "name": "bar_compact",
+  "children": [
+    {
+      "name": "sh_bg",
+      "translation": [
+        9,
+        324,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            176,
+            653.425287356322
+          ],
+          "radius": 35,
+          "shapeType": 0,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sh_down",
+      "translation": [
+        93.5,
+        504.5,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "layerName": "mask_3",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            75,
+            75
+          ],
+          "shapeType": 1,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mask_3",
+      "translation": [
+        46,
+        504,
+        0
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "sh_up",
+      "translation": [
+        93.5,
+        144,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "layerName": "mask_2",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            75,
+            75
+          ],
+          "shapeType": 1,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mask_2",
+      "translation": [
+        46,
+        143.5,
+        0
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "sh_crown_shadow",
+      "translation": [
+        98,
+        328.5,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            145,
+            145
+          ],
+          "shapeType": 1,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sh_crown_bg",
+      "translation": [
+        97.5,
+        327.5,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "layerName": "mask_1",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            128,
+            128
+          ],
+          "shapeType": 1,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mask_1",
+      "translation": [
+        46,
+        320,
+        0
+      ],
+      "scale": [
+        1,
+        1.5,
+        1
+      ],
+      "anchor": [
+        50,
+        50,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "sh_crown_stroke",
+      "translation": [
+        97.5,
+        327,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            128,
+            128
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 11,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "crown_t",
+      "translation": [
+        97,
+        357,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.0
+      ],
+      "anchor": [
+        71,
+        75,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/crown_t.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "social",
+      "translation": [
+        99,
+        507,
+        0
+      ],
+      "anchor": [
+        29,
+        25,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/social.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "crown_g_big",
+      "translation": [
+        99,
+        149,
+        0
+      ],
+      "anchor": [
+        29,
+        31,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/crown_g_big.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "curr_place",
+      "translation": [
+        47.3202972412109,
+        557.080505371094,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.70710678118655,
+        0.70710678118655
+      ],
+      "components": [
+        {
+          "text": "0\n",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "total_place",
+      "translation": [
+        47.3202972412109,
+        449.080474853516,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.70710678118655,
+        0.70710678118655
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "separator_@noloc",
+      "translation": [
+        47.3202972412109,
+        504.080474853516,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.70710678118655,
+        0.70710678118655
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "text": "/",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "points",
+      "translation": [
+        47.3202972412109,
+        144.080474853516,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.70710678118655,
+        0.70710678118655
+      ],
+      "components": [
+        {
+          "text": "0\n",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

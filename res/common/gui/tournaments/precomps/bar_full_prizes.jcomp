@@ -1,0 +1,219 @@
+{
+  "name": "bar_full_prizes",
+  "children": [
+    {
+      "name": "sh_bg",
+      "translation": [
+        121,
+        324,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            333,
+            646
+          ],
+          "radius": 35,
+          "shapeType": 0,
+          "color": [
+            0.05098039215686,
+            0.05098039215686,
+            0.05098039215686,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "crown_bronze",
+      "translation": [
+        14.5,
+        376,
+        0
+      ],
+      "anchor": [
+        23,
+        37,
+        0
+      ],
+      "components": [
+        {
+          "hue": 0.08055555555556,
+          "saturation": -0.19,
+          "lightness": -0.19,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "fileNames": [
+            "../assets/crown_multi.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "crown_silver",
+      "translation": [
+        14.5,
+        268,
+        0
+      ],
+      "anchor": [
+        23,
+        37,
+        0
+      ],
+      "components": [
+        {
+          "hue": -0.39166666666667,
+          "saturation": -0.74,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "fileNames": [
+            "../assets/crown_multi.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "crown_gold",
+      "translation": [
+        14.5,
+        160,
+        0
+      ],
+      "anchor": [
+        23,
+        37,
+        0
+      ],
+      "components": [
+        {
+          "hue": 0.11388888888889,
+          "saturation": 0.6,
+          "lightness": 0,
+          "_c": "ColorBalanceHLS"
+        },
+        {
+          "fileNames": [
+            "../assets/crown_multi.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "collapse_button",
+      "translation": [
+        279,
+        327,
+        0
+      ],
+      "anchor": [
+        49,
+        69,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/button_t.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "winner_5",
+      "translation": [
+        134.5,
+        575,
+        0
+      ],
+      "anchor": [
+        93.5,
+        36,
+        0
+      ],
+      "compositionRef": "winner_info"
+    },
+    {
+      "name": "winner_4",
+      "translation": [
+        134.5,
+        467,
+        0
+      ],
+      "anchor": [
+        93.5,
+        36,
+        0
+      ],
+      "compositionRef": "winner_info"
+    },
+    {
+      "name": "winner_3",
+      "translation": [
+        134.5,
+        358,
+        0
+      ],
+      "anchor": [
+        93.5,
+        36,
+        0
+      ],
+      "compositionRef": "winner_info"
+    },
+    {
+      "name": "winner_2",
+      "translation": [
+        134.5,
+        251,
+        0
+      ],
+      "anchor": [
+        93.5,
+        36,
+        0
+      ],
+      "compositionRef": "winner_info"
+    },
+    {
+      "name": "winner_1",
+      "translation": [
+        134.5,
+        143,
+        0
+      ],
+      "anchor": [
+        93.5,
+        36,
+        0
+      ],
+      "compositionRef": "winner_info"
+    },
+    {
+      "name": "list_prizes_button",
+      "translation": [
+        144,
+        50,
+        0
+      ],
+      "anchor": [
+        125,
+        30,
+        0
+      ],
+      "compositionRef": "list_prizes_3slide"
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

@@ -1,0 +1,62 @@
+{
+  "name": "solidorange",
+  "children": [
+    {
+      "name": "ltp_solidorange_right.png",
+      "translation": [
+        171,
+        121,
+        0
+      ],
+      "anchor": [
+        171,
+        121,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_solidorange_right.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_solidorange_right.png.enabled": {
+          "duration": 5.16666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 155,
+          "cutf": 154
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.16666666666667
+        }
+      },
+      "layers": [
+        "ltp_solidorange_right.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_unlock_window.aep",
+  "version": 1
+}

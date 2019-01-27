@@ -1,0 +1,390 @@
+{
+  "name": "controller_6",
+  "children": [
+    {
+      "name": "Controller_6",
+      "translation": [
+        664,
+        528,
+        0
+      ],
+      "children": [
+        {
+          "name": "coin_comp",
+          "translation": [
+            177.249,
+            -96.299,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.333,
+            0.942
+          ],
+          "anchor": [
+            447,
+            225,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "coin_comp.json",
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0.041,
+              "outPoint": 1.375,
+              "scale": 1,
+              "startTime": 0.041,
+              "duration": 1.33333333333333,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.541,
+          "scale": 1,
+          "startTime": -0.625,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Controller_6.translation": {
+          "values": [
+            [
+              664,
+              528,
+              0
+            ],
+            [
+              919.779,
+              560.766,
+              0
+            ],
+            [
+              950.173,
+              578.228,
+              0
+            ],
+            [
+              906.106,
+              579.906,
+              0
+            ],
+            [
+              852.724,
+              580.893,
+              0
+            ],
+            [
+              797.154,
+              581.425,
+              0
+            ],
+            [
+              744.18,
+              581.674,
+              0
+            ],
+            [
+              695.933,
+              581.76,
+              0
+            ],
+            [
+              652.905,
+              581.757,
+              0
+            ],
+            [
+              615.008,
+              581.71,
+              0
+            ],
+            [
+              581.755,
+              581.645,
+              0
+            ],
+            [
+              552.635,
+              581.576,
+              0
+            ],
+            [
+              527.206,
+              581.511,
+              0
+            ],
+            [
+              505.017,
+              581.456,
+              0
+            ],
+            [
+              485.772,
+              581.414,
+              0
+            ],
+            [
+              469.127,
+              581.384,
+              0
+            ],
+            [
+              454.826,
+              581.367,
+              0
+            ],
+            [
+              442.639,
+              581.363,
+              0
+            ],
+            [
+              432.359,
+              581.37,
+              0
+            ],
+            [
+              423.849,
+              581.385,
+              0
+            ],
+            [
+              416.942,
+              581.407,
+              0
+            ],
+            [
+              411.512,
+              581.433,
+              0
+            ],
+            [
+              407.448,
+              581.459,
+              0
+            ],
+            [
+              404.645,
+              581.48,
+              0
+            ],
+            [
+              403.015,
+              581.495,
+              0
+            ],
+            [
+              402.5,
+              581.5,
+              0
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_6.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 46
+        },
+        "Controller_6.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.163,
+              0.986
+            ],
+            [
+              0,
+              0,
+              -0.203,
+              0.979
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_6.anchor": {
+          "values": [
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 46
+        },
+        "Controller_6.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 46
+        },
+        "coin_comp.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 1.54166666666667,
+          "len": 47,
+          "cutf": 0
+        },
+        "Controller_6.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 46
+        },
+        "coin_comp.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 47,
+          "cutf": 1
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.54166666666667
+        }
+      },
+      "layers": [
+        "Controller_6",
+        "coin_comp"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%2088.aep",
+  "version": 1
+}

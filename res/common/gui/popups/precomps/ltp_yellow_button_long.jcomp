@@ -1,0 +1,248 @@
+{
+  "name": "ltp_yellow_button_long",
+  "children": [
+    {
+      "name": "ltp_yellow_button_long_on.png",
+      "translation": [
+        246,
+        42,
+        0
+      ],
+      "anchor": [
+        246,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOn",
+          "size": [
+            492,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_yellow_button_long_off.png",
+      "translation": [
+        246,
+        42,
+        0
+      ],
+      "anchor": [
+        246,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOff",
+          "size": [
+            492,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        250,
+        50.25,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "GET COMPENSATION!",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              250,
+              50.25,
+              0
+            ],
+            [
+              249.999,
+              50.513,
+              0
+            ],
+            [
+              250,
+              51.132,
+              0
+            ],
+            [
+              250,
+              51.869,
+              0
+            ],
+            [
+              250,
+              52.484,
+              0
+            ],
+            [
+              250,
+              52.75,
+              0
+            ],
+            [
+              249.999,
+              52.484,
+              0
+            ],
+            [
+              250,
+              51.869,
+              0
+            ],
+            [
+              250,
+              51.132,
+              0
+            ],
+            [
+              250,
+              50.513,
+              0
+            ],
+            [
+              250,
+              50.25,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 60
+        },
+        "ltp_yellow_button_long_off.png.alpha": {
+          "values": [
+            1,
+            0.896,
+            0.648,
+            0.351,
+            0.103,
+            0,
+            0.103,
+            0.351,
+            0.648,
+            0.896,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 60
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_yellow_button_long_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_yellow_button_long_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 2,
+          "duration": 0.20833333333333
+        },
+        "button_up": {
+          "start": 2.20833333333333,
+          "duration": 0.125
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "title",
+        "ltp_yellow_button_long_off.png",
+        "ltp_yellow_button_long_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "compensation_window.aep",
+  "version": 1
+}

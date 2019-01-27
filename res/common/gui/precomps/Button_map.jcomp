@@ -1,0 +1,440 @@
+{
+  "name": "Button_map",
+  "children": [
+    {
+      "name": "parent_on",
+      "translation": [
+        128,
+        128,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_ellipse_map_icons.png",
+          "translation": [
+            -1.5,
+            -10.5,
+            0
+          ],
+          "anchor": [
+            85,
+            83,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_ellipse_map_icons.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "iconmap_placeholder",
+          "translation": [
+            0,
+            -17.5,
+            0
+          ],
+          "anchor": [
+            76,
+            69,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "black": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "white": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "amount": 0,
+              "_c": "Tint"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "IconComponent",
+              "iconComposition": "map_bottom_menu_icons"
+            },
+            {
+              "color": [
+                0.19183400273323,
+                0.41232299804688,
+                0.49411800503731
+              ],
+              "size": [
+                152,
+                138
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "Alert_comp",
+          "translation": [
+            48.199,
+            -78.9,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.75,
+            1
+          ],
+          "anchor": [
+            42.5,
+            42.5,
+            0
+          ],
+          "compositionRef": "../popups/precomps/Alert_comp.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        123,
+        220.5,
+        0
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Friends",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.5
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 52
+        },
+        "parent_on.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.919,
+              0.919,
+              1
+            ],
+            [
+              0.957,
+              0.957,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 25
+        },
+        "iconmap_placeholder.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.966,
+              0.966,
+              1
+            ],
+            [
+              0.899,
+              0.899,
+              1
+            ],
+            [
+              0.852,
+              0.852,
+              1
+            ],
+            [
+              0.869,
+              0.869,
+              1
+            ],
+            [
+              0.928,
+              0.928,
+              1
+            ],
+            [
+              0.992,
+              0.992,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 25
+        },
+        "iconmap_placeholder.0.inWhite": {
+          "values": [
+            1,
+            0.9390403616075,
+            0.82579316816887,
+            0.76470588235294,
+            0.80957951464291,
+            0.89906943420299,
+            0.9899191636594,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 25
+        },
+        "iconmap_placeholder.1.amount": {
+          "values": [
+            0,
+            0.400390625,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 52
+        },
+        "Alert_comp.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "iconmap_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_ellipse_map_icons.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "parent_on.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "active": {
+          "start": 0,
+          "duration": 0.25
+        },
+        "button_down": {
+          "start": 0.83333333333333,
+          "duration": 0.125
+        },
+        "button_up": {
+          "start": 0.95833333333333,
+          "duration": 0.08333333333334
+        },
+        "inactive": {
+          "start": 1.75,
+          "duration": 0.25
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "Alert_comp",
+        "title",
+        "iconmap_placeholder",
+        "ltp_ellipse_map_icons.png",
+        "parent_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Template.aep",
+  "version": 1
+}

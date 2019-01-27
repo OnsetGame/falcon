@@ -1,0 +1,63 @@
+{
+  "name": "arrow_tutorial",
+  "children": [
+    {
+      "name": "arrow_tutorial.png",
+      "translation": [
+        122.5,
+        132.5,
+        0
+      ],
+      "anchor": [
+        122.5,
+        231.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/arrow_tutorial.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "arrow_tutorial.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "arrow_tutorial.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "tut_res.aep",
+  "version": 1
+}

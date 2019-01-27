@@ -1,0 +1,134 @@
+{
+  "name": "light_particles",
+  "translation": [
+    0,
+    0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 80.0,
+      "isRandPos": true,
+      "isRandDir": false,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 3.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 10.0,
+      "lifetime": 4.0,
+      "startVelocity": 100.0,
+      "randVelocityFrom": -35.0,
+      "randVelocityTo": 35.0,
+      "is3dRotation": false,
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "dstScale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "randScaleFrom": 40.0,
+      "randScaleTo": 60.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "airDensity": 20.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.1000000014901161,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.800000011920929,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "light_part.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        40.0,
+        40.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "",
+      "genShapeNode": "light_particles",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    }
+  ]
+}

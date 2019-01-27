@@ -1,0 +1,168 @@
+{
+  "name": "store_card_buy_bttn",
+  "children": [
+    {
+      "name": "small_white_stroke_green_btn_on.png",
+      "translation": [
+        120,
+        56,
+        0
+      ],
+      "anchor": [
+        120,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_on",
+          "size": [
+            240,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "small_white_stroke_green_btn_off.png",
+      "translation": [
+        120,
+        56,
+        0
+      ],
+      "anchor": [
+        120,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_off",
+          "size": [
+            240,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        122.419,
+        69.421,
+        0
+      ],
+      "anchor": [
+        0.102,
+        2.053,
+        0
+      ],
+      "components": [
+        {
+          "text": "$14.99",
+          "font": "Exo2-Black",
+          "fontSize": 42,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "press": {
+      "title.translation": {
+        "values": [
+          [
+            122.419,
+            69.421,
+            0
+          ],
+          [
+            122.419,
+            69.421,
+            0
+          ],
+          [
+            122.419,
+            69.088,
+            0
+          ],
+          [
+            122.419,
+            68.755,
+            0
+          ],
+          [
+            122.419,
+            68.421,
+            0
+          ],
+          [
+            122.419,
+            68.421,
+            0
+          ],
+          [
+            122.419,
+            68.421,
+            0
+          ],
+          [
+            122.419,
+            68.756,
+            0
+          ],
+          [
+            122.419,
+            69.088,
+            0
+          ],
+          [
+            122.419,
+            69.421,
+            0
+          ]
+        ],
+        "duration": 0.41666666666667
+      },
+      "small_white_stroke_green_btn_off.png.alpha": {
+        "values": [
+          1,
+          1,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          1
+        ],
+        "duration": 0.41666666666667
+      }
+    }
+  },
+  "aep_name": "GUI_boost_shop_chips_bucks_dev2.aep",
+  "export_time": "7 June 2018 22:33",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

@@ -1,0 +1,155 @@
+{
+  "name": "plus_friend",
+  "children": [
+    {
+      "name": "ltp_ellipse_2.png",
+      "translation": [
+        41,
+        38,
+        0
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        1
+      ],
+      "anchor": [
+        44,
+        44,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15.015,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ellipse_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "LVL_bg_shadow.png",
+      "translation": [
+        40,
+        39,
+        0
+      ],
+      "scale": [
+        0.94,
+        0.94,
+        1
+      ],
+      "anchor": [
+        43,
+        43,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15.015,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/LVL_bg_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tiny_plus.png",
+      "translation": [
+        40,
+        39,
+        0
+      ],
+      "anchor": [
+        16,
+        16,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15.015,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/tiny_plus.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tiny_plus.png.enabled": {
+          "duration": 15,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 450,
+          "cutf": 449
+        },
+        "LVL_bg_shadow.png.enabled": {
+          "duration": 15,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 450,
+          "cutf": 449
+        },
+        "ltp_ellipse_2.png.enabled": {
+          "duration": 15,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 450,
+          "cutf": 449
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 15
+        }
+      },
+      "layers": [
+        "tiny_plus.png",
+        "LVL_bg_shadow.png",
+        "ltp_ellipse_2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

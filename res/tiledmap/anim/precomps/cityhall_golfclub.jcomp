@@ -1,0 +1,58 @@
+{
+  "name": "cityhall_golfclub",
+  "children": [
+    {
+      "name": "cityhall_golfclub_terra",
+      "translation": [
+        1827.75,
+        432.5,
+        0
+      ],
+      "anchor": [
+        1437.5,
+        720.5,
+        0
+      ],
+      "compositionRef": "cityhall_golfclub_terra.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cityhall_golfclub_terra.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "cityhall_golfclub_terra"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "golf_club_opt_dev.aep",
+  "version": 1
+}

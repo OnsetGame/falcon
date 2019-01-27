@@ -1,0 +1,184 @@
+{
+  "name": "vip_card_benefit",
+  "children": [
+    {
+      "name": "title",
+      "translation": [
+        48.347,
+        91.373,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "30 days",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "icon",
+      "translation": [
+        50.125,
+        37.875,
+        0
+      ],
+      "anchor": [
+        45,
+        46,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconHasOutline": true
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            90,
+            92
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "slot_icon",
+      "translation": [
+        49.507,
+        35.5,
+        0
+      ],
+      "anchor": [
+        34.5,
+        35.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "slot_logos_icons",
+          "iconHasOutline": true
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            69,
+            71
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "blue_star",
+      "translation": [
+        66.625,
+        33.375,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        1
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "ratio",
+          "translation": [
+            93.991,
+            100.494,
+            0
+          ],
+          "scale": [
+            2.857,
+            2.857,
+            1
+          ],
+          "anchor": [
+            -0.042,
+            0.149,
+            0
+          ],
+          "components": [
+            {
+              "text": "x1.5",
+              "font": "Exo2-Black",
+              "fontSize": 16,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -1.83697019872103e-16,
+                1
+              ],
+              "shadowRadius": 1,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_VIPinfo_level_up_dev2.aep",
+  "export_time": "12 July 2018 12:25",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

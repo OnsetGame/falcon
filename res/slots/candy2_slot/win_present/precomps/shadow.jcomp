@@ -1,0 +1,152 @@
+{
+  "name": "shadow",
+  "children": [
+    {
+      "name": "parent_shadow",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "name": "free_spins_lines2",
+          "translation": [
+            -954,
+            -526,
+            0
+          ],
+          "alpha": 0.4,
+          "compositionRef": "free_spins_lines",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 0,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 0,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                -1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 3,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 3,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 0,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 0,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            -1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent_shadow.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        },
+        "free_spins_lines2.enabled": {
+          "duration": 3,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 90,
+          "cutf": 89
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3
+        }
+      },
+      "layers": [
+        "parent_shadow",
+        "free_spins_lines2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Candy2_Free_spin.aep",
+  "version": 1
+}

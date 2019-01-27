@@ -1,0 +1,6062 @@
+{
+  "name": "level_up",
+  "children": [
+    {
+      "name": "Placeholder",
+      "translation": [
+        960,
+        578,
+        0
+      ],
+      "anchor": [
+        487,
+        343,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowBezel",
+          "size": [
+            974,
+            686
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Holder_Null",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            -5,
+            41,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "anchor": [
+            171,
+            121,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "tab_middle",
+          "translation": [
+            0,
+            -297.999,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            269.5,
+            54,
+            0
+          ],
+          "compositionRef": "tab_middle.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4.04166666666667,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_glow",
+      "translation": [
+        960.5,
+        505,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        300,
+        300,
+        0
+      ],
+      "compositionRef": "ltp_glow.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 12,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Medium Gray-Orange Solid 14",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.375,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.60000002384186,
+            0.44705900549889,
+            0.29019600152969
+          ],
+          "size": [
+            1920,
+            1080
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "Placeholder_over",
+      "translation": [
+        984,
+        692,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "ltp_over_text.png",
+          "translation": [
+            -10,
+            164.059,
+            0
+          ],
+          "scale": [
+            1,
+            1.65,
+            1
+          ],
+          "anchor": [
+            477,
+            218,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_over_text.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_gold.png",
+          "translation": [
+            -24,
+            -183,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            391,
+            11,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_gold.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_line_1.png",
+          "translation": [
+            -387,
+            138.5,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            0.5,
+            11.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12.166,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_line_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Null_button",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "halfcircle.png",
+          "translation": [
+            0,
+            218.5,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            103,
+            67,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/halfcircle.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "get_reward_orange_button",
+          "translation": [
+            0,
+            289.94,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            174,
+            42,
+            0
+          ],
+          "compositionRef": "get_reward_orange_button.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "ButtonComponent",
+              "bounds": [
+                0,
+                0,
+                348,
+                84
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "LEVELUP_CONGRATULATION",
+      "translation": [
+        960,
+        660,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Congratulations!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowX": -3.67394039744206e-16,
+          "shadowY": 2,
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "LEVELUP_NEW_LEVEL",
+      "translation": [
+        959.5,
+        612,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "New City Level reached!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowX": -3.67394039744206e-16,
+          "shadowY": 2,
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "level_up_stars",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "level_up_stars.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.208,
+          "outPoint": 4.25,
+          "scale": 1,
+          "startTime": 0.208,
+          "duration": 4.04166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape9",
+      "translation": [
+        1055.5,
+        535.5,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2.166,
+          "outPoint": 2.666,
+          "scale": 1,
+          "startTime": 2.166,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape8",
+      "translation": [
+        1016.5,
+        435,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2.041,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 2.041,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape7",
+      "translation": [
+        831.5,
+        369.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 2,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape6",
+      "translation": [
+        901.5,
+        433,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.875,
+          "outPoint": 2.375,
+          "scale": 1,
+          "startTime": 1.875,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape5",
+      "translation": [
+        1086,
+        416,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2.083,
+          "outPoint": 2.583,
+          "scale": 1,
+          "startTime": 2.083,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape4",
+      "translation": [
+        957.5,
+        305,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.958,
+          "outPoint": 2.458,
+          "scale": 1,
+          "startTime": 1.958,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape3",
+      "translation": [
+        963,
+        477.5,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.916,
+          "outPoint": 2.416,
+          "scale": 1,
+          "startTime": 1.916,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape2",
+      "translation": [
+        877.5,
+        376.5,
+        0
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.875,
+          "outPoint": 2.375,
+          "scale": 1,
+          "startTime": 1.875,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape1",
+      "translation": [
+        883,
+        318.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 2.041,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 2.041,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "shape0",
+      "translation": [
+        759.5,
+        406,
+        0
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1
+      ],
+      "anchor": [
+        25.5,
+        25,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "questbar_story_completed_shape.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.916,
+          "outPoint": 2.416,
+          "scale": 1,
+          "startTime": 1.916,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "NULL CONTROL",
+      "translation": [
+        958.5,
+        745,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        60,
+        60,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_blue_01_safe.png",
+          "translation": [
+            57.977,
+            57.058,
+            0
+          ],
+          "scale": [
+            0.429,
+            0.429,
+            1
+          ],
+          "anchor": [
+            219,
+            222,
+            0
+          ],
+          "children": [
+            {
+              "name": "ltp_blue_01_door.png",
+              "translation": [
+                218.999,
+                222,
+                0
+              ],
+              "anchor": [
+                219,
+                222,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inWhite": 1,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 12,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_blue_01_door.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 12,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_blue_01_safe.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "NULL CONTROL.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.041,
+              0.041,
+              1
+            ],
+            [
+              0.251,
+              0.251,
+              1
+            ],
+            [
+              0.748,
+              0.748,
+              1
+            ],
+            [
+              0.958,
+              0.958,
+              1
+            ],
+            [
+              0.999,
+              1,
+              1
+            ],
+            [
+              0.986,
+              0.986,
+              1
+            ],
+            [
+              0.919,
+              0.919,
+              1
+            ],
+            [
+              0.76,
+              0.76,
+              1
+            ],
+            [
+              0.6929999999999999,
+              0.6929999999999999,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.679,
+              0.679,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.679,
+              0.679,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.712,
+              0.712,
+              1
+            ],
+            [
+              0.823,
+              0.823,
+              1
+            ],
+            [
+              0.93,
+              0.93,
+              1
+            ],
+            [
+              0.996,
+              0.996,
+              1
+            ],
+            [
+              0.9389999999999999,
+              0.9389999999999999,
+              1
+            ],
+            [
+              0.718,
+              0.718,
+              1
+            ],
+            [
+              0.425,
+              0.425,
+              1
+            ],
+            [
+              0.156,
+              0.156,
+              1
+            ],
+            [
+              0.007,
+              0.007,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 5
+        },
+        "ltp_blue_01_door.png.0.inWhite": {
+          "values": [
+            1,
+            0.9921694782684,
+            0.93756625603023,
+            0.84863999970152,
+            0.74651059292294,
+            0.65229791892675,
+            0.58706864120352,
+            0.57548897473255,
+            0.6814814819063399,
+            0.84859968610798,
+            0.97906634945098,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 7
+        },
+        "ltp_blue_01_safe.png.0.inWhite": {
+          "values": [
+            1,
+            0.9921694782684,
+            0.93756625603023,
+            0.84863999970152,
+            0.74651059292294,
+            0.65229791892675,
+            0.58706864120352,
+            0.57548897473255,
+            0.6814814819063399,
+            0.84859968610798,
+            0.97906634945098,
+            1
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 7
+        },
+        "shape0.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.599,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 56
+        },
+        "shape1.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 61
+        },
+        "shape2.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 55
+        },
+        "shape3.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.599,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 56
+        },
+        "shape4.alpha": {
+          "values": [
+            0,
+            0.4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.799,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 57
+        },
+        "shape5.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.599,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 61
+        },
+        "shape6.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 55
+        },
+        "shape7.alpha": {
+          "values": [
+            0,
+            0.2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.2,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 58
+        },
+        "shape8.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 60
+        },
+        "shape9.alpha": {
+          "values": [
+            0,
+            0.2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.2,
+            0
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 63
+        },
+        "level_up_stars.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.078,
+              1.078,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              0.789,
+              0.789,
+              1
+            ],
+            [
+              0.467,
+              0.467,
+              1
+            ],
+            [
+              0.171,
+              0.171,
+              1
+            ],
+            [
+              0.007,
+              0.007,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 107
+        },
+        "LEVELUP_NEW_LEVEL.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.066,
+              0.049,
+              1
+            ],
+            [
+              0.31,
+              0.239,
+              1
+            ],
+            [
+              0.632,
+              0.511,
+              1
+            ],
+            [
+              0.928,
+              0.803,
+              1
+            ],
+            [
+              1.092,
+              1.051,
+              1
+            ],
+            [
+              1.089,
+              1.174,
+              1
+            ],
+            [
+              1.054,
+              1.143,
+              1
+            ],
+            [
+              1.017,
+              1.052,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.078,
+              1.078,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              0.789,
+              0.789,
+              1
+            ],
+            [
+              0.467,
+              0.467,
+              1
+            ],
+            [
+              0.171,
+              0.171,
+              1
+            ],
+            [
+              0.007,
+              0.007,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 6
+        },
+        "LEVELUP_CONGRATULATION.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.066,
+              0.049,
+              1
+            ],
+            [
+              0.31,
+              0.239,
+              1
+            ],
+            [
+              0.632,
+              0.511,
+              1
+            ],
+            [
+              0.928,
+              0.803,
+              1
+            ],
+            [
+              1.092,
+              1.051,
+              1
+            ],
+            [
+              1.089,
+              1.174,
+              1
+            ],
+            [
+              1.054,
+              1.143,
+              1
+            ],
+            [
+              1.017,
+              1.052,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.078,
+              1.078,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              0.789,
+              0.789,
+              1
+            ],
+            [
+              0.467,
+              0.467,
+              1
+            ],
+            [
+              0.171,
+              0.171,
+              1
+            ],
+            [
+              0.007,
+              0.007,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 6
+        },
+        "Null_button.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.066,
+              0.049,
+              1
+            ],
+            [
+              0.31,
+              0.239,
+              1
+            ],
+            [
+              0.632,
+              0.511,
+              1
+            ],
+            [
+              0.928,
+              0.803,
+              1
+            ],
+            [
+              1.092,
+              1.051,
+              1
+            ],
+            [
+              1.089,
+              1.174,
+              1
+            ],
+            [
+              1.054,
+              1.143,
+              1
+            ],
+            [
+              1.017,
+              1.052,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.078,
+              1.078,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              0.789,
+              0.789,
+              1
+            ],
+            [
+              0.467,
+              0.467,
+              1
+            ],
+            [
+              0.171,
+              0.171,
+              1
+            ],
+            [
+              0.007,
+              0.007,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 6
+        },
+        "Placeholder_over.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.022,
+              1
+            ],
+            [
+              1,
+              0.181,
+              1
+            ],
+            [
+              1,
+              0.438,
+              1
+            ],
+            [
+              1,
+              0.731,
+              1
+            ],
+            [
+              1,
+              0.997,
+              1
+            ],
+            [
+              1,
+              1.161,
+              1
+            ],
+            [
+              1,
+              1.16,
+              1
+            ],
+            [
+              1,
+              1.075,
+              1
+            ],
+            [
+              1,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1.01,
+              1
+            ],
+            [
+              1,
+              1.044,
+              1
+            ],
+            [
+              1,
+              1.078,
+              1
+            ],
+            [
+              1,
+              1.098,
+              1
+            ],
+            [
+              1,
+              1.033,
+              1
+            ],
+            [
+              1,
+              0.789,
+              1
+            ],
+            [
+              1,
+              0.467,
+              1
+            ],
+            [
+              1,
+              0.171,
+              1
+            ],
+            [
+              1,
+              0.007,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 2
+        },
+        "ltp_glow.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.055,
+              0.055,
+              1
+            ],
+            [
+              0.208,
+              0.208,
+              1
+            ],
+            [
+              0.438,
+              0.438,
+              1
+            ],
+            [
+              0.723,
+              0.723,
+              1
+            ],
+            [
+              1.042,
+              1.042,
+              1
+            ],
+            [
+              1.374,
+              1.374,
+              1
+            ],
+            [
+              1.699,
+              1.699,
+              1
+            ],
+            [
+              1.994,
+              1.994,
+              1
+            ],
+            [
+              2.24,
+              2.24,
+              1
+            ],
+            [
+              2.414,
+              2.414,
+              1
+            ],
+            [
+              2.496,
+              2.496,
+              1
+            ],
+            [
+              2.489,
+              2.489,
+              1
+            ],
+            [
+              2.447,
+              2.447,
+              1
+            ],
+            [
+              2.382,
+              2.382,
+              1
+            ],
+            [
+              2.303,
+              2.303,
+              1
+            ],
+            [
+              2.217,
+              2.217,
+              1
+            ],
+            [
+              2.136,
+              2.136,
+              1
+            ],
+            [
+              2.066,
+              2.066,
+              1
+            ],
+            [
+              2.018,
+              2.018,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.999,
+              1.999,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2.024,
+              2.024,
+              1
+            ],
+            [
+              2.176,
+              2.176,
+              1
+            ],
+            [
+              2.37,
+              2.37,
+              1
+            ],
+            [
+              2.493,
+              2.493,
+              1
+            ],
+            [
+              2.348,
+              2.348,
+              1
+            ],
+            [
+              1.795,
+              1.795,
+              1
+            ],
+            [
+              1.062,
+              1.062,
+              1
+            ],
+            [
+              0.39,
+              0.39,
+              1
+            ],
+            [
+              0.018,
+              0.018,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "Holder_Null.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.619,
+              0.619,
+              1
+            ],
+            [
+              0.851,
+              0.851,
+              1
+            ],
+            [
+              0.994,
+              0.994,
+              1
+            ],
+            [
+              1.087,
+              1.087,
+              1
+            ],
+            [
+              1.147,
+              1.147,
+              1
+            ],
+            [
+              1.182,
+              1.182,
+              1
+            ],
+            [
+              1.198,
+              1.198,
+              1
+            ],
+            [
+              1.19,
+              1.19,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.002,
+              1.002,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1.068,
+              1.068,
+              1
+            ],
+            [
+              1.161,
+              1.161,
+              1
+            ],
+            [
+              1.19,
+              1.19,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.169,
+              1.169,
+              1
+            ],
+            [
+              1.057,
+              1.057,
+              1
+            ],
+            [
+              0.893,
+              0.893,
+              1
+            ],
+            [
+              0.698,
+              0.698,
+              1
+            ],
+            [
+              0.485,
+              0.485,
+              1
+            ],
+            [
+              0.27,
+              0.27,
+              1
+            ],
+            [
+              0.077,
+              0.077,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 12,
+          "len": 360,
+          "cutf": 0
+        },
+        "ltp_blue_01_door.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_blue_01_safe.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "NULL CONTROL.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "shape0.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 57
+        },
+        "shape1.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 61
+        },
+        "shape2.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 56
+        },
+        "shape3.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 57
+        },
+        "shape4.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 58
+        },
+        "shape5.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 62
+        },
+        "shape6.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 56
+        },
+        "shape7.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 59
+        },
+        "shape8.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 61
+        },
+        "shape9.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 64
+        },
+        "level_up_stars.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 6
+        },
+        "LEVELUP_NEW_LEVEL.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "LEVELUP_CONGRATULATION.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "get_reward_orange_button.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 119
+        },
+        "halfcircle.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Null_button.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_line_1.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_line_gold.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 121
+        },
+        "ltp_over_text.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Placeholder_over.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Medium Gray-Orange Solid 14.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 11
+        },
+        "tab_middle.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 121
+        },
+        "ltp_glow.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Holder_Null.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "Placeholder.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 3
+        },
+        "idle": {
+          "start": 3,
+          "duration": 0.54166666666667
+        },
+        "hide": {
+          "start": 3.54166666666667,
+          "duration": 0.41666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 12
+        }
+      },
+      "layers": [
+        "ltp_blue_01_door.png",
+        "ltp_blue_01_safe.png",
+        "NULL CONTROL",
+        "shape0",
+        "shape1",
+        "shape2",
+        "shape3",
+        "shape4",
+        "shape5",
+        "shape6",
+        "shape7",
+        "shape8",
+        "shape9",
+        "level_up_stars",
+        "LEVELUP_NEW_LEVEL",
+        "LEVELUP_CONGRATULATION",
+        "get_reward_orange_button",
+        "halfcircle.png",
+        "Null_button",
+        "ltp_line_1.png",
+        "ltp_line_gold.png",
+        "ltp_over_text.png",
+        "Placeholder_over",
+        "Medium Gray-Orange Solid 14",
+        "tab_middle",
+        "ltp_glow",
+        "ltp_solidorange.png",
+        "Holder_Null",
+        "Placeholder"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

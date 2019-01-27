@@ -1,0 +1,242 @@
+{
+  "name": "big_white_stroke_green_btn_complete",
+  "children": [
+    {
+      "name": "big_white_stroke_green_btn_on.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_off.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        170.25,
+        61.009,
+        0
+      ],
+      "anchor": [
+        1.67,
+        -10.534,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Complete",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "icons_signs_placeholder",
+      "translation": [
+        13.558,
+        52.827,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "anchor": [
+        40.5,
+        40.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            81,
+            81
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.tY": {
+          "values": [
+            61.0099945068359,
+            61.5428401989014,
+            62.4972033277018,
+            63.5099945068359,
+            63.5099945068359,
+            63.5099945068359,
+            63.5099945068359,
+            63.5099945068359,
+            63.5099945068359,
+            62.4972033277018,
+            61.5428401989014,
+            61.0099945068359
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "icons_signs_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "big_white_stroke_green_btn_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "big_white_stroke_green_btn_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.66666666666667,
+          "duration": 0.25
+        },
+        "button_up": {
+          "start": 0.91666666666667,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "icons_signs_placeholder",
+        "title",
+        "big_white_stroke_green_btn_off.png",
+        "big_white_stroke_green_btn_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_map_quests.aep",
+  "version": 1
+}

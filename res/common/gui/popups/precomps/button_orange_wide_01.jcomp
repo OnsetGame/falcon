@@ -1,0 +1,257 @@
+{
+  "name": "button_orange_wide_01",
+  "children": [
+    {
+      "name": "big_white_stroke_yellow_btn_on",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_yellow_btn_off",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7.458,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        222.176,
+        67.868,
+        0
+      ],
+      "anchor": [
+        1.823,
+        -11.868,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Play",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              222.176,
+              67.868,
+              0
+            ],
+            [
+              222.176,
+              68.376,
+              0
+            ],
+            [
+              222.176,
+              69.386,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              70.4,
+              0
+            ],
+            [
+              222.176,
+              69.386,
+              0
+            ],
+            [
+              222.176,
+              68.376,
+              0
+            ],
+            [
+              222.176,
+              67.868,
+              0
+            ]
+          ],
+          "duration": 7,
+          "len": 210,
+          "cutf": 22
+        },
+        "big_white_stroke_yellow_btn_off.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 7,
+          "len": 210,
+          "cutf": 22
+        },
+        "title.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 119
+        },
+        "big_white_stroke_yellow_btn_off.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 209
+        },
+        "big_white_stroke_yellow_btn_on.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 209
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 7
+        }
+      },
+      "layers": [
+        "title",
+        "big_white_stroke_yellow_btn_off",
+        "big_white_stroke_yellow_btn_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

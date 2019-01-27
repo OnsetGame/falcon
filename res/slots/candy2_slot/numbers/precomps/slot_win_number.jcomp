@@ -1,0 +1,387 @@
+{
+  "name": "slot_win_number",
+  "children": [
+    {
+      "name": "MOVE",
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "children": [
+        {
+          "name": "drops_line_numbers",
+          "translation": [
+            -256.319,
+            -161.635,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            1
+          ],
+          "alpha": 0,
+          "compositionRef": "drops_line_numbers",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.033,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2.03333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "win_numbers",
+          "translation": [
+            959.666,
+            539,
+            0
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "alpha": 0,
+          "compositionRef": "win_numbers",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.033,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2.03333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "MOVE.scale": {
+          "values": [
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.89,
+              1.89,
+              1
+            ],
+            [
+              1.77,
+              1.77,
+              1
+            ],
+            [
+              1.551,
+              1.551,
+              1
+            ],
+            [
+              1.307,
+              1.307,
+              1
+            ],
+            [
+              1.092,
+              1.092,
+              1
+            ],
+            [
+              0.969,
+              0.969,
+              1
+            ],
+            [
+              0.872,
+              0.872,
+              1
+            ],
+            [
+              0.867,
+              0.867,
+              1
+            ],
+            [
+              0.885,
+              0.885,
+              1
+            ],
+            [
+              0.934,
+              0.934,
+              1
+            ],
+            [
+              0.987,
+              0.987,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.031,
+              1.031,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              0.904,
+              0.904,
+              1
+            ],
+            [
+              0.845,
+              0.845,
+              1
+            ],
+            [
+              0.788,
+              0.788,
+              1
+            ],
+            [
+              0.75,
+              0.75,
+              1
+            ]
+          ],
+          "duration": 2.03333333333333,
+          "len": 61,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "win_numbers.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            0.999,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.847,
+            0.619,
+            0.38,
+            0.152,
+            0
+          ],
+          "duration": 2.03333333333333,
+          "len": 61,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "drops_line_numbers.alpha": {
+          "values": [
+            0,
+            0.033,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "duration": 2.03333333333333,
+          "len": 61,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "MOVE.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        },
+        "win_numbers.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        },
+        "drops_line_numbers.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 1.26666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.03333333333333
+        }
+      },
+      "layers": [
+        "MOVE",
+        "win_numbers",
+        "drops_line_numbers"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Numbers_small_last_candy2_YELLOW.aep",
+  "export_time": "9 July 2018 12:03",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

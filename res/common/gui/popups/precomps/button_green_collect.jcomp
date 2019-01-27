@@ -1,0 +1,291 @@
+{
+  "name": "button_green_collect",
+  "children": [
+    {
+      "name": "green_button_on",
+      "translation": [
+        150,
+        42,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButtonWhiteStrokeOn",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "green_button_off",
+      "translation": [
+        150,
+        42,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/greenButtonWhiteStrokeOff",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gift_invite_friend",
+      "translation": [
+        149.618,
+        38.759,
+        0
+      ],
+      "scale": [
+        2.6,
+        2.6,
+        1
+      ],
+      "anchor": [
+        -0.031,
+        -3.68,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "INVITE A FRIEND",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "gift_invite_friend.translation": {
+          "values": [
+            [
+              149.618,
+              38.759,
+              0
+            ],
+            [
+              149.597,
+              38.719,
+              0
+            ],
+            [
+              149.582,
+              38.68,
+              0
+            ],
+            [
+              149.563,
+              38.638,
+              0
+            ],
+            [
+              149.532,
+              38.613,
+              0
+            ],
+            [
+              149.516,
+              38.651,
+              0
+            ],
+            [
+              149.509,
+              38.696,
+              0
+            ],
+            [
+              149.505,
+              38.738,
+              0
+            ],
+            [
+              149.496,
+              39.161,
+              0
+            ],
+            [
+              149.498,
+              39.959,
+              0
+            ],
+            [
+              149.504,
+              40.76,
+              0
+            ],
+            [
+              149.504,
+              40.76,
+              0
+            ],
+            [
+              149.504,
+              40.76,
+              0
+            ],
+            [
+              149.504,
+              40.76,
+              0
+            ],
+            [
+              149.504,
+              40.557,
+              0
+            ],
+            [
+              149.504,
+              39.76,
+              0
+            ],
+            [
+              149.504,
+              38.961,
+              0
+            ],
+            [
+              149.504,
+              38.759,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "green_button_off.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0.5,
+            0.899,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "gift_invite_friend.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "green_button_off.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "green_button_on.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.20833333333333,
+          "duration": 0.375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "gift_invite_friend",
+        "green_button_off",
+        "green_button_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

@@ -1,0 +1,121 @@
+{
+  "name": "brown_line",
+  "children": [
+    {
+      "name": "brown_parent",
+      "translation": [
+        512,
+        23.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "yellow_line.png",
+          "translation": [
+            -512,
+            -23.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/yellow_line.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            0.35294117647059,
+            0.19862745098039,
+            0.31725490196078
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "brown_parent.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        },
+        "yellow_line.png.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5
+        }
+      },
+      "layers": [
+        "brown_parent",
+        "yellow_line.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Candy2_Free_spin.aep",
+  "version": 1
+}

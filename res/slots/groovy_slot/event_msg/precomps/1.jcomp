@@ -1,0 +1,62 @@
+{
+  "name": "1",
+  "children": [
+    {
+      "name": "01.png",
+      "translation": [
+        75,
+        90,
+        0
+      ],
+      "anchor": [
+        74.5,
+        90,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 24,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "01.png.enabled": {
+          "duration": 24,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 720,
+          "cutf": 719
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 24
+        }
+      },
+      "layers": [
+        "01.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev_branding.aep",
+  "version": 1
+}

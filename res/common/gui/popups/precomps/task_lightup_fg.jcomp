@@ -1,0 +1,139 @@
+{
+  "name": "task_lightup_fg",
+  "children": [
+    {
+      "name": "saber_string$3",
+      "translation": [
+        -2,
+        358.5,
+        0
+      ],
+      "anchor": [
+        100,
+        475,
+        0
+      ],
+      "compositionRef": "saber_string",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "saber_string",
+      "translation": [
+        434,
+        358.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "anchor": [
+        100,
+        475,
+        0
+      ],
+      "compositionRef": "saber_string",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.083,
+          "outPoint": 6.083,
+          "scale": 1,
+          "startTime": 0.083,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "particle_null",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "particle_null.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "saber_string.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 2
+        },
+        "saber_string$3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 3.95833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "particle_null",
+        "saber_string",
+        "saber_string$3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,539 @@
+{
+  "name": "settings",
+  "children": [
+    {
+      "name": "black_solid",
+      "translation": [
+        960,
+        275,
+        0
+      ],
+      "anchor": [
+        521.5,
+        0,
+        0
+      ],
+      "alpha": 0.6,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1043,
+            565
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "settings_down_bg.png$15",
+      "translation": [
+        960,
+        873,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "anchor": [
+        535,
+        43,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1070,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "settings_down_bg.png",
+      "translation": [
+        960,
+        254,
+        0
+      ],
+      "anchor": [
+        535,
+        43,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1070,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "music_progress",
+      "translation": [
+        617,
+        577,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_level_bar.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sound_progress",
+      "translation": [
+        617,
+        433,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_level_bar.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1430,
+        238.449,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        1
+      ],
+      "compositionRef": "button_close",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        736,
+        156.75,
+        0
+      ],
+      "compositionRef": "popup_title",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "gui_music_text",
+      "translation": [
+        636.45,
+        520.427,
+        0
+      ],
+      "anchor": [
+        2.451,
+        -30.572,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Music",
+          "font": "Exo2-Bold",
+          "fontSize": 43,
+          "color": [
+            1,
+            0.99888002872467,
+            0.99607998132706
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_sound_text",
+      "translation": [
+        634.848,
+        378.77,
+        0
+      ],
+      "anchor": [
+        1.848,
+        -30.229,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Sound",
+          "font": "Exo2-Bold",
+          "fontSize": 43,
+          "color": [
+            1,
+            0.99888002872467,
+            0.99607998132706
+          ],
+          "justification": "haLeft",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "music_drag",
+      "translation": [
+        925,
+        561,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_circle.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sound_drag",
+      "translation": [
+        1009,
+        417,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_circle.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "orange_button_07",
+      "translation": [
+        1151,
+        710.125,
+        0
+      ],
+      "anchor": [
+        151,
+        42,
+        0
+      ],
+      "compositionRef": "orange_button_07",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "fb_button_04",
+      "translation": [
+        769,
+        710,
+        0
+      ],
+      "anchor": [
+        151,
+        42,
+        0
+      ],
+      "compositionRef": "fb_button_04",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "fb_button_04.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "orange_button_07.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "sound_drag.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "music_drag.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gui_sound_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "gui_music_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "sound_progress.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "music_progress.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "settings_down_bg.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "settings_down_bg.png$15.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "black_solid.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "fb_button_04",
+        "orange_button_07",
+        "sound_drag",
+        "music_drag",
+        "gui_sound_text",
+        "gui_music_text",
+        "popup_title",
+        "button_close",
+        "sound_progress",
+        "music_progress",
+        "settings_down_bg.png",
+        "settings_down_bg.png$15",
+        "black_solid"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "settings_temp.aep",
+  "version": 1
+}

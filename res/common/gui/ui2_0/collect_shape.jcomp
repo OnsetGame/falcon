@@ -1,0 +1,389 @@
+{
+  "name": "collect_shape",
+  "children": [
+    {
+      "name": "collect_progress_shape.png$4",
+      "translation": [
+        305,
+        60.5,
+        0
+      ],
+      "anchor": [
+        168.5,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/collect_progress",
+          "size": [
+            337,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "collect_progress_shape.png",
+      "translation": [
+        305,
+        116,
+        0
+      ],
+      "scale": [
+        1,
+        -1,
+        1
+      ],
+      "anchor": [
+        168.5,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/collect_progress",
+          "size": [
+            337,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "collect_button_shadow",
+      "translation": [
+        88,
+        91.25,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            156,
+            156
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.6
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0,
+            0,
+            0,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "collect_button_shape",
+      "translation": [
+        88,
+        88,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            136,
+            136
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.6
+          ],
+          "strokeWidth": 8,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.8
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "collect_button_shape.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.963,
+              0.963,
+              1
+            ],
+            [
+              0.894,
+              0.894,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.884,
+              0.884,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_button_shape.0.inWhite": {
+          "values": [
+            1,
+            0.96021328797267,
+            0.88399822654652,
+            0.83605758812883,
+            0.87321871599089,
+            0.95729844428219,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_button_shadow.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.963,
+              0.963,
+              1
+            ],
+            [
+              0.894,
+              0.894,
+              1
+            ],
+            [
+              0.85,
+              0.85,
+              1
+            ],
+            [
+              0.884,
+              0.884,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_button_shadow.0.inWhite": {
+          "values": [
+            1,
+            0.96021328797267,
+            0.88399822654652,
+            0.83605758812883,
+            0.87321871599089,
+            0.95729844428219,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 5
+        },
+        "collect_button_shape.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "collect_button_shadow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "collect_progress_shape.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "collect_progress_shape.png$4.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "collect_button_shape",
+        "collect_button_shadow",
+        "collect_progress_shape.png",
+        "collect_progress_shape.png$4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_lower_part_dev.aep",
+  "version": 1
+}

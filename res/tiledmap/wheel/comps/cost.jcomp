@@ -1,0 +1,826 @@
+{
+  "name": "cost",
+  "children": [
+    {
+      "name": "spin_arrows",
+      "translation": [
+        148,
+        57.5,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        1
+      ],
+      "anchor": [
+        116,
+        121.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/spin_arrows.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cost_menu.png",
+      "translation": [
+        148,
+        227.5,
+        0
+      ],
+      "anchor": [
+        139,
+        151,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowInactive",
+          "size": [
+            278,
+            302
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_line_bronze.png",
+      "translation": [
+        146,
+        200.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        1,
+        1
+      ],
+      "anchor": [
+        391,
+        11,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/ltp_line_bronze.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sticker_large",
+      "translation": [
+        147,
+        86.5,
+        0
+      ],
+      "anchor": [
+        105,
+        35,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/sticker_large.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_NEXT_SPIN",
+      "translation": [
+        147.599,
+        237.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "NEXT SPIN",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_PRICE_AFTER_DISCOUNT_@noloc",
+      "translation": [
+        195.599,
+        285.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "100",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            0.77254998683929,
+            0.88234996795654,
+            0.64313006401062
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_PRICE_BEFORE_DISCOUNT_@noloc",
+      "translation": [
+        99.599,
+        285.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0.501,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "200",
+          "font": "Exo2-Black",
+          "fontSize": 13.3333301544189,
+          "color": [
+            0.77254998683929,
+            0.88234996795654,
+            0.64313006401062
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "cross_line_white.png",
+      "translation": [
+        101,
+        272.5,
+        0
+      ],
+      "anchor": [
+        49,
+        21,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/cross_line_white.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_FOR",
+      "translation": [
+        147.599,
+        204.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "for ",
+          "font": "Exo2-Black",
+          "fontSize": 6,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_DISCOUNT_PERCENT_@noloc",
+      "translation": [
+        147.599,
+        177.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "-50%",
+          "font": "Exo2-Black",
+          "fontSize": 18.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_3_COST_DISCOUNT",
+      "translation": [
+        147.599,
+        89.299,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "DISCOUNT",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        148.5,
+        323,
+        0
+      ],
+      "scale": [
+        0.19,
+        0.19,
+        1
+      ],
+      "anchor": [
+        166,
+        136.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_bucks",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            332,
+            273
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "spin_arrows.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.051,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.113,
+              0.993
+            ],
+            [
+              0,
+              0,
+              -0.195,
+              0.98
+            ],
+            [
+              0,
+              0,
+              -0.294,
+              0.955
+            ],
+            [
+              0,
+              0,
+              -0.405,
+              0.914
+            ],
+            [
+              0,
+              0,
+              -0.523,
+              0.852
+            ],
+            [
+              0,
+              0,
+              -0.642,
+              0.766
+            ],
+            [
+              0,
+              0,
+              -0.754,
+              0.656
+            ],
+            [
+              0,
+              0,
+              -0.852,
+              0.523
+            ],
+            [
+              0,
+              0,
+              -0.929,
+              0.369
+            ],
+            [
+              0,
+              0,
+              -0.979,
+              0.2
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              0.022
+            ],
+            [
+              0,
+              0,
+              -0.987,
+              -0.156
+            ],
+            [
+              0,
+              0,
+              -0.944,
+              -0.328
+            ],
+            [
+              0,
+              0,
+              -0.873,
+              -0.486
+            ],
+            [
+              0,
+              0,
+              -0.78,
+              -0.625
+            ],
+            [
+              0,
+              0,
+              -0.671,
+              -0.741
+            ],
+            [
+              0,
+              0,
+              -0.553,
+              -0.832
+            ],
+            [
+              0,
+              0,
+              -0.434,
+              -0.9
+            ],
+            [
+              0,
+              0,
+              -0.32,
+              -0.947
+            ],
+            [
+              0,
+              0,
+              -0.218,
+              -0.975
+            ],
+            [
+              0,
+              0,
+              -0.132,
+              -0.991
+            ],
+            [
+              0,
+              0,
+              -0.065,
+              -0.997
+            ],
+            [
+              0,
+              0,
+              -0.02,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "bucks_placeholder.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_DISCOUNT.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_DISCOUNT_PERCENT_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_FOR.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cross_line_white.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_PRICE_BEFORE_DISCOUNT_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_PRICE_AFTER_DISCOUNT_@noloc.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_3_COST_NEXT_SPIN.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "sticker_large.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_line_bronze.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "cost_menu.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "spin_arrows.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "bucks_placeholder",
+        "WHEEL_UI_3_COST_DISCOUNT",
+        "WHEEL_UI_3_COST_DISCOUNT_PERCENT_@noloc",
+        "WHEEL_UI_3_COST_FOR",
+        "cross_line_white.png",
+        "WHEEL_UI_3_COST_PRICE_BEFORE_DISCOUNT_@noloc",
+        "WHEEL_UI_3_COST_PRICE_AFTER_DISCOUNT_@noloc",
+        "WHEEL_UI_3_COST_NEXT_SPIN",
+        "sticker_large",
+        "ltp_line_bronze.png",
+        "cost_menu.png",
+        "spin_arrows"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

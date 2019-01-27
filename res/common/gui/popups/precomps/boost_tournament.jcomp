@@ -1,0 +1,107 @@
+{
+  "name": "boost_tournament",
+  "children": [
+    {
+      "name": "reward_icons",
+      "translation": [
+        176,
+        391,
+        0
+      ],
+      "anchor": [
+        167.5,
+        171.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.13,
+        0.991
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "boosterTourPoints"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            335,
+            343
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "blue_star_shape.png",
+      "translation": [
+        299,
+        412,
+        0
+      ],
+      "anchor": [
+        95.5,
+        95.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/blue_star_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "boost",
+      "translation": [
+        297.853,
+        416.911,
+        0
+      ],
+      "anchor": [
+        -0.248,
+        0.203,
+        0
+      ],
+      "components": [
+        {
+          "text": "x2",
+          "font": "Exo2-Black",
+          "fontSize": 38,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "16 May 2018 19:47",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

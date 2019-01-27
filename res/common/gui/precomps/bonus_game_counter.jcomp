@@ -1,0 +1,124 @@
+{
+  "name": "bonus_game_counter",
+  "children": [
+    {
+      "name": "mermaid_pick_left_bar.png",
+      "translation": [
+        108,
+        48,
+        0
+      ],
+      "anchor": [
+        108,
+        48,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/gui_black_simple",
+          "size": [
+            216,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mermaid_bonus_picks_left",
+      "translation": [
+        59.78125,
+        31.15625,
+        0
+      ],
+      "components": [
+        {
+          "text": "PICKS LEFT",
+          "font": "Exo2-Black",
+          "fontSize": 18.2000007629395,
+          "color": [
+            0.80000001192093,
+            0.80000001192093,
+            0.80000001192093
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 1,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "count_text_@noloc",
+      "translation": [
+        107.875,
+        83.375,
+        0
+      ],
+      "components": [
+        {
+          "text": "3",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 1,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white_lines",
+      "translation": [
+        48.3749999999998,
+        47.125,
+        0
+      ],
+      "scale": [
+        0.28201751885165,
+        1.11363636363636,
+        1
+      ],
+      "anchor": [
+        5.84599589322357,
+        10.5510204081633,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/white_lines.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "gui_all_CP_2.aep",
+  "version": 1
+}

@@ -1,0 +1,102 @@
+{
+  "name": "stadium_1",
+  "children": [
+    {
+      "name": "stadium_lvl1_shadow.png",
+      "translation": [
+        806,
+        1193,
+        0
+      ],
+      "anchor": [
+        486,
+        288.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/stadium_lvl1_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "stadium_old_ball",
+      "translation": [
+        722,
+        771,
+        0
+      ],
+      "anchor": [
+        857,
+        879,
+        0
+      ],
+      "compositionRef": "stadium_old_ball",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 10.1666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "stadium_old_ball.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        },
+        "stadium_lvl1_shadow.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "stadium_old_ball",
+        "stadium_lvl1_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

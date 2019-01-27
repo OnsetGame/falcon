@@ -1,0 +1,62 @@
+{
+  "name": "mermaid_old_idle",
+  "children": [
+    {
+      "name": "mermaid_old",
+      "translation": [
+        0,
+        1495,
+        0
+      ],
+      "anchor": [
+        0,
+        1681,
+        0
+      ],
+      "compositionRef": "mermaid_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "mermaid_old.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "mermaid_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "marmeid_all_dev_update.aep",
+  "version": 1
+}

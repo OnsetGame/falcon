@@ -1,0 +1,66 @@
+{
+  "name": "move_arrow",
+  "children": [
+    {
+      "name": "arr.png",
+      "translation": [
+        190,
+        210,
+        0
+      ],
+      "anchor": [
+        221,
+        215,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 8.833,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../resources/arr.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "arr.png.enabled": {
+          "duration": 8.83333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 265,
+          "cutf": 264
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8.83333333333333
+        }
+      },
+      "layers": [
+        "arr.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

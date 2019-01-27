@@ -1,0 +1,126 @@
+{
+  "name": "alien_arrow",
+  "children": [
+    {
+      "name": "arrow",
+      "translation": [
+        369,
+        438,
+        0
+      ],
+      "scale": [
+        -1,
+        1,
+        1
+      ],
+      "anchor": [
+        324,
+        141,
+        0
+      ],
+      "compositionRef": "elements/arrow",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.29166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "arrow.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -17.9583333333333,
+          "duration": 1.5833333333333
+        },
+        "idle_1": {
+          "start": -16.375,
+          "duration": 1.9583333333333
+        },
+        "idle_2": {
+          "start": -14.4166666666667,
+          "duration": 2
+        },
+        "spin": {
+          "start": -12.4166666666667,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -10.4166666666667,
+          "duration": 0.6666666666667
+        },
+        "anticipation_loop": {
+          "start": -9.75,
+          "duration": 1.33333333333333
+        },
+        "anticipation_end": {
+          "start": -8.41666666666667,
+          "duration": 0.33333333333334
+        },
+        "win": {
+          "start": -8.08333333333333,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -7.08333333333333,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -5.08333333333333,
+          "duration": 1.04166666666666
+        },
+        "wild_appear": {
+          "start": -4.04166666666667,
+          "duration": 0.58333333333334
+        },
+        "wild_idle": {
+          "start": -3.45833333333333,
+          "duration": 0.91666666666666
+        },
+        "wild_move_right": {
+          "start": -2.54166666666667,
+          "duration": 1
+        },
+        "wild_win": {
+          "start": -1.54166666666667,
+          "duration": 1.54166666666667
+        },
+        "wild_to_portal": {
+          "start": 0,
+          "duration": 2.04166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.29166666666667
+        }
+      },
+      "layers": [
+        "arrow"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

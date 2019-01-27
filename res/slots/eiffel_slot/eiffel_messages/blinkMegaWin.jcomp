@@ -1,0 +1,56 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "blink_parent",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "blink",
+      "components": [
+        {
+          "period": 10.0,
+          "speed": 2500.0,
+          "light": "Sources/sweep_message.png",
+          "mask": "Sources/MegaWin.png",
+          "_c": "Blink"
+        }
+      ],
+      "children": [],
+      "layer": 0,
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layer": 0,
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    -435.3982849121094,
+    -170.9734802246094,
+    0.0
+  ],
+  "version": 1
+}

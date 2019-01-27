@@ -1,0 +1,117 @@
+{
+  "name": "total_players_info",
+  "children": [
+    {
+      "name": "social",
+      "translation": [
+        27,
+        30,
+        0
+      ],
+      "anchor": [
+        29,
+        25,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/social.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "TOURNAMENTS_PLAYERS",
+      "translation": [
+        136.063842773438,
+        40.52001953125,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        17.4879455566406,
+        -2.76000213623047,
+        0
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "text": "PLAYERS",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "total_players",
+      "translation": [
+        111.967849731445,
+        13.9520263671875,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        9.45594787597656,
+        -3.61599731445313,
+        0
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

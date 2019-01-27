@@ -1,0 +1,107 @@
+{
+  "name": "restaurant_2_table",
+  "children": [
+    {
+      "name": "rest_b_table",
+      "translation": [
+        117,
+        163,
+        0
+      ],
+      "anchor": [
+        115,
+        89,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_table_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "rest_b_hat",
+      "translation": [
+        98.812,
+        18.562,
+        0
+      ],
+      "anchor": [
+        104.812,
+        20.562,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_mushroom_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rest_b_hat.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 143
+        },
+        "rest_b_table.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 143
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "rest_b_hat",
+        "rest_b_table"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,511 @@
+{
+  "name": "boost_active",
+  "children": [
+    {
+      "name": "questbar_base",
+      "translation": [
+        216,
+        347,
+        0
+      ],
+      "anchor": [
+        215.5,
+        324,
+        0
+      ],
+      "compositionRef": "questbar_base"
+    },
+    {
+      "name": "boost_black_part",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "boost_black_part"
+    },
+    {
+      "name": "button_shadow",
+      "translation": [
+        222,
+        671,
+        0
+      ],
+      "scale": [
+        3.887,
+        1.457,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "booster_free_bttn",
+      "translation": [
+        216,
+        639,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "booster_blue_btn"
+    },
+    {
+      "name": "booster_pay_bttn",
+      "translation": [
+        216,
+        639,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "booster_green_btn"
+    },
+    {
+      "name": "duration_txt",
+      "translation": [
+        374.511,
+        627.231,
+        0
+      ],
+      "anchor": [
+        0.303,
+        1.643,
+        0
+      ],
+      "components": [
+        {
+          "text": "Day",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "duration_num",
+      "translation": [
+        371.92,
+        599.299,
+        0
+      ],
+      "anchor": [
+        -0.559,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "text": "1",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "vip_points",
+      "translation": [
+        55.972,
+        622.248,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "+60",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "vip_icon",
+      "translation": [
+        56.5,
+        566.5,
+        0
+      ],
+      "anchor": [
+        32,
+        33,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "vipPoints"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            64,
+            66
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "boost_premium",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "boost_premium"
+    },
+    {
+      "name": "boost_city",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "boost_city"
+    },
+    {
+      "name": "boost_experience",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "boost_experience"
+    },
+    {
+      "name": "boost_tournament",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "boost_tournament"
+    },
+    {
+      "name": "prolong_txt",
+      "translation": [
+        215.284,
+        555.587,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        -0.071,
+        2.895,
+        0
+      ],
+      "components": [
+        {
+          "text": "Prolong!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "card_title",
+      "translation": [
+        216.139,
+        112.571,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        0.213,
+        16.223,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "text": "Experience\nBooster",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            0.10196000337601,
+            0.10196000337601,
+            0.10196000337601
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "offer_ph_out",
+      "translation": [
+        218.963,
+        238.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            280,
+            48
+          ],
+          "radius": 24,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0,
+            0,
+            0,
+            0.45
+          ]
+        }
+      ]
+    },
+    {
+      "name": "timer",
+      "translation": [
+        239.604,
+        252.659,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        0.034,
+        0.186,
+        0
+      ],
+      "components": [
+        {
+          "text": "00:04:19",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "timer_boost_active",
+      "translation": [
+        212.607,
+        188.203,
+        0
+      ],
+      "anchor": [
+        175,
+        50,
+        0
+      ],
+      "compositionRef": "timer_boost_active"
+    },
+    {
+      "name": "timer_red",
+      "translation": [
+        107.5,
+        239,
+        0
+      ],
+      "anchor": [
+        35,
+        35,
+        0
+      ],
+      "compositionRef": "timer_red"
+    },
+    {
+      "name": "timer_green",
+      "translation": [
+        107.5,
+        239,
+        0
+      ],
+      "anchor": [
+        35,
+        35,
+        0
+      ],
+      "compositionRef": "timer_green"
+    },
+    {
+      "name": "lastic.png",
+      "translation": [
+        34,
+        54.5,
+        0
+      ],
+      "anchor": [
+        33,
+        29.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/lastic.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "15 May 2018 19:49",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

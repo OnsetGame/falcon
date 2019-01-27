@@ -1,0 +1,610 @@
+{
+  "name": "element_hidden",
+  "children": [
+    {
+      "name": "element_hidden_png",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        88,
+        116,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "hidden_idle_electric_[01-17].png",
+          "translation": [
+            88,
+            116,
+            0
+          ],
+          "scale": [
+            1.12612612612613,
+            1.12612612612613,
+            1
+          ],
+          "anchor": [
+            102,
+            134.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.00188750159196,
+            0.99999821866728
+          ],
+          "components": [
+            {
+              "inPoint": 0.41666666666667,
+              "outPoint": 0.98333333333333,
+              "scale": 1,
+              "startTime": 0.41666666666667,
+              "duration": 0.56666666666667,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/hidden_idle_electric_01.png",
+                "../assets/hidden_idle_electric_02.png",
+                "../assets/hidden_idle_electric_03.png",
+                "../assets/hidden_idle_electric_04.png",
+                "../assets/hidden_idle_electric_05.png",
+                "../assets/hidden_idle_electric_06.png",
+                "../assets/hidden_idle_electric_07.png",
+                "../assets/hidden_idle_electric_08.png",
+                "../assets/hidden_idle_electric_09.png",
+                "../assets/hidden_idle_electric_10.png",
+                "../assets/hidden_idle_electric_11.png",
+                "../assets/hidden_idle_electric_12.png",
+                "../assets/hidden_idle_electric_13.png",
+                "../assets/hidden_idle_electric_14.png",
+                "../assets/hidden_idle_electric_15.png",
+                "../assets/hidden_idle_electric_16.png",
+                "../assets/hidden_idle_electric_17.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "light_hideden_idle_[01-10].png$2",
+          "translation": [
+            87.0740781605974,
+            115.997249069406,
+            0
+          ],
+          "scale": [
+            1.38888888888889,
+            1.38888888888889,
+            1
+          ],
+          "anchor": [
+            59,
+            77.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.00148550415972,
+            0.99999889663809
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0.33333333333333,
+              "outPoint": 0.66666666666667,
+              "scale": 1,
+              "startTime": 0.33333333333333,
+              "duration": 0.33333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/light_hideden_idle_01.png",
+                "../assets/light_hideden_idle_02.png",
+                "../assets/light_hideden_idle_03.png",
+                "../assets/light_hideden_idle_04.png",
+                "../assets/light_hideden_idle_05.png",
+                "../assets/light_hideden_idle_06.png",
+                "../assets/light_hideden_idle_07.png",
+                "../assets/light_hideden_idle_08.png",
+                "../assets/light_hideden_idle_09.png",
+                "../assets/light_hideden_idle_10.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "light_hideden_idle_[01-10].png",
+          "translation": [
+            87.0715642399734,
+            116.923171582635,
+            0
+          ],
+          "scale": [
+            1.38888888888889,
+            1.38888888888889,
+            1
+          ],
+          "anchor": [
+            59,
+            77.5,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.00148550415972,
+            0.99999889663809
+          ],
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0.66666666666667,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0.66666666666667,
+              "duration": 0.33333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": true,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/light_hideden_idle_01.png",
+                "../assets/light_hideden_idle_02.png",
+                "../assets/light_hideden_idle_03.png",
+                "../assets/light_hideden_idle_04.png",
+                "../assets/light_hideden_idle_05.png",
+                "../assets/light_hideden_idle_06.png",
+                "../assets/light_hideden_idle_07.png",
+                "../assets/light_hideden_idle_08.png",
+                "../assets/light_hideden_idle_09.png",
+                "../assets/light_hideden_idle_10.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.29166666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/shirt.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "element_hidden_png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.98444444435681,
+              0.98444444435681,
+              0.98444444435681
+            ],
+            [
+              0.98,
+              0.98,
+              0.98
+            ],
+            [
+              1.01762345669829,
+              1.01762345669829,
+              1.01762345669829
+            ],
+            [
+              1.06932098750112,
+              1.06932098750112,
+              1.06932098750112
+            ],
+            [
+              1.11,
+              1.11,
+              1.11
+            ],
+            [
+              1.08,
+              1.08,
+              1.08
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 31,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "element_hidden_png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1.02559899339956e-7,
+              0.0003834432206,
+              0.00026747086041,
+              0.99999989071531
+            ],
+            [
+              6.15320020473638e-7,
+              0.00091580328261,
+              0.00067189060711,
+              0.99999935493328
+            ],
+            [
+              0.00000153174958,
+              0.00139949576648,
+              0.00109449931849,
+              0.999998421739
+            ],
+            [
+              0.00000260076873,
+              0.00173961052681,
+              0.00149502537728,
+              0.99999736932033
+            ],
+            [
+              0.00000324130676,
+              0.00177760076929,
+              0.00182341069194,
+              0.99999675764397
+            ],
+            [
+              0.00000158296851,
+              0.00083865661229,
+              0.00188750092817,
+              0.99999786699414
+            ],
+            [
+              -0.00000263695125,
+              -0.00177512012937,
+              0.00148550181926,
+              0.99999732110937
+            ],
+            [
+              1.45183610195663e-7,
+              -0.00250302870151,
+              -0.00005800299256,
+              0.99999686573656
+            ],
+            [
+              0.00006886559753,
+              0.01848118289975,
+              0.00372559256924,
+              0.99982226475317
+            ],
+            [
+              0.00000260374002,
+              0.00055042409787,
+              0.0047303715485,
+              0.99998866024148
+            ],
+            [
+              -0.00013614604285,
+              -0.01720219439977,
+              0.00791303887743,
+              0.99982070882124
+            ],
+            [
+              -0.00000562244548,
+              -0.00141702838488,
+              0.003967736737,
+              0.99999112449268
+            ],
+            [
+              -0.000004984825,
+              -0.00673566719252,
+              0.00074004703761,
+              0.99997704128295
+            ],
+            [
+              -0.00000263209599,
+              -0.00200243452291,
+              0.00131444419529,
+              0.99999713123864
+            ],
+            [
+              0.0000279736412,
+              0.0206064357403,
+              0.00135723013847,
+              0.99978674323573
+            ],
+            [
+              6.66400926695246e-7,
+              0.00282864150266,
+              0.00023558950173,
+              0.99999597163408
+            ],
+            [
+              1.48666484639785e-7,
+              -0.00040531786244,
+              -0.00036678981166,
+              0.99999985059131
+            ],
+            [
+              0.00001183180029,
+              0.01422332666742,
+              0.00083177442279,
+              0.99989849734352
+            ],
+            [
+              -0.00009486378244,
+              0.01901346620646,
+              -0.0049883304681,
+              0.99980677916426
+            ],
+            [
+              -0.00007069806442,
+              0.02473049004183,
+              -0.00285785492522,
+              0.99969006723549
+            ],
+            [
+              0.00004228452724,
+              0.01663099434796,
+              0.00254215361522,
+              0.99985846283062
+            ],
+            [
+              0.00010554839483,
+              0.01548826015579,
+              0.0068137597207,
+              0.99985682741848
+            ],
+            [
+              0.00001947652606,
+              0.01279816720229,
+              0.00152169510452,
+              0.99991694204116
+            ],
+            [
+              0.00000276274938,
+              0.00668403803665,
+              0.00041332610853,
+              0.9999775761433
+            ],
+            [
+              -0.00002855437507,
+              0.01107141864646,
+              -0.00257894050516,
+              0.99993538388222
+            ],
+            [
+              -0.00010398361911,
+              0.03000279841558,
+              -0.00346421627015,
+              0.99954380618374
+            ],
+            [
+              0.00000825550134,
+              0.00382275185628,
+              0.00215954947547,
+              0.99999036137663
+            ],
+            [
+              7.37875140789577e-7,
+              -0.00504774474301,
+              -0.00014617730689,
+              0.99998724937104
+            ],
+            [
+              -0.00000160848232,
+              0.00184228868598,
+              -0.00087308736861,
+              0.99999792184197
+            ],
+            [
+              0.0000093157833,
+              -0.02375244673569,
+              -0.00039209242023,
+              0.99971779390527
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 31,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "light_hideden_idle_[01-10].png.curFrame": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            9,
+            8,
+            6,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "len": 31,
+          "cutf": 17
+        },
+        "light_hideden_idle_[01-10].png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 31,
+          "cutf": 15
+        },
+        "light_hideden_idle_[01-10].png$2.curFrame": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "len": 31,
+          "cutf": 8
+        },
+        "light_hideden_idle_[01-10].png$2.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 31,
+          "cutf": 7
+        },
+        "hidden_idle_electric_[01-17].png.curFrame": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16
+          ],
+          "len": 31,
+          "cutf": 10
+        },
+        "hidden_idle_electric_[01-17].png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 31,
+          "cutf": 9
+        },
+        "element_hidden_png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 31,
+          "cutf": 30
+        }
+      },
+      "markers": {
+        "turn_start": {
+          "start": 0,
+          "duration": 0.25
+        },
+        "turn_idle": {
+          "start": 0.25,
+          "duration": 1.04166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.29166666666667
+        }
+      },
+      "layers": [
+        "light_hideden_idle_[01-10].png",
+        "light_hideden_idle_[01-10].png$2",
+        "hidden_idle_electric_[01-17].png",
+        "element_hidden_png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018%20(hidden%20shattering).aep",
+  "export_time": "3 September 2018 21:25",
+  "rod_export_v": "Mon Aug 13 10:58:32 2018 +0300\n",
+  "version": 1
+}

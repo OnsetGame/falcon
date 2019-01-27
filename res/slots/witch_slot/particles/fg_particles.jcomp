@@ -1,0 +1,389 @@
+{
+  "name": "fg_particles",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "local_flyB",
+      "translation": [
+        1630.95068359375,
+        498.9441528320313,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 3.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 2.0,
+          "lifetime": 5.0,
+          "startVelocity": 0.0,
+          "randVelocityFrom": -20.0,
+          "randVelocityTo": 30.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "dstScale": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "randScaleFrom": -2.0,
+          "randScaleTo": 4.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            -5.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              20.0,
+              20.0,
+              20.0
+            ],
+            [
+              0.25,
+              45.0,
+              45.0,
+              45.0
+            ],
+            [
+              0.8999999761581421,
+              60.0,
+              60.0,
+              60.0
+            ],
+            [
+              1.0,
+              80.0,
+              80.0,
+              80.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.1500000059604645,
+              1.0,
+              1.0,
+              1.0,
+              0.800000011920929
+            ],
+            [
+              0.699999988079071,
+              1.0,
+              1.0,
+              1.0,
+              0.800000011920929
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "fly.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            32.0,
+            32.0
+          ],
+          "animColumns": 3,
+          "framesCount": 9,
+          "fps": 24.0,
+          "modifierNode": "turbo2",
+          "genShapeNode": "local_flyB",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "dimension": [
+            500.0,
+            500.0,
+            500.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        }
+      ]
+    },
+    {
+      "name": "local_flyA",
+      "translation": [
+        225.958984375,
+        498.9441528320313,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 3.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 2.0,
+          "lifetime": 5.0,
+          "startVelocity": 0.0,
+          "randVelocityFrom": -20.0,
+          "randVelocityTo": 30.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "dstScale": [
+            12.0,
+            12.0,
+            12.0
+          ],
+          "randScaleFrom": -2.0,
+          "randScaleTo": 4.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            -5.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              20.0,
+              20.0,
+              20.0
+            ],
+            [
+              0.25,
+              45.0,
+              45.0,
+              45.0
+            ],
+            [
+              0.8999999761581421,
+              60.0,
+              60.0,
+              60.0
+            ],
+            [
+              1.0,
+              80.0,
+              80.0,
+              80.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.1500000059604645,
+              1.0,
+              1.0,
+              1.0,
+              0.800000011920929
+            ],
+            [
+              0.699999988079071,
+              1.0,
+              1.0,
+              1.0,
+              0.800000011920929
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "fly.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            32.0,
+            32.0
+          ],
+          "animColumns": 3,
+          "framesCount": 9,
+          "fps": 24.0,
+          "modifierNode": "turbo2",
+          "genShapeNode": "local_flyA",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "dimension": [
+            500.0,
+            500.0,
+            500.0
+          ],
+          "is2D": false,
+          "_c": "BoxPSGenShape"
+        }
+      ]
+    },
+    {
+      "name": "turbo2",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            333.0,
+            333.0,
+            333.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    }
+  ]
+}

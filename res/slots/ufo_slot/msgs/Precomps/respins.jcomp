@@ -1,0 +1,63 @@
+{
+  "name": "respins",
+  "children": [
+    {
+      "name": "respins_title.png",
+      "translation": [
+        1261,
+        723,
+        0
+      ],
+      "anchor": [
+        491,
+        145,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/respins_title.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "respins_title.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "respins_title.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_final_V.aep",
+  "version": 1
+}

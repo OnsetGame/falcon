@@ -1,0 +1,380 @@
+{
+  "name": "star",
+  "children": [
+    {
+      "name": "ltp_circle_2.png",
+      "translation": [
+        99,
+        99,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        59,
+        59,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_circle_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_star_2.png",
+      "translation": [
+        97,
+        96.25,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.258,
+        0.965
+      ],
+      "anchor": [
+        65,
+        64.25,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_glow_2_2.png",
+          "translation": [
+            66.016,
+            66.894,
+            0
+          ],
+          "scale": [
+            0.833,
+            0.833,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.13,
+            0.991
+          ],
+          "anchor": [
+            99,
+            99,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_glow_2_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_star_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_star_2.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.187,
+              0.187,
+              1
+            ],
+            [
+              0.6,
+              0.6,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              0.599,
+              0.599,
+              1
+            ],
+            [
+              0.187,
+              0.187,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "ltp_star_2.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              0.247,
+              0.968
+            ],
+            [
+              0,
+              0,
+              0.219,
+              0.975
+            ],
+            [
+              0,
+              0,
+              0.178,
+              0.984
+            ],
+            [
+              0,
+              0,
+              0.13,
+              0.991
+            ],
+            [
+              0,
+              0,
+              0.082,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.04,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.011,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "ltp_circle_2.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.019,
+              0.019,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0.156,
+              0.156,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.376,
+              0.376,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.623,
+              0.623,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.843,
+              0.843,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ]
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "ltp_circle_2.png.alpha": {
+          "values": [
+            1,
+            0.98,
+            0.925,
+            0.843,
+            0.74,
+            0.623,
+            0.499,
+            0.376,
+            0.259,
+            0.156,
+            0.074,
+            0.019
+          ],
+          "duration": 0.5,
+          "len": 12,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "ltp_glow_2_2.png.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 12,
+          "cutf": 11
+        },
+        "ltp_star_2.png.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 12,
+          "cutf": 11
+        },
+        "ltp_circle_2.png.enabled": {
+          "duration": 0.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 12,
+          "cutf": 11
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.5
+        }
+      },
+      "layers": [
+        "ltp_glow_2_2.png",
+        "ltp_star_2.png",
+        "ltp_circle_2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "candy2_rework_opt.aep",
+  "version": 1
+}

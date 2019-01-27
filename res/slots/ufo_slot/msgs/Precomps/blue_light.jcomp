@@ -1,0 +1,535 @@
+{
+  "name": "blue_light",
+  "children": [
+    {
+      "name": "blue_light$3",
+      "translation": [
+        -1260,
+        720,
+        0
+      ],
+      "scale": [
+        14,
+        8,
+        1
+      ],
+      "anchor": [
+        130,
+        134.5,
+        0
+      ],
+      "alpha": 0.25,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/blue_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "blue_light$2",
+      "translation": [
+        500,
+        720,
+        0
+      ],
+      "scale": [
+        6.5,
+        6.5,
+        1
+      ],
+      "anchor": [
+        130,
+        134.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.066,
+          "outPoint": 1.583,
+          "scale": 1,
+          "startTime": 0.066,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/blue_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "blue_light$1",
+      "translation": [
+        2140,
+        720,
+        0
+      ],
+      "scale": [
+        6.5,
+        6.499,
+        1
+      ],
+      "anchor": [
+        130,
+        134.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0.208,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0.216,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/blue_light.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "blue_light$1.alpha": {
+          "values": [
+            0,
+            0.052,
+            0.132,
+            0.215,
+            0.298,
+            0.381,
+            0.462,
+            0.541,
+            0.616,
+            0.688,
+            0.754,
+            0.816,
+            0.871,
+            0.919,
+            0.957,
+            0.985,
+            0.999,
+            0.997,
+            0.985,
+            0.964,
+            0.937,
+            0.904,
+            0.865,
+            0.823,
+            0.776,
+            0.726,
+            0.673,
+            0.618,
+            0.561,
+            0.502,
+            0.441,
+            0.379,
+            0.317,
+            0.255,
+            0.194,
+            0.134,
+            0.078,
+            0.028,
+            0
+          ],
+          "duration": 1.58333333333333,
+          "len": 48,
+          "cutf": 6
+        },
+        "blue_light$2.alpha": {
+          "values": [
+            0,
+            0.046,
+            0.168,
+            0.285,
+            0.388,
+            0.465,
+            0.499,
+            0.498,
+            0.495,
+            0.49,
+            0.483,
+            0.475,
+            0.465,
+            0.454,
+            0.442,
+            0.429,
+            0.415,
+            0.4,
+            0.385,
+            0.368,
+            0.351,
+            0.332,
+            0.314,
+            0.294,
+            0.274,
+            0.253,
+            0.232,
+            0.21,
+            0.187,
+            0.163,
+            0.139,
+            0.115,
+            0.089,
+            0.063,
+            0.036,
+            0.007,
+            0
+          ],
+          "duration": 1.58333333333333,
+          "len": 48,
+          "cutf": 2
+        },
+        "blue_light$3.translation": {
+          "values": [
+            [
+              -1260,
+              720,
+              0
+            ],
+            [
+              -1250.136,
+              719.999,
+              0
+            ],
+            [
+              -1222.001,
+              720,
+              0
+            ],
+            [
+              -1177.868,
+              720,
+              0
+            ],
+            [
+              -1119.56,
+              720,
+              0
+            ],
+            [
+              -1048.511,
+              720,
+              0
+            ],
+            [
+              -965.971,
+              720,
+              0
+            ],
+            [
+              -873.003,
+              720,
+              0
+            ],
+            [
+              -770.4,
+              720,
+              0
+            ],
+            [
+              -659.213,
+              720,
+              0
+            ],
+            [
+              -540.032,
+              720,
+              0
+            ],
+            [
+              -413.489,
+              719.999,
+              0
+            ],
+            [
+              -280.146,
+              719.999,
+              0
+            ],
+            [
+              -140.342,
+              720,
+              0
+            ],
+            [
+              5.125,
+              720,
+              0
+            ],
+            [
+              155.975,
+              719.999,
+              0
+            ],
+            [
+              311.831,
+              720,
+              0
+            ],
+            [
+              472.297,
+              719.999,
+              0
+            ],
+            [
+              637.233,
+              719.999,
+              0
+            ],
+            [
+              805.892,
+              720,
+              0
+            ],
+            [
+              978.117,
+              720,
+              0
+            ],
+            [
+              1153.581,
+              720,
+              0
+            ],
+            [
+              1331.953,
+              720,
+              0
+            ],
+            [
+              1513.08,
+              720,
+              0
+            ],
+            [
+              1696.141,
+              720,
+              0
+            ],
+            [
+              1880.94,
+              720,
+              0
+            ],
+            [
+              2066.979,
+              720,
+              0
+            ],
+            [
+              2253.695,
+              720,
+              0
+            ],
+            [
+              2440.611,
+              720,
+              0
+            ],
+            [
+              2626.344,
+              720,
+              0
+            ],
+            [
+              2809.871,
+              719.999,
+              0
+            ],
+            [
+              2989.324,
+              720,
+              0
+            ],
+            [
+              3161.707,
+              720,
+              0
+            ],
+            [
+              3321.631,
+              720,
+              0
+            ],
+            [
+              2599.874,
+              720,
+              0
+            ],
+            [
+              1540,
+              720,
+              0
+            ]
+          ],
+          "duration": 1.58333333333333,
+          "len": 48,
+          "cutf": 0
+        },
+        "blue_light$3.alpha": {
+          "values": [
+            0.25,
+            0.306,
+            0.368,
+            0.431,
+            0.49,
+            0.546,
+            0.596,
+            0.64,
+            0.674,
+            0.695,
+            0.699,
+            0.694,
+            0.683,
+            0.668,
+            0.65,
+            0.628,
+            0.603,
+            0.576,
+            0.546,
+            0.515,
+            0.482,
+            0.448,
+            0.413,
+            0.376,
+            0.339,
+            0.302,
+            0.264,
+            0.226,
+            0.188,
+            0.151,
+            0.115,
+            0.081,
+            0.05,
+            0.024,
+            0.005,
+            0
+          ],
+          "duration": 1.58333333333333,
+          "len": 48,
+          "cutf": 0
+        },
+        "blue_light$1.enabled": {
+          "duration": 1.58333333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 6
+        },
+        "blue_light$2.enabled": {
+          "duration": 1.58333333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 2
+        },
+        "blue_light$3.enabled": {
+          "duration": 1.58333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.58333333333333
+        }
+      },
+      "layers": [
+        "blue_light$1",
+        "blue_light$2",
+        "blue_light$3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_final_V.aep",
+  "version": 1
+}

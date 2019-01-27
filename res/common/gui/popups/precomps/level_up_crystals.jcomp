@@ -1,0 +1,2524 @@
+{
+  "name": "level_up_crystals",
+  "children": [
+    {
+      "name": "star_left",
+      "translation": [
+        960,
+        490.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.499,
+        0.866
+      ],
+      "children": [
+        {
+          "name": "vip_level_up_crystal_left$11",
+          "translation": [
+            -102.999,
+            1.426,
+            0
+          ],
+          "scale": [
+            0.597,
+            0.597,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0.131,
+            0.991
+          ],
+          "anchor": [
+            174.764,
+            262.318,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 0.58,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": -0.166,
+              "outPoint": 5.333,
+              "scale": 1,
+              "startTime": 1.291,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/vip_level_up_crystal.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "star_right",
+      "translation": [
+        960,
+        490.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.382,
+        0.923
+      ],
+      "components": [
+        {
+          "inPoint": 0.166,
+          "outPoint": 4.208,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_up_crystal_right$14",
+      "translation": [
+        1070.875,
+        494.05,
+        0
+      ],
+      "scale": [
+        0.597,
+        0.597,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.125,
+        0.992
+      ],
+      "anchor": [
+        174.764,
+        262.318,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 0.58,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": -0.041,
+          "outPoint": 5.333,
+          "scale": 1,
+          "startTime": 1.291,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/vip_level_up_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_lightsweep_right",
+      "translation": [
+        960,
+        622,
+        0
+      ],
+      "scale": [
+        2.55,
+        3,
+        1
+      ],
+      "anchor": [
+        114.5,
+        24.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "vip_level_up_crystal_right",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0.875,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": -0.125,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/ltp_lightsweep_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_up_crystal_right",
+      "translation": [
+        1070.875,
+        494.05,
+        0
+      ],
+      "scale": [
+        0.597,
+        0.597,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.125,
+        0.992
+      ],
+      "anchor": [
+        174.764,
+        262.318,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0.875,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 1.291,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/vip_level_up_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_lightsweep_left",
+      "translation": [
+        960,
+        622,
+        0
+      ],
+      "scale": [
+        2,
+        3,
+        1
+      ],
+      "anchor": [
+        114.5,
+        24.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "vip_level_up_crystal_left",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0.875,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": -0.125,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/ltp_lightsweep_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_up_crystal_left",
+      "translation": [
+        857,
+        491.926,
+        0
+      ],
+      "scale": [
+        0.597,
+        0.597,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.131,
+        0.991
+      ],
+      "anchor": [
+        174.764,
+        262.318,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0.875,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 1.291,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/vip_level_up_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_up_crystal.png$8",
+      "translation": [
+        960.5,
+        407.5,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        169.5,
+        132.5,
+        0
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "vip_crystal_back.png",
+          "translation": [
+            168.5,
+            141,
+            0
+          ],
+          "anchor": [
+            132.5,
+            109,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0.666,
+              "outPoint": 4.083,
+              "scale": 1,
+              "startTime": 0.041,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/vip_crystal_back.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0.333,
+          "outPoint": 5.333,
+          "scale": 1,
+          "startTime": 1.291,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/vip_level_up_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_lightsweep_1.png",
+      "translation": [
+        960,
+        622,
+        0
+      ],
+      "scale": [
+        2,
+        3,
+        1
+      ],
+      "anchor": [
+        114.5,
+        24.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "vip_level_up_crystal.png",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 1.041,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": -0.125,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/ltp_lightsweep_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_up_crystal.png",
+      "translation": [
+        960.5,
+        407.5,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        169.5,
+        132.5,
+        0
+      ],
+      "alpha": 0,
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0.333,
+          "outPoint": 5.333,
+          "scale": 1,
+          "startTime": 1.291,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/vip_level_up_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Null 44",
+      "translation": [
+        962,
+        385,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "children": [
+        {
+          "name": "text_lvl_prev",
+          "translation": [
+            -0.279,
+            31.191,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0.666,
+              "outPoint": 12.291,
+              "scale": 1,
+              "startTime": 0.5,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "8",
+              "font": "Exo2-Black",
+              "fontSize": 80,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "Null 43",
+          "translation": [
+            -1,
+            -25.5,
+            0
+          ],
+          "scale": [
+            1,
+            0,
+            1
+          ],
+          "children": [
+            {
+              "name": "text_lvl_cur",
+              "translation": [
+                0.72,
+                56.691,
+                0
+              ],
+              "scale": [
+                0.999,
+                0.999,
+                1
+              ],
+              "alpha": 0,
+              "components": [
+                {
+                  "inPoint": 0.666,
+                  "outPoint": 12.291,
+                  "scale": 1,
+                  "startTime": 0.5,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "9",
+                  "font": "Exo2-Black",
+                  "fontSize": 80,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0.291,
+              "outPoint": 4.333,
+              "scale": 1,
+              "startTime": 0.291,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 44.scale": {
+          "values": [
+            [
+              3,
+              3,
+              1
+            ],
+            [
+              3.002,
+              2.964,
+              1
+            ],
+            [
+              2.993,
+              2.946,
+              1
+            ],
+            [
+              2.974,
+              2.925,
+              1
+            ],
+            [
+              2.945,
+              2.899,
+              1
+            ],
+            [
+              2.905,
+              2.864,
+              1
+            ],
+            [
+              2.853,
+              2.819,
+              1
+            ],
+            [
+              2.787,
+              2.761,
+              1
+            ],
+            [
+              2.704,
+              2.687,
+              1
+            ],
+            [
+              2.6,
+              2.592,
+              1
+            ],
+            [
+              2.47,
+              2.471,
+              1
+            ],
+            [
+              2.302,
+              2.311,
+              1
+            ],
+            [
+              2.076,
+              2.092,
+              1
+            ],
+            [
+              1.74,
+              1.759,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.787,
+              0.854,
+              1
+            ],
+            [
+              0.857,
+              0.92,
+              1
+            ],
+            [
+              0.953,
+              0.976,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.038,
+              1.038,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.675,
+              1.675,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              2,
+              2,
+              1
+            ],
+            [
+              1.782,
+              1.782,
+              1
+            ],
+            [
+              1.325,
+              1.325,
+              1
+            ],
+            [
+              1.067,
+              1.067,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "Null 43.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0.999,
+              0.01,
+              1
+            ],
+            [
+              0.999,
+              0.05,
+              1
+            ],
+            [
+              0.999,
+              0.146,
+              1
+            ],
+            [
+              0.999,
+              0.403,
+              1
+            ],
+            [
+              0.999,
+              0.93,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 36,
+          "frameLerp": false
+        },
+        "text_lvl_cur.alpha": {
+          "values": [
+            0,
+            0.5,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 16,
+          "frameLerp": false
+        },
+        "text_lvl_prev.scale": {
+          "values": [
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.989,
+              1
+            ],
+            [
+              0.999,
+              0.949,
+              1
+            ],
+            [
+              0.999,
+              0.855,
+              1
+            ],
+            [
+              0.999,
+              0.616,
+              1
+            ],
+            [
+              0.998,
+              0.08,
+              1
+            ],
+            [
+              0.999,
+              0,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 36,
+          "frameLerp": false
+        },
+        "text_lvl_prev.alpha": {
+          "values": [
+            0,
+            0.5,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 16,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal.png.scale": {
+          "values": [
+            [
+              3,
+              3,
+              1
+            ],
+            [
+              3.002,
+              2.964,
+              1
+            ],
+            [
+              2.993,
+              2.946,
+              1
+            ],
+            [
+              2.974,
+              2.925,
+              1
+            ],
+            [
+              2.945,
+              2.899,
+              1
+            ],
+            [
+              2.905,
+              2.864,
+              1
+            ],
+            [
+              2.853,
+              2.819,
+              1
+            ],
+            [
+              2.787,
+              2.761,
+              1
+            ],
+            [
+              2.704,
+              2.687,
+              1
+            ],
+            [
+              2.6,
+              2.592,
+              1
+            ],
+            [
+              2.47,
+              2.471,
+              1
+            ],
+            [
+              2.302,
+              2.311,
+              1
+            ],
+            [
+              2.076,
+              2.092,
+              1
+            ],
+            [
+              1.74,
+              1.759,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.787,
+              0.854,
+              1
+            ],
+            [
+              0.857,
+              0.92,
+              1
+            ],
+            [
+              0.953,
+              0.976,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal.png.alpha": {
+          "values": [
+            0,
+            0.5,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 16,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_1.png.translation": {
+          "values": [
+            [
+              960,
+              622,
+              0
+            ],
+            [
+              960,
+              621.814,
+              0
+            ],
+            [
+              960,
+              621.232,
+              0
+            ],
+            [
+              959.999,
+              620.225,
+              0
+            ],
+            [
+              959.999,
+              618.775,
+              0
+            ],
+            [
+              960,
+              616.848,
+              0
+            ],
+            [
+              960,
+              614.409,
+              0
+            ],
+            [
+              960,
+              611.417,
+              0
+            ],
+            [
+              960,
+              607.828,
+              0
+            ],
+            [
+              960,
+              603.593,
+              0
+            ],
+            [
+              960,
+              598.652,
+              0
+            ],
+            [
+              959.999,
+              592.935,
+              0
+            ],
+            [
+              960,
+              586.362,
+              0
+            ],
+            [
+              959.999,
+              578.84,
+              0
+            ],
+            [
+              960,
+              570.253,
+              0
+            ],
+            [
+              960,
+              560.461,
+              0
+            ],
+            [
+              959.999,
+              549.295,
+              0
+            ],
+            [
+              959.999,
+              536.533,
+              0
+            ],
+            [
+              960,
+              521.897,
+              0
+            ],
+            [
+              960,
+              505.009,
+              0
+            ],
+            [
+              959.999,
+              485.356,
+              0
+            ],
+            [
+              960,
+              462.21,
+              0
+            ],
+            [
+              960,
+              434.441,
+              0
+            ],
+            [
+              960,
+              400.252,
+              0
+            ],
+            [
+              960,
+              356.553,
+              0
+            ],
+            [
+              960,
+              298.749,
+              0
+            ],
+            [
+              960,
+              236.565,
+              0
+            ],
+            [
+              960,
+              216,
+              0
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal.png$8.scale": {
+          "values": [
+            [
+              3,
+              3,
+              1
+            ],
+            [
+              3.002,
+              2.964,
+              1
+            ],
+            [
+              2.993,
+              2.946,
+              1
+            ],
+            [
+              2.974,
+              2.925,
+              1
+            ],
+            [
+              2.945,
+              2.899,
+              1
+            ],
+            [
+              2.905,
+              2.864,
+              1
+            ],
+            [
+              2.853,
+              2.819,
+              1
+            ],
+            [
+              2.787,
+              2.761,
+              1
+            ],
+            [
+              2.704,
+              2.687,
+              1
+            ],
+            [
+              2.6,
+              2.592,
+              1
+            ],
+            [
+              2.47,
+              2.471,
+              1
+            ],
+            [
+              2.302,
+              2.311,
+              1
+            ],
+            [
+              2.076,
+              2.092,
+              1
+            ],
+            [
+              1.74,
+              1.759,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              0.787,
+              0.854,
+              1
+            ],
+            [
+              0.857,
+              0.92,
+              1
+            ],
+            [
+              0.953,
+              0.976,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.125,
+              1.125,
+              1
+            ],
+            [
+              1.198,
+              1.198,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.22,
+              1.22,
+              1
+            ],
+            [
+              1.174,
+              1.174,
+              1
+            ],
+            [
+              1.125,
+              1.125,
+              1
+            ],
+            [
+              1.075,
+              1.075,
+              1
+            ],
+            [
+              1.029,
+              1.029,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 11,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal.png$8.alpha": {
+          "values": [
+            0,
+            0.5,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 16,
+          "frameLerp": false
+        },
+        "vip_crystal_back.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.054,
+              1.054,
+              1
+            ],
+            [
+              1.148,
+              1.148,
+              1
+            ],
+            [
+              1.17,
+              1.17,
+              1
+            ],
+            [
+              1.036,
+              1.036,
+              1
+            ],
+            [
+              0.95,
+              0.95,
+              1
+            ],
+            [
+              0.982,
+              0.982,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 23,
+          "frameLerp": false
+        },
+        "vip_crystal_back.png.alpha": {
+          "values": [
+            0,
+            0.166,
+            0.333,
+            0.5,
+            0.666,
+            0.833,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 16,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal.png$8.0.inWhite": {
+          "values": [
+            1,
+            0.85624999902421,
+            0.53999999999793,
+            0.22375000097269,
+            0.08,
+            0.28054681270276,
+            0.66949318138127,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.93437499955453,
+            0.78999999999906,
+            0.64562500044405,
+            0.58,
+            0.69628408787558,
+            0.90545904088016,
+            0.99811420109811,
+            0.86101415152319,
+            0.65466162264693,
+            0.58716195321301,
+            0.74224076249862,
+            0.94346666737433,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_left.translation": {
+          "values": [
+            [
+              960,
+              622,
+              0
+            ],
+            [
+              960,
+              620.37,
+              0
+            ],
+            [
+              960,
+              615.646,
+              0
+            ],
+            [
+              959.999,
+              608.075,
+              0
+            ],
+            [
+              959.999,
+              597.907,
+              0
+            ],
+            [
+              959.999,
+              585.385,
+              0
+            ],
+            [
+              959.999,
+              570.762,
+              0
+            ],
+            [
+              960,
+              554.28,
+              0
+            ],
+            [
+              960,
+              536.19,
+              0
+            ],
+            [
+              959.999,
+              516.74,
+              0
+            ],
+            [
+              960,
+              496.171,
+              0
+            ],
+            [
+              960,
+              474.74,
+              0
+            ],
+            [
+              960,
+              452.693,
+              0
+            ],
+            [
+              960,
+              430.272,
+              0
+            ],
+            [
+              960,
+              407.728,
+              0
+            ],
+            [
+              960,
+              385.306,
+              0
+            ],
+            [
+              960,
+              363.258,
+              0
+            ],
+            [
+              960,
+              341.831,
+              0
+            ],
+            [
+              960,
+              321.26,
+              0
+            ],
+            [
+              960,
+              301.809,
+              0
+            ],
+            [
+              960,
+              283.718,
+              0
+            ],
+            [
+              960,
+              267.238,
+              0
+            ],
+            [
+              959.999,
+              252.614,
+              0
+            ],
+            [
+              960,
+              240.092,
+              0
+            ],
+            [
+              960,
+              229.924,
+              0
+            ],
+            [
+              960,
+              222.353,
+              0
+            ],
+            [
+              960,
+              217.629,
+              0
+            ],
+            [
+              960,
+              216,
+              0
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "ltp_lightsweep_right.translation": {
+          "values": [
+            [
+              960,
+              622,
+              0
+            ],
+            [
+              960,
+              620.37,
+              0
+            ],
+            [
+              960,
+              615.646,
+              0
+            ],
+            [
+              959.999,
+              608.075,
+              0
+            ],
+            [
+              959.999,
+              597.907,
+              0
+            ],
+            [
+              959.999,
+              585.385,
+              0
+            ],
+            [
+              959.999,
+              570.762,
+              0
+            ],
+            [
+              960,
+              554.28,
+              0
+            ],
+            [
+              960,
+              536.19,
+              0
+            ],
+            [
+              959.999,
+              516.74,
+              0
+            ],
+            [
+              960,
+              496.171,
+              0
+            ],
+            [
+              960,
+              474.74,
+              0
+            ],
+            [
+              960,
+              452.693,
+              0
+            ],
+            [
+              960,
+              430.272,
+              0
+            ],
+            [
+              960,
+              407.728,
+              0
+            ],
+            [
+              960,
+              385.306,
+              0
+            ],
+            [
+              960,
+              363.258,
+              0
+            ],
+            [
+              960,
+              341.831,
+              0
+            ],
+            [
+              960,
+              321.26,
+              0
+            ],
+            [
+              960,
+              301.809,
+              0
+            ],
+            [
+              960,
+              283.718,
+              0
+            ],
+            [
+              960,
+              267.238,
+              0
+            ],
+            [
+              959.999,
+              252.614,
+              0
+            ],
+            [
+              960,
+              240.092,
+              0
+            ],
+            [
+              960,
+              229.924,
+              0
+            ],
+            [
+              960,
+              222.353,
+              0
+            ],
+            [
+              960,
+              217.629,
+              0
+            ],
+            [
+              960,
+              216,
+              0
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 21,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal_right$14.0.inWhite": {
+          "values": [
+            0.58,
+            0.50187499946968,
+            0.32999999999887,
+            0.15812500052864,
+            0.08,
+            0.28054681270276,
+            0.66949318138127,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 10,
+          "frameLerp": false
+        },
+        "star_right.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.034,
+              0.034,
+              1
+            ],
+            [
+              0.126,
+              0.126,
+              1
+            ],
+            [
+              0.259,
+              0.259,
+              1
+            ],
+            [
+              0.417,
+              0.417,
+              1
+            ],
+            [
+              0.582,
+              0.582,
+              1
+            ],
+            [
+              0.74,
+              0.74,
+              1
+            ],
+            [
+              0.873,
+              0.873,
+              1
+            ],
+            [
+              0.965,
+              0.965,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 6,
+          "frameLerp": false
+        },
+        "star_right.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.382,
+              0.923
+            ],
+            [
+              0,
+              0,
+              0.387,
+              0.921
+            ],
+            [
+              0,
+              0,
+              0.384,
+              0.922
+            ],
+            [
+              0,
+              0,
+              0.372,
+              0.927
+            ],
+            [
+              0,
+              0,
+              0.349,
+              0.936
+            ],
+            [
+              0,
+              0,
+              0.312,
+              0.949
+            ],
+            [
+              0,
+              0,
+              0.258,
+              0.965
+            ],
+            [
+              0,
+              0,
+              0.181,
+              0.983
+            ],
+            [
+              0,
+              0,
+              0.071,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.087,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.087,
+              0.996
+            ],
+            [
+              0,
+              0,
+              -0.058,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.038,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.014,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 6,
+          "frameLerp": false
+        },
+        "star_left.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.028,
+              0.028,
+              1
+            ],
+            [
+              0.104,
+              0.104,
+              1
+            ],
+            [
+              0.216,
+              0.216,
+              1
+            ],
+            [
+              0.352,
+              0.352,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ],
+            [
+              0.647,
+              0.647,
+              1
+            ],
+            [
+              0.783,
+              0.783,
+              1
+            ],
+            [
+              0.895,
+              0.895,
+              1
+            ],
+            [
+              0.971,
+              0.971,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "star_left.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.499,
+              0.866
+            ],
+            [
+              0,
+              0,
+              -0.51,
+              0.859
+            ],
+            [
+              0,
+              0,
+              -0.508,
+              0.861
+            ],
+            [
+              0,
+              0,
+              -0.493,
+              0.869
+            ],
+            [
+              0,
+              0,
+              -0.464,
+              0.885
+            ],
+            [
+              0,
+              0,
+              -0.42,
+              0.907
+            ],
+            [
+              0,
+              0,
+              -0.359,
+              0.933
+            ],
+            [
+              0,
+              0,
+              -0.28,
+              0.959
+            ],
+            [
+              0,
+              0,
+              -0.181,
+              0.983
+            ],
+            [
+              0,
+              0,
+              -0.058,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.087,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.093,
+              0.995
+            ],
+            [
+              0,
+              0,
+              0.068,
+              0.997
+            ],
+            [
+              0,
+              0,
+              0.048,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.032,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.021,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.006,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "vip_level_up_crystal_left$11.0.inWhite": {
+          "values": [
+            0.58,
+            0.50187499946968,
+            0.32999999999887,
+            0.15812500052864,
+            0.08,
+            0.28054681270276,
+            0.66949318138127,
+            1
+          ],
+          "duration": 4.04166666666667,
+          "len": 97,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "Null 44.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 96
+        },
+        "Null 43.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 6
+        },
+        "text_lvl_prev.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 15
+        },
+        "text_lvl_cur.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 15
+        },
+        "vip_crystal_back.png.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 15
+        },
+        "ltp_lightsweep_1.png.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 24
+        },
+        "vip_level_up_crystal.png$8.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 7
+        },
+        "ltp_lightsweep_left.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 20
+        },
+        "vip_level_up_crystal_left$11.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 96
+        },
+        "ltp_lightsweep_right.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 20
+        },
+        "vip_level_up_crystal_right$14.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 96
+        },
+        "star_right.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 3
+        },
+        "star_left.enabled": {
+          "duration": 4.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 96
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4.04166666666667
+        }
+      },
+      "layers": [
+        "Null 44",
+        "Null 43",
+        "text_lvl_prev",
+        "text_lvl_cur",
+        "vip_crystal_back.png",
+        "vip_level_up_crystal.png",
+        "ltp_lightsweep_1.png",
+        "vip_level_up_crystal.png$8",
+        "vip_level_up_crystal_left",
+        "ltp_lightsweep_left",
+        "vip_level_up_crystal_left$11",
+        "vip_level_up_crystal_right",
+        "ltp_lightsweep_right",
+        "vip_level_up_crystal_right$14",
+        "star_right",
+        "star_left"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_level_up_new.aep",
+  "version": 1
+}

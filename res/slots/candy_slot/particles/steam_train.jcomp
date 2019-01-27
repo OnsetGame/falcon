@@ -1,0 +1,124 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "par_train",
+  "children": [
+    {
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        -4.371138828673793e-08
+      ],
+      "name": "par",
+      "components": [
+        {
+          "dstScale": [
+            90.0,
+            90.0,
+            90.0
+          ],
+          "randScaleTo": 15.0,
+          "distance": 40.0,
+          "scaleSeq": [],
+          "lifetime": 1.5,
+          "isPlayed": false,
+          "frequency": 0.4,
+          "randScaleFrom": -15.0,
+          "isBlendAdd": false,
+          "duration": 1.0,
+          "randVelocityFrom": -30.0,
+          "startScale": [
+            110.0,
+            110.0,
+            110.0
+          ],
+          "genShapeNode": "par",
+          "gravity": [
+            0.0,
+            -100.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startVelocity": 250.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            180.0,
+            180.0,
+            180.0
+          ],
+          "amplitude": 5.0,
+          "birthRate": 10.0,
+          "texture": "par_train_fx.png",
+          "isMove": false,
+          "colorSeq": [],
+          "speed": 9.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.800000011920929
+          ],
+          "colorMode": 0,
+          "isLooped": true,
+          "texSize": [
+            100.0,
+            85.0
+          ],
+          "framesCount": 15,
+          "randVelocityTo": 10.0,
+          "scaleMode": 0,
+          "animColumns": 3,
+          "fps": 9.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": true,
+          "radius": 10.0,
+          "angle": 15.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1500.0,
+    850.0,
+    0.0
+  ],
+  "version": 1
+}

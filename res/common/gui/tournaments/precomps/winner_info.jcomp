@@ -1,0 +1,352 @@
+{
+  "name": "winner_info",
+  "children": [
+    {
+      "name": "chips_placeholder",
+      "alpha": 0.0,
+      "translation": [
+        19,
+        49,
+        0
+      ],
+      "anchor": [
+        19,
+        20,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_chips",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            38,
+            40
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "alpha": 0.0,
+      "translation": [
+        19,
+        49,
+        0
+      ],
+      "anchor": [
+        19,
+        15.5,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_bucks",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            38,
+            31
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "not_win_numbers",
+      "translation": [
+        53.5999984741211,
+        60.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0.6,
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "win_numbers",
+      "translation": [
+        53.5999984741211,
+        60.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "#5",
+      "translation": [
+        53.5999984741211,
+        24.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "#9-16",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "#4",
+      "translation": [
+        53.5999984741211,
+        24.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "#4-8",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "#3",
+      "translation": [
+        53.5999984741211,
+        24.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "#3",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            0.97646993398666,
+            0.64706009626389,
+            0.46274000406265
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "#2",
+      "translation": [
+        53.5999984741211,
+        24.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "#2",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            0.81176996231079,
+            0.86666995286942,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "#1",
+      "translation": [
+        53.5999984741211,
+        24.7999992370605,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "text": "#1",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.92156994342804,
+            0.23138001561165
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

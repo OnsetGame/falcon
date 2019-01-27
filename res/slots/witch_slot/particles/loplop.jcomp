@@ -1,0 +1,165 @@
+{
+  "name": "LopLop",
+  "translation": [
+    951.5604248046875,
+    583.6991577148438,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    -0.8999999761581421,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 370.0,
+      "isRandPos": true,
+      "isRandDir": false,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 3.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 3.0,
+      "lifetime": 1.6,
+      "startVelocity": 15.0,
+      "randVelocityFrom": -5.0,
+      "randVelocityTo": 5.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        155.0,
+        155.0,
+        155.0
+      ],
+      "dstScale": [
+        177.0,
+        177.0,
+        177.0
+      ],
+      "randScaleFrom": -50.0,
+      "randScaleTo": 75.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "isBlendAdd": true,
+      "gravity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [
+        [
+          0.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        [
+          0.25,
+          45.0,
+          45.0,
+          45.0
+        ],
+        [
+          0.8999999761581421,
+          60.0,
+          60.0,
+          60.0
+        ],
+        [
+          1.0,
+          80.0,
+          80.0,
+          80.0
+        ]
+      ],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.1500000059604645,
+          1.0,
+          1.0,
+          1.0,
+          0.800000011920929
+        ],
+        [
+          0.8999999761581421,
+          1.0,
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "lop_sheet.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        100.0,
+        100.0
+      ],
+      "animColumns": 8,
+      "framesCount": 40,
+      "fps": 24.0,
+      "modifierNode": "",
+      "genShapeNode": "LopLop",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    }
+  ]
+}

@@ -1,0 +1,1456 @@
+{
+  "name": "exchange_rates",
+  "children": [
+    {
+      "name": "position_controller",
+      "translation": [
+        236,
+        169,
+        0
+      ],
+      "children": [
+        {
+          "name": "arrows",
+          "translation": [
+            409,
+            -64,
+            0
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "arrows.json",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4.916,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4.91666666666667,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "ltp_ellipseholder.png$11",
+          "translation": [
+            99,
+            -1,
+            0
+          ],
+          "scale": [
+            0.747,
+            0.747,
+            1
+          ],
+          "anchor": [
+            109,
+            109,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.333,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_ellipseholder.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_ellipseholder.png",
+          "translation": [
+            -93,
+            -1,
+            0
+          ],
+          "scale": [
+            0.747,
+            0.747,
+            1
+          ],
+          "anchor": [
+            109,
+            109,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.333,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_ellipseholder.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_round_corner.png",
+          "translation": [
+            8,
+            -3,
+            0
+          ],
+          "anchor": [
+            197,
+            103,
+            0
+          ],
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.333,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_round_corner.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "chips_rate",
+          "translation": [
+            96.599,
+            138.799,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.333,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "200 000",
+              "font": "Exo2-Black",
+              "fontSize": 10.6666698455811,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "deal_price",
+          "translation": [
+            -94.4,
+            187.799,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.291,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "50",
+              "font": "Exo2-Black",
+              "fontSize": 16,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "regular_price",
+          "translation": [
+            -95.4,
+            140.049,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "alpha": 0.31,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 6.416,
+              "scale": 1,
+              "startTime": 0.291,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "100",
+              "font": "Exo2-Black",
+              "fontSize": 10.6666698455811,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0.333,
+          "outPoint": 6.416,
+          "scale": 1,
+          "startTime": 0.333,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_win_n_chips_2.png",
+      "translation": [
+        332.993,
+        99.701,
+        0
+      ],
+      "scale": [
+        0.556,
+        0.556,
+        1
+      ],
+      "anchor": [
+        107.475,
+        5.78,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1.2556548754682,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.416,
+          "scale": 1,
+          "startTime": 0.333,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_win_n_chips_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bucs",
+      "translation": [
+        142.555,
+        156.598,
+        0
+      ],
+      "scale": [
+        0.593,
+        0.593,
+        1
+      ],
+      "anchor": [
+        121,
+        95,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6.416,
+          "scale": 1,
+          "startTime": 0.333,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/bucks.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "deal_line",
+      "translation": [
+        170.162,
+        298.5,
+        0
+      ],
+      "scale": [
+        -3.8,
+        2.75,
+        1
+      ],
+      "anchor": [
+        0,
+        0.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.333,
+          "scale": 1,
+          "startTime": -0.041,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.34509804844856,
+            0.30588236451149,
+            0.21176470816135
+          ],
+          "size": [
+            15,
+            1
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bucs.translation": {
+          "values": [
+            [
+              142.555,
+              156.598,
+              0
+            ],
+            [
+              142.805,
+              157.213,
+              0
+            ],
+            [
+              143.478,
+              158.865,
+              0
+            ],
+            [
+              144.333,
+              160.966,
+              0
+            ],
+            [
+              144.73,
+              161.942,
+              0
+            ],
+            [
+              144.818,
+              162.156,
+              0
+            ],
+            [
+              144.751,
+              161.994,
+              0
+            ],
+            [
+              144.378,
+              161.077,
+              0
+            ],
+            [
+              143.669,
+              159.334,
+              0
+            ],
+            [
+              142.756,
+              157.091,
+              0
+            ],
+            [
+              142.595,
+              156.697,
+              0
+            ],
+            [
+              142.559,
+              156.608,
+              0
+            ],
+            [
+              142.648,
+              156.827,
+              0
+            ],
+            [
+              142.755,
+              157.09,
+              0
+            ],
+            [
+              142.783,
+              157.157,
+              0
+            ],
+            [
+              142.776,
+              157.141,
+              0
+            ],
+            [
+              142.715,
+              156.99,
+              0
+            ],
+            [
+              142.633,
+              156.789,
+              0
+            ],
+            [
+              142.555,
+              156.598,
+              0
+            ],
+            [
+              142.566,
+              156.625,
+              0
+            ],
+            [
+              142.615,
+              156.747,
+              0
+            ],
+            [
+              142.649,
+              156.83,
+              0
+            ],
+            [
+              142.668,
+              156.876,
+              0
+            ],
+            [
+              142.663,
+              156.863,
+              0
+            ],
+            [
+              142.644,
+              156.818,
+              0
+            ],
+            [
+              142.603,
+              156.716,
+              0
+            ],
+            [
+              142.571,
+              156.637,
+              0
+            ],
+            [
+              142.555,
+              156.598,
+              0
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 16
+        },
+        "bucs.scale": {
+          "values": [
+            [
+              0.593,
+              0.593,
+              1
+            ],
+            [
+              0.632,
+              0.632,
+              1
+            ],
+            [
+              0.737,
+              0.737,
+              1
+            ],
+            [
+              0.871,
+              0.871,
+              1
+            ],
+            [
+              0.933,
+              0.933,
+              1
+            ],
+            [
+              0.946,
+              0.946,
+              1
+            ],
+            [
+              0.936,
+              0.936,
+              1
+            ],
+            [
+              0.878,
+              0.878,
+              1
+            ],
+            [
+              0.767,
+              0.767,
+              1
+            ],
+            [
+              0.625,
+              0.625,
+              1
+            ],
+            [
+              0.6,
+              0.6,
+              1
+            ],
+            [
+              0.596,
+              0.596,
+              1
+            ],
+            [
+              0.608,
+              0.608,
+              1
+            ],
+            [
+              0.625,
+              0.625,
+              1
+            ],
+            [
+              0.629,
+              0.629,
+              1
+            ],
+            [
+              0.628,
+              0.628,
+              1
+            ],
+            [
+              0.618,
+              0.618,
+              1
+            ],
+            [
+              0.605,
+              0.605,
+              1
+            ],
+            [
+              0.594,
+              0.594,
+              1
+            ],
+            [
+              0.595,
+              0.595,
+              1
+            ],
+            [
+              0.603,
+              0.603,
+              1
+            ],
+            [
+              0.608,
+              0.608,
+              1
+            ],
+            [
+              0.611,
+              0.611,
+              1
+            ],
+            [
+              0.61,
+              0.61,
+              1
+            ],
+            [
+              0.607,
+              0.607,
+              1
+            ],
+            [
+              0.601,
+              0.601,
+              1
+            ],
+            [
+              0.596,
+              0.596,
+              1
+            ],
+            [
+              0.593,
+              0.593,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 16
+        },
+        "bucs.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 179
+        },
+        "bucs.0.inWhite": {
+          "values": [
+            1,
+            0.99692724914406,
+            0.93269318648375,
+            0.81229999902539,
+            0.67168075205607,
+            0.54664024448966,
+            0.47345308913887,
+            0.47564861187959,
+            0.52211795007778,
+            0.5976600238304,
+            0.69047046055025,
+            0.78838758867146,
+            0.8795933843599,
+            0.95216467774057,
+            0.9941782985867,
+            1
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 13
+        },
+        "ltp_win_n_chips_2.png.translation": {
+          "values": [
+            [
+              332.993,
+              99.701,
+              0
+            ],
+            [
+              333.031,
+              98.416,
+              0
+            ],
+            [
+              333.184,
+              93.26,
+              0
+            ],
+            [
+              333.646,
+              77.738,
+              0
+            ],
+            [
+              333.898,
+              69.251,
+              0
+            ],
+            [
+              334.009,
+              65.51,
+              0
+            ],
+            [
+              334.025,
+              64.962,
+              0
+            ],
+            [
+              333.974,
+              66.686,
+              0
+            ],
+            [
+              333.682,
+              76.526,
+              0
+            ],
+            [
+              333.294,
+              89.552,
+              0
+            ],
+            [
+              333.048,
+              97.846,
+              0
+            ],
+            [
+              332.988,
+              99.862,
+              0
+            ],
+            [
+              333.004,
+              99.325,
+              0
+            ],
+            [
+              333.066,
+              97.243,
+              0
+            ],
+            [
+              333.091,
+              96.408,
+              0
+            ],
+            [
+              333.097,
+              96.2,
+              0
+            ],
+            [
+              333.084,
+              96.643,
+              0
+            ],
+            [
+              333.049,
+              97.808,
+              0
+            ],
+            [
+              333.006,
+              99.249,
+              0
+            ],
+            [
+              332.993,
+              99.677,
+              0
+            ],
+            [
+              333.009,
+              99.149,
+              0
+            ],
+            [
+              333.029,
+              98.469,
+              0
+            ],
+            [
+              333.043,
+              98.017,
+              0
+            ],
+            [
+              333.045,
+              97.935,
+              0
+            ],
+            [
+              333.038,
+              98.18,
+              0
+            ],
+            [
+              333.024,
+              98.645,
+              0
+            ],
+            [
+              333.007,
+              99.231,
+              0
+            ],
+            [
+              332.993,
+              99.701,
+              0
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 18
+        },
+        "ltp_win_n_chips_2.png.scale": {
+          "values": [
+            [
+              0.556,
+              0.556,
+              1
+            ],
+            [
+              0.568,
+              0.568,
+              1
+            ],
+            [
+              0.617,
+              0.617,
+              1
+            ],
+            [
+              0.764,
+              0.764,
+              1
+            ],
+            [
+              0.845,
+              0.845,
+              1
+            ],
+            [
+              0.88,
+              0.88,
+              1
+            ],
+            [
+              0.885,
+              0.885,
+              1
+            ],
+            [
+              0.869,
+              0.869,
+              1
+            ],
+            [
+              0.776,
+              0.776,
+              1
+            ],
+            [
+              0.652,
+              0.652,
+              1
+            ],
+            [
+              0.573,
+              0.573,
+              1
+            ],
+            [
+              0.556,
+              0.556,
+              1
+            ],
+            [
+              0.559,
+              0.559,
+              1
+            ],
+            [
+              0.579,
+              0.579,
+              1
+            ],
+            [
+              0.587,
+              0.587,
+              1
+            ],
+            [
+              0.588,
+              0.588,
+              1
+            ],
+            [
+              0.585,
+              0.585,
+              1
+            ],
+            [
+              0.574,
+              0.574,
+              1
+            ],
+            [
+              0.56,
+              0.56,
+              1
+            ],
+            [
+              0.557,
+              0.557,
+              1
+            ],
+            [
+              0.561,
+              0.561,
+              1
+            ],
+            [
+              0.567,
+              0.567,
+              1
+            ],
+            [
+              0.572,
+              0.572,
+              1
+            ],
+            [
+              0.572,
+              0.572,
+              1
+            ],
+            [
+              0.57,
+              0.57,
+              1
+            ],
+            [
+              0.566,
+              0.566,
+              1
+            ],
+            [
+              0.56,
+              0.56,
+              1
+            ],
+            [
+              0.556,
+              0.556,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 18
+        },
+        "ltp_win_n_chips_2.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_win_n_chips_2.png.0.inWhite": {
+          "values": [
+            1,
+            0.99719139742397,
+            0.93759999944748,
+            0.82273959869351,
+            0.68207980052473,
+            0.54493720457062,
+            0.44114590231108,
+            0.4,
+            0.42914201563894,
+            0.50519861531485,
+            0.61125625194494,
+            0.72998472195009,
+            0.84444444385402,
+            0.93758124830268,
+            0.99234096549014,
+            1
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 13
+        },
+        "ltp_round_corner.png.0.inWhite": {
+          "values": [
+            1,
+            0.99692724914406,
+            0.93269318648375,
+            0.81229999902539,
+            0.67168075205607,
+            0.54664024448966,
+            0.47345308913887,
+            0.47564861187959,
+            0.52211795007778,
+            0.5976600238304,
+            0.69047046055025,
+            0.78838758867146,
+            0.8795933843599,
+            0.95216467774057,
+            0.9941782985867,
+            1
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 13
+        },
+        "ltp_ellipseholder.png.scale": {
+          "values": [
+            [
+              0.747,
+              0.747,
+              1
+            ],
+            [
+              0.749,
+              0.749,
+              1
+            ],
+            [
+              0.789,
+              0.789,
+              1
+            ],
+            [
+              0.851,
+              0.851,
+              1
+            ],
+            [
+              0.899,
+              0.899,
+              1
+            ],
+            [
+              0.904,
+              0.904,
+              1
+            ],
+            [
+              0.884,
+              0.884,
+              1
+            ],
+            [
+              0.851,
+              0.851,
+              1
+            ],
+            [
+              0.813,
+              0.813,
+              1
+            ],
+            [
+              0.778,
+              0.778,
+              1
+            ],
+            [
+              0.754,
+              0.754,
+              1
+            ],
+            [
+              0.747,
+              0.747,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 13
+        },
+        "ltp_ellipseholder.png$11.scale": {
+          "values": [
+            [
+              0.747,
+              0.747,
+              1
+            ],
+            [
+              0.764,
+              0.764,
+              1
+            ],
+            [
+              0.819,
+              0.819,
+              1
+            ],
+            [
+              0.879,
+              0.879,
+              1
+            ],
+            [
+              0.907,
+              0.907,
+              1
+            ],
+            [
+              0.896,
+              0.896,
+              1
+            ],
+            [
+              0.869,
+              0.869,
+              1
+            ],
+            [
+              0.832,
+              0.832,
+              1
+            ],
+            [
+              0.794,
+              0.794,
+              1
+            ],
+            [
+              0.764,
+              0.764,
+              1
+            ],
+            [
+              0.748,
+              0.748,
+              1
+            ],
+            [
+              0.747,
+              0.747,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 180,
+          "cutf": 16
+        },
+        "deal_line.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "bucs.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_win_n_chips_2.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "position_controller.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 9
+        },
+        "regular_price.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "deal_price.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "chips_rate.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_round_corner.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_ellipseholder.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "ltp_ellipseholder.png$11.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "arrows.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 147
+        }
+      },
+      "markers": {
+        "exchange": {
+          "start": 0.45833333333333,
+          "duration": 1.04166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "deal_line",
+        "bucs",
+        "ltp_win_n_chips_2.png",
+        "position_controller",
+        "regular_price",
+        "deal_price",
+        "chips_rate",
+        "ltp_round_corner.png",
+        "ltp_ellipseholder.png",
+        "ltp_ellipseholder.png$11",
+        "arrows"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

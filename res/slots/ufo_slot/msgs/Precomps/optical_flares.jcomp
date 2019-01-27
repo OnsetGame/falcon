@@ -1,0 +1,436 @@
+{
+  "name": "optical_flares",
+  "children": [
+    {
+      "name": "optical_flare_3",
+      "translation": [
+        -2532,
+        624,
+        0
+      ],
+      "scale": [
+        10,
+        6,
+        1
+      ],
+      "anchor": [
+        193,
+        100,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.366,
+          "scale": 1,
+          "startTime": -0.233,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/optical_flare.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "optical_flare_2",
+      "translation": [
+        -2532,
+        864,
+        0
+      ],
+      "scale": [
+        7,
+        4,
+        1
+      ],
+      "anchor": [
+        193,
+        100,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.366,
+          "scale": 1,
+          "startTime": -0.233,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/optical_flare.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "optical_flare_1",
+      "translation": [
+        -2532,
+        464,
+        0
+      ],
+      "scale": [
+        7,
+        4,
+        1
+      ],
+      "anchor": [
+        193,
+        100,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.366,
+          "scale": 1,
+          "startTime": -0.233,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../Sources/optical_flare.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "optical_flare_1.translation": {
+          "values": [
+            [
+              -2532,
+              464,
+              0
+            ],
+            [
+              -2073.442,
+              464,
+              0
+            ],
+            [
+              -1614.89,
+              464,
+              0
+            ],
+            [
+              -1155.776,
+              464,
+              0
+            ],
+            [
+              -697.212,
+              463.999,
+              0
+            ],
+            [
+              -238.662,
+              464,
+              0
+            ],
+            [
+              219.888,
+              464,
+              0
+            ],
+            [
+              678.445,
+              464,
+              0
+            ],
+            [
+              1137.546,
+              464,
+              0
+            ],
+            [
+              1596.113,
+              464,
+              0
+            ],
+            [
+              2054.665,
+              464,
+              0
+            ],
+            [
+              2513.221,
+              464,
+              0
+            ],
+            [
+              2971.774,
+              464,
+              0
+            ],
+            [
+              3430.889,
+              463.999,
+              0
+            ],
+            [
+              3889.444,
+              464,
+              0
+            ],
+            [
+              4348,
+              464,
+              0
+            ]
+          ],
+          "duration": 1.45833333333333,
+          "len": 44,
+          "cutf": 20
+        },
+        "optical_flare_2.translation": {
+          "values": [
+            [
+              -2532,
+              864,
+              0
+            ],
+            [
+              -2073.442,
+              864,
+              0
+            ],
+            [
+              -1614.89,
+              864,
+              0
+            ],
+            [
+              -1155.776,
+              864,
+              0
+            ],
+            [
+              -697.212,
+              863.999,
+              0
+            ],
+            [
+              -238.662,
+              864,
+              0
+            ],
+            [
+              219.888,
+              864,
+              0
+            ],
+            [
+              678.445,
+              864,
+              0
+            ],
+            [
+              1137.546,
+              864,
+              0
+            ],
+            [
+              1596.113,
+              864,
+              0
+            ],
+            [
+              2054.665,
+              864,
+              0
+            ],
+            [
+              2513.221,
+              864,
+              0
+            ],
+            [
+              2971.774,
+              864,
+              0
+            ],
+            [
+              3430.889,
+              863.999,
+              0
+            ],
+            [
+              3889.444,
+              864,
+              0
+            ],
+            [
+              4348,
+              864,
+              0
+            ]
+          ],
+          "duration": 1.45833333333333,
+          "len": 44,
+          "cutf": 15
+        },
+        "optical_flare_3.translation": {
+          "values": [
+            [
+              -2532,
+              624,
+              0
+            ],
+            [
+              -2073.442,
+              624,
+              0
+            ],
+            [
+              -1614.89,
+              624,
+              0
+            ],
+            [
+              -1155.776,
+              624,
+              0
+            ],
+            [
+              -697.212,
+              623.999,
+              0
+            ],
+            [
+              -238.662,
+              624,
+              0
+            ],
+            [
+              219.888,
+              624,
+              0
+            ],
+            [
+              678.445,
+              624,
+              0
+            ],
+            [
+              1137.546,
+              624,
+              0
+            ],
+            [
+              1596.113,
+              624,
+              0
+            ],
+            [
+              2054.665,
+              624,
+              0
+            ],
+            [
+              2513.221,
+              624,
+              0
+            ],
+            [
+              2971.774,
+              624,
+              0
+            ],
+            [
+              3430.889,
+              624,
+              0
+            ],
+            [
+              3889.444,
+              624,
+              0
+            ],
+            [
+              4348,
+              624,
+              0
+            ]
+          ],
+          "duration": 1.45833333333333,
+          "len": 44,
+          "cutf": 10
+        },
+        "optical_flare_1.enabled": {
+          "duration": 1.45833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 44,
+          "cutf": 41
+        },
+        "optical_flare_2.enabled": {
+          "duration": 1.45833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 44,
+          "cutf": 41
+        },
+        "optical_flare_3.enabled": {
+          "duration": 1.45833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 44,
+          "cutf": 41
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.45833333333333
+        }
+      },
+      "layers": [
+        "optical_flare_1",
+        "optical_flare_2",
+        "optical_flare_3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_final_V.aep",
+  "version": 1
+}

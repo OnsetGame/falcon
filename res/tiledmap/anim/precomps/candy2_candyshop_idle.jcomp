@@ -1,0 +1,64 @@
+{
+  "name": "candy2_candyshop_idle",
+  "children": [
+    {
+      "name": "candy2_candyshop",
+      "translation": [
+        0,
+        2334,
+        0
+      ],
+      "anchor": [
+        0,
+        2334,
+        0
+      ],
+      "compositionRef": "candy2_candyshop",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "candy2_candyshop.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 192,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 3.91666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "candy2_candyshop"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,549 @@
+{
+  "name": "firework",
+  "children": [
+    {
+      "name": "boy_petarda2.png",
+      "translation": [
+        490.5,
+        493,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.062,
+          "outPoint": 0.125,
+          "scale": 1,
+          "startTime": -19.312,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/boy_petarda2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "boy_petarda1.png",
+      "translation": [
+        133,
+        732.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.062,
+          "scale": 1,
+          "startTime": -19.312,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/boy_petarda1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "sparks_2",
+      "translation": [
+        135,
+        749.5,
+        0
+      ],
+      "children": [
+        {
+          "name": "spark_[00311-00329].png",
+          "translation": [
+            -98.402,
+            -99.5,
+            0
+          ],
+          "scale": [
+            0.999,
+            1,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 7.91666666666667,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/spark/spark_00311.png",
+                "../assets/spark/spark_00312.png",
+                "../assets/spark/spark_00313.png",
+                "../assets/spark/spark_00314.png",
+                "../assets/spark/spark_00315.png",
+                "../assets/spark/spark_00316.png",
+                "../assets/spark/spark_00317.png",
+                "../assets/spark/spark_00318.png",
+                "../assets/spark/spark_00319.png",
+                "../assets/spark/spark_00320.png",
+                "../assets/spark/spark_00321.png",
+                "../assets/spark/spark_00322.png",
+                "../assets/spark/spark_00323.png",
+                "../assets/spark/spark_00324.png",
+                "../assets/spark/spark_00325.png",
+                "../assets/spark/spark_00326.png",
+                "../assets/spark/spark_00327.png",
+                "../assets/spark/spark_00328.png",
+                "../assets/spark/spark_00329.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.125,
+          "scale": 1,
+          "startTime": -19.312,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "petarda_fly_2",
+      "translation": [
+        737,
+        634,
+        0
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "petard",
+          "translation": [
+            -242,
+            -262,
+            0
+          ],
+          "children": [
+            {
+              "name": "sparks_3",
+              "translation": [
+                -320,
+                357.5,
+                0
+              ],
+              "alpha": 0,
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0.125,
+                  "outPoint": 1.312,
+                  "scale": 1,
+                  "startTime": -19.312,
+                  "duration": 0,
+                  "timeremap": 0,
+                  "timeRemapEnabled": false,
+                  "_c": "AELayer"
+                }
+              ]
+            }
+          ],
+          "compositionRef": "petard",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0.125,
+              "outPoint": 3.312,
+              "scale": 1,
+              "startTime": 0.125,
+              "duration": 3.1875,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.125,
+          "outPoint": 1.375,
+          "scale": 1,
+          "startTime": -19.312,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "petarda_fly_2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.382,
+              0.923
+            ],
+            [
+              0,
+              0,
+              -0.707,
+              0.707
+            ],
+            [
+              0,
+              0,
+              -0.923,
+              0.382
+            ],
+            [
+              0,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              -0.923,
+              -0.382
+            ],
+            [
+              0,
+              0,
+              -0.707,
+              -0.707
+            ],
+            [
+              0,
+              0,
+              -0.382,
+              -0.923
+            ],
+            [
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "petarda_fly_2.alpha": {
+          "values": [
+            0,
+            1
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 1,
+          "frameLerp": true
+        },
+        "sparks_3.translation": {
+          "values": [
+            [
+              -320,
+              357.5,
+              0
+            ],
+            [
+              54,
+              107.5,
+              0
+            ],
+            [
+              219,
+              -9.5,
+              0
+            ]
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "sparks_3.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.879,
+            0.722,
+            0.538,
+            0.319,
+            0
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 1,
+          "frameLerp": true
+        },
+        "sparks_2.translation": {
+          "values": [
+            [
+              135,
+              749.5,
+              0
+            ],
+            [
+              509,
+              499.5,
+              0
+            ],
+            [
+              674,
+              546.5,
+              0
+            ]
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "sparks_2.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 2,
+          "frameLerp": true
+        },
+        "boy_petarda1.png.alpha": {
+          "values": [
+            1,
+            0
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 1,
+          "frameLerp": true
+        },
+        "boy_petarda2.png.alpha": {
+          "values": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "duration": 1.4375,
+          "len": 23,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "petarda_fly_2.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 1
+        },
+        "petard.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 1
+        },
+        "sparks_3.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 1
+        },
+        "sparks_2.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 1
+        },
+        "spark_[00311-00329].png.curFrame": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            1,
+            2,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            13,
+            14
+          ],
+          "len": 23,
+          "cutf": 0
+        },
+        "spark_[00311-00329].png.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 1
+        },
+        "boy_petarda1.png.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 0
+        },
+        "boy_petarda2.png.enabled": {
+          "duration": 1.4375,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 23,
+          "cutf": 0
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 1.4375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.4375
+        }
+      },
+      "layers": [
+        "petarda_fly_2",
+        "petard",
+        "sparks_3",
+        "sparks_2",
+        "spark_[00311-00329].png",
+        "boy_petarda1.png",
+        "boy_petarda2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,312 @@
+{
+  "name": "connnection_problems",
+  "children": [
+    {
+      "name": "ltp_circle_error.png",
+      "translation": [
+        963,
+        531,
+        0
+      ],
+      "anchor": [
+        85,
+        85,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_circle_error.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_wifi_sign.png",
+      "translation": [
+        961,
+        523,
+        0
+      ],
+      "anchor": [
+        51,
+        33,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_wifi_sign.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "!",
+      "translation": [
+        960.75,
+        562.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "!",
+          "font": "Exo2-Black",
+          "fontSize": 96,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "!.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.029,
+              1.029,
+              1
+            ],
+            [
+              1.096,
+              1.096,
+              1
+            ],
+            [
+              1.164,
+              1.164,
+              1
+            ],
+            [
+              1.199,
+              1.199,
+              1
+            ],
+            [
+              1.165,
+              1.165,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.011,
+              1.011,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "!.0.inWhite": {
+          "values": [
+            1,
+            0.97537336956367,
+            0.9206270828074,
+            0.86440380202652,
+            0.83557027241388,
+            0.86389403992092,
+            0.9321617316906,
+            0.99035516365181,
+            1
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "ltp_circle_error.png.0.inWhite": {
+          "values": [
+            1,
+            0.9711219487371,
+            0.90945599188453,
+            0.85240294635547,
+            0.83739659770877,
+            0.87799564286426,
+            0.9420080877021,
+            0.99198163864059,
+            1
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "!.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "ltp_wifi_sign.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "ltp_circle_error.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "!",
+        "ltp_wifi_sign.png",
+        "ltp_circle_error.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Template.aep",
+  "version": 1
+}

@@ -1,0 +1,194 @@
+{
+  "name": "level_progress_bar",
+  "children": [
+    {
+      "name": "progress_shape_02",
+      "translation": [
+        0.781,
+        17,
+        0
+      ],
+      "anchor": [
+        -150.125,
+        0,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.75294125080109,
+            0.11764706671238,
+            1
+          ],
+          "endColor": [
+            0.90196084976196,
+            0.29019609093666,
+            0.09803922474384,
+            1
+          ],
+          "startPoint": [
+            0.46875,
+            -16.0625
+          ],
+          "endPoint": [
+            0.46875,
+            17.9375
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            300.0625,
+            32.125
+          ],
+          "radius": 16.0625,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "progress_shape_01",
+      "translation": [
+        5.062,
+        17,
+        0
+      ],
+      "anchor": [
+        -145.937,
+        0,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            1,
+            0.60000002384186,
+            0.00392156885937,
+            1
+          ],
+          "endColor": [
+            1,
+            0.9215686917305,
+            0.23137256503105,
+            1
+          ],
+          "startPoint": [
+            -145.96875,
+            4.9375
+          ],
+          "endPoint": [
+            155.03125,
+            4.9375
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            291.9375,
+            24.125
+          ],
+          "radius": 12.0625,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "progress_shape_01.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "progress_shape_02.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.5
+        },
+        "out": {
+          "start": 1.5,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "progress_shape_01",
+        "progress_shape_02"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_new_upper_part.aep",
+  "version": 1
+}

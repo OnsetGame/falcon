@@ -1,0 +1,1410 @@
+{
+  "name": "quest_speedup",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        19.5,
+        484.375,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.037,
+        0.999
+      ],
+      "children": [
+        {
+          "name": "speed_up_window.png",
+          "translation": [
+            0,
+            -0.125,
+            0
+          ],
+          "anchor": [
+            7.5,
+            483.25,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/speedWindow",
+              "size": [
+                422,
+                494
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ltp_small_circle.png",
+          "translation": [
+            26.375,
+            -415.499,
+            0
+          ],
+          "anchor": [
+            49,
+            45,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_small_circle.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_time_icon_huge.png",
+          "translation": [
+            196.569,
+            -340.428,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            47.069,
+            99.946,
+            0
+          ],
+          "children": [
+            {
+              "name": "ltp_lightning_medium.png",
+              "translation": [
+                119.639,
+                88.175,
+                0
+              ],
+              "anchor": [
+                45,
+                67,
+                0
+              ],
+              "components": [
+                {
+                  "inWhite": 0.98,
+                  "inBlack": 0,
+                  "inGamma": 1,
+                  "outWhite": 1,
+                  "outBlack": 0,
+                  "inWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "inBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "inGammaV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outWhiteV": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "outBlackV": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "_c": "ChannelLevels"
+                },
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.125,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_lightning_medium.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_time_icon_huge.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "button_bounce_controller",
+          "translation": [
+            216.25,
+            -59.474,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            60,
+            60,
+            0
+          ],
+          "children": [
+            {
+              "name": "button_ok",
+              "translation": [
+                59.25,
+                63.199,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "anchor": [
+                150,
+                42,
+                0
+              ],
+              "compositionRef": "button_blue_build_popup.json",
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 3.916,
+                  "scale": 1,
+                  "startTime": -0.083,
+                  "duration": 4,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    300,
+                    84
+                  ]
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "time",
+          "translation": [
+            215.099,
+            -190.575,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "2h 41m",
+              "font": "Exo2-Black",
+              "fontSize": 18.6666698455811,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 1,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "building_will_take_title",
+          "translation": [
+            215.099,
+            -250.575,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Building will take",
+              "font": "Exo2-Black",
+              "fontSize": 8,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 1,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "speed_up_title",
+          "translation": [
+            215.099,
+            -118.574,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Speed Up!",
+              "font": "Exo2-Black",
+              "fontSize": 13.3333301544189,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 1,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ltp_white_line.png",
+          "translation": [
+            216.5,
+            -163.374,
+            0
+          ],
+          "anchor": [
+            195,
+            9,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_white_line.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_lightning_small.png",
+          "translation": [
+            26.5,
+            -433.374,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            33,
+            47,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.125,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_lightning_small.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.125,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.107,
+              0.107,
+              1
+            ],
+            [
+              0.465,
+              0.465,
+              1
+            ],
+            [
+              0.961,
+              0.961,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.192,
+              1.192,
+              1
+            ],
+            [
+              1.17,
+              1.17,
+              1
+            ],
+            [
+              1.136,
+              1.136,
+              1
+            ],
+            [
+              1.094,
+              1.094,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.005,
+              1.005,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.008,
+              1.008,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.014,
+              1.014,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.093,
+              1.093,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.159,
+              1.159,
+              1
+            ],
+            [
+              0.805,
+              0.805,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.109,
+              0.109,
+              1
+            ],
+            [
+              0.01,
+              0.01,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "parent.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.037,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.017,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.02,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.018,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "ltp_lightning_small.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.012,
+              0.012,
+              1
+            ],
+            [
+              0.22,
+              0.22,
+              1
+            ],
+            [
+              0.539,
+              0.539,
+              1
+            ],
+            [
+              0.876,
+              0.876,
+              1
+            ],
+            [
+              1.156,
+              1.156,
+              1
+            ],
+            [
+              1.247,
+              1.247,
+              1
+            ],
+            [
+              1.205,
+              1.205,
+              1
+            ],
+            [
+              1.142,
+              1.142,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 3
+        },
+        "button_bounce_controller.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.067,
+              0.067,
+              1
+            ],
+            [
+              0.292,
+              0.292,
+              1
+            ],
+            [
+              0.666,
+              0.666,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.133,
+              1.133,
+              1
+            ],
+            [
+              1.127,
+              1.127,
+              1
+            ],
+            [
+              1.115,
+              1.115,
+              1
+            ],
+            [
+              1.096,
+              1.096,
+              1
+            ],
+            [
+              1.073,
+              1.073,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.024,
+              1.024,
+              1
+            ],
+            [
+              1.007,
+              1.007,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.087,
+              1.087,
+              1
+            ],
+            [
+              1.122,
+              1.122,
+              1
+            ],
+            [
+              1.146,
+              1.146,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              0.9389999999999999,
+              0.9389999999999999,
+              1
+            ],
+            [
+              0.669,
+              0.669,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "ltp_time_icon_huge.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.061,
+              0.061,
+              1
+            ],
+            [
+              0.264,
+              0.264,
+              1
+            ],
+            [
+              0.614,
+              0.614,
+              1
+            ],
+            [
+              0.986,
+              0.986,
+              1
+            ],
+            [
+              1.184,
+              1.184,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              1.181,
+              1.181,
+              1
+            ],
+            [
+              1.154,
+              1.154,
+              1
+            ],
+            [
+              1.119,
+              1.119,
+              1
+            ],
+            [
+              1.079,
+              1.079,
+              1
+            ],
+            [
+              1.041,
+              1.041,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              1.047,
+              1.047,
+              1
+            ],
+            [
+              1.087,
+              1.087,
+              1
+            ],
+            [
+              1.122,
+              1.122,
+              1
+            ],
+            [
+              1.146,
+              1.146,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              0.9389999999999999,
+              0.9389999999999999,
+              1
+            ],
+            [
+              0.669,
+              0.669,
+              1
+            ],
+            [
+              0.361,
+              0.361,
+              1
+            ],
+            [
+              0.074,
+              0.074,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 0
+        },
+        "ltp_lightning_medium.png.translation": {
+          "values": [
+            [
+              119.639,
+              88.175,
+              0
+            ],
+            [
+              119.434,
+              88.629,
+              0
+            ],
+            [
+              118.042,
+              91.69799999999999,
+              0
+            ],
+            [
+              115.942,
+              96.325,
+              0
+            ],
+            [
+              113.846,
+              100.954,
+              0
+            ],
+            [
+              112.463,
+              104.029,
+              0
+            ],
+            [
+              112.176,
+              104.716,
+              0
+            ],
+            [
+              113.074,
+              102.868,
+              0
+            ],
+            [
+              114.249,
+              100.392,
+              0
+            ],
+            [
+              115.125,
+              98.542,
+              0
+            ],
+            [
+              115.264,
+              98.252,
+              0
+            ]
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 7
+        },
+        "ltp_lightning_medium.png.0.inWhite": {
+          "values": [
+            0.98,
+            0.9583420354487699,
+            0.83186201325243,
+            0.697672157152,
+            0.67740962444841,
+            0.79415549448045,
+            0.93431675884615,
+            0.98
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 7
+        },
+        "ltp_small_circle.png.alpha": {
+          "values": [
+            0,
+            0.149,
+            0.35,
+            0.55,
+            0.75,
+            0.949,
+            1
+          ],
+          "duration": 1.125,
+          "len": 34,
+          "cutf": 1
+        },
+        "ltp_lightning_small.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "ltp_lightning_medium.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "ltp_white_line.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "speed_up_title.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "building_will_take_title.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "time.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_bounce_controller.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "ltp_time_icon_huge.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "button_ok.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "ltp_small_circle.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "speed_up_window.png.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        },
+        "parent.enabled": {
+          "duration": 1.125,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 34,
+          "cutf": 33
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "hide": {
+          "start": 0.75,
+          "duration": 0.375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.125
+        }
+      },
+      "layers": [
+        "ltp_lightning_small.png",
+        "ltp_lightning_medium.png",
+        "ltp_white_line.png",
+        "speed_up_title",
+        "building_will_take_title",
+        "time",
+        "button_bounce_controller",
+        "ltp_time_icon_huge.png",
+        "button_ok",
+        "ltp_small_circle.png",
+        "speed_up_window.png",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_6.aep",
+  "version": 1
+}

@@ -1,0 +1,85 @@
+{
+  "name": "spittle",
+  "children": [
+    {
+      "name": "sluna_[00000-00011].png",
+      "translation": [
+        22.875,
+        105.125,
+        0
+      ],
+      "anchor": [
+        7.5,
+        103,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/spittle/sluna_00000.png",
+            "../../assets/spittle/sluna_00001.png",
+            "../../assets/spittle/sluna_00002.png",
+            "../../assets/spittle/sluna_00003.png",
+            "../../assets/spittle/sluna_00004.png",
+            "../../assets/spittle/sluna_00005.png",
+            "../../assets/spittle/sluna_00006.png",
+            "../../assets/spittle/sluna_00007.png",
+            "../../assets/spittle/sluna_00008.png",
+            "../../assets/spittle/sluna_00009.png",
+            "../../assets/spittle/sluna_00010.png",
+            "../../assets/spittle/sluna_00011.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "play": {
+      "sluna_[00000-00011].png.alpha": {
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.7998046875
+        ],
+        "duration": 0.5
+      },
+      "sluna_[00000-00011].png.curFrame": {
+        "duration": 0.5,
+        "frameLerp": false,
+        "values": [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          9,
+          10,
+          10,
+          11
+        ]
+      }
+    }
+  },
+  "aep_name": "Witch_Elements_Seqs_Opt.aep",
+  "version": 1
+}

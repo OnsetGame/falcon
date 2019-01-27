@@ -1,0 +1,67 @@
+{
+  "name": "win_oops",
+  "children": [
+    {
+      "name": "oops.png",
+      "translation": [
+        123,
+        64,
+        0
+      ],
+      "anchor": [
+        123,
+        63.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/small_numbers/oops.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "oops.png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 300,
+          "cutf": 299
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "oops.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Numbers_small_last_candy2_YELLOW.aep",
+  "export_time": "6 July 2018 12:02",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

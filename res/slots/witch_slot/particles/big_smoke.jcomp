@@ -1,0 +1,140 @@
+{
+  "name": "BigSmoke",
+  "translation": [
+    956.2255859375,
+    568.166259765625,
+    0.0
+  ],
+  "scale": [
+    1.200000047683716,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "radius": 390.0,
+      "isRandPos": true,
+      "isRandDir": true,
+      "is2D": true,
+      "_c": "SpherePSGenShape"
+    },
+    {
+      "duration": 3.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 50.0,
+      "lifetime": 4.0,
+      "startVelocity": 120.0,
+      "randVelocityFrom": -20.0,
+      "randVelocityTo": 20.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        -33.0,
+        -33.0,
+        -33.0
+      ],
+      "randRotVelocityTo": [
+        33.0,
+        33.0,
+        33.0
+      ],
+      "startScale": [
+        250.0,
+        250.0,
+        250.0
+      ],
+      "dstScale": [
+        400.0,
+        400.0,
+        400.0
+      ],
+      "randScaleFrom": -100.0,
+      "randScaleTo": 100.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.2000000029802322
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.3499999940395355
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        25.0,
+        -100.0
+      ],
+      "airDensity": 35.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.4000000059604645,
+          1.0,
+          1.0,
+          1.0,
+          0.1000000014901161
+        ],
+        [
+          0.699999988079071,
+          1.0,
+          1.0,
+          1.0,
+          0.25
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "kotel_smoke_sheet.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        100.0,
+        100.0
+      ],
+      "animColumns": 6,
+      "framesCount": 30,
+      "fps": 24.0,
+      "modifierNode": "",
+      "genShapeNode": "BigSmoke",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    }
+  ]
+}

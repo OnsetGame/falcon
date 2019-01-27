@@ -1,0 +1,317 @@
+{
+  "name": "elements",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "idToNodeRelation": [
+        [
+          1,
+          "element_high_fire"
+        ],
+        [
+          2,
+          "element_high_air"
+        ],
+        [
+          3,
+          "element_high_nature"
+        ],
+        [
+          4,
+          "element_high_water"
+        ],
+        [
+          5,
+          "element_low_fire"
+        ],
+        [
+          6,
+          "element_low_air"
+        ],
+        [
+          7,
+          "element_low_nature"
+        ],
+        [
+          8,
+          "element_low_water"
+        ],
+        [
+          9,
+          "element_hidden"
+        ],
+        [
+          10,
+          "sun_main"
+        ],
+        [
+          11,
+          "sun_main"
+        ],
+        [
+          0,
+          "element_moon_wild"
+        ]
+      ],
+      "animMarkers": [
+        {
+          "path": [
+            "element_hidden"
+          ],
+          "type": 12,
+          "name": "turn_start"
+        },
+        {
+          "path": [
+            "element_hidden"
+          ],
+          "type": 13,
+          "name": "turn_idle"
+        },
+        {
+          "path": [
+            "sun_main"
+          ],
+          "type": 5,
+          "name": "idle"
+        },
+        {
+          "path": [
+            "sun_main"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "element_moon_wild"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_moon_wild"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_moon_wild"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_low_air"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_low_air"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_low_air"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_low_fire"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_low_fire"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_low_fire"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_low_nature"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_low_nature"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_low_nature"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_low_water"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_low_water"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_low_water"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_high_air"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_high_air"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_high_air"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_high_fire"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_high_fire"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_high_fire"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_high_nature"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_high_nature"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_high_nature"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "element_high_water"
+          ],
+          "type": 14,
+          "name": "card_turn"
+        },
+        {
+          "path": [
+            "element_high_water"
+          ],
+          "type": 5,
+          "name": "card_idle"
+        },
+        {
+          "path": [
+            "element_high_water"
+          ],
+          "type": 6,
+          "name": "card_win"
+        },
+        {
+          "path": [
+            "sun_win"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "sun_idle"
+          ],
+          "type": 5,
+          "name": "idle"
+        }
+      ],
+      "pathToRootComp": "slots/card_slot/elements/precomps/elements",
+      "_c": "CellComponent"
+    }
+  ]
+}

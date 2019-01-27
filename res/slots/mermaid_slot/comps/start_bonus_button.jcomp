@@ -1,0 +1,326 @@
+{
+  "name": "start_bonus_button",
+  "children": [
+    {
+      "name": "start_button",
+      "translation": [
+        963,
+        797,
+        0
+      ],
+      "anchor": [
+        157,
+        63,
+        0
+      ],
+      "children": [
+        {
+          "name": "mermaid_start_text",
+          "translation": [
+            152,
+            77.06396484375,
+            0
+          ],
+          "children": [
+            {
+              "name": "mermaid_start_shadow",
+              "components": [
+                {
+                  "text": "Start",
+                  "font": "Exo2-Black",
+                  "fontSize": 56,
+                  "color": [
+                    1,
+                    0.85489004850388,
+                    0.50194996595383
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowRadius": 6,
+                  "shadowSpread": 1,
+                  "_c": "Text",
+                  "shadowOff": [
+                    -5.51091059616309e-16,
+                    3
+                  ]
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "inWhite": 3.55,
+              "inBlack": 0,
+              "inGamma": 1.01707351335894,
+              "outWhite": 0.7843137254902,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "text": "Start",
+              "font": "Exo2-Black",
+              "fontSize": 56,
+              "color": [
+                1,
+                0.85489004850388,
+                0.50194996595383
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0.43137255311012,
+                0.19215686619282,
+                0.1803921610117,
+                1
+              ],
+              "shadowRadius": 2,
+              "shadowSpread": 1,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mermaid_start_text_highlight",
+          "translation": [
+            188,
+            201.9375,
+            0
+          ],
+          "anchor": [
+            36,
+            124.87353515625,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "color": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "_c": "ColorFill"
+            },
+            {
+              "text": "Start",
+              "font": "Exo2-Black",
+              "fontSize": 56,
+              "color": [
+                1,
+                0.85489004850388,
+                0.50194996595383
+              ],
+              "justification": "haCenter",
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "fileNames": [
+            "../Layers/start_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "play": {
+      "start_button.translation": {
+        "values": [
+          [
+            963,
+            797,
+            0
+          ],
+          [
+            963,
+            797.289991123234,
+            0
+          ],
+          [
+            963,
+            797.9678128387289,
+            0
+          ],
+          [
+            963,
+            798.781666530392,
+            0
+          ],
+          [
+            963,
+            799.455084411406,
+            0
+          ],
+          [
+            963,
+            799.75,
+            0
+          ],
+          [
+            963,
+            799.262819106998,
+            0
+          ],
+          [
+            963,
+            798.2380145719439,
+            0
+          ],
+          [
+            963,
+            797.289774972635,
+            0
+          ]
+        ],
+        "duration": 0.29166666666667
+      },
+      "start_button.alpha": {
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "duration": 0.29166666666667
+      },
+      "mermaid_start_text_highlight.alpha": {
+        "values": [
+          0,
+          0.03857282561545,
+          0.12094092512567,
+          0.19714749308233,
+          0.21840193703373,
+          0.18562499976666,
+          0.12646095191029,
+          0.06201432826385,
+          0.01334856900913
+        ],
+        "duration": 0.29166666666667
+      },
+      "mermaid_start_text.alpha": {
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "duration": 0.29166666666667
+      },
+      "mermaid_start_shadow.alpha": {
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "duration": 0.29166666666667
+      },
+      "start_button.0.inWhite": {
+        "values": [
+          1,
+          0.94155632482508,
+          0.8167561740520199,
+          0.70129167714798,
+          0.6690879741913101,
+          0.71875000035355,
+          0.80839249710561,
+          0.90603889656993,
+          0.9797748954407099
+        ],
+        "duration": 0.29166666666667
+      }
+    }
+  },
+  "aep_name": "Bonus_game_intro.aep",
+  "version": 1
+}

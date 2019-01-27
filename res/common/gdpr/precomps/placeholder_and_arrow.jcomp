@@ -1,0 +1,300 @@
+{
+  "name": "placeholder_and_arrow",
+  "children": [
+    {
+      "name": "arrow",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "arrow",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "placeholder_controller",
+      "translation": [
+        26,
+        1116,
+        0
+      ],
+      "scale": [
+        0.98,
+        0.76,
+        1
+      ],
+      "children": [
+        {
+          "name": "rectangle",
+          "translation": [
+            934,
+            46,
+            0
+          ],
+          "anchor": [
+            960,
+            72,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.10196078568697,
+                0.10196078568697,
+                0.10196078568697
+              ],
+              "size": [
+                1920,
+                144
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "tip_text 8",
+          "translation": [
+            934.099,
+            69.799,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Please check “Yes, I agree and want to play” to get reward and play!",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56471002101898
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "placeholder_controller.translation": {
+          "values": [
+            [
+              26,
+              1116,
+              0
+            ],
+            [
+              26,
+              1108.513,
+              0
+            ],
+            [
+              25.999,
+              1088.99,
+              0
+            ],
+            [
+              26,
+              1061.775,
+              0
+            ],
+            [
+              26,
+              1031.304,
+              0
+            ],
+            [
+              26,
+              1001.926,
+              0
+            ],
+            [
+              26,
+              978.021,
+              0
+            ],
+            [
+              26,
+              963.958,
+              0
+            ],
+            [
+              26,
+              962,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "placeholder_controller.scale": {
+          "values": [
+            [
+              0.98,
+              0.76,
+              1
+            ],
+            [
+              0.98,
+              0.771,
+              1
+            ],
+            [
+              0.983,
+              0.802,
+              1
+            ],
+            [
+              0.987,
+              0.844,
+              1
+            ],
+            [
+              0.99,
+              0.891,
+              1
+            ],
+            [
+              0.994,
+              0.937,
+              1
+            ],
+            [
+              0.997,
+              0.975,
+              1
+            ],
+            [
+              0.999,
+              0.996,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "tip_text 8.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "rectangle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "placeholder_controller.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "arrow.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "tip_text 8",
+        "rectangle",
+        "placeholder_controller",
+        "arrow"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GDRP_dev.aep",
+  "version": 1
+}

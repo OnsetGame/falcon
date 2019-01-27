@@ -1,0 +1,136 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "pil",
+  "components": [
+    {
+      "dstScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randScaleTo": 0.0,
+      "distance": 40.0,
+      "scaleSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.5,
+          3.0,
+          3.0,
+          3.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "lifetime": 8.0,
+      "isPlayed": true,
+      "frequency": 0.4,
+      "randScaleFrom": 0.0,
+      "modifierNode": "",
+      "isBlendAdd": false,
+      "duration": 3.0,
+      "randVelocityFrom": 10.0,
+      "startScale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "genShapeNode": "pil",
+      "gravity": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startVelocity": 0.0,
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "amplitude": 5.0,
+      "birthRate": 200.0,
+      "isMove": false,
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          0.75
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "speed": 9.0,
+      "is3dRotation": false,
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "airDensity": 0.0,
+      "colorMode": 1,
+      "isLooped": true,
+      "randVelocityTo": 0.0,
+      "scaleMode": 1,
+      "_c": "ParticleSystem"
+    },
+    {
+      "is2D": true,
+      "radius": 4000.0,
+      "isRandDir": false,
+      "isRandPos": true,
+      "_c": "SpherePSGenShape"
+    }
+  ],
+  "children": [],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1000.0,
+    500.0,
+    0.0
+  ],
+  "version": 1
+}

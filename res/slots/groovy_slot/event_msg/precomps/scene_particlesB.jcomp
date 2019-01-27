@@ -1,0 +1,407 @@
+{
+  "name": "scene_particlesB",
+  "translation": [
+    17.52508544921875,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "played": true,
+      "isMove": false,
+      "amplitude": 0.0,
+      "frequency": 0.0,
+      "distance": 40.0,
+      "speed": 9.0,
+      "_c": "PSHolder"
+    }
+  ],
+  "children": [
+    {
+      "name": "text_particles",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "children": [
+        {
+          "name": "particles_A",
+          "translation": [
+            964.4605712890625,
+            435.4844360351562,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 20.0,
+              "lifetime": 2.0,
+              "startVelocity": 500.0,
+              "randVelocityFrom": 0.0,
+              "randVelocityTo": 0.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityTo": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "startScale": [
+                15.0,
+                15.0,
+                15.0
+              ],
+              "dstScale": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randScaleFrom": -10.0,
+              "randScaleTo": 15.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                -10.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 1,
+              "scaleSeq": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.05000000074505806,
+                  70.0,
+                  70.0,
+                  70.0
+                ],
+                [
+                  0.800000011920929,
+                  100.0,
+                  100.0,
+                  100.0
+                ],
+                [
+                  1.0,
+                  50.0,
+                  50.0,
+                  50.0
+                ]
+              ],
+              "colorSeq": [
+                [
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.75
+                ],
+                [
+                  0.699999988079071,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.8999999761581421
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ],
+              "texture": "../assets/shapeA.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                64.0,
+                64.0
+              ],
+              "animColumns": 6,
+              "framesCount": 24,
+              "fps": 24.0,
+              "modifierNode": "particles_A",
+              "genShapeNode": "particles_A",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "dimension": [
+                600.0,
+                130.0,
+                0.0
+              ],
+              "is2D": true,
+              "_c": "BoxPSGenShape"
+            },
+            {
+              "force": [
+                500.0,
+                500.0,
+                500.0
+              ],
+              "_c": "PSModifierRandWind"
+            }
+          ]
+        },
+        {
+          "name": "particles_B",
+          "translation": [
+            964.4605712890625,
+            435.4844360351562,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 10.0,
+              "lifetime": 2.0,
+              "startVelocity": 500.0,
+              "randVelocityFrom": 0.0,
+              "randVelocityTo": 0.0,
+              "is3dRotation": true,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityTo": [
+                0.0,
+                0.0,
+                180.0
+              ],
+              "startScale": [
+                15.0,
+                15.0,
+                15.0
+              ],
+              "dstScale": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randScaleFrom": -10.0,
+              "randScaleTo": 10.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": true,
+              "gravity": [
+                0.0,
+                -10.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 1,
+              "scaleSeq": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.05000000074505806,
+                  70.0,
+                  70.0,
+                  70.0
+                ],
+                [
+                  0.800000011920929,
+                  100.0,
+                  100.0,
+                  100.0
+                ],
+                [
+                  1.0,
+                  50.0,
+                  50.0,
+                  50.0
+                ]
+              ],
+              "colorSeq": [
+                [
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.5
+                ],
+                [
+                  0.699999988079071,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.699999988079071
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ]
+              ],
+              "texture": "../assets/shapeB.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                64.0,
+                64.0
+              ],
+              "animColumns": 6,
+              "framesCount": 24,
+              "fps": 24.0,
+              "modifierNode": "particles_B",
+              "genShapeNode": "particles_B",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "dimension": [
+                600.0,
+                130.0,
+                0.0
+              ],
+              "is2D": true,
+              "_c": "BoxPSGenShape"
+            },
+            {
+              "force": [
+                500.0,
+                500.0,
+                500.0
+              ],
+              "_c": "PSModifierRandWind"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

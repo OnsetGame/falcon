@@ -1,0 +1,154 @@
+{
+  "name": "cream",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "name": "cream_[1-10].png",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/cream/cream_1.png",
+                "../assets/cream/cream_2.png",
+                "../assets/cream/cream_3.png",
+                "../assets/cream/cream_4.png",
+                "../assets/cream/cream_5.png",
+                "../assets/cream/cream_6.png",
+                "../assets/cream/cream_7.png",
+                "../assets/cream/cream_8.png",
+                "../assets/cream/cream_9.png",
+                "../assets/cream/cream_10.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inBlack": 0,
+          "outWhite": 1.47,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inGamma": 4.07,
+          "inWhite": 1,
+          "outBlack": 4.3,
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "play":
+    {
+      "cream_[1-10].png.curFrame":
+      {
+        "duration": 1,
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7,
+          8,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "cream_[1-10].png.alpha":
+      {
+        "duration": 1,
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.7333984375,
+          0.466796875,
+          0.19986979166667,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "version": 1
+}

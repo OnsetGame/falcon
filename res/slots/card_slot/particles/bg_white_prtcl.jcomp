@@ -1,0 +1,118 @@
+{
+  "name": "bg_white_prtcl",
+  "translation": [
+    940.0,
+    880.0,
+    0
+  ],
+  "scale": [
+    9.0,
+    9.0,
+    9.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    1.0,
+    -4.371138828673793e-08
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 0.5,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 5.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 15.0,
+      "lifetime": 12.0,
+      "startVelocity": 10.0,
+      "randVelocityFrom": 20.0,
+      "randVelocityTo": 0.0,
+      "is3dRotation": false,
+      "startRotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "dstScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randScaleFrom": 0.0,
+      "randScaleTo": 0.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 0,
+      "scaleSeq": [],
+      "colorSeq": [],
+      "texture": "particle_white_n.png",
+      "isTextureAnimated": false,
+      "texSize": [
+        50.0,
+        50.0
+      ],
+      "animColumns": 1,
+      "framesCount": 1,
+      "fps": 1.0,
+      "modifierNode": "bg_white_prtcl",
+      "genShapeNode": "bg_white_prtcl",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "angle": 100.0,
+      "radius": 100.0,
+      "is2D": true,
+      "_c": "ConePSGenShape"
+    },
+    {
+      "force": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "_c": "PSModifierRandWind"
+    }
+  ]
+}

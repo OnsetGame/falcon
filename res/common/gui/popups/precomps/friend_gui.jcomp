@@ -1,0 +1,391 @@
+{
+  "name": "friend_gui",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        180,
+        270,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "reward_friends",
+          "translation": [
+            -2,
+            217.5,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            97,
+            47.5,
+            0
+          ],
+          "compositionRef": "reward_friends.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "friend_block",
+          "translation": [
+            -6,
+            -41.999,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "anchor": [
+            138,
+            207,
+            0
+          ],
+          "compositionRef": "friend_block.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "parent.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.041,
+              0.041,
+              1
+            ],
+            [
+              0.2,
+              0.2,
+              1
+            ],
+            [
+              0.431,
+              0.431,
+              1
+            ],
+            [
+              0.68,
+              0.68,
+              1
+            ],
+            [
+              0.897,
+              0.897,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              1.034,
+              1.034,
+              1
+            ],
+            [
+              1.014,
+              1.014,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.981,
+              0.981,
+              1
+            ],
+            [
+              0.981,
+              0.981,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              0.99,
+              0.99,
+              1
+            ],
+            [
+              0.994,
+              0.994,
+              1
+            ],
+            [
+              0.998,
+              0.998,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.993,
+              0.993,
+              1
+            ],
+            [
+              0.987,
+              0.987,
+              1
+            ],
+            [
+              0.982,
+              0.982,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.998,
+              0.998,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1.039,
+              1.039,
+              1
+            ],
+            [
+              1.049,
+              1.049,
+              1
+            ],
+            [
+              0.937,
+              0.937,
+              1
+            ],
+            [
+              0.664,
+              0.664,
+              1
+            ],
+            [
+              0.329,
+              0.329,
+              1
+            ],
+            [
+              0.029,
+              0.029,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 6
+        },
+        "parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "friend_block.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "reward_friends.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.75
+        },
+        "out": {
+          "start": 1.29166666666667,
+          "duration": 0.41666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "parent",
+        "friend_block",
+        "reward_friends"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

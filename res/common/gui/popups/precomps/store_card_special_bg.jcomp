@@ -1,0 +1,267 @@
+{
+  "name": "store_card_special_bg",
+  "children": [
+    {
+      "name": "bg_outline",
+      "translation": [
+        143.5,
+        324,
+        0
+      ],
+      "anchor": [
+        143.5,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape_2",
+          "size": [
+            287,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_colors",
+      "translation": [
+        143.5,
+        324,
+        0
+      ],
+      "scale": [
+        0.937,
+        0.978,
+        1
+      ],
+      "anchor": [
+        143.5,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.94117647409439,
+            0.54509806632996,
+            0.15294118225574,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape_2",
+          "size": [
+            287,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_gradient2",
+      "translation": [
+        143.5,
+        506.5,
+        0
+      ],
+      "anchor": [
+        143.5,
+        10,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "bg_element.png$4",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            0.28235295414925,
+            0.08627451211214,
+            0.65098041296005,
+            1
+          ],
+          "endColor": [
+            0.66666668653488,
+            0,
+            1,
+            1
+          ],
+          "startPoint": [
+            287,
+            143.5
+          ],
+          "endPoint": [
+            0,
+            -123.5
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            287,
+            20
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "bg_element.png$4",
+      "translation": [
+        145,
+        503,
+        0
+      ],
+      "anchor": [
+        151,
+        17,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/bg_element.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bg_gradient1",
+      "translation": [
+        143.5,
+        572.5,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "components": [
+        {
+          "layerName": "bg_element.png",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            0.28235295414925,
+            0.08627451211214,
+            0.65098041296005,
+            1
+          ],
+          "endColor": [
+            0.66666668653488,
+            0,
+            1,
+            1
+          ],
+          "startPoint": [
+            143.5,
+            68.5000000000001
+          ],
+          "endPoint": [
+            -143.5,
+            481.5
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            287,
+            150
+          ],
+          "radius": 22,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.66274509803922,
+            0,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_element.png",
+      "translation": [
+        145,
+        503,
+        0
+      ],
+      "anchor": [
+        151,
+        17,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/bg_element.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "lastic.png",
+      "translation": [
+        33,
+        29.5,
+        0
+      ],
+      "anchor": [
+        33,
+        29.5,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            1,
+            0.92156863212585,
+            0.23137255012989,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../assets/lastic.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_chips_bucks_dev4.aep",
+  "export_time": "11 June 2018 15:40",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

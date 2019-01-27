@@ -1,0 +1,792 @@
+{
+  "name": "friends_gui",
+  "children": [
+    {
+      "name": "parent",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "button_right",
+          "translation": [
+            817,
+            -9,
+            0
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_right",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "button_left",
+          "translation": [
+            -815,
+            -9,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            60,
+            58,
+            0
+          ],
+          "compositionRef": "button_left",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "send_gift_get_reward",
+      "translation": [
+        961,
+        257.324,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Send gifts, invite friends - get reward!",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "friends_parent",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "send_gift_get_reward.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.072,
+              0.072,
+              1
+            ],
+            [
+              0.253,
+              0.253,
+              1
+            ],
+            [
+              0.493,
+              0.493,
+              1
+            ],
+            [
+              0.739,
+              0.739,
+              1
+            ],
+            [
+              0.94,
+              0.94,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.03,
+              1.03,
+              1
+            ],
+            [
+              1.009,
+              1.009,
+              1
+            ],
+            [
+              0.99,
+              0.99,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.982,
+              0.982,
+              1
+            ],
+            [
+              0.986,
+              0.986,
+              1
+            ],
+            [
+              0.991,
+              0.991,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.995,
+              0.995,
+              1
+            ],
+            [
+              0.988,
+              0.988,
+              1
+            ],
+            [
+              0.983,
+              0.983,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.992,
+              0.992,
+              1
+            ],
+            [
+              1.015,
+              1.015,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.048,
+              1.048,
+              1
+            ],
+            [
+              0.985,
+              0.985,
+              1
+            ],
+            [
+              0.741,
+              0.741,
+              1
+            ],
+            [
+              0.415,
+              0.415,
+              1
+            ],
+            [
+              0.09,
+              0.09,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "parent.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.001,
+              0.01,
+              1
+            ],
+            [
+              1.009,
+              0.055,
+              1
+            ],
+            [
+              1.031,
+              0.191,
+              1
+            ],
+            [
+              1.123,
+              0.739,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.182,
+              1.093,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.182,
+              1.093,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.123,
+              0.739,
+              1
+            ],
+            [
+              1.031,
+              0.191,
+              1
+            ],
+            [
+              1.009,
+              0.055,
+              1
+            ],
+            [
+              1.001,
+              0.01,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "friends_parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "send_gift_get_reward.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_left.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_right.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "parent.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.79166666666667
+        },
+        "out": {
+          "start": 1.33333333333333,
+          "duration": 0.41666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "friends_parent",
+        "send_gift_get_reward",
+        "button_left",
+        "button_right",
+        "parent"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

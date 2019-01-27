@@ -1,0 +1,95 @@
+{
+  "name": "arrows",
+  "children": [
+    {
+      "name": "violet_arrows",
+      "scale": [
+        1,
+        1.1,
+        1
+      ],
+      "compositionRef": "violet_arrows",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.04166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "white_arrows",
+      "scale": [
+        1,
+        1.1,
+        1
+      ],
+      "alpha": 0.7,
+      "compositionRef": "white_arrows",
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.04166666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "white_arrows.enabled": {
+          "duration": 1.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 25,
+          "cutf": 24
+        },
+        "violet_arrows.enabled": {
+          "duration": 1.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 25,
+          "cutf": 24
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 1.04166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.04166666666667
+        }
+      },
+      "layers": [
+        "white_arrows",
+        "violet_arrows"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev.aep",
+  "version": 1
+}

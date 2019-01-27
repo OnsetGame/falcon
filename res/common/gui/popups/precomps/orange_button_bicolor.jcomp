@@ -1,0 +1,176 @@
+{
+  "name": "orange_button_bicolor",
+  "children": [
+    {
+      "name": "orange_butt_2_color_on.png",
+      "translation": [
+        150,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/panels/orange_butt_2_color_on.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "orange_butt_2_color_off.png",
+      "translation": [
+        150,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/panels/orange_butt_2_color_off.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        181.75,
+        56.75,
+        0
+      ],
+      "children": [
+        {
+          "name": "icon_join",
+          "translation": [
+            -124.75,
+            -9.75,
+            0
+          ],
+          "anchor": [
+            44,
+            51,
+            0
+          ],
+          "compositionRef": "icon_join.json",
+          "affectsChildren": false
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "500",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "appear": {
+      "title.translation": {
+        "values": [
+          [
+            181.75,
+            56.75,
+            0
+          ],
+          [
+            181.75,
+            58.0861367405451,
+            0
+          ],
+          [
+            181.75,
+            59.4167119148599,
+            0
+          ],
+          [
+            181.75,
+            60.7506517670426,
+            0
+          ],
+          [
+            181.75,
+            61.75,
+            0
+          ],
+          [
+            181.75,
+            61.75,
+            0
+          ],
+          [
+            181.75,
+            61.75,
+            0
+          ],
+          [
+            181.75,
+            60.7506517670426,
+            0
+          ],
+          [
+            181.75,
+            59.4167119148598,
+            0
+          ],
+          [
+            181.75,
+            58.0861367405451,
+            0
+          ]
+        ],
+        "duration": 0.33333333333333
+      },
+      "orange_butt_2_color_off.png.alpha": {
+        "values": [
+          1,
+          0.7333984375,
+          0.466796875,
+          0.19986979166667,
+          0,
+          0,
+          0,
+          0.19986979166667,
+          0.466796875,
+          0.7333984375
+        ],
+        "duration": 0.33333333333333
+      }
+    }
+  },
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

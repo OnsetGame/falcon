@@ -1,0 +1,925 @@
+{
+  "name": "tutorial",
+  "children": [
+    {
+      "name": "back_anchor",
+      "translation": [
+        960,
+        539.937,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "tutorFade",
+          "translation": [
+            -1100,
+            -600,
+            0
+          ],
+          "alpha": 0,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "translation": [
+            0,
+            -0.062,
+            0
+          ],
+          "anchor": [
+            295.5,
+            211,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/WindowTutorial",
+              "size": [
+                591,
+                422
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_desc",
+          "translation": [
+            1.715,
+            11.537,
+            0
+          ],
+          "scale": [
+            3,
+            2.999,
+            1
+          ],
+          "anchor": [
+            80.738,
+            15.866,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Now you can see how many resources you need to accomplish a Quest.",
+              "font": "Exo2-Black",
+              "fontSize": 10.6666698455811,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                0.40531842867539,
+                -3.321965551e-05,
+                160.666656494141,
+                63.333309173584
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_continue",
+          "translation": [
+            0.308,
+            159.617,
+            0
+          ],
+          "scale": [
+            3,
+            2.999,
+            1
+          ],
+          "anchor": [
+            -0.063,
+            -1.839,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "tap anywhere to continue...",
+              "font": "Exo2-Black",
+              "fontSize": 5.33333015441895,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ellipse_middle",
+          "translation": [
+            3.5,
+            -191.062,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            49,
+            45,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ellipse_middle.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "i_icon",
+          "translation": [
+            1.5,
+            -205.062,
+            0
+          ],
+          "anchor": [
+            31,
+            47,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inWhite": 1,
+              "inBlack": 0,
+              "inGamma": 1,
+              "outWhite": 1,
+              "outBlack": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "_c": "ChannelLevels"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.791,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/i_icon.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "arrow",
+      "translation": [
+        358,
+        684,
+        0
+      ],
+      "children": [
+        {
+          "name": "hand_shadow",
+          "translation": [
+            43,
+            -151,
+            0
+          ],
+          "scale": [
+            4,
+            4,
+            1
+          ],
+          "anchor": [
+            25,
+            24,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_ellipse_3_.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Hand.png",
+          "translation": [
+            27,
+            -134,
+            0
+          ],
+          "anchor": [
+            95,
+            137,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 8.041,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Hand.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "back_anchor.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.155,
+              0.155,
+              1
+            ],
+            [
+              0.5649999999999999,
+              0.5649999999999999,
+              1
+            ],
+            [
+              0.865,
+              0.865,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1.04,
+              1.04,
+              1
+            ],
+            [
+              1.033,
+              1.033,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.039,
+              1.039,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              0.912,
+              0.912,
+              1
+            ],
+            [
+              0.658,
+              0.658,
+              1
+            ],
+            [
+              0.247,
+              0.247,
+              1
+            ],
+            [
+              0.008,
+              0.008,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 24,
+          "cutf": 0
+        },
+        "back_anchor.alpha": {
+          "values": [
+            0,
+            0.343,
+            0.675,
+            0.923,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.998,
+            0.88,
+            0.653,
+            0.368,
+            0.065,
+            0
+          ],
+          "duration": 0.79166666666667,
+          "len": 24,
+          "cutf": 0
+        },
+        "i_icon.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.013,
+              1.013,
+              1
+            ],
+            [
+              1.062,
+              1.062,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.185,
+              1.185,
+              1
+            ],
+            [
+              1.218,
+              1.218,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.038,
+              1.038,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.006,
+              1.006,
+              1
+            ],
+            [
+              1.11,
+              1.11,
+              1
+            ],
+            [
+              1.213,
+              1.213,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.12,
+              1.12,
+              1
+            ],
+            [
+              1.038,
+              1.038,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 24,
+          "cutf": 1
+        },
+        "i_icon.0.inWhite": {
+          "values": [
+            1,
+            0.99643729977832,
+            0.9725601860248601,
+            0.93649999999971,
+            0.90043981397466,
+            0.87656270022147,
+            0.88623182133531,
+            0.95531385856081,
+            1
+          ],
+          "duration": 0.79166666666667,
+          "len": 24,
+          "cutf": 2
+        },
+        "ellipse_middle.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.054,
+              0.054,
+              1
+            ],
+            [
+              0.198,
+              0.198,
+              1
+            ],
+            [
+              0.397,
+              0.397,
+              1
+            ],
+            [
+              0.621,
+              0.621,
+              1
+            ],
+            [
+              0.837,
+              0.837,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.115,
+              1.115,
+              1
+            ],
+            [
+              1.116,
+              1.116,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1.065,
+              1.065,
+              1
+            ],
+            [
+              1.126,
+              1.126,
+              1
+            ],
+            [
+              1.085,
+              1.085,
+              1
+            ],
+            [
+              0.913,
+              0.913,
+              1
+            ],
+            [
+              0.666,
+              0.666,
+              1
+            ],
+            [
+              0.397,
+              0.397,
+              1
+            ],
+            [
+              0.164,
+              0.164,
+              1
+            ],
+            [
+              0.02,
+              0.02,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.79166666666667,
+          "len": 24,
+          "cutf": 0
+        },
+        "Hand.png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "hand_shadow.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "arrow.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "i_icon.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "ellipse_middle.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "text_continue.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "text_desc.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "back.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "tutorFade.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        },
+        "back_anchor.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 23
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.375
+        },
+        "idle": {
+          "start": 0.375,
+          "duration": 0.08333333333333
+        },
+        "hide": {
+          "start": 0.45833333333333,
+          "duration": 0.29166666666667
+        },
+        "idle_end": {
+          "start": 0.75,
+          "duration": 0.04166666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.79166666666667
+        }
+      },
+      "layers": [
+        "Hand.png",
+        "hand_shadow",
+        "arrow",
+        "i_icon",
+        "ellipse_middle",
+        "text_continue",
+        "text_desc",
+        "back",
+        "tutorFade",
+        "back_anchor"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "tutorial_proj.aep",
+  "version": 1
+}

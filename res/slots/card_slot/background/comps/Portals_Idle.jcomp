@@ -1,0 +1,65 @@
+{
+  "name": "Portals_Idle",
+  "children": [
+    {
+      "name": "To_red",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "To_red",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4.166,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 20,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "To_red.enabled": {
+          "duration": 4.16666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 100,
+          "cutf": 99
+        }
+      },
+      "markers": {
+        "portals_idle": {
+          "start": 16.4583333333333,
+          "duration": -12.2916666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4.16666666666667
+        }
+      },
+      "layers": [
+        "To_red"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "MAIN_bg_and_change%20(18).aep",
+  "export_time": "9 August 2018 15:23",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

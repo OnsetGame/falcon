@@ -1,0 +1,207 @@
+{
+  "name": "wind_fan",
+  "children": [
+    {
+      "name": "wind_main_[00001-00018].png",
+      "translation": [
+        1570.25,
+        720,
+        0
+      ],
+      "anchor": [
+        50,
+        57,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.75,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/background/wind_main_00001.png",
+            "resources/background/wind_main_00002.png",
+            "resources/background/wind_main_00003.png",
+            "resources/background/wind_main_00004.png",
+            "resources/background/wind_main_00005.png",
+            "resources/background/wind_main_00006.png",
+            "resources/background/wind_main_00007.png",
+            "resources/background/wind_main_00008.png",
+            "resources/background/wind_main_00009.png",
+            "resources/background/wind_main_00010.png",
+            "resources/background/wind_main_00011.png",
+            "resources/background/wind_main_00012.png",
+            "resources/background/wind_main_00013.png",
+            "resources/background/wind_main_00014.png",
+            "resources/background/wind_main_00015.png",
+            "resources/background/wind_main_00016.png",
+            "resources/background/wind_main_00017.png",
+            "resources/background/wind_main_00018.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "wind_free_[00000-00017].png",
+      "translation": [
+        1570.25,
+        720,
+        0
+      ],
+      "anchor": [
+        50,
+        57,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.75,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/background/wind_free_00000.png",
+            "resources/background/wind_free_00001.png",
+            "resources/background/wind_free_00002.png",
+            "resources/background/wind_free_00003.png",
+            "resources/background/wind_free_00004.png",
+            "resources/background/wind_free_00005.png",
+            "resources/background/wind_free_00006.png",
+            "resources/background/wind_free_00007.png",
+            "resources/background/wind_free_00008.png",
+            "resources/background/wind_free_00009.png",
+            "resources/background/wind_free_00010.png",
+            "resources/background/wind_free_00011.png",
+            "resources/background/wind_free_00012.png",
+            "resources/background/wind_free_00013.png",
+            "resources/background/wind_free_00014.png",
+            "resources/background/wind_free_00015.png",
+            "resources/background/wind_free_00016.png",
+            "resources/background/wind_free_00017.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wind_free_[00000-00017].png.curFrame": {
+          "duration": 10,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17
+          ],
+          "len": 300,
+          "cutf": 0
+        },
+        "wind_free_[00000-00017].png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 22
+        },
+        "wind_main_[00001-00018].png.curFrame": {
+          "duration": 10,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17
+          ],
+          "len": 300,
+          "cutf": 0
+        },
+        "wind_main_[00001-00018].png.enabled": {
+          "duration": 10,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 300,
+          "cutf": 22
+        }
+      },
+      "markers": {
+        "wind": {
+          "start": 0,
+          "duration": 0.7
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 10
+        }
+      },
+      "layers": [
+        "wind_free_[00000-00017].png",
+        "wind_main_[00001-00018].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene(CC%20(13))%20programming.aep",
+  "version": 1
+}

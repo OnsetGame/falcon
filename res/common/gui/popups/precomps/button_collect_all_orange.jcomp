@@ -1,0 +1,261 @@
+{
+  "name": "button_collect_all_orange",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        239.5,
+        96.5,
+        0
+      ],
+      "scale": [
+        6.56179775280899,
+        1,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_yellow_btn_on_reward.png",
+      "translation": [
+        240,
+        56,
+        0
+      ],
+      "anchor": [
+        240,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12.8333333333333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_on",
+          "size": [
+            480,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_yellow_btn_off_reward.png",
+      "translation": [
+        240,
+        56,
+        0
+      ],
+      "anchor": [
+        240,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12.8333333333333,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_yellow_btn_off",
+          "size": [
+            480,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "translation": [
+        239,
+        59.9810028076172,
+        0
+      ],
+      "anchor": [
+        0.63983798027039,
+        -12.4560012817383,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Collect All",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "text.tY": {
+          "values": [
+            59.9810028076172,
+            61.2310028076172,
+            62.4810028076172,
+            62.4810028076172,
+            62.4810028076172,
+            62.4810028076172,
+            62.4810028076172,
+            61.2310028076172,
+            59.9810028076172
+          ],
+          "duration": 12,
+          "len": 288,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "big_white_stroke_yellow_btn_off_reward.png.alpha": {
+          "values": [
+            1,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "duration": 12,
+          "len": 288,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "text.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 288,
+          "cutf": 287
+        },
+        "big_white_stroke_yellow_btn_off_reward.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 288,
+          "cutf": 287
+        },
+        "big_white_stroke_yellow_btn_on_reward.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 288,
+          "cutf": 287
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 12,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 288,
+          "cutf": 287
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.70833333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.91666666666667,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 12
+        }
+      },
+      "layers": [
+        "text",
+        "big_white_stroke_yellow_btn_off_reward.png",
+        "big_white_stroke_yellow_btn_on_reward.png",
+        "circle_component_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Task_complete_Reward_NEW.aep",
+  "export_time": "2 July 2018 17:26",
+  "rod_export_v": "Mon Jul 2 15:49:46 2018 +0300",
+  "version": 1
+}

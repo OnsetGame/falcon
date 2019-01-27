@@ -1,0 +1,483 @@
+{
+  "name": "friend_block",
+  "children": [
+    {
+      "name": "block_friends.png",
+      "translation": [
+        138,
+        252.5,
+        0
+      ],
+      "anchor": [
+        138,
+        139.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/WindowBezel",
+          "size": [
+            276,
+            279
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gradient_mask.png",
+      "translation": [
+        138,
+        250.5,
+        0
+      ],
+      "anchor": [
+        122,
+        123.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "startPoint": [
+            121.4375,
+            122.625
+          ],
+          "endPoint": [
+            120.75,
+            123.3125
+          ],
+          "startColor": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            1
+          ],
+          "endColor": [
+            0.14117647707462,
+            0.14117647707462,
+            0.14117647707462,
+            1
+          ],
+          "shape": 0,
+          "_c": "GradientFill"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/windowadd",
+          "size": [
+            244,
+            247
+          ]
+        }
+      ]
+    },
+    {
+      "name": "friend_last_name",
+      "translation": [
+        137.5,
+        237,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Hoagend",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -119.839921474457,
+            8.59999847412109,
+            241,
+            39.0000038146973
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "friend_name",
+      "translation": [
+        137.5,
+        237,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Wendy",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56471002101898
+          ],
+          "bounds": [
+            -115.296028763056,
+            -22.3999996185303,
+            233,
+            30.9999980926514
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ellipseholder.png",
+      "translation": [
+        142.25,
+        109,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        1
+      ],
+      "anchor": [
+        109,
+        109,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_ellipseholder.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "customer_teplate",
+      "translation": [
+        57,
+        22,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.05,
+        1
+      ],
+      "anchor": [
+        0,
+        0,
+        0
+      ],
+      "compositionRef": "customer_teplate.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "invite",
+      "translation": [
+        138,
+        371,
+        0
+      ],
+      "anchor": [
+        102,
+        42,
+        0
+      ],
+      "compositionRef": "invite.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "sendgift",
+      "translation": [
+        138,
+        371.125,
+        0
+      ],
+      "anchor": [
+        127,
+        42,
+        0
+      ],
+      "compositionRef": "sendgift.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "requested",
+      "translation": [
+        138,
+        371.5,
+        0
+      ],
+      "anchor": [
+        121,
+        37.5,
+        0
+      ],
+      "compositionRef": "requested.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ticktime",
+      "translation": [
+        114.5,
+        368,
+        0
+      ],
+      "anchor": [
+        97.5,
+        44,
+        0
+      ],
+      "compositionRef": "ticktime.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ticktime.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "requested.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "sendgift.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "invite.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "customer_teplate.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_ellipseholder.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "friend_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "friend_last_name.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Gradient_mask.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "block_friends.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "ticktime",
+        "requested",
+        "sendgift",
+        "invite",
+        "customer_teplate",
+        "ltp_ellipseholder.png",
+        "friend_name",
+        "friend_last_name",
+        "Gradient_mask.png",
+        "block_friends.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

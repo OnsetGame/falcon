@@ -1,0 +1,215 @@
+{
+  "name": "task_lightup_bg",
+  "children": [
+    {
+      "name": "ltp_solidorange_right.png$4",
+      "translation": [
+        204,
+        751,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        171,
+        121,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "Black Solid 3",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_solidorange_right.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Black Solid 3",
+      "translation": [
+        200,
+        952,
+        0
+      ],
+      "scale": [
+        3.99,
+        1,
+        1
+      ],
+      "anchor": [
+        200,
+        200,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            400,
+            400
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "ltp_solidorange_right.png$2",
+      "translation": [
+        392,
+        353,
+        0
+      ],
+      "scale": [
+        1,
+        3.77,
+        1
+      ],
+      "anchor": [
+        171,
+        121,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_solidorange_right.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_solidorange_right.png",
+      "translation": [
+        6,
+        345,
+        0
+      ],
+      "scale": [
+        1,
+        3.77,
+        1
+      ],
+      "anchor": [
+        171,
+        121,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_solidorange_right.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_solidorange_right.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_solidorange_right.png$2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_solidorange_right.png$4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "ltp_solidorange_right.png",
+        "ltp_solidorange_right.png$2",
+        "Black Solid 3",
+        "ltp_solidorange_right.png$4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

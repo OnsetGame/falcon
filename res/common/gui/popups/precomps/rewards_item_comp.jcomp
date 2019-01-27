@@ -1,0 +1,70 @@
+{
+  "name": "rewards_item_comp",
+  "children": [
+    {
+      "name": "reward_icons_placeholder",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 12,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.53725498914719,
+            0.53725498914719,
+            0.53725498914719
+          ],
+          "size": [
+            335,
+            343
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "reward_icons_placeholder.enabled": {
+          "duration": 5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 150,
+          "cutf": 149
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5
+        }
+      },
+      "layers": [
+        "reward_icons_placeholder"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "task_complete_3rd_step_opt_V2_dev.aep",
+  "version": 1
+}

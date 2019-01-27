@@ -1,0 +1,537 @@
+{
+  "name": "witch_old_bubble",
+  "children": [
+    {
+      "name": "radials_[00000-00032].png",
+      "translation": [
+        234.5,
+        177,
+        0
+      ],
+      "scale": [
+        1,
+        0.75,
+        1
+      ],
+      "anchor": [
+        45,
+        32,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.81281685829163,
+            1,
+            0.59607839584351,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.375,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.375,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/radials_seq/radials_00000.png",
+            "../assets/radials_seq/radials_00001.png",
+            "../assets/radials_seq/radials_00002.png",
+            "../assets/radials_seq/radials_00003.png",
+            "../assets/radials_seq/radials_00004.png",
+            "../assets/radials_seq/radials_00005.png",
+            "../assets/radials_seq/radials_00006.png",
+            "../assets/radials_seq/radials_00007.png",
+            "../assets/radials_seq/radials_00008.png",
+            "../assets/radials_seq/radials_00009.png",
+            "../assets/radials_seq/radials_00010.png",
+            "../assets/radials_seq/radials_00011.png",
+            "../assets/radials_seq/radials_00012.png",
+            "../assets/radials_seq/radials_00013.png",
+            "../assets/radials_seq/radials_00014.png",
+            "../assets/radials_seq/radials_00015.png",
+            "../assets/radials_seq/radials_00016.png",
+            "../assets/radials_seq/radials_00017.png",
+            "../assets/radials_seq/radials_00018.png",
+            "../assets/radials_seq/radials_00019.png",
+            "../assets/radials_seq/radials_00020.png",
+            "../assets/radials_seq/radials_00021.png",
+            "../assets/radials_seq/radials_00022.png",
+            "../assets/radials_seq/radials_00023.png",
+            "../assets/radials_seq/radials_00024.png",
+            "../assets/radials_seq/radials_00025.png",
+            "../assets/radials_seq/radials_00026.png",
+            "../assets/radials_seq/radials_00027.png",
+            "../assets/radials_seq/radials_00028.png",
+            "../assets/radials_seq/radials_00029.png",
+            "../assets/radials_seq/radials_00030.png",
+            "../assets/radials_seq/radials_00031.png",
+            "../assets/radials_seq/radials_00032.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bubble_shadow.png",
+      "translation": [
+        236.5,
+        173.75,
+        0
+      ],
+      "scale": [
+        0.49,
+        0.49,
+        1
+      ],
+      "anchor": [
+        36.499,
+        17.833,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.041,
+          "outPoint": 1.125,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/bubble_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bubble_new_[00000-00012].png",
+      "translation": [
+        230.5,
+        143,
+        0
+      ],
+      "anchor": [
+        66,
+        50,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.041,
+          "outPoint": 1.125,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 1.08333333333333,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/bubble_new_seq/bubble_new_00000.png",
+            "../assets/bubble_new_seq/bubble_new_00001.png",
+            "../assets/bubble_new_seq/bubble_new_00002.png",
+            "../assets/bubble_new_seq/bubble_new_00003.png",
+            "../assets/bubble_new_seq/bubble_new_00004.png",
+            "../assets/bubble_new_seq/bubble_new_00005.png",
+            "../assets/bubble_new_seq/bubble_new_00006.png",
+            "../assets/bubble_new_seq/bubble_new_00007.png",
+            "../assets/bubble_new_seq/bubble_new_00008.png",
+            "../assets/bubble_new_seq/bubble_new_00009.png",
+            "../assets/bubble_new_seq/bubble_new_00010.png",
+            "../assets/bubble_new_seq/bubble_new_00011.png",
+            "../assets/bubble_new_seq/bubble_new_00012.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "bubble_shadow.png.translation": {
+          "values": [
+            [
+              236.5,
+              173.75,
+              0
+            ],
+            [
+              236.465,
+              173.924,
+              0
+            ],
+            [
+              236.418,
+              174.156,
+              0
+            ],
+            [
+              236.373,
+              174.384,
+              0
+            ],
+            [
+              236.326,
+              174.615,
+              0
+            ],
+            [
+              236.28,
+              174.846,
+              0
+            ],
+            [
+              236.234,
+              175.076,
+              0
+            ],
+            [
+              236.188,
+              175.307,
+              0
+            ],
+            [
+              236.142,
+              175.538,
+              0
+            ],
+            [
+              236.096,
+              175.768,
+              0
+            ],
+            [
+              236.05,
+              175.997,
+              0
+            ],
+            [
+              236.003,
+              176.23,
+              0
+            ],
+            [
+              236,
+              176.25,
+              0
+            ]
+          ],
+          "duration": 1.375,
+          "len": 42,
+          "cutf": 1
+        },
+        "bubble_shadow.png.scale": {
+          "values": [
+            [
+              0.49,
+              0.49,
+              1
+            ],
+            [
+              0.507,
+              0.507,
+              1
+            ],
+            [
+              0.532,
+              0.532,
+              1
+            ],
+            [
+              0.556,
+              0.556,
+              1
+            ],
+            [
+              0.579,
+              0.579,
+              1
+            ],
+            [
+              0.603,
+              0.603,
+              1
+            ],
+            [
+              0.627,
+              0.627,
+              1
+            ],
+            [
+              0.652,
+              0.652,
+              1
+            ],
+            [
+              0.675,
+              0.675,
+              1
+            ],
+            [
+              0.699,
+              0.699,
+              1
+            ],
+            [
+              0.723,
+              0.723,
+              1
+            ],
+            [
+              0.747,
+              0.747,
+              1
+            ],
+            [
+              0.75,
+              0.75,
+              1
+            ]
+          ],
+          "duration": 1.375,
+          "len": 42,
+          "cutf": 1
+        },
+        "bubble_shadow.png.alpha": {
+          "values": [
+            1,
+            0.957,
+            0.911,
+            0.865,
+            0.819,
+            0.773,
+            0.726,
+            0.68,
+            0.634,
+            0.588,
+            0.542,
+            0.496,
+            0.449,
+            0.403,
+            0.357,
+            0.311,
+            0.265,
+            0.219,
+            0.173,
+            0.126,
+            0.08,
+            0.034,
+            0
+          ],
+          "duration": 1.375,
+          "len": 42,
+          "cutf": 12
+        },
+        "bubble_new_[00000-00012].png.curFrame": {
+          "duration": 1.375,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12
+          ],
+          "len": 42,
+          "cutf": 2
+        },
+        "bubble_new_[00000-00012].png.enabled": {
+          "duration": 1.375,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 42,
+          "cutf": 1
+        },
+        "bubble_shadow.png.enabled": {
+          "duration": 1.375,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 42,
+          "cutf": 1
+        },
+        "radials_[00000-00032].png.curFrame": {
+          "duration": 1.375,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24,
+            25,
+            26,
+            26,
+            27,
+            28,
+            29,
+            30,
+            30,
+            31,
+            32
+          ],
+          "len": 42,
+          "cutf": 0
+        },
+        "radials_[00000-00032].png.enabled": {
+          "duration": 1.375,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 42,
+          "cutf": 41
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.375
+        }
+      },
+      "layers": [
+        "bubble_new_[00000-00012].png",
+        "bubble_shadow.png",
+        "radials_[00000-00032].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Witch_slot_old_opt_dev.aep",
+  "version": 1
+}

@@ -1,0 +1,96 @@
+{
+  "name": "shadow",
+  "children": [
+    {
+      "name": "parent_shadow",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "children": [
+        {
+          "compositionRef": "free_spins_lines.json",
+          "alpha": 0.4,
+          "name": "free_spins_lines",
+          "translation": [
+            -954,
+            -526,
+            0
+          ],
+          "components": [
+            {
+              "inBlack": 0,
+              "outWhite": 0,
+              "inWhiteV": [
+                1,
+                1,
+                1
+              ],
+              "outWhiteV": [
+                -1,
+                1,
+                1
+              ],
+              "inGamma": 1,
+              "inWhite": 0,
+              "outBlack": 0,
+              "outBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inBlackV": [
+                0,
+                0,
+                0
+              ],
+              "inGammaV": [
+                1,
+                1,
+                1
+              ],
+              "_c": "ChannelLevels"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inBlack": 0,
+          "outWhite": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            -1,
+            1,
+            1
+          ],
+          "inGamma": 1,
+          "inWhite": 0,
+          "outBlack": 0,
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "_c": "ChannelLevels"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

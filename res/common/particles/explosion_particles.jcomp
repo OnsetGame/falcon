@@ -1,0 +1,135 @@
+{
+  "name": "Scene",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "PRT_glow",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "radius": 0.0,
+          "isRandPos": false,
+          "isRandDir": false,
+          "is2D": true,
+          "_c": "SpherePSGenShape"
+        },
+        {
+          "duration": 0.1,
+          "isLooped": false,
+          "isPlayed": false,
+          "birthRate": 2000.0,
+          "lifetime": 2.0,
+          "startVelocity": 300.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 50.0,
+          "is3dRotation": false,
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "startScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "dstScale": [
+            20.0,
+            20.0,
+            20.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 20.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "assets/ltp_prt.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            78.0,
+            78.0
+          ],
+          "animColumns": 1,
+          "framesCount": 1,
+          "fps": 1.0,
+          "modifierNode": "",
+          "genShapeNode": "PRT_glow",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    }
+  ]
+}

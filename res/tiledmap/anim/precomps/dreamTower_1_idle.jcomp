@@ -1,0 +1,62 @@
+{
+  "name": "dreamTower_1_idle",
+  "children": [
+    {
+      "name": "dreamTower_1",
+      "translation": [
+        0,
+        2560,
+        0
+      ],
+      "anchor": [
+        0,
+        2560,
+        0
+      ],
+      "compositionRef": "dreamTower_1",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "dreamTower_1.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "dreamTower_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "dreamTower_New_opt_dev.aep",
+  "version": 1
+}

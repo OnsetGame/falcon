@@ -1,0 +1,214 @@
+{
+  "name": "story_rewards",
+  "children": [
+    {
+      "name": "ltp_grey_02_safe.png",
+      "translation": [
+        68.75,
+        74.119,
+        0
+      ],
+      "scale": [
+        0.321,
+        0.321,
+        1
+      ],
+      "anchor": [
+        218,
+        189.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 5.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_grey_02_safe.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_grey_02_doo.png",
+      "translation": [
+        47.928,
+        75.149,
+        0
+      ],
+      "scale": [
+        0.321,
+        0.321,
+        1
+      ],
+      "anchor": [
+        149.5,
+        142,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 5.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_grey_02_doo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_grey_02_doo.png.0.inWhite": {
+          "values": [
+            1,
+            0.95844998742127,
+            0.81989259113579,
+            0.67013241020849,
+            0.6,
+            0.64158125208634,
+            0.7407437525661,
+            0.85925624743563,
+            0.95841874791481,
+            1
+          ],
+          "duration": 2.75,
+          "len": 83,
+          "cutf": 6
+        },
+        "ltp_grey_02_safe.png.0.inWhite": {
+          "values": [
+            1,
+            0.95844998742127,
+            0.81989259113579,
+            0.67013241020849,
+            0.6,
+            0.64158125208634,
+            0.7407437525661,
+            0.85925624743563,
+            0.95841874791481,
+            1
+          ],
+          "duration": 2.75,
+          "len": 83,
+          "cutf": 6
+        },
+        "ltp_grey_02_doo.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        },
+        "ltp_grey_02_safe.png.enabled": {
+          "duration": 2.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 83,
+          "cutf": 82
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.75
+        }
+      },
+      "layers": [
+        "ltp_grey_02_doo.png",
+        "ltp_grey_02_safe.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

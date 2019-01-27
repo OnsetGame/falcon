@@ -1,0 +1,69 @@
+{
+  "name": "questbar_base",
+  "children": [
+    {
+      "name": "holder_orange.png",
+      "translation": [
+        216,
+        324,
+        0
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "background_segments",
+      "translation": [
+        216,
+        324,
+        0
+      ],
+      "scale": [
+        0.963,
+        0.975,
+        1
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.87450981140137,
+            0.54117649793625,
+            0.25098040699959,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "15 May 2018 17:08",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

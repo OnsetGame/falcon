@@ -1,0 +1,192 @@
+{
+  "name": "wild_idle_static_text",
+  "children": [
+    {
+      "name": "wild_idle_static_[001-021].png",
+      "translation": [
+        350,
+        430,
+        0
+      ],
+      "anchor": [
+        182,
+        128,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/wild_idle_static_001.png",
+            "resources/wild_idle_static_002.png",
+            "resources/wild_idle_static_003.png",
+            "resources/wild_idle_static_004.png",
+            "resources/wild_idle_static_005.png",
+            "resources/wild_idle_static_006.png",
+            "resources/wild_idle_static_007.png",
+            "resources/wild_idle_static_008.png",
+            "resources/wild_idle_static_009.png",
+            "resources/wild_idle_static_010.png",
+            "resources/wild_idle_static_011.png",
+            "resources/wild_idle_static_012.png",
+            "resources/wild_idle_static_013.png",
+            "resources/wild_idle_static_014.png",
+            "resources/wild_idle_static_015.png",
+            "resources/wild_idle_static_016.png",
+            "resources/wild_idle_static_017.png",
+            "resources/wild_idle_static_018.png",
+            "resources/wild_idle_static_019.png",
+            "resources/wild_idle_static_020.png",
+            "resources/wild_idle_static_021.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "wild_idle_static_[001-021].png.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 29
+        },
+        "wild_idle_static_[001-021].png.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20
+          ],
+          "len": 30,
+          "cutf": 0
+        },
+        "wild_idle_static_[001-021].png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "intro": {
+          "start": -14.4166666666667,
+          "duration": 1.5833333333334
+        },
+        "idle_1": {
+          "start": -12.8333333333333,
+          "duration": 1.9583333333333
+        },
+        "idle_2": {
+          "start": -10.875,
+          "duration": 2
+        },
+        "spin": {
+          "start": -8.875,
+          "duration": 2
+        },
+        "anticipation_start": {
+          "start": -6.875,
+          "duration": 0.66666666666667
+        },
+        "anticipation_loop": {
+          "start": -6.20833333333333,
+          "duration": 1.33333333333333
+        },
+        "anticipation_end": {
+          "start": -4.875,
+          "duration": 0.33333333333333
+        },
+        "win": {
+          "start": -4.54166666666667,
+          "duration": 1
+        },
+        "big_win": {
+          "start": -3.54166666666667,
+          "duration": 2
+        },
+        "in_portal": {
+          "start": -1.54166666666667,
+          "duration": 1.04166666666667
+        },
+        "wild_appear": {
+          "start": -0.5,
+          "duration": 0.5
+        },
+        "play": {
+          "start": 0,
+          "duration": 1
+        },
+        "wild_move_right": {
+          "start": 1,
+          "duration": 1
+        },
+        "wild_win": {
+          "start": 2,
+          "duration": 1.54166666666667
+        },
+        "wild_to_portal": {
+          "start": 3.54166666666667,
+          "duration": 0.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "wild_idle_static_[001-021].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene_Update_elements.aep",
+  "version": 1
+}

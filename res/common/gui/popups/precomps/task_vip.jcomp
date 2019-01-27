@@ -1,0 +1,416 @@
+{
+  "name": "task_vip",
+  "children": [
+    {
+      "name": "color_cards",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "color_cards",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lock_cards",
+      "translation": [
+        217,
+        365,
+        0
+      ],
+      "anchor": [
+        211,
+        334,
+        0
+      ],
+      "compositionRef": "lock_cards",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "holder_orange.png",
+      "translation": [
+        216,
+        346,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        1
+      ],
+      "anchor": [
+        216,
+        324,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "amount": 1,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/task_shape",
+          "size": [
+            432,
+            648
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shape_layer",
+      "translation": [
+        216.75,
+        425.75,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            334,
+            55
+          ],
+          "radius": 27.5,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.40392156862745,
+            0.22745098039216,
+            0.71764705882353,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lock_comp",
+      "translation": [
+        216.5,
+        376,
+        0
+      ],
+      "anchor": [
+        52,
+        52,
+        0
+      ],
+      "compositionRef": "../../ui2_0/lock_comp",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_vip_btn",
+      "translation": [
+        216,
+        663,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "../../ui2_0/big_white_stroke_vip_btn",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "tw_unlock_vip",
+      "translation": [
+        216.840148925781,
+        436.247985839844,
+        0
+      ],
+      "anchor": [
+        0.08004760742188,
+        0.14933776855469,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 11,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Unlock on level 12",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "tw_for_vip_only",
+      "translation": [
+        218.776000976562,
+        535.4638671875,
+        0
+      ],
+      "anchor": [
+        0.59198760986328,
+        3.28799438476562,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 11,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "For VIP only",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tw_for_vip_only.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "tw_unlock_vip.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "big_white_stroke_vip_btn.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "lock_comp.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 47
+        },
+        "shape_layer.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "holder_orange.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "lock_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        },
+        "color_cards.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "tw_for_vip_only",
+        "tw_unlock_vip",
+        "big_white_stroke_vip_btn",
+        "lock_comp",
+        "shape_layer",
+        "holder_orange.png",
+        "lock_cards",
+        "color_cards"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

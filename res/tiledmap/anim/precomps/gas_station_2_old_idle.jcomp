@@ -1,0 +1,62 @@
+{
+  "name": "gas_station_2_old_idle",
+  "children": [
+    {
+      "name": "gas_station_2_old",
+      "translation": [
+        0,
+        791,
+        0
+      ],
+      "anchor": [
+        0,
+        1065,
+        0
+      ],
+      "compositionRef": "gas_station_2_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.916,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.91666666666667,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "gas_station_2_old.enabled": {
+          "duration": 1.91666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 58,
+          "cutf": 57
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 1.91666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.91666666666667
+        }
+      },
+      "layers": [
+        "gas_station_2_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gas_station_2_old.aep",
+  "version": 1
+}

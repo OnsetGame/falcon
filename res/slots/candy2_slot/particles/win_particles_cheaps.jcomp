@@ -1,0 +1,432 @@
+{
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "name": "win_particles_cheaps",
+  "components": [],
+  "children": [
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.8191520571708679,
+        0.5735764503479004
+      ],
+      "name": "candy",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            5.0
+          ],
+          "randScaleTo": 25.0,
+          "distance": 40.0,
+          "scaleSeq": [
+            [
+              0.0,
+              90.0,
+              90.0,
+              90.0
+            ],
+            [
+              0.4000000059604645,
+              99.0,
+              99.0,
+              99.0
+            ],
+            [
+              1.0,
+              80.0,
+              80.0,
+              80.0
+            ]
+          ],
+          "lifetime": 15.0,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -25.0,
+          "isBlendAdd": false,
+          "duration": 3.0,
+          "randVelocityFrom": -100.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "candy",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 800.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 5.0,
+          "birthRate": 1.0,
+          "texture": "small_candy_fx.png",
+          "isMove": false,
+          "colorSeq": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.05000000074505806,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "speed": 9.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 1,
+          "isLooped": true,
+          "texSize": [
+            50.0,
+            37.0
+          ],
+          "framesCount": 30,
+          "randVelocityTo": 100.0,
+          "scaleMode": 1,
+          "animColumns": 5,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 400.0,
+          "angle": 0.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -1100.0,
+        400.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.8191520571708679,
+        0.5735764503479004
+      ],
+      "name": "cheaps1",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            5.0
+          ],
+          "randScaleTo": 25.0,
+          "distance": 40.0,
+          "scaleSeq": [
+            [
+              0.0,
+              99.0,
+              99.0,
+              99.0
+            ],
+            [
+              0.4000000059604645,
+              125.0,
+              125.0,
+              125.0
+            ],
+            [
+              1.0,
+              90.0,
+              90.0,
+              90.0
+            ]
+          ],
+          "lifetime": 15.0,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -25.0,
+          "isBlendAdd": false,
+          "duration": 3.0,
+          "randVelocityFrom": -100.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "cheaps1",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 800.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 5.0,
+          "birthRate": 1.0,
+          "texture": "Chip1_fx.png",
+          "isMove": false,
+          "colorSeq": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.05000000074505806,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "speed": 9.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 1,
+          "isLooped": true,
+          "texSize": [
+            200.0,
+            200.0
+          ],
+          "framesCount": 12,
+          "randVelocityTo": 100.0,
+          "scaleMode": 1,
+          "animColumns": 3,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 400.0,
+          "angle": 0.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -1100.0,
+        400.0,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.8191520571708679,
+        0.5735764503479004
+      ],
+      "name": "cheaps2",
+      "components": [
+        {
+          "dstScale": [
+            1.0,
+            1.0,
+            5.0
+          ],
+          "randScaleTo": 25.0,
+          "distance": 40.0,
+          "scaleSeq": [
+            [
+              0.0,
+              99.0,
+              99.0,
+              99.0
+            ],
+            [
+              0.4000000059604645,
+              125.0,
+              125.0,
+              125.0
+            ],
+            [
+              1.0,
+              90.0,
+              90.0,
+              90.0
+            ]
+          ],
+          "lifetime": 15.0,
+          "isPlayed": true,
+          "frequency": 0.4,
+          "randScaleFrom": -25.0,
+          "isBlendAdd": false,
+          "duration": 3.0,
+          "randVelocityFrom": -100.0,
+          "startScale": [
+            35.0,
+            35.0,
+            35.0
+          ],
+          "genShapeNode": "cheaps2",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "randRotVelocityTo": [
+            90.0,
+            90.0,
+            180.0
+          ],
+          "startVelocity": 900.0,
+          "isTextureAnimated": true,
+          "attractorNode": "",
+          "randRotVelocityFrom": [
+            -90.0,
+            -90.0,
+            -180.0
+          ],
+          "amplitude": 5.0,
+          "birthRate": 1.0,
+          "texture": "Chip2_fx.png",
+          "isMove": false,
+          "colorSeq": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.05000000074505806,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "speed": 9.0,
+          "is3dRotation": false,
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "airDensity": 0.0,
+          "colorMode": 1,
+          "isLooped": true,
+          "texSize": [
+            200.0,
+            200.0
+          ],
+          "framesCount": 12,
+          "randVelocityTo": 100.0,
+          "scaleMode": 1,
+          "animColumns": 3,
+          "fps": 20.0,
+          "_c": "ParticleSystem"
+        },
+        {
+          "is2D": false,
+          "radius": 400.0,
+          "angle": 0.0,
+          "_c": "ConePSGenShape"
+        }
+      ],
+      "children": [],
+      "alpha": 1.0,
+      "scale": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "translation": [
+        -1100.0,
+        400.0,
+        0.0
+      ]
+    }
+  ],
+  "alpha": 1.0,
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "translation": [
+    1000.0,
+    550.0,
+    0.0
+  ],
+  "version": 1
+}

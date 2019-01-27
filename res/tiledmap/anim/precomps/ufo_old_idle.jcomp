@@ -1,0 +1,62 @@
+{
+  "name": "ufo_old_idle",
+  "children": [
+    {
+      "name": "ufo_old",
+      "translation": [
+        0,
+        1020,
+        0
+      ],
+      "anchor": [
+        0,
+        1020,
+        0
+      ],
+      "compositionRef": "ufo_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 7,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 11.125,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ufo_old.enabled": {
+          "duration": 7,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 210,
+          "cutf": 209
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 7
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 7
+        }
+      },
+      "layers": [
+        "ufo_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_old_dev.aep",
+  "version": 1
+}

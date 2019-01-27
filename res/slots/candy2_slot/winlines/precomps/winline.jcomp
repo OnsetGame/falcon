@@ -1,0 +1,124 @@
+{
+  "name": "winline",
+  "children": [
+    {
+      "name": "winline$1",
+      "translation": [
+        701.5,
+        24,
+        0
+      ],
+      "anchor": [
+        701.5,
+        24,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.75,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/winline/winline_seqs_00000.png",
+            "../assets/winline/winline_seqs_00001.png",
+            "../assets/winline/winline_seqs_00002.png",
+            "../assets/winline/winline_seqs_00003.png",
+            "../assets/winline/winline_seqs_00004.png",
+            "../assets/winline/winline_seqs_00005.png",
+            "../assets/winline/winline_seqs_00006.png",
+            "../assets/winline/winline_seqs_00007.png",
+            "../assets/winline/winline_seqs_00008.png",
+            "../assets/winline/winline_seqs_00009.png",
+            "../assets/winline/winline_seqs_00010.png",
+            "../assets/winline/winline_seqs_00011.png",
+            "../assets/winline/winline_seqs_00012.png",
+            "../assets/winline/winline_seqs_00013.png",
+            "../assets/winline/winline_seqs_00014.png",
+            "../assets/winline/winline_seqs_00015.png",
+            "../assets/winline/winline_seqs_00016.png",
+            "../assets/winline/winline_seqs_00017.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "winline$1.alpha": {
+          "values": [
+            1,
+            0.2,
+            0
+          ],
+          "duration": 0.75,
+          "len": 23,
+          "cutf": 20
+        },
+        "winline$1.curFrame": {
+          "duration": 0.75,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17
+          ],
+          "len": 23,
+          "cutf": 0
+        },
+        "winline$1.enabled": {
+          "duration": 0.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 23,
+          "cutf": 22
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.70833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.75
+        }
+      },
+      "layers": [
+        "winline$1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

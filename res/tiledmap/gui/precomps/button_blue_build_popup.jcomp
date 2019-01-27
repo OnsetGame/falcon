@@ -1,0 +1,314 @@
+{
+  "name": "button_blue_build_popup",
+  "children": [
+    {
+      "name": "blue_button_on",
+      "translation": [
+        150,
+        42,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blueButtonWhiteStrokeOn",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blue_button_off",
+      "translation": [
+        150,
+        42,
+        0
+      ],
+      "scale": [
+        0.999,
+        0.999,
+        1
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blueButtonWhiteStrokeOff",
+          "size": [
+            300,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        149.584,
+        38.759,
+        0
+      ],
+      "scale": [
+        2.999,
+        2.999,
+        1
+      ],
+      "anchor": [
+        -0.005,
+        -3.68,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_bucks_ws.png",
+          "translation": [
+            -30.866,
+            -2.933,
+            0
+          ],
+          "scale": [
+            0.333,
+            0.333,
+            1
+          ],
+          "anchor": [
+            41,
+            35,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bucks_ws.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "2500",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 1,
+          "_c": "Text",
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              149.584,
+              38.759,
+              0
+            ],
+            [
+              149.584,
+              39.161,
+              0
+            ],
+            [
+              149.584,
+              39.959,
+              0
+            ],
+            [
+              149.584,
+              40.76,
+              0
+            ],
+            [
+              149.584,
+              40.76,
+              0
+            ],
+            [
+              149.584,
+              40.76,
+              0
+            ],
+            [
+              149.584,
+              40.76,
+              0
+            ],
+            [
+              149.584,
+              40.558,
+              0
+            ],
+            [
+              149.584,
+              39.759,
+              0
+            ],
+            [
+              149.584,
+              38.962,
+              0
+            ],
+            [
+              149.584,
+              38.759,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "blue_button_off.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0.1,
+            0.5,
+            0.899,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_bucks_ws.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "blue_button_off.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "blue_button_on.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.20833333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.41666666666667,
+          "duration": 0.16666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "title",
+        "ltp_bucks_ws.png",
+        "blue_button_off",
+        "blue_button_on"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "guimap_sprint_7.aep",
+  "version": 1
+}

@@ -1,0 +1,707 @@
+{
+  "name": "5_of_a_kind_text",
+  "children": [
+    {
+      "name": "GR_5_INAROW",
+      "translation": [
+        957,
+        717,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "White Solid 2",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "5 OF A KIND",
+          "font": "Exo2-Black",
+          "fontSize": 96,
+          "color": [
+            0.58822995424271,
+            0.05099000036716,
+            0.57647997140884
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "shadowOff": [
+            0,
+            0
+          ],
+          "shadowRadius": 8,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "White Solid 2",
+      "translation": [
+        972,
+        858,
+        0
+      ],
+      "scale": [
+        0.533,
+        0.377,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 2",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "White Solid 15",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            805,
+            150
+          ],
+          "radius": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.15
+          ],
+          "strokeWidth": 38,
+          "color": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "White Solid 15",
+      "translation": [
+        960,
+        319,
+        0
+      ],
+      "scale": [
+        0.504,
+        0.251,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 1",
+      "translation": [
+        960,
+        588,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "layerName": "White Solid ",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            805,
+            150
+          ],
+          "radius": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.5
+          ],
+          "strokeWidth": 14,
+          "color": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "White Solid ",
+      "translation": [
+        960,
+        319,
+        0
+      ],
+      "scale": [
+        0.504,
+        0.251,
+        1
+      ],
+      "anchor": [
+        960,
+        588,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "size": [
+            1920,
+            1176
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "White Solid .translation": {
+          "values": [
+            [
+              960,
+              319,
+              0
+            ],
+            [
+              960,
+              320.12,
+              0
+            ],
+            [
+              960,
+              323.36,
+              0
+            ],
+            [
+              959.999,
+              328.542,
+              0
+            ],
+            [
+              960,
+              335.467,
+              0
+            ],
+            [
+              960,
+              343.96,
+              0
+            ],
+            [
+              960,
+              353.834,
+              0
+            ],
+            [
+              960,
+              364.905,
+              0
+            ],
+            [
+              959.999,
+              377.005,
+              0
+            ],
+            [
+              960,
+              389.922,
+              0
+            ],
+            [
+              959.999,
+              403.482,
+              0
+            ],
+            [
+              959.999,
+              417.5,
+              0
+            ],
+            [
+              960,
+              431.797,
+              0
+            ],
+            [
+              960,
+              446.202,
+              0
+            ],
+            [
+              960,
+              460.499,
+              0
+            ],
+            [
+              960,
+              474.517,
+              0
+            ],
+            [
+              960,
+              488.075,
+              0
+            ],
+            [
+              960,
+              500.994,
+              0
+            ],
+            [
+              960,
+              513.083,
+              0
+            ],
+            [
+              960,
+              524.158,
+              0
+            ],
+            [
+              960,
+              534.039,
+              0
+            ],
+            [
+              960,
+              542.521,
+              0
+            ],
+            [
+              959.999,
+              549.452,
+              0
+            ],
+            [
+              960,
+              554.639,
+              0
+            ],
+            [
+              959.999,
+              557.879,
+              0
+            ],
+            [
+              960,
+              559,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "White Solid 15.translation": {
+          "values": [
+            [
+              960,
+              319,
+              0
+            ],
+            [
+              960,
+              320.12,
+              0
+            ],
+            [
+              960,
+              323.36,
+              0
+            ],
+            [
+              959.999,
+              328.542,
+              0
+            ],
+            [
+              960,
+              335.467,
+              0
+            ],
+            [
+              960,
+              343.96,
+              0
+            ],
+            [
+              960,
+              353.834,
+              0
+            ],
+            [
+              960,
+              364.905,
+              0
+            ],
+            [
+              959.999,
+              377.005,
+              0
+            ],
+            [
+              960,
+              389.922,
+              0
+            ],
+            [
+              959.999,
+              403.482,
+              0
+            ],
+            [
+              959.999,
+              417.5,
+              0
+            ],
+            [
+              960,
+              431.797,
+              0
+            ],
+            [
+              960,
+              446.202,
+              0
+            ],
+            [
+              960,
+              460.499,
+              0
+            ],
+            [
+              960,
+              474.517,
+              0
+            ],
+            [
+              960,
+              488.075,
+              0
+            ],
+            [
+              960,
+              500.994,
+              0
+            ],
+            [
+              960,
+              513.083,
+              0
+            ],
+            [
+              960,
+              524.158,
+              0
+            ],
+            [
+              960,
+              534.039,
+              0
+            ],
+            [
+              960,
+              542.521,
+              0
+            ],
+            [
+              959.999,
+              549.452,
+              0
+            ],
+            [
+              960,
+              554.639,
+              0
+            ],
+            [
+              959.999,
+              557.879,
+              0
+            ],
+            [
+              960,
+              559,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "GR_5_INAROW.translation": {
+          "values": [
+            [
+              957,
+              717,
+              0
+            ],
+            [
+              956.999,
+              716.698,
+              0
+            ],
+            [
+              956.999,
+              714.366,
+              0
+            ],
+            [
+              957,
+              710.033,
+              0
+            ],
+            [
+              956.999,
+              704.034,
+              0
+            ],
+            [
+              957,
+              696.697,
+              0
+            ],
+            [
+              956.999,
+              688.348,
+              0
+            ],
+            [
+              957,
+              679.342,
+              0
+            ],
+            [
+              957,
+              670.008,
+              0
+            ],
+            [
+              957,
+              660.672,
+              0
+            ],
+            [
+              957,
+              651.653,
+              0
+            ],
+            [
+              957,
+              643.304,
+              0
+            ],
+            [
+              957,
+              635.964,
+              0
+            ],
+            [
+              957,
+              629.968,
+              0
+            ],
+            [
+              957,
+              625.633,
+              0
+            ],
+            [
+              957,
+              623.301,
+              0
+            ],
+            [
+              957,
+              623,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7,
+          "frameLerp": true
+        },
+        "Shape Layer 1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 120,
+          "cutf": 119
+        },
+        "Shape Layer 2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 120,
+          "cutf": 119
+        },
+        "GR_5_INAROW.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "White Solid ",
+        "Shape Layer 1",
+        "White Solid 15",
+        "Shape Layer 2",
+        "White Solid 2",
+        "GR_5_INAROW"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Groovy_Optimization%20AE18_dev_branding.aep",
+  "version": 1
+}

@@ -1,0 +1,205 @@
+{
+  "name": "info_particles",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "children": [
+    {
+      "name": "info_particles_A",
+      "translation": [
+        960.51171875,
+        201.1882019042969,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 2.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 10.0,
+          "lifetime": 3.0,
+          "startVelocity": 500.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 0.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            8.0,
+            8.0,
+            8.0
+          ],
+          "dstScale": [
+            5.0,
+            5.0,
+            5.0
+          ],
+          "randScaleFrom": -5.0,
+          "randScaleTo": 7.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "airDensity": 15.0,
+          "scaleMode": 0,
+          "colorMode": 1,
+          "scaleSeq": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.05000000074505806,
+              70.0,
+              70.0,
+              70.0
+            ],
+            [
+              0.800000011920929,
+              100.0,
+              100.0,
+              100.0
+            ],
+            [
+              1.0,
+              50.0,
+              50.0,
+              50.0
+            ]
+          ],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.2000000029802322,
+              1.0,
+              1.0,
+              1.0,
+              0.800000011920929
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "../assets/shapeA.png",
+          "isTextureAnimated": false,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 6,
+          "framesCount": 24,
+          "fps": 24.0,
+          "modifierNode": "info_particles_A",
+          "genShapeNode": "info_particles_A",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "dimension": [
+            1200.0,
+            60.0,
+            0.0
+          ],
+          "is2D": true,
+          "_c": "BoxPSGenShape"
+        },
+        {
+          "force": [
+            200.0,
+            200.0,
+            200.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    }
+  ]
+}

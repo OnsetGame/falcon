@@ -1,0 +1,173 @@
+{
+  "name": "ui_2",
+  "children": [
+    {
+      "name": "list",
+      "translation": [
+        1608.5,
+        706,
+        0
+      ],
+      "anchor": [
+        119,
+        139,
+        0
+      ],
+      "compositionRef": "list",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "prize",
+      "translation": [
+        1595.5,
+        379.5,
+        0
+      ],
+      "anchor": [
+        218,
+        243,
+        0
+      ],
+      "compositionRef": "prize",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "timer_wheel",
+      "translation": [
+        321,
+        464,
+        0
+      ],
+      "anchor": [
+        148,
+        71,
+        0
+      ],
+      "compositionRef": "timer_wheel",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "lets_spin_prize_box",
+      "translation": [
+        1595,
+        502,
+        0
+      ],
+      "anchor": [
+        168,
+        223,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "lets_spin_prize_box",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "lets_spin_prize_box.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "timer_wheel.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "prize.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        },
+        "list.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "lets_spin_prize_box",
+        "timer_wheel",
+        "prize",
+        "list"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "export_time": "29 June 2018 17:30",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

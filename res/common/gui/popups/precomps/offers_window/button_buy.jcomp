@@ -1,0 +1,279 @@
+{
+  "name": "button_buy",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        223.5,
+        69,
+        0
+      ],
+      "scale": [
+        7.64,
+        2.119,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_on2.png",
+      "translation": [
+        216,
+        56,
+        0
+      ],
+      "anchor": [
+        216,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_on",
+          "size": [
+            432,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_off2.png",
+      "translation": [
+        216,
+        56,
+        0
+      ],
+      "anchor": [
+        216,
+        56,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_green_btn_off",
+          "size": [
+            432,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        216,
+        55.384,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0.289,
+        -6.337,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "BUY $19.99",
+          "font": "Exo2-Black",
+          "fontSize": 18.6666698455811,
+          "color": [
+            1,
+            0.92156994342804,
+            0.23138001561165
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.tY": {
+          "values": [
+            55.3849945068359,
+            56.6349945068359,
+            57.8849945068359,
+            57.8849945068359,
+            57.8849945068359,
+            57.8849945068359,
+            57.8849945068359,
+            56.6349945068359,
+            55.3849945068359
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "big_white_stroke_green_btn_off2.png.alpha": {
+          "values": [
+            1,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 18,
+          "frameLerp": false
+        },
+        "circle_component_shadow.png.alpha": {
+          "values": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 5,
+          "frameLerp": false
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "big_white_stroke_green_btn_off2.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "big_white_stroke_green_btn_on2.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 44
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.70833333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.91666666666667,
+          "duration": 0.20833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "big_white_stroke_green_btn_off2.png",
+        "big_white_stroke_green_btn_on2.png",
+        "circle_component_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

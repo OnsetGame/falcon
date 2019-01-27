@@ -1,0 +1,229 @@
+{
+  "name": "turbulent",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "force": [
+        2555.0,
+        2555.0,
+        2555.0
+      ],
+      "_c": "PSModifierRandWind"
+    }
+  ],
+  "children": [
+    {
+      "name": "Iskri",
+      "translation": [
+        956.2255859375,
+        798.568115234375,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "radius": 450.0,
+          "isRandPos": true,
+          "isRandDir": true,
+          "is2D": false,
+          "_c": "SpherePSGenShape"
+        },
+        {
+          "duration": 10.0,
+          "isLooped": true,
+          "isPlayed": true,
+          "birthRate": 90.0,
+          "lifetime": 15.0,
+          "startVelocity": 100.0,
+          "randVelocityFrom": -50.0,
+          "randVelocityTo": 25.0,
+          "is3dRotation": false,
+          "startRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "startScale": [
+            15.0,
+            15.0,
+            15.0
+          ],
+          "dstScale": [
+            25.0,
+            25.0,
+            25.0
+          ],
+          "randScaleFrom": -10.0,
+          "randScaleTo": 15.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": true,
+          "gravity": [
+            0.0,
+            25.0,
+            -500.0
+          ],
+          "airDensity": 25.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [
+            [
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.1000000014901161,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.2000000029802322,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.300000011920929,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.4000000059604645,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.5,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.6000000238418579,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.699999988079071,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.800000011920929,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.8999999761581421,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "texture": "spark_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            64.0,
+            64.0
+          ],
+          "animColumns": 5,
+          "framesCount": 24,
+          "fps": 48.0,
+          "modifierNode": "turbulent",
+          "genShapeNode": "Iskri",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        }
+      ]
+    }
+  ]
+}

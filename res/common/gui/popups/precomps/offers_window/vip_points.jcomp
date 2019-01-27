@@ -1,0 +1,327 @@
+{
+  "name": "vip_points",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        97.5,
+        42,
+        0
+      ],
+      "scale": [
+        3.258,
+        1.613,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_points_bg",
+      "translation": [
+        431.875,
+        424,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        335.937,
+        384,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            191.875,
+            72
+          ],
+          "radius": 36,
+          "strokeColor": [
+            1,
+            0.97688598632812,
+            0.3450979793773,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.53725490196078,
+            0.11372549019608,
+            0.85882352941176,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vip_points_bg_2",
+      "translation": [
+        431.875,
+        423.875,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        335.937,
+        383.937,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            176.125,
+            56
+          ],
+          "radius": 28,
+          "strokeColor": [
+            1,
+            0.97688598632812,
+            0.3450979793773,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.40392156862745,
+            0.22745098039216,
+            0.71372549019608,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vip_points_text",
+      "translation": [
+        111.387,
+        40.684,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -0.127,
+        -11.005,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "+150",
+          "font": "Exo2-Black",
+          "fontSize": 31.8999996185303,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "reward_icons_placeholder",
+      "translation": [
+        41.964,
+        39.991,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        31.5,
+        32.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.875,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0.50980401039124,
+            0.50980401039124,
+            0.50980401039124
+          ],
+          "size": [
+            63,
+            65
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "reward_icons_placeholder.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "vip_points_text.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "vip_points_bg_2.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "vip_points_bg.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 1.875,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 45,
+          "cutf": 44
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "idle": {
+          "start": 0.95833333333333,
+          "duration": 0.41666666666667
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.875
+        }
+      },
+      "layers": [
+        "reward_icons_placeholder",
+        "vip_points_text",
+        "vip_points_bg_2",
+        "vip_points_bg",
+        "circle_component_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "export_time": "20 June 2018 16:56",
+  "rod_export_v": "Fri May 4 12:05:04 2018 +0300\n",
+  "version": 1
+}

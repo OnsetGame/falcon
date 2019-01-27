@@ -1,0 +1,130 @@
+{
+  "name": "store_card_up_label",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        115.5,
+        46,
+        0
+      ],
+      "scale": [
+        4.7,
+        0.93,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bg_outline",
+      "translation": [
+        103.75,
+        25,
+        0
+      ],
+      "anchor": [
+        108,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            0.87058824300766,
+            0.93333333730698,
+            0.2392156869173,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            216,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bg_colors",
+      "translation": [
+        108.25,
+        25,
+        0
+      ],
+      "anchor": [
+        108,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            216,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        108.5,
+        21.5,
+        0
+      ],
+      "anchor": [
+        -1.119,
+        -11.04,
+        0
+      ],
+      "components": [
+        {
+          "text": "BEST PRISE ",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_chips_bucks_dev5.aep",
+  "export_time": "11 June 2018 17:55",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

@@ -1,0 +1,135 @@
+{
+  "name": "MagicMatters_slot",
+  "children": [
+    {
+      "name": "MM_Loading.png",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/MM_Loading.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "loading_screen",
+      "translation": [
+        959.6,
+        887.8,
+        0
+      ],
+      "components": [
+        {
+          "text": "Magic Matters Slot ...",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "tip_text",
+      "translation": [
+        959.6,
+        983.8,
+        0
+      ],
+      "components": [
+        {
+          "text": "TIP: Complete tasks to get energy. See progress on taskbar below",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "progressbar_parent",
+      "translation": [
+        576,
+        910,
+        0
+      ]
+    },
+    {
+      "name": "nim_logo",
+      "translation": [
+        215,
+        905,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../real_valley_final/assets/nim_logo.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "image_parent",
+      "translation": [
+        960,
+        540,
+        0
+      ]
+    },
+    {
+      "name": "background_parent",
+      "translation": [
+        960,
+        540,
+        0
+      ]
+    }
+  ],
+  "version": 1
+}

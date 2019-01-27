@@ -1,0 +1,62 @@
+{
+  "name": "ratings_old_idle",
+  "children": [
+    {
+      "name": "ratings_old",
+      "translation": [
+        0,
+        2177,
+        0
+      ],
+      "anchor": [
+        0,
+        2177,
+        0
+      ],
+      "compositionRef": "ratings_old.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ratings_old.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "ratings_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ratings_old_dev.aep",
+  "version": 1
+}

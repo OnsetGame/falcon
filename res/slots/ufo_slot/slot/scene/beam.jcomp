@@ -1,0 +1,194 @@
+{
+  "name": "beam",
+  "children": [
+    {
+      "name": "beam_[00000-00048].png",
+      "translation": [
+        350,
+        175,
+        0
+      ],
+      "scale": [
+        1.75,
+        1.75,
+        1
+      ],
+      "anchor": [
+        200,
+        100,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 2.04166666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2.04166666666667,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/effects/beam_00000.png",
+            "resources/effects/beam_00001.png",
+            "resources/effects/beam_00002.png",
+            "resources/effects/beam_00003.png",
+            "resources/effects/beam_00004.png",
+            "resources/effects/beam_00005.png",
+            "resources/effects/beam_00006.png",
+            "resources/effects/beam_00007.png",
+            "resources/effects/beam_00008.png",
+            "resources/effects/beam_00009.png",
+            "resources/effects/beam_00010.png",
+            "resources/effects/beam_00011.png",
+            "resources/effects/beam_00012.png",
+            "resources/effects/beam_00013.png",
+            "resources/effects/beam_00014.png",
+            "resources/effects/beam_00015.png",
+            "resources/effects/beam_00016.png",
+            "resources/effects/beam_00017.png",
+            "resources/effects/beam_00018.png",
+            "resources/effects/beam_00019.png",
+            "resources/effects/beam_00020.png",
+            "resources/effects/beam_00021.png",
+            "resources/effects/beam_00022.png",
+            "resources/effects/beam_00023.png",
+            "resources/effects/beam_00024.png",
+            "resources/effects/beam_00025.png",
+            "resources/effects/beam_00026.png",
+            "resources/effects/beam_00027.png",
+            "resources/effects/beam_00028.png",
+            "resources/effects/beam_00029.png",
+            "resources/effects/beam_00030.png",
+            "resources/effects/beam_00031.png",
+            "resources/effects/beam_00032.png",
+            "resources/effects/beam_00033.png",
+            "resources/effects/beam_00034.png",
+            "resources/effects/beam_00035.png",
+            "resources/effects/beam_00036.png",
+            "resources/effects/beam_00037.png",
+            "resources/effects/beam_00038.png",
+            "resources/effects/beam_00039.png",
+            "resources/effects/beam_00040.png",
+            "resources/effects/beam_00041.png",
+            "resources/effects/beam_00042.png",
+            "resources/effects/beam_00043.png",
+            "resources/effects/beam_00044.png",
+            "resources/effects/beam_00045.png",
+            "resources/effects/beam_00046.png",
+            "resources/effects/beam_00047.png",
+            "resources/effects/beam_00048.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "beam_[00000-00048].png.curFrame": {
+          "duration": 2.04166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24,
+            25,
+            26,
+            26,
+            27,
+            28,
+            29,
+            30,
+            30,
+            31,
+            32,
+            33,
+            34,
+            34,
+            35,
+            36,
+            37,
+            38,
+            38,
+            39,
+            40,
+            41,
+            42,
+            42,
+            43,
+            44,
+            45,
+            46,
+            46,
+            47,
+            48
+          ],
+          "len": 62,
+          "cutf": 0
+        },
+        "beam_[00000-00048].png.enabled": {
+          "duration": 2.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 62,
+          "cutf": 61
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.04166666666667
+        }
+      },
+      "layers": [
+        "beam_[00000-00048].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene(CC%20(13))%20programming.aep",
+  "version": 1
+}

@@ -1,0 +1,274 @@
+{
+  "name": "big_white_stroke_blue_btn",
+  "children": [
+    {
+      "name": "big_white_stroke_green_btn_on.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_blue_btn_on",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "big_white_stroke_green_btn_off.png",
+      "translation": [
+        168.5,
+        56,
+        0
+      ],
+      "anchor": [
+        168,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/big_white_stroke_blue_btn_off",
+          "size": [
+            336,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        168.75,
+        54.259,
+        0
+      ],
+      "anchor": [
+        -0.239,
+        -16.56,
+        0
+      ],
+      "children": [
+        {
+          "name": "placeholder",
+          "translation": [
+            -144.552,
+            -15.484,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            50,
+            41,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 15.416,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0.51764702796936,
+                0.51764702796936,
+                0.51764702796936
+              ],
+              "size": [
+                100,
+                82
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 9.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Unlock",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.tY": {
+          "values": [
+            54.2599945068359,
+            54.7928401989014,
+            55.7472033277018,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            56.7599945068359,
+            55.7472033277018,
+            54.7928401989014,
+            54.2599945068359
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 22
+        },
+        "title.anchor": {
+          "values": [
+            [
+              -0.239,
+              -16.56,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "big_white_stroke_green_btn_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 22
+        },
+        "placeholder.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "title.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "big_white_stroke_green_btn_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "big_white_stroke_green_btn_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.75,
+          "duration": 0.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "placeholder",
+        "title",
+        "big_white_stroke_green_btn_off.png",
+        "big_white_stroke_green_btn_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

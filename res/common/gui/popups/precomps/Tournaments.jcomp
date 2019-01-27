@@ -1,0 +1,568 @@
+{
+  "name": "Tournaments",
+  "children": [
+    {
+      "name": "Black Solid 5",
+      "translation": [
+        960,
+        552,
+        0
+      ],
+      "anchor": [
+        720,
+        336,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1440,
+            672
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "store_thing.png$14",
+      "translation": [
+        960,
+        926,
+        0
+      ],
+      "anchor": [
+        726,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1452,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "store_thing.png",
+      "translation": [
+        960.25,
+        178,
+        0
+      ],
+      "scale": [
+        -1,
+        -1,
+        1
+      ],
+      "anchor": [
+        726,
+        42,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/window_inactive_corner",
+          "size": [
+            1452,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_black_long",
+      "translation": [
+        972,
+        890,
+        0
+      ],
+      "anchor": [
+        162,
+        42,
+        0
+      ],
+      "compositionRef": "button_black_long.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8.54166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "scrollbar_tournament.png",
+      "translation": [
+        1680,
+        493,
+        0
+      ],
+      "anchor": [
+        14.5,
+        217.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/scrollbar_tournament.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_scrollbar_part1.png",
+      "translation": [
+        1683,
+        473,
+        0
+      ],
+      "anchor": [
+        13,
+        183,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/Layers/ltp_scrollbar_part1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "button_circle",
+      "translation": [
+        1597,
+        148,
+        0
+      ],
+      "anchor": [
+        60,
+        58,
+        0
+      ],
+      "compositionRef": "button_circle.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.03333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "popup_title$8",
+      "translation": [
+        953,
+        85,
+        0
+      ],
+      "compositionRef": "popup_title.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "popup_title$7",
+      "translation": [
+        617,
+        85,
+        0
+      ],
+      "compositionRef": "popup_title.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        281,
+        85,
+        0
+      ],
+      "compositionRef": "popup_title.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1621,
+        161,
+        0
+      ],
+      "compositionRef": "button_close.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5.8,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Tournament_placeholder$4",
+      "translation": [
+        948,
+        701,
+        0
+      ],
+      "anchor": [
+        700,
+        159,
+        0
+      ],
+      "compositionRef": "Tournament_placeholder.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8.54166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Tournament_placeholder",
+      "translation": [
+        948,
+        389,
+        0
+      ],
+      "anchor": [
+        700,
+        159,
+        0
+      ],
+      "compositionRef": "Tournament_placeholder.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8.541,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8.54166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_down",
+      "translation": [
+        1681,
+        891,
+        0
+      ],
+      "anchor": [
+        60,
+        58,
+        0
+      ],
+      "compositionRef": "button_down.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "button_up",
+      "translation": [
+        1681,
+        771,
+        0
+      ],
+      "anchor": [
+        60,
+        58,
+        0
+      ],
+      "compositionRef": "button_up.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "button_up.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_down.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Tournament_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Tournament_placeholder$4.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_close.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title$7.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "popup_title$8.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_circle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ltp_scrollbar_part1.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "scrollbar_tournament.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_black_long.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "store_thing.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "store_thing.png$14.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "Black Solid 5.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "button_up",
+        "button_down",
+        "Tournament_placeholder",
+        "Tournament_placeholder$4",
+        "button_close",
+        "popup_title",
+        "popup_title$7",
+        "popup_title$8",
+        "button_circle",
+        "ltp_scrollbar_part1.png",
+        "scrollbar_tournament.png",
+        "button_black_long",
+        "store_thing.png",
+        "store_thing.png$14",
+        "Black Solid 5"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

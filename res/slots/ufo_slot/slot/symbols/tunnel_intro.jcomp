@@ -1,0 +1,369 @@
+{
+  "name": "tunnel_intro",
+  "children": [
+    {
+      "name": "tunnel_intro_[00000-00023].png",
+      "translation": [
+        128,
+        128,
+        0
+      ],
+      "anchor": [
+        128,
+        128,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/tunnel_intro_00000.png",
+            "resources/tunnel_intro_00001.png",
+            "resources/tunnel_intro_00002.png",
+            "resources/tunnel_intro_00003.png",
+            "resources/tunnel_intro_00004.png",
+            "resources/tunnel_intro_00005.png",
+            "resources/tunnel_intro_00006.png",
+            "resources/tunnel_intro_00007.png",
+            "resources/tunnel_intro_00008.png",
+            "resources/tunnel_intro_00009.png",
+            "resources/tunnel_intro_00010.png",
+            "resources/tunnel_intro_00011.png",
+            "resources/tunnel_intro_00012.png",
+            "resources/tunnel_intro_00013.png",
+            "resources/tunnel_intro_00014.png",
+            "resources/tunnel_intro_00015.png",
+            "resources/tunnel_intro_00016.png",
+            "resources/tunnel_intro_00017.png",
+            "resources/tunnel_intro_00018.png",
+            "resources/tunnel_intro_00019.png",
+            "resources/tunnel_intro_00020.png",
+            "resources/tunnel_intro_00021.png",
+            "resources/tunnel_intro_00022.png",
+            "resources/tunnel_intro_00023.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "flare.png",
+      "translation": [
+        133.999999999999,
+        120.99999999999,
+        0
+      ],
+      "anchor": [
+        250.574621508527,
+        258.260574371445,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 10,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/flare.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "flare.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.17128019564418,
+              1.17128019564418,
+              1
+            ],
+            [
+              1.34658640604885,
+              1.34658640604885,
+              1
+            ],
+            [
+              1.51999256943148,
+              1.51999256943148,
+              1
+            ],
+            [
+              1.68805898410831,
+              1.68805898410831,
+              1
+            ],
+            [
+              1.84624363317157,
+              1.84624363317157,
+              1
+            ],
+            [
+              1.97925520662806,
+              1.97925520662806,
+              1
+            ],
+            [
+              2.03211526991167,
+              2.03211526991167,
+              1
+            ],
+            [
+              2.06175466875089,
+              2.06175466875089,
+              1
+            ],
+            [
+              2.0845388295176,
+              2.0845388295176,
+              1
+            ],
+            [
+              2.10344038899712,
+              2.10344038899712,
+              1
+            ],
+            [
+              2.11976321987948,
+              2.11976321987948,
+              1
+            ],
+            [
+              2.13422689743145,
+              2.13422689743145,
+              1
+            ],
+            [
+              2.14729750104245,
+              2.14729750104245,
+              1
+            ],
+            [
+              2.15925226113446,
+              2.15925226113446,
+              1
+            ],
+            [
+              2.17033529091036,
+              2.17033529091036,
+              1
+            ],
+            [
+              2.18072589292542,
+              2.18072589292542,
+              1
+            ],
+            [
+              2.19057636365044,
+              2.19057636365044,
+              1
+            ],
+            [
+              2.20003969496242,
+              2.20003969496242,
+              1
+            ],
+            [
+              2.20924102306422,
+              2.20924102306422,
+              1
+            ],
+            [
+              2.21837214987375,
+              2.21837214987375,
+              1
+            ],
+            [
+              2.22769853143829,
+              2.22769853143829,
+              1
+            ],
+            [
+              2.23772725494143,
+              2.23772725494143,
+              1
+            ],
+            [
+              2.25,
+              2.25,
+              1
+            ],
+            [
+              2.36814690699916,
+              2.36814690699916,
+              1
+            ],
+            [
+              2.49088271590408,
+              2.49088271590408,
+              1
+            ],
+            [
+              2.61232459583346,
+              2.61232459583346,
+              1
+            ],
+            [
+              2.7300514242695,
+              2.7300514242695,
+              1
+            ],
+            [
+              2.84127553234047,
+              2.84127553234047,
+              1
+            ],
+            [
+              2.93969625041203,
+              2.93969625041203,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "flare.png.alpha": {
+          "values": [
+            0,
+            0.20901597459207,
+            0.43084711252194,
+            0.63718154323168,
+            0.81383803797001,
+            0.94463706440022,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.90489802002776,
+            0.7528548795364,
+            0.58565304767305,
+            0.41455512284514,
+            0.2471451204636,
+            0.09510197997224
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "flare.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "tunnel_intro_[00000-00023].png.curFrame": {
+          "duration": 1,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 30,
+          "cutf": 0
+        },
+        "tunnel_intro_[00000-00023].png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "flare.png",
+        "tunnel_intro_[00000-00023].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene(CC%20(13))%20programming.aep",
+  "version": 1
+}

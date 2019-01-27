@@ -1,0 +1,1759 @@
+{
+  "name": "upgrade_window",
+  "children": [
+    {
+      "name": "Holder_Null",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "children": [
+        {
+          "name": "bg",
+          "translation": [
+            0,
+            -23.75,
+            0
+          ],
+          "anchor": [
+            960,
+            266.5,
+            0
+          ],
+          "alpha": 0.75,
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "color": [
+                0,
+                0,
+                0
+              ],
+              "size": [
+                1920,
+                533
+              ],
+              "_c": "Solid"
+            }
+          ]
+        },
+        {
+          "name": "ltp_solidorange.png",
+          "translation": [
+            -3.999,
+            -58.999,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            171,
+            121,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_solidorange.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_glow",
+          "translation": [
+            1.499,
+            -85,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            299.006,
+            294.701,
+            0
+          ],
+          "compositionRef": "ltp_glow.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 12,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_dow.png$11",
+          "translation": [
+            72.374,
+            242.415,
+            0
+          ],
+          "scale": [
+            -14.319,
+            -0.499,
+            1
+          ],
+          "anchor": [
+            91,
+            17,
+            0
+          ],
+          "children": [
+            {
+              "name": "ltp_bg_dow.png$12",
+              "translation": [
+                90.45,
+                -0.25,
+                0
+              ],
+              "scale": [
+                0.837,
+                2.08,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "anchor": [
+                91,
+                17,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_bg_dow.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_dow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_bg_u.png",
+          "translation": [
+            138.249,
+            -293.02,
+            0
+          ],
+          "scale": [
+            20,
+            1,
+            1
+          ],
+          "anchor": [
+            61,
+            17,
+            0
+          ],
+          "children": [
+            {
+              "name": "ltp_bg_dow.png",
+              "translation": [
+                58.224,
+                19.5,
+                0
+              ],
+              "scale": [
+                0.6,
+                0.499,
+                1
+              ],
+              "anchor": [
+                91,
+                17,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_bg_dow.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_bg_u.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "Holder_Null 2",
+          "translation": [
+            0,
+            245,
+            0
+          ],
+          "scale": [
+            1,
+            0,
+            1
+          ],
+          "children": [
+            {
+              "name": "ltp_over_text.png",
+              "translation": [
+                4.999,
+                -228.19,
+                0
+              ],
+              "scale": [
+                1.498,
+                1.106,
+                1
+              ],
+              "anchor": [
+                477,
+                6.243,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_over_text.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            },
+            {
+              "name": "ltp_line_1.png",
+              "translation": [
+                0.062,
+                -228.062,
+                0
+              ],
+              "scale": [
+                1.413,
+                1,
+                1
+              ],
+              "anchor": [
+                391,
+                11,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "fileNames": [
+                    "../assets/ltp_line_1.png"
+                  ],
+                  "_c": "Sprite"
+                }
+              ]
+            },
+            {
+              "name": "text_desc",
+              "translation": [
+                -1.13,
+                -125.763,
+                0
+              ],
+              "scale": [
+                0,
+                0,
+                1
+              ],
+              "anchor": [
+                183.891,
+                15.011,
+                0
+              ],
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 0,
+                  "_c": "AELayer"
+                },
+                {
+                  "text": "You've earned enough energy to continue improving the city.",
+                  "font": "Exo2-Black",
+                  "fontSize": 16,
+                  "color": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "bounds": [
+                    -0.24271305650473,
+                    -0.46404933929443,
+                    368.268157958984,
+                    43.2666206359863
+                  ],
+                  "justification": "haCenter",
+                  "shadowColor": [
+                    0,
+                    0,
+                    0,
+                    0.4
+                  ],
+                  "shadowOff": [
+                    -3.67394039744206e-16,
+                    2
+                  ],
+                  "shadowRadius": 4,
+                  "shadowSpread": 0,
+                  "_c": "Text"
+                }
+              ]
+            },
+            {
+              "name": "bttn_upgrade",
+              "translation": [
+                -192,
+                9,
+                0
+              ],
+              "anchor": [
+                174,
+                42,
+                0
+              ],
+              "compositionRef": "upgrade_city_button.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 5.66666666666667,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    348,
+                    84
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bttn_continue",
+              "translation": [
+                192,
+                9,
+                0
+              ],
+              "anchor": [
+                174,
+                42,
+                0
+              ],
+              "compositionRef": "continue_spin_button.json",
+              "affectsChildren": false,
+              "components": [
+                {
+                  "inPoint": 0,
+                  "outPoint": 1.291,
+                  "scale": 1,
+                  "startTime": 0,
+                  "duration": 5.66666666666667,
+                  "_c": "AELayer"
+                },
+                {
+                  "_c": "ButtonComponent",
+                  "bounds": [
+                    0,
+                    0,
+                    348,
+                    84
+                  ]
+                }
+              ]
+            }
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0.041,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "upgrade_city_tab",
+          "translation": [
+            0,
+            -298,
+            0
+          ],
+          "anchor": [
+            270,
+            55,
+            0
+          ],
+          "compositionRef": "upgrade_city_tab.json",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1.291,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 5.66666666666667,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "energy_placeholder",
+      "translation": [
+        963.281,
+        458.255,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        154.5,
+        168.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency",
+          "iconName": "energy"
+        },
+        {
+          "color": [
+            0.56470602750778,
+            0.56470602750778,
+            0.56470602750778
+          ],
+          "size": [
+            309,
+            337
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "energy_placeholder.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.006,
+              0.006,
+              1
+            ],
+            [
+              0.091,
+              0.091,
+              1
+            ],
+            [
+              0.739,
+              0.739,
+              1
+            ],
+            [
+              1.06,
+              1.06,
+              1
+            ],
+            [
+              1.157,
+              1.157,
+              1
+            ],
+            [
+              1.193,
+              1.193,
+              1
+            ],
+            [
+              1.196,
+              1.196,
+              1
+            ],
+            [
+              1.131,
+              1.131,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              0.947,
+              0.947,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.935,
+              0.935,
+              1
+            ],
+            [
+              0.962,
+              0.962,
+              1
+            ],
+            [
+              1.054,
+              1.054,
+              1
+            ],
+            [
+              1.153,
+              1.153,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.187,
+              1.187,
+              1
+            ],
+            [
+              1.14,
+              1.14,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              0.471,
+              0.471,
+              1
+            ],
+            [
+              0.055,
+              0.055,
+              1
+            ],
+            [
+              0.001,
+              0.001,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 2
+        },
+        "Holder_Null.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.001,
+              0.01,
+              1
+            ],
+            [
+              1.009,
+              0.055,
+              1
+            ],
+            [
+              1.031,
+              0.191,
+              1
+            ],
+            [
+              1.123,
+              0.739,
+              1
+            ],
+            [
+              1.165,
+              0.99,
+              1
+            ],
+            [
+              1.182,
+              1.093,
+              1
+            ],
+            [
+              1.191,
+              1.149,
+              1
+            ],
+            [
+              1.196,
+              1.18,
+              1
+            ],
+            [
+              1.199,
+              1.195,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.179,
+              1.179,
+              1
+            ],
+            [
+              1.129,
+              1.129,
+              1
+            ],
+            [
+              1.07,
+              1.07,
+              1
+            ],
+            [
+              1.02,
+              1.02,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.012,
+              1.012,
+              1
+            ],
+            [
+              1.056,
+              1.056,
+              1
+            ],
+            [
+              1.114,
+              1.114,
+              1
+            ],
+            [
+              1.168,
+              1.168,
+              1
+            ],
+            [
+              1.198,
+              1.198,
+              1
+            ],
+            [
+              1.199,
+              1.197,
+              1
+            ],
+            [
+              1.197,
+              1.185,
+              1
+            ],
+            [
+              1.193,
+              1.159,
+              1
+            ],
+            [
+              1.185,
+              1.11,
+              1
+            ],
+            [
+              1.17,
+              1.023,
+              1
+            ],
+            [
+              1.138,
+              0.833,
+              1
+            ],
+            [
+              1.044,
+              0.268,
+              1
+            ],
+            [
+              1.012,
+              0.076,
+              1
+            ],
+            [
+              1.002,
+              0.017,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 0
+        },
+        "Holder_Null 2.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              0.002,
+              1
+            ],
+            [
+              1.005,
+              0.028,
+              1
+            ],
+            [
+              1.021,
+              0.108,
+              1
+            ],
+            [
+              1.082,
+              0.414,
+              1
+            ],
+            [
+              1.187,
+              0.937,
+              1
+            ],
+            [
+              1.218,
+              1.094,
+              1
+            ],
+            [
+              1.234,
+              1.172,
+              1
+            ],
+            [
+              1.243,
+              1.215,
+              1
+            ],
+            [
+              1.247,
+              1.239,
+              1
+            ],
+            [
+              1.249,
+              1.248,
+              1
+            ],
+            [
+              1.237,
+              1.237,
+              1
+            ],
+            [
+              1.161,
+              1.161,
+              1
+            ],
+            [
+              1.064,
+              1.064,
+              1
+            ],
+            [
+              1.003,
+              1.003,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.112,
+              1.112,
+              1
+            ],
+            [
+              1.206,
+              1.206,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.249,
+              1.245,
+              1
+            ],
+            [
+              1.245,
+              1.229,
+              1
+            ],
+            [
+              1.239,
+              1.197,
+              1
+            ],
+            [
+              1.227,
+              1.139,
+              1
+            ],
+            [
+              1.206,
+              1.031,
+              1
+            ],
+            [
+              1.154,
+              0.77,
+              1
+            ],
+            [
+              1.039,
+              0.199,
+              1
+            ],
+            [
+              1.011,
+              0.057,
+              1
+            ],
+            [
+              1.002,
+              0.011,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 2
+        },
+        "text_desc.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.113,
+              0.113,
+              1
+            ],
+            [
+              0.875,
+              0.875,
+              1
+            ],
+            [
+              2.025,
+              2.025,
+              1
+            ],
+            [
+              3.174,
+              3.174,
+              1
+            ],
+            [
+              3.936,
+              3.936,
+              1
+            ],
+            [
+              3.998,
+              3.998,
+              1
+            ],
+            [
+              3.68,
+              3.68,
+              1
+            ],
+            [
+              3.272,
+              3.272,
+              1
+            ],
+            [
+              3.013,
+              3.013,
+              1
+            ],
+            [
+              2.999,
+              3,
+              1
+            ],
+            [
+              2.999,
+              3,
+              1
+            ],
+            [
+              2.999,
+              3,
+              1
+            ],
+            [
+              2.999,
+              3,
+              1
+            ],
+            [
+              3.184,
+              3.184,
+              1
+            ],
+            [
+              3.577,
+              3.577,
+              1
+            ],
+            [
+              3.94,
+              3.94,
+              1
+            ],
+            [
+              4.02,
+              4.02,
+              1
+            ],
+            [
+              3.417,
+              3.417,
+              1
+            ],
+            [
+              2.328,
+              2.328,
+              1
+            ],
+            [
+              1.141,
+              1.141,
+              1
+            ],
+            [
+              0.245,
+              0.245,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 7
+        },
+        "ltp_glow.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.042,
+              0.042,
+              1
+            ],
+            [
+              0.334,
+              0.334,
+              1
+            ],
+            [
+              0.811,
+              0.811,
+              1
+            ],
+            [
+              1.359,
+              1.359,
+              1
+            ],
+            [
+              1.865,
+              1.865,
+              1
+            ],
+            [
+              2.215,
+              2.215,
+              1
+            ],
+            [
+              2.303,
+              2.303,
+              1
+            ],
+            [
+              2.231,
+              2.231,
+              1
+            ],
+            [
+              2.102,
+              2.102,
+              1
+            ],
+            [
+              1.961,
+              1.961,
+              1
+            ],
+            [
+              1.855,
+              1.855,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.826,
+              1.826,
+              1
+            ],
+            [
+              1.876,
+              1.876,
+              1
+            ],
+            [
+              1.995,
+              1.995,
+              1
+            ],
+            [
+              2.137,
+              2.137,
+              1
+            ],
+            [
+              2.256,
+              2.256,
+              1
+            ],
+            [
+              2.306,
+              2.306,
+              1
+            ],
+            [
+              2.148,
+              2.148,
+              1
+            ],
+            [
+              1.749,
+              1.749,
+              1
+            ],
+            [
+              1.222,
+              1.222,
+              1
+            ],
+            [
+              0.681,
+              0.681,
+              1
+            ],
+            [
+              0.239,
+              0.239,
+              1
+            ],
+            [
+              0.01,
+              0.01,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 2
+        },
+        "ltp_solidorange.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.043,
+              0.043,
+              1
+            ],
+            [
+              0.348,
+              0.348,
+              1
+            ],
+            [
+              0.844,
+              0.844,
+              1
+            ],
+            [
+              1.414,
+              1.414,
+              1
+            ],
+            [
+              1.94,
+              1.94,
+              1
+            ],
+            [
+              2.304,
+              2.304,
+              1
+            ],
+            [
+              2.397,
+              2.397,
+              1
+            ],
+            [
+              2.338,
+              2.338,
+              1
+            ],
+            [
+              2.233,
+              2.233,
+              1
+            ],
+            [
+              2.118,
+              2.118,
+              1
+            ],
+            [
+              2.032,
+              2.032,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.008,
+              2.008,
+              1
+            ],
+            [
+              2.048,
+              2.048,
+              1
+            ],
+            [
+              2.146,
+              2.146,
+              1
+            ],
+            [
+              2.262,
+              2.262,
+              1
+            ],
+            [
+              2.359,
+              2.359,
+              1
+            ],
+            [
+              2.4,
+              2.4,
+              1
+            ],
+            [
+              2.235,
+              2.235,
+              1
+            ],
+            [
+              1.82,
+              1.82,
+              1
+            ],
+            [
+              1.271,
+              1.271,
+              1
+            ],
+            [
+              0.709,
+              0.709,
+              1
+            ],
+            [
+              0.249,
+              0.249,
+              1
+            ],
+            [
+              0.011,
+              0.011,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 1.29166666666667,
+          "len": 39,
+          "cutf": 2
+        },
+        "upgrade_city_tab.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "bttn_continue.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "bttn_upgrade.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "Holder_Null 2.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "text_desc.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "energy_placeholder.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_bg_dow.png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_bg_u.png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_line_1.png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_bg_dow.png$11.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_bg_dow.png$12.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_over_text.png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_glow.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "ltp_solidorange.png.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "bg.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        },
+        "Holder_Null.enabled": {
+          "duration": 1.29166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 39,
+          "cutf": 38
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 0.54166666666667
+        },
+        "idle": {
+          "start": 0.54166666666667,
+          "duration": 0.08333333333333
+        },
+        "hide": {
+          "start": 0.625,
+          "duration": 0.58333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.29166666666667
+        }
+      },
+      "layers": [
+        "upgrade_city_tab",
+        "bttn_continue",
+        "bttn_upgrade",
+        "Holder_Null 2",
+        "text_desc",
+        "energy_placeholder",
+        "ltp_bg_dow.png",
+        "ltp_bg_u.png",
+        "ltp_line_1.png",
+        "ltp_bg_dow.png$11",
+        "ltp_bg_dow.png$12",
+        "ltp_over_text.png",
+        "ltp_glow",
+        "ltp_solidorange.png",
+        "bg",
+        "Holder_Null"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

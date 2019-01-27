@@ -1,0 +1,130 @@
+{
+  "name": "restaurant_1_tables",
+  "children": [
+    {
+      "name": "restaurant_1_table$3",
+      "translation": [
+        917.5,
+        904.5,
+        0
+      ],
+      "anchor": [
+        138.5,
+        122.5,
+        0
+      ],
+      "compositionRef": "restaurant_1_table",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "restaurant_1_table$2",
+      "translation": [
+        623.5,
+        907.5,
+        0
+      ],
+      "anchor": [
+        138.5,
+        122.5,
+        0
+      ],
+      "compositionRef": "restaurant_1_table",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "restaurant_1_table",
+      "translation": [
+        793.5,
+        984,
+        0
+      ],
+      "anchor": [
+        138.5,
+        122.5,
+        0
+      ],
+      "compositionRef": "restaurant_1_table",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "restaurant_1_table.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "restaurant_1_table$2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        },
+        "restaurant_1_table$3.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "restaurant_1_table",
+        "restaurant_1_table$2",
+        "restaurant_1_table$3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "restaurant_a_all_dev.aep",
+  "version": 1
+}

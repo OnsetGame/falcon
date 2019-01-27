@@ -1,0 +1,394 @@
+{
+  "name": "total_bet_panel",
+  "children": [
+    {
+      "name": "bet_shape",
+      "translation": [
+        259.5,
+        23,
+        0
+      ],
+      "alpha": 0.6,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            284,
+            36
+          ],
+          "radius": 18,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.05098039284348,
+            0.05098039284348,
+            0.05098039284348,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bet_value_text",
+      "translation": [
+        258,
+        88,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "5,000",
+          "font": "Exo2-Black",
+          "fontSize": 40,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "gui_total_bet",
+      "translation": [
+        257,
+        31,
+        0
+      ],
+      "alpha": 0.8,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "BET",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "minus_button",
+      "translation": [
+        49,
+        49,
+        0
+      ],
+      "anchor": [
+        49,
+        49,
+        0
+      ],
+      "compositionRef": "minus_button",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "plus_button",
+      "translation": [
+        469,
+        49,
+        0
+      ],
+      "anchor": [
+        49,
+        49,
+        0
+      ],
+      "children": [
+        {
+          "name": "lock_shape_plus",
+          "translation": [
+            44.5,
+            57,
+            0
+          ],
+          "anchor": [
+            34.5,
+            38,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../../lib/assets/lock_shape.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "compositionRef": "plus_button",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "plus_button.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.96202235108912,
+              0.96202235108912,
+              1
+            ],
+            [
+              0.91296295166016,
+              0.91296295166016,
+              1
+            ],
+            [
+              0.91943651360033,
+              0.91943651360033,
+              1
+            ],
+            [
+              0.97407409667969,
+              0.97407409667969,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 20,
+          "frameLerp": true
+        },
+        "minus_button.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.96202235108912,
+              0.96202235108912,
+              1
+            ],
+            [
+              0.91296295166016,
+              0.91296295166016,
+              1
+            ],
+            [
+              0.91943651360033,
+              0.91943651360033,
+              1
+            ],
+            [
+              0.97407409667969,
+              0.97407409667969,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "lock_shape_plus.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "plus_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "minus_button.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "gui_total_bet.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "bet_value_text.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        },
+        "bet_shape.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "minus": {
+          "start": 0,
+          "duration": 0.20833333333333
+        },
+        "plus": {
+          "start": 0.83333333333333,
+          "duration": 0.20833333333334
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "lock_shape_plus",
+        "plus_button",
+        "minus_button",
+        "gui_total_bet",
+        "bet_value_text",
+        "bet_shape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

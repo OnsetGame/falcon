@@ -1,0 +1,221 @@
+{
+  "name": "multiplyer_spin_X",
+  "children": [
+    {
+      "name": "multiplyer_04_turn_[0001-0005].png",
+      "translation": [
+        151.5,
+        151.5,
+        0
+      ],
+      "anchor": [
+        142.5,
+        70,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.416,
+          "outPoint": 0.625,
+          "scale": 1,
+          "startTime": 0.416,
+          "duration": 0.20833333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/multiplyer_04_turn_0001.png",
+            "../assets/magic_matters_special/multiplyer_04_turn_0002.png",
+            "../assets/magic_matters_special/multiplyer_04_turn_0003.png",
+            "../assets/magic_matters_special/multiplyer_04_turn_0004.png",
+            "../assets/magic_matters_special/multiplyer_04_turn_0005.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "multiplyer_03_turn_[0001-0005].png",
+      "translation": [
+        151.5,
+        151.5,
+        0
+      ],
+      "anchor": [
+        142.5,
+        70,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.208,
+          "outPoint": 0.416,
+          "scale": 1,
+          "startTime": 0.208,
+          "duration": 0.20833333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/multiplyer_03_turn_0001.png",
+            "../assets/magic_matters_special/multiplyer_03_turn_0002.png",
+            "../assets/magic_matters_special/multiplyer_03_turn_0003.png",
+            "../assets/magic_matters_special/multiplyer_03_turn_0004.png",
+            "../assets/magic_matters_special/multiplyer_03_turn_0005.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "multiplyer_02_turn_[0001-0005].png",
+      "translation": [
+        151.5,
+        151.5,
+        0
+      ],
+      "anchor": [
+        142.5,
+        70,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.208,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.20833333333333,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_special/multiplyer_02_turn_0001.png",
+            "../assets/magic_matters_special/multiplyer_02_turn_0002.png",
+            "../assets/magic_matters_special/multiplyer_02_turn_0003.png",
+            "../assets/magic_matters_special/multiplyer_02_turn_0004.png",
+            "../assets/magic_matters_special/multiplyer_02_turn_0005.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "multiplyer_02_turn_[0001-0005].png.curFrame": {
+          "duration": 0.625,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            0,
+            4
+          ],
+          "len": 15,
+          "cutf": 0
+        },
+        "multiplyer_02_turn_[0001-0005].png.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 4
+        },
+        "multiplyer_03_turn_[0001-0005].png.curFrame": {
+          "duration": 0.625,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "len": 15,
+          "cutf": 5
+        },
+        "multiplyer_03_turn_[0001-0005].png.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 4
+        },
+        "multiplyer_04_turn_[0001-0005].png.curFrame": {
+          "duration": 0.625,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "len": 15,
+          "cutf": 10
+        },
+        "multiplyer_04_turn_[0001-0005].png.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 9
+        }
+      },
+      "markers": {
+        "spin": {
+          "start": 0,
+          "duration": 0.625
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.625
+        }
+      },
+      "layers": [
+        "multiplyer_02_turn_[0001-0005].png",
+        "multiplyer_03_turn_[0001-0005].png",
+        "multiplyer_04_turn_[0001-0005].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "elements_magic_matters_opt%2018%20(hidden%20shattering).aep",
+  "export_time": "14 August 2018 14:34",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

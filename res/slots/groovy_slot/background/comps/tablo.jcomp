@@ -1,0 +1,99 @@
+{
+  "name": "tablo",
+  "children": [
+    {
+      "name": "left_arrow",
+      "translation": [
+        122,
+        372,
+        0
+      ],
+      "anchor": [
+        122,
+        372,
+        0
+      ],
+      "compositionRef": "left_arrow",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "right_arrow",
+      "translation": [
+        122,
+        372,
+        0
+      ],
+      "anchor": [
+        122,
+        372,
+        0
+      ],
+      "compositionRef": "right_arrow",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 5.41666666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "right_arrow.enabled": {
+          "duration": 5.45833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 131,
+          "cutf": 129
+        },
+        "left_arrow.enabled": {
+          "duration": 5.45833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 131,
+          "cutf": 129
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.45833333333333
+        }
+      },
+      "layers": [
+        "right_arrow",
+        "left_arrow"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

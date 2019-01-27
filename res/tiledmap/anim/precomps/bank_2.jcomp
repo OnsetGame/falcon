@@ -1,0 +1,516 @@
+{
+  "name": "bank_2",
+  "children": [
+    {
+      "name": "ltp_bank_coin_shadow_2.png",
+      "translation": [
+        449,
+        96,
+        0
+      ],
+      "anchor": [
+        179,
+        207,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_bank_coin_shadow_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_shape.png$2",
+      "translation": [
+        465,
+        -54,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        75,
+        75,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.104,
+        0.994
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 5.291,
+          "outPoint": 5.791,
+          "scale": 1,
+          "startTime": 3.375,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "ltp_shape.png",
+      "translation": [
+        465,
+        -54,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        75,
+        75,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.104,
+        0.994
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.916,
+          "outPoint": 2.416,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_shape.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_shape.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.255,
+              0.255,
+              1
+            ],
+            [
+              0.584,
+              0.584,
+              1
+            ],
+            [
+              0.795,
+              0.795,
+              1
+            ],
+            [
+              0.919,
+              0.919,
+              1
+            ],
+            [
+              0.981,
+              0.981,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.915,
+              0.915,
+              1
+            ],
+            [
+              0.788,
+              0.788,
+              1
+            ],
+            [
+              0.574,
+              0.574,
+              1
+            ],
+            [
+              0.247,
+              0.247,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 46,
+          "frameLerp": false
+        },
+        "ltp_shape.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.104,
+              0.994
+            ],
+            [
+              0,
+              0,
+              0.065,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.156,
+              0.987
+            ],
+            [
+              0,
+              0,
+              -0.279,
+              0.96
+            ],
+            [
+              0,
+              0,
+              -0.371,
+              0.928
+            ],
+            [
+              0,
+              0,
+              -0.406,
+              0.913
+            ],
+            [
+              0,
+              0,
+              -0.441,
+              0.897
+            ],
+            [
+              0,
+              0,
+              -0.526,
+              0.85
+            ],
+            [
+              0,
+              0,
+              -0.629,
+              0.777
+            ],
+            [
+              0,
+              0,
+              -0.722,
+              0.691
+            ],
+            [
+              0,
+              0,
+              -0.785,
+              0.618
+            ],
+            [
+              0,
+              0,
+              -0.809,
+              0.587
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 46,
+          "frameLerp": false
+        },
+        "ltp_shape.png$2.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.255,
+              0.255,
+              1
+            ],
+            [
+              0.584,
+              0.584,
+              1
+            ],
+            [
+              0.795,
+              0.795,
+              1
+            ],
+            [
+              0.919,
+              0.919,
+              1
+            ],
+            [
+              0.981,
+              0.981,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.915,
+              0.915,
+              1
+            ],
+            [
+              0.788,
+              0.788,
+              1
+            ],
+            [
+              0.574,
+              0.574,
+              1
+            ],
+            [
+              0.247,
+              0.247,
+              1
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 127,
+          "frameLerp": false
+        },
+        "ltp_shape.png$2.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.104,
+              0.994
+            ],
+            [
+              0,
+              0,
+              0.065,
+              0.997
+            ],
+            [
+              0,
+              0,
+              -0.031,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.156,
+              0.987
+            ],
+            [
+              0,
+              0,
+              -0.279,
+              0.96
+            ],
+            [
+              0,
+              0,
+              -0.371,
+              0.928
+            ],
+            [
+              0,
+              0,
+              -0.406,
+              0.913
+            ],
+            [
+              0,
+              0,
+              -0.441,
+              0.897
+            ],
+            [
+              0,
+              0,
+              -0.526,
+              0.85
+            ],
+            [
+              0,
+              0,
+              -0.629,
+              0.777
+            ],
+            [
+              0,
+              0,
+              -0.722,
+              0.691
+            ],
+            [
+              0,
+              0,
+              -0.785,
+              0.618
+            ],
+            [
+              0,
+              0,
+              -0.809,
+              0.587
+            ]
+          ],
+          "duration": 6,
+          "len": 144,
+          "cutf": 127,
+          "frameLerp": false
+        },
+        "ltp_shape.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 45
+        },
+        "ltp_shape.png$2.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 126
+        },
+        "ltp_bank_coin_shadow_2.png.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 144,
+          "cutf": 143
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "ltp_shape.png",
+        "ltp_shape.png$2",
+        "ltp_bank_coin_shadow_2.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

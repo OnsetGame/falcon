@@ -1,0 +1,168 @@
+{
+  "name": "plus",
+  "children": [
+    {
+      "name": "plus_button_shape",
+      "translation": [
+        959.5,
+        490,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        -0.25,
+        -25,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "shape": 0,
+          "startColor": [
+            0.28235295414925,
+            0.08627451211214,
+            0.65098041296005,
+            1
+          ],
+          "endColor": [
+            0.66666668653488,
+            0,
+            1,
+            1
+          ],
+          "startPoint": [
+            1860,
+            480
+          ],
+          "endPoint": [
+            -60,
+            480
+          ],
+          "localCoords": true,
+          "_c": "GradientFill"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            120,
+            120
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            0.97688598632812,
+            0.3450979793773,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.85098039215686,
+            0.12941176470588,
+            0.35686274509804,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cross_big.png",
+      "translation": [
+        960,
+        521.5,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        43,
+        43.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15.083,
+          "scale": 1,
+          "startTime": 0.083,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/cross_big.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cross_big.png.enabled": {
+          "duration": 15,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        },
+        "plus_button_shape.enabled": {
+          "duration": 15,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 360,
+          "cutf": 359
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.95833333333333
+        },
+        "idle": {
+          "start": 0.95833333333333,
+          "duration": 0.41666666666667
+        },
+        "out": {
+          "start": 1.375,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 15
+        }
+      },
+      "layers": [
+        "cross_big.png",
+        "plus_button_shape"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

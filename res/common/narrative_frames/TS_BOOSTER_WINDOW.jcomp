@@ -1,0 +1,61 @@
+{
+  "name": "narr",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "frames": [
+        {
+          "right": true,
+          "bottom": false,
+          "needZoom": false,
+          "withoutAction": false,
+          "showDelay": 0.300000011920929,
+          "text": "TS_BOOSTER_WINDOW_1",
+          "secondText": "TS_BOOSTER_WINDOW_1_CONTINUE",
+          "characterBody": 7,
+          "characterHead": 2,
+          "targetName": "boost_normal",
+          "arrowType": 3
+        },
+        {
+          "right": true,
+          "bottom": false,
+          "needZoom": false,
+          "withoutAction": false,
+          "showDelay": 0.5,
+          "text": "TS_BOOSTER_WINDOW_2",
+          "secondText": null,
+          "characterBody": 2,
+          "characterHead": 6,
+          "targetName": "button_close",
+          "arrowType": 0
+        }
+      ],
+      "_c": "Narrative"
+    }
+  ]
+}

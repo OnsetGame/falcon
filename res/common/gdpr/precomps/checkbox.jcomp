@@ -1,0 +1,119 @@
+{
+  "name": "checkbox",
+  "children": [
+    {
+      "name": "ok_rectangle",
+      "translation": [
+        336,
+        732,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            44,
+            44
+          ],
+          "radius": 14,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.6
+          ],
+          "strokeWidth": 4,
+          "color": [
+            0.10196078568697,
+            0.10196078568697,
+            0.10196078568697,
+            0.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ok.png",
+      "translation": [
+        319,
+        720,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ok.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ok.png.alpha": {
+          "values": [
+            0,
+            0.599,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 11
+        },
+        "ok.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "ok_rectangle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "ok.png",
+        "ok_rectangle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GDRP_dev.aep",
+  "version": 1
+}

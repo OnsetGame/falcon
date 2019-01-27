@@ -1,0 +1,258 @@
+{
+  "name": "button_orange_collect",
+  "children": [
+    {
+      "name": "orange_button_gifts_on.png",
+      "translation": [
+        126,
+        42,
+        0
+      ],
+      "anchor": [
+        126,
+        43,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonWhiteStrokeOn",
+          "size": [
+            252,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "orange_button_gifts_off.png",
+      "translation": [
+        126,
+        42,
+        0
+      ],
+      "anchor": [
+        126,
+        43,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonWhiteStrokeOff",
+          "size": [
+            252,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gift_collect",
+      "translation": [
+        125.504,
+        38.759,
+        0
+      ],
+      "scale": [
+        2.8,
+        2.8,
+        1
+      ],
+      "anchor": [
+        -0.031,
+        -3.68,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "COLLECT",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "gift_collect.translation": {
+          "values": [
+            [
+              125.504,
+              38.759,
+              0
+            ],
+            [
+              125.504,
+              39.161,
+              0
+            ],
+            [
+              125.504,
+              39.959,
+              0
+            ],
+            [
+              125.504,
+              40.76,
+              0
+            ],
+            [
+              125.504,
+              40.76,
+              0
+            ],
+            [
+              125.504,
+              40.76,
+              0
+            ],
+            [
+              125.504,
+              40.76,
+              0
+            ],
+            [
+              125.504,
+              40.557,
+              0
+            ],
+            [
+              125.504,
+              39.76,
+              0
+            ],
+            [
+              125.504,
+              38.961,
+              0
+            ],
+            [
+              125.504,
+              38.759,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 7
+        },
+        "orange_button_gifts_off.png.alpha": {
+          "values": [
+            1,
+            0.96,
+            0.808,
+            0.589,
+            0.352,
+            0.145,
+            0.018,
+            0.028,
+            0.216,
+            0.5,
+            0.783,
+            0.971,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 6
+        },
+        "gift_collect.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "orange_button_gifts_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "orange_button_gifts_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "press": {
+          "start": 0.20833333333333,
+          "duration": 0.375
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "gift_collect",
+        "orange_button_gifts_off.png",
+        "orange_button_gifts_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

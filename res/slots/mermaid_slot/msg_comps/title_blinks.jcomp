@@ -1,0 +1,251 @@
+{
+  "name": "title_blinks",
+  "children": [
+    {
+      "name": "Shape_Animation$4",
+      "translation": [
+        1188.25,
+        792,
+        0
+      ],
+      "scale": [
+        0.64,
+        0.64,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "compositionRef": "../comps/Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$3",
+      "translation": [
+        976.25,
+        192,
+        0
+      ],
+      "scale": [
+        0.64,
+        0.64,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "compositionRef": "../comps/Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.083,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0.083,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$2",
+      "translation": [
+        730.25,
+        270,
+        0
+      ],
+      "scale": [
+        0.64,
+        0.64,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "compositionRef": "../comps/Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.166,
+          "outPoint": 0.666,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation",
+      "translation": [
+        1045.25,
+        281,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../comps/Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.375,
+          "outPoint": 0.875,
+          "scale": 1,
+          "startTime": 0.375,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Shape_Animation.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.799,
+            0
+          ],
+          "duration": 0.875,
+          "len": 27,
+          "cutf": 11
+        },
+        "Shape_Animation.enabled": {
+          "duration": 0.875,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 27,
+          "cutf": 11
+        },
+        "Shape_Animation$2.enabled": {
+          "duration": 0.875,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 27,
+          "cutf": 4
+        },
+        "Shape_Animation$3.enabled": {
+          "duration": 0.875,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 27,
+          "cutf": 2
+        },
+        "Shape_Animation$4.enabled": {
+          "duration": 0.875,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 27,
+          "cutf": 14
+        }
+      },
+      "markers": {
+        "in": {
+          "start": -0.5,
+          "duration": 2
+        },
+        "idle": {
+          "start": 1.54166666666667,
+          "duration": 0.66666666666666
+        },
+        "out": {
+          "start": 2.20833333333333,
+          "duration": -1.33333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.875
+        }
+      },
+      "layers": [
+        "Shape_Animation",
+        "Shape_Animation$2",
+        "Shape_Animation$3",
+        "Shape_Animation$4"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding7opt8%20(converted)%20auto-save%2080.aep",
+  "version": 1
+}

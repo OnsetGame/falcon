@@ -1,0 +1,124 @@
+{
+  "name": "prize_wheel_icon",
+  "children": [
+    {
+      "name": "energy_placeholder",
+      "translation": [
+        100,
+        100.5,
+        0
+      ],
+      "scale": [
+        0.58,
+        0.58,
+        1
+      ],
+      "anchor": [
+        154.5,
+        168.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency",
+          "iconName": "energy"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            309,
+            337
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "bucks_placeholder",
+      "translation": [
+        100,
+        100.5,
+        0
+      ],
+      "scale": [
+        0.58,
+        0.58,
+        1
+      ],
+      "anchor": [
+        166,
+        136.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_bucks",
+          "iconName": "bucks"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            332,
+            273
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "chips_placeholder",
+      "translation": [
+        100,
+        100.5,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        166,
+        175.5,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency_chips",
+          "iconName": "chips"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            332,
+            351
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

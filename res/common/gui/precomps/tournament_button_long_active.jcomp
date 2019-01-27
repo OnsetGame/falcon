@@ -1,0 +1,317 @@
+{
+  "name": "tournament_button_long_active",
+  "children": [
+    {
+      "name": "Null 20",
+      "translation": [
+        114.25,
+        -5.875,
+        0
+      ],
+      "scale": [
+        0.8139999999999999,
+        0.8139999999999999,
+        1
+      ],
+      "children": [
+        {
+          "name": "back_button_long.png",
+          "translation": [
+            105.3,
+            130.014,
+            0
+          ],
+          "scale": [
+            1.227,
+            1.227,
+            1
+          ],
+          "anchor": [
+            186,
+            53.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/back_button_long.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "translation": [
+            14.111,
+            114.85,
+            0
+          ],
+          "scale": [
+            1.227,
+            1.227,
+            1
+          ],
+          "anchor": [
+            -0.321,
+            -22.598,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "Tournaments",
+              "font": "Exo2-Black",
+              "fontSize": 32.0999984741211,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "bounds": [
+                0.32100000746176,
+                -22.1490007839202,
+                208.037400579096,
+                22.5984007764294
+              ],
+              "justification": "haLeft",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tournament Points copy.png",
+          "translation": [
+            -57.101,
+            130.628,
+            0
+          ],
+          "scale": [
+            1.227,
+            1.227,
+            1
+          ],
+          "anchor": [
+            48,
+            52,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 1,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/Tournament Points copy.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "ButtonComponent",
+          "bounds": [
+            -120,
+            70,
+            450,
+            120
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 20.translation": {
+          "values": [
+            [
+              114.25,
+              -5.875,
+              0
+            ],
+            [
+              116.065,
+              -4.059,
+              0
+            ],
+            [
+              119.437,
+              -0.6870000000000001,
+              0
+            ],
+            [
+              121.253,
+              1.128,
+              0
+            ],
+            [
+              119.437,
+              -0.6870000000000001,
+              0
+            ],
+            [
+              116.065,
+              -4.059,
+              0
+            ],
+            [
+              114.25,
+              -5.875,
+              0
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "Null 20.scale": {
+          "values": [
+            [
+              0.8139999999999999,
+              0.8139999999999999,
+              1
+            ],
+            [
+              0.793,
+              0.793,
+              1
+            ],
+            [
+              0.754,
+              0.754,
+              1
+            ],
+            [
+              0.732,
+              0.732,
+              1
+            ],
+            [
+              0.754,
+              0.754,
+              1
+            ],
+            [
+              0.793,
+              0.793,
+              1
+            ],
+            [
+              0.8139999999999999,
+              0.8139999999999999,
+              1
+            ]
+          ],
+          "duration": 1,
+          "len": 30,
+          "cutf": 0
+        },
+        "Tournament Points copy.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "Null 20.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "title.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        },
+        "back_button_long.png.enabled": {
+          "duration": 1,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 30,
+          "cutf": 29
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0,
+          "duration": 0.1
+        },
+        "button_up": {
+          "start": 0.1,
+          "duration": 0.13333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1
+        }
+      },
+      "layers": [
+        "Tournament Points copy.png",
+        "Null 20",
+        "title",
+        "back_button_long.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui_all_CP%20(converted).aep",
+  "version": 1
+}

@@ -1,0 +1,288 @@
+{
+  "name": "anticipator_particles",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    -1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "children": [
+    {
+      "name": "particle_orange",
+      "translation": [
+        254.7541809082031,
+        467.8176879882812,
+        -200.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        -4.371138828673793e-008
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 1.0,
+          "isLooped": false,
+          "isPlayed": true,
+          "birthRate": 5.0,
+          "lifetime": 4.0,
+          "startVelocity": 89.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 5.0,
+          "is3dRotation": false,
+          "startRotation": [
+            -15.0,
+            -15.0,
+            18.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            45.0,
+            46.0,
+            47.0
+          ],
+          "startScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "dstScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 5.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            61.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "candy_particle_orange_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            118.0,
+            118.0
+          ],
+          "animColumns": 6,
+          "framesCount": 24,
+          "fps": 24.0,
+          "modifierNode": "randwind",
+          "genShapeNode": "particle_orange",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 5.5,
+          "radius": 8.300000190734863,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        }
+      ]
+    },
+    {
+      "name": "randwind",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "force": [
+            100.0,
+            100.0,
+            0.0
+          ],
+          "_c": "PSModifierRandWind"
+        }
+      ]
+    },
+    {
+      "name": "particle_red",
+      "translation": [
+        268.6497802734375,
+        457.010009765625,
+        -200.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        -4.371138828673793e-008
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "duration": 1.0,
+          "isLooped": false,
+          "isPlayed": true,
+          "birthRate": 4.0,
+          "lifetime": 4.0,
+          "startVelocity": 90.0,
+          "randVelocityFrom": 0.0,
+          "randVelocityTo": 4.0,
+          "is3dRotation": false,
+          "startRotation": [
+            -15.0,
+            -15.0,
+            15.0
+          ],
+          "randRotVelocityFrom": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randRotVelocityTo": [
+            45.0,
+            45.0,
+            45.0
+          ],
+          "startScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "dstScale": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "randScaleFrom": 0.0,
+          "randScaleTo": 4.0,
+          "startColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "dstColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "isBlendAdd": false,
+          "gravity": [
+            0.0,
+            60.0,
+            0.0
+          ],
+          "airDensity": 0.0,
+          "scaleMode": 0,
+          "colorMode": 0,
+          "scaleSeq": [],
+          "colorSeq": [],
+          "texture": "candy_particle_red_sheet.png",
+          "isTextureAnimated": true,
+          "texSize": [
+            118.0,
+            118.0
+          ],
+          "animColumns": 6,
+          "framesCount": 24,
+          "fps": 24.0,
+          "modifierNode": "",
+          "genShapeNode": "particle_red",
+          "hasDepthTest": true,
+          "_c": "ParticleSystem"
+        },
+        {
+          "angle": 6.0,
+          "radius": 8.0,
+          "is2D": false,
+          "_c": "ConePSGenShape"
+        }
+      ]
+    }
+  ]
+}

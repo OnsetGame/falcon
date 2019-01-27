@@ -1,0 +1,80 @@
+{
+  "name": "vip_card_pbonus",
+  "children": [
+    {
+      "name": "icon",
+      "translation": [
+        30,
+        31,
+        0
+      ],
+      "anchor": [
+        30,
+        31,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconHasOutline": true
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            60,
+            62
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "percents",
+      "translation": [
+        112.722,
+        46.998,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "25%",
+          "font": "Exo2-Black",
+          "fontSize": 42,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_VIPinfo_level_up_dev2.aep",
+  "export_time": "12 July 2018 07:03",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

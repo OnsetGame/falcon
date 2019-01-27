@@ -1,0 +1,207 @@
+{
+  "name": "button_yellow",
+  "children": [
+    {
+      "name": "button_yellow_on.png$AUX",
+      "translation": [
+        182,
+        62,
+        0
+      ],
+      "children": [
+        {
+          "name": "button_yellow_on.png",
+          "translation": [
+            -174,
+            -54,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/button_yellow_on.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltp_yellow_button.png",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/ltp_yellow_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title$AUX",
+      "translation": [
+        148.28874206543,
+        46.4219970703125,
+        0
+      ],
+      "children": [
+        {
+          "name": "title",
+          "translation": [
+            33.7112579345703,
+            23.3280029296875,
+            0
+          ],
+          "components": [
+            {
+              "text": "title",
+              "font": "Exo2-Black",
+              "fontSize": 32,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "_c": "Text",
+              "shadowRadius": 4.0,
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "button_down": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            148.28874206543,
+            46.4219970703125,
+            0
+          ],
+          [
+            148.28874206543,
+            46.4219970703125,
+            0
+          ],
+          [
+            148.28874206543,
+            47.0676637617023,
+            0
+          ],
+          [
+            148.28874206543,
+            47.712177916306,
+            0
+          ],
+          [
+            148.28874206543,
+            48.3550840608846,
+            0
+          ],
+          [
+            148.28874206543,
+            49,
+            0
+          ],
+          [
+            148.28874206543,
+            49,
+            0
+          ],
+          [
+            148.28874206543,
+            49,
+            0
+          ],
+          [
+            148.28874206543,
+            49,
+            0
+          ]
+        ],
+        "duration": 0.3
+      },
+      "ltp_yellow_button.png.alpha": {
+        "values": [
+          1,
+          1,
+          0.75,
+          0.5,
+          0.25,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 0.3
+      }
+    },
+    "button_up": {
+      "title$AUX.translation": {
+        "values": [
+          [
+            148.28874206543,
+            49,
+            0
+          ],
+          [
+            148.28874206543,
+            49,
+            0
+          ],
+          [
+            148.28874206543,
+            48.3543333086102,
+            0
+          ],
+          [
+            148.28874206543,
+            47.7098191540065,
+            0
+          ],
+          [
+            148.28874206543,
+            47.0669130094279,
+            0
+          ],
+          [
+            148.28874206543,
+            46.4219970703125,
+            0
+          ]
+        ],
+        "duration": 0.2
+      },
+      "ltp_yellow_button.png.alpha": {
+        "values": [
+          0,
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1
+        ],
+        "duration": 0.2
+      }
+    }
+  },
+  "version": 1
+}

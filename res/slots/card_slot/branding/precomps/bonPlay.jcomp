@@ -1,0 +1,484 @@
+{
+  "name": "bonPlay",
+  "children": [
+    {
+      "name": "chet.png",
+      "translation": [
+        115,
+        111.5,
+        0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        1
+      ],
+      "anchor": [
+        116,
+        116,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.622,
+        0.782
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.625,
+          "scale": 1,
+          "startTime": -0.041,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/chet.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "plyyellow.png",
+      "translation": [
+        124.5,
+        113.5,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        69,
+        78,
+        0
+      ],
+      "children": [
+        {
+          "name": "plyyellow.png$1",
+          "translation": [
+            60.201,
+            72.751,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            59,
+            72.09,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.625,
+              "scale": 1,
+              "startTime": -0.041,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/plyyellow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.625,
+          "scale": 1,
+          "startTime": -0.041,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/plyyellow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "plyyellow.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.333,
+              0.333,
+              1
+            ],
+            [
+              0.666,
+              0.666,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.043,
+              1.043,
+              1
+            ],
+            [
+              1.071,
+              1.071,
+              1
+            ],
+            [
+              1.085,
+              1.085,
+              1
+            ],
+            [
+              1.088,
+              1.088,
+              1
+            ],
+            [
+              1.083,
+              1.083,
+              1
+            ],
+            [
+              1.073,
+              1.073,
+              1
+            ],
+            [
+              1.06,
+              1.06,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.625,
+          "len": 15,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "plyyellow.png$1.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.366,
+              0.366,
+              1
+            ],
+            [
+              0.733,
+              0.733,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.148,
+              1.148,
+              1
+            ],
+            [
+              1.178,
+              1.178,
+              1
+            ],
+            [
+              1.194,
+              1.194,
+              1
+            ],
+            [
+              1.197,
+              1.197,
+              1
+            ],
+            [
+              1.192,
+              1.192,
+              1
+            ],
+            [
+              1.18,
+              1.18,
+              1
+            ],
+            [
+              1.166,
+              1.166,
+              1
+            ],
+            [
+              1.15,
+              1.15,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ]
+          ],
+          "duration": 0.625,
+          "len": 15,
+          "cutf": 2,
+          "frameLerp": false
+        },
+        "plyyellow.png$1.alpha": {
+          "values": [
+            1,
+            0.886,
+            0.637,
+            0.32,
+            0
+          ],
+          "duration": 0.625,
+          "len": 15,
+          "cutf": 6,
+          "frameLerp": false
+        },
+        "chet.png.scale": {
+          "values": [
+            [
+              0.2,
+              0.2,
+              1
+            ],
+            [
+              0.4,
+              0.4,
+              1
+            ],
+            [
+              0.6,
+              0.6,
+              1
+            ],
+            [
+              0.8,
+              0.8,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.026,
+              1.026,
+              1
+            ],
+            [
+              1.042,
+              1.042,
+              1
+            ],
+            [
+              1.051,
+              1.051,
+              1
+            ],
+            [
+              1.053,
+              1.053,
+              1
+            ],
+            [
+              1.05,
+              1.05,
+              1
+            ],
+            [
+              1.044,
+              1.044,
+              1
+            ],
+            [
+              1.036,
+              1.036,
+              1
+            ],
+            [
+              1.027,
+              1.027,
+              1
+            ],
+            [
+              1.018,
+              1.018,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 0.625,
+          "len": 15,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "chet.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.622,
+              0.782
+            ],
+            [
+              0,
+              0,
+              0.529,
+              0.848
+            ],
+            [
+              0,
+              0,
+              0.43,
+              0.902
+            ],
+            [
+              0,
+              0,
+              0.325,
+              0.945
+            ],
+            [
+              0,
+              0,
+              0.216,
+              0.976
+            ],
+            [
+              0,
+              0,
+              0.147,
+              0.989
+            ],
+            [
+              0,
+              0,
+              0.079,
+              0.996
+            ],
+            [
+              0,
+              0,
+              0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 0.625,
+          "len": 15,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "plyyellow.png$1.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 14
+        },
+        "plyyellow.png.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 14
+        },
+        "chet.png.enabled": {
+          "duration": 0.625,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 15,
+          "cutf": 14
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.625
+        }
+      },
+      "layers": [
+        "plyyellow.png$1",
+        "plyyellow.png",
+        "chet.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "6 August 2018 21:46",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

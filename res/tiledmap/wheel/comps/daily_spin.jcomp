@@ -1,0 +1,420 @@
+{
+  "name": "daily_spin",
+  "children": [
+    {
+      "name": "WHEEL_UI_1_TEXT_IS_AVAILABLE",
+      "translation": [
+        161.599,
+        281.799,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "is AVAILABLE!",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_1_TEXT_FIRST_DAILY",
+      "translation": [
+        159.599,
+        185.799,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "First Daily",
+          "font": "Exo2-Black",
+          "fontSize": 18.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_UI_1_TEXT_FREESPIN",
+      "translation": [
+        159.599,
+        233.799,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Free Spin",
+          "font": "Exo2-Black",
+          "fontSize": 18.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "spin_arrows",
+      "translation": [
+        162,
+        66,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.399,
+        1
+      ],
+      "anchor": [
+        116,
+        121.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../lrs/spin_arrows.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "spin_arrows.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.013,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.051,
+              0.998
+            ],
+            [
+              0,
+              0,
+              -0.113,
+              0.993
+            ],
+            [
+              0,
+              0,
+              -0.195,
+              0.98
+            ],
+            [
+              0,
+              0,
+              -0.294,
+              0.955
+            ],
+            [
+              0,
+              0,
+              -0.405,
+              0.914
+            ],
+            [
+              0,
+              0,
+              -0.523,
+              0.852
+            ],
+            [
+              0,
+              0,
+              -0.642,
+              0.766
+            ],
+            [
+              0,
+              0,
+              -0.754,
+              0.656
+            ],
+            [
+              0,
+              0,
+              -0.852,
+              0.523
+            ],
+            [
+              0,
+              0,
+              -0.929,
+              0.369
+            ],
+            [
+              0,
+              0,
+              -0.979,
+              0.2
+            ],
+            [
+              0,
+              0,
+              -0.999,
+              0.022
+            ],
+            [
+              0,
+              0,
+              -0.987,
+              -0.156
+            ],
+            [
+              0,
+              0,
+              -0.944,
+              -0.328
+            ],
+            [
+              0,
+              0,
+              -0.873,
+              -0.486
+            ],
+            [
+              0,
+              0,
+              -0.78,
+              -0.625
+            ],
+            [
+              0,
+              0,
+              -0.671,
+              -0.741
+            ],
+            [
+              0,
+              0,
+              -0.553,
+              -0.832
+            ],
+            [
+              0,
+              0,
+              -0.434,
+              -0.9
+            ],
+            [
+              0,
+              0,
+              -0.32,
+              -0.947
+            ],
+            [
+              0,
+              0,
+              -0.218,
+              -0.975
+            ],
+            [
+              0,
+              0,
+              -0.132,
+              -0.991
+            ],
+            [
+              0,
+              0,
+              -0.065,
+              -0.997
+            ],
+            [
+              0,
+              0,
+              -0.02,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              -0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              -1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "spin_arrows.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_1_TEXT_FREESPIN.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_1_TEXT_FIRST_DAILY.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "WHEEL_UI_1_TEXT_IS_AVAILABLE.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "spin_arrows",
+        "WHEEL_UI_1_TEXT_FREESPIN",
+        "WHEEL_UI_1_TEXT_FIRST_DAILY",
+        "WHEEL_UI_1_TEXT_IS_AVAILABLE"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

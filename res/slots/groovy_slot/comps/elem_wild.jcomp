@@ -1,0 +1,304 @@
+{
+  "name": "elem_wild",
+  "children": [
+    {
+      "name": "elem_wild_jump",
+      "translation": [
+        256,
+        256,
+        0
+      ],
+      "anchor": [
+        256,
+        256,
+        0
+      ],
+      "compositionRef": "elem_wild_jump",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "scale_parent",
+      "translation": [
+        245,
+        251,
+        0
+      ],
+      "children": [
+        {
+          "name": "elem_wild_win",
+          "translation": [
+            11,
+            5,
+            0
+          ],
+          "anchor": [
+            256,
+            256,
+            0
+          ],
+          "compositionRef": "elem_wild_win",
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 1,
+              "outPoint": 2.5,
+              "scale": 1,
+              "startTime": 1,
+              "duration": 1.5,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "scale_parent.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.026,
+              1.026,
+              1
+            ],
+            [
+              1.081,
+              1.081,
+              1
+            ],
+            [
+              1.147,
+              1.147,
+              1
+            ],
+            [
+              1.2,
+              1.2,
+              1
+            ],
+            [
+              1.207,
+              1.207,
+              1
+            ],
+            [
+              1.213,
+              1.213,
+              1
+            ],
+            [
+              1.218,
+              1.218,
+              1
+            ],
+            [
+              1.223,
+              1.223,
+              1
+            ],
+            [
+              1.227,
+              1.227,
+              1
+            ],
+            [
+              1.231,
+              1.231,
+              1
+            ],
+            [
+              1.235,
+              1.235,
+              1
+            ],
+            [
+              1.238,
+              1.238,
+              1
+            ],
+            [
+              1.241,
+              1.241,
+              1
+            ],
+            [
+              1.244,
+              1.244,
+              1
+            ],
+            [
+              1.247,
+              1.247,
+              1
+            ],
+            [
+              1.249,
+              1.249,
+              1
+            ],
+            [
+              1.252,
+              1.252,
+              1
+            ],
+            [
+              1.254,
+              1.254,
+              1
+            ],
+            [
+              1.256,
+              1.256,
+              1
+            ],
+            [
+              1.257,
+              1.257,
+              1
+            ],
+            [
+              1.258,
+              1.258,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.26,
+              1.26,
+              1
+            ],
+            [
+              1.26,
+              1.26,
+              1
+            ],
+            [
+              1.259,
+              1.259,
+              1
+            ],
+            [
+              1.258,
+              1.258,
+              1
+            ],
+            [
+              1.255,
+              1.255,
+              1
+            ],
+            [
+              1.25,
+              1.25,
+              1
+            ],
+            [
+              1.103,
+              1.103,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2.5,
+          "len": 60,
+          "cutf": 24,
+          "frameLerp": true
+        },
+        "scale_parent.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 60,
+          "cutf": 59
+        },
+        "elem_wild_win.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": true,
+          "len": 60,
+          "cutf": 23
+        },
+        "elem_wild_jump.enabled": {
+          "duration": 2.5,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 60,
+          "cutf": 23
+        }
+      },
+      "markers": {
+        "onstop": {
+          "start": 0,
+          "duration": 1
+        },
+        "win": {
+          "start": 1,
+          "duration": 1.5
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.5
+        }
+      },
+      "layers": [
+        "scale_parent",
+        "elem_wild_win",
+        "elem_wild_jump"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

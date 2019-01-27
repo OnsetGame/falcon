@@ -1,0 +1,62 @@
+{
+  "name": "tournament_point",
+  "children": [
+    {
+      "name": "tournament_point_icon_b.png",
+      "translation": [
+        154.5,
+        168.5,
+        0
+      ],
+      "anchor": [
+        154.5,
+        168.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/tournament_point_icon_b.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tournament_point_icon_b.png.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "tournament_point_icon_b.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,104 @@
+{
+  "name": "preparing",
+  "children": [
+    {
+      "name": "preparing_idle",
+      "translation": [
+        0,
+        768,
+        0
+      ],
+      "anchor": [
+        0,
+        768,
+        0
+      ],
+      "compositionRef": "preparing_idle.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 1.5,
+          "outPoint": 6.541,
+          "scale": 1,
+          "startTime": 1.5,
+          "duration": 5.04166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "preparing_in",
+      "translation": [
+        0,
+        768,
+        0
+      ],
+      "anchor": [
+        0,
+        768,
+        0
+      ],
+      "compositionRef": "preparing_in.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.5,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "preparing_in.enabled": {
+          "duration": 5.08333333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 153,
+          "cutf": 44
+        },
+        "preparing_idle.enabled": {
+          "duration": 5.08333333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 153,
+          "cutf": 44
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 1.5
+        },
+        "idle": {
+          "start": 1.5,
+          "duration": 3.58333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.08333333333333
+        }
+      },
+      "layers": [
+        "preparing_in",
+        "preparing_idle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "construction_site_opt_dev.aep",
+  "version": 1
+}

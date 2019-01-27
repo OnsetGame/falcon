@@ -1,0 +1,337 @@
+{
+  "name": "gold_out",
+  "children": [
+    {
+      "name": "gold_out_anchor",
+      "translation": [
+        401,
+        569.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.002,
+        0.999
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.166,
+          "scale": 1,
+          "startTime": -1.208,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Optical_flayer_b.png",
+      "translation": [
+        402,
+        562,
+        0
+      ],
+      "scale": [
+        12.332,
+        12.332,
+        1
+      ],
+      "anchor": [
+        85,
+        80,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../Layers/Optical_flayer_b.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.25,
+          "scale": 1,
+          "startTime": -1.333,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_ellips.png",
+      "translation": [
+        400,
+        578,
+        0
+      ],
+      "scale": [
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        59,
+        77.5,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "fileNames": [
+            "../Layers/ltp_ellips.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.041,
+          "outPoint": 0.25,
+          "scale": 1,
+          "startTime": -1.833,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ltp_ellips.png.scale": {
+          "values": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0.043,
+              0.031,
+              1
+            ],
+            [
+              0.309,
+              0.222,
+              1
+            ],
+            [
+              1.163,
+              0.835,
+              1
+            ],
+            [
+              2.711,
+              1.948,
+              1
+            ],
+            [
+              3.351,
+              2.408,
+              1
+            ],
+            [
+              3.544,
+              2.546,
+              1
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 1
+        },
+        "ltp_ellips.png.alpha": {
+          "values": [
+            0,
+            0.799,
+            0.922,
+            0.818,
+            0.715,
+            0.612,
+            0.367,
+            0.122
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 0
+        },
+        "Optical_flayer_b.png.alpha": {
+          "values": [
+            0,
+            0.116,
+            0.487,
+            0.842,
+            0.889,
+            0.499,
+            0.075
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 1
+        },
+        "gold_out_anchor.translation": {
+          "values": [
+            [
+              401,
+              569.5,
+              0
+            ],
+            [
+              403.629,
+              553.933,
+              0
+            ],
+            [
+              403.15,
+              556.004,
+              0
+            ],
+            [
+              403.671,
+              567.153,
+              0
+            ],
+            [
+              405.612,
+              578.899,
+              0
+            ],
+            [
+              400.5,
+              578,
+              0
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 0
+        },
+        "gold_out_anchor.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.912,
+              0.912,
+              1
+            ],
+            [
+              0.794,
+              0.794,
+              1
+            ],
+            [
+              0.677,
+              0.677,
+              1
+            ],
+            [
+              0.56,
+              0.56,
+              1
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 1
+        },
+        "gold_out_anchor.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.007,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.014,
+              0.999
+            ]
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 1
+        },
+        "gold_out_anchor.alpha": {
+          "values": [
+            1,
+            0.8,
+            0.533,
+            0.266,
+            0
+          ],
+          "duration": 0.25,
+          "len": 8,
+          "cutf": 1
+        },
+        "ltp_ellips.png.enabled": {
+          "duration": 0.25,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 8,
+          "cutf": 1
+        },
+        "Optical_flayer_b.png.enabled": {
+          "duration": 0.25,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 8,
+          "cutf": 1
+        },
+        "gold_out_anchor.enabled": {
+          "duration": 0.25,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 8,
+          "cutf": 4
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.25
+        }
+      },
+      "layers": [
+        "ltp_ellips.png",
+        "Optical_flayer_b.png",
+        "gold_out_anchor"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted).aep",
+  "version": 1
+}

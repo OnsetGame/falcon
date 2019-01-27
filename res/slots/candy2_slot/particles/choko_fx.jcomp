@@ -1,0 +1,515 @@
+{
+  "name": "New Node",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "children": [
+    {
+      "name": "choko_fx",
+      "translation": [
+        276.012939453125,
+        -54.14787673950195,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "affectsChildren": true,
+      "enabled": true,
+      "components": [
+        {
+          "played": true,
+          "isMove": false,
+          "amplitude": 100.0,
+          "frequency": 0.01499999966472387,
+          "distance": 1500.0,
+          "speed": 500.0,
+          "_c": "PSHolder"
+        }
+      ],
+      "children": [
+        {
+          "name": "choko2",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 60.0,
+              "lifetime": 1.0,
+              "startVelocity": 25.0,
+              "randVelocityFrom": -10.0,
+              "randVelocityTo": 10.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                -90.0,
+                -90.0,
+                -180.0
+              ],
+              "randRotVelocityTo": [
+                90.0,
+                90.0,
+                180.0
+              ],
+              "startScale": [
+                20.0,
+                20.0,
+                20.0
+              ],
+              "dstScale": [
+                5.0,
+                5.0,
+                5.0
+              ],
+              "randScaleFrom": -15.0,
+              "randScaleTo": 15.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 0,
+              "scaleSeq": [],
+              "colorSeq": [],
+              "texture": "Circle2_1.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                64.0,
+                64.0
+              ],
+              "animColumns": 1,
+              "framesCount": 1,
+              "fps": 1.0,
+              "modifierNode": "",
+              "genShapeNode": "choko2",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "radius": 10.0,
+              "isRandPos": true,
+              "isRandDir": false,
+              "is2D": true,
+              "_c": "SpherePSGenShape"
+            }
+          ]
+        },
+        {
+          "name": "choko",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 60.0,
+              "lifetime": 0.75,
+              "startVelocity": 25.0,
+              "randVelocityFrom": -10.0,
+              "randVelocityTo": 10.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                -90.0,
+                -90.0,
+                -180.0
+              ],
+              "randRotVelocityTo": [
+                90.0,
+                90.0,
+                180.0
+              ],
+              "startScale": [
+                15.0,
+                15.0,
+                35.0
+              ],
+              "dstScale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "randScaleFrom": -15.0,
+              "randScaleTo": 15.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dstColor": [
+                0.699999988079071,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 0,
+              "scaleSeq": [],
+              "colorSeq": [],
+              "texture": "Circle_white_3.png",
+              "isTextureAnimated": false,
+              "texSize": [
+                128.0,
+                128.0
+              ],
+              "animColumns": 1,
+              "framesCount": 1,
+              "fps": 1.0,
+              "modifierNode": "",
+              "genShapeNode": "choko",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "radius": 15.0,
+              "isRandPos": true,
+              "isRandDir": false,
+              "is2D": true,
+              "_c": "SpherePSGenShape"
+            }
+          ]
+        },
+        {
+          "name": "circle_yellow",
+          "translation": [
+            0.0,
+            1.253646850585938,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 25.0,
+              "lifetime": 1.5,
+              "startVelocity": 25.0,
+              "randVelocityFrom": -10.0,
+              "randVelocityTo": 10.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                -90.0,
+                -90.0,
+                -180.0
+              ],
+              "randRotVelocityTo": [
+                90.0,
+                90.0,
+                180.0
+              ],
+              "startScale": [
+                40.0,
+                40.0,
+                40.0
+              ],
+              "dstScale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "randScaleFrom": -15.0,
+              "randScaleTo": 15.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                0.75
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 0,
+              "scaleSeq": [],
+              "colorSeq": [],
+              "texture": "nonparel_sheet02.png",
+              "isTextureAnimated": true,
+              "texSize": [
+                48.0,
+                58.0
+              ],
+              "animColumns": 3,
+              "framesCount": 12,
+              "fps": 24.0,
+              "modifierNode": "",
+              "genShapeNode": "circle_yellow",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "radius": 25.0,
+              "isRandPos": true,
+              "isRandDir": false,
+              "is2D": true,
+              "_c": "SpherePSGenShape"
+            }
+          ]
+        },
+        {
+          "name": "circle_red",
+          "translation": [
+            0.0,
+            1.253646850585938,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "affectsChildren": true,
+          "enabled": true,
+          "components": [
+            {
+              "duration": 2.0,
+              "isLooped": true,
+              "isPlayed": true,
+              "birthRate": 25.0,
+              "lifetime": 1.5,
+              "startVelocity": 25.0,
+              "randVelocityFrom": -10.0,
+              "randVelocityTo": 10.0,
+              "is3dRotation": false,
+              "startRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "randRotVelocityFrom": [
+                -90.0,
+                -90.0,
+                -180.0
+              ],
+              "randRotVelocityTo": [
+                90.0,
+                90.0,
+                180.0
+              ],
+              "startScale": [
+                40.0,
+                40.0,
+                40.0
+              ],
+              "dstScale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "randScaleFrom": -15.0,
+              "randScaleTo": 15.0,
+              "startColor": [
+                1.0,
+                1.0,
+                1.0,
+                0.75
+              ],
+              "dstColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "isBlendAdd": false,
+              "gravity": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "airDensity": 0.0,
+              "scaleMode": 0,
+              "colorMode": 0,
+              "scaleSeq": [],
+              "colorSeq": [],
+              "texture": "nonparel_sheet01.png",
+              "isTextureAnimated": true,
+              "texSize": [
+                48.0,
+                58.0
+              ],
+              "animColumns": 3,
+              "framesCount": 12,
+              "fps": 24.0,
+              "modifierNode": "",
+              "genShapeNode": "circle_red",
+              "hasDepthTest": true,
+              "_c": "ParticleSystem"
+            },
+            {
+              "radius": 25.0,
+              "isRandPos": true,
+              "isRandDir": false,
+              "is2D": true,
+              "_c": "SpherePSGenShape"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

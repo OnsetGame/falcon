@@ -1,0 +1,237 @@
+{
+  "name": "coin_single",
+  "children": [
+    {
+      "name": "coin_[00000-00024].png",
+      "translation": [
+        60,
+        60,
+        0
+      ],
+      "anchor": [
+        60,
+        60,
+        0
+      ],
+      "components": [
+        {
+          "inWhite": 1,
+          "inBlack": 0,
+          "inGamma": 1,
+          "outWhite": 1,
+          "outBlack": 0,
+          "inWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "inBlackV": [
+            0,
+            0,
+            0
+          ],
+          "inGammaV": [
+            1,
+            1,
+            1
+          ],
+          "outWhiteV": [
+            1,
+            1,
+            1
+          ],
+          "outBlackV": [
+            0,
+            0,
+            0
+          ],
+          "_c": "ChannelLevels"
+        },
+        {
+          "fileNames": [
+            "../Seqs/coin_00000.png",
+            "../Seqs/coin_00001.png",
+            "../Seqs/coin_00002.png",
+            "../Seqs/coin_00003.png",
+            "../Seqs/coin_00004.png",
+            "../Seqs/coin_00005.png",
+            "../Seqs/coin_00006.png",
+            "../Seqs/coin_00007.png",
+            "../Seqs/coin_00008.png",
+            "../Seqs/coin_00009.png",
+            "../Seqs/coin_00010.png",
+            "../Seqs/coin_00011.png",
+            "../Seqs/coin_00012.png",
+            "../Seqs/coin_00013.png",
+            "../Seqs/coin_00014.png",
+            "../Seqs/coin_00015.png",
+            "../Seqs/coin_00016.png",
+            "../Seqs/coin_00017.png",
+            "../Seqs/coin_00018.png",
+            "../Seqs/coin_00019.png",
+            "../Seqs/coin_00020.png",
+            "../Seqs/coin_00021.png",
+            "../Seqs/coin_00022.png",
+            "../Seqs/coin_00023.png",
+            "../Seqs/coin_00024.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.04166666666667,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation",
+      "translation": [
+        86.25,
+        31.75,
+        0
+      ],
+      "scale": [
+        0.705,
+        0.705,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.125,
+          "outPoint": 0.291,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Shape_Animation.alpha": {
+          "values": [
+            0,
+            0.4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.799,
+            0
+          ],
+          "duration": 1.04166666666667,
+          "len": 32,
+          "cutf": 2
+        },
+        "coin_[00000-00024].png.0.inWhite": {
+          "values": [
+            1,
+            0.9429443359375,
+            0.715,
+            0.4870556640625,
+            0.54392578125,
+            0.69607421875,
+            0.848037109375,
+            1
+          ],
+          "duration": 1.04166666666667,
+          "len": 32,
+          "cutf": 3
+        },
+        "Shape_Animation.enabled": {
+          "duration": 1.04166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 32,
+          "cutf": 3
+        },
+        "coin_[00000-00024].png.curFrame": {
+          "duration": 1.04166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13,
+            14,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18,
+            19,
+            20,
+            21,
+            22,
+            22,
+            23,
+            24
+          ],
+          "len": 32,
+          "cutf": 0
+        },
+        "coin_[00000-00024].png.enabled": {
+          "duration": 1.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 32,
+          "cutf": 31
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.04166666666667
+        }
+      },
+      "layers": [
+        "Shape_Animation",
+        "coin_[00000-00024].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted)%20auto-save%2088.aep",
+  "version": 1
+}

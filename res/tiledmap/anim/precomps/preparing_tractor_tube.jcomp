@@ -1,0 +1,145 @@
+{
+  "name": "preparing_tractor_tube",
+  "children": [
+    {
+      "name": "ltp_buldozer_tube.png",
+      "translation": [
+        27,
+        77,
+        0
+      ],
+      "anchor": [
+        27,
+        77,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0.583,
+          "outPoint": 0.791,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_buldozer_tube.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "tracktor_tube_[00047-00060].png",
+      "translation": [
+        27,
+        77,
+        0
+      ],
+      "anchor": [
+        26.5,
+        77,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.58333333333333,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/buldozer_tube_seq/tracktor_tube_00047.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00048.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00049.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00050.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00051.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00052.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00053.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00054.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00055.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00056.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00057.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00058.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00059.png",
+            "../assets/buldozer_tube_seq/tracktor_tube_00060.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "tracktor_tube_[00047-00060].png.curFrame": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6,
+            7,
+            8,
+            9,
+            10,
+            10,
+            11,
+            12,
+            13
+          ],
+          "len": 24,
+          "cutf": 0
+        },
+        "tracktor_tube_[00047-00060].png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 17
+        },
+        "ltp_buldozer_tube.png.enabled": {
+          "duration": 0.79166666666667,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 24,
+          "cutf": 17
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 0.79166666666667
+        }
+      },
+      "layers": [
+        "tracktor_tube_[00047-00060].png",
+        "ltp_buldozer_tube.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "construction_site_opt_dev.aep",
+  "version": 1
+}

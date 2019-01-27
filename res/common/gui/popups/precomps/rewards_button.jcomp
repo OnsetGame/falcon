@@ -1,0 +1,272 @@
+{
+  "name": "rewards_button",
+  "children": [
+    {
+      "name": "button_orange_get_reward_on.png",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOn",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_orange_get_reward_off.png",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/orangeButtonOff",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RW_COLLECT_ALL",
+      "translation": [
+        177,
+        50,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "COLLECT ALL",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "RW_COLLECT_ALL.translation": {
+          "values": [
+            [
+              177,
+              50,
+              0
+            ],
+            [
+              177,
+              50.167,
+              0
+            ],
+            [
+              177,
+              50.334,
+              0
+            ],
+            [
+              177,
+              50.501,
+              0
+            ],
+            [
+              177,
+              50.666,
+              0
+            ],
+            [
+              177,
+              50.832,
+              0
+            ],
+            [
+              177,
+              50.999,
+              0
+            ],
+            [
+              177,
+              51.163,
+              0
+            ],
+            [
+              177,
+              51.163,
+              0
+            ],
+            [
+              176.999,
+              50.999,
+              0
+            ],
+            [
+              177,
+              50.832,
+              0
+            ],
+            [
+              177,
+              50.666,
+              0
+            ],
+            [
+              177,
+              50.501,
+              0
+            ],
+            [
+              177,
+              50.334,
+              0
+            ],
+            [
+              177,
+              50.167,
+              0
+            ],
+            [
+              177,
+              50,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 90
+        },
+        "button_orange_get_reward_off.png.alpha": {
+          "values": [
+            1,
+            0.866,
+            0.733,
+            0.599,
+            0.466,
+            0.333,
+            0.2,
+            0.066,
+            0.066,
+            0.2,
+            0.333,
+            0.466,
+            0.599,
+            0.733,
+            0.866,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 90
+        },
+        "RW_COLLECT_ALL.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_orange_get_reward_off.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "button_orange_get_reward_on.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "RW_COLLECT_ALL",
+        "button_orange_get_reward_off.png",
+        "button_orange_get_reward_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "task_complete_3rd_step_opt_V2_dev.aep",
+  "version": 1
+}

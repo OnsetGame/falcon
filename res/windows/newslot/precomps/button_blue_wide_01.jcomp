@@ -1,0 +1,266 @@
+{
+  "name": "button_blue_wide_01",
+  "children": [
+    {
+      "name": "button_blue_wide_01_on.png",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        225,
+        65,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/button_blue_wide_lib_on",
+          "size": [
+            450,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "name": "button_blue_wide_01_off.png",
+      "translation": [
+        224.312,
+        65,
+        0
+      ],
+      "anchor": [
+        225,
+        65,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/button_blue_wide_lib_off",
+          "size": [
+            450,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        222.442,
+        63.259,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        -0.031,
+        -3.68,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "GO TO UNLOCK",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              222.442,
+              63.259,
+              0
+            ],
+            [
+              222.442,
+              63.761,
+              0
+            ],
+            [
+              222.442,
+              64.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              65.759,
+              0
+            ],
+            [
+              222.442,
+              64.759,
+              0
+            ],
+            [
+              222.442,
+              63.761,
+              0
+            ],
+            [
+              222.442,
+              63.259,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "button_blue_wide_01_off.png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0.399,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.399,
+            0.799,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 22
+        },
+        "title.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_blue_wide_01_off.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "button_blue_wide_01_on.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.75,
+          "duration": 0.16666666666667
+        },
+        "button_up": {
+          "start": 0.91666666666667,
+          "duration": 0.16666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "title",
+        "button_blue_wide_01_off.png",
+        "button_blue_wide_01_on.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_unlock_window.aep",
+  "version": 1
+}

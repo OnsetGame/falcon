@@ -1,0 +1,231 @@
+{
+  "name": "list_prizes_3slide",
+  "children": [
+    {
+      "name": "sh_center",
+      "translation": [
+        125.25,
+        30,
+        0
+      ],
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            250,
+            60
+          ],
+          "radius": 30,
+          "shapeType": 0,
+          "color": [
+            0,
+            0,
+            0,
+            0.4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sh_right",
+      "translation": [
+        125.5,
+        28,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "mask_2",
+          "maskType": 1,
+          "_c": "Mask"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            240,
+            48
+          ],
+          "radius": 24,
+          "shapeType": 0,
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mask_2",
+      "translation": [
+        225,
+        8.5,
+        0
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            200,
+            200
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "sh_left",
+      "translation": [
+        125.5,
+        28,
+        0
+      ],
+      "components": [
+        {
+          "layerName": "mask_1",
+          "maskType": 2,
+          "_c": "Mask"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            234,
+            42
+          ],
+          "radius": 21,
+          "shapeType": 0,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "strokeWidth": 6,
+          "color": [
+            1,
+            1,
+            1,
+            0.002
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mask_1",
+      "translation": [
+        227.25,
+        8.5,
+        0
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "enabled": false,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            200,
+            200
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "TOURNAMENTS_PRIZES",
+      "translation": [
+        184.984085083008,
+        26.1959838867188,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0.12802886962891,
+        -2.86800384521484,
+        0
+      ],
+      "components": [
+        {
+          "text": "Prizes",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "TOURNAMENTS_LIST",
+      "translation": [
+        69.0561370849609,
+        26.2200012207031,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0.15204620361328,
+        -2.86000061035156,
+        0
+      ],
+      "components": [
+        {
+          "text": "List",
+          "font": "Exo2-Black",
+          "fontSize": 8,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_tournaments.aep",
+  "version": 1
+}

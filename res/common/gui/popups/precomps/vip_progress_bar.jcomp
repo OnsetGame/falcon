@@ -1,0 +1,1220 @@
+{
+  "name": "vip_progress_bar",
+  "children": [
+    {
+      "name": "rectangle",
+      "translation": [
+        960,
+        72,
+        0
+      ],
+      "anchor": [
+        960,
+        72,
+        0
+      ],
+      "alpha": 0.8,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            1920,
+            144
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "purple_progress_bar",
+      "translation": [
+        985,
+        72,
+        0
+      ],
+      "scale": [
+        0.94,
+        1,
+        1
+      ],
+      "anchor": [
+        677,
+        34,
+        0
+      ],
+      "compositionRef": "purple_progress_bar",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Null 89$10",
+      "translation": [
+        357,
+        123,
+        0
+      ],
+      "anchor": [
+        50,
+        99,
+        0
+      ],
+      "children": [
+        {
+          "name": "flat_crystal.png",
+          "translation": [
+            51,
+            53,
+            0
+          ],
+          "anchor": [
+            82,
+            66.5,
+            0
+          ],
+          "components": [
+            {
+              "black": [
+                0.93333333730698,
+                0.14901961386204,
+                0.98823529481888,
+                1
+              ],
+              "white": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "amount": 0,
+              "_c": "Tint"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/flat_crystal.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "SP_2.png",
+      "translation": [
+        1781.5,
+        73,
+        0
+      ],
+      "anchor": [
+        94,
+        52,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/SP_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "i.png",
+      "translation": [
+        83,
+        73,
+        0
+      ],
+      "anchor": [
+        45,
+        45,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/i.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Null 89",
+      "translation": [
+        357,
+        123,
+        0
+      ],
+      "anchor": [
+        50,
+        99,
+        0
+      ],
+      "children": [
+        {
+          "name": "vip_level",
+          "translation": [
+            50.077,
+            53.5,
+            0
+          ],
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            },
+            {
+              "text": "10",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "vip_points",
+      "translation": [
+        430.5,
+        76.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "12,999 / 20,000",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haLeft",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "vip_level_txt",
+      "translation": [
+        236.077,
+        72.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "text": "VIP\nLEVEL",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "reward_icon_placeholder",
+      "translation": [
+        1583.5,
+        72,
+        0
+      ],
+      "anchor": [
+        47,
+        48,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "IconComponent",
+          "iconHasOutline": true,
+          "iconComposition": "reward_icons",
+          "iconName": "vipPoints"
+        },
+        {
+          "color": [
+            0.35686299204826,
+            0.35686299204826,
+            0.35686299204826
+          ],
+          "size": [
+            94,
+            96
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "Null 89.translation": {
+          "values": [
+            [
+              357,
+              123,
+              0
+            ],
+            [
+              357,
+              117,
+              0
+            ],
+            [
+              357,
+              117.074,
+              0
+            ],
+            [
+              357,
+              117.291,
+              0
+            ],
+            [
+              357,
+              117.626,
+              0
+            ],
+            [
+              356.999,
+              118.055,
+              0
+            ],
+            [
+              357,
+              118.555,
+              0
+            ],
+            [
+              357,
+              119.113,
+              0
+            ],
+            [
+              357,
+              119.702,
+              0
+            ],
+            [
+              357,
+              120.3,
+              0
+            ],
+            [
+              357,
+              120.887,
+              0
+            ],
+            [
+              357,
+              121.444,
+              0
+            ],
+            [
+              357,
+              121.941,
+              0
+            ],
+            [
+              357,
+              122.367,
+              0
+            ],
+            [
+              357,
+              122.705,
+              0
+            ],
+            [
+              357,
+              122.924,
+              0
+            ],
+            [
+              357,
+              123,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "Null 89.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.103,
+              1.103,
+              1
+            ],
+            [
+              1.112,
+              1.112,
+              1
+            ],
+            [
+              1.122,
+              1.122,
+              1
+            ],
+            [
+              1.127,
+              1.127,
+              1
+            ],
+            [
+              1.124,
+              1.124,
+              1
+            ],
+            [
+              1.108,
+              1.108,
+              1
+            ],
+            [
+              1.084,
+              1.084,
+              1
+            ],
+            [
+              1.055,
+              1.055,
+              1
+            ],
+            [
+              1.028,
+              1.028,
+              1
+            ],
+            [
+              1.007,
+              1.007,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "Null 89.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.021,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "i.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.989,
+              0.989,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              0.979,
+              0.979,
+              1
+            ],
+            [
+              0.98,
+              0.98,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "i.png.alpha": {
+          "values": [
+            1,
+            0.849,
+            0.7,
+            0.7,
+            0.7,
+            1
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "Null 89$10.translation": {
+          "values": [
+            [
+              357,
+              123,
+              0
+            ],
+            [
+              357,
+              117,
+              0
+            ],
+            [
+              357,
+              117.074,
+              0
+            ],
+            [
+              357,
+              117.291,
+              0
+            ],
+            [
+              357,
+              117.626,
+              0
+            ],
+            [
+              356.999,
+              118.055,
+              0
+            ],
+            [
+              357,
+              118.555,
+              0
+            ],
+            [
+              357,
+              119.113,
+              0
+            ],
+            [
+              357,
+              119.702,
+              0
+            ],
+            [
+              357,
+              120.3,
+              0
+            ],
+            [
+              357,
+              120.887,
+              0
+            ],
+            [
+              357,
+              121.444,
+              0
+            ],
+            [
+              357,
+              121.941,
+              0
+            ],
+            [
+              357,
+              122.367,
+              0
+            ],
+            [
+              357,
+              122.705,
+              0
+            ],
+            [
+              357,
+              122.924,
+              0
+            ],
+            [
+              357,
+              123,
+              0
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "Null 89$10.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.098,
+              1.098,
+              1
+            ],
+            [
+              1.095,
+              1.095,
+              1
+            ],
+            [
+              1.089,
+              1.089,
+              1
+            ],
+            [
+              1.082,
+              1.082,
+              1
+            ],
+            [
+              1.074,
+              1.074,
+              1
+            ],
+            [
+              1.064,
+              1.064,
+              1
+            ],
+            [
+              1.054,
+              1.054,
+              1
+            ],
+            [
+              1.045,
+              1.045,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.025,
+              1.025,
+              1
+            ],
+            [
+              1.017,
+              1.017,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.004,
+              1.004,
+              1
+            ],
+            [
+              1.001,
+              1.001,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "Null 89$10.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.043,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.002,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.024,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.012,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.021,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.001,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              -0.008,
+              0.999
+            ],
+            [
+              0,
+              0,
+              -0.004,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "flat_crystal.png.0.amount": {
+          "values": [
+            0,
+            0.15625000106065,
+            0.50000000000225,
+            0.84374999894273,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.70428240744573,
+            0.24103009412479,
+            0
+          ],
+          "duration": 2,
+          "len": 48,
+          "cutf": 8,
+          "frameLerp": false
+        },
+        "reward_icon_placeholder.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "vip_level_txt.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "vip_points.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "vip_level.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "Null 89.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "i.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "SP_2.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "flat_crystal.png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "Null 89$10.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "purple_progress_bar.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        },
+        "rectangle.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "i_button": {
+          "start": 0,
+          "duration": 0.20833333333333
+        },
+        "crystal": {
+          "start": 0.33333333333333,
+          "duration": 0.66666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "reward_icon_placeholder",
+        "vip_level_txt",
+        "vip_points",
+        "vip_level",
+        "Null 89",
+        "i.png",
+        "SP_2.png",
+        "flat_crystal.png",
+        "Null 89$10",
+        "purple_progress_bar",
+        "rectangle"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_shop_dev.aep",
+  "export_time": "12 July 2018 10:29",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

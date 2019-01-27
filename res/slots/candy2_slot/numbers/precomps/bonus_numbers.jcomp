@@ -1,0 +1,150 @@
+{
+  "name": "bonus_numbers",
+  "children": [
+    {
+      "name": "numbers_parent",
+      "translation": [
+        1920,
+        1080,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "alpha": 0,
+      "children": [
+        {
+          "name": "win_numbers",
+          "translation": [
+            0.666,
+            0,
+            0
+          ],
+          "scale": [
+            0.999,
+            0.999,
+            1
+          ],
+          "anchor": [
+            960,
+            540,
+            0
+          ],
+          "compositionRef": "win_numbers",
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.033,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 2.03333333333333,
+              "timeremap": 0,
+              "timeRemapEnabled": false,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2.033,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "numbers_parent.alpha": {
+          "values": [
+            0,
+            0.104,
+            0.352,
+            0.647,
+            0.895,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            0.999,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.847,
+            0.619,
+            0.38,
+            0.152,
+            0
+          ],
+          "duration": 2.03333333333333,
+          "len": 61,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "numbers_parent.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        },
+        "win_numbers.enabled": {
+          "duration": 2.03333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 61,
+          "cutf": 60
+        }
+      },
+      "markers": {
+        "play": {
+          "start": 0,
+          "duration": 1.26666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2.03333333333333
+        }
+      },
+      "layers": [
+        "numbers_parent",
+        "win_numbers"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

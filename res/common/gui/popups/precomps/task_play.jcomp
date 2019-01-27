@@ -1,0 +1,624 @@
+{
+  "name": "task_play",
+  "children": [
+    {
+      "name": "color_cards",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "color_cards",
+      "affectsChildren": false
+    },
+    {
+      "name": "circle_component_shadow.png$21",
+      "translation": [
+        222,
+        691,
+        0
+      ],
+      "scale": [
+        5.617,
+        1.457,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "unlock_parent",
+      "translation": [
+        216,
+        370,
+        0
+      ],
+      "children": [
+        {
+          "name": "reward_bottom",
+          "translation": [
+            -1,
+            95,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "VectorShape",
+              "size": [
+                265,
+                119
+              ],
+              "radius": 25,
+              "shapeType": 0,
+              "color": [
+                0,
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "circle_component_shadow.png$19",
+          "translation": [
+            10,
+            72,
+            0
+          ],
+          "scale": [
+            4.82,
+            1,
+            1
+          ],
+          "anchor": [
+            44.5,
+            41.5,
+            0
+          ],
+          "alpha": 0.4,
+          "affectsChildren": false,
+          "components": [
+            {
+              "fileNames": [
+                "../../assets/circle_component_shadow.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "threedot_holder",
+          "translation": [
+            1,
+            52,
+            0
+          ],
+          "anchor": [
+            144,
+            24,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "_c": "CompRef",
+              "path": "common/lib/precomps/threedot_placeholder",
+              "size": [
+                288,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reward_amount",
+          "translation": [
+            6.34,
+            120.727,
+            0
+          ],
+          "anchor": [
+            -0.239,
+            -13.008,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "5,000",
+              "font": "Exo2-Black",
+              "fontSize": 48,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "reward_text",
+          "translation": [
+            0.723,
+            51.928,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "anchor": [
+            0.33,
+            -11.385,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "Reward",
+              "font": "Exo2-Black",
+              "fontSize": 33,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "task_window_progress_bar",
+          "translation": [
+            -2,
+            196,
+            0
+          ],
+          "anchor": [
+            188,
+            34,
+            0
+          ],
+          "compositionRef": "../../ui2_0/task_window_progress_bar",
+          "affectsChildren": false
+        },
+        {
+          "name": "cur_progress",
+          "translation": [
+            1.587,
+            191.294,
+            0
+          ],
+          "scale": [
+            1,
+            0.999,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "anchor": [
+            -0.56,
+            -11.385,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "text": "12 999",
+              "font": "Exo2-Black",
+              "fontSize": 33,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text"
+            }
+          ]
+        },
+        {
+          "name": "reward_icon",
+          "translation": [
+            -122,
+            119,
+            0
+          ],
+          "anchor": [
+            33.5,
+            34.5,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "color": [
+                0.33074200153351,
+                0.33074200153351,
+                0.33074200153351
+              ],
+              "size": [
+                67,
+                69
+              ],
+              "_c": "Solid"
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false
+    },
+    {
+      "name": "task_description",
+      "translation": [
+        215.18,
+        348.706,
+        0
+      ],
+      "scale": [
+        1,
+        0.999,
+        1
+      ],
+      "anchor": [
+        62.853,
+        4.423,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "Win 20,000 on Free Spins",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "bounds": [
+            -147,
+            -35,
+            422.666687011719,
+            90
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "button_orange_wide_01",
+      "translation": [
+        216,
+        663,
+        0
+      ],
+      "anchor": [
+        224.5,
+        65,
+        0
+      ],
+      "compositionRef": "button_orange_wide_01",
+      "affectsChildren": false
+    },
+    {
+      "name": "big_white_stroke_blue_btn",
+      "translation": [
+        216,
+        663,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "../../ui2_0/big_white_stroke_blue_btn",
+      "affectsChildren": false
+    },
+    {
+      "name": "big_white_stroke_complete_btn",
+      "translation": [
+        216,
+        663,
+        0
+      ],
+      "anchor": [
+        168.5,
+        56,
+        0
+      ],
+      "compositionRef": "../../ui2_0/big_white_stroke_complete_btn",
+      "affectsChildren": false
+    },
+    {
+      "name": "slot_icons",
+      "translation": [
+        216,
+        140,
+        0
+      ],
+      "anchor": [
+        184.5,
+        150,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.33074200153351,
+            0.33074200153351,
+            0.33074200153351
+          ],
+          "size": [
+            369,
+            300
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        323,
+        226,
+        0
+      ],
+      "scale": [
+        4,
+        4,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "circle_reward",
+      "translation": [
+        324,
+        200,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "size": [
+            167.5,
+            167.5
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            1,
+            1,
+            0.54
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.9921568627451,
+            0.9921568627451,
+            0.9921568627451,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "task_illustration",
+      "translation": [
+        325,
+        202,
+        0
+      ],
+      "anchor": [
+        102,
+        104.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "color": [
+            0.33074200153351,
+            0.33074200153351,
+            0.33074200153351
+          ],
+          "size": [
+            204,
+            209
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "stage_number",
+      "translation": [
+        60,
+        99,
+        0
+      ],
+      "anchor": [
+        -0.239,
+        -5.615,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "12",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "tw_stage",
+      "translation": [
+        60,
+        60.019,
+        0
+      ],
+      "anchor": [
+        0.008,
+        -2.76,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "STAGE",
+          "font": "Exo2-Black",
+          "fontSize": 24,
+          "color": [
+            1,
+            0.87451004981995,
+            0.56470000743866
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "card_buttons",
+      "translation": [
+        213,
+        370,
+        0
+      ],
+      "anchor": [
+        216,
+        370,
+        0
+      ],
+      "compositionRef": "card_buttons",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

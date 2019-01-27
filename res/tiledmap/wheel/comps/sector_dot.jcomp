@@ -1,0 +1,44 @@
+{
+  "name": "sector_dot",
+  "children": [
+    {
+      "name": "dot_shadow",
+      "translation": [
+        21.5,
+        28,
+        0
+      ],
+      "anchor": [
+        19,
+        23,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/dot_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "dot",
+      "translation": [
+        9.5,
+        13,
+        0
+      ],
+      "anchor": [
+        13,
+        13,
+        0
+      ],
+      "compositionRef": "dot.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

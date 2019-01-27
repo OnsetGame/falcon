@@ -1,0 +1,307 @@
+{
+  "name": "small_numbers",
+  "children": [
+    {
+      "name": "violet_flare.png",
+      "translation": [
+        960,
+        700,
+        0
+      ],
+      "scale": [
+        1,
+        0,
+        1
+      ],
+      "anchor": [
+        416,
+        99,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.58333333333333,
+          "scale": 1,
+          "startTime": -0.08333333333333,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/violet_flare.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "number_glow.png",
+      "translation": [
+        981.5,
+        692,
+        0
+      ],
+      "scale": [
+        2,
+        0,
+        1
+      ],
+      "anchor": [
+        136.5,
+        140,
+        0
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.66666666666667,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/number_glow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "counter",
+      "translation": [
+        960,
+        680,
+        0
+      ],
+      "anchor": [
+        960,
+        200,
+        0
+      ],
+      "compositionRef": "counter",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "number_glow.png.scale": {
+          "values": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2.64911094981433,
+              0.41688631144598,
+              1
+            ],
+            [
+              3.07407051104335,
+              0.67484672056871,
+              1
+            ],
+            [
+              3.42174887377938,
+              0.87875988792089,
+              1
+            ],
+            [
+              3.72588450225002,
+              1.05299569609871,
+              1
+            ],
+            [
+              4.0010769638977,
+              1.20858492939199,
+              1
+            ],
+            [
+              4.25583318949474,
+              1.3530764480934,
+              1
+            ],
+            [
+              4.5,
+              1.5,
+              1
+            ],
+            [
+              4.68100616119713,
+              1.65097140867593,
+              1
+            ],
+            [
+              4.80783575531809,
+              1.78016954293519,
+              1
+            ],
+            [
+              4.90470670417017,
+              1.88751386447947,
+              1
+            ],
+            [
+              4.97216192750933,
+              1.96629899182797,
+              1
+            ],
+            [
+              5,
+              2,
+              1
+            ]
+          ],
+          "duration": 1.5,
+          "len": 36,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "number_glow.png.alpha": {
+          "values": [
+            0.5,
+            0.37305639334103,
+            0.24196342697113,
+            0.12624040727309,
+            0.03839135671712,
+            0
+          ],
+          "duration": 1.5,
+          "len": 36,
+          "cutf": 7,
+          "frameLerp": true
+        },
+        "violet_flare.png.scale": {
+          "values": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1.14024298521337,
+              0.42072895564012,
+              1
+            ],
+            [
+              1.35924654197688,
+              1.07773962593063,
+              1
+            ],
+            [
+              1.58210520568459,
+              1.74631561705378,
+              1
+            ],
+            [
+              1.78201433401874,
+              2.34604300205623,
+              1
+            ],
+            [
+              1.93430453677834,
+              2.80291361033503,
+              1
+            ],
+            [
+              2,
+              3,
+              1
+            ]
+          ],
+          "duration": 1.5,
+          "len": 36,
+          "cutf": 0,
+          "frameLerp": true
+        },
+        "violet_flare.png.alpha": {
+          "values": [
+            1,
+            0.92321728656575,
+            0.74751918545383,
+            0.51607314605774,
+            0.25388721331794,
+            0
+          ],
+          "duration": 1.5,
+          "len": 36,
+          "cutf": 6,
+          "frameLerp": true
+        },
+        "counter.enabled": {
+          "duration": 1.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 36,
+          "cutf": 35
+        },
+        "number_glow.png.enabled": {
+          "duration": 1.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 36,
+          "cutf": 35
+        },
+        "violet_flare.png.enabled": {
+          "duration": 1.5,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 36,
+          "cutf": 35
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.5
+        }
+      },
+      "layers": [
+        "counter",
+        "number_glow.png",
+        "violet_flare.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Branding_MM.aep",
+  "export_time": "16 July 2018 11:57",
+  "rod_export_v": "Tue Jun 26 17:48:47 2018 +0300",
+  "version": 1
+}

@@ -1,0 +1,95 @@
+{
+  "name": "energy",
+  "children": [
+    {
+      "name": "win_circle",
+      "translation": [
+        149.5,
+        54.5,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        25,
+        25,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../lrs/win_circle.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "WHEEL_ENERGY_TEXT_@noloc",
+      "translation": [
+        63,
+        68,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "0",
+          "font": "AlfaSlabOne-Regular",
+          "fontSize": 31,
+          "color": [
+            0.99606001377106,
+            0.83135998249054,
+            0.49411001801491
+          ],
+          "justification": "haCenter",
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "energy_placeholder",
+      "translation": [
+        144.5,
+        49.5,
+        0
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        1
+      ],
+      "anchor": [
+        154.5,
+        168.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "currency",
+          "iconName": "energy"
+        },
+        {
+          "color": [
+            0.51734000444412,
+            0.51734000444412,
+            0.51734000444412
+          ],
+          "size": [
+            309,
+            337
+          ],
+          "_c": "Solid"
+        }
+      ]
+    }
+  ],
+  "aep_name": "Wheel.aep",
+  "version": 1
+}

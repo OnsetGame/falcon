@@ -1,0 +1,63 @@
+{
+  "name": "witch_pot_idle",
+  "children": [
+    {
+      "name": "witch_pot",
+      "translation": [
+        0,
+        256,
+        0
+      ],
+      "anchor": [
+        0,
+        256,
+        0
+      ],
+      "compositionRef": "witch_pot",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 2,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "witch_pot.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 48,
+          "cutf": 47
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "witch_pot"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,296 @@
+{
+  "name": "vip_card",
+  "children": [
+    {
+      "name": "vip_card_bg2",
+      "translation": [
+        192,
+        344,
+        0
+      ],
+      "anchor": [
+        192,
+        344,
+        0
+      ],
+      "compositionRef": "vip_card_bg2"
+    },
+    {
+      "name": "vip_card_bg1",
+      "translation": [
+        192,
+        344,
+        0
+      ],
+      "anchor": [
+        192,
+        344,
+        0
+      ],
+      "compositionRef": "vip_card_bg1"
+    },
+    {
+      "name": "vip_bl_rect_04",
+      "translation": [
+        192,
+        436,
+        0
+      ],
+      "anchor": [
+        192,
+        138,
+        0
+      ],
+      "alpha": 0.2,
+      "components": [
+        {
+          "color": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            384,
+            276
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "flat_crystal.png",
+      "translation": [
+        192,
+        76.5,
+        0
+      ],
+      "scale": [
+        1.329,
+        1.33,
+        1
+      ],
+      "anchor": [
+        82,
+        66.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/flat_crystal.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "vip_lvl",
+      "translation": [
+        192.222,
+        66.248,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 48,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "vip_bl_rect_01",
+      "translation": [
+        191.963,
+        176.5,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "_c": "VectorShape",
+          "shapeType": 0,
+          "size": [
+            240,
+            48
+          ],
+          "radius": 24,
+          "strokeColor": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vip_points_for_lvl",
+      "translation": [
+        197.222,
+        186.998,
+        0
+      ],
+      "anchor": [
+        -0.042,
+        0.149,
+        0
+      ],
+      "components": [
+        {
+          "text": "0",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    },
+    {
+      "name": "vip_card_benefit_line2",
+      "translation": [
+        192,
+        457,
+        0
+      ]
+    },
+    {
+      "name": "vip_card_benefit_line1",
+      "translation": [
+        192,
+        327,
+        0
+      ]
+    },
+    {
+      "name": "reward_icon_diamond",
+      "translation": [
+        85.5,
+        175,
+        0
+      ],
+      "anchor": [
+        30,
+        31,
+        0
+      ],
+      "components": [
+        {
+          "_c": "IconComponent",
+          "iconComposition": "reward_icons",
+          "iconName": "vipPoints",
+          "iconHasOutline": true
+        },
+        {
+          "color": [
+            0.51764702796936,
+            0.51764702796936,
+            0.51764702796936
+          ],
+          "size": [
+            60,
+            62
+          ],
+          "_c": "Solid"
+        }
+      ]
+    },
+    {
+      "name": "vip_card_access_line",
+      "translation": [
+        192,
+        570,
+        0
+      ]
+    },
+    {
+      "name": "vip_card_pbonus_line",
+      "translation": [
+        192,
+        215,
+        0
+      ],
+      "children": [
+        {
+          "name": "vip_card_pbonus_bucks",
+          "translation": [
+            -85,
+            0,
+            0
+          ],
+          "anchor": [
+            78,
+            0,
+            0
+          ],
+          "compositionRef": "vip_card_pbonus"
+        },
+        {
+          "name": "vip_card_pbonus_chips",
+          "translation": [
+            85,
+            0,
+            0
+          ],
+          "anchor": [
+            78,
+            0,
+            0
+          ],
+          "compositionRef": "vip_card_pbonus"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_VIPinfo_level_up_dev2.aep",
+  "export_time": "12 July 2018 09:16",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

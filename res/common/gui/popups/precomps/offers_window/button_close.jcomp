@@ -1,0 +1,362 @@
+{
+  "name": "button_close",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        57.5,
+        82,
+        0
+      ],
+      "scale": [
+        1.842,
+        1.842,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.133,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 3",
+      "translation": [
+        62.5,
+        63.75,
+        0
+      ],
+      "alpha": 0.98,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            120.2,
+            120.2
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            0.97688598632812,
+            0.3450979793773,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            1,
+            0.92156862745098,
+            0.23137254901961,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shape Layer 2",
+      "translation": [
+        62.5,
+        63.75,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "VectorShape",
+          "size": [
+            104,
+            104
+          ],
+          "shapeType": 1,
+          "strokeColor": [
+            1,
+            0.97688598632812,
+            0.3450979793773,
+            1
+          ],
+          "strokeWidth": 0,
+          "color": [
+            0.88235294117647,
+            0.29019607843137,
+            0.09803921568627,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cross_close_button.png",
+      "translation": [
+        61.5,
+        73.375,
+        0
+      ],
+      "anchor": [
+        34,
+        33.5,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 15,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../../assets/cross_close_button.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cross_close_button.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 5.8,
+          "len": 174,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "Shape Layer 2.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 5.8,
+          "len": 174,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "Shape Layer 3.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.9,
+              0.9,
+              1
+            ],
+            [
+              0.925,
+              0.925,
+              1
+            ],
+            [
+              0.974,
+              0.974,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 5.8,
+          "len": 174,
+          "cutf": 0,
+          "frameLerp": false
+        },
+        "circle_component_shadow.png.alpha": {
+          "values": [
+            1
+          ],
+          "duration": 5.8,
+          "len": 174,
+          "cutf": 173,
+          "frameLerp": false
+        },
+        "cross_close_button.png.enabled": {
+          "duration": 5.8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "Shape Layer 2.enabled": {
+          "duration": 5.8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "Shape Layer 3.enabled": {
+          "duration": 5.8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        },
+        "circle_component_shadow.png.enabled": {
+          "duration": 5.8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 174,
+          "cutf": 173
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.00009765625,
+          "duration": 0.09990234375
+        },
+        "button_up": {
+          "start": 0.1,
+          "duration": 0.1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.8
+        }
+      },
+      "layers": [
+        "cross_close_button.png",
+        "Shape Layer 2",
+        "Shape Layer 3",
+        "circle_component_shadow.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Special_offer_NEW.aep",
+  "version": 1
+}

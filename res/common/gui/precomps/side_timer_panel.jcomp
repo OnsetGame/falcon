@@ -1,0 +1,105 @@
+{
+  "name": "side_timer_panel",
+  "children": [
+    {
+      "name": "offer_bundle_1",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "side_timer.json",
+      "components": [
+        {
+          "inPoint": 0.041,
+          "outPoint": 1.666,
+          "scale": 1,
+          "startTime": 0.041,
+          "duration": 1.625,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "offer_bundle_2",
+      "translation": [
+        960,
+        636.75,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "side_timer.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 1.625,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.625,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "offer_bundle_2.enabled": {
+          "duration": 1.625,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 49,
+          "cutf": 48
+        },
+        "offer_bundle_1.enabled": {
+          "duration": 1.625,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 49,
+          "cutf": 1
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.875
+        },
+        "idle": {
+          "start": 0.875,
+          "duration": 0.08333333333333
+        },
+        "out": {
+          "start": 0.95833333333333,
+          "duration": 0.66666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.625
+        }
+      },
+      "layers": [
+        "offer_bundle_2",
+        "offer_bundle_1"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Bucks_offer_bundles.aep",
+  "version": 1
+}

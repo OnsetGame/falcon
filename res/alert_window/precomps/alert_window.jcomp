@@ -1,0 +1,460 @@
+{
+  "name": "alert_window_node",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "enabled": true,
+  "components": [],
+  "children": [
+    {
+      "name": "ltp_bg_1.png",
+      "translation": [
+        421.0,
+        229.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "currentFrame": 0,
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "fileNames": [
+            "../assets/ltp_bg_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "button_close",
+      "translation": [
+        1429,
+        257,
+        0
+      ],
+      "compositionRef": "button_close.json"
+    },
+    {
+      "name": "popup_title",
+      "translation": [
+        737.0,
+        181.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [],
+      "children": [
+        {
+          "name": "active",
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "enabled": true,
+          "components": [
+            {
+              "currentFrame": 0,
+              "offset": [
+                0.0,
+                0.0
+              ],
+              "fileNames": [
+                "../assets/ltp_activebarcombined_1.png"
+              ],
+              "_c": "Sprite"
+            }
+          ],
+          "children": []
+        },
+        {
+          "name": "ALERT_HEAD_TITLE",
+          "translation": [
+            227.0,
+            91.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "anchor": [
+            -0.2481613159179688,
+            0.6719970703125,
+            0.0
+          ],
+          "alpha": 1.0,
+          "layer": 0,
+          "enabled": true,
+          "components": [
+            {
+              "text": "Alert",
+              "color": [
+                1.0,
+                0.8745100498199463,
+                0.5647000074386597,
+                1.0
+              ],
+              "shadowRadius": 4.0,
+              "shadowSpread": 0.0,
+              "shadowColor": [
+                0.0,
+                0.0,
+                0.0,
+                0.4000000059604645
+              ],
+              "Tracking Amount": 0.0,
+              "lineSpacing": 0.0,
+              "fontSize": 48.0,
+              "font": "Exo2-Black",
+              "strokeSize": 0.0,
+              "strokeColor": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "isColorGradient": false,
+              "colorFrom": [
+                1.0,
+                0.8745100498199463,
+                0.5647000074386597,
+                1.0
+              ],
+              "colorTo": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "isStrokeGradient": false,
+              "strokeColorFrom": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "strokeColorTo": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "bounds": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "justification": "haCenter",
+              "verticalAlignment": "vaTop",
+              "_c": "Text",
+              "shadowOff": [
+                -3.673940293057708e-16,
+                2.0
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "button_black",
+      "translation": [
+        637,
+        721,
+        0
+      ],
+      "compositionRef": "button_black.json"
+    },
+    {
+      "name": "button_green",
+      "translation": [
+        973,
+        721,
+        0
+      ],
+      "compositionRef": "button_green.json"
+    },
+    {
+      "name": "alert_title",
+      "translation": [
+        960.0,
+        340.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        450.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "text": "Title",
+          "color": [
+            1.0,
+            0.8745100498199463,
+            0.5647000074386597,
+            1.0
+          ],
+          "shadowRadius": 4.0,
+          "shadowSpread": 0.0,
+          "shadowColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "Tracking Amount": 0.0,
+          "lineSpacing": 0.0,
+          "fontSize": 48.0,
+          "font": "Exo2-Black",
+          "strokeSize": 0.0,
+          "strokeColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "isColorGradient": false,
+          "colorFrom": [
+            1.0,
+            0.8745100498199463,
+            0.5647000074386597,
+            1.0
+          ],
+          "colorTo": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "isStrokeGradient": false,
+          "strokeColorFrom": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strokeColorTo": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            0.0,
+            0.0,
+            900.0,
+            100.0
+          ],
+          "justification": "haCenter",
+          "verticalAlignment": "vaTop",
+          "_c": "Text",
+          "shadowOff": [
+            -3.673940293057708e-16,
+            2.0
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "name": "alert_description",
+      "translation": [
+        960.0,
+        450.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "anchor": [
+        500.0,
+        0.0,
+        0.0
+      ],
+      "alpha": 1.0,
+      "layer": 0,
+      "enabled": true,
+      "components": [
+        {
+          "text": "Description",
+          "color": [
+            0.9960799813270569,
+            0.9960799813270569,
+            0.9960799813270569,
+            1.0
+          ],
+          "shadowRadius": 4.0,
+          "shadowSpread": 0.0,
+          "shadowColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "Tracking Amount": 0.0,
+          "lineSpacing": 0.0,
+          "fontSize": 32.0,
+          "font": "Exo2-Regular",
+          "strokeSize": 0.0,
+          "strokeColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "isColorGradient": false,
+          "colorFrom": [
+            0.9960799813270569,
+            0.9960799813270569,
+            0.9960799813270569,
+            1.0
+          ],
+          "colorTo": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "isStrokeGradient": false,
+          "strokeColorFrom": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strokeColorTo": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            0.0,
+            0.0,
+            1000.0,
+            200.0
+          ],
+          "justification": "haCenter",
+          "verticalAlignment": "vaTop",
+          "_c": "Text",
+          "shadowOff": [
+            -3.673940293057708e-16,
+            2.0
+          ]
+        }
+      ],
+      "children": []
+    }
+  ]
+}

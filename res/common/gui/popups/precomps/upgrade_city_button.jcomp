@@ -1,0 +1,250 @@
+{
+  "name": "upgrade_city_button",
+  "children": [
+    {
+      "name": "long_black_button.png$3",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blackButtonOn",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "long_black_button.png",
+      "translation": [
+        174,
+        42,
+        0
+      ],
+      "anchor": [
+        174,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/blackButtonOff",
+          "size": [
+            348,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        172.579,
+        49.861,
+        0
+      ],
+      "scale": [
+        3,
+        3,
+        1
+      ],
+      "anchor": [
+        0,
+        0,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "upgrade city",
+          "font": "Exo2-Black",
+          "fontSize": 10.6666698455811,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "title.translation": {
+          "values": [
+            [
+              172.579,
+              49.861,
+              0
+            ],
+            [
+              172.579,
+              50.226,
+              0
+            ],
+            [
+              172.579,
+              51.666,
+              0
+            ],
+            [
+              172.579,
+              52.75,
+              0
+            ],
+            [
+              172.579,
+              52.75,
+              0
+            ],
+            [
+              172.579,
+              52.75,
+              0
+            ],
+            [
+              172.579,
+              52.385,
+              0
+            ],
+            [
+              172.579,
+              50.945,
+              0
+            ],
+            [
+              172.579,
+              49.861,
+              0
+            ]
+          ],
+          "duration": 5.66666666666667,
+          "len": 170,
+          "cutf": 3
+        },
+        "long_black_button.png.alpha": {
+          "values": [
+            1,
+            0.874,
+            0.374,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.374,
+            0.874,
+            1
+          ],
+          "duration": 5.66666666666667,
+          "len": 170,
+          "cutf": 3
+        },
+        "title.enabled": {
+          "duration": 5.66666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 170,
+          "cutf": 169
+        },
+        "long_black_button.png.enabled": {
+          "duration": 5.66666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 170,
+          "cutf": 169
+        },
+        "long_black_button.png$3.enabled": {
+          "duration": 5.66666666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 170,
+          "cutf": 169
+        }
+      },
+      "markers": {
+        "button_down": {
+          "start": 0.08333333333333,
+          "duration": 0.20833333333334
+        },
+        "button_up": {
+          "start": 0.29166666666667,
+          "duration": 0.16666666666666
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.66666666666667
+        }
+      },
+      "layers": [
+        "title",
+        "long_black_button.png",
+        "long_black_button.png$3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

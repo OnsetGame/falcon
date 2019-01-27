@@ -1,0 +1,129 @@
+{
+  "name": "smoke",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 0.2000000029802322,
+  "layer": 0,
+  "enabled": true,
+  "components": [
+    {
+      "duration": 5.0,
+      "isLooped": true,
+      "isPlayed": true,
+      "birthRate": 10.0,
+      "lifetime": 6.0,
+      "startVelocity": 0.0,
+      "randVelocityFrom": 0.0,
+      "randVelocityTo": 1000.0,
+      "is3dRotation": false,
+      "randRotVelocityFrom": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randRotVelocityTo": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startScale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "dstScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "randScaleFrom": 150.0,
+      "randScaleTo": 250.0,
+      "startColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dstColor": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "isBlendAdd": false,
+      "gravity": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "airDensity": 0.0,
+      "scaleMode": 0,
+      "colorMode": 1,
+      "scaleSeq": [],
+      "colorSeq": [
+        [
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "texture": "smoke_bonus.png",
+      "isTextureAnimated": true,
+      "texSize": [
+        50.0,
+        50.0
+      ],
+      "animColumns": 4,
+      "framesCount": 24,
+      "fps": 12.0,
+      "modifierNode": "",
+      "genShapeNode": "smoke",
+      "hasDepthTest": true,
+      "_c": "ParticleSystem"
+    },
+    {
+      "dimension": [
+        350.0,
+        50.0,
+        100.0
+      ],
+      "is2D": true,
+      "_c": "BoxPSGenShape"
+    }
+  ]
+}

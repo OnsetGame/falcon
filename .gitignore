@@ -1,0 +1,23 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore hidden files
+.*
+
+!.gitlab-ci.yml
+
+nimcache/
+build/
+/*.ini
+/*.exe
+/*.ilk
+/*.pdb
+/*.db
+*.log
+falcon.code-workspace

@@ -1,0 +1,516 @@
+{
+  "name": "red_smoke",
+  "children": [
+    {
+      "name": "magic_matters_fire.png",
+      "translation": [
+        1475,
+        1160,
+        0
+      ],
+      "anchor": [
+        234,
+        313,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/magic_matters_fire.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "smoke_c_[00024-00059].png$3",
+      "translation": [
+        1252,
+        1090,
+        0
+      ],
+      "scale": [
+        3,
+        2,
+        1
+      ],
+      "anchor": [
+        62.0154639175258,
+        422.346049046322,
+        0
+      ],
+      "alpha": 0.75,
+      "affectsChildren": false,
+      "components": [
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.62745100259781,
+            0.1177141815424,
+            0.09104190766811,
+            1
+          ],
+          "amount": 0.86,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/smoke_c/smoke_c_00024.png",
+            "../assets/smoke_c/smoke_c_00025.png",
+            "../assets/smoke_c/smoke_c_00026.png",
+            "../assets/smoke_c/smoke_c_00027.png",
+            "../assets/smoke_c/smoke_c_00028.png",
+            "../assets/smoke_c/smoke_c_00029.png",
+            "../assets/smoke_c/smoke_c_00030.png",
+            "../assets/smoke_c/smoke_c_00031.png",
+            "../assets/smoke_c/smoke_c_00032.png",
+            "../assets/smoke_c/smoke_c_00033.png",
+            "../assets/smoke_c/smoke_c_00034.png",
+            "../assets/smoke_c/smoke_c_00035.png",
+            "../assets/smoke_c/smoke_c_00036.png",
+            "../assets/smoke_c/smoke_c_00037.png",
+            "../assets/smoke_c/smoke_c_00038.png",
+            "../assets/smoke_c/smoke_c_00039.png",
+            "../assets/smoke_c/smoke_c_00040.png",
+            "../assets/smoke_c/smoke_c_00041.png",
+            "../assets/smoke_c/smoke_c_00042.png",
+            "../assets/smoke_c/smoke_c_00043.png",
+            "../assets/smoke_c/smoke_c_00044.png",
+            "../assets/smoke_c/smoke_c_00045.png",
+            "../assets/smoke_c/smoke_c_00046.png",
+            "../assets/smoke_c/smoke_c_00047.png",
+            "../assets/smoke_c/smoke_c_00048.png",
+            "../assets/smoke_c/smoke_c_00049.png",
+            "../assets/smoke_c/smoke_c_00050.png",
+            "../assets/smoke_c/smoke_c_00051.png",
+            "../assets/smoke_c/smoke_c_00052.png",
+            "../assets/smoke_c/smoke_c_00053.png",
+            "../assets/smoke_c/smoke_c_00054.png",
+            "../assets/smoke_c/smoke_c_00055.png",
+            "../assets/smoke_c/smoke_c_00056.png",
+            "../assets/smoke_c/smoke_c_00057.png",
+            "../assets/smoke_c/smoke_c_00058.png",
+            "../assets/smoke_c/smoke_c_00059.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "smoke_c_[00024-00059].png$2",
+      "translation": [
+        1302,
+        1028,
+        0
+      ],
+      "scale": [
+        2.82,
+        1.41,
+        1
+      ],
+      "anchor": [
+        57.3350515463918,
+        427.381471389646,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.05233595624294,
+        0.99862953475457
+      ],
+      "alpha": 0.5,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.90588235855103,
+            0.23137255012989,
+            0.19607843458652,
+            1
+          ],
+          "amount": 0.86,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/smoke_c/smoke_c_00024.png",
+            "../assets/smoke_c/smoke_c_00025.png",
+            "../assets/smoke_c/smoke_c_00026.png",
+            "../assets/smoke_c/smoke_c_00027.png",
+            "../assets/smoke_c/smoke_c_00028.png",
+            "../assets/smoke_c/smoke_c_00029.png",
+            "../assets/smoke_c/smoke_c_00030.png",
+            "../assets/smoke_c/smoke_c_00031.png",
+            "../assets/smoke_c/smoke_c_00032.png",
+            "../assets/smoke_c/smoke_c_00033.png",
+            "../assets/smoke_c/smoke_c_00034.png",
+            "../assets/smoke_c/smoke_c_00035.png",
+            "../assets/smoke_c/smoke_c_00036.png",
+            "../assets/smoke_c/smoke_c_00037.png",
+            "../assets/smoke_c/smoke_c_00038.png",
+            "../assets/smoke_c/smoke_c_00039.png",
+            "../assets/smoke_c/smoke_c_00040.png",
+            "../assets/smoke_c/smoke_c_00041.png",
+            "../assets/smoke_c/smoke_c_00042.png",
+            "../assets/smoke_c/smoke_c_00043.png",
+            "../assets/smoke_c/smoke_c_00044.png",
+            "../assets/smoke_c/smoke_c_00045.png",
+            "../assets/smoke_c/smoke_c_00046.png",
+            "../assets/smoke_c/smoke_c_00047.png",
+            "../assets/smoke_c/smoke_c_00048.png",
+            "../assets/smoke_c/smoke_c_00049.png",
+            "../assets/smoke_c/smoke_c_00050.png",
+            "../assets/smoke_c/smoke_c_00051.png",
+            "../assets/smoke_c/smoke_c_00052.png",
+            "../assets/smoke_c/smoke_c_00053.png",
+            "../assets/smoke_c/smoke_c_00054.png",
+            "../assets/smoke_c/smoke_c_00055.png",
+            "../assets/smoke_c/smoke_c_00056.png",
+            "../assets/smoke_c/smoke_c_00057.png",
+            "../assets/smoke_c/smoke_c_00058.png",
+            "../assets/smoke_c/smoke_c_00059.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "smoke_c_[00024-00059].png",
+      "translation": [
+        1246,
+        1096,
+        0
+      ],
+      "scale": [
+        3,
+        2,
+        1
+      ],
+      "anchor": [
+        54.9948453608247,
+        429.899182561308,
+        0
+      ],
+      "alpha": 0.3,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "black": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "white": [
+            0.90588235855103,
+            0.23137255012989,
+            0.19607843458652,
+            1
+          ],
+          "amount": 0.86,
+          "_c": "Tint"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.5,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.5,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/smoke_c/smoke_c_00024.png",
+            "../assets/smoke_c/smoke_c_00025.png",
+            "../assets/smoke_c/smoke_c_00026.png",
+            "../assets/smoke_c/smoke_c_00027.png",
+            "../assets/smoke_c/smoke_c_00028.png",
+            "../assets/smoke_c/smoke_c_00029.png",
+            "../assets/smoke_c/smoke_c_00030.png",
+            "../assets/smoke_c/smoke_c_00031.png",
+            "../assets/smoke_c/smoke_c_00032.png",
+            "../assets/smoke_c/smoke_c_00033.png",
+            "../assets/smoke_c/smoke_c_00034.png",
+            "../assets/smoke_c/smoke_c_00035.png",
+            "../assets/smoke_c/smoke_c_00036.png",
+            "../assets/smoke_c/smoke_c_00037.png",
+            "../assets/smoke_c/smoke_c_00038.png",
+            "../assets/smoke_c/smoke_c_00039.png",
+            "../assets/smoke_c/smoke_c_00040.png",
+            "../assets/smoke_c/smoke_c_00041.png",
+            "../assets/smoke_c/smoke_c_00042.png",
+            "../assets/smoke_c/smoke_c_00043.png",
+            "../assets/smoke_c/smoke_c_00044.png",
+            "../assets/smoke_c/smoke_c_00045.png",
+            "../assets/smoke_c/smoke_c_00046.png",
+            "../assets/smoke_c/smoke_c_00047.png",
+            "../assets/smoke_c/smoke_c_00048.png",
+            "../assets/smoke_c/smoke_c_00049.png",
+            "../assets/smoke_c/smoke_c_00050.png",
+            "../assets/smoke_c/smoke_c_00051.png",
+            "../assets/smoke_c/smoke_c_00052.png",
+            "../assets/smoke_c/smoke_c_00053.png",
+            "../assets/smoke_c/smoke_c_00054.png",
+            "../assets/smoke_c/smoke_c_00055.png",
+            "../assets/smoke_c/smoke_c_00056.png",
+            "../assets/smoke_c/smoke_c_00057.png",
+            "../assets/smoke_c/smoke_c_00058.png",
+            "../assets/smoke_c/smoke_c_00059.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "smoke_c_[00024-00059].png.curFrame": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "len": 37,
+          "cutf": 0
+        },
+        "smoke_c_[00024-00059].png.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 37,
+          "cutf": 35
+        },
+        "smoke_c_[00024-00059].png$2.curFrame": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "len": 37,
+          "cutf": 0
+        },
+        "smoke_c_[00024-00059].png$2.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 37,
+          "cutf": 35
+        },
+        "smoke_c_[00024-00059].png$3.curFrame": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "frameLerp": true,
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "len": 37,
+          "cutf": 0
+        },
+        "smoke_c_[00024-00059].png$3.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": true,
+          "len": 37,
+          "cutf": 35
+        },
+        "magic_matters_fire.png.enabled": {
+          "duration": 1.54166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 37,
+          "cutf": 36
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 1.54166666666667
+        }
+      },
+      "layers": [
+        "smoke_c_[00024-00059].png",
+        "smoke_c_[00024-00059].png$2",
+        "smoke_c_[00024-00059].png$3",
+        "magic_matters_fire.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

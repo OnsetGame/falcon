@@ -1,0 +1,62 @@
+{
+  "name": "newspaper_idle",
+  "children": [
+    {
+      "name": "newspaper",
+      "translation": [
+        0,
+        416,
+        0
+      ],
+      "anchor": [
+        0,
+        416,
+        0
+      ],
+      "compositionRef": "newspaper.json",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "newspaper.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "newspaper"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "newspaper3_dev.aep",
+  "version": 1
+}

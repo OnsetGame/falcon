@@ -1,0 +1,75 @@
+{
+  "name": "spin_11",
+  "children": [
+    {
+      "alpha": 0,
+      "name": "wild_secondary_[00000-00001].png",
+      "translation": [
+        60,
+        30.5,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/spin/spin_11/wild_secondary_00000.png",
+            "../assets/spin/spin_11/wild_secondary_00001.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "play":
+    {
+      "wild_secondary_[00000-00001].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "wild_secondary_[00000-00001].png.alpha":
+      {
+        "duration": 0.53333333333333,
+        "values": [
+          0,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0.8,
+          0.6,
+          0.4,
+          0.2,
+          0
+        ]
+      }
+    }
+  },
+  "version": 1
+}

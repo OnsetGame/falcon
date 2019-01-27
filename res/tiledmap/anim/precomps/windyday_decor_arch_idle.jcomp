@@ -1,0 +1,63 @@
+{
+  "name": "windyday_decor_arch_idle",
+  "children": [
+    {
+      "name": "windyday_decor_arch",
+      "translation": [
+        0,
+        897,
+        0
+      ],
+      "anchor": [
+        0,
+        897,
+        0
+      ],
+      "compositionRef": "windyday_decor_arch",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "windyday_decor_arch.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 96,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 4
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "windyday_decor_arch"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

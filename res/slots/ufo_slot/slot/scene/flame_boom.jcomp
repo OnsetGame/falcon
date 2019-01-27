@@ -1,0 +1,392 @@
+{
+  "name": "flame_boom",
+  "children": [
+    {
+      "name": "FlameB_[1-31].png",
+      "translation": [
+        920,
+        540,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        100,
+        77.5,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.55,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.55,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/flames/FlameB_1.png",
+            "resources/flames/FlameB_2.png",
+            "resources/flames/FlameB_3.png",
+            "resources/flames/FlameB_4.png",
+            "resources/flames/FlameB_5.png",
+            "resources/flames/FlameB_6.png",
+            "resources/flames/FlameB_7.png",
+            "resources/flames/FlameB_8.png",
+            "resources/flames/FlameB_9.png",
+            "resources/flames/FlameB_10.png",
+            "resources/flames/FlameB_11.png",
+            "resources/flames/FlameB_12.png",
+            "resources/flames/FlameB_13.png",
+            "resources/flames/FlameB_14.png",
+            "resources/flames/FlameB_15.png",
+            "resources/flames/FlameB_16.png",
+            "resources/flames/FlameB_17.png",
+            "resources/flames/FlameB_18.png",
+            "resources/flames/FlameB_19.png",
+            "resources/flames/FlameB_20.png",
+            "resources/flames/FlameB_21.png",
+            "resources/flames/FlameB_22.png",
+            "resources/flames/FlameB_23.png",
+            "resources/flames/FlameB_24.png",
+            "resources/flames/FlameB_25.png",
+            "resources/flames/FlameB_26.png",
+            "resources/flames/FlameB_27.png",
+            "resources/flames/FlameB_28.png",
+            "resources/flames/FlameB_29.png",
+            "resources/flames/FlameB_30.png",
+            "resources/flames/FlameB_31.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "FlameA_[1-19].png",
+      "translation": [
+        920,
+        620,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        100,
+        80,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.95,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.95,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/flames/FlameA_1.png",
+            "resources/flames/FlameA_2.png",
+            "resources/flames/FlameA_3.png",
+            "resources/flames/FlameA_4.png",
+            "resources/flames/FlameA_5.png",
+            "resources/flames/FlameA_6.png",
+            "resources/flames/FlameA_7.png",
+            "resources/flames/FlameA_8.png",
+            "resources/flames/FlameA_9.png",
+            "resources/flames/FlameA_10.png",
+            "resources/flames/FlameA_11.png",
+            "resources/flames/FlameA_12.png",
+            "resources/flames/FlameA_13.png",
+            "resources/flames/FlameA_14.png",
+            "resources/flames/FlameA_15.png",
+            "resources/flames/FlameA_16.png",
+            "resources/flames/FlameA_17.png",
+            "resources/flames/FlameA_18.png",
+            "resources/flames/FlameA_19.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "FlameC_[00000-00014].png",
+      "translation": [
+        960,
+        580,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        100,
+        73,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0.75,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "resources/flames/FlameC_00000.png",
+            "resources/flames/FlameC_00001.png",
+            "resources/flames/FlameC_00002.png",
+            "resources/flames/FlameC_00003.png",
+            "resources/flames/FlameC_00004.png",
+            "resources/flames/FlameC_00005.png",
+            "resources/flames/FlameC_00006.png",
+            "resources/flames/FlameC_00007.png",
+            "resources/flames/FlameC_00008.png",
+            "resources/flames/FlameC_00009.png",
+            "resources/flames/FlameC_00010.png",
+            "resources/flames/FlameC_00011.png",
+            "resources/flames/FlameC_00012.png",
+            "resources/flames/FlameC_00013.png",
+            "resources/flames/FlameC_00014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "FlameC_[00000-00014].png.alpha": {
+          "values": [
+            1,
+            0.6669921875,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 21
+        },
+        "FlameA_[1-19].png.alpha": {
+          "values": [
+            1,
+            0.8330078125,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 28
+        },
+        "FlameB_[1-31].png.alpha": {
+          "values": [
+            1,
+            0.8330078125,
+            0
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 46
+        },
+        "FlameC_[00000-00014].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "FlameC_[00000-00014].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "FlameA_[1-19].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15,
+            15,
+            16,
+            17,
+            17,
+            18
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "FlameA_[1-19].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        },
+        "FlameB_[1-31].png.curFrame": {
+          "duration": 2,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8,
+            9,
+            9,
+            10,
+            11,
+            11,
+            12,
+            13,
+            13,
+            14,
+            15,
+            15,
+            16,
+            17,
+            17,
+            18,
+            19,
+            19,
+            20,
+            21,
+            21,
+            22,
+            23,
+            23,
+            24,
+            25,
+            25,
+            26,
+            27,
+            27,
+            28,
+            29,
+            29,
+            30
+          ],
+          "len": 60,
+          "cutf": 0
+        },
+        "FlameB_[1-31].png.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 46
+        }
+      },
+      "markers": {
+        "fire": {
+          "start": 0,
+          "duration": 1.56
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "FlameC_[00000-00014].png",
+        "FlameA_[1-19].png",
+        "FlameB_[1-31].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "ufo_main_scene(CC%20(13))%20programming.aep",
+  "version": 1
+}

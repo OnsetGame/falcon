@@ -1,0 +1,267 @@
+{
+  "name": "quest_timer",
+  "children": [
+    {
+      "name": "time_rectangle_back",
+      "translation": [
+        1453,
+        234.75,
+        0
+      ],
+      "anchor": [
+        115,
+        37,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_clock",
+          "translation": [
+            12,
+            38.246,
+            0
+          ],
+          "anchor": [
+            39,
+            47,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_time.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "ltp_clock_flash",
+          "translation": [
+            12,
+            39.215,
+            0
+          ],
+          "anchor": [
+            39,
+            47,
+            0
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 2.875,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "fileNames": [
+                "../assets/ltp_time_copy_2.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        },
+        {
+          "name": "time_left_@noloc",
+          "translation": [
+            115.099,
+            10.792,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "time left",
+              "font": "Exo2-Black",
+              "fontSize": 5.33333015441895,
+              "color": [
+                1,
+                0.87451004981995,
+                0.56470000743866
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "text_title_timer",
+          "translation": [
+            113.599,
+            46.05,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            1
+          ],
+          "affectsChildren": false,
+          "components": [
+            {
+              "inPoint": 0,
+              "outPoint": 5.958,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            },
+            {
+              "text": "1h 02m",
+              "font": "Exo2-Black",
+              "fontSize": 10.6666698455811,
+              "color": [
+                1,
+                1,
+                1
+              ],
+              "justification": "haCenter",
+              "shadowColor": [
+                0,
+                0,
+                0,
+                0.4
+              ],
+              "shadowRadius": 4,
+              "shadowSpread": 0,
+              "_c": "Text",
+              "shadowOff": [
+                -3.67394039744206e-16,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 5.958,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_rectangle_614_copy.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "text_title_timer.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "time_left_@noloc.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        },
+        "ltp_clock_flash.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 86
+        },
+        "ltp_clock.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 86
+        },
+        "time_rectangle_back.enabled": {
+          "duration": 5.95833333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 179,
+          "cutf": 178
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.95833333333333
+        }
+      },
+      "layers": [
+        "text_title_timer",
+        "time_left_@noloc",
+        "ltp_clock_flash",
+        "ltp_clock",
+        "time_rectangle_back"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_quest_window_layout.aep",
+  "version": 1
+}

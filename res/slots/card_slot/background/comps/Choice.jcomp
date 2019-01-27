@@ -1,0 +1,142 @@
+{
+  "name": "Choice",
+  "children": [
+    {
+      "name": "To_blue",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "To_blue",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 20.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 20.0416666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "To_green",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "To_green",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 20.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 20.0416666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "To_red",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "To_red",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 20.041,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 20.0416666666667,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "To_red.enabled": {
+          "duration": 20.0416666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 481,
+          "cutf": 480
+        },
+        "To_green.enabled": {
+          "duration": 20.0416666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 481,
+          "cutf": 480
+        },
+        "To_blue.enabled": {
+          "duration": 20.0416666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 481,
+          "cutf": 480
+        }
+      },
+      "markers": {
+        "portals_idle": {
+          "start": 16.4583333333333,
+          "duration": 3.58333333333337
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 20.0416666666667
+        }
+      },
+      "layers": [
+        "To_red",
+        "To_green",
+        "To_blue"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "MAIN_bg_and_change%20(18).aep",
+  "export_time": "7 August 2018 21:34",
+  "rod_export_v": "Wed May 9 17:55:52 2018 +0300\n",
+  "version": 1
+}

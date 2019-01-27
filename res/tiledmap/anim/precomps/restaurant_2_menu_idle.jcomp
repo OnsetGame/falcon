@@ -1,0 +1,62 @@
+{
+  "name": "restaurant_2_menu_idle",
+  "children": [
+    {
+      "name": "restaurant_2_menu",
+      "translation": [
+        0,
+        1606,
+        0
+      ],
+      "anchor": [
+        0,
+        1606,
+        0
+      ],
+      "compositionRef": "restaurant_2_menu",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 3.083,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 3.08333333333333,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "restaurant_2_menu.enabled": {
+          "duration": 3.08333333333333,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 93,
+          "cutf": 92
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 3.08333333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3.08333333333333
+        }
+      },
+      "layers": [
+        "restaurant_2_menu"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "restaurant_b_all_dev.aep",
+  "version": 1
+}

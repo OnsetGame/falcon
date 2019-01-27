@@ -1,0 +1,140 @@
+{
+  "name": "timer_boost_expired",
+  "children": [
+    {
+      "name": "circle_component_shadow.png",
+      "translation": [
+        178.5,
+        69,
+        0
+      ],
+      "scale": [
+        4.7,
+        0.93,
+        1
+      ],
+      "anchor": [
+        44.5,
+        41.5,
+        0
+      ],
+      "alpha": 0.4,
+      "components": [
+        {
+          "fileNames": [
+            "../../assets/circle_component_shadow.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "offer_timer_holder.png",
+      "translation": [
+        173.75,
+        52.5,
+        0
+      ],
+      "scale": [
+        1.03,
+        1,
+        1
+      ],
+      "anchor": [
+        137,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "color": [
+            1,
+            0.92156863212585,
+            0.23137255012989,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            274,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "expired_background",
+      "translation": [
+        182,
+        52.5,
+        0
+      ],
+      "scale": [
+        1.03,
+        1,
+        1
+      ],
+      "anchor": [
+        137,
+        24,
+        0
+      ],
+      "components": [
+        {
+          "_c": "CompRef",
+          "path": "common/lib/precomps/4color_holder_lib",
+          "size": [
+            274,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "name": "expired_txt",
+      "translation": [
+        178.499,
+        59,
+        0
+      ],
+      "anchor": [
+        0.08,
+        -3.68,
+        0
+      ],
+      "components": [
+        {
+          "text": "EXPIRED",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "aep_name": "GUI_boost_shop_dev_2.aep",
+  "export_time": "15 May 2018 18:08",
+  "rod_export_v": "Fri May 4 19:10:22 2018 +0300",
+  "version": 1
+}

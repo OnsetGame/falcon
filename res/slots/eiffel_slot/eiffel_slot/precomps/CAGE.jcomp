@@ -1,0 +1,448 @@
+{
+  "name": "CAGE",
+  "children": [
+    {
+      "name": "cage_back 2",
+      "translation": [
+        3.66972470283508,
+        5.10550451278687,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/Cage_back.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cage_new.png",
+      "translation": [
+        7.125,
+        22,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/cage_new.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "pigeon_back$AUX",
+      "translation": [
+        -35.625,
+        -93.375,
+        0
+      ],
+      "scale": [
+        1.09,
+        1.09,
+        1
+      ],
+      "children": [
+        {
+          "alpha": 0,
+          "name": "pigeon_back",
+          "translation": [
+            -7.105427357601e-15,
+            1.4210854715202e-14,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Cage/pigeon_mb_00000.png",
+                "../assets/Cage/pigeon_mb_00001.png",
+                "../assets/Cage/pigeon_mb_00002.png",
+                "../assets/Cage/pigeon_mb_00003.png",
+                "../assets/Cage/pigeon_mb_00004.png",
+                "../assets/Cage/pigeon_mb_00005.png",
+                "../assets/Cage/pigeon_mb_00006.png",
+                "../assets/Cage/pigeon_mb_00007.png",
+                "../assets/Cage/pigeon_mb_00008.png",
+                "../assets/Cage/pigeon_mb_00009.png",
+                "../assets/Cage/pigeon_mb_00010.png",
+                "../assets/Cage/pigeon_mb_00011.png",
+                "../assets/Cage/pigeon_mb_00012.png",
+                "../assets/Cage/pigeon_mb_00013.png",
+                "../assets/Cage/pigeon_mb_00014.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pigeon_mb_00000.png$AUX",
+      "translation": [
+        -35.625,
+        -93.375,
+        0
+      ],
+      "scale": [
+        1.09,
+        1.09,
+        1
+      ],
+      "children": [
+        {
+          "name": "pigeon_mb_00000.png",
+          "translation": [
+            -7.105427357601e-15,
+            1.4210854715202e-14,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../assets/Cage/pigeon_mb_00000.png"
+              ],
+              "_c": "Sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shadow_pigeon_01.png",
+      "translation": [
+        28,
+        70.875,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/shadow_pigeon_01.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "alpha": 0,
+      "name": "shadow_pigeon_[01-03].png",
+      "translation": [
+        28,
+        70.875,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/shadow_pigeon_01.png",
+            "../assets/Cage/shadow_pigeon_02.png",
+            "../assets/Cage/shadow_pigeon_03.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "cage_over1.png",
+      "translation": [
+        6,
+        22,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/cage_over1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "alpha": 0,
+      "name": "pigeon_front",
+      "translation": [
+        -31.625,
+        -92.1699981689453,
+        0
+      ],
+      "scale": [
+        1.09,
+        1.09,
+        1
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../assets/Cage/pigeon_mb_00000.png",
+            "../assets/Cage/pigeon_mb_00001.png",
+            "../assets/Cage/pigeon_mb_00002.png",
+            "../assets/Cage/pigeon_mb_00003.png",
+            "../assets/Cage/pigeon_mb_00004.png",
+            "../assets/Cage/pigeon_mb_00005.png",
+            "../assets/Cage/pigeon_mb_00006.png",
+            "../assets/Cage/pigeon_mb_00007.png",
+            "../assets/Cage/pigeon_mb_00008.png",
+            "../assets/Cage/pigeon_mb_00009.png",
+            "../assets/Cage/pigeon_mb_00010.png",
+            "../assets/Cage/pigeon_mb_00011.png",
+            "../assets/Cage/pigeon_mb_00012.png",
+            "../assets/Cage/pigeon_mb_00013.png",
+            "../assets/Cage/pigeon_mb_00014.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "animations":
+  {
+    "open_door":
+    {
+      "pigeon_front.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "pigeon_front.alpha":
+      {
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "shadow_pigeon_[01-03].png.alpha":
+      {
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "pigeon_mb_00000.png.alpha":
+      {
+        "duration": 0.4,
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pigeon_back.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "shadow_pigeon_[01-03].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "pigeon_back.alpha":
+      {
+        "duration": 0.4,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "fly":
+    {
+      "pigeon_front.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.26666666666667,
+        "values": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "numberOfLoops": -1
+      },
+      "pigeon_front.alpha":
+      {
+        "duration": 0.26666666666667,
+        "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "numberOfLoops": -1
+      },
+      "shadow_pigeon_[01-03].png.alpha":
+      {
+        "duration": 0.26666666666667,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "numberOfLoops": -1
+      },
+      "pigeon_mb_00000.png.alpha":
+      {
+        "duration": 0.26666666666667,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "numberOfLoops": -1
+      },
+      "pigeon_back.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.26666666666667,
+        "values": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "numberOfLoops": -1
+      },
+      "shadow_pigeon_[01-03].png.curFrame":
+      {
+        "frameLerp": false,
+        "duration": 0.26666666666667,
+        "values": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "numberOfLoops": -1
+      },
+      "pigeon_back.alpha":
+      {
+        "duration": 0.26666666666667,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "numberOfLoops": -1
+      }
+    }
+  },
+  "version": 1
+}

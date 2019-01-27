@@ -1,0 +1,134 @@
+{
+  "name": "anticipator",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "idToNodeRelation": [
+        [
+          1,
+          "green_anticipator"
+        ],
+        [
+          2,
+          "orange_anticipator"
+        ],
+        [
+          0,
+          "violet_anticipator"
+        ]
+      ],
+      "animMarkers": [
+        {
+          "path": [
+            "green_anticipator"
+          ],
+          "type": 0,
+          "name": "show"
+        },
+        {
+          "path": [
+            "green_anticipator"
+          ],
+          "type": 1,
+          "name": "hide"
+        },
+        {
+          "path": [
+            "green_anticipator"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "green_anticipator"
+          ],
+          "type": 2,
+          "name": "anticipate"
+        },
+        {
+          "path": [
+            "orange_anticipator"
+          ],
+          "type": 0,
+          "name": "show"
+        },
+        {
+          "path": [
+            "orange_anticipator"
+          ],
+          "type": 1,
+          "name": "hide"
+        },
+        {
+          "path": [
+            "orange_anticipator"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "orange_anticipator"
+          ],
+          "type": 2,
+          "name": "anticipate"
+        },
+        {
+          "path": [
+            "violet_anticipator"
+          ],
+          "type": 0,
+          "name": "show"
+        },
+        {
+          "path": [
+            "violet_anticipator"
+          ],
+          "type": 1,
+          "name": "hide"
+        },
+        {
+          "path": [
+            "violet_anticipator"
+          ],
+          "type": 6,
+          "name": "win"
+        },
+        {
+          "path": [
+            "violet_anticipator"
+          ],
+          "type": 2,
+          "name": "anticipate"
+        }
+      ],
+      "pathToRootComp": "slots/groovy_slot/comps/anticipator",
+      "_c": "CellComponent"
+    }
+  ]
+}

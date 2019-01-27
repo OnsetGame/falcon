@@ -1,0 +1,7553 @@
+{
+  "name": "Chest_a4",
+  "children": [
+    {
+      "name": "ltp_a_4_ope_3.png",
+      "translation": [
+        567,
+        607,
+        0
+      ],
+      "anchor": [
+        137,
+        85,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_a_4_ope_3.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.5,
+          "outPoint": 4.5,
+          "scale": 1,
+          "startTime": 0.5,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_a_4_ope_2.png",
+      "translation": [
+        699,
+        569,
+        0
+      ],
+      "scale": [
+        1,
+        0.35,
+        1
+      ],
+      "anchor": [
+        13,
+        43,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_a_4_ope_2.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.666,
+          "outPoint": 4.666,
+          "scale": 1,
+          "startTime": 0.666,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_a__7.png",
+      "translation": [
+        566.812,
+        608.75,
+        0
+      ],
+      "anchor": [
+        137,
+        83,
+        0
+      ],
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_a__7.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 0.583,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Gold_a_b_4",
+      "translation": [
+        560,
+        518,
+        0
+      ],
+      "scale": [
+        0.92,
+        0.7,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0.061,
+        0.998
+      ],
+      "anchor": [
+        560,
+        518,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Gold/Gold_a_b_4.json",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "ltp_a__6.png$18",
+      "translation": [
+        564.937,
+        512.75,
+        0
+      ],
+      "anchor": [
+        135,
+        69,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "fileNames": [
+            "../../Layers/ltp_a__6.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.5,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "chest_a4_controller",
+      "translation": [
+        566.812,
+        608.75,
+        0
+      ],
+      "children": [
+        {
+          "name": "ltp_a__6.png",
+          "translation": [
+            -1.812,
+            -97.75,
+            0
+          ],
+          "anchor": [
+            135,
+            69,
+            0
+          ],
+          "components": [
+            {
+              "fileNames": [
+                "../../Layers/ltp_a__6.png"
+              ],
+              "_c": "Sprite"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 0.5,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 0,
+              "_c": "AELayer"
+            }
+          ]
+        },
+        {
+          "name": "light_chest_[0001-0012].png",
+          "translation": [
+            -17.085,
+            -39.448,
+            0
+          ],
+          "scale": [
+            4.986,
+            3.794,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.019,
+            0.999
+          ],
+          "anchor": [
+            38.723,
+            51.776,
+            0
+          ],
+          "alpha": 0,
+          "components": [
+            {
+              "_c": "VisualModifier",
+              "blendMode": "ADD"
+            },
+            {
+              "fileNames": [
+                "../../Seqs/light_chest_0001.png",
+                "../../Seqs/light_chest_0002.png",
+                "../../Seqs/light_chest_0003.png",
+                "../../Seqs/light_chest_0004.png",
+                "../../Seqs/light_chest_0005.png",
+                "../../Seqs/light_chest_0006.png",
+                "../../Seqs/light_chest_0007.png",
+                "../../Seqs/light_chest_0008.png",
+                "../../Seqs/light_chest_0009.png",
+                "../../Seqs/light_chest_0010.png",
+                "../../Seqs/light_chest_0011.png",
+                "../../Seqs/light_chest_0012.png"
+              ],
+              "_c": "Sprite"
+            },
+            {
+              "inPoint": 0,
+              "outPoint": 4,
+              "scale": 1,
+              "startTime": 0,
+              "duration": 4,
+              "_c": "AELayer"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$15",
+      "translation": [
+        483,
+        557,
+        0
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.583,
+          "outPoint": 1.083,
+          "scale": 1,
+          "startTime": 0.583,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$14",
+      "translation": [
+        529.5,
+        518,
+        0
+      ],
+      "scale": [
+        0.33,
+        0.33,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.625,
+          "outPoint": 1.125,
+          "scale": 1,
+          "startTime": 0.625,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$13",
+      "translation": [
+        568.5,
+        570,
+        0
+      ],
+      "scale": [
+        0.33,
+        0.33,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.666,
+          "outPoint": 1.166,
+          "scale": 1,
+          "startTime": 0.666,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation$12",
+      "translation": [
+        613,
+        547,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.708,
+          "outPoint": 1.208,
+          "scale": 1,
+          "startTime": 0.708,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "Shape_Animation",
+      "translation": [
+        671.5,
+        533.5,
+        0
+      ],
+      "scale": [
+        0.33,
+        0.33,
+        1
+      ],
+      "anchor": [
+        100,
+        100,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "../Shape_Animation.json",
+      "components": [
+        {
+          "inPoint": 0.75,
+          "outPoint": 1.25,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0.5,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$10",
+      "translation": [
+        710,
+        580,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.166,
+          "outPoint": 2.166,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$9",
+      "translation": [
+        535,
+        763,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.541,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0.541,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$8",
+      "translation": [
+        444,
+        640,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.25,
+          "outPoint": 2.25,
+          "scale": 1,
+          "startTime": 0.25,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$7",
+      "translation": [
+        691,
+        617,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 2.458,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$6",
+      "translation": [
+        594,
+        653,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.208,
+          "outPoint": 2.208,
+          "scale": 1,
+          "startTime": 0.208,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$5",
+      "translation": [
+        520,
+        668,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.541,
+          "outPoint": 2.541,
+          "scale": 1,
+          "startTime": 0.541,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$4",
+      "translation": [
+        489,
+        670,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.166,
+          "outPoint": 2.166,
+          "scale": 1,
+          "startTime": 0.166,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$3",
+      "translation": [
+        472,
+        661,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.5,
+          "outPoint": 2.5,
+          "scale": 1,
+          "startTime": 0.5,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png$2",
+      "translation": [
+        635,
+        651,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.25,
+          "outPoint": 2.25,
+          "scale": 1,
+          "startTime": 0.25,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "dust_[00000-00023].png",
+      "translation": [
+        688,
+        639,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        74,
+        74,
+        0
+      ],
+      "alpha": 0,
+      "components": [
+        {
+          "color": [
+            0.6745098233223,
+            0.58431375026703,
+            0.4745098054409,
+            1
+          ],
+          "_c": "ColorFill"
+        },
+        {
+          "fileNames": [
+            "../../Seqs/dust_00000.png",
+            "../../Seqs/dust_00001.png",
+            "../../Seqs/dust_00002.png",
+            "../../Seqs/dust_00003.png",
+            "../../Seqs/dust_00004.png",
+            "../../Seqs/dust_00005.png",
+            "../../Seqs/dust_00006.png",
+            "../../Seqs/dust_00007.png",
+            "../../Seqs/dust_00008.png",
+            "../../Seqs/dust_00009.png",
+            "../../Seqs/dust_00010.png",
+            "../../Seqs/dust_00011.png",
+            "../../Seqs/dust_00012.png",
+            "../../Seqs/dust_00013.png",
+            "../../Seqs/dust_00014.png",
+            "../../Seqs/dust_00015.png",
+            "../../Seqs/dust_00016.png",
+            "../../Seqs/dust_00017.png",
+            "../../Seqs/dust_00018.png",
+            "../../Seqs/dust_00019.png",
+            "../../Seqs/dust_00020.png",
+            "../../Seqs/dust_00021.png",
+            "../../Seqs/dust_00022.png",
+            "../../Seqs/dust_00023.png"
+          ],
+          "_c": "Sprite"
+        },
+        {
+          "inPoint": 0.458,
+          "outPoint": 2.458,
+          "scale": 1,
+          "startTime": 0.458,
+          "duration": 2,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "dust_[00000-00023].png.translation": {
+          "values": [
+            [
+              688,
+              639,
+              0
+            ],
+            [
+              688.004,
+              639.001,
+              0
+            ],
+            [
+              688.105,
+              639.047,
+              0
+            ],
+            [
+              688.34,
+              639.153,
+              0
+            ],
+            [
+              688.706,
+              639.319,
+              0
+            ],
+            [
+              689.201,
+              639.543,
+              0
+            ],
+            [
+              689.816,
+              639.821,
+              0
+            ],
+            [
+              690.545,
+              640.151,
+              0
+            ],
+            [
+              691.385,
+              640.531,
+              0
+            ],
+            [
+              692.331,
+              640.959,
+              0
+            ],
+            [
+              693.379,
+              641.433,
+              0
+            ],
+            [
+              694.521,
+              641.95,
+              0
+            ],
+            [
+              695.754,
+              642.508,
+              0
+            ],
+            [
+              697.074,
+              643.105,
+              0
+            ],
+            [
+              698.479,
+              643.74,
+              0
+            ],
+            [
+              699.966,
+              644.413,
+              0
+            ],
+            [
+              701.525,
+              645.118,
+              0
+            ],
+            [
+              703.151,
+              645.854,
+              0
+            ],
+            [
+              704.841,
+              646.618,
+              0
+            ],
+            [
+              706.589,
+              647.409,
+              0
+            ],
+            [
+              708.393,
+              648.225,
+              0
+            ],
+            [
+              710.246,
+              649.063,
+              0
+            ],
+            [
+              712.147,
+              649.923,
+              0
+            ],
+            [
+              714.09,
+              650.802,
+              0
+            ],
+            [
+              716.07,
+              651.698,
+              0
+            ],
+            [
+              718.084,
+              652.609,
+              0
+            ],
+            [
+              720.121,
+              653.53,
+              0
+            ],
+            [
+              722.179,
+              654.462,
+              0
+            ],
+            [
+              724.253,
+              655.4,
+              0
+            ],
+            [
+              726.339,
+              656.344,
+              0
+            ],
+            [
+              728.435,
+              657.292,
+              0
+            ],
+            [
+              730.531,
+              658.24,
+              0
+            ],
+            [
+              732.627,
+              659.188,
+              0
+            ],
+            [
+              734.717,
+              660.134,
+              0
+            ],
+            [
+              736.797,
+              661.075,
+              0
+            ],
+            [
+              738.866,
+              662.01,
+              0
+            ],
+            [
+              740.912,
+              662.936,
+              0
+            ],
+            [
+              742.933,
+              663.851,
+              0
+            ],
+            [
+              744.926,
+              664.752,
+              0
+            ],
+            [
+              746.885,
+              665.638,
+              0
+            ],
+            [
+              748.809,
+              666.509,
+              0
+            ],
+            [
+              750.687,
+              667.358,
+              0
+            ],
+            [
+              752.516,
+              668.186,
+              0
+            ],
+            [
+              754.292,
+              668.989,
+              0
+            ],
+            [
+              756.01,
+              669.766,
+              0
+            ],
+            [
+              757.67,
+              670.517,
+              0
+            ],
+            [
+              759.263,
+              671.238,
+              0
+            ],
+            [
+              760.786,
+              671.927,
+              0
+            ],
+            [
+              762.232,
+              672.581,
+              0
+            ],
+            [
+              763.596,
+              673.198,
+              0
+            ],
+            [
+              764.875,
+              673.776,
+              0
+            ],
+            [
+              766.063,
+              674.314,
+              0
+            ],
+            [
+              767.157,
+              674.809,
+              0
+            ],
+            [
+              768.154,
+              675.26,
+              0
+            ],
+            [
+              769.048,
+              675.664,
+              0
+            ],
+            [
+              769.833,
+              676.019,
+              0
+            ],
+            [
+              770.505,
+              676.323,
+              0
+            ],
+            [
+              771.061,
+              676.575,
+              0
+            ],
+            [
+              771.492,
+              676.77,
+              0
+            ],
+            [
+              771.793,
+              676.906,
+              0
+            ],
+            [
+              771.961,
+              676.982,
+              0
+            ],
+            [
+              772,
+              677,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png.alpha": {
+          "values": [
+            0,
+            0.2,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.399,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 12
+        },
+        "dust_[00000-00023].png$2.translation": {
+          "values": [
+            [
+              635,
+              651,
+              0
+            ],
+            [
+              635.002,
+              651.008,
+              0
+            ],
+            [
+              635.023,
+              651.075,
+              0
+            ],
+            [
+              635.064,
+              651.208,
+              0
+            ],
+            [
+              635.125,
+              651.405,
+              0
+            ],
+            [
+              635.205,
+              651.665,
+              0
+            ],
+            [
+              635.305,
+              651.985,
+              0
+            ],
+            [
+              635.422,
+              652.364,
+              0
+            ],
+            [
+              635.556,
+              652.798,
+              0
+            ],
+            [
+              635.707,
+              653.285,
+              0
+            ],
+            [
+              635.873,
+              653.823,
+              0
+            ],
+            [
+              636.054,
+              654.408,
+              0
+            ],
+            [
+              636.249,
+              655.037,
+              0
+            ],
+            [
+              636.457,
+              655.709,
+              0
+            ],
+            [
+              636.678,
+              656.421,
+              0
+            ],
+            [
+              636.91,
+              657.173,
+              0
+            ],
+            [
+              637.155,
+              657.963,
+              0
+            ],
+            [
+              637.409,
+              658.784,
+              0
+            ],
+            [
+              637.673,
+              659.636,
+              0
+            ],
+            [
+              637.945,
+              660.517,
+              0
+            ],
+            [
+              638.226,
+              661.425,
+              0
+            ],
+            [
+              638.515,
+              662.358,
+              0
+            ],
+            [
+              638.811,
+              663.314,
+              0
+            ],
+            [
+              639.113,
+              664.29,
+              0
+            ],
+            [
+              639.421,
+              665.284,
+              0
+            ],
+            [
+              639.733,
+              666.292,
+              0
+            ],
+            [
+              640.049,
+              667.314,
+              0
+            ],
+            [
+              640.368,
+              668.344,
+              0
+            ],
+            [
+              640.689,
+              669.382,
+              0
+            ],
+            [
+              641.012,
+              670.425,
+              0
+            ],
+            [
+              641.336,
+              671.472,
+              0
+            ],
+            [
+              641.661,
+              672.521,
+              0
+            ],
+            [
+              641.985,
+              673.567,
+              0
+            ],
+            [
+              642.308,
+              674.61,
+              0
+            ],
+            [
+              642.629,
+              675.649,
+              0
+            ],
+            [
+              642.948,
+              676.68,
+              0
+            ],
+            [
+              643.265,
+              677.702,
+              0
+            ],
+            [
+              643.577,
+              678.711,
+              0
+            ],
+            [
+              643.885,
+              679.706,
+              0
+            ],
+            [
+              644.187,
+              680.683,
+              0
+            ],
+            [
+              644.483,
+              681.64,
+              0
+            ],
+            [
+              644.773,
+              682.575,
+              0
+            ],
+            [
+              645.054,
+              683.483,
+              0
+            ],
+            [
+              645.326,
+              684.363,
+              0
+            ],
+            [
+              645.59,
+              685.215,
+              0
+            ],
+            [
+              645.844,
+              686.036,
+              0
+            ],
+            [
+              646.088,
+              686.825,
+              0
+            ],
+            [
+              646.321,
+              687.577,
+              0
+            ],
+            [
+              646.542,
+              688.29,
+              0
+            ],
+            [
+              646.75,
+              688.962,
+              0
+            ],
+            [
+              646.945,
+              689.591,
+              0
+            ],
+            [
+              647.126,
+              690.177,
+              0
+            ],
+            [
+              647.292,
+              690.714,
+              0
+            ],
+            [
+              647.443,
+              691.201,
+              0
+            ],
+            [
+              647.577,
+              691.635,
+              0
+            ],
+            [
+              647.694,
+              692.014,
+              0
+            ],
+            [
+              647.794,
+              692.334,
+              0
+            ],
+            [
+              647.874,
+              692.594,
+              0
+            ],
+            [
+              647.935,
+              692.791,
+              0
+            ],
+            [
+              647.976,
+              692.924,
+              0
+            ],
+            [
+              647.997,
+              692.991,
+              0
+            ],
+            [
+              648,
+              693,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "dust_[00000-00023].png$2.alpha": {
+          "values": [
+            0,
+            0.359,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.359,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$3.translation": {
+          "values": [
+            [
+              472,
+              661,
+              0
+            ],
+            [
+              471.95,
+              661.01,
+              0
+            ],
+            [
+              471.804,
+              661.041,
+              0
+            ],
+            [
+              471.561,
+              661.093,
+              0
+            ],
+            [
+              471.225,
+              661.165,
+              0
+            ],
+            [
+              470.8,
+              661.255,
+              0
+            ],
+            [
+              470.291,
+              661.364,
+              0
+            ],
+            [
+              469.701,
+              661.489,
+              0
+            ],
+            [
+              469.033,
+              661.632,
+              0
+            ],
+            [
+              468.291,
+              661.79,
+              0
+            ],
+            [
+              467.478,
+              661.963,
+              0
+            ],
+            [
+              466.599,
+              662.15,
+              0
+            ],
+            [
+              465.656,
+              662.351,
+              0
+            ],
+            [
+              464.649,
+              662.566,
+              0
+            ],
+            [
+              463.584,
+              662.793,
+              0
+            ],
+            [
+              462.466,
+              663.031,
+              0
+            ],
+            [
+              461.297,
+              663.28,
+              0
+            ],
+            [
+              460.082,
+              663.539,
+              0
+            ],
+            [
+              458.821,
+              663.808,
+              0
+            ],
+            [
+              457.522,
+              664.085,
+              0
+            ],
+            [
+              456.184,
+              664.37,
+              0
+            ],
+            [
+              454.811,
+              664.663,
+              0
+            ],
+            [
+              453.406,
+              664.962,
+              0
+            ],
+            [
+              451.972,
+              665.268,
+              0
+            ],
+            [
+              450.516,
+              665.578,
+              0
+            ],
+            [
+              449.041,
+              665.892,
+              0
+            ],
+            [
+              447.551,
+              666.21,
+              0
+            ],
+            [
+              446.048,
+              666.53,
+              0
+            ],
+            [
+              444.534,
+              666.853,
+              0
+            ],
+            [
+              443.016,
+              667.176,
+              0
+            ],
+            [
+              441.495,
+              667.501,
+              0
+            ],
+            [
+              439.974,
+              667.825,
+              0
+            ],
+            [
+              438.456,
+              668.148,
+              0
+            ],
+            [
+              436.943,
+              668.471,
+              0
+            ],
+            [
+              435.44,
+              668.791,
+              0
+            ],
+            [
+              433.95,
+              669.108,
+              0
+            ],
+            [
+              432.477,
+              669.422,
+              0
+            ],
+            [
+              431.022,
+              669.732,
+              0
+            ],
+            [
+              429.59,
+              670.038,
+              0
+            ],
+            [
+              428.186,
+              670.337,
+              0
+            ],
+            [
+              426.814,
+              670.629,
+              0
+            ],
+            [
+              425.478,
+              670.914,
+              0
+            ],
+            [
+              424.179,
+              671.191,
+              0
+            ],
+            [
+              422.918,
+              671.459,
+              0
+            ],
+            [
+              421.703,
+              671.719,
+              0
+            ],
+            [
+              420.533,
+              671.968,
+              0
+            ],
+            [
+              419.414,
+              672.206,
+              0
+            ],
+            [
+              418.35,
+              672.433,
+              0
+            ],
+            [
+              417.344,
+              672.647,
+              0
+            ],
+            [
+              416.401,
+              672.848,
+              0
+            ],
+            [
+              415.521,
+              673.036,
+              0
+            ],
+            [
+              414.709,
+              673.209,
+              0
+            ],
+            [
+              413.967,
+              673.367,
+              0
+            ],
+            [
+              413.298,
+              673.51,
+              0
+            ],
+            [
+              412.708,
+              673.635,
+              0
+            ],
+            [
+              412.199,
+              673.744,
+              0
+            ],
+            [
+              411.774,
+              673.834,
+              0
+            ],
+            [
+              411.438,
+              673.906,
+              0
+            ],
+            [
+              411.195,
+              673.958,
+              0
+            ],
+            [
+              411.049,
+              673.989,
+              0
+            ],
+            [
+              411,
+              674,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "dust_[00000-00023].png$3.alpha": {
+          "values": [
+            0,
+            0.11,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.55,
+            0.11,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png$4.translation": {
+          "values": [
+            [
+              489,
+              670,
+              0
+            ],
+            [
+              488.979,
+              670.025,
+              0
+            ],
+            [
+              488.92,
+              670.102,
+              0
+            ],
+            [
+              488.821,
+              670.228,
+              0
+            ],
+            [
+              488.685,
+              670.402,
+              0
+            ],
+            [
+              488.513,
+              670.623,
+              0
+            ],
+            [
+              488.304,
+              670.889,
+              0
+            ],
+            [
+              488.062,
+              671.199,
+              0
+            ],
+            [
+              487.788,
+              671.551,
+              0
+            ],
+            [
+              487.482,
+              671.941,
+              0
+            ],
+            [
+              487.148,
+              672.369,
+              0
+            ],
+            [
+              486.787,
+              672.831,
+              0
+            ],
+            [
+              486.4,
+              673.327,
+              0
+            ],
+            [
+              485.987,
+              673.856,
+              0
+            ],
+            [
+              485.551,
+              674.414,
+              0
+            ],
+            [
+              485.092,
+              675.001,
+              0
+            ],
+            [
+              484.613,
+              675.614,
+              0
+            ],
+            [
+              484.115,
+              676.252,
+              0
+            ],
+            [
+              483.599,
+              676.913,
+              0
+            ],
+            [
+              483.066,
+              677.594,
+              0
+            ],
+            [
+              482.518,
+              678.296,
+              0
+            ],
+            [
+              481.955,
+              679.017,
+              0
+            ],
+            [
+              481.379,
+              679.754,
+              0
+            ],
+            [
+              480.791,
+              680.506,
+              0
+            ],
+            [
+              480.195,
+              681.269,
+              0
+            ],
+            [
+              479.59,
+              682.043,
+              0
+            ],
+            [
+              478.979,
+              682.825,
+              0
+            ],
+            [
+              478.363,
+              683.614,
+              0
+            ],
+            [
+              477.743,
+              684.408,
+              0
+            ],
+            [
+              477.121,
+              685.204,
+              0
+            ],
+            [
+              476.497,
+              686.002,
+              0
+            ],
+            [
+              475.874,
+              686.8,
+              0
+            ],
+            [
+              475.252,
+              687.596,
+              0
+            ],
+            [
+              474.632,
+              688.39,
+              0
+            ],
+            [
+              474.016,
+              689.178,
+              0
+            ],
+            [
+              473.406,
+              689.96,
+              0
+            ],
+            [
+              472.802,
+              690.733,
+              0
+            ],
+            [
+              472.206,
+              691.496,
+              0
+            ],
+            [
+              471.618,
+              692.247,
+              0
+            ],
+            [
+              471.043,
+              692.983,
+              0
+            ],
+            [
+              470.481,
+              693.703,
+              0
+            ],
+            [
+              469.933,
+              694.404,
+              0
+            ],
+            [
+              469.401,
+              695.086,
+              0
+            ],
+            [
+              468.884,
+              695.747,
+              0
+            ],
+            [
+              468.386,
+              696.385,
+              0
+            ],
+            [
+              467.907,
+              696.998,
+              0
+            ],
+            [
+              467.448,
+              697.585,
+              0
+            ],
+            [
+              467.012,
+              698.144,
+              0
+            ],
+            [
+              466.599,
+              698.672,
+              0
+            ],
+            [
+              466.212,
+              699.167,
+              0
+            ],
+            [
+              465.851,
+              699.63,
+              0
+            ],
+            [
+              465.517,
+              700.058,
+              0
+            ],
+            [
+              465.211,
+              700.448,
+              0
+            ],
+            [
+              464.937,
+              700.8,
+              0
+            ],
+            [
+              464.695,
+              701.11,
+              0
+            ],
+            [
+              464.486,
+              701.376,
+              0
+            ],
+            [
+              464.314,
+              701.597,
+              0
+            ],
+            [
+              464.178,
+              701.771,
+              0
+            ],
+            [
+              464.079,
+              701.897,
+              0
+            ],
+            [
+              464.02,
+              701.974,
+              0
+            ],
+            [
+              464,
+              702,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 5
+        },
+        "dust_[00000-00023].png$4.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.12,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 3
+        },
+        "dust_[00000-00023].png$5.translation": {
+          "values": [
+            [
+              520,
+              668,
+              0
+            ],
+            [
+              519.992,
+              668.018,
+              0
+            ],
+            [
+              519.958,
+              668.098,
+              0
+            ],
+            [
+              519.897,
+              668.24,
+              0
+            ],
+            [
+              519.811,
+              668.442,
+              0
+            ],
+            [
+              519.7,
+              668.704,
+              0
+            ],
+            [
+              519.565,
+              669.023,
+              0
+            ],
+            [
+              519.405,
+              669.398,
+              0
+            ],
+            [
+              519.224,
+              669.824,
+              0
+            ],
+            [
+              519.022,
+              670.3,
+              0
+            ],
+            [
+              518.799,
+              670.823,
+              0
+            ],
+            [
+              518.558,
+              671.391,
+              0
+            ],
+            [
+              518.299,
+              672.001,
+              0
+            ],
+            [
+              518.023,
+              672.651,
+              0
+            ],
+            [
+              517.73,
+              673.339,
+              0
+            ],
+            [
+              517.422,
+              674.064,
+              0
+            ],
+            [
+              517.1,
+              674.823,
+              0
+            ],
+            [
+              516.763,
+              675.614,
+              0
+            ],
+            [
+              516.415,
+              676.433,
+              0
+            ],
+            [
+              516.056,
+              677.278,
+              0
+            ],
+            [
+              515.686,
+              678.148,
+              0
+            ],
+            [
+              515.306,
+              679.042,
+              0
+            ],
+            [
+              514.917,
+              679.959,
+              0
+            ],
+            [
+              514.52,
+              680.893,
+              0
+            ],
+            [
+              514.116,
+              681.843,
+              0
+            ],
+            [
+              513.707,
+              682.806,
+              0
+            ],
+            [
+              513.292,
+              683.781,
+              0
+            ],
+            [
+              512.874,
+              684.765,
+              0
+            ],
+            [
+              512.453,
+              685.755,
+              0
+            ],
+            [
+              512.031,
+              686.75,
+              0
+            ],
+            [
+              511.607,
+              687.747,
+              0
+            ],
+            [
+              511.183,
+              688.744,
+              0
+            ],
+            [
+              510.759,
+              689.741,
+              0
+            ],
+            [
+              510.337,
+              690.734,
+              0
+            ],
+            [
+              509.918,
+              691.721,
+              0
+            ],
+            [
+              509.501,
+              692.701,
+              0
+            ],
+            [
+              509.089,
+              693.671,
+              0
+            ],
+            [
+              508.682,
+              694.63,
+              0
+            ],
+            [
+              508.281,
+              695.573,
+              0
+            ],
+            [
+              507.887,
+              696.499,
+              0
+            ],
+            [
+              507.502,
+              697.406,
+              0
+            ],
+            [
+              507.126,
+              698.289,
+              0
+            ],
+            [
+              506.761,
+              699.148,
+              0
+            ],
+            [
+              506.408,
+              699.98,
+              0
+            ],
+            [
+              506.066,
+              700.785,
+              0
+            ],
+            [
+              505.737,
+              701.559,
+              0
+            ],
+            [
+              505.421,
+              702.301,
+              0
+            ],
+            [
+              505.12,
+              703.009,
+              0
+            ],
+            [
+              504.836,
+              703.678,
+              0
+            ],
+            [
+              504.568,
+              704.308,
+              0
+            ],
+            [
+              504.318,
+              704.897,
+              0
+            ],
+            [
+              504.086,
+              705.443,
+              0
+            ],
+            [
+              503.873,
+              705.943,
+              0
+            ],
+            [
+              503.681,
+              706.395,
+              0
+            ],
+            [
+              503.511,
+              706.796,
+              0
+            ],
+            [
+              503.364,
+              707.142,
+              0
+            ],
+            [
+              503.24,
+              707.433,
+              0
+            ],
+            [
+              503.141,
+              707.666,
+              0
+            ],
+            [
+              503.068,
+              707.838,
+              0
+            ],
+            [
+              503.021,
+              707.949,
+              0
+            ],
+            [
+              503,
+              707.997,
+              0
+            ],
+            [
+              503,
+              708,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 16
+        },
+        "dust_[00000-00023].png$5.alpha": {
+          "values": [
+            0,
+            0.399,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.2,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "dust_[00000-00023].png$6.translation": {
+          "values": [
+            [
+              594,
+              653,
+              0
+            ],
+            [
+              594.022,
+              653.043,
+              0
+            ],
+            [
+              594.12,
+              653.236,
+              0
+            ],
+            [
+              594.296,
+              653.579,
+              0
+            ],
+            [
+              594.547,
+              654.072,
+              0
+            ],
+            [
+              594.871,
+              654.708,
+              0
+            ],
+            [
+              595.263,
+              655.475,
+              0
+            ],
+            [
+              595.722,
+              656.373,
+              0
+            ],
+            [
+              596.243,
+              657.395,
+              0
+            ],
+            [
+              596.825,
+              658.534,
+              0
+            ],
+            [
+              597.463,
+              659.786,
+              0
+            ],
+            [
+              598.157,
+              661.144,
+              0
+            ],
+            [
+              598.902,
+              662.605,
+              0
+            ],
+            [
+              599.697,
+              664.163,
+              0
+            ],
+            [
+              600.541,
+              665.815,
+              0
+            ],
+            [
+              601.429,
+              667.555,
+              0
+            ],
+            [
+              602.358,
+              669.376,
+              0
+            ],
+            [
+              603.327,
+              671.274,
+              0
+            ],
+            [
+              604.33,
+              673.239,
+              0
+            ],
+            [
+              605.366,
+              675.268,
+              0
+            ],
+            [
+              606.432,
+              677.357,
+              0
+            ],
+            [
+              607.527,
+              679.502,
+              0
+            ],
+            [
+              608.649,
+              681.7,
+              0
+            ],
+            [
+              609.792,
+              683.94,
+              0
+            ],
+            [
+              610.955,
+              686.218,
+              0
+            ],
+            [
+              612.134,
+              688.528,
+              0
+            ],
+            [
+              613.328,
+              690.867,
+              0
+            ],
+            [
+              614.534,
+              693.231,
+              0
+            ],
+            [
+              615.749,
+              695.61,
+              0
+            ],
+            [
+              616.969,
+              698.001,
+              0
+            ],
+            [
+              618.193,
+              700.399,
+              0
+            ],
+            [
+              619.417,
+              702.798,
+              0
+            ],
+            [
+              620.641,
+              705.196,
+              0
+            ],
+            [
+              621.859,
+              707.581,
+              0
+            ],
+            [
+              623.069,
+              709.953,
+              0
+            ],
+            [
+              624.269,
+              712.304,
+              0
+            ],
+            [
+              625.456,
+              714.628,
+              0
+            ],
+            [
+              626.628,
+              716.926,
+              0
+            ],
+            [
+              627.781,
+              719.185,
+              0
+            ],
+            [
+              628.914,
+              721.403,
+              0
+            ],
+            [
+              630.022,
+              723.575,
+              0
+            ],
+            [
+              631.104,
+              725.694,
+              0
+            ],
+            [
+              632.157,
+              727.757,
+              0
+            ],
+            [
+              633.176,
+              729.754,
+              0
+            ],
+            [
+              634.161,
+              731.684,
+              0
+            ],
+            [
+              635.11,
+              733.542,
+              0
+            ],
+            [
+              636.019,
+              735.323,
+              0
+            ],
+            [
+              636.886,
+              737.022,
+              0
+            ],
+            [
+              637.706,
+              738.629,
+              0
+            ],
+            [
+              638.477,
+              740.138,
+              0
+            ],
+            [
+              639.196,
+              741.548,
+              0
+            ],
+            [
+              639.862,
+              742.853,
+              0
+            ],
+            [
+              640.473,
+              744.05,
+              0
+            ],
+            [
+              641.025,
+              745.131,
+              0
+            ],
+            [
+              641.515,
+              746.091,
+              0
+            ],
+            [
+              641.94,
+              746.923,
+              0
+            ],
+            [
+              642.298,
+              747.626,
+              0
+            ],
+            [
+              642.587,
+              748.192,
+              0
+            ],
+            [
+              642.801,
+              748.61,
+              0
+            ],
+            [
+              642.938,
+              748.879,
+              0
+            ],
+            [
+              642.997,
+              748.995,
+              0
+            ],
+            [
+              643,
+              749,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$6.alpha": {
+          "values": [
+            0,
+            0.319,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.16,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 5
+        },
+        "dust_[00000-00023].png$7.translation": {
+          "values": [
+            [
+              691,
+              617,
+              0
+            ],
+            [
+              691.001,
+              617,
+              0
+            ],
+            [
+              691.026,
+              617.01,
+              0
+            ],
+            [
+              691.084,
+              617.032,
+              0
+            ],
+            [
+              691.175,
+              617.066,
+              0
+            ],
+            [
+              691.297,
+              617.113,
+              0
+            ],
+            [
+              691.45,
+              617.171,
+              0
+            ],
+            [
+              691.632,
+              617.24,
+              0
+            ],
+            [
+              691.842,
+              617.32,
+              0
+            ],
+            [
+              692.079,
+              617.411,
+              0
+            ],
+            [
+              692.342,
+              617.511,
+              0
+            ],
+            [
+              692.628,
+              617.62,
+              0
+            ],
+            [
+              692.937,
+              617.738,
+              0
+            ],
+            [
+              693.268,
+              617.864,
+              0
+            ],
+            [
+              693.619,
+              617.998,
+              0
+            ],
+            [
+              693.991,
+              618.139,
+              0
+            ],
+            [
+              694.381,
+              618.288,
+              0
+            ],
+            [
+              694.787,
+              618.443,
+              0
+            ],
+            [
+              695.21,
+              618.603,
+              0
+            ],
+            [
+              695.647,
+              618.77,
+              0
+            ],
+            [
+              696.098,
+              618.942,
+              0
+            ],
+            [
+              696.561,
+              619.118,
+              0
+            ],
+            [
+              697.036,
+              619.299,
+              0
+            ],
+            [
+              697.522,
+              619.484,
+              0
+            ],
+            [
+              698.017,
+              619.673,
+              0
+            ],
+            [
+              698.52,
+              619.864,
+              0
+            ],
+            [
+              699.029,
+              620.058,
+              0
+            ],
+            [
+              699.543,
+              620.254,
+              0
+            ],
+            [
+              700.061,
+              620.451,
+              0
+            ],
+            [
+              700.582,
+              620.65,
+              0
+            ],
+            [
+              701.105,
+              620.849,
+              0
+            ],
+            [
+              701.629,
+              621.049,
+              0
+            ],
+            [
+              702.152,
+              621.248,
+              0
+            ],
+            [
+              702.675,
+              621.447,
+              0
+            ],
+            [
+              703.194,
+              621.645,
+              0
+            ],
+            [
+              703.712,
+              621.842,
+              0
+            ],
+            [
+              704.223,
+              622.037,
+              0
+            ],
+            [
+              704.73,
+              622.23,
+              0
+            ],
+            [
+              705.229,
+              622.42,
+              0
+            ],
+            [
+              705.72,
+              622.607,
+              0
+            ],
+            [
+              706.201,
+              622.791,
+              0
+            ],
+            [
+              706.671,
+              622.97,
+              0
+            ],
+            [
+              707.129,
+              623.144,
+              0
+            ],
+            [
+              707.573,
+              623.313,
+              0
+            ],
+            [
+              708.002,
+              623.477,
+              0
+            ],
+            [
+              708.417,
+              623.635,
+              0
+            ],
+            [
+              708.815,
+              623.787,
+              0
+            ],
+            [
+              709.196,
+              623.932,
+              0
+            ],
+            [
+              709.558,
+              624.069,
+              0
+            ],
+            [
+              709.899,
+              624.199,
+              0
+            ],
+            [
+              710.219,
+              624.321,
+              0
+            ],
+            [
+              710.517,
+              624.435,
+              0
+            ],
+            [
+              710.792,
+              624.539,
+              0
+            ],
+            [
+              711.042,
+              624.635,
+              0
+            ],
+            [
+              711.266,
+              624.72,
+              0
+            ],
+            [
+              711.462,
+              624.795,
+              0
+            ],
+            [
+              711.63,
+              624.859,
+              0
+            ],
+            [
+              711.767,
+              624.911,
+              0
+            ],
+            [
+              711.873,
+              624.951,
+              0
+            ],
+            [
+              711.948,
+              624.98,
+              0
+            ],
+            [
+              711.99,
+              624.996,
+              0
+            ],
+            [
+              712,
+              625,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png$7.alpha": {
+          "values": [
+            0,
+            0.26,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.65,
+            0.519,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 12
+        },
+        "dust_[00000-00023].png$8.translation": {
+          "values": [
+            [
+              444,
+              640,
+              0
+            ],
+            [
+              443.995,
+              640.002,
+              0
+            ],
+            [
+              443.963,
+              640.018,
+              0
+            ],
+            [
+              443.9,
+              640.049,
+              0
+            ],
+            [
+              443.806,
+              640.096,
+              0
+            ],
+            [
+              443.683,
+              640.158,
+              0
+            ],
+            [
+              443.53,
+              640.234,
+              0
+            ],
+            [
+              443.35,
+              640.324,
+              0
+            ],
+            [
+              443.143,
+              640.428,
+              0
+            ],
+            [
+              442.911,
+              640.544,
+              0
+            ],
+            [
+              442.655,
+              640.672,
+              0
+            ],
+            [
+              442.377,
+              640.811,
+              0
+            ],
+            [
+              442.077,
+              640.961,
+              0
+            ],
+            [
+              441.757,
+              641.121,
+              0
+            ],
+            [
+              441.417,
+              641.291,
+              0
+            ],
+            [
+              441.059,
+              641.47,
+              0
+            ],
+            [
+              440.684,
+              641.657,
+              0
+            ],
+            [
+              440.293,
+              641.853,
+              0
+            ],
+            [
+              439.887,
+              642.056,
+              0
+            ],
+            [
+              439.468,
+              642.265,
+              0
+            ],
+            [
+              439.035,
+              642.482,
+              0
+            ],
+            [
+              438.59,
+              642.704,
+              0
+            ],
+            [
+              438.134,
+              642.932,
+              0
+            ],
+            [
+              437.669,
+              643.165,
+              0
+            ],
+            [
+              437.196,
+              643.401,
+              0
+            ],
+            [
+              436.715,
+              643.642,
+              0
+            ],
+            [
+              436.228,
+              643.885,
+              0
+            ],
+            [
+              435.737,
+              644.131,
+              0
+            ],
+            [
+              435.243,
+              644.378,
+              0
+            ],
+            [
+              434.746,
+              644.626,
+              0
+            ],
+            [
+              434.248,
+              644.875,
+              0
+            ],
+            [
+              433.748,
+              645.125,
+              0
+            ],
+            [
+              433.25,
+              645.374,
+              0
+            ],
+            [
+              432.753,
+              645.623,
+              0
+            ],
+            [
+              432.259,
+              645.87,
+              0
+            ],
+            [
+              431.768,
+              646.115,
+              0
+            ],
+            [
+              431.282,
+              646.358,
+              0
+            ],
+            [
+              430.802,
+              646.598,
+              0
+            ],
+            [
+              430.329,
+              646.835,
+              0
+            ],
+            [
+              429.864,
+              647.067,
+              0
+            ],
+            [
+              429.409,
+              647.295,
+              0
+            ],
+            [
+              428.964,
+              647.517,
+              0
+            ],
+            [
+              428.532,
+              647.733,
+              0
+            ],
+            [
+              428.112,
+              647.943,
+              0
+            ],
+            [
+              427.706,
+              648.146,
+              0
+            ],
+            [
+              427.315,
+              648.342,
+              0
+            ],
+            [
+              426.939,
+              648.53,
+              0
+            ],
+            [
+              426.581,
+              648.709,
+              0
+            ],
+            [
+              426.242,
+              648.878,
+              0
+            ],
+            [
+              425.922,
+              649.038,
+              0
+            ],
+            [
+              425.622,
+              649.188,
+              0
+            ],
+            [
+              425.344,
+              649.327,
+              0
+            ],
+            [
+              425.088,
+              649.455,
+              0
+            ],
+            [
+              424.856,
+              649.571,
+              0
+            ],
+            [
+              424.649,
+              649.675,
+              0
+            ],
+            [
+              424.469,
+              649.765,
+              0
+            ],
+            [
+              424.316,
+              649.841,
+              0
+            ],
+            [
+              424.193,
+              649.903,
+              0
+            ],
+            [
+              424.099,
+              649.95,
+              0
+            ],
+            [
+              424.036,
+              649.981,
+              0
+            ],
+            [
+              424.004,
+              649.997,
+              0
+            ],
+            [
+              424,
+              650,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "dust_[00000-00023].png$8.alpha": {
+          "values": [
+            0,
+            0.299,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.299,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$9.translation": {
+          "values": [
+            [
+              535,
+              763,
+              0
+            ],
+            [
+              535.035,
+              762.963,
+              0
+            ],
+            [
+              535.191,
+              762.803,
+              0
+            ],
+            [
+              535.471,
+              762.516,
+              0
+            ],
+            [
+              535.871,
+              762.106,
+              0
+            ],
+            [
+              536.388,
+              761.576,
+              0
+            ],
+            [
+              537.011,
+              760.936,
+              0
+            ],
+            [
+              537.741,
+              760.188,
+              0
+            ],
+            [
+              538.57,
+              759.337,
+              0
+            ],
+            [
+              539.496,
+              758.388,
+              0
+            ],
+            [
+              540.512,
+              757.345,
+              0
+            ],
+            [
+              541.616,
+              756.214,
+              0
+            ],
+            [
+              542.803,
+              754.996,
+              0
+            ],
+            [
+              544.07,
+              753.697,
+              0
+            ],
+            [
+              545.412,
+              752.32,
+              0
+            ],
+            [
+              546.826,
+              750.87,
+              0
+            ],
+            [
+              548.305,
+              749.353,
+              0
+            ],
+            [
+              549.847,
+              747.772,
+              0
+            ],
+            [
+              551.442,
+              746.135,
+              0
+            ],
+            [
+              553.091,
+              744.444,
+              0
+            ],
+            [
+              554.789,
+              742.702,
+              0
+            ],
+            [
+              556.533,
+              740.913,
+              0
+            ],
+            [
+              558.32,
+              739.081,
+              0
+            ],
+            [
+              560.139,
+              737.215,
+              0
+            ],
+            [
+              561.989,
+              735.318,
+              0
+            ],
+            [
+              563.866,
+              733.392,
+              0
+            ],
+            [
+              565.767,
+              731.444,
+              0
+            ],
+            [
+              567.688,
+              729.473,
+              0
+            ],
+            [
+              569.621,
+              727.49,
+              0
+            ],
+            [
+              571.564,
+              725.498,
+              0
+            ],
+            [
+              573.512,
+              723.5,
+              0
+            ],
+            [
+              575.461,
+              721.501,
+              0
+            ],
+            [
+              577.409,
+              719.503,
+              0
+            ],
+            [
+              579.347,
+              717.515,
+              0
+            ],
+            [
+              581.274,
+              715.539,
+              0
+            ],
+            [
+              583.184,
+              713.58,
+              0
+            ],
+            [
+              585.073,
+              711.642,
+              0
+            ],
+            [
+              586.94,
+              709.727,
+              0
+            ],
+            [
+              588.775,
+              707.845,
+              0
+            ],
+            [
+              590.578,
+              705.996,
+              0
+            ],
+            [
+              592.342,
+              704.186,
+              0
+            ],
+            [
+              594.063,
+              702.422,
+              0
+            ],
+            [
+              595.738,
+              700.704,
+              0
+            ],
+            [
+              597.361,
+              699.039,
+              0
+            ],
+            [
+              598.93,
+              697.43,
+              0
+            ],
+            [
+              600.44,
+              695.881,
+              0
+            ],
+            [
+              601.888,
+              694.396,
+              0
+            ],
+            [
+              603.268,
+              692.98,
+              0
+            ],
+            [
+              604.573,
+              691.642,
+              0
+            ],
+            [
+              605.799,
+              690.385,
+              0
+            ],
+            [
+              606.944,
+              689.211,
+              0
+            ],
+            [
+              608.004,
+              688.123,
+              0
+            ],
+            [
+              608.978,
+              687.125,
+              0
+            ],
+            [
+              609.856,
+              686.223,
+              0
+            ],
+            [
+              610.636,
+              685.424,
+              0
+            ],
+            [
+              611.312,
+              684.73,
+              0
+            ],
+            [
+              611.883,
+              684.144,
+              0
+            ],
+            [
+              612.343,
+              683.673,
+              0
+            ],
+            [
+              612.683,
+              683.324,
+              0
+            ],
+            [
+              612.901,
+              683.1,
+              0
+            ],
+            [
+              612.996,
+              683.004,
+              0
+            ],
+            [
+              613,
+              683,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 16
+        },
+        "dust_[00000-00023].png$9.alpha": {
+          "values": [
+            0,
+            0.319,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.16,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "dust_[00000-00023].png$10.translation": {
+          "values": [
+            [
+              710,
+              580,
+              0
+            ],
+            [
+              710.083,
+              579.987,
+              0
+            ],
+            [
+              710.333,
+              579.948,
+              0
+            ],
+            [
+              710.746,
+              579.885,
+              0
+            ],
+            [
+              711.32,
+              579.796,
+              0
+            ],
+            [
+              712.045,
+              579.685,
+              0
+            ],
+            [
+              712.912,
+              579.551,
+              0
+            ],
+            [
+              713.917,
+              579.397,
+              0
+            ],
+            [
+              715.058,
+              579.221,
+              0
+            ],
+            [
+              716.323,
+              579.027,
+              0
+            ],
+            [
+              717.708,
+              578.814,
+              0
+            ],
+            [
+              719.207,
+              578.583,
+              0
+            ],
+            [
+              720.815,
+              578.336,
+              0
+            ],
+            [
+              722.532,
+              578.071,
+              0
+            ],
+            [
+              724.347,
+              577.792,
+              0
+            ],
+            [
+              726.254,
+              577.499,
+              0
+            ],
+            [
+              728.247,
+              577.192,
+              0
+            ],
+            [
+              730.319,
+              576.873,
+              0
+            ],
+            [
+              732.467,
+              576.543,
+              0
+            ],
+            [
+              734.682,
+              576.202,
+              0
+            ],
+            [
+              736.963,
+              575.851,
+              0
+            ],
+            [
+              739.302,
+              575.491,
+              0
+            ],
+            [
+              741.693,
+              575.124,
+              0
+            ],
+            [
+              744.133,
+              574.748,
+              0
+            ],
+            [
+              746.609,
+              574.367,
+              0
+            ],
+            [
+              749.12,
+              573.981,
+              0
+            ],
+            [
+              751.661,
+              573.59,
+              0
+            ],
+            [
+              754.224,
+              573.196,
+              0
+            ],
+            [
+              756.809,
+              572.798,
+              0
+            ],
+            [
+              759.401,
+              572.399,
+              0
+            ],
+            [
+              762,
+              571.999,
+              0
+            ],
+            [
+              764.598,
+              571.6,
+              0
+            ],
+            [
+              767.19,
+              571.201,
+              0
+            ],
+            [
+              769.775,
+              570.803,
+              0
+            ],
+            [
+              772.338,
+              570.409,
+              0
+            ],
+            [
+              774.879,
+              570.018,
+              0
+            ],
+            [
+              777.39,
+              569.632,
+              0
+            ],
+            [
+              779.867,
+              569.251,
+              0
+            ],
+            [
+              782.307,
+              568.875,
+              0
+            ],
+            [
+              784.698,
+              568.507,
+              0
+            ],
+            [
+              787.036,
+              568.148,
+              0
+            ],
+            [
+              789.315,
+              567.797,
+              0
+            ],
+            [
+              791.53,
+              567.456,
+              0
+            ],
+            [
+              793.679,
+              567.126,
+              0
+            ],
+            [
+              795.752,
+              566.807,
+              0
+            ],
+            [
+              797.745,
+              566.5,
+              0
+            ],
+            [
+              799.653,
+              566.207,
+              0
+            ],
+            [
+              801.468,
+              565.927,
+              0
+            ],
+            [
+              803.183,
+              565.664,
+              0
+            ],
+            [
+              804.791,
+              565.416,
+              0
+            ],
+            [
+              806.29,
+              565.186,
+              0
+            ],
+            [
+              807.675,
+              564.972,
+              0
+            ],
+            [
+              808.941,
+              564.778,
+              0
+            ],
+            [
+              810.081,
+              564.602,
+              0
+            ],
+            [
+              811.087,
+              564.448,
+              0
+            ],
+            [
+              811.954,
+              564.314,
+              0
+            ],
+            [
+              812.679,
+              564.203,
+              0
+            ],
+            [
+              813.253,
+              564.114,
+              0
+            ],
+            [
+              813.666,
+              564.051,
+              0
+            ],
+            [
+              813.916,
+              564.012,
+              0
+            ],
+            [
+              814,
+              564,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 5
+        },
+        "dust_[00000-00023].png$10.alpha": {
+          "values": [
+            0,
+            0.12,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.12,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 3
+        },
+        "Shape_Animation.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.599,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 21
+        },
+        "Shape_Animation$12.alpha": {
+          "values": [
+            0,
+            0.799,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 20
+        },
+        "Shape_Animation$13.alpha": {
+          "values": [
+            0,
+            0.2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.2,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 18
+        },
+        "Shape_Animation$14.alpha": {
+          "values": [
+            0,
+            0.4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.799,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 17
+        },
+        "Shape_Animation$15.alpha": {
+          "values": [
+            0,
+            0.599,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.599,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 16
+        },
+        "chest_a4_controller.translation": {
+          "values": [
+            [
+              566.812,
+              608.75,
+              0
+            ],
+            [
+              566.812,
+              610.337,
+              0
+            ],
+            [
+              566.812,
+              614.735,
+              0
+            ],
+            [
+              566.812,
+              620.505,
+              0
+            ],
+            [
+              566.812,
+              626.345,
+              0
+            ],
+            [
+              566.812,
+              629.755,
+              0
+            ],
+            [
+              566.812,
+              622.56,
+              0
+            ],
+            [
+              566.812,
+              610.609,
+              0
+            ],
+            [
+              566.812,
+              597.567,
+              0
+            ],
+            [
+              566.812,
+              587.062,
+              0
+            ],
+            [
+              566.812,
+              582.75,
+              0
+            ],
+            [
+              566.812,
+              585.454,
+              0
+            ],
+            [
+              566.812,
+              591.904,
+              0
+            ],
+            [
+              566.812,
+              599.591,
+              0
+            ],
+            [
+              566.812,
+              606.046,
+              0
+            ],
+            [
+              566.812,
+              608.75,
+              0
+            ],
+            [
+              566.812,
+              606.605,
+              0
+            ],
+            [
+              566.812,
+              601.695,
+              0
+            ],
+            [
+              566.812,
+              601.139,
+              0
+            ],
+            [
+              566.812,
+              603.568,
+              0
+            ],
+            [
+              566.812,
+              606.675,
+              0
+            ],
+            [
+              566.812,
+              608.649,
+              0
+            ],
+            [
+              566.812,
+              608.75,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "chest_a4_controller.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              0.982,
+              1
+            ],
+            [
+              1.01,
+              0.94,
+              1
+            ],
+            [
+              1.015,
+              0.889,
+              1
+            ],
+            [
+              1.013,
+              0.847,
+              1
+            ],
+            [
+              1,
+              0.83,
+              1
+            ],
+            [
+              0.986,
+              0.847,
+              1
+            ],
+            [
+              0.984,
+              0.889,
+              1
+            ],
+            [
+              0.989,
+              0.94,
+              1
+            ],
+            [
+              0.996,
+              0.982,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "light_chest_[0001-0012].png.scale": {
+          "values": [
+            [
+              4.986,
+              3.794,
+              1
+            ],
+            [
+              5.725,
+              4.356,
+              1
+            ],
+            [
+              7.302,
+              5.556,
+              1
+            ],
+            [
+              8.762,
+              6.666,
+              1
+            ],
+            [
+              9.2,
+              7,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "light_chest_[0001-0012].png.alpha": {
+          "values": [
+            0,
+            0.259,
+            0.519,
+            0.65
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a__6.png.alpha": {
+          "values": [
+            1,
+            0.2,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a__6.png$18.translation": {
+          "values": [
+            [
+              564.937,
+              512.75,
+              0
+            ],
+            [
+              564.937,
+              512.574,
+              0
+            ],
+            [
+              564.937,
+              512.2,
+              0
+            ],
+            [
+              564.937,
+              511.854,
+              0
+            ],
+            [
+              564.937,
+              511.75,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a__6.png$18.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.912,
+              1
+            ],
+            [
+              1,
+              0.725,
+              1
+            ],
+            [
+              1,
+              0.551,
+              1
+            ],
+            [
+              1,
+              0.5,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a__6.png$18.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0.003,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.009,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.015,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0.017,
+              0.999
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a__6.png$18.alpha": {
+          "values": [
+            0,
+            0.153,
+            1,
+            0.999,
+            1,
+            0.861,
+            0.216,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 13
+        },
+        "Gold_a_b_4.scale": {
+          "values": [
+            [
+              0.92,
+              0.7,
+              1
+            ],
+            [
+              0.928,
+              0.731,
+              1
+            ],
+            [
+              0.971,
+              0.894,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 17
+        },
+        "Gold_a_b_4.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0.061,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.055,
+              0.998
+            ],
+            [
+              0,
+              0,
+              0.027,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 17
+        },
+        "Gold_a_b_4.alpha": {
+          "values": [
+            0,
+            0.599,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 16
+        },
+        "ltp_a__7.png.translation": {
+          "values": [
+            [
+              566.812,
+              608.75,
+              0
+            ],
+            [
+              566.812,
+              610.337,
+              0
+            ],
+            [
+              566.812,
+              614.735,
+              0
+            ],
+            [
+              566.812,
+              620.505,
+              0
+            ],
+            [
+              566.812,
+              626.345,
+              0
+            ],
+            [
+              566.812,
+              629.755,
+              0
+            ],
+            [
+              566.812,
+              622.56,
+              0
+            ],
+            [
+              566.812,
+              610.609,
+              0
+            ],
+            [
+              566.812,
+              597.567,
+              0
+            ],
+            [
+              566.812,
+              587.062,
+              0
+            ],
+            [
+              566.812,
+              582.75,
+              0
+            ],
+            [
+              566.812,
+              585.454,
+              0
+            ],
+            [
+              566.812,
+              591.904,
+              0
+            ],
+            [
+              566.812,
+              599.591,
+              0
+            ],
+            [
+              566.812,
+              606.046,
+              0
+            ],
+            [
+              566.812,
+              608.75,
+              0
+            ],
+            [
+              566.812,
+              606.605,
+              0
+            ],
+            [
+              566.812,
+              601.695,
+              0
+            ],
+            [
+              566.812,
+              601.139,
+              0
+            ],
+            [
+              566.812,
+              603.568,
+              0
+            ],
+            [
+              566.812,
+              606.675,
+              0
+            ],
+            [
+              566.812,
+              608.649,
+              0
+            ],
+            [
+              566.812,
+              608.75,
+              0
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_a__7.png.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.003,
+              0.982,
+              1
+            ],
+            [
+              1.01,
+              0.94,
+              1
+            ],
+            [
+              1.015,
+              0.889,
+              1
+            ],
+            [
+              1.013,
+              0.847,
+              1
+            ],
+            [
+              1,
+              0.83,
+              1
+            ],
+            [
+              0.986,
+              0.847,
+              1
+            ],
+            [
+              0.984,
+              0.889,
+              1
+            ],
+            [
+              0.989,
+              0.94,
+              1
+            ],
+            [
+              0.996,
+              0.982,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              0.999,
+              0.999,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "ltp_a__7.png.alpha": {
+          "values": [
+            1,
+            0.549,
+            0.012,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 15
+        },
+        "ltp_a_4_ope_2.png.scale": {
+          "values": [
+            [
+              1,
+              0.35,
+              1
+            ],
+            [
+              1,
+              0.615,
+              1
+            ],
+            [
+              0.999,
+              0.931,
+              1
+            ],
+            [
+              0.999,
+              1.123,
+              1
+            ],
+            [
+              0.999,
+              1.108,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 20
+        },
+        "ltp_a_4_ope_2.png.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_a_4_ope_2.png.alpha": {
+          "values": [
+            0,
+            0.2,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 18
+        },
+        "ltp_a_4_ope_3.png.alpha": {
+          "values": [
+            0,
+            0.2,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15,
+            15,
+            16,
+            16,
+            17,
+            17,
+            17,
+            18,
+            18,
+            19,
+            19,
+            19,
+            20,
+            20,
+            21,
+            21,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 15
+        },
+        "dust_[00000-00023].png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png$2.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15,
+            15,
+            16,
+            16,
+            17,
+            17,
+            17,
+            18,
+            18,
+            19,
+            19,
+            19,
+            20,
+            20,
+            21,
+            21,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 8
+        },
+        "dust_[00000-00023].png$2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 7
+        },
+        "dust_[00000-00023].png$3.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 16
+        },
+        "dust_[00000-00023].png$3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 14
+        },
+        "dust_[00000-00023].png$4.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 4
+        },
+        "dust_[00000-00023].png$5.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 17
+        },
+        "dust_[00000-00023].png$5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 16
+        },
+        "dust_[00000-00023].png$6.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 7
+        },
+        "dust_[00000-00023].png$6.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$7.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15,
+            15,
+            16,
+            16,
+            17,
+            17,
+            17,
+            18,
+            18,
+            19,
+            19,
+            19,
+            20,
+            20,
+            21,
+            21,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 15
+        },
+        "dust_[00000-00023].png$7.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 13
+        },
+        "dust_[00000-00023].png$8.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            13,
+            14,
+            14,
+            15,
+            15,
+            15,
+            16,
+            16,
+            17,
+            17,
+            17,
+            18,
+            18,
+            19,
+            19,
+            19,
+            20,
+            20,
+            21,
+            21,
+            21,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 8
+        },
+        "dust_[00000-00023].png$8.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 7
+        },
+        "dust_[00000-00023].png$9.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 17
+        },
+        "dust_[00000-00023].png$9.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 16
+        },
+        "dust_[00000-00023].png$10.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            12,
+            13,
+            13,
+            14,
+            14,
+            14,
+            15,
+            15,
+            16,
+            16,
+            16,
+            17,
+            17,
+            18,
+            18,
+            18,
+            19,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22,
+            22,
+            22,
+            23
+          ],
+          "len": 120,
+          "cutf": 6
+        },
+        "dust_[00000-00023].png$10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 4
+        },
+        "Shape_Animation.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 22
+        },
+        "Shape_Animation$12.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 21
+        },
+        "Shape_Animation$13.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 19
+        },
+        "Shape_Animation$14.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 18
+        },
+        "Shape_Animation$15.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 17
+        },
+        "light_chest_[0001-0012].png.curFrame": {
+          "duration": 4,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11,
+            11,
+            11,
+            11,
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            10,
+            11
+          ],
+          "len": 120,
+          "cutf": 1
+        },
+        "light_chest_[0001-0012].png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "chest_a4_controller.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_a__6.png$18.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 14
+        },
+        "Gold_a_b_4.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "ltp_a__6.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 14
+        },
+        "ltp_a__7.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 17
+        },
+        "ltp_a_4_ope_2.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 19
+        },
+        "ltp_a_4_ope_3.png.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 14
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 3,
+          "duration": 1
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "dust_[00000-00023].png",
+        "dust_[00000-00023].png$2",
+        "dust_[00000-00023].png$3",
+        "dust_[00000-00023].png$4",
+        "dust_[00000-00023].png$5",
+        "dust_[00000-00023].png$6",
+        "dust_[00000-00023].png$7",
+        "dust_[00000-00023].png$8",
+        "dust_[00000-00023].png$9",
+        "dust_[00000-00023].png$10",
+        "Shape_Animation",
+        "Shape_Animation$12",
+        "Shape_Animation$13",
+        "Shape_Animation$14",
+        "Shape_Animation$15",
+        "light_chest_[0001-0012].png",
+        "chest_a4_controller",
+        "ltp_a__6.png$18",
+        "Gold_a_b_4",
+        "ltp_a__6.png",
+        "ltp_a__7.png",
+        "ltp_a_4_ope_2.png",
+        "ltp_a_4_ope_3.png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Mermaid_BG_Opt%20(converted).aep",
+  "version": 1
+}

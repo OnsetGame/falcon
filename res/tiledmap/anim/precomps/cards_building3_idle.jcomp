@@ -1,0 +1,63 @@
+{
+  "name": "cards_building3_idle",
+  "children": [
+    {
+      "name": "cards_building3",
+      "translation": [
+        0,
+        2400,
+        0
+      ],
+      "anchor": [
+        0,
+        2400,
+        0
+      ],
+      "compositionRef": "cards_building3",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "cards_building3.enabled": {
+          "duration": 5.04166666666667,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": true,
+          "len": 121,
+          "cutf": 120
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 2
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 5.04166666666667
+        }
+      },
+      "layers": [
+        "cards_building3"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "version": 1
+}

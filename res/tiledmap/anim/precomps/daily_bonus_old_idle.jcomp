@@ -1,0 +1,62 @@
+{
+  "name": "daily_bonus_old_idle",
+  "children": [
+    {
+      "name": "daily_bonus_old",
+      "translation": [
+        0,
+        1920,
+        0
+      ],
+      "anchor": [
+        0,
+        1920,
+        0
+      ],
+      "compositionRef": "daily_bonus_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "daily_bonus_old.enabled": {
+          "duration": 6,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 180,
+          "cutf": 179
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6
+        }
+      },
+      "layers": [
+        "daily_bonus_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "daily_bonus_old_dev.aep",
+  "version": 1
+}

@@ -1,0 +1,195 @@
+{
+  "name": "Button_blue",
+  "children": [
+    {
+      "name": "bluebutt_on.png",
+      "translation": [
+        154,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/panels/bluebutt_on.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "bluebutt_off.png",
+      "translation": [
+        154,
+        48,
+        0
+      ],
+      "anchor": [
+        150,
+        42,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "fileNames": [
+            "../assets/panels/bluebutt_off.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "translation": [
+        153.5,
+        56,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "text": "CONTINUE",
+          "font": "Exo2-Black",
+          "fontSize": 32,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "_c": "Text",
+          "shadowRadius": 4.0,
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "animations": {
+    "button_down": {
+      "title.translation": {
+        "values": [
+          [
+            153.5,
+            56,
+            0
+          ],
+          [
+            153.5,
+            56,
+            0
+          ],
+          [
+            153.5,
+            57.2040138090547,
+            0
+          ],
+          [
+            153.5,
+            58.8014983799339,
+            0
+          ],
+          [
+            153.5,
+            59.9517078697404,
+            0
+          ],
+          [
+            153.5,
+            59.7521433608657,
+            0
+          ],
+          [
+            153.5,
+            59.551047399678,
+            0
+          ]
+        ],
+        "duration": 0.20833333333333
+      },
+      "bluebutt_off.png.alpha": {
+        "values": [
+          1,
+          0.7333984375,
+          0.466796875,
+          0.19986979166667,
+          0,
+          0,
+          0
+        ],
+        "duration": 0.20833333333333
+      }
+    },
+    "button_up": {
+      "title.translation": {
+        "values": [
+          [
+            153.5,
+            59.5012724033371,
+            0
+          ],
+          [
+            153.5,
+            59.3015169087586,
+            0
+          ],
+          [
+            153.5,
+            59.102572030675,
+            0
+          ],
+          [
+            153.5,
+            58.3993129064301,
+            0
+          ],
+          [
+            153.5,
+            57.2008342933512,
+            0
+          ],
+          [
+            153.5,
+            56,
+            0
+          ],
+          [
+            153.5,
+            56,
+            0
+          ]
+        ],
+        "duration": 0.20833333333334
+      },
+      "bluebutt_off.png.alpha": {
+        "values": [
+          0,
+          0,
+          0,
+          0.13346354166667,
+          0.40006510416667,
+          0.66666666666667,
+          0.93326822916667
+        ],
+        "duration": 0.20833333333334
+      }
+    }
+  },
+  "aep_name": "GUI_tournaments_window_layout.aep",
+  "version": 1
+}

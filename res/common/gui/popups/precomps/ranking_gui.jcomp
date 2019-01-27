@@ -1,0 +1,174 @@
+{
+  "name": "ranking_gui",
+  "children": [
+    {
+      "name": "ranking_coming_soon",
+      "translation": [
+        960.695,
+        545.16,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 2,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "text": "Coming soon...",
+          "font": "Exo2-Black",
+          "fontSize": 72,
+          "color": [
+            0.60000002384186,
+            0.44705998897552,
+            0.29020002484322
+          ],
+          "justification": "haCenter",
+          "shadowColor": [
+            0,
+            0,
+            0,
+            0.4
+          ],
+          "shadowOff": [
+            -3.67394039744206e-16,
+            2
+          ],
+          "shadowRadius": 4,
+          "shadowSpread": 0,
+          "_c": "Text"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "ranking_coming_soon.scale": {
+          "values": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1.01,
+              1.01,
+              1
+            ],
+            [
+              1.035,
+              1.035,
+              1
+            ],
+            [
+              1.064,
+              1.064,
+              1
+            ],
+            [
+              1.089,
+              1.089,
+              1
+            ],
+            [
+              1.1,
+              1.1,
+              1
+            ],
+            [
+              1.099,
+              1.092,
+              1
+            ],
+            [
+              1.096,
+              1.065,
+              1
+            ],
+            [
+              1.091,
+              1.002,
+              1
+            ],
+            [
+              1.077,
+              0.857,
+              1
+            ],
+            [
+              1.025,
+              0.278,
+              1
+            ],
+            [
+              1.004,
+              0.05,
+              1
+            ],
+            [
+              1,
+              0.004,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 40
+        },
+        "ranking_coming_soon.alpha": {
+          "values": [
+            0,
+            0.332,
+            0.665,
+            0.999,
+            1
+          ],
+          "duration": 2,
+          "len": 60,
+          "cutf": 0
+        },
+        "ranking_coming_soon.enabled": {
+          "duration": 2,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 60,
+          "cutf": 59
+        }
+      },
+      "markers": {
+        "in": {
+          "start": 0,
+          "duration": 0.79166666666667
+        },
+        "out": {
+          "start": 1.33333333333333,
+          "duration": 0.41666666666667
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 2
+        }
+      },
+      "layers": [
+        "ranking_coming_soon"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017_ico_version.aep",
+  "version": 1
+}

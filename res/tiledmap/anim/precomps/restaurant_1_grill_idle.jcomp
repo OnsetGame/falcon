@@ -1,0 +1,62 @@
+{
+  "name": "restaurant_1_grill_idle",
+  "children": [
+    {
+      "name": "restaurant_1_grill",
+      "translation": [
+        0,
+        1114,
+        0
+      ],
+      "anchor": [
+        0,
+        1114,
+        0
+      ],
+      "compositionRef": "restaurant_1_grill",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 6.75,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 6.75,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "restaurant_1_grill.enabled": {
+          "duration": 6.75,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 203,
+          "cutf": 202
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 6.75
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 6.75
+        }
+      },
+      "layers": [
+        "restaurant_1_grill"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "restaurant_a_all_dev.aep",
+  "version": 1
+}

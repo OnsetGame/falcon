@@ -1,0 +1,42 @@
+{
+  "name": "ship",
+  "children": [
+    {
+      "name": "ship_idle",
+      "translation": [
+        115.0,
+        118.8,
+        0
+      ],
+      "anchor": [
+        99.5,
+        90.5,
+        0
+      ],
+      "scale": [
+        1.11,
+        1.11,
+        1
+      ],
+      "compositionRef": "ship_idle.json",
+      "affectsChildren": false
+    },
+    {
+      "name": "ship_win",
+      "translation": [
+        113.5,
+        112,
+        0
+      ],
+      "anchor": [
+        113.5,
+        112,
+        0
+      ],
+      "compositionRef": "ship_win.json",
+      "affectsChildren": false
+    }
+  ],
+  "aep_name": "Characters_Optimization_and_Spin.aep",
+  "version": 1
+}

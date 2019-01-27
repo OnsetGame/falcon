@@ -1,0 +1,470 @@
+{
+  "name": "electro",
+  "children": [
+    {
+      "name": "electro_c_[1-9].png",
+      "translation": [
+        96,
+        145,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        48,
+        72,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 2.291,
+          "outPoint": 2.934,
+          "scale": 1,
+          "startTime": 2.291,
+          "duration": 0.64285714285714,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/electro_c/electro_c_1.png",
+            "../sources/electro_c/electro_c_2.png",
+            "../sources/electro_c/electro_c_3.png",
+            "../sources/electro_c/electro_c_4.png",
+            "../sources/electro_c/electro_c_5.png",
+            "../sources/electro_c/electro_c_6.png",
+            "../sources/electro_c/electro_c_7.png",
+            "../sources/electro_c/electro_c_8.png",
+            "../sources/electro_c/electro_c_9.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "electro_b_[1-15].png",
+      "translation": [
+        96,
+        145,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        48,
+        72,
+        0
+      ],
+      "alpha": 0,
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 1.166,
+          "outPoint": 2.238,
+          "scale": 1,
+          "startTime": 1.166,
+          "duration": 1.07142857142857,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/electro_b/electro_b_1.png",
+            "../sources/electro_b/electro_b_2.png",
+            "../sources/electro_b/electro_b_3.png",
+            "../sources/electro_b/electro_b_4.png",
+            "../sources/electro_b/electro_b_5.png",
+            "../sources/electro_b/electro_b_6.png",
+            "../sources/electro_b/electro_b_7.png",
+            "../sources/electro_b/electro_b_8.png",
+            "../sources/electro_b/electro_b_9.png",
+            "../sources/electro_b/electro_b_10.png",
+            "../sources/electro_b/electro_b_11.png",
+            "../sources/electro_b/electro_b_12.png",
+            "../sources/electro_b/electro_b_13.png",
+            "../sources/electro_b/electro_b_14.png",
+            "../sources/electro_b/electro_b_15.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "electro_a_[1-15].png",
+      "translation": [
+        96,
+        145,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ],
+      "anchor": [
+        48,
+        72,
+        0
+      ],
+      "affectsChildren": false,
+      "components": [
+        {
+          "_c": "VisualModifier",
+          "blendMode": "ADD"
+        },
+        {
+          "inPoint": 0,
+          "outPoint": 1.071,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 1.07142857142857,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../sources/electro_a/electro_a_1.png",
+            "../sources/electro_a/electro_a_2.png",
+            "../sources/electro_a/electro_a_3.png",
+            "../sources/electro_a/electro_a_4.png",
+            "../sources/electro_a/electro_a_5.png",
+            "../sources/electro_a/electro_a_6.png",
+            "../sources/electro_a/electro_a_7.png",
+            "../sources/electro_a/electro_a_8.png",
+            "../sources/electro_a/electro_a_9.png",
+            "../sources/electro_a/electro_a_10.png",
+            "../sources/electro_a/electro_a_11.png",
+            "../sources/electro_a/electro_a_12.png",
+            "../sources/electro_a/electro_a_13.png",
+            "../sources/electro_a/electro_a_14.png",
+            "../sources/electro_a/electro_a_15.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "electro_a_[1-15].png.alpha": {
+          "values": [
+            1,
+            0.799,
+            0
+          ],
+          "duration": 3.20833333333333,
+          "len": 97,
+          "cutf": 33
+        },
+        "electro_b_[1-15].png.alpha": {
+          "values": [
+            0,
+            0.2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.4,
+            0
+          ],
+          "duration": 3.20833333333333,
+          "len": 97,
+          "cutf": 33
+        },
+        "electro_c_[1-9].png.alpha": {
+          "values": [
+            0,
+            0.4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0.2
+          ],
+          "duration": 3.20833333333333,
+          "len": 97,
+          "cutf": 67
+        },
+        "electro_a_[1-15].png.curFrame": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            14
+          ],
+          "len": 97,
+          "cutf": 1
+        },
+        "electro_a_[1-15].png.enabled": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 32
+        },
+        "electro_b_[1-15].png.curFrame": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10,
+            10,
+            11,
+            11,
+            12,
+            12,
+            13,
+            13,
+            14
+          ],
+          "len": 97,
+          "cutf": 36
+        },
+        "electro_b_[1-15].png.enabled": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 34
+        },
+        "electro_c_[1-9].png.curFrame": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "frameLerp": false,
+          "values": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            7,
+            8
+          ],
+          "len": 97,
+          "cutf": 69
+        },
+        "electro_c_[1-9].png.enabled": {
+          "duration": 3.20833333333333,
+          "animScale": 1,
+          "values": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 97,
+          "cutf": 68
+        }
+      },
+      "markers": {
+        "play1": {
+          "start": 0,
+          "duration": 1.16666666666667
+        },
+        "play2": {
+          "start": 1.16666666666667,
+          "duration": 1.125
+        },
+        "play3": {
+          "start": 2.29166666666667,
+          "duration": 0.875
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 3.20833333333333
+        }
+      },
+      "layers": [
+        "electro_a_[1-15].png",
+        "electro_b_[1-15].png",
+        "electro_c_[1-9].png"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "BonusGame_Update.aep",
+  "version": 1
+}

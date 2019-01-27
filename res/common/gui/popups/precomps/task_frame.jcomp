@@ -1,0 +1,253 @@
+{
+  "name": "task_frame",
+  "children": [
+    {
+      "name": "task_play",
+      "translation": [
+        216,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0.707,
+        0,
+        0.707
+      ],
+      "anchor": [
+        216,
+        0,
+        0
+      ],
+      "alpha": 0,
+      "compositionRef": "task_play",
+      "components": [
+        {
+          "inPoint": 0.208,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    },
+    {
+      "name": "task_frame_skip",
+      "translation": [
+        216,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "anchor": [
+        216,
+        0,
+        0
+      ],
+      "compositionRef": "task_frame_skip",
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 0.25,
+          "scale": 1,
+          "startTime": -0.125,
+          "duration": 4,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "task_frame_skip.rotation": {
+          "values": [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -0.038,
+              0,
+              0.999
+            ],
+            [
+              0,
+              -0.137,
+              0,
+              0.99
+            ],
+            [
+              0,
+              -0.273,
+              0,
+              0.962
+            ],
+            [
+              0,
+              -0.418,
+              0,
+              0.908
+            ],
+            [
+              0,
+              -0.549,
+              0,
+              0.835
+            ],
+            [
+              0,
+              -0.647,
+              0,
+              0.762
+            ],
+            [
+              0,
+              -0.699,
+              0,
+              0.714
+            ],
+            [
+              0,
+              -0.707,
+              0,
+              0.707
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 0
+        },
+        "task_frame_skip.alpha": {
+          "values": [
+            1,
+            0.599,
+            0
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 7
+        },
+        "task_play.rotation": {
+          "values": [
+            [
+              0,
+              0.707,
+              0,
+              0.707
+            ],
+            [
+              0,
+              0.691,
+              0,
+              0.722
+            ],
+            [
+              0,
+              0.626,
+              0,
+              0.779
+            ],
+            [
+              0,
+              0.519,
+              0,
+              0.854
+            ],
+            [
+              0,
+              0.382,
+              0,
+              0.923
+            ],
+            [
+              0,
+              0.237,
+              0,
+              0.971
+            ],
+            [
+              0,
+              0.108,
+              0,
+              0.994
+            ],
+            [
+              0,
+              0.021,
+              0,
+              0.999
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 6
+        },
+        "task_play.alpha": {
+          "values": [
+            0,
+            0.799,
+            1
+          ],
+          "duration": 4,
+          "len": 120,
+          "cutf": 5
+        },
+        "task_frame_skip.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 7
+        },
+        "task_play.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false,
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 6
+        }
+      },
+      "markers": {
+        "flip": {
+          "start": 0,
+          "duration": 0.45833333333333
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "task_frame_skip",
+        "task_play"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_choose_task.aep",
+  "version": 1
+}

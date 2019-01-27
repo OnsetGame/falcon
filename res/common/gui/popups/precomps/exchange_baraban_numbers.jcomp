@@ -1,0 +1,222 @@
+{
+  "name": "exchange_baraban_numbers",
+  "children": [
+    {
+      "name": "x10",
+      "translation": [
+        108,
+        94.187,
+        0
+      ],
+      "anchor": [
+        113,
+        99,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_10.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "x5",
+      "translation": [
+        108,
+        99,
+        0
+      ],
+      "anchor": [
+        95,
+        101,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_5.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "x3",
+      "translation": [
+        108,
+        99.875,
+        0
+      ],
+      "anchor": [
+        95,
+        101,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_3.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "x2",
+      "translation": [
+        108,
+        102,
+        0
+      ],
+      "anchor": [
+        95,
+        103,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_2.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    },
+    {
+      "name": "x1",
+      "translation": [
+        108,
+        99.75,
+        0
+      ],
+      "anchor": [
+        71,
+        95,
+        0
+      ],
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0.75,
+          "duration": 0,
+          "_c": "AELayer"
+        },
+        {
+          "fileNames": [
+            "../assets/ltp_1.png"
+          ],
+          "_c": "Sprite"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "x1.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "x2.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "x3.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "x5.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        },
+        "x10.enabled": {
+          "duration": 4,
+          "animScale": 1,
+          "values": [
+            false
+          ],
+          "frameLerp": false,
+          "len": 120,
+          "cutf": 119
+        }
+      },
+      "markers": {
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4
+        }
+      },
+      "layers": [
+        "x1",
+        "x2",
+        "x3",
+        "x5",
+        "x10"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "gui0109_2017.aep",
+  "version": 1
+}

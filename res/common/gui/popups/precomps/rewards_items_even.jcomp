@@ -1,0 +1,65 @@
+{
+  "name": "rewards_items_even",
+  "children": [
+    {
+      "name": "rewards_item_2",
+      "translation": [
+        960,
+        540,
+        0
+      ],
+      "anchor": [
+        960,
+        540,
+        0
+      ],
+      "compositionRef": "rewards_item",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 4,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 4,
+          "timeremap": 0,
+          "timeRemapEnabled": false,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "rewards_item_2.enabled": {
+          "duration": 4.20833333333333,
+          "animScale": 1,
+          "values": [
+            true,
+            false
+          ],
+          "frameLerp": false,
+          "len": 101,
+          "cutf": 95
+        }
+      },
+      "markers": {
+        "show": {
+          "start": 0,
+          "duration": 1.25
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 4.20833333333333
+        }
+      },
+      "layers": [
+        "rewards_item_2"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "GUI_Task_complete_Reward_NEW.aep",
+  "version": 1
+}

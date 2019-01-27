@@ -1,0 +1,61 @@
+{
+  "name": "narr",
+  "translation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "alpha": 1.0,
+  "layer": 0,
+  "affectsChildren": true,
+  "enabled": true,
+  "components": [
+    {
+      "frames": [
+        {
+          "right": true,
+          "bottom": true,
+          "needZoom": false,
+          "withoutAction": true,
+          "showDelay": 0.0,
+          "text": "TS_BOOSTER_INDICATORS_1",
+          "secondText": null,
+          "characterBody": 1,
+          "characterHead": 6,
+          "targetName": "expPanel",
+          "arrowType": 3
+        },
+        {
+          "right": true,
+          "bottom": true,
+          "needZoom": false,
+          "withoutAction": true,
+          "showDelay": 0.5,
+          "text": "TS_BOOSTER_INDICATORS_2",
+          "secondText": null,
+          "characterBody": 5,
+          "characterHead": 3,
+          "targetName": "BoostMultiplierNode",
+          "arrowType": 4
+        }
+      ],
+      "_c": "Narrative"
+    }
+  ]
+}

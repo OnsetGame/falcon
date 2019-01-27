@@ -1,0 +1,62 @@
+{
+  "name": "witch_old_idle",
+  "children": [
+    {
+      "name": "witch_old",
+      "translation": [
+        0,
+        1290,
+        0
+      ],
+      "anchor": [
+        0,
+        1290,
+        0
+      ],
+      "compositionRef": "witch_old",
+      "affectsChildren": false,
+      "components": [
+        {
+          "inPoint": 0,
+          "outPoint": 8,
+          "scale": 1,
+          "startTime": 0,
+          "duration": 8,
+          "_c": "AELayer"
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "buffers": {
+        "witch_old.enabled": {
+          "duration": 8,
+          "animScale": 1,
+          "values": [
+            true
+          ],
+          "frameLerp": false,
+          "len": 240,
+          "cutf": 239
+        }
+      },
+      "markers": {
+        "idle": {
+          "start": 0,
+          "duration": 8
+        },
+        "aeAllCompositionAnimation": {
+          "start": 0,
+          "duration": 8
+        }
+      },
+      "layers": [
+        "witch_old"
+      ],
+      "_c": "AEComposition"
+    }
+  ],
+  "aep_name": "Witch_slot_old_opt_dev.aep",
+  "version": 1
+}
